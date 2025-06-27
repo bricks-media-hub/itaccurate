@@ -1,0 +1,305 @@
+{
+    "coursesMenu": [
+        {
+            "title": "SAP",
+            "description": "Enterprise solutions",
+            "icon": "📊",
+            "link": "/best-sap-training",
+            "subMenu": [
+                {
+                    "title": "SAP",
+                    "link": "/best-sap-training"
+                },
+                {
+                    "title": "SAP MM",
+                    "link": "/sap-mm"
+                },
+                {
+                    "title": "SAP FICO",
+                    "link": "/sap-fico"
+                },
+                {
+                    "title": "SAP SD",
+                    "link": "/sap-sd"
+                },
+                {
+                    "title": "SAP HCM",
+                    "link": "/sap-hcm"
+                },
+                {
+                    "title": "SAP ABAP",
+                    "link": "/sap-abap"
+                },
+                {
+                    "title": "SAP BASIS",
+                    "link": "/sap-basis-training-in-nagpur"
+                },
+                {
+                    "title": "SAP SCM",
+                    "link": "/sap-scm"
+                },
+                {
+                    "title": "SAP ARIBA",
+                    "link": "/sap-ariba"
+                },
+                {
+                    "title": "SAP PP",
+                    "link": "/sap-pp"
+                },
+                {
+                    "title": "SAP PM",
+                    "link": "/sap-pm"
+                },
+                {
+                    "title": "SAP QM",
+                    "link": "/sap-qm"
+                },
+                {
+                    "title": "SAP LE&SL",
+                    "link": "/sap-le-sl"
+                },
+                {
+                    "title": "SAP WM&EWM",
+                    "link": "/sap-wm-ewm"
+                },
+                {
+                    "title": "SAP FIORI",
+                    "link": "/sap-fiori"
+                },
+                {
+                    "title": "SAP BTP",
+                    "link": "/sap-btp-training"
+                }
+            ],
+            "position": "left"
+        },
+        {
+            "title": "Data Analytics",
+            "description": "Analyze Data",
+            "icon": "📈",
+            "link": "/best-data-analytics-training"
+        },
+        {
+            "title": "DevOps",
+            "description": "Accelerate Delivery",
+            "icon": "⚙️",
+            "link": "/"
+        },
+        {
+            "title": "Full Stack Development",
+            "description": "End-to-End",
+            "icon": "💻"
+        },
+        {
+            "title": "Data Science AI & ML",
+            "description": "Intelligent Decisions",
+            "icon": "🧠",
+            "subMenu": [
+                {
+                    "title": "Data Science",
+                    "link": "/best-data-science-training"
+                },
+                {
+                    "title": "Machine Learning",
+                    "link": "/best-machine-learning-training"
+                },
+                {
+                    "title": "AI & ML",
+                    "link": "/best-ai-ml-training"
+                }
+            ],
+            "position": "left"
+        },
+        {
+            "title": "AWS",
+            "description": "Cloud Power",
+            "icon": "☁️"
+        },
+        {
+            "title": "Data Engineering",
+            "description": "Manipulate Data",
+            "icon": "🔧"
+        },
+        {
+            "title": "Salesforce",
+            "description": "CRM Solutions",
+            "icon": "📱",
+            "subMenu": [
+                {
+                    "title": "Salesforce",
+                    "link": "/salesforce-training"
+                },
+                {
+                    "title": "Salesforce Admin",
+                    "link": "/salesforce-admin"
+                },
+                {
+                    "title": "Salesforce Development",
+                    "link": "/salesforce-development-2"
+                },
+                {
+                    "title": "Salesforce LWC & Integration",
+                    "link": "/salesforce-lwc-integration"
+                },
+                {
+                    "title": "Salesforce Marketing Cloud",
+                    "link": "/salesforce-marketing-cloud"
+                }
+            ],
+            "position": "right"
+        },
+        {
+            "title": "Business Analytics",
+            "description": "Data Insights",
+            "icon": "📊",
+            "subMenu": [
+                {
+                    "title": "Business Analytics",
+                    "link": "/best-business-analytics-training"
+                },
+                {
+                    "title": "HR Business Analytics",
+                    "link": "/ba-hr"
+                }
+            ],
+            "position": "left"
+        },
+        {
+            "title": "HR TRAINING",
+            "description": "HR Management Solutions",
+            "icon": "👥",
+            "subMenu": [
+                {
+                    "title": "SAP HCM",
+                    "link": "/sap-hr"
+                },
+                {
+                    "title": "HR Analytics",
+                    "link": "/da-hr"
+                },
+                {
+                    "title": "SAP SuccessFactors",
+                    "link": "/sap-successfactors"
+                },
+                {
+                    "title": "HR Business Analytics",
+                    "link": "/ba-hr"
+                }
+            ],
+            "position": "right"
+        },
+        {
+            "title": "Python",
+            "description": "Future Coding",
+            "icon": "🐍"
+        },
+        {
+            "title": "ServiceNow Training",
+            "description": "IT Service Management",
+            "icon": "🛠️"
+        },
+        {
+            "title": "Share Market",
+            "description": "Learn Trading",
+            "icon": "📉"
+        }
+    ],
+    "courses": [
+        {
+            "title": "SAP",
+            "description": "Start Learning SAP, And Land Your First Dream Job.",
+            "cta": "Enquire Now",
+            "bgImage": "https://www.nagarro.com/hubfs/SAP%20Services/sap-s4hana-blog.jpg",
+            "color": "from-blue-500 to-blue-700",
+            "link": "/best-sap-training"
+        },
+        {
+            "title": "SALESFORCE",
+            "description": "Master Salesforce by completing Our Training Career Advancement Program.",
+            "bgImage": "./courseImages/salesforce.png",
+            "cta": "Enquire Now",
+            "color": "from-purple-500 to-purple-700",
+            "link": "/salesforce-training"
+        },
+        {
+            "title": "DATA ANALYTICS",
+            "description": "Accelerate Your Career with Data Analytics Training and Certification program.",
+            "bgImage": "./courseImages/data-analysis.png",
+            "cta": "Enquire Now",
+            "color": "from-cyan-500 to-cyan-700",
+            "link": "/best-data-analytics-training"
+        },
+        {
+            "title": "DATA SCIENCE",
+            "description": "Become a Certified Data Scientist with Our Training courses.",
+            "bgImage": "./courseImages/data-science.jpg",
+            "cta": "Enquire Now",
+            "color": "from-green-500 to-green-700",
+            "link": "/best-data-science-training"
+        },
+        {
+            "title": "FULL STACK DEVELOPER",
+            "description": "Unlock limitless opportunities with Full Stack Development mastery.",
+            "bgImage": "https://images.unsplash.com/photo-1599837565318-67429bde7162?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cta": "Enquire Now",
+            "color": "from-red-500 to-red-700",
+            "link": "/full-stack-developer"
+        },
+        {
+            "title": "DEVOPS",
+            "description": "Master DevOps with AWS and Linux Training: Unlock Your Full Potential.",
+            "bgImage": "./courseImages/devops.jpg",
+            "cta": "Enquire Now",
+            "color": "from-yellow-500 to-yellow-700",
+            "link": "/best-devops-training"
+        },
+        {
+            "title": "ML",
+            "description": "Transform Your Future: Attain ML Certification through Our Training Courses.",
+            "bgImage": "./courseImages/ml.jpg",
+            "cta": "Enquire Now",
+            "color": "from-pink-500 to-pink-700",
+            "link": "/best-machine-learning-training"
+        },
+        {
+            "title": "AWS",
+            "description": "Empower Your Expertise: AWS with Our Comprehensive Training Courses.",
+            "bgImage": "./courseImages/aws.webp",
+            "cta": "Enquire Now",
+            "color": "from-orange-500 to-orange-700",
+            "link": "/best-aws-training"
+        },
+        {
+            "title": "PYTHON",
+            "description": "Empower Your Future with Python Training Excellence.",
+            "bgImage": "./courseImages/python.jpg",
+            "cta": "Enquire Now",
+            "color": "from-teal-500 to-teal-700",
+            "link": "/python"
+        },
+        {
+            "title": "BUSINESS ANALYTICS",
+            "cta": "Enquire Now",
+            "color": "from-lime-500 to-lime-700",
+            "description": "Unlock the Power of Data with Business Analytics Training courses.",
+            "bgImage": "./courseImages/business-analytics.jpg",
+            "link": "/best-business-analytics-training"
+        },
+        {
+            "title": "AI & ML",
+            "cta": "Enquire Now",
+            "color": "from-emerald-500 to-emerald-700",
+            "description": "Empower Your Future: Become a Certified AI and ML Expert with Our Training Courses.",
+            "bgImage": "./courseImages/aiml.jpg",
+            "link": "/best-ai-ml-training"
+        },
+        {
+            "title": "SHARE MARKET",
+            "cta": "Enquire Now",
+            "color": "from-fuchsia-500 to-fuchsia-700",
+            "description": "Unlock the potential of your investments with expert market insights.",
+            "bgImage": "./courseImages/share-market.jpg",
+            "link": "/sharemarket"
+        }
+    ]
+}

@@ -150,6 +150,7 @@ import { fetchPlacedStudents } from './store/placedStudentsSlice';
 import { fetchCoursesData } from './store/coursesDataSlice';
 import { fetchComponentData } from './api/fetchComponentData';
 import Placements from './pages/Placements';
+import NotFoundPage from './components/ui/NotFoundPage';
 
 export const dynamicCourseRoutes = [
   // 'about-us',
@@ -231,6 +232,10 @@ const router = createBrowserRouter([
       }
     ],
   },
+  {
+    path: '*',
+    element: <NotFoundPage />
+  }
 ]);
 
 function App() {

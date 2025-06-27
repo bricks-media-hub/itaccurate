@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiArrowRight, FiCheck, FiUser, FiPhone, FiBookOpen, FiMail } from 'react-icons/fi';
+import { FiArrowRight, FiCheck, FiUser, FiPhone, FiBookOpen, FiMail, FiMapPin } from 'react-icons/fi';
 import { FaGraduationCap } from 'react-icons/fa';
 
 export default function FreeDemoForm() {
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
-    // email: '',
     course: '',
+    location: ''
   });
   const [submitted, setSubmitted] = useState(false);
   const [hovered, setHovered] = useState(false);
@@ -29,12 +29,12 @@ export default function FreeDemoForm() {
     setSubmitted(true);
     setTimeout(() => {
       setSubmitted(false);
-      setFormData({ name: '', phone: '', course: '' });
+      setFormData({ name: '', phone: '', course: '', location: '' });
     }, 5000);
   };
 
   return (
-    <section className="w-full max-w-md mx-auto my-8 px-4">
+    <section className="w-full max-w-md mx-auto my-4 px-4">
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -113,7 +113,23 @@ export default function FreeDemoForm() {
                       placeholder="Your phone number"
                     />
                   </div>
-
+                    <div className="mb-4">
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 flex items-center">
+                        <FiMapPin className="text-blue-500 mr-2" /> Your Location
+                      </label>
+                      <div className="relative">
+                        <input
+                          type="text"
+                          id="location"
+                          name="location"
+                          value={formData.location}
+                          onChange={handleChange}
+                      className="w-full px-3 py-2 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                          required
+                          placeholder="Enter your location"
+                        />
+                      </div>
+                    </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 flex items-center">
                       <FaGraduationCap className="mr-2 text-blue-500" /> Course

@@ -19,11 +19,13 @@ import FAQSection from '../components/CourseDetails/FAQSection';
 import ContactUs from '../components/ContactUs/ContactUs';
 import CompanyMarquee from '../components/CourseDetails/CompanyMarquee';
 import CourseOpportunities from '../components/CourseDetails/CourseOpportunities';
+import Projects from '../components/CourseDetails/Projects';
+import TestimonialSlider from '../components/CourseDetails/TestimonialSlider';
 
 function AboutCourse() {
   const courseDetail = useLoaderData();
   const location = useLocation();
-  const { name, trainingSyllabus, trainingSyllabus2, faqs } = courseDetail;
+  const { name, trainingSyllabus, trainingSyllabus2, faqs, projects, reviews } = courseDetail;
 
   const [isLoading, setIsLoading] = useState(true);
 
@@ -89,10 +91,12 @@ function AboutCourse() {
             <p className="text-base sm:text-lg md:text-xl font-semibold text-gray-700 dark:text-gray-800 mb-4 sm:mb-5">
               {courseDetail.detail.paragraph1}
             </p>
-            <p
-              className="text-base sm:text-lg md:text-xl font-semibold text-gray-700 dark:text-gray-800 mb-5 sm:mb-6"
-              dangerouslySetInnerHTML={{ __html: courseDetail.detail.paragraph2 }}
-            />
+            {courseDetail.detail.paragraph2 ? (
+              <p
+                className="text-base sm:text-lg md:text-xl font-semibold text-gray-700 dark:text-gray-800 mb-5 sm:mb-6"
+                dangerouslySetInnerHTML={{ __html: courseDetail.detail.paragraph2 }}
+              />
+            ) : ''}
 
             {Array.isArray(courseDetail.detail.extras) && courseDetail.detail.extras.length > 0 && (
               <div className="pt-2 space-y-3">
@@ -127,26 +131,48 @@ function AboutCourse() {
       </section>
 
       <TopicsSection courseDetail={courseDetail} />
+
       <WhatIs />
+
       <KeyFeatures />
+
       <UpcomingBatches />
+
       <DemoBanner />
 
       {courseDetail.roadMap && <RoadMap />}
+
       {courseDetail.roadMap && <TrainingSyllabus syllabus={trainingSyllabus} />}
+
       {location.pathname.slice(1) === "sap-mm" && <TrainingSyllabus syllabus={trainingSyllabus2} />}
+
       <JobPreparation />
-      <CertificationSection certificateImg={null} courseName={name} />
-      <Modules />
+
+      <CertificationSection certificateImg={null} courseName={name} /> 
+
+      {/* Show on evrey page which is not related sap */}
+      {!location.pathname.includes('sap') && <Projects projects={projects}/>}
+
+      {/* Only show modules if there any sap related pages */}
+      {location.pathname.includes('sap') && <Modules />}
+
       <div className='-mt-16'>
         <PlacedStudents className={`text-2xl sm:text-3xl md:text-4xl font-bold text-slate-800 dark:text-white`} />
       </div>
+
       <FAQSection faqs={faqs} />
+
       <div className='py-11 bg-gray-100 dark:bg-slate-900'>
         <img className="md:w-[70vw] m-auto w-10vw" src="./addons1.png" alt="addon" />
       </div>
+
       <CourseOpportunities pageName={name} />
+
+      {/* Show on evrey page which is not related sap */}
+      {!location.pathname.includes('sap') && <TestimonialSlider reviews={reviews}/>}
+
       <CompanyMarquee />
+
       <ContactUs />
     </div>
   );

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import GoogleMap from "../../lib/GoogleMap";
 import config from "../../lib/config";
+import { FiMapPin } from "react-icons/fi";
 
 const ContactUs = ({ initialLocation = "nagpur" }) => {
   const [selectedLocation, setSelectedLocation] = useState("nagpur");
@@ -45,6 +46,7 @@ const ContactUs = ({ initialLocation = "nagpur" }) => {
     } else if (!/^\d{10}$/.test(formData.phone)) {
       errors.phone = "Phone must be 10 digits";
     }
+    if (!formData.location) errors.location = "Please select a location";
     if (!formData.course) errors.course = "Please select a course";
     return errors;
   };
@@ -91,7 +93,7 @@ const ContactUs = ({ initialLocation = "nagpur" }) => {
         setSuccessMessage(dbResult.success
           ? "Form submitted successfully!"
           : "Form submitted, but database save failed");
-        setFormData({ name: "", phone: "", course: "" });
+        setFormData({ name: "", phone: "", course: "", location: "" });
       } else {
         setErrorMessage("Submission failed. Please try again.");
       }
@@ -192,7 +194,23 @@ const ContactUs = ({ initialLocation = "nagpur" }) => {
                   />
                   {errors.phone && <p className="text-sm text-red-500">{errors.phone}</p>}
                 </div>
-
+                    <div className="mb-4">
+                      <label className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium" htmlFor="location">
+                        <FiMapPin className="inline mr-2" /> Your Location
+                      </label>
+                      <div className="relative">
+                        <input
+                          type="text"
+                          id="location"
+                          name="location"
+                          value={formData.location}
+                          onChange={handleChange}
+                          className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white text-sm pr-10"
+                          required
+                          placeholder="Enter your location"
+                        />
+                      </div>
+                    </div>
                 <div className="space-y-1">
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
                     Select Course <span className="text-red-500">*</span>

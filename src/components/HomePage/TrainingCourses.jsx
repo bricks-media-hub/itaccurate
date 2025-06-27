@@ -12,6 +12,7 @@ import {
 import { Link } from 'react-router-dom';
 import FreeDemoForm from '../ContactUs/FreeDemoForm';
 import { useSelector } from 'react-redux';
+import TrainingCoursesSkeleton from '../ui/SkeletonEffects/TrainingCoursesSkeleton';
 
 const TrainingCourses = () => {
     const [showForm, setShowForm] = useState(false);
@@ -20,7 +21,7 @@ const TrainingCourses = () => {
     const error = useSelector((state) => state.courses.error);
 
     if (loading === 'loading') {
-        return <div className="text-center py-10 text-gray-400">Loading companies...</div>;
+        return <TrainingCoursesSkeleton />
     }
 
     if (error) {
@@ -101,7 +102,7 @@ const TrainingCourses = () => {
                                     </Typography>
                                 </CardBody>
 
-                                <CardFooter className="pt-0 bg-white dark:bg-gray-900 flex justify-between">
+                                <CardFooter className="pt-0 bg-white dark:bg-gray-900 flex justify-between items-end">
                                     <motion.button
                                         whileHover={{ x: 5 }}
                                         whileTap={{ scale: 0.95 }}
@@ -116,10 +117,9 @@ const TrainingCourses = () => {
                                         <motion.button
                                             whileHover={{ x: 5 }}
                                             whileTap={{ scale: 0.95 }}
-                                            className="flex items-center text-blue-600 dark:text-blue-400 font-semibold hover:text-blue-700 dark:hover:text-blue-300 transition-colors"
+                                            className="flex text-sm pb-3 text-blue-600 dark:text-blue-400 font-semibold hover:text-blue-700 dark:hover:text-blue-300 transition-colors"
                                         >
-                                            Know More
-                                            <FiArrowRight className="ml-2 transition-transform group-hover:translate-x-1" />
+                                            Know More →
                                         </motion.button>
                                     </Link>
                                 </CardFooter>

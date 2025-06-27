@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiArrowRight, FiCheck, FiUser, FiPhone, FiBookOpen } from 'react-icons/fi';
+import { FiArrowRight, FiCheck, FiUser, FiPhone, FiBookOpen, FiMapPin } from 'react-icons/fi';
 
 export default function ReachUsForm() {
     const [formData, setFormData] = useState({
         name: '',
         phone: '',
         course: '',
+        location: '',
     });
     const [submitted, setSubmitted] = useState(false);
 
@@ -157,7 +158,23 @@ export default function ReachUsForm() {
                                         placeholder="Enter your phone number"
                                     />
                                 </div>
-
+                    <div className="mb-4">
+                      <label className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium" htmlFor="location">
+                        <FiMapPin className="inline mr-2" /> Your Location
+                      </label>
+                      <div className="relative">
+                        <input
+                          type="text"
+                          id="location"
+                          name="location"
+                          value={formData.location}
+                          onChange={handleChange}
+                          className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white text-sm pr-10"
+                          required
+                          placeholder="Enter your location"
+                        />
+                      </div>
+                    </div>
                                 <div>
                                     <label className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium" htmlFor="course">
                                         <FiBookOpen className="inline mr-2" /> Select a Course

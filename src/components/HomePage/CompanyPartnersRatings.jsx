@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import CompanyPartnersRatingsSkeleton from "../ui/SkeletonEffects/CompanyPartnersRatingSkeleton";
 
 const CompanyPartnersRatings = () => {
 
@@ -7,7 +8,7 @@ const CompanyPartnersRatings = () => {
     const error = useSelector((state) => state.companies.error);
 
     if (loading === 'loading') {
-        return <div className="text-center py-10 text-gray-400">Loading companies...</div>;
+        return <CompanyPartnersRatingsSkeleton />
     }
 
     if (error) {

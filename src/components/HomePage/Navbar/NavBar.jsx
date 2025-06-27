@@ -228,6 +228,7 @@ const NavBar = () => {
                                             {item.name === 'Courses' && (
                                                 <>
                                                     {menuItems.map((course) => (
+                                                        <Link to={course.link}>
                                                         <div
                                                             key={course.title}
                                                             className="relative group"
@@ -285,6 +286,7 @@ const NavBar = () => {
                                                                 </motion.div>
                                                             )}
                                                         </div>
+                                                        </Link>
                                                     ))}
                                                 </>
                                             )}
