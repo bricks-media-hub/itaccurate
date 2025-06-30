@@ -83,12 +83,13 @@
             "title": "DevOps",
             "description": "Accelerate Delivery",
             "icon": "⚙️",
-            "link": "/"
+            "link": "/best-devops-training"
         },
         {
             "title": "Full Stack Development",
             "description": "End-to-End",
-            "icon": "💻"
+            "icon": "💻",
+            "link":"/full-stack-developer"
         },
         {
             "title": "Data Science AI & ML",
@@ -108,17 +109,20 @@
                     "link": "/best-ai-ml-training"
                 }
             ],
-            "position": "left"
+            "position": "left",
+            "link":"/best-ai-ml-training"
         },
         {
             "title": "AWS",
             "description": "Cloud Power",
-            "icon": "☁️"
+            "icon": "☁️",
+            "link":"/best-aws-training"
         },
         {
             "title": "Data Engineering",
             "description": "Manipulate Data",
-            "icon": "🔧"
+            "icon": "🔧",
+            "link":"/data-engineering"
         },
         {
             "title": "Salesforce",
@@ -146,7 +150,8 @@
                     "link": "/salesforce-marketing-cloud"
                 }
             ],
-            "position": "right"
+            "position": "right",
+            "link":"/salesforce-training"
         },
         {
             "title": "Business Analytics",
@@ -162,7 +167,8 @@
                     "link": "/ba-hr"
                 }
             ],
-            "position": "left"
+            "position": "left",
+            "link":"/best-business-analytics-training"
         },
         {
             "title": "HR TRAINING",
@@ -186,22 +192,26 @@
                     "link": "/ba-hr"
                 }
             ],
-            "position": "right"
+            "position": "right",
+            "link":"/ba-hr"
         },
         {
             "title": "Python",
             "description": "Future Coding",
-            "icon": "🐍"
+            "icon": "🐍",
+            "link":"/python"
         },
         {
             "title": "ServiceNow Training",
             "description": "IT Service Management",
-            "icon": "🛠️"
+            "icon": "🛠️",
+            "link":"/servicenow"
         },
         {
             "title": "Share Market",
             "description": "Learn Trading",
-            "icon": "📉"
+            "icon": "📉",
+            "link":"/share-market"
         }
     ],
     "courses": [

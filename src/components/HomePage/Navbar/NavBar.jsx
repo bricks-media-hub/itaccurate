@@ -161,8 +161,8 @@ const NavBar = () => {
     return (
         <header
             className={`fixed top-0 z-50 transition-all duration-300 px-2 md:px-0 ${scrolled
-                ? 'dark:bg-gray-800/90 bg-gray/80 backdrop-blur-xl md:w-[96%] md:mx-8 md:mt-3 mt-0 w-full md:rounded-xl'
-                : 'dark:bg-gray-900 bg-white shadow-md backdrop-blur-sm w-full'
+                ? 'dark:bg-gray-900 bg-white md:w-[96%] md:ml-7 md:mt-3 mt-0 w-full md:rounded-xl shadow-lg border'
+                : 'dark:bg-gray-900 bg-white shadow-md w-full'
                 }`}
         >
             <div

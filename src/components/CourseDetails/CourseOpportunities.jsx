@@ -35,8 +35,8 @@ const CourseOpportunities = ({ pageName }) => {
 
   if (!fullCourseData) {
     return (
-      <p className="text-center text-gray-600 dark:text-gray-400 py-10">
-        No data available for this page.
+      <p className="text-center text-gray-600 dark:text-gray-400">
+        
       </p>
     );
   }

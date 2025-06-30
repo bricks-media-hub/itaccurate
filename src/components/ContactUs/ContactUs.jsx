@@ -105,7 +105,7 @@ const ContactUs = ({ initialLocation = "nagpur" }) => {
   };
 
   return (
-    <div id="contact-us" className="w-full px-4 py-12 md:py-20 bg-white dark:bg-gray-900">
+    <div id="contact-us" className="w-full px-4 py-12 md:py-20 bg-white dark:bg-gray-900 z-10">
       <div className="max-w-6xl mx-auto bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden">
         {/* Main Container */}
         <div className={`relative ${isFormVisible ? "md:flex" : ""}`}>
