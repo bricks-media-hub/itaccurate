@@ -1,89 +1,125 @@
 import { motion } from 'framer-motion';
-import { FiStar } from 'react-icons/fi';
+import { FiStar, FiArrowRight } from 'react-icons/fi';
 import { useLoaderData } from 'react-router-dom';
 import * as FiIcons from 'react-icons/fi';
 import { useState } from 'react';
 import FreeDemoForm from '../ContactUs/FreeDemoForm';
-
 
 function KeyFeatures() {
   const courseDetail = useLoaderData();
   const [showForm, setShowForm] = useState(false);
 
   return (
-    <section className="py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-100 via-gray-50 to-white dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 text-gray-800 dark:text-gray-100 min-h-[600px] overflow-hidden">
-      <div className="max-w-7xl mx-auto">
-        {/* Heading with enhanced gradient and animation */}
-        <motion.h2
-          initial={{ opacity: 0, y: 30 }}
+    <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 via-white to-gray-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 text-gray-800 dark:text-gray-100 overflow-hidden relative">
+      {/* Decorative elements */}
+      <div className="absolute top-0 left-0 w-32 h-32 sm:w-40 sm:h-40 bg-purple-500/10 dark:bg-purple-700/20 rounded-full -translate-x-1/2 -translate-y-1/2 blur-xl z-0" />
+      <div className="absolute bottom-0 right-0 w-40 h-40 sm:w-48 sm:h-48 bg-blue-500/10 dark:bg-blue-700/20 rounded-full translate-x-1/3 translate-y-1/3 blur-xl z-0" />
+      
+      <div className="max-w-7xl mx-auto relative z-10">
+        {/* Enhanced heading with subtle animation */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
+          transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-10 sm:mb-12 lg:mb-16 relative"
+          className="text-center mb-12 sm:mb-16 lg:mb-20"
         >
-          <span className="relative inline-block">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
-              <span className='text-slate-800 dark:text-white'>Key Features of </span>{courseDetail.whatIs.name} Training
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
+            <span className="bg-clip-text text-black dark:text-white">
+              Key Features of <span className='text-blue-600'>{courseDetail.whatIs.name}</span>
             </span>
-          </span>
-        </motion.h2>
+          </h2>
+          <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            Comprehensive training designed to give you real-world skills
+          </p>
+        </motion.div>
 
-        {/* Responsive grid with enhanced hover effects */}
-<div className="flex flex-wrap justify-center gap-4 sm:gap-6 lg:gap-8">
-  {courseDetail.keyFeatures.map((feature, index) => {
-    const IconComponent = FiIcons[feature.icon];
+        {/* Responsive grid with improved card design */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-8">
+          {courseDetail.keyFeatures.map((feature, index) => {
+            const IconComponent = FiIcons[feature.icon];
+            const delay = index * 0.08;
 
-    return (
-      <motion.div
-        key={index}
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        whileHover={{ y: -10, scale: 1.03, boxShadow: "0 15px 30px -5px rgba(168, 85, 247, 0.3)" }}
-        transition={{ type: 'spring', stiffness: 300, damping: 20, delay: index * 0.1 }}
-        viewport={{ once: true }}
-        className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4"
-      >
-        <div className="relative overflow-hidden rounded-2xl group h-full">
-          <div className="relative bg-white/70 dark:bg-gray-900/80 backdrop-blur-sm border border-gray-200/50 dark:border-gray-700/50 rounded-2xl p-2 sm:p-4 lg:p-6 shadow-md hover:shadow-xl hover:shadow-purple-500/20 dark:hover:shadow-purple-400/10 transition-all duration-500 h-full flex flex-col items-center justify-center">
-            <div className="flex flex-col items-center justify-center gap-3 sm:gap-4 lg:gap-5 text-center">
-              {IconComponent && (
-                <motion.div
-                  whileHover={{ rotate: 10, scale: 1.1 }}
-                  transition={{ type: 'spring', stiffness: 400 }}
-                >
-                  <IconComponent className="text-purple-600 dark:text-purple-400 text-2xl sm:text-3xl lg:text-6xl p-2 sm:p-3 bg-white/70 dark:bg-gray-800/70 rounded-xl backdrop-blur-sm" />
-                </motion.div>
-              )}
-              <p className="text-base sm:text-lg lg:text-xl font-semibold text-gray-800 dark:text-gray-100 mt-2">
-                {feature.text}
-              </p>
-            </div>
-          </div>
+            return (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                whileHover={{ 
+                  y: -8,
+                  boxShadow: "0 20px 25px -5px rgba(99, 102, 241, 0.1), 0 10px 10px -5px rgba(99, 102, 241, 0.04)"
+                }}
+                transition={{ 
+                  type: 'spring', 
+                  stiffness: 300, 
+                  damping: 20, 
+                  delay 
+                }}
+                viewport={{ once: true, margin: "0px 0px -50px 0px" }}
+                className="relative group"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-700 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10" />
+                
+                <div className="h-full bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border border-gray-200/70 dark:border-gray-700/50 rounded-2xl p-6 sm:p-8 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col">
+                  <div className="flex flex-col items-center text-center flex-grow">
+                    {IconComponent && (
+                      <motion.div
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ type: 'spring', stiffness: 400 }}
+                        className="mb-4 sm:mb-6 p-3 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/30 dark:to-purple-900/30 rounded-xl"
+                      >
+                        <IconComponent className="text-blue-600 dark:text-blue-400 text-3xl sm:text-4xl" />
+                      </motion.div>
+                    )}
+                    
+                    <h3 className="text-lg sm:text-xl font-semibold text-gray-800 dark:text-gray-100 mb-3">
+                      {feature.text}
+                    </h3>
+                    
+                    <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mb-4 flex-grow">
+                      {feature.description || "Comprehensive coverage with practical examples"}
+                    </p>
+                    
+                    <div className="flex items-center text-blue-600 dark:text-blue-400 text-sm font-medium mt-auto">
+                      <span>Learn more</span>
+                      <FiArrowRight className="ml-1 transition-transform group-hover:translate-x-1" />
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            );
+          })}
         </div>
-      </motion.div>
-    );
-  })}
-</div>
 
-        {/* showing form on click of enroll button */}
+        {/* Enhanced CTA section */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.3, duration: 0.5 }}
+          viewport={{ once: true }}
+          className="mt-16 sm:mt-20 text-center"
+        >
+          <button 
+            onClick={() => setShowForm(true)}
+            className="relative px-8 sm:px-10 py-3.5 sm:py-4 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold text-lg rounded-full hover:shadow-xl hover:shadow-blue-500/30 dark:hover:shadow-blue-400/20 transition-all duration-300 inline-flex items-center justify-center group overflow-hidden"
+          >
+            <span className="absolute inset-0 bg-gradient-to-r from-blue-700 to-indigo-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <span className="relative flex items-center gap-2">
+              <FiStar className="text-xl animate-pulse" />
+              <span>Enroll Now</span>
+              <FiArrowRight className="ml-1 transition-transform group-hover:translate-x-1" />
+            </span>
+          </button>
+          
+          <p className="mt-4 text-gray-500 dark:text-gray-400 text-sm">
+            Limited seats available. Start your journey today!
+          </p>
+        </motion.div>
+
+        {/* Modal form */}
         {showForm && (
           <FreeDemoForm onClose={() => setShowForm(false)} />
         )}
-
-        {/* Call to action button with enhanced animation */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          whileHover={{ scale: 1.05 }}
-          transition={{ delay: 0.3, duration: 0.5, ease: "easeOut" }}
-          viewport={{ once: true }}
-          className="mt-10 sm:mt-12 lg:mt-16 text-center"
-        >
-          <button className="px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold text-base sm:text-lg rounded-full hover:shadow-xl hover:shadow-purple-500/40 dark:hover:shadow-purple-400/30 transition-all duration-500 flex items-center justify-center mx-auto gap-2 sm:gap-3" onClick={() => setShowForm(true)}>
-            <FiStar className="animate-pulse text-lg sm:text-xl" />
-            <span>Enroll Now</span>
-          </button>
-        </motion.div>
       </div>
     </section>
   );

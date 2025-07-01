@@ -21,7 +21,7 @@ const FAQSection = ({ faqs }) => {
         {/* FAQ Section */}
         <div className="lg:w-2/3">
           <div className="text-center lg:text-left mb-12">
-            <h1 className="text-4xl font-bold text-indigo-900 dark:text-white mb-4">Frequently Asked Questions</h1>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-indigo-900 dark:text-white mb-4">Frequently Asked Questions</h1>
             <div className="relative max-w-md mx-auto lg:mx-0">
               <input
                 type="text"

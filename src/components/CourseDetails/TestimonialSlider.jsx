@@ -112,7 +112,7 @@ const TestimonialSlider = ({ reviews }) => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300">
             <span className="bg-black bg-clip-text text-transparent dark:from-blue-400 dark:to-indigo-400">
               What Our <span className='text-blue-600'>Students</span> Say
             </span>

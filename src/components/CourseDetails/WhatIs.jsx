@@ -67,17 +67,17 @@ function WhatIs() {
           <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20 opacity-0 hover:opacity-100 transition-opacity duration-300 -z-10 blur-sm" />
 
           {/* Heading with gradient and animated underline */}
-          <h2 className="relative inline-block text-2xl sm:text-3xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 mb-6">
-            {`What is ${courseDetail.whatIs?.name}`}
-            <span className="absolute left-0 -bottom-1 w-full h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full animate-pulse" />
+          <h2 className="relative inline-block text-2xl sm:text-3xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-purple-400 mb-6">
+            {`What is ${courseDetail.whatIs?.name}?`}
+            <span className="absolute left-0 -bottom-1 w-full h-1 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full animate-pulse" />
           </h2>
 
           {/* Bullet Points */}
           <div className="space-y-4">
             {courseDetail.whatIs.points.map((point, index) => (
               <div key={index} className="flex items-start gap-3 group">
-                <div className="mt-1 w-2.5 h-2.5 bg-gradient-to-tr from-blue-500 to-purple-500 rounded-full flex-shrink-0 group-hover:scale-125 transition-transform" />
-                <p className=" sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed font-medium group-hover:text-blue-700 dark:group-hover:text-purple-300 transition-colors duration-200">
+                <div className="mt-1 w-2.5 h-2.5 bg-gradient-to-tr from-blue-500 to-indigo-500 rounded-full flex-shrink-0 group-hover:scale-125 transition-transform" />
+                <p className=" sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed font-medium group-hover:text-blue-700 dark:group-hover:text-indigo-300 transition-colors duration-200">
                   {point}
                 </p>
               </div>

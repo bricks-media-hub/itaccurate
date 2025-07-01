@@ -26,7 +26,7 @@ function AboutCourse() {
   const courseDetail = useLoaderData();
   const location = useLocation();
   const { name, trainingSyllabus, trainingSyllabus2, faqs, projects, reviews } = courseDetail;
-
+  console.log(courseDetail)
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -150,8 +150,8 @@ function AboutCourse() {
 
       <CertificationSection certificateImg={null} courseName={name} /> 
 
-      {/* Show on evrey page which is not related sap */}
-      {!location.pathname.includes('sap') && <Projects projects={projects}/>}
+      {/* Show on evrey page which is not related sap and conditionally render if projects section available */}
+      {!location.pathname.includes('sap') && courseDetail.projects && <Projects projects={projects}/>}
 
       {/* Only show modules if there any sap related pages */}
       {location.pathname.includes('sap') && <Modules />}
@@ -168,8 +168,8 @@ function AboutCourse() {
 
       <CourseOpportunities pageName={name} />
 
-      {/* Show on evrey page which is not related sap */}
-      {!location.pathname.includes('sap') && <TestimonialSlider reviews={reviews}/>}
+      {/* Show on evrey page which is not related sap and conditionally render if projects section available */}
+      {!location.pathname.includes('sap') && courseDetail.reviews && <TestimonialSlider reviews={reviews}/>}
 
       <CompanyMarquee />
 

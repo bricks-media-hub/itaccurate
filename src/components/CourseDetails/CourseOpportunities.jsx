@@ -50,7 +50,7 @@ const CourseOpportunities = ({ pageName }) => {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             Career Opportunities in{" "}
             <span className="text-blue-600 dark:text-blue-400">
               {fullCourseData.title}

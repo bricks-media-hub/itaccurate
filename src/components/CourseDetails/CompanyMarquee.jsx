@@ -66,7 +66,7 @@ const CompanyMarquee = () => {
     <section className="py-12 bg-white dark:bg-gray-900">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
-        <h2 className="text-3xl sm:text-4xl font-extrabold text-center text-slate-800 dark:text-white mb-8">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-slate-800 dark:text-white mb-8">
           Achieve Your Career Goals Like Our <span className="text-indigo-600">Successful Alumni</span>
         </h2>
 
