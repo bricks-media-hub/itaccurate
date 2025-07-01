@@ -284,7 +284,7 @@
                         "Create test classes and methods",
                         "Analyze test coverage"
                     ],
-                    "color": "from-indigo-500 to-blue-600"
+                    "color": "from-blue-500 to-indigo-600"
                 },
                 {
                     "title": "SAP Gateway & OData",

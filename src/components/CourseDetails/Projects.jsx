@@ -24,7 +24,7 @@ const PrevArrow = ({ onClick }) => (
   </button>
 );
 
-export default function Projects({ projects }) {
+export default function Projects({ projects, name }) {
   const settings = {
     dots: true,
     infinite: true,
@@ -52,7 +52,7 @@ export default function Projects({ projects }) {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            <span className="text-blue-600">Data Analytics</span> Projects
+            <span className="text-blue-600">{name}</span> Projects
           </h2>
           <p className="text-lg text-gray-600 mt-4 max-w-3xl mx-auto leading-relaxed">
             Explore our innovative data-driven solutions that enhance business intelligence and transform customer experiences.

@@ -1,7 +1,10 @@
 import { useState } from 'react';
 import FreeDemoForm from "../ContactUs/FreeDemoForm"
 
-const FAQSection = ({ faqs }) => {
+const FAQSection = ({ faqs = [] }) => {
+  console.log("Received FAQs:", faqs);
+console.log("🚨 FAQs type check:", typeof faqs, Array.isArray(faqs), faqs);
+
   const [activeIndex, setActiveIndex] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [showForm, setShowForm] = useState(false);
@@ -10,10 +13,16 @@ const FAQSection = ({ faqs }) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
-  const filteredFAQs = faqs.filter(faq =>
-    faq.question.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    faq.answer.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredFAQs = Array.isArray(faqs) 
+    ? faqs.filter(faq => {
+        const question = String(faq?.question || '');
+        const answer = String(faq?.answer || '');
+        return (
+          question.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          answer.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+      })
+    : [];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 py-12 px-4 sm:px-6 lg:px-8">
@@ -58,7 +67,9 @@ const FAQSection = ({ faqs }) => {
                   className={`w-full px-6 py-5 text-left flex justify-between items-center transition-all duration-300 ${activeIndex === index ? 'bg-indigo-50 dark:bg-gray-800' : 'hover:bg-indigo-50 dark:hover:bg-gray-800'}`}
                   onClick={() => toggleFAQ(index)}
                 >
-                  <h3 className="text-lg font-semibold text-indigo-900 dark:text-white">{faq.question}</h3>
+                  <h3 className="text-lg font-semibold text-indigo-900 dark:text-white">
+                    {faq?.question || 'No question provided'}
+                    </h3>
                   <svg
                     className={`h-6 w-6 transform transition-transform duration-300 ${activeIndex === index ? 'rotate-180 text-indigo-600 dark:text-indigo-400' : 'text-indigo-400 dark:text-gray-400'}`}
                     fill="none"
@@ -73,7 +84,9 @@ const FAQSection = ({ faqs }) => {
                   className={`px-6 overflow-hidden transition-all duration-500 ease-in-out ${activeIndex === index ? 'max-h-96 pb-6 opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="prose prose-indigo dark:prose-invert">
-                    <p className="text-gray-700 dark:text-gray-300">{faq.answer}</p>
+                    <p className="text-gray-700 dark:text-gray-300">
+                      {faq?.answer || 'No answer provided'}
+                      </p>
                   </div>
                 </div>
               </div>

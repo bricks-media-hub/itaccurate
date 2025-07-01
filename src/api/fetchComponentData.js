@@ -1,8 +1,14 @@
 // For Fetching Course data
 export const fetchComponentData = async (DynamicRoute) => {
-    const response  = await fetch("/data/courses-details.json");
+  try {
+    const response = await fetch("/data/courses-details.json");
+    if (!response.ok) throw new Error('Failed to fetch data');
     const data = await response.json();
-    return data.courseDetails[DynamicRoute];
+    return data.courseDetails[DynamicRoute] || {};
+  } catch (error) {
+    console.error('Error fetching component data:', error);
+    return {};
+  }
 }
 
 //for fetching placed student data

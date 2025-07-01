@@ -26,20 +26,12 @@ const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [darkMode, setDarkMode] = useState(false);
     const [scrolled, setScrolled] = useState(false);
-    const [activeMainMenu, setActiveMainMenu] = useState(null);
+    const [activeMenu, setActiveMenu] = useState(null);
     const [activeSubMenu, setActiveSubMenu] = useState(null);
     const [mobileActiveMenu, setMobileActiveMenu] = useState(null);
     const [mobileActiveSubMenu, setMobileActiveSubMenu] = useState(null);
-    const [isHoveringSubmenu, setIsHoveringSubmenu] = useState(false);
-    const [isHoveringDropdown, setIsHoveringDropdown] = useState(false);
-    const [hoverTimeout, setHoverTimeout] = useState(null);
     const [searchTerm, setSearchTerm] = useState('');
-
-    const handleSubMenuEnter = (courseTitle) => {
-        clearTimeout(hoverTimeout);
-        setActiveSubMenu(courseTitle);
-        setIsHoveringSubmenu(true);
-    };
+    const [hoverTimeout, setHoverTimeout] = useState(null);
 
     // Check for saved theme preference
     useEffect(() => {
@@ -64,71 +56,48 @@ const NavBar = () => {
         document.documentElement.classList.toggle('dark', newMode);
     };
 
-    useEffect(() => {
-        const handleClickOutside = (event) => {
-            if (!event.target.closest('.navbar-menu-container')) {
-                setActiveMainMenu(null);
-                setActiveSubMenu(null);
-                setIsHoveringDropdown(false);
-                setIsHoveringSubmenu(false);
-            }
-        };
-
-        document.addEventListener('mousedown', handleClickOutside);
-        return () => {
-            document.removeEventListener('mousedown', handleClickOutside);
-        };
-    }, []);
-
-    const handleMainMenuEnter = (menuName) => {
+    const handleMenuEnter = (menuName) => {
         clearTimeout(hoverTimeout);
-        // Only set active main menu if not already hovering a submenu
-        if (!isHoveringSubmenu) {
-            setActiveMainMenu(menuName);
-        }
+        setActiveMenu(menuName);
     };
 
-    const handleMainMenuLeave = () => {
-        // Start timeout when leaving main menu item
+    const handleMenuLeave = () => {
+        // Only close if not hovering over submenu
         const timeout = setTimeout(() => {
-            if (!isHoveringSubmenu && !isHoveringDropdown) {
-                setActiveMainMenu(null);
+            if (activeSubMenu === null) {
+                setActiveMenu(null);
+            }
+        }, 150);
+        setHoverTimeout(timeout);
+    };
+
+    const handleSubMenuEnter = (subMenuName) => {
+        clearTimeout(hoverTimeout);
+        setActiveSubMenu(subMenuName);
+    };
+
+    const handleSubMenuLeave = () => {
+        const timeout = setTimeout(() => {
+            setActiveSubMenu(null);
+            // Close parent menu if not hovering over it
+            if (activeMenu === null) {
                 setActiveSubMenu(null);
             }
-        }, 100);
+        }, 150);
         setHoverTimeout(timeout);
     };
 
     const handleDropdownEnter = () => {
         clearTimeout(hoverTimeout);
-        setIsHoveringDropdown(true);
     };
 
     const handleDropdownLeave = () => {
         const timeout = setTimeout(() => {
-            if (!isHoveringSubmenu) {
-                setActiveMainMenu(null);
-                setActiveSubMenu(null);
-            }
-            setIsHoveringDropdown(false);
-        }, 100);
+            setActiveMenu(null);
+            setActiveSubMenu(null);
+        }, 150);
         setHoverTimeout(timeout);
     };
-
-    const handleSubMenuLeave = () => {
-        setIsHoveringSubmenu(false);
-        // Close submenu if not hovering over parent or dropdown
-        const timeout = setTimeout(() => {
-            if (!isHoveringDropdown) {
-                setActiveSubMenu(null);
-            }
-        }, 100);
-        setHoverTimeout(timeout);
-    };
-
-    const menuItems = useSelector((state) => state.navbar.menuItems);
-    const loading = useSelector((state) => state.navbar.status);
-    const error = useSelector((state) => state.navbar.error);
 
     const placementsSubMenu = [
         "Placements",
@@ -149,6 +118,10 @@ const NavBar = () => {
         },
         { name: 'Contact', icon: <FiMail />, path: '#contact' },
     ];
+
+    const menuItems = useSelector((state) => state.navbar.menuItems);
+    const loading = useSelector((state) => state.navbar.status);
+    const error = useSelector((state) => state.navbar.error);
 
     if (loading === 'loading') {
         return <HeaderSkeleton />;
@@ -185,24 +158,23 @@ const NavBar = () => {
                         </div>
 
                         {/* Desktop Navigation */}
-                        <nav className="hidden md:flex items-center space-x-1 relative z-50 navbar-menu-container">
+                        <nav className="hidden md:flex items-center space-x-1 relative z-50">
                             {navItems.map((item) => (
                                 <div
                                     key={item.name}
                                     className="relative group"
-                                    onClick={(e) => e.stopPropagation()}
                                 >
                                     <a
                                         href={item.path}
                                         className="px-3 py-2 rounded-md text-sm font-medium dark:text-gray-300 text-gray-700 hover:dark:bg-gray-800 hover:bg-gray-100 transition-colors duration-200 flex items-center"
-                                        onMouseEnter={() => item.hasDropdown && handleMainMenuEnter(item.name)}
-                                        onMouseLeave={() => item.hasDropdown && handleMainMenuLeave()}
+                                        onMouseEnter={() => item.hasDropdown && handleMenuEnter(item.name)}
+                                        onMouseLeave={() => item.hasDropdown && handleMenuLeave()}
                                     >
                                         <span className="mr-2">{item.icon}</span>
                                         {item.name}
                                         {item.hasDropdown && (
                                             <span className="ml-1">
-                                                {activeMainMenu === item.name ? <FiChevronUp size={16} /> : <FiChevronDown size={16} />}
+                                                {activeMenu === item.name ? <FiChevronUp size={16} /> : <FiChevronDown size={16} />}
                                             </span>
                                         )}
                                     </a>
@@ -212,9 +184,9 @@ const NavBar = () => {
                                         <motion.div
                                             initial={{ opacity: 0, y: 10 }}
                                             animate={{
-                                                opacity: activeMainMenu === item.name ? 1 : 0,
-                                                y: activeMainMenu === item.name ? 0 : 10,
-                                                visibility: activeMainMenu === item.name ? 'visible' : 'hidden'
+                                                opacity: activeMenu === item.name ? 1 : 0,
+                                                y: activeMenu === item.name ? 0 : 10,
+                                                visibility: activeMenu === item.name ? 'visible' : 'hidden'
                                             }}
                                             transition={{ duration: 0.2, ease: 'easeOut' }}
                                             className={`absolute left-0 mt-1 ${item.name === 'Courses'
@@ -228,64 +200,59 @@ const NavBar = () => {
                                             {item.name === 'Courses' && (
                                                 <>
                                                     {menuItems.map((course) => (
-                                                        <Link to={course.link}>
-                                                        <div
-                                                            key={course.title}
-                                                            className="relative group"
-                                                            onMouseEnter={() => course.subMenu && handleSubMenuEnter(course.title)}
-                                                            onMouseLeave={handleSubMenuLeave}
-                                                        >
-                                                            <a
-                                                                href={`#${course.title.toLowerCase().replace(/\s+/g, '-')}`}
-                                                                className={`p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200 flex items-start ${activeSubMenu === course.title ? 'bg-gray-100 dark:bg-gray-700' : ''
-                                                                    }`}
+                                                        <Link to={course.link} key={course.title}>
+                                                            <div
+                                                                className="relative group"
+                                                                onMouseEnter={() => course.subMenu && handleSubMenuEnter(course.title)}
+                                                                onMouseLeave={handleSubMenuLeave}
                                                             >
-                                                                <span className="text-2xl mr-3 text-purple-600 dark:text-purple-400">{course.icon}</span>
-                                                                <div className="flex-1">
-                                                                    <h3 className="font-medium dark:text-white text-gray-800">{course.title}</h3>
-                                                                    <p className="text-sm text-gray-500 dark:text-gray-400">{course.description}</p>
-                                                                </div>
-                                                                {course.subMenu && (
-                                                                    <FiArrowRight className="ml-2 text-gray-400 self-center" />
-                                                                )}
-                                                            </a>
-
-                                                            {/* Sub-menu Dropdown */}
-                                                            {course.subMenu && (
-                                                                <motion.div
-                                                                    initial={{ opacity: 0, x: course.position === 'left' ? 10 : -10 }}
-                                                                    animate={{
-                                                                        opacity: activeSubMenu === course.title ? 1 : 0,
-                                                                        x: activeSubMenu === course.title ? 0 : (course.position === 'left' ? 10 : -10),
-                                                                        visibility: activeSubMenu === course.title ? 'visible' : 'hidden'
-                                                                    }}
-                                                                    transition={{ duration: 0.2, ease: 'easeOut' }}
-                                                                    className={`absolute ${course.position === 'left' ? 'right-full mr-2' : 'left-full ml-2'
-                                                                        } top-0 w-56 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-3 z-50 border border-gray-200/50 dark:border-gray-700/50 max-h-96 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100 dark:scrollbar-thumb-gray-600 dark:scrollbar-track-gray-800`}
-                                                                    onMouseEnter={() => {
-                                                                        setIsHoveringSubmenu(true);
-                                                                        setActiveSubMenu(course.title);
-                                                                    }}
-                                                                    onMouseLeave={handleSubMenuLeave}
+                                                                <div
+                                                                    className={`p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200 flex items-start ${activeSubMenu === course.title ? 'bg-gray-100 dark:bg-gray-700' : ''
+                                                                        }`}
                                                                 >
-                                                                    <h4 className="font-semibold text-gray-800 dark:text-white mb-2 px-2">
-                                                                        {course.title} Courses
-                                                                    </h4>
-                                                                    <ul className="space-y-1">
-                                                                        {course.subMenu.map((subItem) => (
-                                                                            <li key={subItem.title}>
-                                                                                <Link
-                                                                                    to={subItem.link}
-                                                                                    className="block px-3 py-2 rounded-md text-sm dark:text-gray-300 text-gray-700 hover:dark:bg-gray-700 hover:bg-gray-100 transition-colors duration-200"
-                                                                                >
-                                                                                    {subItem.title}
-                                                                                </Link>
-                                                                            </li>
-                                                                        ))}
-                                                                    </ul>
-                                                                </motion.div>
-                                                            )}
-                                                        </div>
+                                                                    <span className="text-2xl mr-3 text-purple-600 dark:text-purple-400">{course.icon}</span>
+                                                                    <div className="flex-1">
+                                                                        <h3 className="font-medium dark:text-white text-gray-800">{course.title}</h3>
+                                                                        <p className="text-sm text-gray-500 dark:text-gray-400">{course.description}</p>
+                                                                    </div>
+                                                                    {course.subMenu && (
+                                                                        <FiArrowRight className="ml-2 text-gray-400 self-center" />
+                                                                    )}
+                                                                </div>
+
+                                                                {/* Sub-menu Dropdown */}
+                                                                {course.subMenu && (
+                                                                    <motion.div
+                                                                        initial={{ opacity: 0, x: course.position === 'left' ? 10 : -10 }}
+                                                                        animate={{
+                                                                            opacity: activeSubMenu === course.title ? 1 : 0,
+                                                                            x: activeSubMenu === course.title ? 0 : (course.position === 'left' ? 10 : -10),
+                                                                            visibility: activeSubMenu === course.title ? 'visible' : 'hidden'
+                                                                        }}
+                                                                        transition={{ duration: 0.2, ease: 'easeOut' }}
+                                                                        className={`absolute ${course.position === 'left' ? 'right-full mr-2' : 'left-full ml-2'
+                                                                            } top-0 w-56 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-3 z-50 border border-gray-200/50 dark:border-gray-700/50 max-h-96 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100 dark:scrollbar-thumb-gray-600 dark:scrollbar-track-gray-800`}
+                                                                        onMouseEnter={() => handleSubMenuEnter(course.title)}
+                                                                        onMouseLeave={handleSubMenuLeave}
+                                                                    >
+                                                                        <h4 className="font-semibold text-gray-800 dark:text-white mb-2 px-2">
+                                                                            {course.title} Courses
+                                                                        </h4>
+                                                                        <ul className="space-y-1">
+                                                                            {course.subMenu.map((subItem) => (
+                                                                                <li key={subItem.title}>
+                                                                                    <Link
+                                                                                        to={subItem.link}
+                                                                                        className="block px-3 py-2 rounded-md text-sm dark:text-gray-300 text-gray-700 hover:dark:bg-gray-700 hover:bg-gray-100 transition-colors duration-200"
+                                                                                    >
+                                                                                        {subItem.title}
+                                                                                    </Link>
+                                                                                </li>
+                                                                            ))}
+                                                                        </ul>
+                                                                    </motion.div>
+                                                                )}
+                                                            </div>
                                                         </Link>
                                                     ))}
                                                 </>
@@ -327,10 +294,7 @@ const NavBar = () => {
 
                             {/* Dark/Light Mode Toggle */}
                             <button
-                                onClick={(e) => {
-                                    e.stopPropagation();
-                                    toggleDarkMode();
-                                }}
+                                onClick={toggleDarkMode}
                                 className="ml-4 p-2 rounded-full dark:text-yellow-300 text-gray-700 hover:dark:bg-gray-800 hover:bg-gray-100 transition-colors duration-200"
                                 aria-label="Toggle dark mode"
                             >
@@ -369,7 +333,7 @@ const NavBar = () => {
                         </div>
                     </div>
 
-                    {/* Mobile Navigation - Now using the separate component */}
+                    {/* Mobile Navigation */}
                     <MobileNavBar
                         isOpen={isOpen}
                         setIsOpen={setIsOpen}

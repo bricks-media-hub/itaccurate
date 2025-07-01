@@ -25,8 +25,16 @@ import TestimonialSlider from '../components/CourseDetails/TestimonialSlider';
 function AboutCourse() {
   const courseDetail = useLoaderData();
   const location = useLocation();
-  const { name, trainingSyllabus, trainingSyllabus2, faqs, projects, reviews } = courseDetail;
-  console.log(courseDetail)
+  // Safely destructure with fallbacks
+  const { 
+    name = '', 
+    trainingSyllabus = [], 
+    trainingSyllabus2 = [], 
+    faqs = [], 
+    projects = [], 
+    reviews = [],
+  } = courseDetail
+  // console.log(courseDetail)
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -148,10 +156,10 @@ function AboutCourse() {
 
       <JobPreparation />
 
-      <CertificationSection certificateImg={null} courseName={name} /> 
+      <CertificationSection certificateImg={null} courseName={name} />
 
       {/* Show on evrey page which is not related sap and conditionally render if projects section available */}
-      {!location.pathname.includes('sap') && courseDetail.projects && <Projects projects={projects}/>}
+      {!location.pathname.includes('sap') && courseDetail.projects && <Projects projects={projects} name={name} />}
 
       {/* Only show modules if there any sap related pages */}
       {location.pathname.includes('sap') && <Modules />}
@@ -160,7 +168,15 @@ function AboutCourse() {
         <PlacedStudents className={`text-2xl sm:text-3xl md:text-4xl font-bold text-slate-800 dark:text-white`} />
       </div>
 
-      <FAQSection faqs={faqs} />
+      <FAQSection
+  faqs={
+    Array.isArray(faqs)
+      ? faqs
+      : faqs && typeof faqs === "object"
+      ? [faqs]
+      : []
+  }
+/>
 
       <div className='py-11 bg-gray-100 dark:bg-slate-900'>
         <img className="md:w-[70vw] m-auto w-10vw" src="./addons1.png" alt="addon" />
@@ -169,7 +185,7 @@ function AboutCourse() {
       <CourseOpportunities pageName={name} />
 
       {/* Show on evrey page which is not related sap and conditionally render if projects section available */}
-      {!location.pathname.includes('sap') && courseDetail.reviews && <TestimonialSlider reviews={reviews}/>}
+      {!location.pathname.includes('sap') && courseDetail.reviews && <TestimonialSlider reviews={reviews} />}
 
       <CompanyMarquee />
 

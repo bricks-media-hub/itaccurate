@@ -83,23 +83,6 @@ const TestimonialSlider = ({ reviews }) => {
     ],
   };
 
-  // Animation variants
-  // const cardVariants = {
-  //   offscreen: {
-  //     y: 50,
-  //     opacity: 1,
-  //   },
-  //   onscreen: {
-  //     y: 0,
-  //     opacity: 1,
-  //     transition: {
-  //       type: "spring",
-  //       bounce: 0.4,
-  //       duration: 0.8
-  //     }
-  //   }
-  // };
-
   return (
     <section className="bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-900 dark:to-gray-800 py-20 px-4 sm:px-6 lg:px-8 relative transition-colors duration-300">
 
@@ -112,7 +95,7 @@ const TestimonialSlider = ({ reviews }) => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300">
+          <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300">
             <span className="bg-black bg-clip-text text-transparent dark:from-blue-400 dark:to-indigo-400">
               What Our <span className='text-blue-600'>Students</span> Say
             </span>
@@ -123,9 +106,17 @@ const TestimonialSlider = ({ reviews }) => {
         </motion.div>
 
         {/* main cards and content part */}
-        <div className="relative">
+        <div className="">
           <Slider {...settings}>
             {reviews.map((item, index) => (
+              <div className='flex flex-col -mt-16'>
+                <div className='h-32 w-32 rounded-full relative top-16 left-40 z-50 border-2'>
+                  <img 
+                  src={item.image} 
+                  alt={item.role} 
+                  className='rounded-full object-contain p-1'
+                  />
+                </div>
               <div key={index} className="px-3">
                 <motion.div
                   className="bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-2xl px-6 pt-16 pb-8 text-center shadow-lg h-full min-w-[400px] flex flex-col transition-all duration-300 hover:shadow-xl relative overflow-visible cursor-pointer " // Added overflow-visible
@@ -136,32 +127,7 @@ const TestimonialSlider = ({ reviews }) => {
                   initial="offscreen"
                   whileInView="onscreen"
                   viewport={{ once: true, amount: 0.2 }}
-                // variants={cardVariants}
                 >
-                  {/* Perfectly circular image with proper display */}
-                  <div className="absolute left-1/2 -top-3 -translate-x-1/2 z-[60]">
-                    <motion.div
-                      whileHover={{ scale: 1.05 }}
-                      className="w-24 h-24 rounded-full border-4 border-white dark:border-gray-800 shadow-lg overflow-visible transition-all duration-300"
-                    >
-                      <div className="absolute w-full h-full">
-                        <div className="absolute inset-0 rounded-full p-1 bg-gradient-to-r from-blue-500 to-indigo-600">
-                          <img
-                            src={item.image}
-                            alt={item.name}
-                            className="w-full h-full rounded-full object-cover border-2 border-white dark:border-gray-800"
-                            style={{
-                              objectPosition: 'center',
-                              width: 'calc(100% - 4px)',
-                              height: 'calc(100% - 4px)',
-                              margin: '2px'
-                            }}
-                          />
-                        </div>
-                      </div>
-                    </motion.div>
-                  </div>
-
                   <div className="flex flex-col p-4">
                     {/* Rating Stars */}
 
@@ -200,6 +166,7 @@ const TestimonialSlider = ({ reviews }) => {
                     "
                   </div> */}
                 </motion.div>
+              </div>
               </div>
             ))}
           </Slider>
