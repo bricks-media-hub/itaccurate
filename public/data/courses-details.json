@@ -13576,38 +13576,12 @@
             "whatIs": {
                 "name": "Salesforce Development ",
                 "points": [
-                    {
-                        "question": "Salesforce administration?",
-                        "answer": "Salesforce administration involves configuring and customizing the Salesforce platform to meet the specific needs of an organization. Admins manage users, security settings, data, and automation to ensure Salesforce operates efficiently and effectively."
-                    },
-                    {
-                        "question": "What are the roles and responsibilities of a Salesforce admin?",
-                        "answer": "A Salesforce admin is responsible for user management, security settings, data maintenance, customization of Salesforce objects, workflows, reports, and dashboards. They also handle troubleshooting, training users, and staying updated with Salesforce releases and features."
-                    },
-                    {
-                        "question": "How can I become a Salesforce admin??",
-                        "answer": "To become a Salesforce admin, you can start by learning Salesforce fundamentals through online courses, official Salesforce documentation, and hands-on practice in a Salesforce environment. Pursuing Salesforce admin certifications, such as Salesforce Certified Administrator, can also enhance your credentials."
-                    },
-                    {
-                        "question": "What are some common challenges faced by Salesforce admins??",
-                        "answer": "Common challenges for Salesforce admins include data quality issues, managing complex automation, user adoption, integrating with external systems, and staying updated with new Salesforce features and best practices."
-                    },
-                    {
-                        "question": "How can I improve data management as a Salesforce admin??",
-                        "answer": "To improve data management, Salesforce admins can implement data validation rules, clean up duplicate records, establish data governance policies, regularly audit data quality, and use data loader tools for import/export tasks."
-                    },
-                    {
-                        "question": "What are best practices for security in Salesforce administration?",
-                        "answer": "Best practices for security include assigning proper user roles and profiles, setting up permission sets, implementing field-level security, enabling two-factor authentication, monitoring login activity, and regularly reviewing and updating security settings."
-                    },
-                    {
-                        "question": "How can I optimize performance in Salesforce as an admin?",
-                        "answer": "Admins can optimize performance by optimizing page layouts, reducing the number of custom fields and workflows, using indexed fields for data queries, enabling caching, minimizing use of formula fields, and regularly monitoring system performance metrics."
-                    },
-                    {
-                        "question": "What resources are available for ongoing learning and support for Salesforce admins?",
-                        "answer": "Salesforce Trailhead offers interactive learning modules and trails for Salesforce admins. Additionally, Salesforce community forums, webinars, user groups, and official Salesforce documentation provide valuable resources for ongoing learning and support."
-                    }
+                    "Salesforce Development involves customizing Salesforce Development for unique business needs.",
+                    "It includes coding in languages like Apex and integrating with external systems.",
+                    "Developers can publish apps on Salesforce Development’s AppExchange marketplace.",
+                    "IT background, non IT background, Freshers, Experience can start their career in salesfore Development irrrespective of their background.",
+                    "Start by understanding the basics of platform, get training with it accurate and Join user group, Communities, and placement oriented training of Salesforce Development Development will give you hand experience.",
+                    "Becoming a Salesforce Development Development pro is achievable through unwavering hard work, dedication, and commitment."
                 ]
             },
             "keyFeatures": [

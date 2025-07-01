@@ -32,7 +32,7 @@ const PlacedStudents = ({ className }) => {
   }
 
   return (
-    <div className="px-4 py-16 text-center mt-16 bg-gray-100 dark:bg-gray-800">
+    <div className="px-4 py-16 text-center mt-16 bg-gray-100 dark:bg-gray-800" >
       <h2 className={`${className} || text-3xl md:text-4xl font-bold mb-8 text-gray-800 dark:text-white`}>
         Students Who <span className="text-blue-600 dark:text-blue-400">Cracked</span> Their Dream Jobs
         <br />
@@ -40,7 +40,7 @@ const PlacedStudents = ({ className }) => {
       </h2>
 
       {/* First Marquee */}
-      <div className="my-8 overflow-hidden h-64">
+      <div className="my-8 overflow-hidden h-64" style={{ msOverflowStyle: 'none', scrollbarWidth: 'none' }}>
         <Marquee className="my-4" speed={30} gradient={false}>
           {placedStudents1.map((student, index) => (
             <div
@@ -76,7 +76,7 @@ const PlacedStudents = ({ className }) => {
       </div>
 
       {/* Second Marquee */}
-      <div className="my-8 overflow-hidden h-64">
+      <div className="my-8 overflow-hidden h-64" style={{ msOverflowStyle: 'none', scrollbarWidth: 'none' }}>
         <Marquee className="my-4" speed={70} direction="right" gradient={false}>
           {placedStudents2.map((student, index) => (
             <div

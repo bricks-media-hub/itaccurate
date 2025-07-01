@@ -4,6 +4,7 @@ import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { motion } from 'framer-motion';
+import { RiDoubleQuotesL, RiDoubleQuotesR } from 'react-icons/ri';
 
 const PrevArrow = ({ onClick }) => (
   <motion.button
@@ -28,39 +29,6 @@ const NextArrow = ({ onClick }) => (
     <FiChevronRight className="text-blue-700 dark:text-blue-400 text-xl" />
   </motion.button>
 );
-
-// const testimonials = [
-//   {
-//     name: 'HARSHIT MANKAR',
-//     review: 'I enrolled in the Data Analytics course at Sapalogy Institute, Nagpur, and it was a game-changer for me. The instructors were knowledgeable, the curriculum was comprehensive, and the hands-on projects really enhanced my skills. I highly recommend it to anyone looking to delve into the world of data analytics.',
-//     image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80',
-//     role: 'Data Analyst'
-//   },
-//   {
-//     name: 'AARYA YADAV',
-//     review: 'The Data Analytics course at Sapalogy Institute was a fantastic experience. The instructors were patient and always willing to help. The real-world applications and case studies made the concepts easy to grasp. I feel well-prepared to apply my skills in the professional arena.',
-//     image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80',
-//     role: 'Business Intelligence Developer'
-//   },
-//   {
-//     name: 'AADVIK JAIN',
-//     review: 'Sapalogy Institute\'s Data Analytics course was worth every penny. The curriculum was up-to-date with industry standards, and the practical approach to learning made it enjoyable. The institute\'s support system is commendable, and I now feel confident in my ability to handle complex data analytics tasks.',
-//     image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80',
-//     role: 'Data Scientist'
-//   },
-//   {
-//     name: 'PRIYA SHARMA',
-//     review: 'The course structure was perfect for beginners and intermediates alike. The mentors provided excellent guidance throughout the program, and the projects were challenging yet rewarding. I landed my dream job right after completing this course!',
-//     image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80',
-//     role: 'Data Engineer'
-//   },
-//   {
-//     name: 'RAHUL VERMA',
-//     review: 'What impressed me most was the practical orientation of the course. We worked with real datasets and tools used in the industry. The career support team was also very helpful in preparing me for interviews and resume building.',
-//     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80',
-//     role: 'Analytics Consultant'
-//   }
-// ];
 
 const TestimonialSlider = ({ reviews }) => {
   const settings = {
@@ -119,7 +87,7 @@ const TestimonialSlider = ({ reviews }) => {
                 </div>
               <div key={index} className="px-3">
                 <motion.div
-                  className="bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-2xl px-6 pt-16 pb-8 text-center shadow-lg h-full min-w-[400px] flex flex-col transition-all duration-300 hover:shadow-xl relative overflow-visible cursor-pointer " // Added overflow-visible
+                  className="bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-2xl px-6 pt-16 pb-8 text-center shadow-lg h-full min-w-[400px] flex flex-col transition-all duration-300 hover:shadow-xl relative overflow-visible cursor-pointer mb-5"
                   whileHover={{
                     y: -10,
                   }}
@@ -159,40 +127,18 @@ const TestimonialSlider = ({ reviews }) => {
                   </div>
 
                   {/* Decorative quote marks */}
-                  {/* <div className="absolute -top-2 left-6 text-gray-700 dark:text-blue-900 text-5xl opacity-30">
-                    "
+                   <div className="flex justify-center items-center absolute -top-5 left-6 bg-slate-300 dark:bg-slate-500 rounded-full h-12 w-12">
+                    <RiDoubleQuotesL className='h-10 w-10 text-gray-500 dark:text-blue-900' />
                   </div>
-                  <div className="absolute bottom-10 right-6 text-gray-700 dark:text-blue-900 text-5xl opacity-30">
-                    "
-                  </div> */}
+                  <div className="flex justify-center items-center absolute -bottom-5 right-6 bg-slate-300 dark:bg-slate-500 rounded-full h-12 w-12">
+                    <RiDoubleQuotesR className='h-10 w-10 text-gray-500 dark:text-blue-900' />
+                  </div> 
                 </motion.div>
               </div>
               </div>
             ))}
           </Slider>
         </div>
-
-        {/* Trust indicators */}
-        {/* <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 0.3 }}
-          viewport={{ once: true }}
-          className="mt-16 flex flex-wrap justify-center gap-8 items-center"
-        >
-          <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">200+</div>
-            <div className="text-gray-600 dark:text-gray-300">Students Trained</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">95%</div>
-            <div className="text-gray-600 dark:text-gray-300">Placement Rate</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">4.9/5</div>
-            <div className="text-gray-600 dark:text-gray-300">Average Rating</div>
-          </div>
-        </motion.div> */}
       </div>
     </section>
   );

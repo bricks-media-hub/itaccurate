@@ -263,12 +263,11 @@ const NavBar = () => {
                                                 <ul className="space-y-1">
                                                     {item.subMenu.map((subItem) => (
                                                         <li key={subItem}>
-                                                            <a
-                                                                href={`#${subItem.toLowerCase().replace(/\s+/g, '-')}`}
+                                                            <Link to={`/placed`}
                                                                 className="block px-3 py-2 rounded-md text-sm dark:text-gray-300 text-gray-700 hover:dark:bg-gray-700 hover:bg-gray-100 transition-colors duration-200"
                                                             >
                                                                 {subItem}
-                                                            </a>
+                                                            </Link>
                                                         </li>
                                                     ))}
                                                 </ul>
