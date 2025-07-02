@@ -134,7 +134,7 @@ const NavBar = () => {
     return (
         <header
             className={`fixed top-0 z-50 transition-all duration-300 px-2 md:px-0 ${scrolled
-                ? 'dark:bg-gray-900 bg-white md:w-[96%] md:ml-7 md:mt-3 mt-0 w-full md:rounded-xl shadow-lg border'
+                ? 'dark:bg-gray-900 bg-white md:w-[96%] md:ml-7 md:mt-3 mt-0 w-full md:rounded-xl shadow-lg border dark:border-0'
                 : 'dark:bg-gray-900 bg-white shadow-md w-full'
                 }`}
         >
@@ -149,10 +149,18 @@ const NavBar = () => {
                         {/* Logo */}
                         <div className="flex items-center">
                             <Link to="/" className="flex items-center">
+                                {/* Mobile logo (hidden on md screens and up) */}
                                 <img
-                                    src="./logo.webp"
+                                    src="./small-logo.svg"  // Smaller/optimized version for mobile
                                     alt="IT Accurate Logo"
-                                    className="h-12 w-auto"
+                                    className="h-10 w-auto md:hidden"  // Only shows on mobile
+                                />
+
+                                {/* Desktop logo (hidden on screens smaller than md) */}
+                                <img
+                                    src="./image.svg"  // Regular version
+                                    alt="IT Accurate Logo"
+                                    className="h-12 w-auto hidden md:block"  // Only shows on md screens and up
                                 />
                             </Link>
                         </div>
@@ -192,7 +200,7 @@ const NavBar = () => {
                                             className={`absolute left-0 mt-1 ${item.name === 'Courses'
                                                 ? 'lg:left-[-30vh] w-[700px] p-4 grid grid-cols-2 gap-2'
                                                 : 'w-56 p-2'
-                                                } bg-slate-50/95 dark:bg-gray-800/95 backdrop-blur-xl rounded-lg shadow-xl z-50 border border-gray-200/50 dark:border-gray-700/50`}
+                                                } bg-slate-50/75 dark:bg-gray-800/75 backdrop-blur-sm bg-opacity-80 dark:bg-opacity-80 rounded-lg shadow-xl z-50 border border-gray-200/70 dark:border-gray-700/50`}
                                             onMouseEnter={handleDropdownEnter}
                                             onMouseLeave={handleDropdownLeave}
                                         >

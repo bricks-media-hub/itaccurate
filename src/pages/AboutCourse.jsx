@@ -21,6 +21,7 @@ import CompanyMarquee from '../components/CourseDetails/CompanyMarquee';
 import CourseOpportunities from '../components/CourseDetails/CourseOpportunities';
 import Projects from '../components/CourseDetails/Projects';
 import TestimonialSlider from '../components/CourseDetails/TestimonialSlider';
+import AboutCourseSkeleton from '../components/ui/SkeletonEffects/AboutCourseSkeleton';
 
 function AboutCourse() {
   const courseDetail = useLoaderData();
@@ -46,25 +47,7 @@ function AboutCourse() {
   }, []);
 
   if (isLoading) {
-    return (
-      <div className="animate-pulse p-6 space-y-10 max-w-7xl mx-auto">
-        <div className="h-10 bg-gray-200 rounded w-3/4"></div>
-        <div className="h-6 bg-gray-200 rounded w-full"></div>
-        <div className="h-6 bg-gray-200 rounded w-full"></div>
-        <div className="h-6 bg-gray-200 rounded w-5/6"></div>
-        <div className="h-52 bg-gray-200 rounded w-full"></div>
-
-        <div className="flex flex-col md:flex-row gap-6">
-          <div className="w-full md:w-[70%] space-y-3">
-            <div className="h-6 bg-gray-200 rounded w-1/2"></div>
-            <div className="h-6 bg-gray-200 rounded w-2/3"></div>
-            <div className="h-6 bg-gray-200 rounded w-3/4"></div>
-            <div className="h-6 bg-gray-200 rounded w-5/6"></div>
-          </div>
-          <div className="w-full md:w-[30%] bg-gray-200 rounded h-80"></div>
-        </div>
-      </div>
-    );
+    return <AboutCourseSkeleton />
   }
 
   return (
