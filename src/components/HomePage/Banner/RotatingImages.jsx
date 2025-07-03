@@ -81,6 +81,7 @@ function RotatingImages() {
                     transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
                     style={{
                         transformStyle: "preserve-3d",
+                        transformOrigin: "center center",
                     }}
                 >
                     {images.map((image, index) => {
@@ -95,6 +96,7 @@ function RotatingImages() {
                                 style={{
                                     transform: `rotateY(${angle}deg) translateZ(${radius}px)`,
                                     transformStyle: "preserve-3d",
+                                    transformOrigin: "center center",
                                 }}
                             >
                                 <img

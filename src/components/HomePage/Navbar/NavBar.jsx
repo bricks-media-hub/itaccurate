@@ -107,8 +107,8 @@ const NavBar = () => {
 
     const navItems = [
         { name: 'Courses', icon: <FiBookOpen />, path: '#courses', hasDropdown: true },
-        { name: 'About', icon: <FiUser />, path: '#about' },
-        { name: 'Blog', icon: <FiFileText />, path: '#blog' },
+        { name: 'About', icon: <FiUser />, path: '/about-us' },
+        { name: 'Blog', icon: <FiFileText />, path: '/blog' },
         {
             name: 'Placements',
             icon: <FiAward />,
@@ -172,9 +172,9 @@ const NavBar = () => {
                                     key={item.name}
                                     className="relative group"
                                 >
-                                    <a
-                                        href={item.path}
-                                        className="px-3 py-2 rounded-md text-sm font-medium dark:text-gray-300 text-gray-700 hover:dark:bg-gray-800 hover:bg-gray-100 transition-colors duration-200 flex items-center"
+                                    <Link
+                                        to={item.path}
+                                        className="px-3 py-2 rounded-md text-sm font-medium dark:text-gray-300 text-gray-700 hover:dark:bg-gray-800 hover:bg-gray-100 transition-colors duration-200 flex items-center cursor-pointer"
                                         onMouseEnter={() => item.hasDropdown && handleMenuEnter(item.name)}
                                         onMouseLeave={() => item.hasDropdown && handleMenuLeave()}
                                     >
@@ -185,7 +185,7 @@ const NavBar = () => {
                                                 {activeMenu === item.name ? <FiChevronUp size={16} /> : <FiChevronDown size={16} />}
                                             </span>
                                         )}
-                                    </a>
+                                    </Link>
 
                                     {/* Dropdown Container */}
                                     {item.hasDropdown && (

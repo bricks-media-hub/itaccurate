@@ -56,7 +56,9 @@ const MobileNavBar = ({
                                 >
                                     <div className="flex items-center">
                                         <span className="mr-2">{item.icon}</span>
-                                        {item.name}
+                                        <Link to={`${item.path}`}>
+                                          {item.name}
+                                        </Link>
                                     </div>
                                     {item.hasDropdown && (
                                         <span>
@@ -143,14 +145,14 @@ const MobileNavBar = ({
                                         className="ml-6 mt-1 mb-2 space-y-1"
                                     >
                                         {placementsSubMenu.map((subItem) => (
-                                            <a
+                                            <Link
                                                 key={subItem}
-                                                href={`#${subItem.toLowerCase().replace(/\s+/g, '-')}`}
+                                                to={'/placed'}
                                                 className="block px-3 py-2 rounded-md text-sm dark:text-gray-300 text-gray-700 hover:dark:bg-gray-700 hover:bg-gray-100 transition-colors"
                                                 onClick={() => setIsOpen(false)}
                                             >
                                                 {subItem}
-                                            </a>
+                                            </Link>
                                         ))}
                                     </motion.div>
                                 )}

@@ -42,52 +42,61 @@ function Banner() {
       {showForm && <FreeDemoForm onClose={() => setShowForm(false)} />}
 
       {/* Banner Section */}
-<section className="relative w-full flex flex-col-reverse md:flex-row items-center justify-center px-4 py-12 sm:py-16 md:py-20 md:min-h-[70vh] overflow-visible bg-white dark:bg-gray-900 transition-colors duration-300">
-  {/* Background Overlay */}
-  <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-indigo-600 opacity-40 dark:opacity-60 backdrop-blur-sm z-0" />
+      <section className="relative w-full flex flex-col-reverse md:flex-row items-center justify-center px-4 py-12 sm:py-16 md:py-20 md:min-h-[70vh] overflow-visible bg-white dark:bg-gray-900 transition-colors duration-300">
 
-  {/* Left Text Section */}
-  <motion.div
-    initial={{ opacity: 0, y: 20 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.8 }}
-    className="w-full md:w-[52%] text-center md:text-left z-10 ml-14"
-  >
-    <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-gray-900 dark:text-white">
-      LEARN WITH <span className="text-blue-600 dark:text-blue-400">IT ACCURATE</span>
-    </h1>
-    <p className="text-base md:text-lg text-gray-700 dark:text-gray-300 mb-6">
-      FOR BEST JOB OPPORTUNITY
-    </p>
+        <div className="absolute inset-0 w-full h-full z-0 opacity-25 dark:opacity-35">
+          <Globe className="w-full h-full object-cover" />
+        </div>
 
-    <div className="flex flex-col lg:flex-row gap-3 sm:gap-4 justify-center md:justify-start">
-      <motion.a
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
-        href="#training-courses"
-        className="flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-500 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md text-base"
-      >
-        📄 Explore Courses
-      </motion.a>
-      <motion.a
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
-        href="#contact"
-        onClick={() => setShowForm(true)}
-        className="flex items-center justify-center gap-2 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border border-gray-300 dark:border-gray-600 font-semibold py-3 px-6 rounded-lg shadow-md text-base"
-      >
-        📧 Contact Now
-      </motion.a>
-    </div>
-  </motion.div>
+        {/* Background Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-indigo-600 opacity-40 dark:opacity-60 backdrop-blur-sm z-0" />
 
-  {/* Right Globe Section */}
-  <div className="relative w-full md:w-[48%] h-[300px] sm:h-[380px] md:h-[430px] lg:h-[480px] flex items-center justify-center z-0">
+        {/* Left Text Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="w-full md:w-[52%] text-center md:text-left z-10 md:ml-14"
+        >
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-gray-900 dark:text-white">
+            LEARN WITH <span className="text-blue-600 dark:text-blue-400">IT ACCURATE</span>
+          </h1>
+          <p className="text-base md:text-lg text-gray-700 dark:text-gray-300 mb-6">
+            FOR BEST JOB OPPORTUNITY
+          </p>
+
+          <div className="flex flex-col lg:flex-row gap-3 sm:gap-4 justify-center md:justify-start">
+            <motion.a
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              href="#training-courses"
+              className="flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-500 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md text-base"
+            >
+              📄 Explore Courses
+            </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              href="#contact"
+              onClick={() => setShowForm(true)}
+              className="flex items-center justify-center gap-2 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border border-gray-300 dark:border-gray-600 font-semibold py-3 px-6 rounded-lg shadow-md text-base"
+            >
+              📧 Contact Now
+            </motion.a>
+          </div>
+        </motion.div>
+
+        {/* Right Globe Section */}
+        {/* <div className="relative w-full md:w-[48%] h-[300px] sm:h-[380px] md:h-[430px] lg:h-[480px] flex items-center justify-center z-0">
     <div className="absolute inset-0 -z-10">
       <Globe />
     </div>
-  </div>
-</section>
+  </div> */}
+        <RotatingImages />
+      </section>
+
+
+
 
 
       {/* Feature Cards Section - Half Overlaid on Banner */}
