@@ -5,14 +5,17 @@ import Footer from './HomePage/Footer'
 import ScrollToTop from '../lib/ScrollToTop';
 
 function Layout() {
-    const [selectedLocation, setSelectedLocation] = useState("nagpur");
+    const [activeLocation, setActiveLocation] = useState('nagpur');
 
     return (
         <>
             <NavBar />
             <ScrollToTop />
             <Outlet />
-            <Footer setSelectedLocation={setSelectedLocation} />
+            <Footer 
+                activeLocation={activeLocation} 
+                setActiveLocation={setActiveLocation} 
+            />
         </>
     )
 }

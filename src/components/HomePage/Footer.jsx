@@ -11,7 +11,7 @@ import { MdEmail, MdPhone, MdLocationOn } from 'react-icons/md';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
-const Footer = () => {
+const Footer = ({ activeLocation, setActiveLocation }) => {
     const courses = useSelector((state) => state.courses.courseData);
 
     const quickLinks = [
@@ -42,30 +42,49 @@ const Footer = () => {
         {
             icon: <MdLocationOn />,
             location: 'Nagpur',
+            mapId: 'nagpur',
             address: '607, 608 B-wing, Lokmat Bhavan, Lokmat Square, Ramdaspehi, Nagpur Ph. - 09175978889',
-            mapLink: '/https://www.google.com/maps/dir//607,+608+B-wing,+Lokmat+Bhavan,+Lokmat+Square,+Ramdaspeth,+Nagpur,+Maharashtra+440012',
-            mapLink2: 'https://www.google.com/maps/dir//607,+608+B-wing,+Lokmat+Bhavan,+Lokmat+Square,+Ramdaspeth,+Nagpur,+Maharashtra+440012'
+            mapLink: 'https://www.google.com/maps/dir//607,+608+B-wing,+Lokmat+Bhavan,+Lokmat+Square,+Ramdaspeth,+Nagpur,+Maharashtra+440012'
         },
         {
             icon: <MdLocationOn />,
             location: 'Thane',
+            mapId: 'thane',
             address: 'Office No. 806, Paradise Tower, Noupada, Thane West Ph. - 07738277389',
-            mapLink: '/https://maps.app.goo.gl/gmcV17DF4sUR2VVj7',
-            mapLink2: 'https://maps.app.goo.gl/gmcV17DF4sUR2VVj7'
+            mapLink: 'https://maps.app.goo.gl/gmcV17DF4sUR2VVj7'
         },
     ];
 
-    const handleLocationClick = (e, hash) => {
-        e.preventDefault();
-        window.location.hash = hash;
-        const contactSection = document.getElementById('contact-us');
-        if (contactSection) {
-            contactSection.scrollIntoView({ behavior: 'smooth' });
-        }
-        if (window.location.hash === hash) {
-            window.dispatchEvent(new HashChangeEvent('hashchange'));
-        }
-    };
+
+  const handleLocationClick = (e, mapId) => {
+    e.preventDefault();
+      console.log("Setting location to:", mapId); // Debug log
+      console.log("Current location:", location); // Should print 'thane' when clicked
+    setActiveLocation(mapId);
+
+      // Force complete reload
+  const iframe = document.querySelector('#map-section iframe');
+  if (iframe) {
+    iframe.src = iframe.src.split('?')[0] + `?t=${Date.now()}`;
+  }
+    
+    // Update URL hash
+    window.location.hash = mapId;
+    
+    // Scroll to contact section
+    const contactSection = document.getElementById('contact-us');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+    
+    // Force iframe reload after a slight delay
+    setTimeout(() => {
+      const iframe = document.querySelector('#map-section iframe');
+      if (iframe) {
+        iframe.src = iframe.src;
+      }
+    }, 100);
+  };
 
     const socialLinks = [
         { icon: <FaFacebook />, href: 'https://www.facebook.com/itaccurate/' },
@@ -135,22 +154,24 @@ const Footer = () => {
                                     </a>
                                 ) : (
                                     <div className="ml-2">
-                                        <strong className="font-medium">
-                                            {item.mapLink ? (
-                                                <a
-                                                    href={item.mapLink}
-                                                    className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-200"
-                                                    onClick={(e) => handleLocationClick(e, item.mapLink)}
+                                        {item.mapId ? (
+                                            <div className="ml-2">
+                                                <button
+                                                    onClick={(e) => handleLocationClick(e, item.mapId)}
+                                                    className={`hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-200 ${activeLocation === item.mapId ? 'font-bold text-indigo-600 dark:text-indigo-400' : ''
+                                                        }`}
                                                 >
                                                     {item.location}:
-                                                </a>
-                                            ) : (
-                                                item.location + ":"
-                                            )}
-                                        </strong>
-                                        <p className="text-sm">
-                                            <a href={item.mapLink2}>{item.address}</a>
-                                        </p>
+                                                </button>
+                                                <p className="text-sm">
+                                                    <a href={item.mapLink} target="_blank" rel="noopener noreferrer">
+                                                        {item.address}
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        ) : (
+                                            item.location + ":"
+                                        )}
                                     </div>
                                 )}
                             </li>

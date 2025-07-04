@@ -19,8 +19,8 @@ import Footer from '../components/HomePage/Footer';
 
 function Home() {
 
-    const [freeDemoFormPopUp, setFreeDemoFormPopUp] = useState(false);
-    const [selectedLocation, setSelectedLocation] = useState("nagpur");
+  const [freeDemoFormPopUp, setFreeDemoFormPopUp] = useState(false);
+  const [activeLocation, setActiveLocation] = useState('nagpur');
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -48,8 +48,10 @@ function Home() {
       <FeesDetails />
       <JobPreparation />
       {/* <Slider /> */}
-<ContactUs selectedLocation={selectedLocation} />
-{/* <Footer setSelectedLocation={setSelectedLocation} /> */}
+      <ContactUs
+        initialLocation={activeLocation}
+        setActiveLocation={setActiveLocation} // Pass this if needed
+      />{/* <Footer setSelectedLocation={setSelectedLocation} /> */}
     </div>
   );
 }

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import GoogleMap from "../../lib/GoogleMap";
+import { GoogleMap } from "../../lib/GoogleMap";
 import config from "../../lib/config";
 import { FiMapPin } from "react-icons/fi";
 
 const ContactUs = ({ initialLocation = "nagpur" }) => {
-  const [selectedLocation, setSelectedLocation] = useState("nagpur");
+  const [activeLocation, setActiveLocation] = useState(initialLocation);
   const [isFormVisible, setIsFormVisible] = useState(true);
   const [formData, setFormData] = useState({ name: "", phone: "", course: "" });
   const [errors, setErrors] = useState({});
@@ -16,21 +16,36 @@ const ContactUs = ({ initialLocation = "nagpur" }) => {
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash;
-      if (hash === '#contact-thane') {
-        setSelectedLocation('thane');
-        setIsFormVisible(false); // Optional: hide form to show full map
+      if (hash === '#thane') {
+        setActiveLocation('thane');
       } else {
-        setSelectedLocation('nagpur');
+        setActiveLocation('nagpur');
       }
     };
 
     // Check initial hash on load
     handleHashChange();
-
+    console.log("Location changed to:", activeLocation);
     // Listen for hash changes
     window.addEventListener('hashchange', handleHashChange);
     return () => window.removeEventListener('hashchange', handleHashChange);
-  }, []);
+    
+  }, [activeLocation]);
+
+  // Function to handle location changes from footer
+  const handleLocationChange = (location) => {
+    setActiveLocation(location);
+    window.location.hash = location; // Update URL hash
+    setIsFormVisible(false); // Optional: hide form to show full map
+    
+    // Force a slight delay to ensure iframe reload
+    setTimeout(() => {
+      const iframe = document.querySelector('#map-section iframe');
+      if (iframe) {
+        iframe.src = iframe.src; // Refresh iframe
+      }
+    }, 100);
+  };
 
   const courses = [
     "SAP", "Salesforce", "AWS", "DevOps", "Python",
@@ -109,12 +124,24 @@ const ContactUs = ({ initialLocation = "nagpur" }) => {
       <div className="max-w-6xl mx-auto bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden">
         {/* Main Container */}
         <div className={`relative ${isFormVisible ? "md:flex" : ""}`}>
-          {/* Map Section - Takes full width when form is hidden */}
-          <div className={`${isFormVisible ? "w-full md:w-1/2" : "w-full"} h-[400px] md:h-[500px] bg-gray-100 dark:bg-gray-700 relative`}>
-            <GoogleMap
-              location={selectedLocation} // Add this prop
-            />
-
+          {/* Map Section */}
+          <div id="map-section" className={`${isFormVisible ? "w-full md:w-1/2" : "w-full"} h-[400px] md:h-[500px] bg-gray-100 dark:bg-gray-700 relative`}>
+              <GoogleMap location={activeLocation} />
+                    {/* Location switcher buttons */}
+      {/* <div className="location-switcher"> */}
+        <button 
+          onClick={() => setActiveLocation('nagpur')}
+          className={activeLocation === 'nagpur' ? 'active' : ''}
+        >
+          Nagpur
+        </button>
+        <button 
+          onClick={() => setActiveLocation('thane')}
+          className={activeLocation === 'thane' ? 'active' : ''}
+        >
+          Thane
+        </button>
+      {/* </div> */}
             {/* Toggle Button - Positioned absolutely in top-right corner */}
             <button
               onClick={() => setIsFormVisible(!isFormVisible)}
