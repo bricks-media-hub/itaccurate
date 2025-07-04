@@ -14,6 +14,7 @@ import Placements from './pages/Placements';
 import NotFoundPage from './components/ui/NotFoundPage';
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
+import Blogs from './pages/Blogs';
 
 export const dynamicCourseRoutes = [
   'salesforce-training',
@@ -87,7 +88,7 @@ const router = createBrowserRouter([
       },
             {
         path: '/blog',
-        element: <AboutUs />
+        element: <Blogs />
       },
             {
         path: '/contact',

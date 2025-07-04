@@ -43,14 +43,18 @@ const Footer = ({ activeLocation, setActiveLocation }) => {
             icon: <MdLocationOn />,
             location: 'Nagpur',
             mapId: 'nagpur',
-            address: '607, 608 B-wing, Lokmat Bhavan, Lokmat Square, Ramdaspehi, Nagpur Ph. - 09175978889',
+            address: '607, 608 B-wing, Lokmat Bhavan, Lokmat Square, Ramdaspehi, Nagpur Ph. - ',
+            phone: '09175978889',
+            phoneLink: 'tel:09175978889',
             mapLink: 'https://www.google.com/maps/dir//607,+608+B-wing,+Lokmat+Bhavan,+Lokmat+Square,+Ramdaspeth,+Nagpur,+Maharashtra+440012'
         },
         {
             icon: <MdLocationOn />,
             location: 'Thane',
             mapId: 'thane',
-            address: 'Office No. 806, Paradise Tower, Noupada, Thane West Ph. - 07738277389',
+            address: 'Office No. 806, Paradise Tower, Noupada, Thane West Ph. - ',
+            phone: '07738277389',
+            phoneLink: 'tel:07738277389',
             mapLink: 'https://maps.app.goo.gl/gmcV17DF4sUR2VVj7'
         },
     ];
@@ -167,6 +171,7 @@ const Footer = ({ activeLocation, setActiveLocation }) => {
                                                     <a href={item.mapLink} target="_blank" rel="noopener noreferrer">
                                                         {item.address}
                                                     </a>
+                                                    <a href={item.phoneLink}>{item.phone}</a>
                                                 </p>
                                             </div>
                                         ) : (

@@ -129,7 +129,7 @@ const ContactUs = ({ initialLocation = "nagpur" }) => {
               <GoogleMap location={activeLocation} />
                     {/* Location switcher buttons */}
       {/* <div className="location-switcher"> */}
-        <button 
+        {/* <button 
           onClick={() => setActiveLocation('nagpur')}
           className={activeLocation === 'nagpur' ? 'active' : ''}
         >
@@ -140,7 +140,7 @@ const ContactUs = ({ initialLocation = "nagpur" }) => {
           className={activeLocation === 'thane' ? 'active' : ''}
         >
           Thane
-        </button>
+        </button> */}
       {/* </div> */}
             {/* Toggle Button - Positioned absolutely in top-right corner */}
             <button

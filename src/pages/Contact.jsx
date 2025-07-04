@@ -10,6 +10,7 @@ import {
     FiSend
 } from 'react-icons/fi';
 import { MdLocationOn, MdOutlineEmail, MdPhone } from 'react-icons/md';
+import { GoogleMap } from '../lib/GoogleMap';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -433,7 +434,8 @@ const Contact = () => {
                                 className="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-lg"
                             >
                                 <div className="h-64 bg-gray-300 dark:bg-gray-600 flex items-center justify-center">
-                                    <span className="text-gray-500 dark:text-gray-400">Map of {loc.location}</span>
+                                    {/* <span className="text-gray-500 dark:text-gray-400">Map of {loc.location}</span> */}
+                                    <GoogleMap />
                                 </div>
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-2">{loc.location} Center</h3>

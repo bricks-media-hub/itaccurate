@@ -376,3 +376,24 @@
     .animate-float {
       animation: float 3s infinite ease-in-out;
     }
+
+    /* animated stars of banner homepage */
+    /* @keyframes twinkle {
+      0% { opacity: 0.3; transform: scale(0.8); }
+      50% { opacity: 1; transform: scale(1.1); }
+      100% { opacity: 0.3; transform: scale(0.8); }
+    }
+    @keyframes shootingStar {
+      0% { 
+        transform: translateX(0) translateY(0) rotate(var(--angle));
+        opacity: 0;
+      }
+      5% { opacity: 1; }
+      90% { 
+        transform: translateX(-600px) translateY(300px) rotate(var(--angle));
+        opacity: 0.8;
+      }
+      100% { 
+        opacity: 0;
+      }
+    } */
