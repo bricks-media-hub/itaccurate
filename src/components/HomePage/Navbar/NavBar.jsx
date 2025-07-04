@@ -116,7 +116,7 @@ const NavBar = () => {
             hasDropdown: true,
             subMenu: placementsSubMenu
         },
-        { name: 'Contact', icon: <FiMail />, path: '#contact' },
+        { name: 'Contact', icon: <FiMail />, path: '/contact' },
     ];
 
     const menuItems = useSelector((state) => state.navbar.menuItems);

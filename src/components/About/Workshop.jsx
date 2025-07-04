@@ -59,11 +59,11 @@ function Workshop() {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 relative inline-block">
-            <span className="relative z-10 bg-clip-text text-transparent bg-black dark:bg-white">
+            <span className="relative z-10 bg-clip-text text-transparent text-4xl md:text-5xl font-bold mb-4 text-blue-800 dark:text-blue-300">
               Our Workshop Successes
             </span>
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+          <p className="text-xl text-blue-600 dark:text-blue-200 max-w-2xl mx-auto">
             Transforming education through hands-on technical workshops at premier institutions
           </p>
         </div>

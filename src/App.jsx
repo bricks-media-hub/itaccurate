@@ -13,6 +13,7 @@ import { fetchComponentData } from './api/fetchComponentData';
 import Placements from './pages/Placements';
 import NotFoundPage from './components/ui/NotFoundPage';
 import AboutUs from './pages/AboutUs';
+import Contact from './pages/Contact';
 
 export const dynamicCourseRoutes = [
   'salesforce-training',
@@ -90,7 +91,7 @@ const router = createBrowserRouter([
       },
             {
         path: '/contact',
-        element: <AboutUs />
+        element: <Contact />
       },
     ],
   },

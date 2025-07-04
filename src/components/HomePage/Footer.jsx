@@ -43,13 +43,15 @@ const Footer = () => {
             icon: <MdLocationOn />,
             location: 'Nagpur',
             address: '607, 608 B-wing, Lokmat Bhavan, Lokmat Square, Ramdaspehi, Nagpur Ph. - 09175978889',
-            mapLink: '#contact-nagpur'
+            mapLink: '/https://www.google.com/maps/dir//607,+608+B-wing,+Lokmat+Bhavan,+Lokmat+Square,+Ramdaspeth,+Nagpur,+Maharashtra+440012',
+            mapLink2: 'https://www.google.com/maps/dir//607,+608+B-wing,+Lokmat+Bhavan,+Lokmat+Square,+Ramdaspeth,+Nagpur,+Maharashtra+440012'
         },
         {
             icon: <MdLocationOn />,
             location: 'Thane',
             address: 'Office No. 806, Paradise Tower, Noupada, Thane West Ph. - 07738277389',
-            mapLink: '#contact-thane'
+            mapLink: '/https://maps.app.goo.gl/gmcV17DF4sUR2VVj7',
+            mapLink2: 'https://maps.app.goo.gl/gmcV17DF4sUR2VVj7'
         },
     ];
 
@@ -66,11 +68,9 @@ const Footer = () => {
     };
 
     const socialLinks = [
-        { icon: <FaFacebook />, href: '#' },
-        { icon: <FaTwitter />, href: '#' },
-        { icon: <FaLinkedin />, href: '#' },
-        { icon: <FaInstagram />, href: '#' },
-        { icon: <FaYoutube />, href: '#' },
+        { icon: <FaFacebook />, href: 'https://www.facebook.com/itaccurate/' },
+        { icon: <FaInstagram />, href: 'https://www.instagram.com/it.accurate/' },
+        { icon: <FaYoutube />, href: 'https://www.youtube.com/channel/UCXZYBXNxKE02guTUKujOq7w' },
     ];
 
     return (
@@ -148,7 +148,9 @@ const Footer = () => {
                                                 item.location + ":"
                                             )}
                                         </strong>
-                                        <p className="text-sm">{item.address}</p>
+                                        <p className="text-sm">
+                                            <a href={item.mapLink2}>{item.address}</a>
+                                        </p>
                                     </div>
                                 )}
                             </li>

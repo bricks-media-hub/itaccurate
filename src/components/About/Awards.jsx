@@ -63,7 +63,7 @@ function Awards() {
     ]
 
     return (
-        <div className="py-16 px-4 sm:px-6 bg-gradient-to-tr from-blue-600 to-indigo-700 dark:from-gray-900 dark:to-gray-800">
+        <div className="py-16 px-4 sm:px-6 bg-gradient-to-tr from-blue-600 to-indigo-700 dark:from-blue-900 dark:to-indigo-800">
             <div className="max-w-7xl mx-auto">
                 {/* Section Header */}
                 <div className="text-center mb-12">

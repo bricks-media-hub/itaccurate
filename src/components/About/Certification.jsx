@@ -47,12 +47,12 @@ function Certification() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold relative inline-block">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-blue-800 dark:text-blue-300 relative inline-block">
             <span className="relative z-10">
               Our Certifications
             </span>
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+          <p className="text-xl text-blue-600 dark:text-blue-200 max-w-2xl mx-auto">
             Globally recognized accreditations that validate our training quality
           </p>
         </div>
