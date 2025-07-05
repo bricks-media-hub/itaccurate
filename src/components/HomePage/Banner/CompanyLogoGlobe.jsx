@@ -52,19 +52,43 @@ const CompanyLogoGlobe = () => {
     const pointLight = new THREE.PointLight(0xffffff, 2);
     pointLight.position.set(5, 5, 5);
     scene.add(pointLight);
+    // Soft ambient light
+    scene.add(new THREE.AmbientLight(0xffffff, 0.3));
+
+    // Directional light for highlights
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+    directionalLight.position.set(5, 3, 5);
+    scene.add(directionalLight);
+
 
     // Globe (smaller radius restored)
-    const globe = new THREE.Mesh(
-      new THREE.SphereGeometry(1.4, 64, 64),
-      new THREE.MeshPhongMaterial({
-        color: 0xffffff,
-        wireframe: true,
-        opacity: 0.07,
-        transparent: true,
-        shininess: 100,
-      })
-    );
-    scene.add(globe);
+const globe = new THREE.Mesh(
+  new THREE.SphereGeometry(1.4, 64, 64),
+  new THREE.MeshStandardMaterial({
+    color: new THREE.Color('#6C63FF'), // base indigo-violet tone
+    emissive: new THREE.Color('#a5b4fc'), // soft glow (light indigo)
+    emissiveIntensity: 0.4,
+    roughness: 0.3,
+    metalness: 0.5,
+    transparent: true,
+    opacity: 0.95,
+  })
+);
+scene.add(globe);
+
+// Optional wireframe overlay for stylish effect
+const wireframe = new THREE.Mesh(
+  new THREE.SphereGeometry(1.401, 64, 64), // Slightly larger to overlay
+  new THREE.MeshBasicMaterial({
+    color: '#ffffff',
+    wireframe: true,
+    transparent: true,
+    opacity: 0.08,
+    depthWrite: false,
+  })
+);
+scene.add(wireframe);
+
 
     // Logo Group
     const logoGroup = new THREE.Group();

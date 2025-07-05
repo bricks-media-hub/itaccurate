@@ -100,9 +100,18 @@ const NavBar = () => {
     };
 
     const placementsSubMenu = [
-        "Placements",
-        "Jobs",
-        "Career",
+        {
+           menu: "Placements",
+           link: "/placed"
+        },
+        {
+           menu: "Jobs",
+           link: "/jobs-openings"
+        },
+        {
+           menu: "Career",
+           link: "/career"
+        }
     ];
 
     const navItems = [
@@ -271,10 +280,10 @@ const NavBar = () => {
                                                 <ul className="space-y-1">
                                                     {item.subMenu.map((subItem) => (
                                                         <li key={subItem}>
-                                                            <Link to={`/placed`}
+                                                            <Link to={subItem.link}
                                                                 className="block px-3 py-2 rounded-md text-sm dark:text-gray-300 text-gray-700 hover:dark:bg-gray-700 hover:bg-gray-100 transition-colors duration-200"
                                                             >
-                                                                {subItem}
+                                                                {subItem.menu}
                                                             </Link>
                                                         </li>
                                                     ))}
