@@ -1,9 +1,9 @@
 import { motion, useMotionValue, useTransform, animate } from 'framer-motion';
-import { FiBriefcase, FiMapPin, FiClock, FiCoffee, FiUsers, FiDollarSign, FiAward, FiSend } from 'react-icons/fi';
 import { useRef, useEffect } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Sphere } from '@react-three/drei';
 import * as THREE from 'three';
+import { Link } from 'react-router-dom';
 
 const FloatingIcons = () => {
   return (
@@ -55,52 +55,36 @@ const Career = () => {
             type: "Full-Time",
             applyLink: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSc2hvFxBSJHChaqenWSOp-LbXF9hPu7eNXGBnjaX4qiWS21sg/formResponse"
         },
-        {
-            role: "Frontend Developer (React)",
-            qualifications: "Bachelor's degree in CS or related field",
-            experience: "1 - 5 Years",
-            location: "Remote",
-            type: "Full-Time",
-            applyLink: "#"
-        },
-        {
-            role: "UX/UI Designer",
-            qualifications: "Portfolio demonstrating design skills",
-            experience: "2+ Years",
-            location: "Hybrid",
-            type: "Contract",
-            applyLink: "#"
-        }
     ];
 
     const benefits = [
         {
-            icon: <FiClock className="text-3xl" />,
+            icon: "/icons/career-clock.png", // Replace with your image path
             title: "Flexibility",
             description: "Flexible work hours and remote work options to maintain work-life balance."
         },
         {
-            icon: <FiCoffee className="text-3xl" />,
+            icon: "/icons/career-coffee.png", // Replace with your image path
             title: "Catered Meals",
             description: "Enjoy delicious catered meals during office hours."
         },
         {
-            icon: <FiUsers className="text-3xl" />,
+            icon: "/icons/career-users.png", // Replace with your image path
             title: "Team-building",
             description: "Engage in fun and productive team-building activities regularly."
         },
         {
-            icon: <FiDollarSign className="text-3xl" />,
+            icon: "/icons/career-dollar.png", // Replace with your image path
             title: "Competitive Salary",
             description: "We offer industry-competitive compensation packages."
         },
         {
-            icon: <FiAward className="text-3xl" />,
+            icon: "/icons/career-award.png", // Replace with your image path
             title: "Growth Opportunities",
             description: "Clear career progression paths and professional development."
         },
         {
-            icon: <FiBriefcase className="text-3xl" />,
+            icon: "/icons/career-briefcase.png", // Replace with your image path
             title: "Latest Tech",
             description: "Work with cutting-edge technologies and tools."
         }
@@ -296,7 +280,8 @@ const Career = () => {
                                         </td>
                                         <td className="px-8 py-6 text-gray-600 dark:text-gray-300">
                                             <div className="flex items-center">
-                                                <FiMapPin className="mr-2" /> {job.location}
+                                                <img src="/icons/map-pin-icon.png" alt="Location" className="w-5 h-5 mr-2" /> 
+                                                {job.location}
                                             </div>
                                         </td>
                                         <td className="px-8 py-6">
@@ -317,7 +302,7 @@ const Career = () => {
                                                 whileTap={{ scale: 0.95 }}
                                                 className="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all duration-300 shadow-md hover:shadow-lg"
                                             >
-                                                Apply Now <FiSend className="ml-2" />
+                                                Apply Now <img src="/icons/send-icon.png" alt="Send" className="w-4 h-4 ml-2" />
                                             </motion.a>
                                         </td>
                                     </motion.tr>
@@ -340,7 +325,8 @@ const Career = () => {
                         >
                             <div className="mb-3 text-xl font-semibold text-gray-800 dark:text-white">{job.role}</div>
                             <div className="flex items-center text-sm text-gray-600 dark:text-gray-300 mb-2">
-                                <FiMapPin className="mr-2" /> {job.location}
+                                <img src="/icons/map-pin-icon.png" alt="Location" className="w-4 h-4 mr-2" /> 
+                                {job.location}
                             </div>
                             <div className="text-sm text-gray-600 dark:text-gray-300 mb-2">
                                 <span className="font-medium">Qualification:</span> {job.qualifications}
@@ -364,7 +350,7 @@ const Career = () => {
                                     whileTap={{ scale: 0.95 }}
                                     className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 font-medium inline-flex items-center"
                                 >
-                                    Apply <FiBriefcase className="ml-1" />
+                                    Apply <img src="/images/briefcase-icon.png" alt="Briefcase" className="w-4 h-4 ml-1" />
                                 </motion.a>
                             </div>
                         </motion.div>
@@ -417,9 +403,9 @@ const Career = () => {
                                 <div className="p-8">
                                     <motion.div
                                         whileHover={{ scale: 1.1, rotate: 5 }}
-                                        className="mb-6 w-14 h-14 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300"
+                                        className="mb-6 w-14 h-14 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center group-hover:bg-blue-600 transition-colors duration-300"
                                     >
-                                        {benefit.icon}
+                                        <img src={benefit.icon} alt={benefit.title} className="w-6 h-6" />
                                     </motion.div>
                                     <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-3">
                                         {benefit.title}
@@ -478,9 +464,7 @@ const Career = () => {
                                         className="flex items-start"
                                     >
                                         <span className="flex-shrink-0 mt-1 mr-3">
-                                            <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                                            </svg>
+                                            <img src="/images/check-icon.png" alt="Check" className="w-5 h-5" />
                                         </span>
                                         <span className="text-gray-700 dark:text-gray-300">{item}</span>
                                     </motion.li>
@@ -533,14 +517,14 @@ const Career = () => {
                             >
                                 View All Openings
                             </motion.a>
-                            <motion.a
-                                href="#contact"
+                            <Link
+                                to={`/contact`}
                                 whileHover={{ scale: 1.05, boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.2)" }}
                                 whileTap={{ scale: 0.95 }}
                                 className="inline-block bg-transparent border-2 border-white hover:bg-white/10 font-medium py-3 px-8 rounded-lg shadow-lg transition-all duration-300"
                             >
                                 Contact Our Team
-                            </motion.a>
+                            </Link>
                         </motion.div>
                     </motion.div>
                 </div>

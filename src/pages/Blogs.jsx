@@ -1,8 +1,9 @@
 import React from 'react'
+import MaintenancePage from '../lib/MaintenancePage'
 
 function Blogs() {
   return (
-    <div className='flex justify-center items-center mt-28 mb-14 font-extrabold text-2xl text-black dark:text-white'>Blogs</div>
+    <MaintenancePage />
   )
 }
 
