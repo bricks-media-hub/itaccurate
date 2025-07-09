@@ -115,17 +115,17 @@ const NavBar = () => {
     ];
 
     const navItems = [
-        { name: 'Courses', icon: <FiBookOpen />, path: '#courses', hasDropdown: true },
-        { name: 'About', icon: <FiUser />, path: '/about-us' },
-        { name: 'Blog', icon: <FiFileText />, path: '/blog' },
+        { name: 'Courses', icon: <img src='/icons/book.svg' alt='book'/>, path: '#courses', hasDropdown: true },
+        { name: 'About', icon: <img src='/icons/user.svg' alt='user'/>, path: '/about-us' },
+        { name: 'Blog', icon: <img src='/icons/blog.svg' alt='blog'/>, path: '/blog' },
         {
             name: 'Placements',
-            icon: <FiAward />,
+            icon: <img src='/icons/badge.svg' alt='badge'/>,
             path: '#placements',
             hasDropdown: true,
             subMenu: placementsSubMenu
         },
-        { name: 'Contact', icon: <FiMail />, path: '/contact' },
+        { name: 'Contact', icon: <img src='/icons/mail.svg' alt='mail'/>, path: '/contact' },
     ];
 
     const menuItems = useSelector((state) => state.navbar.menuItems);
@@ -167,7 +167,7 @@ const NavBar = () => {
 
                                 {/* Desktop logo (hidden on screens smaller than md) */}
                                 <img
-                                    src="./image.svg"  // Regular version
+                                    src="./logo.svg"  // Regular version
                                     alt="IT Accurate Logo"
                                     className="h-12 w-auto hidden md:block"  // Only shows on md screens and up
                                 />
@@ -187,7 +187,9 @@ const NavBar = () => {
                                         onMouseEnter={() => item.hasDropdown && handleMenuEnter(item.name)}
                                         onMouseLeave={() => item.hasDropdown && handleMenuLeave()}
                                     >
-                                        <span className="mr-2">{item.icon}</span>
+                                        <span className="mr-2 md:w-6 md:h-6 sm:w-5 sm:h-5">
+                                            {item.icon}
+                                        </span>
                                         {item.name}
                                         {item.hasDropdown && (
                                             <span className="ml-1">
@@ -227,7 +229,9 @@ const NavBar = () => {
                                                                     className={`p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200 flex items-start ${activeSubMenu === course.title ? 'bg-gray-100 dark:bg-gray-700' : ''
                                                                         }`}
                                                                 >
-                                                                    <span className="text-2xl mr-3 text-purple-600 dark:text-purple-400">{course.icon}</span>
+                                                                    <span className="text-2xl mr-3 text-purple-600 dark:text-purple-400">
+                                                                        <img src={course.icon} alt='course icon' className='w-9 h-9 mt-2' />
+                                                                    </span>
                                                                     <div className="flex-1">
                                                                         <h3 className="font-medium dark:text-white text-gray-800">{course.title}</h3>
                                                                         <p className="text-sm text-gray-500 dark:text-gray-400">{course.description}</p>
@@ -318,7 +322,7 @@ const NavBar = () => {
                                     animate={{ rotate: darkMode ? 180 : 0 }}
                                     transition={{ duration: 0.5 }}
                                 >
-                                    {darkMode ? <FiSun size={20} /> : <FiMoon size={20} />}
+                                    {darkMode ? <img src='/icons/sun.svg' alt='sun' className='w-7 h-7'/> : <img src='/icons/moon.svg' alt='moon' className='w-7 h-7'/>}
                                 </motion.div>
                             </button>
                         </nav>

@@ -13,14 +13,14 @@ import {
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
-const MobileNavBar = ({ 
-    isOpen, 
-    setIsOpen, 
-    navItems, 
-    mobileActiveMenu, 
-    setMobileActiveMenu, 
-    mobileActiveSubMenu, 
-    setMobileActiveSubMenu 
+const MobileNavBar = ({
+    isOpen,
+    setIsOpen,
+    navItems,
+    mobileActiveMenu,
+    setMobileActiveMenu,
+    mobileActiveSubMenu,
+    setMobileActiveSubMenu
 }) => {
     const menuItems = useSelector((state) => state.navbar.menuItems);
     const placementsSubMenu = ["Placements", "Jobs", "Career"];
@@ -55,9 +55,9 @@ const MobileNavBar = ({
                                     }}
                                 >
                                     <div className="flex items-center">
-                                        <span className="mr-2">{item.icon}</span>
+                                        <span className="mr-2 w-5 h-5">{item.icon}</span>
                                         <Link to={`${item.path}`}>
-                                          {item.name}
+                                            {item.name}
                                         </Link>
                                     </div>
                                     {item.hasDropdown && (
@@ -94,11 +94,15 @@ const MobileNavBar = ({
                                                     }}
                                                 >
                                                     <div className="flex items-center">
-                                                        <span className="mr-2">{course.icon}</span>
-                                                        <div>
-                                                            <div className="font-medium">{course.title}</div>
-                                                            <div className="text-xs text-gray-500 dark:text-gray-400">{course.description}</div>
-                                                        </div>
+                                                        <span className="mr-2">
+                                                            <img src={course.icon} alt='course icon' className='w-6 h-6 -mt-2 md:w-9 md:h-9 md:mt-2' />
+                                                        </span>
+                                                        <Link to={course.link}>
+                                                            <div>
+                                                                <div className="font-medium">{course.title}</div>
+                                                                <div className="text-xs text-gray-500 dark:text-gray-400">{course.description}</div>
+                                                            </div>
+                                                        </Link>
                                                     </div>
                                                     {course.subMenu && (
                                                         <FiArrowRight className="ml-2 text-gray-400" />

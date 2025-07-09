@@ -3,7 +3,7 @@
         {
             "title": "SAP",
             "description": "Enterprise solutions",
-            "icon": "📊",
+            "icon": "/icons/sap.svg",
             "link": "/best-sap-training",
             "subMenu": [
                 {
@@ -76,25 +76,25 @@
         {
             "title": "Data Analytics",
             "description": "Analyze Data",
-            "icon": "📈",
+            "icon": "/icons/data-analytics.svg",
             "link": "/best-data-analytics-training"
         },
         {
             "title": "DevOps",
             "description": "Accelerate Delivery",
-            "icon": "⚙️",
+            "icon": "/icons/devops.svg",
             "link": "/best-devops-training"
         },
         {
             "title": "Full Stack Development",
             "description": "End-to-End",
-            "icon": "💻",
+            "icon": "/icons/fullstack.svg",
             "link":"/full-stack-developer"
         },
         {
             "title": "Data Science AI & ML",
             "description": "Intelligent Decisions",
-            "icon": "🧠",
+            "icon": "/icons/data-science.svg",
             "subMenu": [
                 {
                     "title": "Data Science",
@@ -115,19 +115,19 @@
         {
             "title": "AWS",
             "description": "Cloud Power",
-            "icon": "☁️",
+            "icon": "/icons/aws.svg",
             "link":"/best-aws-training"
         },
         {
             "title": "Data Engineering",
             "description": "Manipulate Data",
-            "icon": "🔧",
+            "icon": "/icons/data-engineer.svg",
             "link":"/data-engineering"
         },
         {
             "title": "Salesforce",
             "description": "CRM Solutions",
-            "icon": "📱",
+            "icon": "/icons/salesforce.svg",
             "subMenu": [
                 {
                     "title": "Salesforce",
@@ -156,7 +156,7 @@
         {
             "title": "Business Analytics",
             "description": "Data Insights",
-            "icon": "📊",
+            "icon": "/icons/business-analytics.svg",
             "subMenu": [
                 {
                     "title": "Business Analytics",
@@ -173,7 +173,7 @@
         {
             "title": "HR TRAINING",
             "description": "HR Management Solutions",
-            "icon": "👥",
+            "icon": "/icons/hr-manage.svg",
             "subMenu": [
                 {
                     "title": "SAP HCM",
@@ -198,19 +198,19 @@
         {
             "title": "Python",
             "description": "Future Coding",
-            "icon": "🐍",
+            "icon": "/icons/python.svg",
             "link":"/python"
         },
         {
             "title": "ServiceNow Training",
             "description": "IT Service Management",
-            "icon": "🛠️",
+            "icon": "/icons/service.svg",
             "link":"/servicenow"
         },
         {
             "title": "Share Market",
             "description": "Learn Trading",
-            "icon": "📉",
+            "icon": "/icons/share.svg",
             "link":"/share-market"
         }
     ],

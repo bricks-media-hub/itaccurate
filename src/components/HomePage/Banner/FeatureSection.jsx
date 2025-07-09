@@ -7,25 +7,25 @@ function FeatureSection() {
     // Feature cards data
     const features = [
         {
-            icon: <FiUsers className="text-blue-600 dark:text-blue-400 text-xl sm:text-2xl" />,
+            icon: <img src="/icons/expert.svg" alt="expert" className="w-8 h-8 sm:w-10 sm:h-10" />,
             bgColor: "bg-blue-100 dark:bg-blue-900",
             title: "Expert Instructors",
             description: "Learn from industry professionals with years of practical experience."
         },
         {
-            icon: <FiLayers className="text-purple-600 dark:text-purple-400 text-xl sm:text-2xl" />,
+            icon: <img src="/icons/project.svg" alt="expert" className="w-8 h-8 sm:w-10 sm:h-10" />,
             bgColor: "bg-purple-100 dark:bg-purple-900",
             title: "Project-based Learning",
             description: "Gain hands-on experience by working on real-world projects."
         },
         {
-            icon: <FiBriefcase className="text-green-600 dark:text-green-400 text-xl sm:text-2xl" />,
+            icon: <img src="/icons/briefcase.svg" alt="expert" className="w-8 h-8 sm:w-10 sm:h-10" />,
             bgColor: "bg-green-100 dark:bg-green-900",
             title: "Internship Opportunities",
             description: "Get placed in top companies with our internship programs."
         },
         {
-            icon: <FiAward className="text-yellow-600 dark:text-yellow-400 text-xl sm:text-2xl" />,
+            icon: <img src="/icons/medal.svg" alt="expert" className="w-8 h-8 sm:w-10 sm:h-10" />,
             bgColor: "bg-yellow-100 dark:bg-yellow-900",
             title: "Certification Programs",
             description: "Earn recognized certifications to boost your career prospects."
@@ -45,9 +45,9 @@ function FeatureSection() {
                             className="bg-white dark:bg-gradient-to-r dark:from-slate-700 dark:to-slate-800 rounded-lg sm:rounded-xl shadow-md sm:shadow-xl overflow-hidden border border-gray-100 dark:border-gray-700 hover:shadow-lg sm:hover:shadow-2xl transition-all duration-300"
                         >
                             <div className="p-2 sm:p-4 flex flex-col items-center text-center">
-                                <div className={`mb-3 sm:mb-4 p-2 sm:p-3 ${feature.bgColor} rounded-full`}>
+                                {/* <div className={`mb-3 sm:mb-4 p-2 sm:p-3 ${feature.bgColor} rounded-full`}> */}
                                     {feature.icon}
-                                </div>
+                                {/* </div> */}
                                 <h3 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white mb-1 sm:mb-2">
                                     {feature.title}
                                 </h3>

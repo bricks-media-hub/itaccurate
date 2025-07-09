@@ -59,7 +59,7 @@ function Workshop() {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 relative inline-block">
-            <span className="relative z-10 bg-clip-text text-transparent text-4xl md:text-5xl font-bold mb-4 text-blue-800 dark:text-blue-300">
+            <span className="relative z-10 bg-clip-text text-transparent text-4xl md:text-5xl font-bold mb-4 text-blue-800 dark:text-blue-300 text-blue-800 dark:text-white">
               Our Workshop Successes
             </span>
           </h2>
@@ -95,9 +95,7 @@ function Workshop() {
                 <div className="p-6 flex flex-col justify-between flex-grow">
                   <div className="flex items-start mb-3">
                     <div className="bg-blue-100 dark:bg-blue-900/30 p-2 rounded-lg mr-3">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                      </svg>
+                      <img src="/icons/open-book.svg" alt="open book" className='w-7 h-7'/>
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-gray-800 dark:text-white">{workshop.title}</h3>

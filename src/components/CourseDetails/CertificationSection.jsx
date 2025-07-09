@@ -5,19 +5,19 @@ import { FaCertificate, FaChartLine, FaAward } from "react-icons/fa";
 const CertificationSection = ({ courseName }) => {
   const certificationPoints = [
     {
-      icon: <FaCertificate className="text-white" />,
+      icon: <img src="/icons/badge2.svg" alt='icon' className='w-8 h-8' />,
       title: "Recognized Certification",
-      description: "IT Accurate training certification serves as proof of course completion, showcasing your proficiency in HR Business Analyst.",
+      description: "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate.",
     },
     {
-      icon: <FaChartLine className="text-white" />,
+      icon: <img src="/icons/increase-graph.svg" alt='icon' className='w-8 h-8' />,
       title: "Competitive Edge",
-      description: "Our Business Analytics for HR certification equips you with valuable skills, making you more competitive in the HR analytics job market.",
+      description: "The Data Engineering certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market.",
     },
     {
-      icon: <FaAward className="text-white" />,
+      icon: <img src="/icons/graduation.svg" alt='icon' className='w-8 h-8' />,
       title: "100% Passing Guarantee",
-      description: "We provide comprehensive guidance for global certifications including HR Analytics Certification with a passing guarantee.",
+      description: "IT Accurate provides comprehensive guidance for your Data Engineering global certification, ensuring a 100% passing guarantee in examinations such as Data analytics Certification, Data Engineering Platform Development Certification, and various other global exams.",
     },
   ];
 

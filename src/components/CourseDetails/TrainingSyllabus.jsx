@@ -1,11 +1,82 @@
-
 import { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+
+// Move color map outside component to avoid recreation on each render
+const colorMap = {
+    // Blues
+    blue: 'bg-blue-400',
+    'blue-light': 'bg-blue-300',
+    'blue-dark': 'bg-blue-600',
+    sky: 'bg-sky-400',
+    'sky-light': 'bg-sky-300',
+    cyan: 'bg-cyan-400',
+    'cyan-light': 'bg-cyan-300',
+    indigo: 'bg-indigo-400',
+    'indigo-dark': 'bg-indigo-600',
+
+    // Purples/Violets
+    purple: 'bg-purple-400',
+    'purple-light': 'bg-purple-300',
+    violet: 'bg-violet-400',
+    'violet-light': 'bg-violet-300',
+    fuchsia: 'bg-fuchsia-400',
+    'fuchsia-light': 'bg-fuchsia-300',
+
+    // Reds/Pinks
+    red: 'bg-red-400',
+    'red-light': 'bg-red-300',
+    rose: 'bg-rose-400',
+    'rose-light': 'bg-rose-300',
+    pink: 'bg-pink-400',
+    'pink-light': 'bg-pink-300',
+
+    // Oranges/Yellows
+    orange: 'bg-orange-400',
+    'orange-light': 'bg-orange-300',
+    amber: 'bg-amber-400',
+    'amber-light': 'bg-amber-300',
+    yellow: 'bg-yellow-400',
+    'yellow-light': 'bg-yellow-300',
+    'yellow-dark': 'bg-yellow-500',
+
+    // Greens
+    green: 'bg-green-400',
+    'green-light': 'bg-green-300',
+    emerald: 'bg-emerald-400',
+    'emerald-light': 'bg-emerald-300',
+    teal: 'bg-teal-400',
+    'teal-light': 'bg-teal-300',
+    lime: 'bg-lime-400',
+    'lime-light': 'bg-lime-300',
+
+    // Cool Neutrals
+    gray: 'bg-gray-300',
+    'gray-dark': 'bg-gray-500',
+    slate: 'bg-slate-300',
+    'slate-dark': 'bg-slate-500',
+    zinc: 'bg-zinc-300',
+    'zinc-dark': 'bg-zinc-500',
+    neutral: 'bg-neutral-300',
+    'neutral-dark': 'bg-neutral-500',
+    stone: 'bg-stone-300',
+    'stone-dark': 'bg-stone-500',
+
+    // Gradients
+    'gradient-blue': 'bg-gradient-to-r from-blue-300 to-indigo-400',
+    'gradient-purple': 'bg-gradient-to-r from-purple-300 to-pink-300',
+    'gradient-teal': 'bg-gradient-to-r from-teal-300 to-emerald-400',
+    'gradient-orange': 'bg-gradient-to-r from-orange-300 to-yellow-300',
+    'gradient-pink': 'bg-gradient-to-r from-pink-300 to-rose-300',
+    'gradient-green': 'bg-gradient-to-r from-green-300 to-lime-300',
+};
+
+const DEFAULT_COLOR = 'bg-blue-500';
+const DEFAULT_GRADIENT = 'bg-gradient-to-r from-blue-500 to-indigo-600';
 
 const TrainingSyllabus = ({ syllabus }) => {
     const [activeSection, setActiveSection] = useState(0);
     const [isHovering, setIsHovering] = useState(null);
-    const [shouldScroll, setShouldScroll] = useState(false); // New state to control scrolling
+    const [shouldScroll, setShouldScroll] = useState(false);
     const activeSectionRef = useRef(null);
 
     // Filter out the first item if needed (assuming it's a header)
@@ -16,90 +87,48 @@ const TrainingSyllabus = ({ syllabus }) => {
 
     const handleNext = () => {
         if (activeSection < filteredData.length - 1) {
-            setShouldScroll(true); // Enable scrolling for this navigation
+            setShouldScroll(true);
             setActiveSection((prev) => prev + 1);
         }
     };
 
     const handlePrev = () => {
         if (activeSection > 0) {
-            setShouldScroll(true); // Enable scrolling for this navigation
+            setShouldScroll(true);
             setActiveSection((prev) => prev - 1);
         }
     };
 
     const handleSectionClick = (index) => {
-        setShouldScroll(true); // Enable scrolling for this navigation
+        setShouldScroll(true);
         setActiveSection(index);
     };
 
+    // Improved color handling function
+    const getSectionColor = (section) => {
+        if (!section?.color) return DEFAULT_COLOR;
+        
+        // If it's already a valid Tailwind class
+        if (section.color.startsWith('bg-')) {
+            // Check if it's a gradient
+            if (section.color.includes('gradient')) {
+                return section.color;
+            }
+            // Check if it's a valid color class
+            if (Object.values(colorMap).includes(section.color) || 
+                /^bg-(?:[a-z]+)-(?:[1-9]?[0-9]|100)$/.test(section.color)) {
+                return section.color;
+            }
+            return DEFAULT_COLOR;
+        }
 
-    const colorMap = {
-        // Blues
-        blue: 'bg-blue-400',
-        'blue-light': 'bg-blue-300',
-        'blue-dark': 'bg-blue-600',
-        sky: 'bg-sky-400',
-        'sky-light': 'bg-sky-300',
-        cyan: 'bg-cyan-400',
-        'cyan-light': 'bg-cyan-300',
-        indigo: 'bg-indigo-400',
-        'indigo-dark': 'bg-indigo-600',
+        // Handle gradient cases
+        if (section.color.startsWith('gradient-')) {
+            return colorMap[section.color] || DEFAULT_GRADIENT;
+        }
 
-        // Purples/Violets
-        purple: 'bg-purple-400',
-        'purple-light': 'bg-purple-300',
-        violet: 'bg-violet-400',
-        'violet-light': 'bg-violet-300',
-        fuchsia: 'bg-fuchsia-400',
-        'fuchsia-light': 'bg-fuchsia-300',
-
-        // Reds/Pinks
-        red: 'bg-red-400',
-        'red-light': 'bg-red-300',
-        rose: 'bg-rose-400',
-        'rose-light': 'bg-rose-300',
-        pink: 'bg-pink-400',
-        'pink-light': 'bg-pink-300',
-
-        // Oranges/Yellows
-        orange: 'bg-orange-400',
-        'orange-light': 'bg-orange-300',
-        amber: 'bg-amber-400',
-        'amber-light': 'bg-amber-300',
-        yellow: 'bg-yellow-400',
-        'yellow-light': 'bg-yellow-300',
-        'yellow-dark': 'bg-yellow-500',
-
-        // Greens
-        green: 'bg-green-400',
-        'green-light': 'bg-green-300',
-        emerald: 'bg-emerald-400',
-        'emerald-light': 'bg-emerald-300',
-        teal: 'bg-teal-400',
-        'teal-light': 'bg-teal-300',
-        lime: 'bg-lime-400',
-        'lime-light': 'bg-lime-300',
-
-        // Cool Neutrals
-        gray: 'bg-gray-300',
-        'gray-dark': 'bg-gray-500',
-        slate: 'bg-slate-300',
-        'slate-dark': 'bg-slate-500',
-        zinc: 'bg-zinc-300',
-        'zinc-dark': 'bg-zinc-500',
-        neutral: 'bg-neutral-300',
-        'neutral-dark': 'bg-neutral-500',
-        stone: 'bg-stone-300',
-        'stone-dark': 'bg-stone-500',
-
-        // Gradients
-        'gradient-blue': 'bg-gradient-to-r from-blue-300 to-indigo-400',
-        'gradient-purple': 'bg-gradient-to-r from-purple-300 to-pink-300',
-        'gradient-teal': 'bg-gradient-to-r from-teal-300 to-emerald-400',
-        'gradient-orange': 'bg-gradient-to-r from-orange-300 to-yellow-300',
-        'gradient-pink': 'bg-gradient-to-r from-pink-300 to-rose-300',
-        'gradient-green': 'bg-gradient-to-r from-green-300 to-lime-300',
+        // Map from color name to full class
+        return colorMap[section.color] || DEFAULT_COLOR;
     };
 
     // Scroll to active section when changed and shouldScroll is true
@@ -109,28 +138,9 @@ const TrainingSyllabus = ({ syllabus }) => {
                 behavior: "smooth",
                 block: "center",
             });
-            setShouldScroll(false); // Reset after scrolling
+            setShouldScroll(false);
         }
     }, [activeSection, shouldScroll]);
-
-    const getSectionColor = (section) => {
-        if (!section?.color) return 'bg-blue-500';
-
-        // Handle gradient cases
-        if (section.color.startsWith('gradient-')) {
-            return colorMap[section.color] || 'bg-gradient-to-r from-blue-500 to-indigo-600';
-        }
-
-        // If already a full class name (contains 'bg-')
-        if (section.color.includes('bg-')) {
-            const isValid = Object.values(colorMap).includes(section.color) ||
-                /^bg-(?:[a-z]+)-(?:50|[1-9]00)$/.test(section.color);
-            return isValid ? section.color : 'bg-blue-500';
-        }
-
-        // Otherwise map from color name to full class
-        return colorMap[section.color] || 'bg-blue-500';
-    };
 
     return (
         <div className="min-h-screen bg-white dark:bg-gray-900">
@@ -172,47 +182,6 @@ const TrainingSyllabus = ({ syllabus }) => {
                     </div>
                 </div>
 
-                {/* Navigation Icons - Hidden on mobile */}
-                {/* <div className="hidden md:flex flex-wrap justify-center items-center gap-4 mb-12">
-                    {filteredData.map((section, index) => {
-                        const sectionColor = getSectionColor(section);
-                        return (
-                            <div
-                                key={index}
-                                className="relative"
-                                onMouseEnter={() => setIsHovering(index)}
-                                onMouseLeave={() => setIsHovering(null)}
-                            >
-                                <motion.div
-                                    whileHover={{ scale: 1.1 }}
-                                    whileTap={{ scale: 0.95 }}
-                                    className={`w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl cursor-pointer transition-all duration-300 ${sectionColor} ${index === activeSection ? 'ring-4 ring-offset-2 ring-current ring-offset-white dark:ring-offset-gray-900' : ''}`}
-        onClick={() => handleSectionClick(index)}
-                                    initial={{ scale: 0 }}
-                                    animate={{ scale: 1 }}
-                                    transition={{ delay: index * 0.05, type: 'spring', stiffness: 200 }}
-                                >
-                                    {section.icon}
-                                </motion.div>
-                                <AnimatePresence>
-                                    {(isHovering === index) && (
-                                        <motion.div
-                                            initial={{ opacity: 0, y: 20 }}
-                                            animate={{ opacity: 1, y: 0 }}
-                                            exit={{ opacity: 0, y: 20 }}
-                                            transition={{ duration: 0.2 }}
-                                            className="absolute top-full left-1/2 transform -translate-x-1/2 mt-3 p-3 rounded-lg shadow-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 z-10 min-w-[200px] max-w-xs"
-                                        >
-                                            <h3 className="font-semibold text-gray-900 dark:text-white">{section.title}</h3>
-                                            <p className="text-sm mt-1 text-gray-600 dark:text-gray-300">{section.description}</p>
-                                        </motion.div>
-                                    )}
-                                </AnimatePresence>
-                            </div>
-                        );
-                    })}
-                </div> */}
-
                 {/* Main Content */}
                 <div className="flex flex-col lg:flex-row gap-8 justify-center">
                     {/* Current Section Content */}
@@ -232,7 +201,7 @@ const TrainingSyllabus = ({ syllabus }) => {
                                         transition={{ duration: 1, repeat: 0 }}
                                         className="text-4xl"
                                     >
-                                        {filteredData[activeSection].icon}
+                                        <img src={filteredData[activeSection].icon} alt='icons' className='w-16 h-16' />
                                     </motion.div>
                                     <div>
                                         <h2 className="text-2xl md:text-3xl font-bold">{filteredData[activeSection].title}</h2>
@@ -306,8 +275,7 @@ const TrainingSyllabus = ({ syllabus }) => {
                                                     ? 'bg-blue-50 dark:bg-gray-700 font-semibold text-blue-700 dark:text-white'
                                                     : 'hover:bg-gray-50 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-400'
                                                 }`}
-                                                    onClick={() => handleSectionClick(index)}
-
+                                            onClick={() => handleSectionClick(index)}
                                         >
                                             <div
                                                 className={`w-8 h-8 rounded-full flex items-center justify-center text-white ${index <= activeSection ? sectionColor : 'bg-gray-200 dark:bg-gray-600'

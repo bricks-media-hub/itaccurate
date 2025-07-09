@@ -6,6 +6,7 @@ import {
   FaHandsHelping,
   FaChalkboardTeacher,
   FaNetworkWired,
+  FaUserShield,
 } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -21,19 +22,19 @@ const JobPreparation = () => {
   const tabContent = {
     CourseCompletion: [
       {
-        icon: <FaGraduationCap className="text-white text-xl" />,
+        icon: <img src="/icons/graduation.svg" alt="graduation" className="w-11 h-11"/>,
         title: "Hands-On Training with Internships",
         description:
           "Participate in our internship opportunities to bridge the gap between theory and practice. Develop workplace-ready skills while working on tasks that mirror real-world scenarios.",
       },
       {
-        icon: <FaProjectDiagram className="text-white text-xl" />,
+        icon: <img src="/icons/blockchain.svg" alt="graduation" className="w-11 h-11"/>,
         title: "Industry-Driven Project Experience",
         description:
           "Engage in projects designed to meet market standards. Strengthen your portfolio with practical implementations that demonstrate your expertise and innovation.",
       },
       {
-        icon: <FaBriefcase className="text-white text-xl" />,
+        icon: <img src="/icons/resume-prep.svg" alt="graduation" className="w-11 h-11"/>,
         title: "Resume Writing Excellence",
         description:
           "Create an impactful resume that highlights your strengths and achievements effectively. Impress employers with a professional and tailored profile.",
@@ -41,19 +42,19 @@ const JobPreparation = () => {
     ],
     InterviewPreparation: [
       {
-        icon: <FaChalkboardTeacher className="text-white text-xl" />,
+        icon: <img src="/icons/teaching.svg" alt="graduation" className="w-11 h-11"/>,
         title: "Core Competency Development",
         description:
           "Sharpen your technical and analytical abilities with targeted practice sessions. Gain the confidence to tackle interview challenges with ease.",
       },
       {
-        icon: <FaHandsHelping className="text-white text-xl" />,
+        icon: <img src="/icons/help.svg" alt="graduation" className="w-11 h-11"/>,
         title: "Mock Interview Simulations",
         description:
           "Participate in realistic interview exercises that mimic actual hiring processes. Get constructive feedback to refine your performance.",
       },
       {
-        icon: <FaNetworkWired className="text-white text-xl" />,
+        icon: <img src="/icons/folder-network.svg" alt="graduation" className="w-11 h-11"/>,
         title: "Dynamic Group Discussions",
         description:
           "Enhance your communication and collaboration skills through interactive group sessions. Learn how to articulate your ideas effectively in a team setting.",
@@ -61,17 +62,24 @@ const JobPreparation = () => {
     ],
     Placement: [
       {
-        icon: <FaBriefcase className="text-white text-xl" />,
+        icon: <img src="/icons/job-assist.svg" alt="graduation" className="w-11 h-11"/>,
         title: "Ongoing Career Support",
         description:
           "Receive dedicated assistance throughout your job search until you secure a role with a leading organization. Benefit from personalized guidance at every step.",
       },
       {
-        icon: <FaHandsHelping className="text-white text-xl" />,
-        title: "Exclusive Referral Opportunities",
+        icon: <img src="/icons/referral.svg" alt="graduation" className="w-11 h-11"/>,
+        title: "Exclusive Referral Opporturnity",
         description:
           "Leverage our extensive network for access to exclusive job openings. Open doors to exciting career paths through our referral program.",
       },
+      {
+        icon: <img src="/icons/user-shield.svg" alt="graduation" className="w-11 h-11"/>,
+        title: "Job Guarantee Guidance",
+        description:
+          "Receive dedicated career support from industry mentors, resume optimization, and personalized mock interviews—ensuring you're fully prepared and placed with confidence.",
+      }
+
     ],
   };
 
@@ -110,11 +118,10 @@ const JobPreparation = () => {
               onClick={() => setActiveTab(tab.id)}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
-                activeTab === tab.id
+              className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${activeTab === tab.id
                   ? `text-white bg-gradient-to-r ${tabColors[tab.id]} shadow-lg`
                   : "bg-white dark:bg-zinc-800 text-gray-700 dark:text-gray-300 shadow-md hover:shadow-lg"
-              }`}
+                }`}
             >
               {tab.label}
             </motion.button>
@@ -136,27 +143,25 @@ const JobPreparation = () => {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                whileHover={{ y: -5, boxShadow: `0 15px 30px -5px rgba(168, 85, 247, 0.3)`}}
-                className={`bg-white dark:bg-zinc-800 p-8 rounded-2xl shadow-xl border-t-4 ${
-                  activeTab === "CourseCompletion"
+                whileHover={{ y: -5, boxShadow: `0 15px 30px -5px rgba(168, 85, 247, 0.3)` }}
+                className={`bg-white dark:bg-zinc-800 p-8 rounded-2xl shadow-xl border-t-4 flex items-center justify-center flex-col w-full ${activeTab === "CourseCompletion"
                     ? "border-purple-500"
                     : activeTab === "InterviewPreparation"
-                    ? "border-blue-500"
-                    : "border-emerald-500"
-                }`}
+                      ? "border-blue-500"
+                      : "border-emerald-500"
+                  }`}
               >
                 <div
-                  className={`w-12 h-12 rounded-full mb-6 flex items-center justify-center ${
-                    activeTab === "CourseCompletion"
+                  className={`w-16 h-16 rounded-full mb-6 flex items-center justify-center ${activeTab === "CourseCompletion"
                       ? "bg-purple-500"
                       : activeTab === "InterviewPreparation"
-                      ? "bg-blue-500"
-                      : "bg-emerald-500"
-                  }`}
+                        ? "bg-blue-500"
+                        : "bg-emerald-500"
+                    }`}
                 >
                   {item.icon}
                 </div>
-                <h4 className="text-xl font-bold mb-3 text-gray-800 dark:text-white">
+                <h4 className="text-xl font-bold mb-3 text-gray-800 dark:text-white self-start">
                   {item.title}
                 </h4>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">

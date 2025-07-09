@@ -42,7 +42,7 @@ const CompanyPartnersRatings = () => {
 
     return (
         <section className="p-8
-    md:mt-[12vh] lg:py-[7vh] dark:bg-gray-800 bg-gray-100"> 
+    md:mt-[12vh] lg:py-[7vh] dark:bg-gray-800 bg-gray-100">
             <div className="container mx-auto px-4 mb-8 text-center">
                 <h2 className="text-3xl md:text-4xl font-bold dark:text-white text-gray-800 mb-2">
                     Our Valued <span className='text-blue-600'>Partners</span>
@@ -93,14 +93,12 @@ const CompanyPartnersRatings = () => {
                                             <p className="text-sm font-medium dark:text-gray-200 text-gray-700 truncate">
                                                 {company.name}
                                             </p>
-                                            <div className="flex items-center justify-center mt-1">
-                                                <span className="text-xs font-semibold dark:text-yellow-400 text-yellow-500 mr-1">
-                                                    ⭐ {company.rating}
-                                                </span>
-                                                <span className="text-xs dark:text-gray-400 text-gray-500">
-                                                    ({company.reviews}+)
-                                                </span>
+                                            <div className="flex items-center justify-center text-xs mt-1 space-x-1">
+                                                <img src="/icons/star.svg" alt="star" className="w-3 h-3 text-yellow-500 dark:text-yellow-400 -mt-1" />
+                                                <span className="font-semibold text-yellow-500 dark:text-yellow-400">{company.rating}</span>
+                                                <span className="text-gray-500 dark:text-gray-400">({company.reviews}+)</span>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>

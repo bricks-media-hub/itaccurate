@@ -26,7 +26,8 @@ function DemoBanner() {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 <div className="relative">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none z-20">
-                    <FiUser className="text-gray-800 dark:text-white" />
+                    {/* <FiUser className="text-gray-800 dark:text-white" /> */}
+                    <img src="/icons/user.svg" alt="user" className='w-5 h-5'/>
                   </div>
                   <input
                     type="text"
@@ -37,7 +38,8 @@ function DemoBanner() {
 
                 <div className="relative">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none z-20">
-                    <FiPhone className="text-gray-800 dark:text-white" />
+                    {/* <FiPhone className="text-gray-800 dark:text-white" /> */}
+                    <img src="/icons/phone.svg" alt="phone" className='w-5 h-5'/>
                   </div>
                   <input
                     type="tel"
@@ -48,7 +50,8 @@ function DemoBanner() {
 
                 <div className="relative">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none z-20">
-                    <FiMapPin className="text-gray-800 dark:text-white" />
+                    {/* <FiMapPin className="text-gray-800 dark:text-white" /> */}
+                    <img src="/icons/map-pin-icon.png" alt="map" className='w-5 h-5'/>
                   </div>
                   <input
                     type="text"

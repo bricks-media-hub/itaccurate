@@ -40,7 +40,7 @@ const Contact = () => {
 
     const locations = [
         {
-            icon: <MdLocationOn className="text-2xl text-blue-600" />,
+            icon: <img src="/icons/location.svg" alt="email" className='w-10 h-10'/>,
             location: 'Nagpur',
             address: '607, 608 B-wing, Lokmat Bhavan, Lokmat Square, Ramdaspehi, Nagpur',
             phone: '09175978889',
@@ -48,7 +48,7 @@ const Contact = () => {
             mapLink: '#contact-nagpur'
         },
         {
-            icon: <MdLocationOn className="text-2xl text-blue-600" />,
+            icon: <img src="/icons/location.svg" alt="email" className='w-10 h-10'/>,
             location: 'Thane',
             address: 'Office No. 806, Paradise Tower, Noupada, Thane West',
             phone: '07738277389',
@@ -225,11 +225,13 @@ const Contact = () => {
                                                     <p className="text-gray-600 dark:text-gray-300 mb-3">{loc.address}</p>
                                                     <div className="space-y-2">
                                                         <div className="flex items-center text-gray-700 dark:text-gray-300">
-                                                            <MdPhone className="mr-2 text-blue-600" />
+                                                            {/* <MdPhone className="mr-2 text-blue-600" /> */}
+                                                            <img src="/icons/phone.svg" alt="email" className='w-5 h-5 mr-2'/>
                                                             <span>{loc.phone}</span>
                                                         </div>
                                                         <div className="flex items-center text-gray-700 dark:text-gray-300">
-                                                            <MdOutlineEmail className="mr-2 text-blue-600" />
+                                                            {/* <MdOutlineEmail className="mr-2 text-blue-600" /> */}
+                                                            <img src="/icons/mail.svg" alt="email" className='w-5 h-5 mr-2'/>
                                                             <span>{loc.email}</span>
                                                         </div>
                                                     </div>
@@ -239,7 +241,9 @@ const Contact = () => {
                                                         target="_blank"
                                                         rel="noopener noreferrer"
                                                     >
-                                                        <FiMapPin className="mr-1" /> View on map
+                                                        {/* <FiMapPin className="mr-1" />  */}
+                                                        <img src="/icons/map-location.svg" alt="email" className='w-7 h-7 mr-1'/>
+                                                        View on map
                                                     </a>
                                                 </div>
                                             </div>
@@ -259,7 +263,8 @@ const Contact = () => {
                                     <div className="space-y-4">
                                         <div className="flex items-center">
                                             <div className="bg-blue-100 dark:bg-blue-900/30 p-2 rounded-full mr-4">
-                                                <FiMail className="text-blue-600" />
+                                                {/* <FiMail className="text-blue-600" /> */}
+                                                <img src="/icons/email.svg" alt="email" className='w-7 h-7'/>
                                             </div>
                                             <div>
                                                 <h4 className="font-medium text-gray-500 dark:text-gray-400">Email</h4>
@@ -270,7 +275,8 @@ const Contact = () => {
                                         </div>
                                         <div className="flex items-center">
                                             <div className="bg-blue-100 dark:bg-blue-900/30 p-2 rounded-full mr-4">
-                                                <FiGlobe className="text-blue-600" />
+                                                {/* <FiGlobe className="text-blue-600" /> */}
+                                                <img src="/icons/internet-globe.svg" alt="email" className='w-7 h-7'/>
                                             </div>
                                             <div>
                                                 <h4 className="font-medium text-gray-500 dark:text-gray-400">Website</h4>
@@ -312,8 +318,8 @@ const Contact = () => {
                                 <form onSubmit={handleSubmit}>
                                     <div className="space-y-5">
                                         <div>
-                                            <label className="block text-gray-700 dark:text-gray-300 mb-2 font-medium" htmlFor="name">
-                                                <FiUser className="inline mr-2" /> Full Name
+                                            <label className="flex text-gray-700 dark:text-gray-300 mb-2 font-medium" htmlFor="name">
+                                                <img src="/icons/user.svg" alt="email" className='w-5 h-5 mr-2'/> Full Name
                                             </label>
                                             <input
                                                 type="text"
@@ -328,8 +334,8 @@ const Contact = () => {
                                         </div>
 
                                         <div>
-                                            <label className="block text-gray-700 dark:text-gray-300 mb-2 font-medium" htmlFor="phone">
-                                                <FiPhone className="inline mr-2" /> Phone Number
+                                            <label className="flex text-gray-700 dark:text-gray-300 mb-2 font-medium" htmlFor="phone">
+                                                <img src="/icons/phone.svg" alt="email" className='w-5 h-5 mr-2'/> Phone Number
                                             </label>
                                             <input
                                                 type="tel"
@@ -344,8 +350,8 @@ const Contact = () => {
                                         </div>
 
                                         <div>
-                                            <label className="block text-gray-700 dark:text-gray-300 mb-2 font-medium" htmlFor="location">
-                                                <FiMapPin className="inline mr-2" /> Your Location
+                                            <label className="flex text-gray-700 dark:text-gray-300 mb-2 font-medium" htmlFor="location">
+                                                <img src="/icons/map-pin-icon.png" alt="email" className='w-5 h-5 mr-2'/> Your Location
                                             </label>
                                             <input
                                                 type="text"
@@ -360,8 +366,8 @@ const Contact = () => {
                                         </div>
 
                                         <div>
-                                            <label className="block text-gray-700 dark:text-gray-300 mb-2 font-medium" htmlFor="course">
-                                                <FiBookOpen className="inline mr-2" /> Interested Course
+                                            <label className="flex text-gray-700 dark:text-gray-300 mb-2 font-medium" htmlFor="course">
+                                                <img src="/icons/book.svg" alt="email" className='w-6 h-6 mr-2'/> Interested Course
                                             </label>
                                             <select
                                                 id="course"
