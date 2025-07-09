@@ -30,17 +30,17 @@ const Footer = ({ activeLocation, setActiveLocation }) => {
 
     const contactInfo = [
         {
-            icon: <MdEmail />,
+            icon: <img src="/icons/mail.svg" alt='mail' className='w-4 h-4' />,
             label: 'info@itaccurate.com',
             href: 'mailto:info@itaccurata.com',
         },
         {
-            icon: <MdPhone />,
+            icon: <img src="/icons/phone.svg" alt='mail' className='w-4 h-4' />,
             label: '09175978889',
             href: 'tel:09175978889',
         },
         {
-            icon: <MdLocationOn />,
+            icon: <img src="/icons/map-pin-icon.png" alt='mail' className='w-5 h-5' />,
             location: 'Nagpur',
             mapId: 'nagpur',
             address: '607, 608 B-wing, Lokmat Bhavan, Lokmat Square, Ramdaspehi, Nagpur Ph. - ',
@@ -49,10 +49,10 @@ const Footer = ({ activeLocation, setActiveLocation }) => {
             mapLink: 'https://www.google.com/maps/dir//607,+608+B-wing,+Lokmat+Bhavan,+Lokmat+Square,+Ramdaspeth,+Nagpur,+Maharashtra+440012'
         },
         {
-            icon: <MdLocationOn />,
+            icon: <img src="/icons/map-pin-icon.png" alt='mail' className='w-5 h-5' />,
             location: 'Thane',
             mapId: 'thane',
-            address: 'Office No. 806, Paradise Tower, Noupada, Thane West Ph. - ',
+            address: "Office No. 806, 8th Floor, Paradise Tower, next to McDonald's, Naupada, Thane West Ph. - ",
             phone: '07738277389',
             phoneLink: 'tel:07738277389',
             mapLink: 'https://maps.app.goo.gl/gmcV17DF4sUR2VVj7'

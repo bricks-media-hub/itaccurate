@@ -36,80 +36,77 @@ export const AnimatedWhatMakesUsDifferent = ({
       <div className="relative grid grid-cols-1 gap-8 md:gap-16 md:grid-cols-2">
         {/* Image Gallery */}
         <div className="relative h-[350px] w-full md:h-[450px] lg:h-[500px]">
-      <AnimatePresence>
-        {testimonials.map((testimonial, index) => (
-          <motion.div
-            key={testimonial.src}
-            initial={{
-              opacity: 0,
-              scale: 0.9,
-              z: -100,
-              rotate: randomRotateY(),
-            }}
-            animate={{
-              opacity: isActive(index) ? 1 : 0.7,
-              scale: isActive(index) ? 1 : 0.95,
-              z: isActive(index) ? 0 : -100,
-              rotate: isActive(index) ? 0 : randomRotateY(),
-              zIndex: isActive(index) ? 40 : testimonials.length + 2 - index,
-              y: isActive(index) ? [0, -60, 0] : 0,
-            }}
-            exit={{
-              opacity: 0,
-              scale: 0.9,
-              z: 100,
-              rotate: randomRotateY(),
-            }}
-            transition={{
-              duration: 0.4,
-              ease: "easeInOut",
-            }}
-            className="absolute inset-0 origin-bottom group"
-            whileHover={isActive(index) ? {
-              scale: 1.02,
-              transition: { duration: 0.2 }
-            } : {}}
-          >
-            <div className="relative h-full w-full overflow-hidden rounded-3xl shadow-lg">
-              <img
-                src={testimonial.src}
-                alt={testimonial.name}
-                width={400}
-                height={400}
-                draggable={false}
-                className={`h-full w-full object-cover object-center transition-all duration-300 ${
-                  isActive(index) ? 'group-hover:scale-105 group-hover:brightness-75' : ''
-                }`}
-              />
-              
-              {/* Text Overlay - Centered */}
-              {isActive(index) && (
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  className={`absolute inset-0 flex items-center justify-center backdrop-blur-sm bg-gradient-to-t from-slate-800/80 to-transparent p-6 ${
-                    isActive(index) ? 'group-hover:backdrop-blur-sm' : ''
-                  }`}
-                >
-                  <motion.div
-                    className={`w-full text-center p-4 ${
-                      isActive(index) ? 'group-hover:from-slate-900/90' : ''
-                    }`}
-                  >
-                    <motion.h3 
-                      className="text-xl font-bold text-white transition-all duration-300 group-hover:text-2xl"
-                      initial={{ y: 20 }}
-                      animate={{ y: 0 }}
+          <AnimatePresence>
+            {testimonials.map((testimonial, index) => (
+              <motion.div
+                key={testimonial.src}
+                initial={{
+                  opacity: 0,
+                  scale: 0.9,
+                  z: -100,
+                  rotate: randomRotateY(),
+                }}
+                animate={{
+                  opacity: isActive(index) ? 1 : 0.7,
+                  scale: isActive(index) ? 1 : 0.95,
+                  z: isActive(index) ? 0 : -100,
+                  rotate: isActive(index) ? 0 : randomRotateY(),
+                  zIndex: isActive(index) ? 40 : testimonials.length + 2 - index,
+                  y: isActive(index) ? [0, -60, 0] : 0,
+                }}
+                exit={{
+                  opacity: 0,
+                  scale: 0.9,
+                  z: 100,
+                  rotate: randomRotateY(),
+                }}
+                transition={{
+                  duration: 0.4,
+                  ease: "easeInOut",
+                }}
+                className="absolute inset-0 origin-bottom group"
+                whileHover={isActive(index) ? {
+                  scale: 1.02,
+                  transition: { duration: 0.2 }
+                } : {}}
+              >
+                <div className="relative h-full w-full overflow-hidden rounded-3xl shadow-lg">
+                  <img
+                    src={testimonial.src}
+                    alt={testimonial.name}
+                    width={400}
+                    height={400}
+                    draggable={false}
+                    className={`h-full w-full object-cover object-center transition-all duration-300 ${isActive(index) ? 'group-hover:scale-105 group-hover:brightness-75' : ''
+                      }`}
+                  />
+
+                  {/* Text Overlay - Centered */}
+                  {isActive(index) && (
+                    <motion.div
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      className={`absolute inset-0 flex items-center justify-center backdrop-blur-sm bg-gradient-to-t from-slate-800/80 to-transparent p-6 ${isActive(index) ? 'group-hover:backdrop-blur-sm' : ''
+                        }`}
                     >
-                      {testimonial.title}
-                    </motion.h3>
-                  </motion.div>
-                </motion.div>
-              )}
-            </div>
-          </motion.div>
-        ))}
-      </AnimatePresence>
+                      <motion.div
+                        className={`w-full text-center p-4 ${isActive(index) ? 'group-hover:from-slate-900/90' : ''
+                          }`}
+                      >
+                        <motion.h3
+                          className="text-xl font-bold text-white transition-all duration-300 group-hover:text-2xl"
+                          initial={{ y: 20 }}
+                          animate={{ y: 0 }}
+                        >
+                          {testimonial.title}
+                        </motion.h3>
+                      </motion.div>
+                    </motion.div>
+                  )}
+                </div>
+              </motion.div>
+            ))}
+          </AnimatePresence>
         </div>
 
         {/* Content Section */}
@@ -134,9 +131,7 @@ export const AnimatedWhatMakesUsDifferent = ({
                 transition={{ delay: 0.1 }}
               >
                 <div className="mr-4 mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-400">
-                  <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
+                  <img src="/icons/blue-tick.svg" alt="blue-tick" />
                 </div>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
                   Training programs at IT Accurate act as a foundation for students who are willing to become distinguished & expert IT professionals.
@@ -150,9 +145,7 @@ export const AnimatedWhatMakesUsDifferent = ({
                 transition={{ delay: 0.2 }}
               >
                 <div className="mr-4 mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-400">
-                  <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
+                  <img src="/icons/blue-tick.svg" alt="blue-tick" />
                 </div>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
                   Our commitment & focus towards empowering students with cutting-edge industry practices & expertise has resulted in exceptional learning experiences.
@@ -166,9 +159,7 @@ export const AnimatedWhatMakesUsDifferent = ({
                 transition={{ delay: 0.3 }}
               >
                 <div className="mr-4 mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-400">
-                  <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
+                  <img src="/icons/blue-tick.svg" alt="blue-tick" />
                 </div>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
                   This approach has helped students seize the right career opportunities in competitive markets.

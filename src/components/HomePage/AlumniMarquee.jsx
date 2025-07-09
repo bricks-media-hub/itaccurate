@@ -74,7 +74,7 @@ const companyData = [
   },
 ];
 
-const AlumniMarquee = () => {
+const AlumniMarquee = ({ title }) => {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
@@ -96,9 +96,22 @@ const AlumniMarquee = () => {
 
   return (
     <section className="w-full py-12 bg-gradient-to-r from-blue-100 to-purple-100 dark:from-gray-900 dark:to-gray-800">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-white mb-6">
-        Our Alumni <span className="text-blue-600 dark:text-blue-400">Working Here</span>
-      </h2>
+<h2
+  className={`text-3xl md:text-4xl font-bold text-center mb-6 ${
+    title ? 'text-4xl md:text-5xl font-bold mb-4 text-blue-800 dark:text-blue-300' : 'text-gray-800 dark:text-white'
+  }`}
+>
+  {title ? (
+    title
+  ) : (
+    <>
+      Our Alumni{' '}
+      <span className="text-blue-600 dark:text-blue-400">Working Here</span>
+    </>
+  )}
+</h2>
+
+
 
       <Marquee gradient={false} speed={60} gradientWidth={60}>
         {companyData.map((company, index) => (

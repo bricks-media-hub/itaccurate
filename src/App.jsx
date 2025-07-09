@@ -96,11 +96,11 @@ const router = createBrowserRouter([
         path: '/about-us',
         element: <AboutUs />
       },
-            {
+      {
         path: '/blog',
         element: <Blogs />
       },
-            {
+      {
         path: '/contact',
         element: <Contact />
       },

@@ -70,7 +70,8 @@ function UpcomingBatches() {
                 {/* Date */}
                 <div className="mb-3">
                   <p className="flex items-center gap-2 text-gray-700 dark:text-gray-200 font-medium">
-                    <FiCalendar className="text-blue-600 dark:text-blue-400" />
+                    {/* <FiCalendar className="text-blue-600 dark:text-blue-400" /> */}
+                    <img src="/icons/calendar2.svg" alt="calender" className='w-5 h-5'/>
                     <span>{new Date(date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}</span>
                   </p>
                 </div>
@@ -78,11 +79,13 @@ function UpcomingBatches() {
                 {/* Course details */}
                 <div className="space-y-2 text-sm text-gray-600 dark:text-gray-300 mb-5">
                   <p className="flex items-center gap-2">
-                    <FiBookOpen className="text-indigo-600 dark:text-indigo-400" />
+                    {/* <FiBookOpen className="text-indigo-600 dark:text-indigo-400" /> */}
+                    <img src="/icons/book.svg" alt="calender" className='w-5 h-5'/>
                     <span>Mon-Sat Sessions</span>
                   </p>
                   <p className="flex items-center gap-2">
-                    <FiClock className="text-blue-600 dark:text-blue-400" />
+                    {/* <FiClock className="text-blue-600 dark:text-blue-400" /> */}
+                    <img src="/icons/job-clock.png" alt="calender" className='w-5 h-5'/>
                     <span>Flexible Timing Available</span>
                   </p>
                   <p>Weekdays Regular</p>

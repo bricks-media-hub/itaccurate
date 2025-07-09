@@ -332,7 +332,7 @@ const RoadmapItem = ({ module, index, activeIndex, setActiveIndex, position, tot
         onMouseLeave={() => {setActiveIndex(null); setActiveLayer(0);}}
         className={`relative z-10 w-16 h-16 rounded-full flex items-center justify-center text-2xl bg-gradient-to-tr ${module.color} text-white shadow-xl hover:shadow-2xl transition-all cursor-pointer`}
       >
-        {module.icon}
+        <img src={module.icon} alt='icon' className="w-10 h-10" />
         <div className="absolute -inset-2 rounded-full border-2 border-white/30 animate-ping opacity-0 hover:opacity-100 transition-opacity"></div>
       </motion.div>
 
@@ -353,15 +353,15 @@ const RoadmapItem = ({ module, index, activeIndex, setActiveIndex, position, tot
             initial={{ opacity: 0, y: position === "top" ? 10 : position === "bottom" ? -10 : 10, scale: 0.9 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: position === "top" ? 10 : position === "bottom" ? -10 : 10, scale: 0.9 }}
-            className={`absolute z-40 ${position === "top" ? "top-full mt-0" : position === "bottom" ? "bottom-full mb-4" : "top-full mt-4"} w-[90vw] max-w-md bg-white dark:bg-gray-800 p-6 rounded-xl shadow-2xl border border-gray-200 dark:border-gray-700 text-left backdrop-blur-sm`}
+            className={`absolute z-50 ${position === "top" ? "top-full mt-0" : position === "bottom" ? "bottom-full mb-4" : "top-full mt-4"} w-[90vw] max-w-md bg-white dark:bg-gray-800 p-6 rounded-xl shadow-2xl border border-gray-200 dark:border-gray-700 text-left backdrop-blur-sm`}
             // style={{ zIndex: 1000 + index }}
           >
             <div 
               className={`absolute ${position === "top" ? "-top-2" : position === "bottom" ? "-bottom-2" : "-top-2"} left-1/2 transform -translate-x-1/2 w-4 h-4 bg-white dark:bg-gray-800 rotate-45 ${position === "top" ? "border-t border-l" : position === "bottom" ? "border-b border-r" : "border-t border-l"} border-gray-200 dark:border-gray-700`}
             />
             <h4 className="font-semibold text-lg mb-2 flex items-center">
-              <span className={`bg-gradient-to-r ${module.color} rounded-full w-5 h-5 flex items-center justify-center text-white mr-2 text-sm`}>
-                {module.icon}
+              <span className={`bg-gradient-to-r ${module.color} rounded-full w-10 h-10 flex items-center justify-center text-white mr-2 text-sm`}>
+                <img src={module.icon} alt='small icon' className="w-5 h-5" />
               </span>
               {module.title} Details
             </h4>

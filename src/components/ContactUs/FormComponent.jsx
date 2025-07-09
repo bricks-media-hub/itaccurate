@@ -1,9 +1,35 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiArrowRight, FiCheck, FiUser, FiPhone, FiBookOpen, FiMail, FiMapPin } from 'react-icons/fi';
 import { FaGraduationCap } from 'react-icons/fa';
+import { useLocation } from 'react-router-dom';
 
 export default function FreeDemoForm() {
+
+  const courses = [
+    "SAP", "Salesforce", "AWS", "DevOps",
+    "Python", "AI & ML", "Data Analytics",
+    "Business Analytics", "ServiceNow", "HR Training"
+  ];
+  const SAPCourses = [
+    "SAP",
+    "SAP MM",
+    "SAP FICO",
+    "SAP SD",
+    "SAP HCM",
+    "SAP ABAP",
+    "SAP BASIS",
+    "SAP SCM",
+    "SAP ARIBA",
+    "SAP PP",
+    "SAP PM",
+    "SAP QM",
+    "SAP LE&SL",
+    "SAP WM&EWM",
+    "SAP FIORI",
+    "SAP BTP",
+  ]
+
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
@@ -12,12 +38,17 @@ export default function FreeDemoForm() {
   });
   const [submitted, setSubmitted] = useState(false);
   const [hovered, setHovered] = useState(false);
-
-  const courses = [
-    "SAP", "Salesforce", "AWS", "DevOps", 
-    "Python", "AI & ML", "Data Analytics", 
-    "Business Analytics", "ServiceNow", "HR Training"
-  ];
+  const [courseName, setCourseData] = useState([]);
+  const location = useLocation();
+  
+  useEffect(()=> {
+    if(location.pathname.includes('sap')){
+      setCourseData(SAPCourses);
+    }
+    else{
+      setCourseData(courses);
+    }
+  }, [location.pathname])
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -35,25 +66,25 @@ export default function FreeDemoForm() {
 
   return (
     <section className="w-full max-w-md mx-auto my-4 px-4">
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         className="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl shadow-xl border border-gray-200 dark:border-gray-700 p-6 relative overflow-hidden"
       >
         {/* Animated background elements */}
-        <motion.div 
+        <motion.div
           animate={{ rotate: 360 }}
           transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
           className="absolute -right-20 -top-20 w-40 h-40 bg-blue-100 dark:bg-blue-900 rounded-full opacity-10"
         />
-        <motion.div 
+        <motion.div
           animate={{ rotate: -360 }}
           transition={{ duration: 50, repeat: Infinity, ease: "linear" }}
           className="absolute -left-20 -bottom-20 w-40 h-40 bg-purple-100 dark:bg-purple-900 rounded-full opacity-10"
         />
 
         <div className="relative z-10">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-2xl font-bold text-center text-gray-800 dark:text-white mb-4"
@@ -86,7 +117,7 @@ export default function FreeDemoForm() {
                 <div className="space-y-3">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 flex items-center">
-                      <FiUser className="mr-2 text-blue-500" /> Name
+                      <img src='/icons/user.svg' alt='user' className="inline mr-2 w-5 h-5 -mt-1" /> Name
                     </label>
                     <input
                       type="text"
@@ -101,7 +132,7 @@ export default function FreeDemoForm() {
 
                   <div>
                     <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 flex items-center">
-                      <FiPhone className="mr-2 text-blue-500" /> Phone
+                      <img src='/icons/phone.svg' alt='contact' className="inline mr-2 w-5 h-5 -mt-1" /> Phone
                     </label>
                     <input
                       type="tel"
@@ -113,26 +144,26 @@ export default function FreeDemoForm() {
                       placeholder="Your phone number"
                     />
                   </div>
-                    <div className="mb-4">
+                  <div className="mb-4">
                     <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 flex items-center">
-                        <FiMapPin className="text-blue-500 mr-2" /> Your Location
-                      </label>
-                      <div className="relative">
-                        <input
-                          type="text"
-                          id="location"
-                          name="location"
-                          value={formData.location}
-                          onChange={handleChange}
-                      className="w-full px-3 py-2 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                          required
-                          placeholder="Enter your location"
-                        />
-                      </div>
+                      <img src='/icons/map-pin-icon.png' alt='contact' className="inline mr-2 w-5 h-5 -mt-1" /> Your Location
+                    </label>
+                    <div className="relative">
+                      <input
+                        type="text"
+                        id="location"
+                        name="location"
+                        value={formData.location}
+                        onChange={handleChange}
+                        className="w-full px-3 py-2 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        required
+                        placeholder="Enter your location"
+                      />
                     </div>
+                  </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 flex items-center">
-                      <FaGraduationCap className="mr-2 text-blue-500" /> Course
+                      <img src='/icons/select-course.svg' alt='contact' className="inline mr-2 w-7 h-7 -mt-1" /> Course
                     </label>
                     <select
                       name="course"
@@ -142,7 +173,7 @@ export default function FreeDemoForm() {
                       required
                     >
                       <option value="">Select a course</option>
-                      {courses.map(course => (
+                      {courseName.map(course => (
                         <option key={course} value={course}>{course}</option>
                       ))}
                     </select>

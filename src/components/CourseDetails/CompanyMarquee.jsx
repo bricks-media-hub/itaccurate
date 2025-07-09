@@ -43,7 +43,7 @@ const logos = [
     "https://www.infocepts.ai/wp-content/uploads/2023/01/Infocepts-Data-AI-logo.png",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5woo_4eAvmn17M46XMWACq7yvdqJFm6Xlmg&s",
     "https://1000logos.net/wp-content/uploads/2019/08/Deloitte-Logo.jpg"
-    
+
   ],
   [
     "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
@@ -61,13 +61,23 @@ const logos = [
   ],
 ];
 
-const CompanyMarquee = () => {
+const CompanyMarquee = ({ title }) => {
   return (
     <section className="py-12 bg-white dark:bg-gray-900">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-slate-800 dark:text-white mb-8">
-          Achieve Your Career Goals Like Our <span className="text-indigo-600">Successful Alumni</span>
+        <h2
+          className={`text-3xl md:text-4xl font-bold text-center mb-6 ${title ? 'text-4xl md:text-5xl font-bold mb-4 text-blue-800 dark:text-blue-300' : 'text-gray-800 dark:text-white'
+            }`}
+        >
+          {title ? (
+            title
+          ) : (
+            <>
+              Achieve Your Career Goals Like Our{' '}
+              <span className="text-blue-600 dark:text-blue-400">Successfull Alumni</span>
+            </>
+          )}
         </h2>
 
         {/* Marquee Rows */}

@@ -144,7 +144,7 @@ export default function FreeDemoForm({ onClose }) {
                   >
                     <div className="mb-4">
                       <label className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium" htmlFor="name">
-                        <FiUser className="inline mr-2" /> Your Name
+                        <img src='/icons/user.svg' alt='user' className="inline mr-2 w-5 h-5 -mt-1" /> Your Name
                       </label>
                       <input
                         type="text"
@@ -160,7 +160,7 @@ export default function FreeDemoForm({ onClose }) {
                     
                     <div className="mb-4">
                       <label className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium" htmlFor="phone">
-                        <FiPhone className="inline mr-2" /> Phone Number
+                        <img src='/icons/phone.svg' alt='contact' className="inline mr-2 w-5 h-5 -mt-1" /> Phone Number
                       </label>
                       <input
                         type="tel"
@@ -176,7 +176,7 @@ export default function FreeDemoForm({ onClose }) {
                     
                     <div className="mb-4">
                       <label className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium" htmlFor="location">
-                        <FiMapPin className="inline mr-2" /> Your Location
+                        <img src='/icons/map-pin-icon.png' alt='contact' className="inline mr-2 w-5 h-5 -mt-1" /> Your Location
                       </label>
                       <div className="relative">
                         <input
@@ -194,7 +194,7 @@ export default function FreeDemoForm({ onClose }) {
                     
                     <div className="mb-6">
                       <label className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium" htmlFor="course">
-                        <FiBookOpen className="inline mr-2" /> Select a Course
+                        <img src='/icons/select-course.svg' alt='contact' className="inline mr-2 w-7 h-7 -mt-1" /> Select a Course
                       </label>
                       <select
                         id="course"

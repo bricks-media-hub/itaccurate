@@ -59,32 +59,32 @@ const Career = () => {
 
     const benefits = [
         {
-            icon: "/icons/career-clock.png", // Replace with your image path
+            icon: "/icons/career-clock.png", 
             title: "Flexibility",
             description: "Flexible work hours and remote work options to maintain work-life balance."
         },
         {
-            icon: "/icons/career-coffee.png", // Replace with your image path
+            icon: "/icons/career-coffee.png", 
             title: "Catered Meals",
             description: "Enjoy delicious catered meals during office hours."
         },
         {
-            icon: "/icons/career-users.png", // Replace with your image path
+            icon: "/icons/career-users.png", 
             title: "Team-building",
             description: "Engage in fun and productive team-building activities regularly."
         },
         {
-            icon: "/icons/career-dollar.png", // Replace with your image path
+            icon: "/icons/career-dollar.png", 
             title: "Competitive Salary",
             description: "We offer industry-competitive compensation packages."
         },
         {
-            icon: "/icons/career-award.png", // Replace with your image path
+            icon: "/icons/career-award.png", 
             title: "Growth Opportunities",
             description: "Clear career progression paths and professional development."
         },
         {
-            icon: "/icons/career-briefcase.png", // Replace with your image path
+            icon: "/icons/career-briefcase.png", 
             title: "Latest Tech",
             description: "Work with cutting-edge technologies and tools."
         }
@@ -302,7 +302,7 @@ const Career = () => {
                                                 whileTap={{ scale: 0.95 }}
                                                 className="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all duration-300 shadow-md hover:shadow-lg"
                                             >
-                                                Apply Now <img src="/icons/send-icon.png" alt="Send" className="w-4 h-4 ml-2" />
+                                                Apply Now <img src="/icons/career-apply.svg" alt="Send" className="w-4 h-4 ml-2" />
                                             </motion.a>
                                         </td>
                                     </motion.tr>
@@ -464,7 +464,7 @@ const Career = () => {
                                         className="flex items-start"
                                     >
                                         <span className="flex-shrink-0 mt-1 mr-3">
-                                            <img src="/images/check-icon.png" alt="Check" className="w-5 h-5" />
+                                            <img src="/icons/career-tick.svg" alt="Check" className="w-5 h-5" />
                                         </span>
                                         <span className="text-gray-700 dark:text-gray-300">{item}</span>
                                     </motion.li>

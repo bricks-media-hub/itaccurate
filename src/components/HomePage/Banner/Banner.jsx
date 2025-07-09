@@ -16,9 +16,6 @@ function Banner() {
     <div className="relative bg-white dark:bg-gray-900 transition-colors duration-300 pb-0 w-full">
       {showForm && <FreeDemoForm onClose={() => setShowForm(false)} />}
 
-
-
-
       <section className="relative w-full flex flex-col-reverse md:flex-row items-center justify-center px-4 py-12 sm:py-16 md:py-20 md:min-h-[70vh] overflow-hidden bg-white dark:bg-gray-900 transition-colors duration-300">
 
         {/* Stars Background Animation */}
@@ -78,7 +75,8 @@ function Banner() {
               href="#training-courses"
               className="flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-500 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md text-base"
             >
-              📄 Explore Courses
+              <img src="/icons/explore.svg" alt="explore" className='w-7 h-7'/>
+               Explore Courses
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.05 }}
@@ -87,7 +85,8 @@ function Banner() {
               onClick={() => setShowForm(true)}
               className="flex items-center justify-center gap-2 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border border-gray-300 dark:border-gray-600 font-semibold py-3 px-6 rounded-lg shadow-md text-base"
             >
-              📧 Contact Now
+              <img src="/icons/contact.svg" alt="contact" className='w-7 h-7'/>
+               Contact Now
             </motion.a>
           </div>
         </motion.div>

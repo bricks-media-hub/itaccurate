@@ -5,25 +5,25 @@
             "title": "Best SAP Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "Best SAP Training by IT Accurate has well-structured SAP Training program. The SAP training Course as well as certification courses help you to maximize the productivity of your Sales, Marketing or Admin tasks by tapping into the vast resources of Salesforce. Join us, Best SAP Classes to build up your career in the booming sector and add the hot skill to your resume. Our subject expert provides the best real time projects, examples, and learnings in the SAP classes. SAP SERVER also provided by IT Accurate ! ",
-                "paragraph2": "Join us, Best SAP Classes to build up your career in the booming sector and add the hot skill to your resume. Our subject expert provides the best real-time projects, examples, and learnings in the SAP classes. <strong>SAP SERVER also provided!</strong>"
+                "paragraph1": "Best SAP Training by IT Accurate has well-structured SAP Training program. The SAP training Course as well as certification courses help you to maximize the productivity of your Sales, Marketing or Admin tasks by tapping into the vast resources of Salesforce. Join us, Best SAP Classes to build up your career in the booming sector and add the hot skill to your resume. Our subject expert provides the best real time projects, examples, and learnings in the SAP classes.",
+                "paragraph2": "Join us, Best SAP Classes to build up your career in the booming sector and add the hot skill to your resume. Our subject expert provides the best real-time projects, examples, and learnings in the SAP classes."
             },
             "coveringTopics": [
                 {
                     "title": "Resume preparation",
-                    "icon": "📝"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview practice",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "6-months internship",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
                     "title": "100% job opportunities guaranteed program",
-                    "icon": "🎓"
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -42,62 +42,62 @@
             "keyFeatures": [
                 {
                     "text": "152+ Hrs Instructor-Led Training",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "36Hrs Self-Placed Videos",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Certificate Guidance",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "Job Assistance",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/job-assist.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Mentor Support",
-                    "icon": "FiHelpCircle",
+                    "icon": "/icons/teaching.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Free Demo Class Available",
-                    "icon": "FiCalendar",
+                    "icon": "/icons/calendar.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 },
                 {
                     "text": "Resume Editing",
-                    "icon": "FiEdit2",
+                    "icon": "/icons/resume-edit.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')"
                 },
                 {
                     "text": "Affordable Fees Structure",
-                    "icon": "FiDollarSign",
+                    "icon": "/icons/wallet.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=500')"
                 },
                 {
                     "text": "52 Hrs Project & Exercises",
-                    "icon": "FiCode",
+                    "icon": "/icons/code.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')"
                 },
                 {
                     "text": "Flexible Schedule",
-                    "icon": "FiCalendar",
+                    "icon": "/icons/calendar2.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=500')"
                 },
                 {
                     "text": "100% Job Oriented Training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')"
                 },
                 {
                     "text": "Completed 1500+ Batches",
-                    "icon": "FiUsers",
+                    "icon": "/icons/batch.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')"
                 }
             ],
@@ -606,19 +606,19 @@
             "coveringTopics": [
                 {
                     "title": "Resume preparation",
-                    "icon": "📝"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview practice",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "6-months internship",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
                     "title": "100% job opportunities guaranteed program",
-                    "icon": "🎓"
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -637,32 +637,32 @@
             "keyFeatures": [
                 {
                     "text": "124+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "Free demo class available",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Certificate Guidance",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Industry expert faculties",
-                    "icon": "FiHelpCircle",
+                    "icon": "/icons/help.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Completed 200+ batches",
-                    "icon": "FiUsers",
+                    "icon": "/icons/batch.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
@@ -670,7 +670,7 @@
                 {
                     "title": "Introduction",
                     "description": "Basic understanding of SAP and Materials Management",
-                    "icon": "📘",
+                    "icon": "/icons/book2.svg",
                     "items": [
                         "What is SAP?",
                         "What is SAP ABAP?",
@@ -685,7 +685,7 @@
                 {
                     "title": "SAP MM End user (ECC/S4 HANA)",
                     "description": "Hands-on training for daily SAP MM end-user activities",
-                    "icon": "🧾",
+                    "icon": "/icons/sheet.svg",
                     "items": [
                         "SAP software access.",
                         "SAP NetWeaver login.",
@@ -699,7 +699,7 @@
                 {
                     "title": "SAP MM Consultant (ECC/S4 HANA)",
                     "description": "Core configuration and project implementation for SAP MM",
-                    "icon": "🛠️",
+                    "icon": "/icons/hammer.svg",
                     "items": [
                         "What is SAP MM consultant?",
                         "Phases of SAP implementation project.",
@@ -714,7 +714,7 @@
                 {
                     "title": "Resume Preparation",
                     "description": "Crafting a strong SAP MM-specific resume",
-                    "icon": "📄",
+                    "icon": "/icons/resume-edit.svg",
                     "items": [
                         "Include keywords.",
                         "How to prepare resume.",
@@ -745,7 +745,7 @@
                         "Go live"
                     ],
                     "color": "bg-blue-500",
-                    "icon": "📦",
+                    "icon": "/icons/toolbox.svg",
                     "description": "Foundational concepts of SAP Materials Management"
                 },
                 {
@@ -762,7 +762,7 @@
                         "Define Purchasing group"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "🏢",
+                    "icon": "/icons/building.svg",
                     "description": "Configuring organizational structure in SAP MM"
                 },
                 {
@@ -776,7 +776,7 @@
                         "Assign purchasing organization to reference purchasing organization"
                     ],
                     "color": "bg-green-500",
-                    "icon": "🔗",
+                    "icon": "/icons/locked.svg",
                     "description": "Linking organizational units in MM structure"
                 },
                 {
@@ -793,21 +793,21 @@
                         "Posting period and posting period variant"
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "🔄",
+                    "icon": "/icons/return.svg",
                     "description": "MM integration with Financial Controlling"
                 },
                 {
                     "title": "Display Organization Structure",
                     "subpoints": [],
                     "color": "bg-red-500",
-                    "icon": "👁️",
+                    "icon": "/icons/eye.svg",
                     "description": "Viewing MM organizational hierarchy"
                 },
                 {
                     "title": "Display Transport Organizer",
                     "subpoints": [],
                     "color": "bg-purple-500",
-                    "icon": "🚚",
+                    "icon": "/icons/transport.svg",
                     "description": "Transport management in MM configuration"
                 },
                 {
@@ -821,7 +821,7 @@
                         "Quota Arrangements"
                     ],
                     "color": "bg-pink-500",
-                    "icon": "🗃️",
+                    "icon": "/icons/file-container.svg",
                     "description": "Managing core MM master data elements"
                 },
                 {
@@ -832,7 +832,7 @@
                         "Define screen layout at documents level"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "📄",
+                    "icon": "/icons/document.svg",
                     "description": "Configuring purchasing document types in MM"
                 },
                 {
@@ -849,7 +849,7 @@
                         "PO Cost Centre PO/ PO for Non-stock item/ PO with reference account assignment"
                     ],
                     "color": "bg-teal-500",
-                    "icon": "🛒",
+                    "icon": "/icons/shopping-cart.svg",
                     "description": "End-to-end purchasing processes in SAP MM"
                 },
                 {
@@ -859,14 +859,14 @@
                         "Schedule Agreements"
                     ],
                     "color": "bg-blue-600",
-                    "icon": "🤝",
+                    "icon": "/icons/help.svg",
                     "description": "Managing long-term procurement agreements"
                 },
                 {
                     "title": "Automatic Account Determinations",
                     "subpoints": [],
                     "color": "bg-teal-500",
-                    "icon": "⚙️",
+                    "icon": "/icons/settings.svg",
                     "description": "Configuring automatic account assignments in MM"
                 },
                 {
@@ -878,7 +878,7 @@
                         "Automatic PO at GR"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "🚀",
+                    "icon": "/icons/optimize.svg",
                     "description": "Streamlining purchasing operations"
                 },
                 {
@@ -900,7 +900,7 @@
                         "Invoice for service"
                     ],
                     "color": "bg-pink-500",
-                    "icon": "🛠️",
+                    "icon": "/icons/repair.svg",
                     "description": "Managing service procurement processes"
                 },
                 {
@@ -914,7 +914,7 @@
                         "Reservations"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "📦",
+                    "icon": "/icons/inventory.svg",
                     "description": "Inventory control and stock management"
                 },
                 {
@@ -928,7 +928,7 @@
                         "Post physical inventory differences"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "🔍",
+                    "icon": "/icons/search-scope.svg",
                     "description": "Conducting physical inventory counts"
                 },
                 {
@@ -942,7 +942,7 @@
                         "Pipe Line Handling process"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "⭐",
+                    "icon": "/icons/star.svg",
                     "description": "Managing special inventory scenarios"
                 },
                 {
@@ -957,7 +957,7 @@
                         "Subsequent Credit"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "🧾",
+                    "icon": "/icons/invoice.svg",
                     "description": "Accounts payable processes in MM"
                 },
                 {
@@ -972,7 +972,7 @@
                         "Release purchase order"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "🔐",
+                    "icon": "/icons/padlock.svg",
                     "description": "Implementing approval workflows in procurement"
                 },
                 {
@@ -986,7 +986,7 @@
                         "Assign Valuation category to valuation area"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "💲",
+                    "icon": "/icons/dollar.svg",
                     "description": "Managing multiple valuations for materials"
                 },
                 {
@@ -1004,7 +1004,7 @@
                         "Creation of purchase order"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "🏷️",
+                    "icon": "/icons/pricing.svg",
                     "description": "Configuring pricing in procurement"
                 },
                 {
@@ -1035,7 +1035,7 @@
                         "Reservation"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "👨‍💻",
+                    "icon": "/icons/emp-comp.svg",
                     "description": "Practical MM end-user operations"
                 }
             ],
@@ -1054,7 +1054,7 @@
                         "Navigation in sap"
                     ],
                     "color": "bg-blue-500",
-                    "icon": "🏛️",
+                    "icon": "/icons/mansion.svg",
                     "description": "Fundamentals of SAP ecosystem and navigation"
                 },
                 {
@@ -1066,7 +1066,7 @@
                         "Overview of SAP Firoi app"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "✨",
+                    "icon": "/icons/shining.svg",
                     "description": "SAP S/4HANA specific innovations in MM"
                 },
                 {
@@ -1076,7 +1076,7 @@
                         "Purchase organization, Plant, Storage location, Purchase group"
                     ],
                     "color": "bg-green-500",
-                    "icon": "🏢",
+                    "icon": "/icons/building.svg",
                     "description": "Configuring MM organizational hierarchy"
                 },
                 {
@@ -1091,7 +1091,7 @@
                         "Info record, Source list, Quota"
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "🗃️",
+                    "icon": "/icons/file-container.svg",
                     "description": "Core MM master data configuration"
                 },
                 {
@@ -1106,7 +1106,7 @@
                         "Automatic PO creation"
                     ],
                     "color": "bg-red-500",
-                    "icon": "🛒",
+                    "icon": "/icons/online-shopping.svg",
                     "description": "End-to-end procurement processes"
                 },
                 {
@@ -1117,7 +1117,7 @@
                         "Consignment"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "⭐",
+                    "icon": "/icons/business-process.svg",
                     "description": "Handling special procurement scenarios"
                 },
                 {
@@ -1126,7 +1126,7 @@
                         "PR Release strategy"
                     ],
                     "color": "bg-pink-500",
-                    "icon": "🔐",
+                    "icon": "/icons/release.svg",
                     "description": "Approval workflows for procurement"
                 },
                 {
@@ -1135,7 +1135,7 @@
                         "PO output determination"
                     ],
                     "color": "bg-teal-500",
-                    "icon": "📨",
+                    "icon": "/icons/message.svg",
                     "description": "Configuring purchase order communications"
                 },
                 {
@@ -1144,7 +1144,7 @@
                         "Condition type, Pricing procedure, Condition records"
                     ],
                     "color": "bg-blue-600",
-                    "icon": "🏷️",
+                    "icon": "/icons/pricing.svg",
                     "description": "Pricing configuration in procurement"
                 },
                 {
@@ -1154,7 +1154,7 @@
                         "Valuation class"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "💰",
+                    "icon": "/icons/money-pouch.svg",
                     "description": "Material valuation methods"
                 },
                 {
@@ -1169,7 +1169,7 @@
                         "Obsolete transactions"
                     ],
                     "color": "bg-green-500",
-                    "icon": "📦",
+                    "icon": "/icons/inventory.svg",
                     "description": "Inventory control and movement processing"
                 },
                 {
@@ -1179,7 +1179,7 @@
                         "Creating Physicals Inventory Documents"
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "🔍",
+                    "icon": "/icons/search-scope.svg",
                     "description": "Physical stock counting processes"
                 },
                 {
@@ -1192,7 +1192,7 @@
                         "Automatic Document Adjustment"
                     ],
                     "color": "bg-red-500",
-                    "icon": "🧾",
+                    "icon": "/icons/invoice-verify.svg",
                     "description": "Accounts payable processes in MM"
                 },
                 {
@@ -1201,7 +1201,7 @@
                         "Subsequent settlement – Vendor Rebate Agreements"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "🔄",
+                    "icon": "/icons/vendor-rebate.svg",
                     "description": "Managing vendor rebate agreements"
                 },
                 {
@@ -1216,7 +1216,7 @@
                         "ONE ON ONE CLASSROOM INTERVIEW PRACTICE"
                     ],
                     "color": "bg-pink-500",
-                    "icon": "🎯",
+                    "icon": "/icons/focus.svg",
                     "description": "Career development and practical training components"
                 }
             ],
@@ -8895,6 +8895,63 @@
                     }
                 ]
             },
+            "keyFeatures": [
+                    {
+                        "text": "200+ Hours of comprehensive course duration",
+                        "icon": "FiClock",
+                        "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    },
+                    {
+                        "text": "100% Job-oriented training with real-world projects",
+                        "icon": "FiBriefcase",
+                        "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    },
+                    {
+                        "text": "Experienced instructors with expertise in Data Engineering technologies",
+                        "icon": "FiUsers",
+                        "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')"
+                    },
+                    {
+                        "text": "Free demo class available for hands-on experience",
+                        "icon": "FiPlayCircle",
+                        "bgImage": "url('https://images.unsplash.com/photo-1509869175650-a1d97972541a?q=80&w=500')"
+                    },
+                    {
+                        "text": "Over 300+ successful batches with industry-leading results",
+                        "icon": "FiAward",
+                        "bgImage": "url('https://images.unsplash.com/photo-1606761568499-6d2451b23c66?q=80&w=500')"
+                    },
+                    {
+                        "text": "Certification guidance for top industry-recognized certifications",
+                        "icon": "FiFileText",
+                        "bgImage": "url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=500')"
+                    },
+                    {
+                        "text": "Hands-on experience with Data Ingestion, Processing, and Storage tools",
+                        "icon": "FiDatabase",
+                        "bgImage": "url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=500')"
+                    },
+                    {
+                        "text": "Comprehensive coverage of SQL, NoSQL, Cloud Computing, and Big Data technologies",
+                        "icon": "FiLayers",
+                        "bgImage": "url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=500')"
+                    },
+                    {
+                        "text": "Training on leading Data Engineering platforms like AWS, Spark, Hadoop, and MongoDB",
+                        "icon": "FiCloud",
+                        "bgImage": "url('https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=500')"
+                    },
+                    {
+                        "text": "Industry-specific case studies and real-time problem-solving techniques",
+                        "icon": "FiBook",
+                        "bgImage": "url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=500')"
+                    },
+                    {
+                        "text": "Post-training placement support and resume building",
+                        "icon": "FiUserCheck",
+                        "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')"
+                    }
+            ],
             "roadMap": [
                 {
                     "title": "Introduction to Data Engineering",
