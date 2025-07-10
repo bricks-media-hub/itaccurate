@@ -70,7 +70,7 @@ function KeyFeatures() {
                         className="mb-4 sm:mb-6 p-3 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/30 dark:to-purple-900/30 rounded-xl"
                       >
                         {/* <IconComponent className="text-blue-600 dark:text-blue-400 text-3xl sm:text-4xl" /> */}
-                        <img src={feature.icon} alt="icons" className='w-14 h-14'/>
+                        <img src={feature?.icon} alt="icons" className='w-14 h-14'/>
                       </motion.div>
                      {/* )} */}
 

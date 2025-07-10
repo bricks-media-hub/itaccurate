@@ -68,7 +68,7 @@ function TopicsSection({ courseDetail }) {
                 whileHover={{ scale: 1.1, rotate: 5 }}
                 transition={{ type: 'spring', stiffness: 400 }}
               >
-                <img src={topic.icon} alt='icons' className='w-14 h-14'/>
+                <img src={topic?.icon} alt='icons' className='w-14 h-14'/>
               </motion.div>
 
               <motion.h3
