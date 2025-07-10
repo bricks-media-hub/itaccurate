@@ -332,7 +332,7 @@ const RoadmapItem = ({ module, index, activeIndex, setActiveIndex, position, tot
         onMouseLeave={() => {setActiveIndex(null); setActiveLayer(0);}}
         className={`relative z-10 w-16 h-16 rounded-full flex items-center justify-center text-2xl bg-gradient-to-tr ${module.color} text-white shadow-xl hover:shadow-2xl transition-all cursor-pointer`}
       >
-        <img src={module.icon} alt='icon' className="w-10 h-10" />
+        <img src={module?.icon} alt='icon' className="w-10 h-10" />
         <div className="absolute -inset-2 rounded-full border-2 border-white/30 animate-ping opacity-0 hover:opacity-100 transition-opacity"></div>
       </motion.div>
 
@@ -361,7 +361,7 @@ const RoadmapItem = ({ module, index, activeIndex, setActiveIndex, position, tot
             />
             <h4 className="font-semibold text-lg mb-2 flex items-center">
               <span className={`bg-gradient-to-r ${module.color} rounded-full w-10 h-10 flex items-center justify-center text-white mr-2 text-sm`}>
-                <img src={module.icon} alt='small icon' className="w-5 h-5" />
+                <img src={module?.icon} alt='small icon' className="w-5 h-5" />
               </span>
               {module.title} Details
             </h4>

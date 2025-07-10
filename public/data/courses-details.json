@@ -1266,35 +1266,35 @@
             "coveringTopics": [
                 {
                     "title": "End-User Training (1 month - ECC / S/4 HANA)",
-                    "icon": "📘"
+                    "icon": "/icons/closed-book.svg"
                 },
                 {
                     "title": "Configuration Training (2 months - ECC / S/4 HANA)",
-                    "icon": "🛠️"
+                    "icon": "/icons/hammer.svg"
                 },
                 {
                     "title": "Project Work (1 month)",
-                    "icon": "📂"
+                    "icon": "/icons/folder.svg"
                 },
                 {
                     "title": "Advanced Excel and Tally",
-                    "icon": "📊"
+                    "icon": "/icons/excel.svg"
                 },
                 {
                     "title": "Resume Preparation",
-                    "icon": "📝"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview Practice",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "Internship (6 months real-world exposure)",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
                     "title": "100% Job Opportunities Guaranteed Program",
-                    "icon": "🎓"
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -1311,32 +1311,32 @@
             "keyFeatures": [
                 {
                     "text": "162+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "Free demo class available",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Certificate Guidance",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Industry expert faculties",
-                    "icon": "FiHelpCircle",
+                    "icon": "/icons/help.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Completed 200+ batches",
-                    "icon": "FiUsers",
+                    "icon": "/icons/batch.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
@@ -1344,7 +1344,7 @@
                 {
                     "title": "Introduction",
                     "description": "Basic understanding of SAP and SAP FICO modules",
-                    "icon": "📘",
+                    "icon": "/icons/book2.svg",
                     "items": [
                         "What is SAP?",
                         "What is SAP FICO?",
@@ -1359,7 +1359,7 @@
                 {
                     "title": "Understanding SAP FICO Basics",
                     "description": "Fundamentals of SAP ERP and SAP FICO module usage",
-                    "icon": "📗",
+                    "icon": "/icons/sheet.svg",
                     "items": [
                         "Learn the fundamentals of SAP ERP and its modules.",
                         "Understand the role of SAP FICO in financial management and reporting.",
@@ -1370,7 +1370,7 @@
                 {
                     "title": "Mastering Financial Accounting (FI)",
                     "description": "Core configuration and operations for financial accounting",
-                    "icon": "💰",
+                    "icon": "/icons/money-pouch.svg",
                     "items": [
                         "Learn how to configure and manage general ledger accounts.",
                         "Understand accounts receivable and accounts payable processes.",
@@ -1381,7 +1381,7 @@
                 {
                     "title": "Controlling Module (CO) Essentials",
                     "description": "Cost management and internal control within SAP CO",
-                    "icon": "📉",
+                    "icon": "/icons/falling-graph.svg",
                     "items": [
                         "Dive into cost element accounting and cost center accounting.",
                         "Learn about profit center accounting and internal orders.",
@@ -1392,7 +1392,7 @@
                 {
                     "title": "Integration with Other SAP Modules",
                     "description": "Integration of SAP FICO with MM, SD and other modules",
-                    "icon": "🔗",
+                    "icon": "/icons/locked.svg",
                     "items": [
                         "Explore integration between SAP FICO and other modules like MM (Materials Management) and SD (Sales and Distribution).",
                         "Understand how financial transactions flow across different modules.",
@@ -1403,7 +1403,7 @@
                 {
                     "title": "Advanced Reporting and Analysis",
                     "description": "Generating and analyzing financial data with SAP tools",
-                    "icon": "📊",
+                    "icon": "/icons/sap.svg",
                     "items": [
                         "Master SAP FICO reporting tools like SAP ECC, SAP S/4HANA, and SAP BW/4HANA.",
                         "Learn how to create financial statements, balance sheets, and profit and loss statements.",
@@ -1414,7 +1414,7 @@
                 {
                     "title": "Real-world Projects and Case Studies",
                     "description": "Hands-on projects to apply FICO concepts in real-life scenarios",
-                    "icon": "🧪",
+                    "icon": "/icons/testube.svg",
                     "items": [
                         "Engage in hands-on projects to apply SAP FICO concepts in real-world scenarios.",
                         "Analyze case studies to understand industry-specific challenges and solutions.",
@@ -1425,7 +1425,7 @@
                 {
                     "title": "Resume Preparation",
                     "description": "Crafting a strong and professional SAP FICO resume",
-                    "icon": "📄",
+                    "icon": "/icons/resume-prep.svg",
                     "items": [
                         "Include keywords",
                         "How to prepare resume",
@@ -1453,7 +1453,7 @@
                         "Introduction of sap Screens."
                     ],
                     "color": "bg-blue-500",
-                    "icon": "📘",
+                    "icon": "/icons/closed-book.svg",
                     "description": "Overview of SAP FICO and ERP fundamentals"
                 },
                 {
@@ -1468,7 +1468,7 @@
                         "Define financial management area."
                     ],
                     "color": "bg-green-500",
-                    "icon": "🏢",
+                    "icon": "/icons/building.svg",
                     "description": "Structuring organizational elements in SAP FICO"
                 },
                 {
@@ -1480,7 +1480,7 @@
                         "Assign company code to financial management area."
                     ],
                     "color": "bg-purple-500",
-                    "icon": "🔗",
+                    "icon": "/icons/locked.svg",
                     "description": "Organizational assignments setup in SAP"
                 },
                 {
@@ -1496,7 +1496,7 @@
                         "Company code globe parameter."
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "📊",
+                    "icon": "/icons/sap.svg",
                     "description": "Core setup of general ledger and financial controls"
                 },
                 {
@@ -1511,7 +1511,7 @@
                         "Month-end and year-end processes."
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "🧑‍💼",
+                    "icon": "/icons/briefcase2.svg",
                     "description": "End-user operations in SAP FICO"
                 },
                 {
@@ -1527,7 +1527,7 @@
                         "Project implementation methodology."
                     ],
                     "color": "bg-red-500",
-                    "icon": "🛠️",
+                    "icon": "/icons/hammer.svg",
                     "description": "Consultant-level SAP FICO configuration and projects"
                 },
                 {
@@ -1542,7 +1542,7 @@
                         "Create profit Centre."
                     ],
                     "color": "bg-teal-500",
-                    "icon": "🏬",
+                    "icon": "/icons/centre.svg",
                     "description": "Controlling area and profit centre setup"
                 },
                 {
@@ -1559,7 +1559,7 @@
                         "Assign accounting principle to ledger group"
                     ],
                     "color": "bg-cyan-500",
-                    "icon": "💹",
+                    "icon": "/icons/mobile-acc.svg",
                     "description": "Handling parallel ledgers and accounting principles"
                 },
                 {
@@ -1574,7 +1574,7 @@
                         "Activate document splitting"
                     ],
                     "color": "bg-orange-500",
-                    "icon": "📑",
+                    "icon": "/icons/document.svg",
                     "description": "Configure document splitting for better reporting"
                 },
                 {
@@ -1590,7 +1590,7 @@
                         "Copy to company code/ Copy to fiscal year."
                     ],
                     "color": "bg-pink-500",
-                    "icon": "🔢",
+                    "icon": "/icons/score-board.svg",
                     "description": "Configuring number ranges and document types"
                 },
                 {
@@ -1604,7 +1604,7 @@
                         "Display of sap table data."
                     ],
                     "color": "bg-blue-600",
-                    "icon": "🧾",
+                    "icon": "/icons/sheet.svg",
                     "description": "Managing general ledger master records"
                 },
                 {
@@ -1617,7 +1617,7 @@
                         "GL account document for ledger group."
                     ],
                     "color": "bg-green-600",
-                    "icon": "📥",
+                    "icon": "/icons/folders.svg",
                     "description": "Posting general accounting entries in SAP"
                 },
                 {
@@ -1630,7 +1630,7 @@
                         "Cleared item reversal."
                     ],
                     "color": "bg-yellow-600",
-                    "icon": "🔁",
+                    "icon": "/icons/return.svg",
                     "description": "Reversing documents and clearing items"
                 },
                 {
@@ -1642,7 +1642,7 @@
                         "Intercompany code posting using single screen."
                     ],
                     "color": "bg-purple-600",
-                    "icon": "🌐",
+                    "icon": "/icons/internet-globe.svg",
                     "description": "Handling transactions across company codes"
                 },
                 {
@@ -1658,7 +1658,7 @@
                         "Delete Park documents."
                     ],
                     "color": "bg-indigo-600",
-                    "icon": "📂",
+                    "icon": "/icons/folder.svg",
                     "description": "Temporary document management in SAP"
                 },
                 {
@@ -1670,7 +1670,7 @@
                         "Delete hold document list."
                     ],
                     "color": "bg-blue-500",
-                    "icon": "🧷",
+                    "icon": "/icons/saftey-pin.svg",
                     "description": "Working with hold documents for temporary saves"
                 },
                 {
@@ -1685,7 +1685,7 @@
                         "Delete sample documents."
                     ],
                     "color": "bg-orange-600",
-                    "icon": "🗂️",
+                    "icon": "/icons/sample-document.svg",
                     "description": "Using sample documents for recurring entries"
                 },
                 {
@@ -1697,7 +1697,7 @@
                         "Create recurring document in book transaction code."
                     ],
                     "color": "bg-cyan-600",
-                    "icon": "🔁",
+                    "icon": "/icons/recurring.svg",
                     "description": "Automating recurring financial entries"
                 },
                 {
@@ -1710,7 +1710,7 @@
                         "Creation of loan account and foreign currency valuation."
                     ],
                     "color": "bg-teal-600",
-                    "icon": "💱",
+                    "icon": "/icons/foriegn.svg",
                     "description": "Foreign currency posting and revaluation"
                 },
                 {
@@ -1725,7 +1725,7 @@
                         "Creation of vendor master record and Post invoice."
                     ],
                     "color": "bg-purple-700",
-                    "icon": "💰",
+                    "icon": "/icons/money-pouch.svg",
                     "description": "Vendor master data and payable processing"
                 },
                 {
@@ -1739,7 +1739,7 @@
                         "Display payable profit Centre & payable Centre."
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "📤",
+                    "icon": "/icons/vendor-acc.svg",
                     "description": "Posting and managing vendor-related transactions"
                 },
                 {
@@ -1753,7 +1753,7 @@
                         "Vendor invoice posting / vendor payment posting."
                     ],
                     "color": "bg-pink-600",
-                    "icon": "💼",
+                    "icon": "/icons/briefcase2.svg",
                     "description": "Advanced handling of vendor GL accounts"
                 },
                 {
@@ -1769,7 +1769,7 @@
                         "Vendor invoice posting."
                     ],
                     "color": "bg-green-700",
-                    "icon": "🧾",
+                    "icon": "/icons/sheet.svg",
                     "description": "GST configuration and tax processing in SAP"
                 },
                 {
@@ -1781,7 +1781,7 @@
                         "Invoice posting."
                     ],
                     "color": "bg-red-600",
-                    "icon": "🏷️",
+                    "icon": "/icons/withholding-tax.svg",
                     "description": "TDS setup and withholding tax configuration"
                 },
                 {
@@ -1794,7 +1794,7 @@
                         "Define number ranges for checks and Vendor outgoing payment."
                     ],
                     "color": "bg-indigo-600",
-                    "icon": "🏦",
+                    "icon": "/icons/house-bank.svg",
                     "description": "Managing company bank accounts and configurations"
                 },
                 {
@@ -1808,7 +1808,7 @@
                         "Automatic payment program run."
                     ],
                     "color": "bg-lime-600",
-                    "icon": "🔄",
+                    "icon": "/icons/autopay.svg",
                     "description": "Automating vendor payment processing"
                 },
                 {
@@ -1824,7 +1824,7 @@
                         "Post customer invoice."
                     ],
                     "color": "bg-sky-600",
-                    "icon": "💳",
+                    "icon": "/icons/acc-recieve.svg",
                     "description": "Customer account configuration and invoice handling"
                 },
                 {
@@ -1837,7 +1837,7 @@
                         "Display change line item."
                     ],
                     "color": "bg-amber-600",
-                    "icon": "📬",
+                    "icon": "/icons/customer-posting.svg",
                     "description": "Posting financial transactions for customers"
                 },
                 {
@@ -1849,7 +1849,7 @@
                         "Dunning run."
                     ],
                     "color": "bg-gray-700",
-                    "icon": "🔔",
+                    "icon": "/icons/dunning.svg",
                     "description": "Managing customer payment reminders"
                 },
                 {
@@ -1867,7 +1867,7 @@
                         "Sale of asset, scrapping of asset and transfer of asset."
                     ],
                     "color": "bg-stone-600",
-                    "icon": "🏗️",
+                    "icon": "/icons/asset-accounting.svg",
                     "description": "Managing fixed assets lifecycle and depreciation"
                 },
                 {
@@ -1878,7 +1878,7 @@
                         "Define variant for bank statement and Bank reconciliation."
                     ],
                     "color": "bg-emerald-700",
-                    "icon": "📘",
+                    "icon": "/icons/bank-statement.svg",
                     "description": "Reconciling bank accounts with SAP entries"
                 },
                 {
@@ -1889,7 +1889,7 @@
                         "Display financial statements."
                     ],
                     "color": "bg-fuchsia-700",
-                    "icon": "📊",
+                    "icon": "/icons/sap.svg",
                     "description": "Customizing and generating financial reports"
                 },
                 {
@@ -1904,7 +1904,7 @@
                         "Bank reconciliation."
                     ],
                     "color": "bg-yellow-700",
-                    "icon": "🧾",
+                    "icon": "/icons/sheet.svg",
                     "description": "Tally fundamentals for business accounting"
                 },
                 {
@@ -1919,7 +1919,7 @@
                         "Advanced functions (LOOKUP, INDEX, MATCH)."
                     ],
                     "color": "bg-green-800",
-                    "icon": "📈",
+                    "icon": "/icons/increase-graph.svg",
                     "description": "Enhancing Excel skills for financial analysis"
                 }
             ],
@@ -1978,19 +1978,19 @@
             "coveringTopics": [
                 {
                     "title": "Resume preparation",
-                    "icon": "📝"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview practice",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "6-months internship",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
                     "title": "100% job opportunities guaranteed program",
-                    "icon": "🎓"
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -2010,32 +2010,32 @@
             "keyFeatures": [
                 {
                     "text": "125+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "Free demo class available",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Certificate Guidance",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Industry expert faculties",
-                    "icon": "FiHelpCircle",
+                    "icon": "/icons/help.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Completed 200+ batches",
-                    "icon": "FiUsers",
+                    "icon": "/icons/batch.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
@@ -2043,7 +2043,7 @@
                 {
                     "title": "Introduction",
                     "description": "Basic understanding of SAP and Sales & Distribution",
-                    "icon": "📘",
+                    "icon": "/icons/book.svg",
                     "items": [
                         "What is SAP?",
                         "What is SAP SD?",
@@ -2058,7 +2058,7 @@
                 {
                     "title": "Stakeholder Alignment",
                     "description": "Collaborating with cross-functional teams for requirements gathering",
-                    "icon": "🤝",
+                    "icon": "/icons/help.svg",
                     "items": [
                         "Engage with key stakeholders, including sales, finance, and customer service teams.",
                         "Gather input on requirements and expectations."
@@ -2068,7 +2068,7 @@
                 {
                     "title": "System Landscape Analysis",
                     "description": "Evaluating existing systems and integration points",
-                    "icon": "🔍",
+                    "icon": "/icons/search-scope.svg",
                     "items": [
                         "Review the existing system landscape, including integration points with other SAP modules and external systems.",
                         "Identify potential areas for system consolidation or optimization."
@@ -2078,7 +2078,7 @@
                 {
                     "title": "Data Migration Strategy",
                     "description": "Planning and executing data transfer with integrity",
-                    "icon": "📊",
+                    "icon": "/icons/sap.svg",
                     "items": [
                         "Plan and execute a data migration strategy to ensure a smooth transition of historical data.",
                         "Validate and cleanse data to maintain data integrity."
@@ -2088,7 +2088,7 @@
                 {
                     "title": "User Training and Change Management",
                     "description": "Preparing users for system adoption",
-                    "icon": "👩‍🏫",
+                    "icon": "/icons/teaching.svg",
                     "items": [
                         "Develop a comprehensive training plan for end-users.",
                         "Implement change management strategies to facilitate user adoption."
@@ -2098,7 +2098,7 @@
                 {
                     "title": "Testing Phase",
                     "description": "Ensuring system reliability through rigorous testing",
-                    "icon": "🧪",
+                    "icon": "/icons/testube.svg",
                     "items": [
                         "Conduct thorough testing, including unit testing, integration testing, and user acceptance testing (UAT).",
                         "Address and resolve any issues identified during testing."
@@ -2108,7 +2108,7 @@
                 {
                     "title": "Go-Live Planning",
                     "description": "Executing a smooth transition to the new system",
-                    "icon": "🚀",
+                    "icon": "/icons/rocket.svg",
                     "items": [
                         "Develop a detailed go-live plan with minimal disruption to business operations.",
                         "Consider a phased rollout approach for different business units or regions."
@@ -2118,7 +2118,7 @@
                 {
                     "title": "Resume preparation",
                     "description": "Crafting an effective SAP professional resume",
-                    "icon": "📝",
+                    "icon": "/icons/resume-prep.svg",
                     "items": [
                         "Include keywords.",
                         "How to prepare resume.",
@@ -2143,7 +2143,7 @@
                         "R/3 Architecture"
                     ],
                     "color": "bg-blue-500",
-                    "icon": "📚",
+                    "icon": "/icons/books-bunch.svg",
                     "description": "Fundamentals of SAP Sales and Distribution module"
                 },
                 {
@@ -2157,7 +2157,7 @@
                         "Shipping Point, Loading Point"
                     ],
                     "color": "bg-green-500",
-                    "icon": "🏢",
+                    "icon": "/icons/building.svg",
                     "description": "Organizational units and their configuration in SD"
                 },
                 {
@@ -2169,7 +2169,7 @@
                         "Other Records"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "🗃️",
+                    "icon": "/icons/toolbox.svg",
                     "description": "Core data elements for SD processes"
                 },
                 {
@@ -2193,7 +2193,7 @@
                         "Standard order"
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "🔄",
+                    "icon": "/icons/recurring.svg",
                     "description": "End-to-end sales order processing"
                 },
                 {
@@ -2213,7 +2213,7 @@
                         "Pricing and Related IMG activity"
                     ],
                     "color": "bg-red-500",
-                    "icon": "💰",
+                    "icon": "/icons/money-pouch.svg",
                     "description": "Pricing configuration and determination"
                 },
                 {
@@ -2230,7 +2230,7 @@
                         "PGI & PGR"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "🚚",
+                    "icon": "/icons/transport.svg",
                     "description": "Logistics execution processes"
                 },
                 {
@@ -2240,7 +2240,7 @@
                         "Quotation"
                     ],
                     "color": "bg-pink-500",
-                    "icon": "📋",
+                    "icon": "/icons/paper-writing.svg",
                     "description": "Pre-sales activities and documents"
                 },
                 {
@@ -2249,7 +2249,7 @@
                         "Standard Order"
                     ],
                     "color": "bg-teal-500",
-                    "icon": "🛒",
+                    "icon": "/icons/shopping-cart.svg",
                     "description": "Sales order processing"
                 },
                 {
@@ -2260,7 +2260,7 @@
                         "Effects of Masters on sales Documents"
                     ],
                     "color": "bg-orange-500",
-                    "icon": "📊",
+                    "icon": "/icons/shopping-cart.svg",
                     "description": "Sales document management"
                 },
                 {
@@ -2271,7 +2271,7 @@
                         "Partner Determination"
                     ],
                     "color": "bg-amber-500",
-                    "icon": "✨",
+                    "icon": "/icons/shining.svg",
                     "description": "Advanced SD features"
                 },
                 {
@@ -2281,7 +2281,7 @@
                         "Goods Issue"
                     ],
                     "color": "bg-lime-500",
-                    "icon": "📦",
+                    "icon": "/icons/box.svg",
                     "description": "Delivery processing"
                 },
                 {
@@ -2292,7 +2292,7 @@
                         "Defining And Assigning Number Ranges"
                     ],
                     "color": "bg-emerald-500",
-                    "icon": "🧾",
+                    "icon": "/icons/sheet.svg",
                     "description": "Billing processes and configuration"
                 },
                 {
@@ -2303,7 +2303,7 @@
                         "Returns"
                     ],
                     "color": "bg-rose-500",
-                    "icon": "⚠️",
+                    "icon": "/icons/exclamation.svg",
                     "description": "Returns and complaint management"
                 },
                 {
@@ -2316,7 +2316,7 @@
                         "Credit Management"
                     ],
                     "color": "bg-violet-500",
-                    "icon": "🌟",
+                    "icon": "/icons/star.svg",
                     "description": "Special business scenarios in SD"
                 },
                 {
@@ -2331,7 +2331,7 @@
                         "ONE ON ONE CLASSROOM INTERVIEW PRACTICE"
                     ],
                     "color": "bg-cyan-500",
-                    "icon": "🎯",
+                    "icon": "/icons/focus.svg",
                     "description": "Additional training benefits and career support"
                 }
             ],
@@ -2389,31 +2389,31 @@
             "coveringTopics": [
                 {
                     "title": "End user 1 month (ECC / S4 HANA)",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/emp-comp.svg"
                 },
                 {
                     "title": "Configuration 2 months (ECC / S4 HANA)",
-                    "icon": "⚙️"
+                    "icon": "/icons/settings.svg"
                 },
                 {
                     "title": "Project 1 month",
-                    "icon": "📂"
+                    "icon": "/icons/folder.svg"
                 },
                 {
                     "title": "Resume preparation",
-                    "icon": "📝"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview practice",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "6-months internship",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
                     "title": "100% job opportunities guaranteed program",
-                    "icon": "🎓"
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -2434,32 +2434,32 @@
             "keyFeatures": [
                 {
                     "text": "162+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "Free demo class available",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Certificate Guidance",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Industry expert faculties",
-                    "icon": "FiHelpCircle",
+                    "icon": "/icons/help.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Completed 200+ batches",
-                    "icon": "FiUsers",
+                    "icon": "/icons/batch.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
@@ -2467,7 +2467,7 @@
                 {
                     "title": "Introduction",
                     "description": "Fundamentals of SAP HCM and career opportunities",
-                    "icon": "📘",
+                    "icon": "/icons/book2.svg",
                     "items": [
                         "What is SAP?",
                         "What is SAP HCM?",
@@ -2482,7 +2482,7 @@
                 {
                     "title": "Stakeholder Engagement",
                     "description": "Collaborating with key stakeholders for SAP HCM implementation",
-                    "icon": "🤝",
+                    "icon": "/icons/help.svg",
                     "items": [
                         "Engage with key stakeholders, including HR, IT, and business leaders.",
                         "Gather feedback on current SAP HCM processes and pain points."
@@ -2492,7 +2492,7 @@
                 {
                     "title": "Cloud Migration Consideration",
                     "description": "Evaluating cloud transition for SAP HCM systems",
-                    "icon": "☁️",
+                    "icon": "/icons/cloud.svg",
                     "items": [
                         "Assess the feasibility of migrating SAP HCM to the cloud.",
                         "Explore the benefits of cloud-based solutions for scalability and accessibility."
@@ -2502,7 +2502,7 @@
                 {
                     "title": "Data Security and Compliance",
                     "description": "Ensuring HR data protection and regulatory compliance",
-                    "icon": "🔒",
+                    "icon": "/icons/data-security.svg",
                     "items": [
                         "Implement and enhance security measures to protect sensitive HR data.",
                         "Ensure compliance with relevant data protection regulations and standards."
@@ -2512,7 +2512,7 @@
                 {
                     "title": "Analytics and Reporting",
                     "description": "Advanced HR analytics and workforce insights",
-                    "icon": "📊",
+                    "icon": "/icons/analyze-report.svg",
                     "items": [
                         "Enhance reporting capabilities for HR analytics.",
                         "Implement predictive analytics for workforce planning and decision-making."
@@ -2522,7 +2522,7 @@
                 {
                     "title": "User Experience (UX) Improvements",
                     "description": "Optimizing SAP HCM interface and usability",
-                    "icon": "💻",
+                    "icon": "/icons/code.svg",
                     "items": [
                         "Enhance the overall user experience of SAP HCM.",
                         "Optimize user interfaces for efficiency and ease of use."
@@ -2532,7 +2532,7 @@
                 {
                     "title": "Post-Implementation Support",
                     "description": "Ongoing maintenance and system support strategy",
-                    "icon": "🛠️",
+                    "icon": "/icons/service.svg",
                     "items": [
                         "Develop a robust support and maintenance plan.",
                         "Ensure a dedicated team for addressing issues and providing ongoing support."
@@ -2542,7 +2542,7 @@
                 {
                     "title": "Resume preparation",
                     "description": "Crafting an effective SAP HCM professional resume",
-                    "icon": "📝",
+                    "icon": "/icons/resume-prep.svg",
                     "items": [
                         "Include keywords",
                         "How to prepare resume",
@@ -2558,7 +2558,7 @@
                 {
                     "title": "SAP HCM - Introduction",
                     "description": "Fundamentals of SAP Human Capital Management",
-                    "icon": "📘",
+                    "icon": "/icons/book2.svg",
                     "subpoints": [
                         "What is SAP",
                         "SAP ERP Packages",
@@ -2580,7 +2580,7 @@
                 {
                     "title": "Overview of Enterprise Structure",
                     "description": "Configuring organizational hierarchy in SAP HCM",
-                    "icon": "🏢",
+                    "icon": "/icons/building.svg",
                     "subpoints": [
                         "Client",
                         "Define Company",
@@ -2595,7 +2595,7 @@
                 {
                     "title": "Overview of Personnel Structure",
                     "description": "Setting up employee classification and attributes",
-                    "icon": "👥",
+                    "icon": "/icons/batch.svg",
                     "subpoints": [
                         "Define Employee Group",
                         "Define Employee Subgroup",
@@ -2607,7 +2607,7 @@
                 {
                     "title": "Overview of Organizational Structure",
                     "description": "Creating and managing organizational units and positions",
-                    "icon": "📊",
+                    "icon": "/icons/centre.svg",
                     "subpoints": [
                         "Create Organizational Unit",
                         "Create and Assign Position to Organizational Unit",
@@ -2619,21 +2619,21 @@
                 {
                     "title": "Expert Mode",
                     "description": "Advanced organizational management features",
-                    "icon": "🧑‍💻",
+                    "icon": "/icons/expert2.svg",
                     "subpoints": [],
                     "color": "from-red-500 to-pink-600"
                 },
                 {
                     "title": "Simple Maintenance",
                     "description": "Basic organizational structure maintenance",
-                    "icon": "🛠️",
+                    "icon": "/icons/hammer.svg",
                     "subpoints": [],
                     "color": "from-indigo-500 to-blue-600"
                 },
                 {
                     "title": "Organizational Assignment",
                     "description": "Administrator setup for organizational units",
-                    "icon": "👨‍💼",
+                    "icon": "/icons/org-assignment.svg",
                     "subpoints": [
                         "Define Administrator"
                     ],
@@ -2642,7 +2642,7 @@
                 {
                     "title": "Overview of Features",
                     "description": "Configuring system features and controls",
-                    "icon": "⚙️",
+                    "icon": "/icons/features.svg",
                     "subpoints": [
                         "Define Administrator Group (Feature PINCH)"
                     ],
@@ -2651,7 +2651,7 @@
                 {
                     "title": "Integration between OM and PA",
                     "description": "Linking Organizational Management with Personnel Administration",
-                    "icon": "🔗",
+                    "icon": "/icons/locked.svg",
                     "subpoints": [
                         "Activate Integration (PLOGI ORGA)"
                     ],
@@ -2660,14 +2660,14 @@
                 {
                     "title": "SAP HR- HR Master Data",
                     "description": "Core employee data management",
-                    "icon": "🗂️",
+                    "icon": "/icons/folders.svg",
                     "subpoints": [],
                     "color": "from-gray-500 to-gray-600"
                 },
                 {
                     "title": "Hire an Employee",
                     "description": "Employee onboarding process in SAP",
-                    "icon": "👔",
+                    "icon": "/icons/hiring.svg",
                     "subpoints": [
                         "HR Master Data Structure",
                         "Processing HR Master Data",
@@ -2679,7 +2679,7 @@
                 {
                     "title": "SAP HR- Actions/Personnel Events",
                     "description": "Managing employee lifecycle events",
-                    "icon": "🔄",
+                    "icon": "/icons/recurring.svg",
                     "subpoints": [
                         "Creating Action",
                         "Personnel Action type",
@@ -2691,7 +2691,7 @@
                 {
                     "title": "Time Management",
                     "description": "Work schedules and time recording configuration",
-                    "icon": "⏰",
+                    "icon": "/icons/time-management.svg",
                     "subpoints": [
                         "Group Personnel Subarea for the Work Schedules",
                         "Group Personnel Subarea for the Daily Work Schedules",
@@ -2709,7 +2709,7 @@
                 {
                     "title": "Payroll – Configuration",
                     "description": "Setting up payroll calculation rules",
-                    "icon": "💰",
+                    "icon": "/icons/money-pouch.svg",
                     "subpoints": [
                         "Employee Subgroup Grouping for Personnel Calculation Rule (PCR) and Collective",
                         "Agreement Provision (CAP)",
@@ -2724,7 +2724,7 @@
                 {
                     "title": "SAP HR- Primary & Secondary Wage Types",
                     "description": "Wage type configuration and management",
-                    "icon": "💳",
+                    "icon": "/icons/acc-recieve.svg",
                     "subpoints": [
                         "Primary wage type/Dialogue wage type",
                         "Secondary wage type/Technical wage type",
@@ -2747,7 +2747,7 @@
                 {
                     "title": "Prerequisite of Payroll Run",
                     "description": "Preparing the system for payroll processing",
-                    "icon": "📋",
+                    "icon": "/icons/paper-writing.svg",
                     "subpoints": [
                         "Overview of Payroll Run",
                         "Period Parameter",
@@ -2762,7 +2762,7 @@
                 {
                     "title": "Payroll Run",
                     "description": "Executing and managing payroll processing",
-                    "icon": "🔄",
+                    "icon": "/icons/recurring.svg",
                     "subpoints": [
                         "Simulation",
                         "Release for Payroll",
@@ -2777,7 +2777,7 @@
                 {
                     "title": "Reporting",
                     "description": "HR analytics and organizational reporting",
-                    "icon": "📈",
+                    "icon": "/icons/increase-graph.svg",
                     "subpoints": [
                         "Identify a Person in your Organizational Structure",
                         "Display job index report for the particular job",
@@ -2791,7 +2791,7 @@
                 {
                     "title": "IN ADDITION",
                     "description": "Supplementary career development components",
-                    "icon": "➕",
+                    "icon": "/icons/focus.svg",
                     "subpoints": [
                         "5+ PROJECTS ON SAP",
                         "20+ TOPIC WISE TESTS",
@@ -2858,31 +2858,31 @@
             "coveringTopics": [
                 {
                     "title": "End user 1 month (ECC / S4 HANA)",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/emp-comp.svg"
                 },
                 {
                     "title": "Configuration 2 months (ECC / S4 HANA)",
-                    "icon": "⚙️"
+                    "icon": "/icons/settings.svg"
                 },
                 {
                     "title": "Project 1 month",
-                    "icon": "📂"
+                    "icon": "/icons/folder.svg"
                 },
                 {
                     "title": "Resume preparation",
-                    "icon": "📝"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview practice",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "6-months internship",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
                     "title": "100% job opportunities guaranteed program",
-                    "icon": "🎓"
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -2900,32 +2900,32 @@
             "keyFeatures": [
                 {
                     "text": "126+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "Free demo class available",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Certificate Guidance",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Industry expert faculties",
-                    "icon": "FiHelpCircle",
+                    "icon": "/icons/help.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Completed 200+ batches",
-                    "icon": "FiUsers",
+                    "icon": "/icons/batch.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
@@ -2933,7 +2933,7 @@
                 {
                     "title": "Introduction",
                     "description": "Fundamentals of SAP BASIS and career opportunities",
-                    "icon": "📘",
+                    "icon": "/icons/book.svg",
                     "items": [
                         "What is SAP?",
                         "What is SAP BASIS?",
@@ -2948,7 +2948,7 @@
                 {
                     "title": "Understanding SAP BASIS Fundamentals",
                     "description": "Core concepts and architecture of SAP BASIS",
-                    "icon": "🏗️",
+                    "icon": "/icons/crane.svg",
                     "items": [
                         "Learn the architecture of SAP systems.",
                         "Understand the role and responsibilities of a BASIS administrator.",
@@ -2959,7 +2959,7 @@
                 {
                     "title": "Installation and Configuration",
                     "description": "System setup and landscape configuration",
-                    "icon": "⚙️",
+                    "icon": "/icons/settings.svg",
                     "items": [
                         "Install and configure SAP systems and databases.",
                         "Set up SAP landscapes and perform system copies.",
@@ -2970,7 +2970,7 @@
                 {
                     "title": "User and Authorization Management",
                     "description": "Security and access control implementation",
-                    "icon": "🔑",
+                    "icon": "/icons/key.svg",
                     "items": [
                         "Create and manage user accounts.",
                         "Assign roles and authorizations.",
@@ -2981,7 +2981,7 @@
                 {
                     "title": "System Monitoring and Performance Tuning",
                     "description": "Optimizing SAP system performance",
-                    "icon": "📊",
+                    "icon": "/icons/sap.svg",
                     "items": [
                         "Monitor system performance and health.",
                         "Use tools like SAP Solution Manager for monitoring.",
@@ -2992,7 +2992,7 @@
                 {
                     "title": "Backup and Recovery Procedures",
                     "description": "Data protection and disaster recovery",
-                    "icon": "💾",
+                    "icon": "/icons/backup.svg",
                     "items": [
                         "Implement backup strategies for SAP systems.",
                         "Perform regular backups and data recovery tests.",
@@ -3003,7 +3003,7 @@
                 {
                     "title": "Upgrades and Patch Management",
                     "description": "System maintenance and version control",
-                    "icon": "🔄",
+                    "icon": "/icons/recurring.svg",
                     "items": [
                         "Plan and execute SAP system upgrades.",
                         "Apply patches and updates to SAP software.",
@@ -3014,7 +3014,7 @@
                 {
                     "title": "Resume preparation",
                     "description": "Crafting an effective SAP BASIS professional resume",
-                    "icon": "📝",
+                    "icon": "/icons/resume-prep.svg",
                     "items": [
                         "Include keywords",
                         "How to prepare resume",
@@ -3033,7 +3033,7 @@
                 {
                     "title": "Introduction To SAP",
                     "description": "Fundamental concepts of SAP and ERP systems",
-                    "icon": "📘",
+                    "icon": "/icons/closed-book.svg",
                     "subpoints": [
                         "Introduction of ERP & SAP",
                         "What is SAP?",
@@ -3050,7 +3050,7 @@
                 {
                     "title": "ASAP Methodology",
                     "description": "SAP implementation project methodology",
-                    "icon": "📋",
+                    "icon": "/icons/paper-writing.svg",
                     "subpoints": [
                         "Phases of Project",
                         "Project Preparation",
@@ -3064,7 +3064,7 @@
                 {
                     "title": "SAP R/3 Architecture",
                     "description": "Technical architecture of SAP systems",
-                    "icon": "🏗️",
+                    "icon": "/icons/crane.svg",
                     "subpoints": [
                         "Central System",
                         "Distributed Presentation",
@@ -3076,7 +3076,7 @@
                 {
                     "title": "System Landscape & Flow",
                     "description": "Different SAP system landscape configurations",
-                    "icon": "🌐",
+                    "icon": "/icons/internet-globe.svg",
                     "subpoints": [
                         "Single System Landscape",
                         "Two System Landscape",
@@ -3088,7 +3088,7 @@
                 {
                     "title": "GUI Administration",
                     "description": "SAP GUI installation and configuration",
-                    "icon": "💻",
+                    "icon": "/icons/code.svg",
                     "subpoints": [
                         "GUI Installation",
                         "How to added System in SAP GUI"
@@ -3098,7 +3098,7 @@
                 {
                     "title": "Profile Maintenance & Parameters Setting",
                     "description": "SAP profile configuration and management",
-                    "icon": "⚙️",
+                    "icon": "/icons/settings.svg",
                     "subpoints": [
                         "System Profile",
                         "Transport Profile",
@@ -3110,7 +3110,7 @@
                 {
                     "title": "User Administration",
                     "description": "User management and authorization concepts",
-                    "icon": "👥",
+                    "icon": "/icons/user-admin.svg",
                     "subpoints": [
                         "Creation & Maintaining Single and Mass Users and User Groups",
                         "Copying, Deleting, Locking/Unlocking User & Rest Password",
@@ -3123,7 +3123,7 @@
                 {
                     "title": "Client Administration",
                     "description": "SAP client management operations",
-                    "icon": "🖥️",
+                    "icon": "/icons/computer.svg",
                     "subpoints": [
                         "Client Maintenance",
                         "Client Types and default client",
@@ -3139,7 +3139,7 @@
                 {
                     "title": "Transport Management System",
                     "description": "Change and transport management in SAP",
-                    "icon": "🚚",
+                    "icon": "/icons/transport.svg",
                     "subpoints": [
                         "Configuring TMS & Checking Transport Directory",
                         "Creating Consolidation and Delivery Routes",
@@ -3153,7 +3153,7 @@
                 {
                     "title": "Spool Administration",
                     "description": "Print management and spool administration",
-                    "icon": "🖨️",
+                    "icon": "/icons/printer.svg",
                     "subpoints": [
                         "Print Related Terminology in OS/SAP Level",
                         "Setting Local, Remote & Front -End printing",
@@ -3165,7 +3165,7 @@
                 {
                     "title": "Patch and Kernel Administration",
                     "description": "System updates and kernel management",
-                    "icon": "🔄",
+                    "icon": "/icons/recurring.svg",
                     "subpoints": [
                         "Check Product Availability Matric (PAM)",
                         "Downloading files from SAP market place.",
@@ -3177,7 +3177,7 @@
                 {
                     "title": "Background job Management",
                     "description": "SAP background job administration",
-                    "icon": "⏳",
+                    "icon": "/icons/sand-time.svg",
                     "subpoints": [
                         "Basis Background Job Concepts",
                         "Defining Jobs",
@@ -3190,7 +3190,7 @@
                 {
                     "title": "Distributed R/3 System",
                     "description": "Distributed SAP system architecture",
-                    "icon": "🔀",
+                    "icon": "/icons/cross-arrows.svg",
                     "subpoints": [
                         "Dialog Instance",
                         "Central Instance"
@@ -3200,7 +3200,7 @@
                 {
                     "title": "SNOTE Concepts",
                     "description": "SAP Note implementation process",
-                    "icon": "📝",
+                    "icon": "/icons/resume-edit.svg",
                     "subpoints": [
                         "Downloading SAP Notes",
                         "Manually Applying OSS Notes ON SAP"
@@ -3210,7 +3210,7 @@
                 {
                     "title": "Database Management",
                     "description": "Database administration for SAP systems",
-                    "icon": "🗃️",
+                    "icon": "/icons/file-container.svg",
                     "subpoints": [
                         "Introduction to Oracle DB Using Putty",
                         "Introduction to HANA DB",
@@ -3221,7 +3221,7 @@
                 {
                     "title": "Basic Imported Concepts",
                     "description": "Essential SAP BASIS operations and tools",
-                    "icon": "🔧",
+                    "icon": "/icons/panna.svg",
                     "subpoints": [
                         "Open OSS Connection",
                         "S-User ID Creation",
@@ -3234,7 +3234,7 @@
                 {
                     "title": "Interview preparation",
                     "description": "Career preparation for SAP BASIS roles",
-                    "icon": "💼",
+                    "icon": "/icons/briefcase2.svg",
                     "subpoints": [
                         "Interview question",
                         "Profile Building",
@@ -3291,19 +3291,19 @@
             "coveringTopics": [
                 {
                     "title": "Resume preparation",
-                    "icon": "📝"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview practice",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "6-months internship",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
                     "title": "100% job opportunities guaranteed program",
-                    "icon": "🎓"
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -3323,32 +3323,32 @@
             "keyFeatures": [
                 {
                     "text": "120+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "Free demo class available",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Certificate Guidance",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Industry expert faculties",
-                    "icon": "FiHelpCircle",
+                    "icon": "/icons/help.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Completed 200+ batches",
-                    "icon": "FiUsers",
+                    "icon": "/icons/batch.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
@@ -3356,7 +3356,7 @@
                 {
                     "title": "Introduction",
                     "description": "Basic understanding of SAP and Supply Chain Management",
-                    "icon": "📘",
+                    "icon": "/icons/closed-book.svg",
                     "items": [
                         "What is SAP?",
                         "What is SAP SCM?",
@@ -3371,7 +3371,7 @@
                 {
                     "title": "Stakeholder Alignment",
                     "description": "Ensuring all stakeholders are aligned with SCM objectives",
-                    "icon": "🤝",
+                    "icon": "/icons/help.svg",
                     "items": [
                         "Engage key stakeholders across departments (procurement, logistics, production, etc.).",
                         "Ensure alignment between business goals and SCM objectives.",
@@ -3382,7 +3382,7 @@
                 {
                     "title": "Data Clean-up and Migration",
                     "description": "Preparing and migrating data for SAP SCM implementation",
-                    "icon": "🧹",
+                    "icon": "/icons/data-clean.svg",
                     "items": [
                         "Perform a data quality assessment and clean up existing data.",
                         "Develop a data migration strategy to seamlessly transition to SAP SCM.",
@@ -3393,7 +3393,7 @@
                 {
                     "title": "Integration with Existing Systems",
                     "description": "Connecting SAP SCM with other enterprise systems",
-                    "icon": "🔗",
+                    "icon": "/icons/locked.svg",
                     "items": [
                         "Identify integration points with other enterprise systems (ERP, CRM, etc.).",
                         "Develop interfaces and integration solutions for seamless data flow.",
@@ -3404,7 +3404,7 @@
                 {
                     "title": "Pilot Implementation",
                     "description": "Testing SAP SCM with a small-scale deployment",
-                    "icon": "🧪",
+                    "icon": "/icons/testube.svg",
                     "items": [
                         "Conduct a pilot implementation with a small-scale deployment.",
                         "Gather feedback from users and address any issues.",
@@ -3415,7 +3415,7 @@
                 {
                     "title": "Full-Scale Rollout",
                     "description": "Expanding SAP SCM implementation across the organization",
-                    "icon": "🚀",
+                    "icon": "/icons/rocket.svg",
                     "items": [
                         "Scale up the implementation to cover the entire organization.",
                         "Monitor system performance and address any scalability issues.",
@@ -3426,7 +3426,7 @@
                 {
                     "title": "Performance Monitoring and Optimization",
                     "description": "Tracking and improving SCM processes",
-                    "icon": "📊",
+                    "icon": "/icons/increase-graph.svg",
                     "items": [
                         "Establish key performance indicators (KPIs) for SCM processes.",
                         "Implement monitoring tools to track and analyze performance.",
@@ -3437,7 +3437,7 @@
                 {
                     "title": "Resume preparation",
                     "description": "Tips for creating an effective SAP SCM resume",
-                    "icon": "📝",
+                    "icon": "/icons/resume-prep.svg",
                     "items": [
                         "Include keywords.",
                         "How to prepare resume.",
@@ -3460,7 +3460,7 @@
                         "Understanding the integration with other SAP modules."
                     ],
                     "color": "bg-blue-500",
-                    "icon": "📚",
+                    "icon": "/icons/books-bunch.svg",
                     "description": "Fundamentals of SAP Supply Chain Management"
                 },
                 {
@@ -3471,7 +3471,7 @@
                         "SNP optimization and simulation"
                     ],
                     "color": "bg-green-500",
-                    "icon": "📊",
+                    "icon": "/icons/sap.svg",
                     "description": "Planning and optimization in supply networks"
                 },
                 {
@@ -3482,7 +3482,7 @@
                         "APO master data and transaction data."
                     ],
                     "color": "bg-purple-500",
-                    "icon": "⚙️",
+                    "icon": "/icons/settings.svg",
                     "description": "Advanced planning and optimization tools in SAP"
                 },
                 {
@@ -3493,7 +3493,7 @@
                         "Lifecycle Planning."
                     ],
                     "color": "bg-orange-500",
-                    "icon": "🔮",
+                    "icon": "/icons/demand-planning.svg",
                     "description": "Techniques for accurate demand forecasting"
                 },
                 {
@@ -3504,7 +3504,7 @@
                         "S&OP (Sales and Operations Planning) in IBP."
                     ],
                     "color": "bg-red-500",
-                    "icon": "🔄",
+                    "icon": "/icons/recurring.svg",
                     "description": "Comprehensive business planning integration"
                 },
                 {
@@ -3515,7 +3515,7 @@
                         "Inventory management and optimization."
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "🏭",
+                    "icon": "/icons/warehouse.svg",
                     "description": "Managing warehouse operations in SAP"
                 },
                 {
@@ -3526,7 +3526,7 @@
                         "MRP evaluation and analysis."
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "📦",
+                    "icon": "/icons/box.svg",
                     "description": "Planning material requirements in SAP"
                 }
             ],
@@ -3588,56 +3588,20 @@
             },
             "coveringTopics": [
                 {
-                    "title": "Connect to the world’s largest network of vendors and suppliers",
-                    "icon": "🌐"
+                    "title": "Resume preparation",
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
-                    "title": "Deep visibility into vendor and procurement management processes",
-                    "icon": "🔍"
+                    "title": "Interview practice",
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
-                    "title": "Direct integration with millions of suppliers to manage the supply chain",
-                    "icon": "🔗"
+                    "title": "6-months internship",
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
-                    "title": "Simplified procurement process on a single network",
-                    "icon": "🧩"
-                },
-                {
-                    "title": "Seamless integration with SAP ECC and S/4HANA",
-                    "icon": "⚙️"
-                },
-                {
-                    "title": "Easy master and transactional data integration with Ariba",
-                    "icon": "📤"
-                },
-                {
-                    "title": "Simplifies procurement and sourcing with SAP SRM integration",
-                    "icon": "🛒"
-                },
-                {
-                    "title": "Improves supplier, buyer, and user experience through digital transformation",
-                    "icon": "💼"
-                },
-                {
-                    "title": "Cloud-based, low-cost, and accessible from any location",
-                    "icon": "☁️"
-                },
-                {
-                    "title": "Easy setup of procure-to-pay and procure-to-order processes",
-                    "icon": "🧾"
-                },
-                {
-                    "title": "Efficient transfer of master data like organization structure and GL data",
-                    "icon": "📁"
-                },
-                {
-                    "title": "Optimized transfer of transactional data such as invoices and PO details",
-                    "icon": "📦"
-                },
-                {
-                    "title": "Integration toolkit to connect ERP systems with Ariba",
-                    "icon": "🧰"
+                    "title": "100% job opportunities guaranteed program",
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -3653,32 +3617,32 @@
             "keyFeatures": [
                 {
                     "text": "125+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "Free demo class available",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Certificate Guidance",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Industry expert faculties",
-                    "icon": "FiHelpCircle",
+                    "icon": "/icons/help.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Completed 200+ batches",
-                    "icon": "FiUsers",
+                    "icon": "/icons/batch.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
@@ -3686,7 +3650,7 @@
                 {
                     "title": "Introduction",
                     "description": "Basic understanding of SAP and Ariba solutions",
-                    "icon": "📘",
+                    "icon": "/icons/closed-book.svg",
                     "items": [
                         "What is SAP?",
                         "What is SAP ARIBA?",
@@ -3701,7 +3665,7 @@
                 {
                     "title": "System Design and Configuration",
                     "description": "Designing and configuring SAP Ariba solutions",
-                    "icon": "🛠️",
+                    "icon": "/icons/hammer.svg",
                     "items": [
                         "Work on SAP Ariba system design based on business requirements.",
                         "Configure SAP Ariba modules according to the organization's needs.",
@@ -3712,7 +3676,7 @@
                 {
                     "title": "Data Migration",
                     "description": "Strategies for effective data transfer to SAP Ariba",
-                    "icon": "📤",
+                    "icon": "/icons/folders.svg",
                     "items": [
                         "Develop a data migration strategy for transferring relevant data.",
                         "Cleanse and validate data to ensure accuracy.",
@@ -3723,7 +3687,7 @@
                 {
                     "title": "Testing",
                     "description": "Comprehensive testing of SAP Ariba implementation",
-                    "icon": "🧪",
+                    "icon": "/icons/testube.svg",
                     "items": [
                         "Conduct thorough testing of SAP Ariba modules.",
                         "Perform unit testing, integration testing, and user acceptance testing.",
@@ -3734,7 +3698,7 @@
                 {
                     "title": "Deployment",
                     "description": "Phased rollout of SAP Ariba solutions",
-                    "icon": "🚀",
+                    "icon": "/icons/rocket.svg",
                     "items": [
                         "Plan and execute a phased deployment strategy.",
                         "Monitor system performance during the initial rollout.",
@@ -3745,7 +3709,7 @@
                 {
                     "title": "Post-Implementation Support",
                     "description": "Ongoing support after SAP Ariba deployment",
-                    "icon": "🛟",
+                    "icon": "/icons/question-mark.svg",
                     "items": [
                         "Establish a support system for users post-implementation.",
                         "Monitor system performance and user feedback.",
@@ -3756,7 +3720,7 @@
                 {
                     "title": "Integration with Other Systems",
                     "description": "Extending SAP Ariba connectivity across the enterprise",
-                    "icon": "🔗",
+                    "icon": "/icons/locked.svg",
                     "items": [
                         "Explore opportunities for further integration with other enterprise systems.",
                         "Assess and implement APIs or connectors for seamless data flow."
@@ -3766,7 +3730,7 @@
                 {
                     "title": "Resume preparation",
                     "description": "Tips for creating an effective SAP Ariba resume",
-                    "icon": "📝",
+                    "icon": "/icons/resume-prep.svg",
                     "items": [
                         "Include keywords.",
                         "How to prepare resume.",
@@ -3789,7 +3753,7 @@
                         "Overview Usage in industry"
                     ],
                     "color": "bg-blue-500",
-                    "icon": "🌐",
+                    "icon": "/icons/internet-globe.svg",
                     "description": "Fundamentals of SAP Ariba procurement solutions"
                 },
                 {
@@ -3806,7 +3770,7 @@
                         "Integration Customization Troubleshooting"
                     ],
                     "color": "bg-green-500",
-                    "icon": "🔌",
+                    "icon": "/icons/wire.svg",
                     "description": "Integration solutions for Ariba procurement"
                 },
                 {
@@ -3819,7 +3783,7 @@
                         "Managing Contract Compliance"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "📝",
+                    "icon": "/icons/sheet.svg",
                     "description": "Contract lifecycle management in Ariba"
                 },
                 {
@@ -3835,7 +3799,7 @@
                         "Catalog Enablement"
                     ],
                     "color": "bg-orange-500",
-                    "icon": "🔄",
+                    "icon": "/icons/recurring.svg",
                     "description": "Comprehensive integration solutions for Ariba"
                 },
                 {
@@ -3848,7 +3812,7 @@
                         "Creating and Managing Invoices"
                     ],
                     "color": "bg-red-500",
-                    "icon": "🛒",
+                    "icon": "/icons/shopping-cart.svg",
                     "description": "End-to-end procurement processes in Ariba"
                 },
                 {
@@ -3858,7 +3822,7 @@
                         "Supplier Lifecycle Management"
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "🏭",
+                    "icon": "/icons/factory.svg",
                     "description": "Managing supplier relationships and performance"
                 },
                 {
@@ -3871,7 +3835,7 @@
                         "Creating Auctions"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "🔍",
+                    "icon": "/icons/search-scope.svg",
                     "description": "Strategic sourcing solutions in Ariba"
                 },
                 {
@@ -3882,7 +3846,7 @@
                         "Standalone Catalogs"
                     ],
                     "color": "bg-teal-500",
-                    "icon": "📦",
+                    "icon": "/icons/box.svg",
                     "description": "Catalog management and supplier enablement"
                 },
                 {
@@ -3896,7 +3860,7 @@
                         "Outreach"
                     ],
                     "color": "bg-pink-500",
-                    "icon": "🤝",
+                    "icon": "/icons/help.svg",
                     "description": "Supplier enablement strategies and execution"
                 }
             ],
@@ -3954,31 +3918,31 @@
             "coveringTopics": [
                 {
                     "title": "End user 1 month (ECC / S4 HANA)",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/emp-comp.svg"
                 },
                 {
                     "title": "Configuration 2 months (ECC / S4 HANA)",
-                    "icon": "⚙️"
+                    "icon": "/icons/settings.svg"
                 },
                 {
                     "title": "Project 1 month",
-                    "icon": "📂"
+                    "icon": "/icons/folder.svg"
                 },
                 {
                     "title": "Resume preparation",
-                    "icon": "📝"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview practice",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "6-months internship",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
                     "title": "100% job opportunities guaranteed program",
-                    "icon": "🎓"
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -4000,32 +3964,32 @@
             "keyFeatures": [
                 {
                     "text": "124+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "Free demo class available",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Certificate Guidance",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Industry expert faculties",
-                    "icon": "FiHelpCircle",
+                    "icon": "/icons/help.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Completed 200+ batches",
-                    "icon": "FiUsers",
+                    "icon": "/icons/batch.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
@@ -4033,7 +3997,7 @@
                 {
                     "title": "Introduction",
                     "description": "Fundamentals of SAP and Production Planning module",
-                    "icon": "📘",
+                    "icon": "/icons/closed-book.svg",
                     "items": [
                         "What is SAP?",
                         "What is SAP PP?",
@@ -4048,7 +4012,7 @@
                 {
                     "title": "System Landscape Design",
                     "description": "Designing the SAP PP technical architecture",
-                    "icon": "🏗️",
+                    "icon": "/icons/crane.svg",
                     "items": [
                         "Design the SAP landscape, considering integration with other modules (e.g., SAP MM, SAP SD).",
                         "Plan system architecture, hardware requirements, and scalability."
@@ -4058,7 +4022,7 @@
                 {
                     "title": "Data Migration and Cleansing",
                     "description": "Preparing production data for SAP PP implementation",
-                    "icon": "🧹",
+                    "icon": "/icons/data-clean.svg",
                     "items": [
                         "Assess existing data quality and cleanse data for migration.",
                         "Develop a data migration strategy and execute the migration plan."
@@ -4068,7 +4032,7 @@
                 {
                     "title": "Customization and Configuration",
                     "description": "Tailoring SAP PP to organizational needs",
-                    "icon": "⚙️",
+                    "icon": "/icons/settings.svg",
                     "items": [
                         "Customize SAP PP to align with specific organizational requirements.",
                         "Configure master data such as work centers, routings, and production versions."
@@ -4078,7 +4042,7 @@
                 {
                     "title": "Prototype and Testing",
                     "description": "Validating the SAP PP implementation",
-                    "icon": "🧪",
+                    "icon": "/icons/testube.svg",
                     "items": [
                         "Develop a prototype of the SAP PP system for initial testing and validation.",
                         "Conduct unit testing, integration testing, and user acceptance testing (UAT)."
@@ -4088,7 +4052,7 @@
                 {
                     "title": "Deployment and Go-Live",
                     "description": "Launching SAP PP in production environment",
-                    "icon": "🚀",
+                    "icon": "/icons/rocket.svg",
                     "items": [
                         "Plan and execute the deployment of SAP PP in a controlled environment.",
                         "Monitor and address any issues during the initial phase of operation."
@@ -4098,7 +4062,7 @@
                 {
                     "title": "Performance Metrics and KPIs",
                     "description": "Measuring SAP PP implementation success",
-                    "icon": "📊",
+                    "icon": "/icons/sap.svg",
                     "items": [
                         "Define and monitor key performance indicators (KPIs) for production planning.",
                         "Use metrics to evaluate the success and efficiency of the SAP PP implementation."
@@ -4108,7 +4072,7 @@
                 {
                     "title": "Resume preparation",
                     "description": "Creating an effective SAP PP professional resume",
-                    "icon": "📝",
+                    "icon": "/icons/resume-prep.svg",
                     "items": [
                         "Include keywords",
                         "How to prepare resume",
@@ -4133,14 +4097,14 @@
                         "PP Flow and Procurement Types"
                     ],
                     "color": "bg-blue-500",
-                    "icon": "🏢",
+                    "icon": "/icons/building.svg",
                     "description": "Fundamentals of ERP and SAP systems"
                 },
                 {
                     "title": "SAP Navigation",
                     "subpoints": [],
                     "color": "bg-gray-500",
-                    "icon": "🖥️",
+                    "icon": "/icons/computer.svg",
                     "description": "Basic navigation in SAP system"
                 },
                 {
@@ -4161,7 +4125,7 @@
                         "Controlling Settings (Cost Center and Cost Element etc.)"
                     ],
                     "color": "bg-green-500",
-                    "icon": "🏛️",
+                    "icon": "/icons/mansion.svg",
                     "description": "Understanding SAP organizational hierarchy"
                 },
                 {
@@ -4174,7 +4138,7 @@
                         "Production Version"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "🗃️",
+                    "icon": "/icons/file-container.svg",
                     "description": "Core master data in production planning"
                 },
                 {
@@ -4185,7 +4149,7 @@
                         "Assigning of PRT Tools in Routing"
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "🛠️",
+                    "icon": "/icons/hammer.svg",
                     "description": "Management of production resources and tools"
                 },
                 {
@@ -4198,7 +4162,7 @@
                         "Display Planned Independent Requirements"
                     ],
                     "color": "bg-red-500",
-                    "icon": "📈",
+                    "icon": "/icons/increase-graph.svg",
                     "description": "Sales and operations planning processes"
                 },
                 {
@@ -4209,7 +4173,7 @@
                         "Assigning of PRT Tools in Routing"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "📊",
+                    "icon": "/icons/sap.svg",
                     "description": "Planning for independent requirements"
                 },
                 {
@@ -4227,7 +4191,7 @@
                         "MRP Run In Background for all network Plants"
                     ],
                     "color": "bg-teal-500",
-                    "icon": "⚙️",
+                    "icon": "/icons/settings.svg",
                     "description": "Material Requirements Planning processes"
                 },
                 {
@@ -4246,7 +4210,7 @@
                         "Collective Confirmation of Production Order"
                     ],
                     "color": "bg-orange-500",
-                    "icon": "🔄",
+                    "icon": "/icons/recurring.svg",
                     "description": "Order processing and conversions"
                 },
                 {
@@ -4259,7 +4223,7 @@
                         "Creation of GI wref to Reservation"
                     ],
                     "color": "bg-pink-500",
-                    "icon": "📦",
+                    "icon": "/icons/box.svg",
                     "description": "Goods movement processes in production"
                 },
                 {
@@ -4271,7 +4235,7 @@
                         "List display of Serial Numbers"
                     ],
                     "color": "bg-blue-600",
-                    "icon": "🔢",
+                    "icon": "/icons/number-slate.svg",
                     "description": "Serial number management in production"
                 },
                 {
@@ -4288,7 +4252,7 @@
                         "Production order Release"
                     ],
                     "color": "bg-green-600",
-                    "icon": "📑",
+                    "icon": "/icons/resume-edit.svg",
                     "description": "Batch management in production processes"
                 },
                 {
@@ -4301,7 +4265,7 @@
                         "Detailed Process Flow for each Strategy Group"
                     ],
                     "color": "bg-purple-600",
-                    "icon": "🧠",
+                    "icon": "/icons/brain.svg",
                     "description": "Strategy groups and planning strategies"
                 },
                 {
@@ -4311,7 +4275,7 @@
                         "Make To Stock Cycle – MTS Process"
                     ],
                     "color": "bg-yellow-600",
-                    "icon": "🏭",
+                    "icon": "/icons/factory.svg",
                     "description": "Discrete manufacturing approaches"
                 },
                 {
@@ -4326,7 +4290,7 @@
                         "Final Execution of the Variant Configuration"
                     ],
                     "color": "bg-red-600",
-                    "icon": "🧩",
+                    "icon": "/icons/puzzle.svg",
                     "description": "Variant configuration in production"
                 },
                 {
@@ -4336,7 +4300,7 @@
                         "Define Checking Rule and Availability Check"
                     ],
                     "color": "bg-indigo-600",
-                    "icon": "✅",
+                    "icon": "/icons/career-tick.svg",
                     "description": "Availability checking in material planning"
                 },
                 {
@@ -4349,7 +4313,7 @@
                         "REM Back flushing"
                     ],
                     "color": "bg-teal-600",
-                    "icon": "🔁",
+                    "icon": "/icons/recurring.svg",
                     "description": "Repetitive manufacturing processes"
                 }
             ],
@@ -4412,19 +4376,19 @@
             "coveringTopics": [
                 {
                     "title": "Resume preparation",
-                    "icon": "📝"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview practice",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "6-months internship",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
                     "title": "100% job opportunities guaranteed program",
-                    "icon": "🎓"
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -4446,32 +4410,32 @@
             "keyFeatures": [
                 {
                     "text": "124+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "Free demo class available",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Certificate Guidance",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Industry expert faculties",
-                    "icon": "FiHelpCircle",
+                    "icon": "/icons/help.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Completed 200+ batches",
-                    "icon": "FiUsers",
+                    "icon": "/icons/batch.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
@@ -4479,7 +4443,7 @@
                 {
                     "title": "Introduction",
                     "description": "Overview of SAP and Production Planning module",
-                    "icon": "📘",
+                    "icon": "/icons/closed-book.svg",
                     "items": [
                         "What is SAP?",
                         "What is SAP PP?",
@@ -4494,7 +4458,7 @@
                 {
                     "title": "System Landscape Design",
                     "description": "Designing the SAP PP technical infrastructure",
-                    "icon": "🏗️",
+                    "icon": "/icons/crane.svg",
                     "items": [
                         "Design the SAP landscape, considering integration with other modules (e.g., SAP MM, SAP SD).",
                         "Plan system architecture, hardware requirements, and scalability."
@@ -4504,7 +4468,7 @@
                 {
                     "title": "Data Migration and Cleansing",
                     "description": "Preparing and transferring production data to SAP PP",
-                    "icon": "🧹",
+                    "icon": "/icons/data-clean.svg",
                     "items": [
                         "Assess existing data quality and cleanse data for migration.",
                         "Develop a data migration strategy and execute the migration plan."
@@ -4514,7 +4478,7 @@
                 {
                     "title": "Customization and Configuration",
                     "description": "Tailoring SAP PP to meet business requirements",
-                    "icon": "⚙️",
+                    "icon": "/icons/settings.svg",
                     "items": [
                         "Customize SAP PP to align with specific organizational requirements.",
                         "Configure master data such as work centers, routings, and production versions."
@@ -4524,7 +4488,7 @@
                 {
                     "title": "Prototype and Testing",
                     "description": "Validating the SAP PP implementation",
-                    "icon": "🧪",
+                    "icon": "/icons/testube.svg",
                     "items": [
                         "Develop a prototype of the SAP PP system for initial testing and validation.",
                         "Conduct unit testing, integration testing, and user acceptance testing (UAT)."
@@ -4534,7 +4498,7 @@
                 {
                     "title": "Deployment and Go-Live",
                     "description": "Launching SAP PP into production environment",
-                    "icon": "🚀",
+                    "icon": "/icons/rocket.svg",
                     "items": [
                         "Plan and execute the deployment of SAP PP in a controlled environment.",
                         "Monitor and address any issues during the initial phase of operation."
@@ -4544,7 +4508,7 @@
                 {
                     "title": "Performance Metrics and KPIs",
                     "description": "Measuring the effectiveness of SAP PP implementation",
-                    "icon": "📊",
+                    "icon": "/icons/sap.svg",
                     "items": [
                         "Define and monitor key performance indicators (KPIs) for production planning.",
                         "Use metrics to evaluate the success and efficiency of the SAP PP implementation."
@@ -4554,7 +4518,7 @@
                 {
                     "title": "Resume preparation",
                     "description": "Creating an effective SAP PP professional resume",
-                    "icon": "📝",
+                    "icon": "/icons/resume-prep.svg",
                     "items": [
                         "Include keywords",
                         "How to prepare resume",
@@ -4579,14 +4543,14 @@
                         "PP Flow and Procurement Types"
                     ],
                     "color": "bg-blue-500",
-                    "icon": "🏢",
+                    "icon": "/icons/building.svg",
                     "description": "Fundamentals of Enterprise Resource Planning and SAP"
                 },
                 {
                     "title": "SAP Navigation",
                     "subpoints": [],
                     "color": "bg-gray-500",
-                    "icon": "🖥️",
+                    "icon": "/icons/computer.svg",
                     "description": "Basic navigation in SAP systems"
                 },
                 {
@@ -4607,7 +4571,7 @@
                         "Controlling Settings (Cost Center and Cost Element etc.)"
                     ],
                     "color": "bg-green-500",
-                    "icon": "🏛️",
+                    "icon": "/icons/mansion.svg",
                     "description": "SAP organizational hierarchy and structure"
                 },
                 {
@@ -4620,7 +4584,7 @@
                         "Production Version"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "🗃️",
+                    "icon": "/icons/file-container.svg",
                     "description": "Core master data in Production Planning"
                 },
                 {
@@ -4631,7 +4595,7 @@
                         "Assigning of PRT Tools in Routing"
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "🛠️",
+                    "icon": "/icons/hammer.svg",
                     "description": "Management of production resources and tools"
                 },
                 {
@@ -4644,7 +4608,7 @@
                         "Display Planned Independent Requirements"
                     ],
                     "color": "bg-red-500",
-                    "icon": "📈",
+                    "icon": "/icons/increase-graph.svg",
                     "description": "Sales and operations planning processes"
                 },
                 {
@@ -4655,7 +4619,7 @@
                         "Assigning of PRT Tools in Routing"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "📊",
+                    "icon": "/icons/edition.svg",
                     "description": "Planning for independent material requirements"
                 },
                 {
@@ -4673,7 +4637,7 @@
                         "MRP Run In Background for all network Plants"
                     ],
                     "color": "bg-teal-500",
-                    "icon": "⚙️",
+                    "icon": "/icons/settings.svg",
                     "description": "Material Requirements Planning processes"
                 },
                 {
@@ -4692,7 +4656,7 @@
                         "Collective Confirmation of Production Order"
                     ],
                     "color": "bg-orange-500",
-                    "icon": "🔄",
+                    "icon": "/icons/recurring.svg",
                     "description": "Order processing and conversions"
                 },
                 {
@@ -4705,7 +4669,7 @@
                         "Creation of GI with reference to Reservation"
                     ],
                     "color": "bg-pink-500",
-                    "icon": "📦",
+                    "icon": "/icons/box.svg",
                     "description": "Goods movement processes in production"
                 },
                 {
@@ -4717,7 +4681,7 @@
                         "List display of Serial Numbers"
                     ],
                     "color": "bg-blue-600",
-                    "icon": "🔢",
+                    "icon": "/icons/number-slate.svg",
                     "description": "Serial number management in production"
                 },
                 {
@@ -4734,7 +4698,7 @@
                         "Production order Release"
                     ],
                     "color": "bg-green-600",
-                    "icon": "📑",
+                    "icon": "/icons/resume-edit.svg",
                     "description": "Batch management in production processes"
                 },
                 {
@@ -4747,7 +4711,7 @@
                         "Detailed Process Flow for each Strategy Group"
                     ],
                     "color": "bg-purple-600",
-                    "icon": "🧠",
+                    "icon": "/icons/brain.svg",
                     "description": "Planning strategy groups and processes"
                 },
                 {
@@ -4757,7 +4721,7 @@
                         "Make To Stock Cycle – MTS Process"
                     ],
                     "color": "bg-yellow-600",
-                    "icon": "🏭",
+                    "icon": "/icons/factory.svg",
                     "description": "Discrete manufacturing approaches"
                 },
                 {
@@ -4772,7 +4736,7 @@
                         "Final Execution of Variant Configuration"
                     ],
                     "color": "bg-red-600",
-                    "icon": "🧩",
+                    "icon": "/icons/puzzle.svg",
                     "description": "Product variant configuration"
                 },
                 {
@@ -4782,7 +4746,7 @@
                         "Define Checking Rule and Availability Check"
                     ],
                     "color": "bg-indigo-600",
-                    "icon": "✅",
+                    "icon": "/icons/career-tick.svg",
                     "description": "Material availability checking"
                 },
                 {
@@ -4795,7 +4759,7 @@
                         "REM Backflushing"
                     ],
                     "color": "bg-teal-600",
-                    "icon": "🔁",
+                    "icon": "/icons/recurring.svg",
                     "description": "Repetitive manufacturing processes"
                 }
             ],
@@ -4858,19 +4822,19 @@
             "coveringTopics": [
                 {
                     "title": "Resume preparation",
-                    "icon": "📝"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview practice",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "6-months internship",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
                     "title": "100% job opportunities guaranteed program",
-                    "icon": "🎓"
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -4890,32 +4854,32 @@
             "keyFeatures": [
                 {
                     "text": "124+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "Free demo class available",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Certificate Guidance",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Industry expert faculties",
-                    "icon": "FiHelpCircle",
+                    "icon": "/icons/help.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Completed 200+ batches",
-                    "icon": "FiUsers",
+                    "icon": "/icons/batch.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
@@ -4923,7 +4887,7 @@
                 {
                     "title": "Introduction",
                     "description": "Fundamentals of SAP and Quality Management module",
-                    "icon": "📘",
+                    "icon": "/icons/book2.svg",
                     "items": [
                         "What is SAP?",
                         "What is SAP QM?",
@@ -4938,7 +4902,7 @@
                 {
                     "title": "Data Migration and Cleanup",
                     "description": "Preparing quality data for SAP QM implementation",
-                    "icon": "🧹",
+                    "icon": "/icons/data-clean.svg",
                     "items": [
                         "Evaluate existing quality data for accuracy and completeness.",
                         "Develop a data migration plan to transfer relevant data to SAP QM.",
@@ -4949,7 +4913,7 @@
                 {
                     "title": "Configuration and Customization",
                     "description": "Tailoring SAP QM to organizational quality processes",
-                    "icon": "⚙️",
+                    "icon": "/icons/settings.svg",
                     "items": [
                         "Configure SAP QM modules based on organizational requirements.",
                         "Customize workflows and processes to align with best practices.",
@@ -4960,7 +4924,7 @@
                 {
                     "title": "User Acceptance Testing (UAT)",
                     "description": "Validating SAP QM functionality with end-users",
-                    "icon": "🧪",
+                    "icon": "/icons/testube.svg",
                     "items": [
                         "Develop test scripts covering various QM scenarios.",
                         "Conduct UAT with end-users to validate system functionality.",
@@ -4971,7 +4935,7 @@
                 {
                     "title": "Pilot Implementation",
                     "description": "Testing SAP QM in a controlled environment",
-                    "icon": "🚀",
+                    "icon": "/icons/rocket.svg",
                     "items": [
                         "Implement SAP QM in a controlled pilot environment.",
                         "Gather feedback from users and make necessary adjustments.",
@@ -4982,7 +4946,7 @@
                 {
                     "title": "Continuous Improvement",
                     "description": "Enhancing quality processes post-implementation",
-                    "icon": "🔄",
+                    "icon": "/icons/recurring.svg",
                     "items": [
                         "Establish a feedback loop for continuous improvement.",
                         "Monitor key performance indicators and adjust processes accordingly.",
@@ -4993,7 +4957,7 @@
                 {
                     "title": "Resume preparation",
                     "description": "Creating an effective SAP QM professional resume",
-                    "icon": "📝",
+                    "icon": "/icons/resume-prep.svg",
                     "items": [
                         "Include keywords.",
                         "How to prepare resume.",
@@ -5016,7 +4980,7 @@
                         "Integration with other SAP modules"
                     ],
                     "color": "bg-blue-500",
-                    "icon": "🔍",
+                    "icon": "/icons/search-scope.svg",
                     "description": "Fundamentals of Quality Management in SAP"
                 },
                 {
@@ -5028,7 +4992,7 @@
                         "Sampling Procedures"
                     ],
                     "color": "bg-green-500",
-                    "icon": "🗃️",
+                    "icon": "/icons/file-container.svg",
                     "description": "Core master data for Quality Management"
                 },
                 {
@@ -5038,7 +5002,7 @@
                         "Goods Receipt Inspection"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "📦",
+                    "icon": "/icons/box.svg",
                     "description": "Quality processes in procurement"
                 },
                 {
@@ -5049,7 +5013,7 @@
                         "Results Recording"
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "🏭",
+                    "icon": "/icons/factory.svg",
                     "description": "Quality control in production processes"
                 },
                 {
@@ -5059,7 +5023,7 @@
                         "Returns"
                     ],
                     "color": "bg-red-500",
-                    "icon": "📊",
+                    "icon": "/icons/sap.svg",
                     "description": "Quality management in sales processes"
                 },
                 {
@@ -5069,7 +5033,7 @@
                         "Problem Notification and Processing"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "📝",
+                    "icon": "/icons/resume-edit.svg",
                     "description": "Quality issue notification handling"
                 },
                 {
@@ -5079,7 +5043,7 @@
                         "Results Recording for Calibration"
                     ],
                     "color": "bg-teal-500",
-                    "icon": "⚙️",
+                    "icon": "/icons/settings.svg",
                     "description": "Management of quality test equipment"
                 }
             ],
@@ -5142,19 +5106,19 @@
             "coveringTopics": [
                 {
                     "title": "Resume preparation",
-                    "icon": "📝"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview practice",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "6-months internship",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
                     "title": "100% job opportunities guaranteed program",
-                    "icon": "🎓"
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -5175,32 +5139,32 @@
             "keyFeatures": [
                 {
                     "text": "124+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "Free demo class available",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Certificate Guidance",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Industry expert faculties",
-                    "icon": "FiHelpCircle",
+                    "icon": "/icons/help.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Completed 200+ batches",
-                    "icon": "FiUsers",
+                    "icon": "/icons/batch.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
@@ -5208,7 +5172,7 @@
                 {
                     "title": "Introduction",
                     "description": "Fundamentals of SAP Logistics Execution & Service Parts Logistics",
-                    "icon": "📘",
+                    "icon": "/icons/closed-book.svg",
                     "items": [
                         "What is SAP?",
                         "What is SAP LE & SL?",
@@ -5223,7 +5187,7 @@
                 {
                     "title": "Stakeholder Alignment",
                     "description": "Aligning logistics and service teams with SAP implementation",
-                    "icon": "🤝",
+                    "icon": "/icons/help.svg",
                     "items": [
                         "Engage with key stakeholders, including logistics, warehouse, and service teams.",
                         "Understand their requirements and expectations for LE and SL processes."
@@ -5233,7 +5197,7 @@
                 {
                     "title": "Integration Planning",
                     "description": "Designing seamless connections between LE and SL modules",
-                    "icon": "🔗",
+                    "icon": "/icons/locked.svg",
                     "items": [
                         "Identify integration points between SAP LE and SL modules.",
                         "Ensure seamless data flow and communication between logistics execution and service parts planning."
@@ -5243,7 +5207,7 @@
                 {
                     "title": "Technology Infrastructure Assessment",
                     "description": "Evaluating technical requirements for SAP LE/SL implementation",
-                    "icon": "🖥️",
+                    "icon": "/icons/computer.svg",
                     "items": [
                         "Assess the existing technology infrastructure to ensure it can support the upgraded or new SAP modules.",
                         "Consider cloud-based solutions for scalability and flexibility."
@@ -5253,7 +5217,7 @@
                 {
                     "title": "Customization and Configuration",
                     "description": "Tailoring SAP LE & SL to business-specific logistics needs",
-                    "icon": "⚙️",
+                    "icon": "/icons/settings.svg",
                     "items": [
                         "Customize and configure SAP LE and SL modules to align with specific business processes and requirements.",
                         "Optimize settings for warehouse management, transportation, and service parts planning."
@@ -5263,7 +5227,7 @@
                 {
                     "title": "Testing and Quality Assurance",
                     "description": "Ensuring reliability of logistics and service parts functionality",
-                    "icon": "🧪",
+                    "icon": "/icons/testube.svg",
                     "items": [
                         "Conduct rigorous testing of SAP LE and SL functionalities to identify and rectify any issues.",
                         "Ensure that integration points are thoroughly tested for data accuracy and consistency."
@@ -5273,7 +5237,7 @@
                 {
                     "title": "Compliance and Reporting",
                     "description": "Maintaining regulatory standards and operational visibility",
-                    "icon": "📋",
+                    "icon": "/icons/paper-writing.svg",
                     "items": [
                         "Ensure that the SAP LE and SL setup complies with industry regulations and standards.",
                         "Implement robust reporting mechanisms for real-time visibility into logistics and service parts performance."
@@ -5283,7 +5247,7 @@
                 {
                     "title": "Resume preparation",
                     "description": "Creating an effective SAP LE/SL professional resume",
-                    "icon": "📝",
+                    "icon": "/icons/resume-prep.svg",
                     "items": [
                         "Include keywords.",
                         "How to prepare resume.",
@@ -5308,7 +5272,7 @@
                         "Inventory management in WM"
                     ],
                     "color": "bg-blue-500",
-                    "icon": "🏭",
+                    "icon": "/icons/factory.svg",
                     "description": "Core warehouse operations and management"
                 },
                 {
@@ -5320,7 +5284,7 @@
                         "Batch management"
                     ],
                     "color": "bg-green-500",
-                    "icon": "📦",
+                    "icon": "/icons/box.svg",
                     "description": "Inventory control and stock management"
                 },
                 {
@@ -5332,7 +5296,7 @@
                         "Transportation planning"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "🚚",
+                    "icon": "/icons/transport.svg",
                     "description": "Shipping and transportation processes"
                 },
                 {
@@ -5343,7 +5307,7 @@
                         "Packing and unpacking"
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "📦",
+                    "icon": "/icons/box.svg",
                     "description": "Management of handling units and packaging"
                 },
                 {
@@ -5356,7 +5320,7 @@
                         "Integration with Quality Management (QM)"
                     ],
                     "color": "bg-red-500",
-                    "icon": "🔄",
+                    "icon": "/icons/recurring.svg",
                     "description": "Cross-module integration points"
                 }
             ],
@@ -5409,36 +5373,32 @@
             },
             "coveringTopics": [
                 {
-                    "title": "End-User Training (1 month - ECC / S/4 HANA)",
-                    "icon": "📘"
+                    "title": "End user 1 month (ECC / S4 HANA)",
+                    "icon": "/icons/emp-comp.svg"
                 },
                 {
-                    "title": "Configuration Training (2 months - ECC / S/4 HANA)",
-                    "icon": "🛠️"
+                    "title": "Configuration 2 months (ECC / S4 HANA)",
+                    "icon": "/icons/settings.svg"
                 },
                 {
-                    "title": "Project Work (1 month)",
-                    "icon": "📂"
+                    "title": "Project 1 month",
+                    "icon": "/icons/folder.svg"
                 },
                 {
-                    "title": "Advanced Excel and Tally",
-                    "icon": "📊"
+                    "title": "Resume preparation",
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
-                    "title": "Resume Preparation",
-                    "icon": "📝"
+                    "title": "Interview practice",
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
-                    "title": "Interview Practice",
-                    "icon": "👔"
+                    "title": "6-months internship",
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
-                    "title": "Internship (6 months real-world exposure)",
-                    "icon": "👨‍💻"
-                },
-                {
-                    "title": "100% Job Opportunities Guaranteed Program",
-                    "icon": "🎓"
+                    "title": "100% job opportunities guaranteed program",
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -5456,32 +5416,32 @@
             "keyFeatures": [
                 {
                     "text": "123+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "Free demo class available",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Certificate Guidance",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Industry expert faculties",
-                    "icon": "FiHelpCircle",
+                    "icon": "/icons/help.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Completed 200+ batches",
-                    "icon": "FiUsers",
+                    "icon": "/icons/batch.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
@@ -5489,7 +5449,7 @@
                 {
                     "title": "Introduction",
                     "description": "Fundamentals of SAP Warehouse Management & Extended Warehouse Management",
-                    "icon": "📦",
+                    "icon": "/icons/box.svg",
                     "items": [
                         "What is SAP?",
                         "What is SAP WM & EWM?",
@@ -5504,7 +5464,7 @@
                 {
                     "title": "System Design and Configuration",
                     "description": "Architecting and configuring SAP WM & EWM solutions",
-                    "icon": "🏗️",
+                    "icon": "/icons/crane.svg",
                     "items": [
                         "Design the SAP WM & EWM system architecture.",
                         "Configure SAP WM to meet basic warehouse management needs.",
@@ -5517,7 +5477,7 @@
                 {
                     "title": "Data Migration and Master Data Setup",
                     "description": "Transitioning and establishing warehouse data in SAP",
-                    "icon": "📊",
+                    "icon": "/icons/sap.svg",
                     "items": [
                         "Identify and migrate relevant data from legacy systems to SAP WM & EWM.",
                         "Set up master data, including materials, storage bins, and warehouse structures.",
@@ -5528,7 +5488,7 @@
                 {
                     "title": "Go-Live and Stabilization",
                     "description": "Launching and stabilizing the WM/EWM implementation",
-                    "icon": "🚀",
+                    "icon": "/icons/rocket.svg",
                     "items": [
                         "Execute the system go-live with a carefully planned cutover strategy.",
                         "Monitor system performance and resolve any issues promptly.",
@@ -5540,7 +5500,7 @@
                 {
                     "title": "Optimization and Continuous Improvement",
                     "description": "Enhancing warehouse operations post-implementation",
-                    "icon": "🔄",
+                    "icon": "/icons/recurring.svg",
                     "items": [
                         "Conduct regular system audits to identify areas for improvement.",
                         "Implement enhancements to optimize warehouse processes.",
@@ -5552,7 +5512,7 @@
                 {
                     "title": "Integration with Advanced Technologies",
                     "description": "Connecting WM/EWM with cutting-edge warehouse technologies",
-                    "icon": "🤖",
+                    "icon": "/icons/ai-bot.svg",
                     "items": [
                         "Explore and integrate emerging technologies such as IoT, RFID, and automation.",
                         "Evaluate the use of analytics and business intelligence tools for warehouse optimization.",
@@ -5563,7 +5523,7 @@
                 {
                     "title": "Assessment and Planning",
                     "description": "Initial evaluation and roadmap for WM/EWM implementation",
-                    "icon": "📋",
+                    "icon": "/icons/paper-writing.svg",
                     "items": [
                         "Conduct current state analysis of existing warehouse processes.",
                         "Define business requirements and identify pain points.",
@@ -5576,7 +5536,7 @@
                 {
                     "title": "Resume preparation",
                     "description": "Creating an effective SAP WM/EWM professional resume",
-                    "icon": "📝",
+                    "icon": "/icons/resume-prep.svg",
                     "items": [
                         "Include keywords",
                         "How to prepare resume",
@@ -5602,7 +5562,7 @@
                         "WM Material master view"
                     ],
                     "color": "bg-blue-500",
-                    "icon": "🏭",
+                    "icon": "/icons/factory.svg",
                     "description": "Introduction to Warehouse Management and Extended WM in SAP"
                 },
                 {
@@ -5613,7 +5573,7 @@
                         "Transfer Requirement"
                     ],
                     "color": "bg-green-500",
-                    "icon": "🏗️",
+                    "icon": "/icons/crane.svg",
                     "description": "Warehouse organizational structure setup"
                 },
                 {
@@ -5631,7 +5591,7 @@
                         "Print Transfer Order"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "🔄",
+                    "icon": "/icons/recurring.svg",
                     "description": "Complete transfer order management processes"
                 },
                 {
@@ -5645,7 +5605,7 @@
                         "Fixed bin strategy"
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "📦",
+                    "icon": "/icons/box.svg",
                     "description": "Various putaway strategies in warehouse management"
                 },
                 {
@@ -5657,7 +5617,7 @@
                         "LIFO"
                     ],
                     "color": "bg-red-500",
-                    "icon": "📤",
+                    "icon": "/icons/edition.svg",
                     "description": "Different picking methodologies in WM"
                 },
                 {
@@ -5669,7 +5629,7 @@
                         "Replenishment Control for Storage Type"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "📊",
+                    "icon": "/icons/warehouse.svg",
                     "description": "Integration scenarios with Materials Management"
                 },
                 {
@@ -5679,7 +5639,7 @@
                         "Assign reference movement types to WM movement types"
                     ],
                     "color": "bg-pink-500",
-                    "icon": "🏃",
+                    "icon": "/icons/running.svg",
                     "description": "Configuration of warehouse movement types"
                 },
                 {
@@ -5690,7 +5650,7 @@
                         "Storage bin type search strategies"
                     ],
                     "color": "bg-teal-500",
-                    "icon": "🔍",
+                    "icon": "/icons/search-scope.svg",
                     "description": "Storage search methodologies in WM"
                 },
                 {
@@ -5706,7 +5666,7 @@
                         "Manual and Automatic Batch Display in WM"
                     ],
                     "color": "bg-orange-500",
-                    "icon": "📑",
+                    "icon": "/icons/resume-edit.svg",
                     "description": "Batch management processes in warehouse operations"
                 }
             ],
@@ -5764,35 +5724,35 @@
             "coveringTopics": [
                 {
                     "title": "End-User Training (1 month - ECC / S/4 HANA)",
-                    "icon": "📘"
+                    "icon": "/icons/emp-comp.svg"
                 },
                 {
                     "title": "Configuration Training (2 months - ECC / S/4 HANA)",
-                    "icon": "🛠️"
+                    "icon": "/icons/settings.svg"
                 },
                 {
                     "title": "Project Work (1 month)",
-                    "icon": "📂"
+                    "icon": "/icons/folder.svg"
                 },
                 {
                     "title": "Advanced Excel and Tally",
-                    "icon": "📊"
+                    "icon": "/icons/excel.svg"
                 },
                 {
                     "title": "Resume Preparation",
-                    "icon": "📝"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview Practice",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "Internship (6 months real-world exposure)",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
                     "title": "100% Job Opportunities Guaranteed Program",
-                    "icon": "🎓"
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -5812,32 +5772,32 @@
             "keyFeatures": [
                 {
                     "text": "123+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "Free demo class available",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Certificate Guidance",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Industry expert faculties",
-                    "icon": "FiHelpCircle",
+                    "icon": "/icons/help.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Completed 200+ batches",
-                    "icon": "FiUsers",
+                    "icon": "/icons/batch.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
@@ -5845,7 +5805,7 @@
                 {
                     "title": "Introduction",
                     "description": "Fundamentals of SAP and Materials Management",
-                    "icon": "📘",
+                    "icon": "/icons/closed-book.svg",
                     "items": [
                         "What is SAP?",
                         "What is SAP MM?",
@@ -5860,7 +5820,7 @@
                 {
                     "title": "Assessment and Planning",
                     "description": "Initial evaluation and strategy for SAP Fiori implementation",
-                    "icon": "📋",
+                    "icon": "/icons/paper-writing.svg",
                     "items": [
                         "Conduct a current-state assessment of existing SAP landscape.",
                         "Define business goals and objectives for implementing SAP Fiori.",
@@ -5872,7 +5832,7 @@
                 {
                     "title": "System Landscape Preparation",
                     "description": "Preparing technical infrastructure for Fiori deployment",
-                    "icon": "🖥️",
+                    "icon": "/icons/computer.svg",
                     "items": [
                         "Upgrade or enhance SAP backend systems to support Fiori.",
                         "Install or update SAP Gateway and ensure it's configured properly.",
@@ -5883,7 +5843,7 @@
                 {
                     "title": "Design and Prototyping",
                     "description": "Creating user-centric Fiori application designs",
-                    "icon": "🎨",
+                    "icon": "/icons/color.svg",
                     "items": [
                         "Define user personas and user journeys.",
                         "Create wireframes and prototypes for Fiori applications.",
@@ -5894,7 +5854,7 @@
                 {
                     "title": "Development and Customization",
                     "description": "Building and tailoring Fiori applications",
-                    "icon": "⚙️",
+                    "icon": "/icons/settings.svg",
                     "items": [
                         "Develop Fiori apps using SAPUI5 or other supported technologies.",
                         "Customize standard Fiori apps to meet specific business requirements.",
@@ -5905,7 +5865,7 @@
                 {
                     "title": "User Acceptance Testing (UAT)",
                     "description": "Validating Fiori applications with end-users",
-                    "icon": "🧪",
+                    "icon": "/icons/testube.svg",
                     "items": [
                         "Engage key users in UAT to validate the functionality.",
                         "Collect feedback and make necessary adjustments.",
@@ -5916,7 +5876,7 @@
                 {
                     "title": "Deployment",
                     "description": "Rolling out Fiori applications to production",
-                    "icon": "🚀",
+                    "icon": "/icons/rocket.svg",
                     "items": [
                         "Plan and execute a phased deployment strategy.",
                         "Monitor and address any issues during the deployment.",
@@ -5927,7 +5887,7 @@
                 {
                     "title": "Resume preparation",
                     "description": "Creating an effective SAP Fiori professional resume",
-                    "icon": "📝",
+                    "icon": "/icons/resume-prep.svg",
                     "items": [
                         "Include keywords",
                         "How to prepare resume",
@@ -5951,7 +5911,7 @@
                         "Key principles and design concepts"
                     ],
                     "color": "bg-blue-500",
-                    "icon": "🌟",
+                    "icon": "/icons/star.svg",
                     "description": "Fundamentals of SAP's modern user experience"
                 },
                 {
@@ -5962,7 +5922,7 @@
                         "OData services for communication"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "🏗️",
+                    "icon": "/icons/crane.svg",
                     "description": "Technical foundation of Fiori applications"
                 },
                 {
@@ -5973,7 +5933,7 @@
                         "Theming and branding options"
                     ],
                     "color": "bg-pink-500",
-                    "icon": "🎨",
+                    "icon": "/icons/color.svg",
                     "description": "Design standards for Fiori user interfaces"
                 },
                 {
@@ -5984,7 +5944,7 @@
                         "Managing tiles and groups"
                     ],
                     "color": "bg-teal-500",
-                    "icon": "🚀",
+                    "icon": "/icons/rocket.svg",
                     "description": "Entry point for Fiori applications"
                 },
                 {
@@ -5994,7 +5954,7 @@
                         "List Report, Object Page, Overview Page, and Analytical List Page"
                     ],
                     "color": "bg-green-500",
-                    "icon": "🧩",
+                    "icon": "/icons/puzzle.svg",
                     "description": "Framework for rapid application development"
                 },
                 {
@@ -6005,7 +5965,7 @@
                         "Routing and navigation concepts"
                     ],
                     "color": "bg-orange-500",
-                    "icon": "🛠️",
+                    "icon": "/icons/hammer.svg",
                     "description": "Technical foundation for building Fiori apps"
                 },
                 {
@@ -6015,7 +5975,7 @@
                         "Creating and consuming OData services"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "🔌",
+                    "icon": "/icons/wire.svg",
                     "description": "Data protocol for Fiori applications"
                 },
                 {
@@ -6025,7 +5985,7 @@
                         "Extension points and tools for customization"
                     ],
                     "color": "bg-red-500",
-                    "icon": "🔧",
+                    "icon": "/icons/panna.svg",
                     "description": "Adapting Fiori applications to business needs"
                 }
             ],
@@ -6088,19 +6048,19 @@
             "coveringTopics": [
                 {
                     "title": "Resume preparation",
-                    "icon": "📝"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview practice",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "6-months internship",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
                     "title": "100% job opportunities guaranteed program",
-                    "icon": "🎓"
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -6117,32 +6077,32 @@
             "keyFeatures": [
                 {
                     "text": "130+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "Free demo class available",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Certificate Guidance",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Industry expert faculties",
-                    "icon": "FiHelpCircle",
+                    "icon": "/icons/help.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Completed 200+ batches",
-                    "icon": "FiUsers",
+                    "icon": "/icons/batch.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
@@ -6150,7 +6110,7 @@
                 {
                     "title": "Introduction",
                     "description": "Fundamentals of SAP Business Technology Platform",
-                    "icon": "🌐",
+                    "icon": "/icons/internet-globe.svg",
                     "items": [
                         "What is SAP?",
                         "What is SAP BTP?",
@@ -6165,7 +6125,7 @@
                 {
                     "title": "BTP Development and Integration",
                     "description": "Building and connecting applications on SAP BTP",
-                    "icon": "🔗",
+                    "icon": "/icons/locked.svg",
                     "items": [
                         "Understand and implement SAP BTP concepts.",
                         "Build and integrate applications using SAP BTP services."
@@ -6175,7 +6135,7 @@
                 {
                     "title": "Debugging and Performance Optimization",
                     "description": "Enhancing BTP application efficiency",
-                    "icon": "🐞",
+                    "icon": "/icons/virus.svg",
                     "items": [
                         "Master debugging techniques in SAP BTP.",
                         "Learn strategies for optimizing code and database queries in BTP."
@@ -6185,7 +6145,7 @@
                 {
                     "title": "Application Development",
                     "description": "Creating cloud-native applications on BTP",
-                    "icon": "💻",
+                    "icon": "/icons/computer.svg",
                     "items": [
                         "Develop cloud applications using SAP BTP tools.",
                         "Customize applications to meet business requirements."
@@ -6195,7 +6155,7 @@
                 {
                     "title": "BTP Extensions",
                     "description": "Extending SAP solutions with BTP capabilities",
-                    "icon": "🧩",
+                    "icon": "/icons/puzzle.svg",
                     "items": [
                         "Learn to create extensions for SAP S/4HANA using SAP BTP.",
                         "Understand the extension options available within BTP."
@@ -6205,7 +6165,7 @@
                 {
                     "title": "BTP Security and Compliance",
                     "description": "Securing applications and meeting regulatory standards",
-                    "icon": "🔒",
+                    "icon": "/icons/padlock.svg",
                     "items": [
                         "Implement security best practices in SAP BTP.",
                         "Understand compliance requirements and solutions."
@@ -6215,7 +6175,7 @@
                 {
                     "title": "SAP Integration Suite",
                     "description": "Connecting systems and enabling data flow",
-                    "icon": "🔄",
+                    "icon": "/icons/recurring.svg",
                     "items": [
                         "Learn SAP Integration Suite for seamless data exchange.",
                         "Enable communication between SAP systems and external applications."
@@ -6225,7 +6185,7 @@
                 {
                     "title": "Resume Preparation",
                     "description": "Creating an effective SAP BTP professional resume",
-                    "icon": "📄",
+                    "icon": "/icons/resume-prep.svg",
                     "items": [
                         "Include relevant keywords.",
                         "How to prepare a resume.",
@@ -6249,7 +6209,7 @@
                         "Key principles and design concepts"
                     ],
                     "color": "bg-blue-500",
-                    "icon": "🌟",
+                    "icon": "/icons/star.svg",
                     "description": "Fundamentals of SAP's modern user experience"
                 },
                 {
@@ -6260,7 +6220,7 @@
                         "OData services for communication"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "🏗️",
+                    "icon": "/icons/crane.svg",
                     "description": "Technical foundation of Fiori applications"
                 },
                 {
@@ -6271,7 +6231,7 @@
                         "Theming and branding options"
                     ],
                     "color": "bg-pink-500",
-                    "icon": "🎨",
+                    "icon": "/icons/color.svg",
                     "description": "Design standards for Fiori user interfaces"
                 },
                 {
@@ -6282,7 +6242,7 @@
                         "Managing tiles and groups"
                     ],
                     "color": "bg-teal-500",
-                    "icon": "🚀",
+                    "icon": "/icons/rocket.svg",
                     "description": "Entry point for Fiori applications"
                 },
                 {
@@ -6292,7 +6252,7 @@
                         "List Report, Object Page, Overview Page, and Analytical List Page"
                     ],
                     "color": "bg-green-500",
-                    "icon": "🧩",
+                    "icon": "/icons/puzzle.svg",
                     "description": "Framework for rapid application development"
                 },
                 {
@@ -6303,7 +6263,7 @@
                         "Routing and navigation concepts"
                     ],
                     "color": "bg-orange-500",
-                    "icon": "🛠️",
+                    "icon": "/icons/hammer.svg",
                     "description": "Technical foundation for building Fiori apps"
                 },
                 {
@@ -6313,7 +6273,7 @@
                         "Creating and consuming OData services"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "🔌",
+                    "icon": "/icons/wire.svg",
                     "description": "Data protocol for Fiori applications"
                 },
                 {
@@ -6323,7 +6283,7 @@
                         "Extension points and tools for customization"
                     ],
                     "color": "bg-red-500",
-                    "icon": "🔧",
+                    "icon": "/icons/panna.svg",
                     "description": "Adapting Fiori applications to business needs"
                 }
             ],
