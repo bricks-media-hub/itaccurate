@@ -67,7 +67,8 @@ function AboutCourse() {
         />
         <div className="absolute inset-0 opacity-90 bg-gradient-to-r from-blue-100 to-purple-200 dark:from-blue-400 dark:to-purple-500 z-0 backdrop-blur-sm" />
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-start gap-6 md:gap-8">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-start gap-6 md:gap-8">
+          {/* content section  */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -112,9 +113,9 @@ function AboutCourse() {
               </div>
             )}
           </motion.div>
-
-          <div className="w-full md:w-[55%] lg:w-[52%] sticky top-6 z-10">
-            <div className="rounded-xl shadow-lg p-5 sm:p-6 md:p-6 lg:p-7">
+          {/* form section */}
+          <div className="w-full md:w-[55%] lg:w-[52%] md:sticky top-6 z-10">
+            <div className="rounded-xl shadow-lg">
               <FormComponent />
             </div>
           </div>
@@ -162,7 +163,7 @@ function AboutCourse() {
 />
 
       <div className='py-11 bg-gray-100 dark:bg-slate-900'>
-        <img className="md:w-[70vw] m-auto w-10vw" src="./addons1.png" alt="addon" />
+        <img className="md:w-[70vw] m-auto w-10vw" src="./addons.png" alt="addon" />
       </div>
 
       <CourseOpportunities pageName={name} />

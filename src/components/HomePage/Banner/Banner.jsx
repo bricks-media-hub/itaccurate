@@ -61,7 +61,7 @@ function Banner() {
           transition={{ duration: 0.8 }}
           className="w-full md:w-[52%] text-center md:text-left z-10 md:ml-14"
         >
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-gray-900 dark:text-white">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-shadow-lg mb-4 text-gray-900 dark:text-white">
             LEARN WITH <span className="text-blue-600 dark:text-blue-400">IT ACCURATE</span>
           </h1>
           <p className="text-base md:text-lg text-gray-700 dark:text-gray-300 mb-6">
