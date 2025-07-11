@@ -6333,42 +6333,42 @@
         "best-data-analytics-training": {
             "name": "Data analytics",
             "title": "Best Data analytics Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/data-analytics.jpg",
             "detail": {
                 "paragraph1": "Best Data analytics Training by IT Accurate offers you the Best Data analytics training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our Data analytics training course covers every technical topics in details and the student is left with real-time hand on experience. Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in Data analytics in just 5 months."
             },
             "coveringTopics": [
                 {
                     "title": "GitHub",
-                    "icon": "💻"
+                    "icon": "/icons/github.svg"
                 },
                 {
                     "title": "Snowflake",
-                    "icon": "❄️"
+                    "icon": "/icons/snowflake.svg"
                 },
                 {
                     "title": "ChatGPT",
-                    "icon": "🤖"
+                    "icon": "/icons/ai-bot.svg"
                 },
                 {
                     "title": "Interview preparation",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "Case studies",
-                    "icon": "📊"
+                    "icon": "/icons/sap.svg"
                 },
                 {
                     "title": "5+ Capstone projects",
-                    "icon": "🏆"
+                    "icon": "/icons/trophy.svg"
                 },
                 {
                     "title": "Industry-level projects",
-                    "icon": "🏗️"
+                    "icon": "/icons/crane.svg"
                 },
                 {
                     "title": "100% job opportunities guaranteed program",
-                    "icon": "🎓"
+                    "icon": "/icons/job-assist.svg"
                 }
             ],
             "whatIs": {
@@ -6382,32 +6382,32 @@
             "keyFeatures": [
                 {
                     "text": "162+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented Training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Industry expert faculties",
-                    "icon": "FiHelpCircle",
+                    "icon": "/icons/help.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Free demo class available",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Completed 200+ Batches",
-                    "icon": "FiUsers",
+                    "icon": "/icons/batch.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 },
                 {
                     "text": "Certifaction guidance",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 }
             ],
@@ -6415,7 +6415,7 @@
                 {
                     "title": "Introduction",
                     "description": "Fundamentals of Data Analytics",
-                    "icon": "📊",
+                    "icon": "/icons/closed-book.svg",
                     "items": [
                         "What is Data analytics?",
                         "Data Analytics course",
@@ -6428,7 +6428,7 @@
                 {
                     "title": "Define Objectives and Scope",
                     "description": "Setting the foundation for your analysis",
-                    "icon": "🎯",
+                    "icon": "/icons/focus.svg",
                     "items": [
                         "Clearly outline the goals and objectives of your data analytics initiative.",
                         "Identify the key questions you want to answer or the problems you want to solve.",
@@ -6439,7 +6439,7 @@
                 {
                     "title": "Data Collection and Integration",
                     "description": "Gathering and preparing your data",
-                    "icon": "🔍",
+                    "icon": "/icons/search-scope.svg",
                     "items": [
                         "Identify relevant data sources and gather the necessary datasets.",
                         "Cleanse and preprocess the data to ensure accuracy and consistency.",
@@ -6450,7 +6450,7 @@
                 {
                     "title": "Exploratory Data Analysis (EDA)",
                     "description": "Understanding your data",
-                    "icon": "🔎",
+                    "icon": "/icons/analyze-report.svg",
                     "items": [
                         "Perform EDA to understand the characteristics of the data.",
                         "Identify patterns, trends, and outliers that may impact the analysis.",
@@ -6461,7 +6461,7 @@
                 {
                     "title": "Modeling and Analysis",
                     "description": "Applying analytical techniques",
-                    "icon": "🧠",
+                    "icon": "/icons/brain.svg",
                     "items": [
                         "Select appropriate analytical models based on the nature of the problem.",
                         "Train and validate models using historical data.",
@@ -6472,7 +6472,7 @@
                 {
                     "title": "Interpretation and Communication",
                     "description": "Sharing your findings",
-                    "icon": "🗣️",
+                    "icon": "/icons/group-chat.svg",
                     "items": [
                         "Interpret the results of the analysis in the context of the business objectives.",
                         "Clearly communicate findings to both technical and non-technical stakeholders.",
@@ -6483,7 +6483,7 @@
                 {
                     "title": "Continuous Improvement and Optimization",
                     "description": "Enhancing your analytics process",
-                    "icon": "🔄",
+                    "icon": "/icons/recurring.svg",
                     "items": [
                         "Establish mechanisms for continuous monitoring of data quality and model performance.",
                         "Iterate on the analysis based on feedback and changing business requirements.",
@@ -6494,7 +6494,7 @@
                 {
                     "title": "Resume Preparation",
                     "description": "Crafting an effective data analytics resume",
-                    "icon": "📝",
+                    "icon": "/icons/resume-prep.svg",
                     "items": [
                         "Include keywords.",
                         "How to prepare resume.",
@@ -6531,7 +6531,7 @@
                         "Operating System"
                     ],
                     "color": "bg-blue-500",
-                    "icon": "🐍",
+                    "icon": "/icons/python.svg",
                     "description": "Fundamentals of Python programming for data analysis"
                 },
                 {
@@ -6546,7 +6546,7 @@
                         "Sci-kit learn for machine learning"
                     ],
                     "color": "bg-green-500",
-                    "icon": "📚",
+                    "icon": "/icons/books-bunch.svg",
                     "description": "Essential Python libraries for data science"
                 },
                 {
@@ -6564,7 +6564,7 @@
                         "Data transformation"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "📊",
+                    "icon": "/icons/stats.svg",
                     "description": "Statistical concepts for data analysis"
                 },
                 {
@@ -6591,7 +6591,7 @@
                         "Window analytical function"
                     ],
                     "color": "bg-orange-500",
-                    "icon": "🗃️",
+                    "icon": "/icons/database.svg",
                     "description": "Database management with MySQL"
                 },
                 {
@@ -6607,7 +6607,7 @@
                         "Power BI Service: Sharing and publishing"
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "📈",
+                    "icon": "/icons/power-bi.svg",
                     "description": "Data visualization and business intelligence"
                 },
                 {
@@ -6622,7 +6622,7 @@
                         "Data Analysis Tool"
                     ],
                     "color": "bg-green-600",
-                    "icon": "📑",
+                    "icon": "/icons/adv-excel.svg",
                     "description": "Advanced data analysis with Excel"
                 },
                 {
@@ -6636,7 +6636,7 @@
                         "Model evaluation and selection"
                     ],
                     "color": "bg-red-500",
-                    "icon": "🤖",
+                    "icon": "/icons/ai-bot.svg",
                     "description": "Fundamentals of machine learning"
                 },
                 {
@@ -6649,7 +6649,7 @@
                         "Interview Preparation"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "🎁",
+                    "icon": "/icons/gift.svg",
                     "description": "Additional valuable skills and tools"
                 },
                 {
@@ -6658,7 +6658,7 @@
                         ""
                     ],
                     "color": "bg-teal-500",
-                    "icon": "🏆",
+                    "icon": "/icons/trophy.svg",
                     "description": "Comprehensive real-world project implementation"
                 }
             ],
@@ -6765,7 +6765,7 @@
         "best-devops-training": {
             "name": "DevOps",
             "title": "Best DevOps Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/devops.jpg",
             "detail": {
                 "paragraph1": "Best DevOps Training by IT Accurate offers you the Best DevOps training for freshers and experienced candidates , with expert guidance and 100% guaranteed placement assistance. Our DevOps training course covers every technical topic in detail, leaving the student with real-time hands-on experience.",
                 "paragraph2": "Our practical, job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as ours. Hence, we aim to train you in DevOps in just 5 months."
@@ -7390,7 +7390,7 @@
         "full-stack-developer": {
             "name": "Full Stack Development",
             "title": "Best Full Stack Developer Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/fullstack.jpg",
             "detail": {
                 "paragraph1": "Best Full stack developer Training by IT Accurate training institute offers you the best Full stack developer training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our Full stack developer training course covers every technical topics in details and the student is left with real-time hand on experience.",
                 "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 5+ years of field experience. We value your time as much as over. Hence we invented to train you in Full stack developer in just 4 months."
@@ -7945,7 +7945,7 @@
         "best-aws-training": {
             "name": "AWS",
             "title": "Best AWS Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/aws.jpg",
             "detail": {
                 "paragraph1": "Best AWS Training by IT Accurate Training Institute offers you the best AWS training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our AWS Training course covers every technical topics in details and the student is left with real-time hand on experience.",
                 "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in AWS in just 2 months."
@@ -8345,7 +8345,7 @@
         "data-engineering": {
             "name": "Data Engineering",
             "title": "Best Data Engineering Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/data-engineer.jpg",
             "detail": {
                 "paragraph1": "Best Data Engineering Training by IT Accurate offers you the Best Data Engineering training for freshers and experienced candidates, with expert guidance and 100% guaranteed placement assistance. Our Data Engineering training course covers every technical topic in detail, ensuring students gain real-time hands-on experience.",
                 "paragraph2": "Our practical, job-oriented training program not only provides you with a certification but also equips you with knowledge equivalent to 2+ years of industry experience. We value your time, which is why we have designed an intensive Data Engineering course that trains you in just 5 months."
@@ -9314,7 +9314,7 @@
         "python": {
             "name": "Python ",
             "title": "Best Python Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/python.jpg",
             "detail": {
                 "paragraph1": "Best Python Training by IT Accurate offers you the best Python training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our Python training course covers every technical topics in details and the student is left with real-time hand on experience.",
                 "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 4+ years of field experience. We value your time as much as over. Hence we invented to train you in Python in just 1.5 months."
@@ -9719,7 +9719,7 @@
         "servicenow": {
             "name": "ServiceNow ",
             "title": "Best ServiceNow Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/service-now.jpg",
             "detail": {
                 "paragraph1": "Best ServiceNow Training by IT Accurate offers you the Best ServiceNow training for freshers and experienced candidates, with expert guidance and 100% guaranteed placement assistance. Our ServiceNow training course covers every technical topic in detail, leaving the student with real-time hands-on experience.",
                 "paragraph2": "Our practical, job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as ours. Hence, we aim to train you in ServiceNow in just 5 months."
@@ -10208,7 +10208,7 @@
         "share-market": {
             "name": "Share Market ",
             "title": "Best Share Market Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/share-market.jpg",
             "detail": {
                 "paragraph1": "Best Share Market Training by IT Accurate offers you the Best Share Market training for freshers and experienced candidates, with expert guidance. Our Share Market training course covers every technical topic in detail, providing students with real-time hands-on experience.",
                 "paragraph2": "Our practical, training program not only awards you with a certificate but also imparts knowledge equivalent to approximately 2+ years of expertise. We respect your time greatly, which is why we have condensed our Share Market training into just 3 months."
@@ -10685,7 +10685,7 @@
         "best-data-science-training": {
             "name": "Data Science ",
             "title": "Best Data Science Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/data-science.jpg",
             "detail": {
                 "paragraph1": "Best Data Science Training by IT Accurate offers you the Best Data Science training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our Data Science training course covers every technical topics in details and the student is left with real-time hand on experience.",
                 "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in Data Science in just 7 months."
@@ -11306,7 +11306,7 @@
         "best-machine-learning-training": {
             "name": "Machine learning ",
             "title": "Best Machine learning Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/machine-learning.jpg",
             "detail": {
                 "paragraph1": "Best Machine learning Training by IT Accurate offers you the best Machine learning training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our Machine learning training course covers every technical topics in details and the student is left with real-time hand on experience. Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in Machine learning in just 4 months."
             },
@@ -11887,7 +11887,7 @@
         "best-ai-ml-training": {
             "name": "AI & ML ",
             "title": "Best AI & ML Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/aiml.jpg",
             "detail": {
                 "paragraph1": "Best AI & ML Training by IT Accurate training offers you the best AI & ML training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our AI & ML training course covers every technical topics in details and the student is left with real-time hand on experience.",
                 "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in AI & ML in just 7 months."
@@ -12509,7 +12509,7 @@
         "salesforce-training": {
             "name": "Salesforce ",
             "title": "Best Salesforce Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/salesforce.jpg",
             "detail": {
                 "paragraph1": "IT Accurate offers you the Best Salesforce Training for Fresher and Experience candidate , with Expert Guidance and 100% Guaranteed Placement Assistance. Our Training Course cover every technical topics in details and the student is left with Real-Time Hands-On Experience.",
                 "paragraph2": "Our Practical, Job-Oriented Training Program, will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of Field Experience. We value your time as much as ours. Hence we intend to train you in Salesforce in just 5 months."
@@ -13026,7 +13026,7 @@
         "salesforce-admin": {
             "name": "Salesforce Admin ",
             "title": "Best Salesforce Admin Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/salesforce-admin.jpg",
             "detail": {
                 "paragraph1": "Salesforce Training by IT Accurate offers you the Best Salesforce Admin Training for Fresher and Experience candidate , with Expert Guidance and 100% Guaranteed Placement Assistance. Our Training Course cover every technical topics in details and the student is left with Real-Time Hands-On Experience.",
                 "paragraph2": "Our practical, Job-Oriented Training Program, will not only provide you with a certificate but also with knowledge equivalent to around 10+ years of Field Experience.We value your time as much as ours. Hence we intend to train you in Salesforce Admin in just 1.5 month."
@@ -13568,7 +13568,7 @@
         "salesforce-development-2": {
             "name": "Salesforce Development ",
             "title": "Best Salesforce Development Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/salesforce-development.jpg",
             "detail": {
                 "paragraph1": "Salesforce Development Training by IT Accurate offers you the Best Salesforce Development Training for Fresher and Experience candidate , with Expert Guidance and 100% Guaranteed Placement Assistance. Our Training Course cover every technical topics in details and the student is left with Real-Time Hands-On Experience. Our practical, Job-Oriented Training Program, will not only provide you with a certificate but also with knowledge equivalent to around 7+ years of Field Experience.We value your time as much as ours. Hence we intend to train you in Salesforce Development Development in just 2 months."
             },
@@ -14001,7 +14001,7 @@
         "salesforce-lwc-integration": {
             "name": "Salesforce LWC & Integration ",
             "title": "Best Salesforce LWC & Integration Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/lwc-integration.jpg",
             "detail": {
                 "paragraph1": "Salesforce Training by IT Accurate offers you the Best Salesforce Training for Fresher and Experience candidate , with Expert Guidance and 100% Guaranteed Placement Assistance. Our Training Course cover every technical topics in details and the student is left with Real-Time Hands-On Experience.",
                 "paragraph2": "Our practical, Job-Oriented Training Program, will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of Field Experience. We value your time as much as ours. Hence we intend to train you in Salesforce in just 1 months."
@@ -14473,7 +14473,7 @@
         "salesforce-marketing-cloud": {
             "name": "Salesforce Marketing Cloud ",
             "title": "Best Salesforce Marketing Cloud Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/salesforce-marketing.jpg",
             "detail": {
                 "paragraph1": "Best Salesforce Marketing Cloud Training by IT Accurate offers you the best Salesforce Marketing Cloud training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our Salesforce Marketing Cloud training course covers every technical topics in details and the student is left with real-time hand on experience.",
                 "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 10+ years of field experience. We value your time as much as over. Hence we invented to train you in Salesforce marketing cloud in just 3 months."
@@ -14944,7 +14944,7 @@
         "best-business-analytics-training": {
             "name": "Business analytics ",
             "title": "Best Business analytics Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/business-analytics.jpg",
             "detail": {
                 "paragraph1": "Best Business analytics Training by IT Accurate offers you the Best Business analytics training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our Business analytics training course covers every technical topics in details and the student is left with real-time hand on experience.",
                 "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in Business analytics in just 3 months."
@@ -15380,7 +15380,7 @@
         "ba-hr": {
             "name": "HR Business Analyst ",
             "title": "Best HR Business Analyst Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/ba-hr.jpg",
             "detail": {
                 "paragraph1": "IT Accurate’s HR Business Analyst Training Program offers the best HR Analytics and Business Analytics training , designed for both freshers and experienced candidates. With expert mentorship and 100% job placement assistance, our program covers all essential topics, ensuring students gain real-world, hands-on experience.",
                 "paragraph2": "Our job-oriented training program equips learners not only with certifications but also with the knowledge and skills of professionals with 10+ years of experience. We prioritize your time, delivering comprehensive training in just 2 months."
@@ -16031,7 +16031,7 @@
         "sap-hr": {
             "name": "SAP HCM ",
             "title": "Best SAP HCM Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/sap-hr.jpg",
             "detail": {
                 "paragraph1": "IT Accurate offers you the best SAP HCM(Human Capital Management) training for freshers and experienced candidates , with expert guidance and 100% guaranteed placement assistance. Our SAP training course covers every technical topic in detail and the student is left with real-time hands-on experience.",
                 "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP HCM with S/4 HANA in just 4 months."
@@ -16554,7 +16554,7 @@
         "da-hr": {
             "name": "HR Analytics ",
             "title": "Best HR Analytics Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/da-hr.jpg",
             "detail": {
                 "paragraph1": "IT Accurate’s HR Analytics Training Program offers the best training in HR Analytics, focusing on tools and techniques to analyze employee data, predict workforce trends, and enhance HR decision-making. This program caters to both freshers and experienced candidates, with expert guidance and 100% guaranteed placement assistance. The course covers key HR analytics tools like SAP SuccessFactors, Power BI, and Tableau, providing hands-on experience to ensure real-world application.",
                 "paragraph2": "Our job-oriented training ensures that learners not only earn certifications but also gain practical experience equivalent to professionals with 10+ years of experience. We understand the value of your time, so we offer comprehensive training in just 2 months."
@@ -17076,7 +17076,7 @@
         "sap-successfactors": {
             "name": "SAP SuccessFactors ",
             "title": "Best SAP SuccessFactors Training Course",
-            "bgImage": "https://plus.unsplash.com/premium_photo-1726474433745-25e7b36aaa7a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/coursesBgImages/sap-success.jpg",
             "detail": {
                 "paragraph1": "IT Accurate offers you the best SAP SuccessFactors training for both freshers and experienced candidates, with expert guidance and 100% guaranteed placement assistance. Our comprehensive training course covers every technical topic in detail, ensuring students gain real-time hands-on experience and practical knowledge.",
                 "paragraph2": "Our practical, job-oriented training program provides not only a globally recognized certificate but also knowledge equivalent to around 2+ years of industry experience. We value your time, which is why our specialized program is designed to train you in SAP SuccessFactors with S/4 HANA integration in just 4 months."

@@ -1,15 +1,22 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiArrowRight, FiCheck, FiUser, FiPhone, FiBookOpen, FiMapPin } from 'react-icons/fi';
+import { useForm } from 'react-hook-form';
+import { FiArrowRight, FiCheck, FiUser, FiPhone, FiBookOpen, FiMapPin, FiX } from 'react-icons/fi';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import axios from 'axios';
 
 export default function ReachUsForm() {
-    const [formData, setFormData] = useState({
-        name: '',
-        phone: '',
-        course: '',
-        location: '',
+    const { register, handleSubmit, formState: { errors }, reset } = useForm({
+        defaultValues: {
+            name: '',
+            phone: '',
+            course: '',
+            location: ''
+        }
     });
-    const [submitted, setSubmitted] = useState(false);
+
+    const [isSubmitting, setIsSubmitting] = useState(false);
 
     const courses = [
         "SAP", "Salesforce", "AWS", "DevOps", "Python",
@@ -17,27 +24,60 @@ export default function ReachUsForm() {
         "ServiceNow", "HR Training", "Share Market", "Data Engineering"
     ];
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData(prev => ({
-            ...prev,
-            [name]: value
-        }));
-    };
+    const onSubmit = async (data) => {
+        setIsSubmitting(true);
+        try {
+            // Submit to Web3Forms
+            const web3Response = await axios.post(
+                "https://api.web3forms.com/submit",
+                {
+                    access_key: "fabb3cfb-5cb8-4f83-81ae-b1c5caf0797a",
+                    subject: "New Contact Form Submission",
+                    from_name: "IT Accurate",
+                    ...data,
+                    recipient_email: "shivanihiware77@gmail.com",
+                },
+                {
+                    headers: {
+                        "Content-Type": "application/json",
+                    }
+                }
+            );
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log('Form submitted:', formData);
-        setSubmitted(true);
-        setTimeout(() => {
-            setSubmitted(false);
-            setFormData({ name: '', phone: '', course: '' }); // Reset form
-        }, 3000);
+            if (web3Response.data.success) {
+                // Submit to your backend 
+                const dbResponse = await axios.post(config.apiUrl, data);
+                toast.success("Thank you for your enquiry! We'll contact you shortly.", {
+                    position: "top-center",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                });
+
+                reset();
+            } else {
+                throw new Error("Web3Forms submission failed");
+            }
+        } catch (error) {
+            console.error('Submission error:', error);
+            toast.error("Failed to submit the form. Please try again.", {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+            });
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
         <div className="bg-white dark:bg-gray-950">
-
+            <ToastContainer />
             <section id="enquiry" className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-2xl overflow-hidden border border-gray-200 dark:border-gray-700">
                     <div className="flex flex-col md:flex-row-reverse">
@@ -55,8 +95,7 @@ export default function ReachUsForm() {
                                 transition={{ duration: 0.6 }}
                                 className="relative z-10 h-full flex flex-col justify-center"
                             >
-                                <h2 className="text-lg font-bold mb-2">Why IT ACCURATE?
-                                </h2>
+                                <h2 className="text-lg font-bold mb-2">Why IT ACCURATE?</h2>
                                 <h3 className="text-md font-semibold mb-6 text-gray-100">Be a part of our comprehensive training programs & start your journey towards becoming a Professional Developer today.</h3>
 
                                 <ul className="space-y-3 text-sm sm:text-base">
@@ -84,14 +123,12 @@ export default function ReachUsForm() {
                                         </div>
                                         Attend live webinars every week
                                     </li>
-
                                     <li className="flex items-center">
                                         <div className="flex-shrink-0 mr-3 p-1 bg-white/20 rounded-full">
                                             <FiCheck className="text-white" />
                                         </div>
                                         Access to study material
                                     </li>
-
                                     <li className="flex items-center">
                                         <div className="flex-shrink-0 mr-3 p-1 bg-white/20 rounded-full">
                                             <FiCheck className="text-white" />
@@ -104,27 +141,12 @@ export default function ReachUsForm() {
 
                         {/* Left side - Form */}
                         <div className="md:w-1/2 p-6 sm:p-8 relative">
-                            <AnimatePresence>
-                                {submitted && (
-                                    <motion.div
-                                        key="success"
-                                        initial={{ opacity: 0, y: 20 }}
-                                        animate={{ opacity: 1, y: 0 }}
-                                        exit={{ opacity: 0, y: -20 }}
-                                        className="bg-green-100 dark:bg-green-900/80 text-green-800 dark:text-green-200 p-4 rounded-lg mb-6 flex items-center"
-                                    >
-                                        <FiCheck className="mr-2 flex-shrink-0" />
-                                        Thank you for your enquiry! We'll contact you shortly.
-                                    </motion.div>
-                                )}
-                            </AnimatePresence>
-
                             <motion.form
                                 initial={{ opacity: 0, x: -20 }}
                                 whileInView={{ opacity: 1, x: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.6 }}
-                                onSubmit={handleSubmit}
+                                onSubmit={handleSubmit(onSubmit)}
                                 className="space-y-4"
                             >
                                 <div>
@@ -132,15 +154,31 @@ export default function ReachUsForm() {
                                         <FiUser className="inline mr-2" /> Your Name
                                     </label>
                                     <input
-                                        type="text"
                                         id="name"
-                                        name="name"
-                                        value={formData.name}
-                                        onChange={handleChange}
-                                        className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 text-sm transition-all"
-                                        required
+                                        className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 text-sm ${errors.name
+                                                ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
+                                                : 'border-gray-300 focus:ring-blue-500 dark:border-gray-600'
+                                            } dark:bg-gray-700 dark:text-white placeholder-gray-400 dark:placeholder-gray-500`}
                                         placeholder="Enter your full name"
+                                        {...register('name', {
+                                            required: 'Name is required',
+                                            minLength: {
+                                                value: 3,
+                                                message: 'Name must be at least 3 characters'
+                                            },
+                                            maxLength: {
+                                                value: 50,
+                                                message: 'Name must be less than 50 characters'
+                                            },
+                                            pattern: {
+                                                value: /^[a-zA-Z\s]*$/,
+                                                message: 'Name should contain only letters and spaces'
+                                            }
+                                        })}
                                     />
+                                    {errors.name && (
+                                        <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.name.message}</p>
+                                    )}
                                 </div>
 
                                 <div>
@@ -150,48 +188,75 @@ export default function ReachUsForm() {
                                     <input
                                         type="tel"
                                         id="phone"
-                                        name="phone"
-                                        value={formData.phone}
-                                        onChange={handleChange}
-                                        className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 text-sm transition-all"
-                                        required
+                                        className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 text-sm ${errors.phone
+                                                ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
+                                                : 'border-gray-300 focus:ring-blue-500 dark:border-gray-600'
+                                            } dark:bg-gray-700 dark:text-white placeholder-gray-400 dark:placeholder-gray-500`}
                                         placeholder="Enter your phone number"
+                                        {...register('phone', {
+                                            required: 'Phone number is required',
+                                            pattern: {
+                                                value: /^[0-9]{10}$/,
+                                                message: 'Please enter a valid 10-digit phone number'
+                                            }
+                                        })}
                                     />
+                                    {errors.phone && (
+                                        <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.phone.message}</p>
+                                    )}
                                 </div>
-                    <div className="mb-4">
-                      <label className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium" htmlFor="location">
-                        <FiMapPin className="inline mr-2" /> Your Location
-                      </label>
-                      <div className="relative">
-                        <input
-                          type="text"
-                          id="location"
-                          name="location"
-                          value={formData.location}
-                          onChange={handleChange}
-                          className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white text-sm pr-10"
-                          required
-                          placeholder="Enter your location"
-                        />
-                      </div>
-                    </div>
+
+                                <div>
+                                    <label className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium" htmlFor="location">
+                                        <FiMapPin className="inline mr-2" /> Your Location
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="location"
+                                        className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 text-sm ${errors.location
+                                                ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
+                                                : 'border-gray-300 focus:ring-blue-500 dark:border-gray-600'
+                                            } dark:bg-gray-700 dark:text-white placeholder-gray-400 dark:placeholder-gray-500`}
+                                        placeholder="Enter your location"
+                                        {...register('location', {
+                                            required: 'Location is required',
+                                            minLength: {
+                                                value: 3,
+                                                message: 'Location must be at least 3 characters'
+                                            },
+                                            maxLength: {
+                                                value: 100,
+                                                message: 'Location must be less than 100 characters'
+                                            }
+                                        })}
+                                    />
+                                    {errors.location && (
+                                        <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.location.message}</p>
+                                    )}
+                                </div>
+
                                 <div>
                                     <label className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium" htmlFor="course">
                                         <FiBookOpen className="inline mr-2" /> Select a Course
                                     </label>
                                     <select
                                         id="course"
-                                        name="course"
-                                        value={formData.course}
-                                        onChange={handleChange}
-                                        className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white text-sm appearance-none bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNoZXZyb24tZG93biI+PHBhdGggZD0ibTYgOSA2IDYgNi02Ii8+PC9zdmc+')] bg-no-repeat bg-[center_right_1rem]"
-                                        required
+                                        className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 text-sm ${errors.course
+                                                ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
+                                                : 'border-gray-300 focus:ring-blue-500 dark:border-gray-600'
+                                            } dark:bg-gray-700 dark:text-white appearance-none bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNoZXZyb24tZG93biI+PHBhdGggZD0ibTYgOSA2IDYgNi02Ii8+PC9zdmc+')] bg-no-repeat bg-[center_right_1rem]`}
+                                        {...register('course', {
+                                            required: 'Please select a course'
+                                        })}
                                     >
                                         <option value="">-- Select a Course --</option>
                                         {courses.map(course => (
                                             <option key={course} value={course}>{course}</option>
                                         ))}
                                     </select>
+                                    {errors.course && (
+                                        <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.course.message}</p>
+                                    )}
                                 </div>
 
                                 <div className="pt-2">
@@ -199,9 +264,10 @@ export default function ReachUsForm() {
                                         whileHover={{ scale: 1.02 }}
                                         whileTap={{ scale: 0.98 }}
                                         type="submit"
-                                        className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center"
+                                        disabled={isSubmitting}
+                                        className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center disabled:opacity-70 disabled:cursor-not-allowed"
                                     >
-                                        Submit Now <FiArrowRight className="ml-2" />
+                                        {isSubmitting ? 'Submitting...' : 'Submit Now'} <FiArrowRight className="ml-2" />
                                     </motion.button>
                                 </div>
                             </motion.form>

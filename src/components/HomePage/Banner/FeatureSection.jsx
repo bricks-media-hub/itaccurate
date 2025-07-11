@@ -45,13 +45,13 @@ function FeatureSection() {
                             className="bg-white dark:bg-gradient-to-r dark:from-slate-700 dark:to-slate-800 rounded-lg sm:rounded-xl shadow-md sm:shadow-xl overflow-hidden border border-gray-100 dark:border-gray-700 hover:shadow-lg sm:hover:shadow-2xl transition-all duration-300"
                         >
                             <div className="p-2 sm:p-4 flex flex-col items-center text-center">
-                                {/* <div className={`mb-3 sm:mb-4 p-2 sm:p-3 ${feature.bgColor} rounded-full`}> */}
+                                <div className={`mb-3 sm:mb-4 p-2 sm:p-5 ${feature.bgColor} rounded-full`}>
                                     {feature.icon}
-                                {/* </div> */}
+                                </div>
                                 <h3 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white mb-1 sm:mb-2">
                                     {feature.title}
                                 </h3>
-                                <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300">
+                                <p className="text-dm sm:text-md text-gray-600 dark:text-gray-300">
                                     {feature.description}
                                 </p>
                             </div>

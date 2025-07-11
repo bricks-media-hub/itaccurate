@@ -218,15 +218,15 @@
         {
             "title": "SAP",
             "description": "Start Learning SAP, And Land Your First Dream Job.",
+            "bgImage": "/courseImages/sap.jpg",
             "cta": "Enquire Now",
-            "bgImage": "https://www.nagarro.com/hubfs/SAP%20Services/sap-s4hana-blog.jpg",
             "color": "from-blue-500 to-blue-700",
             "link": "/best-sap-training"
         },
         {
             "title": "SALESFORCE",
             "description": "Master Salesforce by completing Our Training Career Advancement Program.",
-            "bgImage": "./courseImages/salesforce.png",
+            "bgImage": "/courseImages/salesforce.jpg",
             "cta": "Enquire Now",
             "color": "from-purple-500 to-purple-700",
             "link": "/salesforce-training"
@@ -234,7 +234,7 @@
         {
             "title": "DATA ANALYTICS",
             "description": "Accelerate Your Career with Data Analytics Training and Certification program.",
-            "bgImage": "./courseImages/data-analysis.png",
+            "bgImage": "/courseImages/data-analysis.png",
             "cta": "Enquire Now",
             "color": "from-cyan-500 to-cyan-700",
             "link": "/best-data-analytics-training"
@@ -250,7 +250,7 @@
         {
             "title": "FULL STACK DEVELOPER",
             "description": "Unlock limitless opportunities with Full Stack Development mastery.",
-            "bgImage": "https://images.unsplash.com/photo-1599837565318-67429bde7162?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "bgImage": "/courseImages/full-stack.jpg",
             "cta": "Enquire Now",
             "color": "from-red-500 to-red-700",
             "link": "/full-stack-developer"
@@ -282,7 +282,7 @@
         {
             "title": "PYTHON",
             "description": "Empower Your Future with Python Training Excellence.",
-            "bgImage": "./courseImages/python.jpg",
+            "bgImage": "./courseImages/python2.jpg",
             "cta": "Enquire Now",
             "color": "from-teal-500 to-teal-700",
             "link": "/python"

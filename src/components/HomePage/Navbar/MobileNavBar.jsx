@@ -39,7 +39,7 @@ const MobileNavBar = ({
                         {navItems.map((item) => (
                             <div key={item.name}>
                                 <button
-                                    className={`w-full text-left px-3 py-2 rounded-md text-base font-medium dark:text-gray-300 text-gray-700 hover:dark:bg-gray-800 hover:bg-gray-100 transition-colors flex items-center justify-between ${mobileActiveMenu === item.name ? 'dark:bg-gray-800 bg-gray-100' : ''}`}
+                                    className={`w-full text-left px-3 py-2 rounded-md text-md font-medium dark:text-gray-300 text-gray-700 hover:dark:bg-gray-800 hover:bg-gray-100 transition-colors flex items-center justify-between ${mobileActiveMenu === item.name ? 'dark:bg-gray-800 bg-gray-100' : ''}`}
                                     onClick={() => {
                                         if (item.hasDropdown) {
                                             if (mobileActiveMenu === item.name) {
@@ -54,7 +54,7 @@ const MobileNavBar = ({
                                         }
                                     }}
                                 >
-                                    <div className="flex items-center">
+                                    <div className="flex items-center text-lg">
                                         <span className="mr-2 w-5 h-5">{item.icon}</span>
                                         <Link to={`${item.path}`}>
                                             {item.name}
@@ -99,8 +99,8 @@ const MobileNavBar = ({
                                                         </span>
                                                         <Link to={course.link}>
                                                             <div>
-                                                                <div className="font-medium">{course.title}</div>
-                                                                <div className="text-xs text-gray-500 dark:text-gray-400">{course.description}</div>
+                                                                <div className="font-medium text-lg">{course.title}</div>
+                                                                <div className="text-md text-gray-500 dark:text-gray-400">{course.description}</div>
                                                             </div>
                                                         </Link>
                                                     </div>
@@ -118,12 +118,12 @@ const MobileNavBar = ({
                                                         transition={{ duration: 0.2 }}
                                                         className="ml-4 mt-1 space-y-1"
                                                     >
-                                                        <h4 className="px-3 py-1 text-sm font-semibold text-gray-800 dark:text-white">{course.title} Courses</h4>
+                                                        <h4 className="px-3 py-1 text-md font-semibold text-gray-800 dark:text-white">{course.title} Courses</h4>
                                                         {course.subMenu.map((subItem) => (
                                                             <Link
                                                                 key={subItem.title}
                                                                 to={subItem.link}
-                                                                className="block px-3 py-2 rounded-md text-sm dark:text-gray-300 text-gray-700 hover:dark:bg-gray-700 hover:bg-gray-100 transition-colors"
+                                                                className="block px-3 py-2 rounded-md text-md dark:text-gray-300 text-gray-700 hover:dark:bg-gray-700 hover:bg-gray-100 transition-colors"
                                                                 onClick={(e) => {
                                                                     e.stopPropagation();
                                                                     setIsOpen(false);
@@ -152,7 +152,7 @@ const MobileNavBar = ({
                                             <Link
                                                 key={subItem}
                                                 to={'/placed'}
-                                                className="block px-3 py-2 rounded-md text-sm dark:text-gray-300 text-gray-700 hover:dark:bg-gray-700 hover:bg-gray-100 transition-colors"
+                                                className="block px-3 py-2 rounded-md text-md dark:text-gray-300 text-gray-700 hover:dark:bg-gray-700 hover:bg-gray-100 transition-colors"
                                                 onClick={() => setIsOpen(false)}
                                             >
                                                 {subItem}
