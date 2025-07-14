@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FiStar, FiArrowRight } from 'react-icons/fi';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import * as FiIcons from 'react-icons/fi';
 import { useState } from 'react';
 import FreeDemoForm from '../ContactUs/FreeDemoForm';
@@ -81,8 +81,7 @@ function KeyFeatures() {
                     <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mb-4 flex-grow">
                       {feature.description || "Comprehensive coverage with practical examples"}
                     </p>
-
-                    <div className="flex items-center text-blue-600 dark:text-blue-400 text-sm font-medium mt-auto">
+                    <div className="flex items-center text-blue-600 dark:text-blue-400 text-sm font-medium mt-auto cursor-pointer" onClick={() => setShowForm(true)}>
                       <span>Learn more</span>
                       <FiArrowRight className="ml-1 transition-transform group-hover:translate-x-1" />
                     </div>
