@@ -2,17 +2,38 @@ import React, { useEffect, useState } from "react";
 import { GoogleMap } from "../../lib/GoogleMap";
 import config from "../../lib/config";
 import { FiMapPin } from "react-icons/fi";
+import { useForm } from "react-hook-form";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import axios from "axios";
 
 const ContactUs = ({ initialLocation = "nagpur" }) => {
   const [activeLocation, setActiveLocation] = useState(initialLocation);
   const [isFormVisible, setIsFormVisible] = useState(true);
-  const [formData, setFormData] = useState({ name: "", phone: "", course: "" });
-  const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [successMessage, setSuccessMessage] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
 
-  // Add this useEffect to handle initial hash and changes
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+    setValue
+  } = useForm({
+    defaultValues: {
+      name: "",
+      phone: "",
+      course: "",
+      location: ""
+    }
+  });
+
+  const courses = [
+    "SAP", "Salesforce", "AWS", "DevOps", "Python",
+    "AI & ML", "Data Analytics", "Business Analytics",
+    "ServiceNow", "HR Training", "Share Market"
+  ];
+
+  // Handle location changes from hash
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash;
@@ -21,99 +42,73 @@ const ContactUs = ({ initialLocation = "nagpur" }) => {
       } else {
         setActiveLocation('nagpur');
       }
+      setValue("location", hash === '#thane' ? 'Thane' : 'Nagpur');
     };
 
-    // Check initial hash on load
     handleHashChange();
-    console.log("Location changed to:", activeLocation);
-    // Listen for hash changes
     window.addEventListener('hashchange', handleHashChange);
     return () => window.removeEventListener('hashchange', handleHashChange);
-    
-  }, [activeLocation]);
+  }, [setValue]);
 
-  // Function to handle location changes from footer
   const handleLocationChange = (location) => {
     setActiveLocation(location);
-    window.location.hash = location; // Update URL hash
-    setIsFormVisible(false); // Optional: hide form to show full map
+    window.location.hash = location;
+    setIsFormVisible(false);
+    setValue("location", location === 'thane' ? 'Thane' : 'Nagpur');
     
-    // Force a slight delay to ensure iframe reload
     setTimeout(() => {
       const iframe = document.querySelector('#map-section iframe');
-      if (iframe) {
-        iframe.src = iframe.src; // Refresh iframe
-      }
+      if (iframe) iframe.src = iframe.src;
     }, 100);
   };
 
-  const courses = [
-    "SAP", "Salesforce", "AWS", "DevOps", "Python",
-    "AI & ML", "Data Analytics", "Business Analytics",
-    "ServiceNow", "HR Training", "Share Market"
-  ];
-
-  const validate = () => {
-    const errors = {};
-    if (!formData.name.trim()) errors.name = "Name is required";
-    if (!formData.phone.trim()) {
-      errors.phone = "Phone number is required";
-    } else if (!/^\d{10}$/.test(formData.phone)) {
-      errors.phone = "Phone must be 10 digits";
-    }
-    if (!formData.location) errors.location = "Please select a location";
-    if (!formData.course) errors.course = "Please select a course";
-    return errors;
-  };
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-    setErrors({ ...errors, [e.target.name]: "" });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const validationErrors = validate();
-    if (Object.keys(validationErrors).length > 0) {
-      setErrors(validationErrors);
-      return;
-    }
-
+  const onSubmit = async (data) => {
     setIsSubmitting(true);
-    setErrorMessage("");
-    setSuccessMessage("");
-
-    const formSubmissionData = {
-      access_key: "fabb3cfb-5cb8-4f83-81ae-b1c5caf0797a",
-      ...formData,
-    };
-
     try {
-      const web3FormsResponse = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formSubmissionData),
-      });
+      // Submit to Web3Forms
+      const web3Response = await axios.post(
+        "https://api.web3forms.com/submit",
+        {
+          access_key: "fabb3cfb-5cb8-4f83-81ae-b1c5caf0797a",
+          subject: "Contact Form Submission",
+          from_name: "IT Training",
+          ...data,
+          recipient_email: "shivanihiware77@gmail.com",
+        },
+        {
+          headers: {
+            "Content-Type": "application/json",
+          }
+        }
+      );
 
-      const web3FormsResult = await web3FormsResponse.json();
-
-      if (web3FormsResult.success) {
-        const dbResponse = await fetch(`${config.apiUrl}`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(formData),
+      if (web3Response.data.success) {
+        // Submit to your backend
+        await axios.post(config.apiUrl, data);
+        
+        toast.success("Thank you! We'll contact you shortly.", {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
         });
-
-        const dbResult = await dbResponse.json();
-        setSuccessMessage(dbResult.success
-          ? "Form submitted successfully!"
-          : "Form submitted, but database save failed");
-        setFormData({ name: "", phone: "", course: "", location: "" });
+        
+        reset();
       } else {
-        setErrorMessage("Submission failed. Please try again.");
+        throw new Error("Web3Forms submission failed");
       }
     } catch (error) {
-      setErrorMessage("An error occurred. Please try again later.");
+      console.error('Submission error:', error);
+      toast.error("Failed to submit the form. Please try again.", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+      });
     } finally {
       setIsSubmitting(false);
     }
@@ -121,28 +116,13 @@ const ContactUs = ({ initialLocation = "nagpur" }) => {
 
   return (
     <div id="contact-us" className="w-full px-4 py-12 md:py-20 bg-white dark:bg-gray-900 z-10">
+      <ToastContainer />
       <div className="max-w-6xl mx-auto bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden">
-        {/* Main Container */}
         <div className={`relative ${isFormVisible ? "md:flex" : ""}`}>
           {/* Map Section */}
           <div id="map-section" className={`${isFormVisible ? "w-full md:w-1/2" : "w-full"} h-[400px] md:h-[500px] bg-gray-100 dark:bg-gray-700 relative`}>
-              <GoogleMap location={activeLocation} />
-                    {/* Location switcher buttons */}
-      {/* <div className="location-switcher"> */}
-        {/* <button 
-          onClick={() => setActiveLocation('nagpur')}
-          className={activeLocation === 'nagpur' ? 'active' : ''}
-        >
-          Nagpur
-        </button>
-        <button 
-          onClick={() => setActiveLocation('thane')}
-          className={activeLocation === 'thane' ? 'active' : ''}
-        >
-          Thane
-        </button> */}
-      {/* </div> */}
-            {/* Toggle Button - Positioned absolutely in top-right corner */}
+            <GoogleMap location={activeLocation} />
+            
             <button
               onClick={() => setIsFormVisible(!isFormVisible)}
               className="absolute top-4 right-4 p-2 bg-white/90 dark:bg-gray-800/90 rounded-full shadow-lg hover:bg-white dark:hover:bg-gray-700 transition z-10"
@@ -160,7 +140,6 @@ const ContactUs = ({ initialLocation = "nagpur" }) => {
               )}
             </button>
 
-            {/* Show Form Button (only visible when form is hidden) */}
             {!isFormVisible && (
               <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
                 <button
@@ -173,7 +152,6 @@ const ContactUs = ({ initialLocation = "nagpur" }) => {
             )}
           </div>
 
-          {/* Form Section - Only visible when isFormVisible is true */}
           {isFormVisible && (
             <div className="w-full md:w-1/2 p-6 md:p-8">
               <div className="flex justify-between items-center mb-6">
@@ -189,21 +167,33 @@ const ContactUs = ({ initialLocation = "nagpur" }) => {
                 </button>
               </div>
 
-              <form onSubmit={handleSubmit} className="space-y-5">
+              <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
                 <div className="space-y-1">
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
                     Your Name <span className="text-red-500">*</span>
                   </label>
                   <input
-                    type="text"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    className={`w-full px-4 py-2 rounded-lg border bg-white dark:bg-gray-700 focus:ring-2 focus:ring-blue-500 focus:border-transparent ${errors.name ? "border-red-500" : "border-gray-300 dark:border-gray-600"
-                      }`}
+                    {...register("name", {
+                      required: "Name is required",
+                      minLength: {
+                        value: 3,
+                        message: "Minimum 3 characters"
+                      },
+                      maxLength: {
+                        value: 50,
+                        message: "Maximum 50 characters"
+                      },
+                      pattern: {
+                        value: /^[a-zA-Z\s]*$/,
+                        message: "Only letters and spaces allowed"
+                      }
+                    })}
+                    className={`w-full px-4 py-2 rounded-lg border bg-white dark:bg-gray-700 focus:ring-2 focus:ring-blue-500 focus:border-transparent ${
+                      errors.name ? "border-red-500" : "border-gray-300 dark:border-gray-600"
+                    }`}
                     placeholder="John Doe"
                   />
-                  {errors.name && <p className="text-sm text-red-500">{errors.name}</p>}
+                  {errors.name && <p className="text-sm text-red-500">{errors.name.message}</p>}
                 </div>
 
                 <div className="space-y-1">
@@ -211,58 +201,64 @@ const ContactUs = ({ initialLocation = "nagpur" }) => {
                     Phone Number <span className="text-red-500">*</span>
                   </label>
                   <input
-                    type="tel"
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    className={`w-full px-4 py-2 rounded-lg border bg-white dark:bg-gray-700 focus:ring-2 focus:ring-blue-500 focus:border-transparent ${errors.phone ? "border-red-500" : "border-gray-300 dark:border-gray-600"
-                      }`}
+                    {...register("phone", {
+                      required: "Phone number is required",
+                      pattern: {
+                        value: /^[0-9]{10}$/,
+                        message: "Please enter a valid 10-digit number"
+                      }
+                    })}
+                    className={`w-full px-4 py-2 rounded-lg border bg-white dark:bg-gray-700 focus:ring-2 focus:ring-blue-500 focus:border-transparent ${
+                      errors.phone ? "border-red-500" : "border-gray-300 dark:border-gray-600"
+                    }`}
                     placeholder="9876543210"
                   />
-                  {errors.phone && <p className="text-sm text-red-500">{errors.phone}</p>}
+                  {errors.phone && <p className="text-sm text-red-500">{errors.phone.message}</p>}
                 </div>
-                    <div className="mb-4">
-                      <label className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium" htmlFor="location">
-                        <FiMapPin className="inline mr-2" /> Your Location
-                      </label>
-                      <div className="relative">
-                        <input
-                          type="text"
-                          id="location"
-                          name="location"
-                          value={formData.location}
-                          onChange={handleChange}
-                          className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white text-sm pr-10"
-                          required
-                          placeholder="Enter your location"
-                        />
-                      </div>
-                    </div>
+
+                <div className="space-y-1">
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                    <FiMapPin className="inline mr-2" /> Your Location
+                  </label>
+                  <input
+                    {...register("location", {
+                      required: "Location is required"
+                    })}
+                    className={`w-full px-4 py-2 rounded-lg border bg-white dark:bg-gray-700 focus:ring-2 focus:ring-blue-500 focus:border-transparent ${
+                      errors.location ? "border-red-500" : "border-gray-300 dark:border-gray-600"
+                    }`}
+                    placeholder="Enter your location"
+                  />
+                  {errors.location && <p className="text-sm text-red-500">{errors.location.message}</p>}
+                </div>
+
                 <div className="space-y-1">
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
                     Select Course <span className="text-red-500">*</span>
                   </label>
                   <select
-                    name="course"
-                    value={formData.course}
-                    onChange={handleChange}
-                    className={`w-full px-4 py-2 rounded-lg border bg-white dark:bg-gray-700 focus:ring-2 focus:ring-blue-500 focus:border-transparent ${errors.course ? "border-red-500" : "border-gray-300 dark:border-gray-600"
-                      }`}
+                    {...register("course", {
+                      required: "Please select a course"
+                    })}
+                    className={`w-full px-4 py-2 rounded-lg border bg-white dark:bg-gray-700 focus:ring-2 focus:ring-blue-500 focus:border-transparent ${
+                      errors.course ? "border-red-500" : "border-gray-300 dark:border-gray-600"
+                    }`}
                   >
                     <option value="">Select a course...</option>
                     {courses.map((course) => (
                       <option key={course} value={course}>{course}</option>
                     ))}
                   </select>
-                  {errors.course && <p className="text-sm text-red-500">{errors.course}</p>}
+                  {errors.course && <p className="text-sm text-red-500">{errors.course.message}</p>}
                 </div>
 
                 <div className="pt-2">
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className={`w-full py-3 px-4 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800 text-white font-medium rounded-lg shadow-md transition-all duration-300 ${isSubmitting ? "opacity-75" : ""
-                      }`}
+                    className={`w-full py-3 px-4 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800 text-white font-medium rounded-lg shadow-md transition-all duration-300 ${
+                      isSubmitting ? "opacity-75" : ""
+                    }`}
                   >
                     {isSubmitting ? (
                       <>
@@ -277,18 +273,6 @@ const ContactUs = ({ initialLocation = "nagpur" }) => {
                     )}
                   </button>
                 </div>
-
-                {successMessage && (
-                  <div className="mt-4 p-3 bg-green-50 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded-lg border border-green-200 dark:border-green-800">
-                    {successMessage}
-                  </div>
-                )}
-
-                {errorMessage && (
-                  <div className="mt-4 p-3 bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-300 rounded-lg border border-red-200 dark:border-red-800">
-                    {errorMessage}
-                  </div>
-                )}
               </form>
             </div>
           )}

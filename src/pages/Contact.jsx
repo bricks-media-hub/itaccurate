@@ -1,5 +1,9 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { useForm } from 'react-hook-form';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import axios from 'axios';
 import {
     FiUser,
     FiPhone,
@@ -7,40 +11,41 @@ import {
     FiMapPin,
     FiMail,
     FiGlobe,
-    FiSend
+    FiSend,
+    FiMap
 } from 'react-icons/fi';
-import { MdLocationOn, MdOutlineEmail, MdPhone } from 'react-icons/md';
 import { GoogleMap } from '../lib/GoogleMap';
 
 const Contact = () => {
-    const [formData, setFormData] = useState({
-        name: '',
-        phone: '',
-        course: '',
-        location: '',
-        message: ''
+    const {
+        register,
+        handleSubmit,
+        formState: { errors },
+        reset,
+        watch,
+        setValue
+    } = useForm({
+        defaultValues: {
+            name: '',
+            phone: '',
+            course: '',
+            location: '',
+            message: '' // This will remain local-only
+        }
     });
 
-    const [submitted, setSubmitted] = useState(false);
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const messageContent = watch('message'); // Track message field but don't submit it
 
     const courses = [
-        "SAP",
-        "Salesforce",
-        "AWS",
-        "DevOps",
-        "Python",
-        "AI & ML",
-        "Data Analytics",
-        "Business Analytics",
-        "ServiceNow",
-        "HR Training",
-        "Share Market",
-        "Data Engineering"
+        "SAP", "Salesforce", "AWS", "DevOps", "Python",
+        "AI & ML", "Data Analytics", "Business Analytics",
+        "ServiceNow", "HR Training", "Share Market", "Data Engineering"
     ];
 
     const locations = [
         {
-            icon: <img src="/icons/location.svg" alt="email" className='w-10 h-10'/>,
+            icon: <img src="/icons/location.svg" alt="location" className='w-10 h-10' />,
             location: 'Nagpur',
             address: '607, 608 B-wing, Lokmat Bhavan, Lokmat Square, Ramdaspehi, Nagpur',
             phone: '09175978889',
@@ -48,7 +53,7 @@ const Contact = () => {
             mapLink: '#contact-nagpur'
         },
         {
-            icon: <img src="/icons/location.svg" alt="email" className='w-10 h-10'/>,
+            icon: <img src="/icons/location.svg" alt="location" className='w-10 h-10' />,
             location: 'Thane',
             address: 'Office No. 806, Paradise Tower, Noupada, Thane West',
             phone: '07738277389',
@@ -57,32 +62,61 @@ const Contact = () => {
         }
     ];
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData(prev => ({
-            ...prev,
-            [name]: value
-        }));
-    };
+    const onSubmit = async (data) => {
+        setIsSubmitting(true);
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log('Form submitted:', formData);
-        setSubmitted(true);
-        setTimeout(() => {
-            setSubmitted(false);
-            setFormData({
-                name: '',
-                phone: '',
-                course: '',
-                location: '',
-                message: ''
+        // Remove message field before submission
+        const { message, ...submissionData } = data;
+
+        try {
+            const response = await axios.post(
+                "https://api.web3forms.com/submit",
+                {
+                    access_key: "fabb3cfb-5cb8-4f83-81ae-b1c5caf0797a",
+                    subject: "Contact Form Submission",
+                    from_name: "IT Accurate",
+                    ...submissionData,
+                    recipient_email: "shivanihiware77@gmail.com",
+                },
+                {
+                    headers: {
+                        "Content-Type": "application/json",
+                    }
+                }
+            );
+
+            if (response.data.success) {
+                toast.success("Thank you for your message! We'll contact you soon.", {
+                    position: "top-center",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                });
+                reset();
+            } else {
+                throw new Error("Form submission failed");
+            }
+        } catch (error) {
+            console.error('Submission error:', error);
+            toast.error("Failed to submit the form. Please try again.", {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
             });
-        }, 3000);
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
         <div className="min-h-screen bg-gray-50 dark:bg-gray-900 mt-14">
+            <ToastContainer />
+
             {/* Hero Section */}
             <section className="relative bg-gradient-to-r from-blue-600 via-indigo-700 to-purple-800 text-white py-24 overflow-hidden">
                 {/* Animated background elements */}
@@ -104,7 +138,7 @@ const Contact = () => {
                     </svg>
                 </div>
 
-                {/* Main content */}
+                {/* Main content of designs and styles */}
                 <div className="container mx-auto px-4 text-center relative z-10">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -226,12 +260,12 @@ const Contact = () => {
                                                     <div className="space-y-2">
                                                         <div className="flex items-center text-gray-700 dark:text-gray-300">
                                                             {/* <MdPhone className="mr-2 text-blue-600" /> */}
-                                                            <img src="/icons/phone.svg" alt="email" className='w-5 h-5 mr-2'/>
+                                                            <img src="/icons/phone.svg" alt="email" className='w-5 h-5 mr-2' />
                                                             <span>{loc.phone}</span>
                                                         </div>
                                                         <div className="flex items-center text-gray-700 dark:text-gray-300">
                                                             {/* <MdOutlineEmail className="mr-2 text-blue-600" /> */}
-                                                            <img src="/icons/mail.svg" alt="email" className='w-5 h-5 mr-2'/>
+                                                            <img src="/icons/mail.svg" alt="email" className='w-5 h-5 mr-2' />
                                                             <span>{loc.email}</span>
                                                         </div>
                                                     </div>
@@ -242,7 +276,7 @@ const Contact = () => {
                                                         rel="noopener noreferrer"
                                                     >
                                                         {/* <FiMapPin className="mr-1" />  */}
-                                                        <img src="/icons/map-location.svg" alt="email" className='w-7 h-7 mr-1'/>
+                                                        <img src="/icons/map-location.svg" alt="email" className='w-7 h-7 mr-1' />
                                                         View on map
                                                     </a>
                                                 </div>
@@ -264,7 +298,7 @@ const Contact = () => {
                                         <div className="flex items-center">
                                             <div className="bg-blue-100 dark:bg-blue-900/30 p-2 rounded-full mr-4">
                                                 {/* <FiMail className="text-blue-600" /> */}
-                                                <img src="/icons/email.svg" alt="email" className='w-7 h-7'/>
+                                                <img src="/icons/email.svg" alt="email" className='w-7 h-7' />
                                             </div>
                                             <div>
                                                 <h4 className="font-medium text-gray-500 dark:text-gray-400">Email</h4>
@@ -276,7 +310,7 @@ const Contact = () => {
                                         <div className="flex items-center">
                                             <div className="bg-blue-100 dark:bg-blue-900/30 p-2 rounded-full mr-4">
                                                 {/* <FiGlobe className="text-blue-600" /> */}
-                                                <img src="/icons/internet-globe.svg" alt="email" className='w-7 h-7'/>
+                                                <img src="/icons/internet-globe.svg" alt="email" className='w-7 h-7' />
                                             </div>
                                             <div>
                                                 <h4 className="font-medium text-gray-500 dark:text-gray-400">Website</h4>
@@ -302,110 +336,143 @@ const Contact = () => {
                                 <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-2">Send us a message</h2>
                                 <p className="text-gray-600 dark:text-gray-300 mb-6">Fill out the form below and we'll get back to you soon.</p>
 
-                                {submitted && (
-                                    <motion.div
-                                        initial={{ opacity: 0, y: 20 }}
-                                        animate={{ opacity: 1, y: 0 }}
-                                        className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 p-4 rounded-lg mb-6"
-                                    >
-                                        <div className="flex items-center">
-                                            <FiSend className="mr-2 text-xl" />
-                                            <span>Thank you for your message! We'll contact you shortly.</span>
-                                        </div>
-                                    </motion.div>
-                                )}
-
-                                <form onSubmit={handleSubmit}>
+                                <form onSubmit={handleSubmit(onSubmit)}>
                                     <div className="space-y-5">
+                                        {/* Name Field */}
                                         <div>
-                                            <label className="flex text-gray-700 dark:text-gray-300 mb-2 font-medium" htmlFor="name">
-                                                <img src="/icons/user.svg" alt="email" className='w-5 h-5 mr-2'/> Full Name
+                                            <label className="flex text-gray-700 dark:text-gray-300 mb-2 font-medium">
+                                                <img src="/icons/user.svg" alt="user" className='w-5 h-5 mr-2' /> Full Name
                                             </label>
                                             <input
-                                                type="text"
-                                                id="name"
-                                                name="name"
-                                                value={formData.name}
-                                                onChange={handleChange}
-                                                className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
-                                                required
+                                                {...register("name", {
+                                                    required: "Name is required",
+                                                    minLength: {
+                                                        value: 3,
+                                                        message: "Minimum 3 characters"
+                                                    },
+                                                    pattern: {
+                                                        value: /^[a-zA-Z\s]*$/,
+                                                        message: "Only letters and spaces allowed"
+                                                    }
+                                                })}
+                                                className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 ${errors.name
+                                                        ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
+                                                        : 'border-gray-300 dark:border-gray-600 focus:ring-blue-500'
+                                                    } dark:bg-gray-700 dark:text-white`}
                                                 placeholder="Your full name"
                                             />
+                                            {errors.name && (
+                                                <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.name.message}</p>
+                                            )}
                                         </div>
 
+                                        {/* Phone Field */}
                                         <div>
-                                            <label className="flex text-gray-700 dark:text-gray-300 mb-2 font-medium" htmlFor="phone">
-                                                <img src="/icons/phone.svg" alt="email" className='w-5 h-5 mr-2'/> Phone Number
+                                            <label className="flex text-gray-700 dark:text-gray-300 mb-2 font-medium">
+                                                <img src="/icons/phone.svg" alt="phone" className='w-5 h-5 mr-2' /> Phone Number
                                             </label>
                                             <input
-                                                type="tel"
-                                                id="phone"
-                                                name="phone"
-                                                value={formData.phone}
-                                                onChange={handleChange}
-                                                className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
-                                                required
+                                                {...register("phone", {
+                                                    required: "Phone number is required",
+                                                    pattern: {
+                                                        value: /^[0-9]{10}$/,
+                                                        message: "Please enter a valid 10-digit number"
+                                                    }
+                                                })}
+                                                className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 ${errors.phone
+                                                        ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
+                                                        : 'border-gray-300 dark:border-gray-600 focus:ring-blue-500'
+                                                    } dark:bg-gray-700 dark:text-white`}
                                                 placeholder="Your contact number"
                                             />
+                                            {errors.phone && (
+                                                <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.phone.message}</p>
+                                            )}
                                         </div>
 
+                                        {/* Location Field */}
                                         <div>
-                                            <label className="flex text-gray-700 dark:text-gray-300 mb-2 font-medium" htmlFor="location">
-                                                <img src="/icons/map-pin-icon.png" alt="email" className='w-5 h-5 mr-2'/> Your Location
+                                            <label className="flex text-gray-700 dark:text-gray-300 mb-2 font-medium">
+                                                <img src="/icons/map-pin-icon.png" alt="location" className='w-5 h-5 mr-2' /> Your Location
                                             </label>
                                             <input
-                                                type="text"
-                                                id="location"
-                                                name="location"
-                                                value={formData.location}
-                                                onChange={handleChange}
-                                                className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
-                                                required
+                                                {...register("location", {
+                                                    required: "Location is required",
+                                                    minLength: {
+                                                        value: 3,
+                                                        message: "Minimum 3 characters"
+                                                    }
+                                                })}
+                                                className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 ${errors.location
+                                                        ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
+                                                        : 'border-gray-300 dark:border-gray-600 focus:ring-blue-500'
+                                                    } dark:bg-gray-700 dark:text-white`}
                                                 placeholder="Your city or address"
                                             />
+                                            {errors.location && (
+                                                <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.location.message}</p>
+                                            )}
                                         </div>
 
+                                        {/* Course Field */}
                                         <div>
-                                            <label className="flex text-gray-700 dark:text-gray-300 mb-2 font-medium" htmlFor="course">
-                                                <img src="/icons/book.svg" alt="email" className='w-6 h-6 mr-2'/> Interested Course
+                                            <label className="flex text-gray-700 dark:text-gray-300 mb-2 font-medium">
+                                                <img src="/icons/book.svg" alt="course" className='w-6 h-6 mr-2' /> Interested Course
                                             </label>
                                             <select
-                                                id="course"
-                                                name="course"
-                                                value={formData.course}
-                                                onChange={handleChange}
-                                                className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
-                                                required
+                                                {...register("course", {
+                                                    required: "Please select a course"
+                                                })}
+                                                className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 ${errors.course
+                                                        ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
+                                                        : 'border-gray-300 dark:border-gray-600 focus:ring-blue-500'
+                                                    } dark:bg-gray-700 dark:text-white`}
                                             >
                                                 <option value="">-- Select a Course --</option>
                                                 {courses.map(course => (
                                                     <option key={course} value={course}>{course}</option>
                                                 ))}
                                             </select>
+                                            {errors.course && (
+                                                <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.course.message}</p>
+                                            )}
                                         </div>
 
+                                        {/* Message Field (local only) */}
                                         <div>
-                                            <label className="block text-gray-700 dark:text-gray-300 mb-2 font-medium" htmlFor="message">
-                                                Your Message
+                                            <label className="block text-gray-700 dark:text-gray-300 mb-2 font-medium">
+                                                Your Message (Optional)
                                             </label>
                                             <textarea
-                                                id="message"
-                                                name="message"
-                                                value={formData.message}
-                                                onChange={handleChange}
+                                                {...register("message")}
                                                 rows="4"
                                                 className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
                                                 placeholder="Any specific questions or requirements?"
-                                            ></textarea>
+                                                value={messageContent}
+                                                onChange={(e) => setValue("message", e.target.value)}
+                                            />
                                         </div>
 
                                         <motion.button
                                             whileHover={{ scale: 1.02 }}
                                             whileTap={{ scale: 0.98 }}
                                             type="submit"
-                                            className="w-full bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800 text-white font-medium py-3 px-6 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center"
+                                            disabled={isSubmitting}
+                                            className="w-full bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800 text-white font-medium py-3 px-6 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center disabled:opacity-70 disabled:cursor-not-allowed"
                                         >
-                                            Send Message <FiSend className="ml-2" />
+                                            {isSubmitting ? (
+                                                <>
+                                                    <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                                                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                                    </svg>
+                                                    Processing...
+                                                </>
+                                            ) : (
+                                                <>
+                                                    Send Message <FiSend className="ml-2" />
+                                                </>
+                                            )}
                                         </motion.button>
                                     </div>
                                 </form>

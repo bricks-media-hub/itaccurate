@@ -5,6 +5,7 @@ import { FiArrowRight, FiCheck, FiUser, FiPhone, FiBookOpen, FiMapPin, FiX } fro
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
+import config from "../../lib/config";
 
 export default function ReachUsForm() {
     const { register, handleSubmit, formState: { errors }, reset } = useForm({
@@ -47,6 +48,7 @@ export default function ReachUsForm() {
             if (web3Response.data.success) {
                 // Submit to your backend 
                 const dbResponse = await axios.post(config.apiUrl, data);
+
                 toast.success("Thank you for your enquiry! We'll contact you shortly.", {
                     position: "top-center",
                     autoClose: 5000,
@@ -156,8 +158,8 @@ export default function ReachUsForm() {
                                     <input
                                         id="name"
                                         className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 text-sm ${errors.name
-                                                ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
-                                                : 'border-gray-300 focus:ring-blue-500 dark:border-gray-600'
+                                            ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
+                                            : 'border-gray-300 focus:ring-blue-500 dark:border-gray-600'
                                             } dark:bg-gray-700 dark:text-white placeholder-gray-400 dark:placeholder-gray-500`}
                                         placeholder="Enter your full name"
                                         {...register('name', {
@@ -189,8 +191,8 @@ export default function ReachUsForm() {
                                         type="tel"
                                         id="phone"
                                         className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 text-sm ${errors.phone
-                                                ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
-                                                : 'border-gray-300 focus:ring-blue-500 dark:border-gray-600'
+                                            ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
+                                            : 'border-gray-300 focus:ring-blue-500 dark:border-gray-600'
                                             } dark:bg-gray-700 dark:text-white placeholder-gray-400 dark:placeholder-gray-500`}
                                         placeholder="Enter your phone number"
                                         {...register('phone', {
@@ -214,8 +216,8 @@ export default function ReachUsForm() {
                                         type="text"
                                         id="location"
                                         className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 text-sm ${errors.location
-                                                ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
-                                                : 'border-gray-300 focus:ring-blue-500 dark:border-gray-600'
+                                            ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
+                                            : 'border-gray-300 focus:ring-blue-500 dark:border-gray-600'
                                             } dark:bg-gray-700 dark:text-white placeholder-gray-400 dark:placeholder-gray-500`}
                                         placeholder="Enter your location"
                                         {...register('location', {
@@ -242,8 +244,8 @@ export default function ReachUsForm() {
                                     <select
                                         id="course"
                                         className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 text-sm ${errors.course
-                                                ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
-                                                : 'border-gray-300 focus:ring-blue-500 dark:border-gray-600'
+                                            ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
+                                            : 'border-gray-300 focus:ring-blue-500 dark:border-gray-600'
                                             } dark:bg-gray-700 dark:text-white appearance-none bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNoZXZyb24tZG93biI+PHBhdGggZD0ibTYgOSA2IDYgNi02Ii8+PC9zdmc+')] bg-no-repeat bg-[center_right_1rem]`}
                                         {...register('course', {
                                             required: 'Please select a course'

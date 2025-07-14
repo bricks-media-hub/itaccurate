@@ -7,7 +7,7 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import config from '../../lib/config';
 
-export default function FreeDemoForm({ onClose }) {
+export default function FreeDemoForm({ onClose, title1, title2 }) {
   const [isVisible, setIsVisible] = useState(true);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -148,8 +148,12 @@ export default function FreeDemoForm({ onClose }) {
                       transition={{ duration: 0.6 }}
                       className="relative z-10"
                     >
-                      <h2 className="text-2xl font-bold mb-2">For Free Demo</h2>
-                      <h3 className="text-3xl font-bold mb-6">Enquiry Now!</h3>
+                      <h2 className="text-2xl font-bold mb-2">
+                        {title1 ? (title1) : ("For Free Demo")}
+                      </h2>
+                      <h3 className="text-3xl font-bold mb-6">
+                        {title2 ? (title2) : ("Enquiry Now!")}
+                      </h3>
                       <ul className="space-y-3 hidden md:block">
                         <li className="flex items-center">
                           <FiCheck className="mr-2 text-xl" /> Get free career counseling
