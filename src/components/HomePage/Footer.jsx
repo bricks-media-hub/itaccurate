@@ -15,17 +15,17 @@ const Footer = ({ activeLocation, setActiveLocation }) => {
     const courses = useSelector((state) => state.courses.courseData);
 
     const quickLinks = [
-        { label: 'Home', to: '#' },
-        { label: 'Courses', to: '#', hasDropdown: true },
-        { label: 'About', to: '#' },
-        { label: 'Blogs', to: '#' },
-        { label: 'Contact', to: '#' },
+        { label: 'Home', to: '/' },
+        { label: 'Courses', to: '#training-courses', hasDropdown: true },
+        { label: 'About', to: '/about-us' },
+        { label: 'Blogs', to: '/blog' },
+        { label: 'Contact', to: '/contact' },
     ];
 
     const legalLinks = [
-        { label: 'Terms of Service', to: '#' },
-        { label: 'Privacy Policy', to: '#' },
-        { label: 'Refund Policy', to: '#' },
+        { label: 'Terms of Service', to: '/terms' },
+        { label: 'Privacy Policy', to: '/privacy' },
+        { label: 'Refund Policy', to: '/refund' },
     ];
 
     const contactInfo = [
@@ -110,10 +110,10 @@ const Footer = ({ activeLocation, setActiveLocation }) => {
                         <ul className="space-y-2">
                             {quickLinks.map((link, index) => (
                                 <li key={index} className="relative group">
-                                    <a href={link.href} className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-200 flex items-center">
+                                    <Link to={link.to} className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-200 flex items-center">
                                         <span className="group-hover:translate-x-1 transition-transform duration-200">{link.label}</span>
                                         {link.hasDropdown && <FaChevronDown className="ml-1 text-xs opacity-70 group-hover:rotate-180 transition-transform duration-200" />}
-                                    </a>
+                                    </Link>
                                     {link.hasDropdown && (
                                         <div className="absolute left-0 md:bottom-full mb-2 w-48 bg-white dark:bg-gray-800 shadow-lg rounded-md py-2 z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-1 group-hover:translate-y-0">
                                             {courses.map((course, idx) => (
@@ -135,9 +135,9 @@ const Footer = ({ activeLocation, setActiveLocation }) => {
                     <ul className="space-y-2">
                         {legalLinks.map((link, index) => (
                             <li key={index}>
-                                <a href={link.href} className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-200 flex items-center group">
+                                <Link to={link.to} className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-200 flex items-center group">
                                     <span className="group-hover:translate-x-1 transition-transform duration-200">{link.label}</span>
-                                </a>
+                                </Link>
                             </li>
                         ))}
                     </ul>

@@ -3,6 +3,7 @@ import NavBar from './HomePage/Navbar/NavBar'
 import { Outlet } from 'react-router-dom'
 import Footer from './HomePage/Footer'
 import ScrollToTop from '../lib/ScrollToTop';
+import ChatBotWidget from './ChatBot/ChatBotWidget';
 
 function Layout() {
     const [activeLocation, setActiveLocation] = useState('nagpur');
@@ -16,6 +17,7 @@ function Layout() {
                 activeLocation={activeLocation} 
                 setActiveLocation={setActiveLocation} 
             />
+            <ChatBotWidget />
         </>
     )
 }

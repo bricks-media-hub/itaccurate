@@ -17,6 +17,9 @@ import Contact from './pages/Contact';
 import Blogs from './pages/Blogs';
 import Jobs from './pages/Jobs';
 import Career from './pages/Career';
+import TermsOfService from './components/Terms/Terms';
+import PrivacyPolicy from './components/Terms/Privacy';
+import RefundPolicy from './components/Terms/Refund';
 
 export const dynamicCourseRoutes = [
   'salesforce-training',
@@ -104,6 +107,18 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <Contact />
       },
+      {
+        path: '/terms',
+        element: <TermsOfService />
+      },
+      {
+        path: '/privacy',
+        element: <PrivacyPolicy />
+      },
+      {
+        path: '/refund',
+        element: <RefundPolicy />
+      }
     ],
   },
   {

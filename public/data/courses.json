@@ -274,7 +274,7 @@
         {
             "title": "AWS",
             "description": "Empower Your Expertise: AWS with Our Comprehensive Training Courses.",
-            "bgImage": "./courseImages/aws.webp",
+            "bgImage": "./courseImages/aws.png",
             "cta": "Enquire Now",
             "color": "from-orange-500 to-orange-700",
             "link": "/best-aws-training"
