@@ -510,7 +510,7 @@ const NavBar = () => {
                             <Link to="/" className="flex items-center">
                                 {/* Mobile logo (hidden on md screens and up) */}
                                 <img
-                                    src="./small-logo.svg"  // Smaller/optimized version for mobile
+                                    src="./logo.svg"  // Smaller/optimized version for mobile
                                     alt="IT Accurate Logo"
                                     className="h-10 w-auto md:hidden"  // Only shows on mobile
                                 />
