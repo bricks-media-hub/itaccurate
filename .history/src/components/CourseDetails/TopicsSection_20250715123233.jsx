@@ -78,7 +78,7 @@ function TopicsSection({ courseDetail }) {
                 {topic.title}
               </motion.h3>
 
-              {topic?.description && (
+              {topic.description && (
                 <motion.p
                   className="text-xs text-gray-600 dark:text-gray-300 mt-2 leading-relaxed"
                   initial={{ opacity: 0, height: 0 }}
@@ -86,7 +86,7 @@ function TopicsSection({ courseDetail }) {
                   transition={{ delay: getDelay(index) + 0.2 }}
                   viewport={{ once: true }}
                 >
-                  {topic?.description}
+                  {topic.description}
                 </motion.p>
               )}
             </div>

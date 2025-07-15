@@ -90,7 +90,7 @@ function AboutCourse() {
               />
             ) : ''}
 
-            {Array.isArray(courseDetail?.detail?.extras) && courseDetail?.detail?.extras.length > 0 && (
+            {Array.isArray(courseDetail?.detail?.extras) && courseDetail?.detail.extras.length > 0 && (
               <div className="pt-2 space-y-3">
                 <div className="flex items-center text-blue-600 dark:text-blue-400">
                   <div className='rounded-full bg-blue-600 dark:text-indigo-800'>
@@ -99,7 +99,7 @@ function AboutCourse() {
                   <h3 className="text-xl font-bold text-blue-600 dark:text-indigo-800 pl-3">Course Highlights</h3>
                 </div>
                 <ul className="space-y-2 pl-2">
-                  {courseDetail?.detail?.extras.map((extra, index) => (
+                  {courseDetail.detail.extras.map((extra, index) => (
                     <li key={index} className="flex items-start">
                       <div className="flex-shrink-0 mt-1 mr-3 rounded-full text-green-500 dark:text-green-400">
                         <div className='rounded-full bg-green-500 dark:text-green-800'>

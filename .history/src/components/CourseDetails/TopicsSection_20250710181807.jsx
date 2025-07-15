@@ -30,7 +30,7 @@ function TopicsSection({ courseDetail }) {
       </motion.h1>
 
       <div className="flex flex-wrap justify-center gap-6 relative z-10 max-w-6xl mx-auto">       
-         {courseDetail?.coveringTopics.map((topic, index) => (
+         {courseDetail.coveringTopics.map((topic, index) => (
         <div
           key={index}
           className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] xl:w-[calc(25%-18px)]"
@@ -78,7 +78,7 @@ function TopicsSection({ courseDetail }) {
                 {topic.title}
               </motion.h3>
 
-              {topic?.description && (
+              {topic.description && (
                 <motion.p
                   className="text-xs text-gray-600 dark:text-gray-300 mt-2 leading-relaxed"
                   initial={{ opacity: 0, height: 0 }}
@@ -86,7 +86,7 @@ function TopicsSection({ courseDetail }) {
                   transition={{ delay: getDelay(index) + 0.2 }}
                   viewport={{ once: true }}
                 >
-                  {topic?.description}
+                  {topic.description}
                 </motion.p>
               )}
             </div>
