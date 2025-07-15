@@ -6773,19 +6773,19 @@
             "coveringTopics": [
                 {
                     "title": "Resume preparation",
-                    "icon": "📝"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview practice",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "6-months internship",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
                     "title": "100% job opportunities guaranteed program",
-                    "icon": "🎓"
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -6799,32 +6799,32 @@
             "keyFeatures": [
                 {
                     "text": "154+ Hrs Instructor-Led Training",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "32 Hrs Project & Exercises",
-                    "icon": "FiActivity",
+                    "icon": "/icons/activity.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=500')"
                 },
                 {
                     "text": "Flexible Schedule",
-                    "icon": "FiCalendar",
+                    "icon": "/icons/calendar2.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=500')"
                 },
                 {
                     "text": "30 Hrs Self-paced videos",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1579762715118-a6f1d4b934f1?q=80&w=500')"
                 },
                 {
                     "text": "Job Assistance",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/teaching.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "NASSCOM Certification",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1508997449629-303059a039c0?q=80&w=500')"
                 }
             ],
@@ -6832,7 +6832,7 @@
                 {
                     "title": "Introduction",
                     "description": "Fundamentals of DevOps",
-                    "icon": "🚀",
+                    "icon": "/icons/closed-book.svg",
                     "items": [
                         "What is DevOps?",
                         "DevOps course",
@@ -6845,7 +6845,7 @@
                 {
                     "title": "Assessment and Planning",
                     "description": "Evaluating and strategizing DevOps implementation",
-                    "icon": "📝",
+                    "icon": "/icons/resume-edit.svg",
                     "items": [
                         "Evaluate current development and operational processes",
                         "Identify bottlenecks, pain points, and areas for improvement",
@@ -6857,7 +6857,7 @@
                 {
                     "title": "Culture and Collaboration",
                     "description": "Building a collaborative DevOps culture",
-                    "icon": "👥",
+                    "icon": "/icons/batch.svg",
                     "items": [
                         "Foster a culture of collaboration between teams",
                         "Encourage shared responsibilities and goals",
@@ -6869,7 +6869,7 @@
                 {
                     "title": "Infrastructure as Code (IaC)",
                     "description": "Automating infrastructure management",
-                    "icon": "🖥️",
+                    "icon": "/icons/computer.svg",
                     "items": [
                         "Introduce Infrastructure as Code (IaC)",
                         "Utilize tools like Terraform or Ansible",
@@ -6881,7 +6881,7 @@
                 {
                     "title": "Continuous Integration (CI)",
                     "description": "Automating build and integration processes",
-                    "icon": "🔄",
+                    "icon": "/icons/recurring.svg",
                     "items": [
                         "Implement CI practices for code changes",
                         "Use tools like Jenkins, GitLab CI",
@@ -6893,7 +6893,7 @@
                 {
                     "title": "Continuous Deployment (CD)",
                     "description": "Automating deployment processes",
-                    "icon": "⚡",
+                    "icon": "/icons/deployment.svg",
                     "items": [
                         "Extend automation to deployment",
                         "Implement tools like Kubernetes, Docker",
@@ -6905,7 +6905,7 @@
                 {
                     "title": "Monitoring and Feedback",
                     "description": "Ensuring system reliability and improvement",
-                    "icon": "📊",
+                    "icon": "/icons/sap.svg",
                     "items": [
                         "Implement robust monitoring solutions",
                         "Set up alerting systems",
@@ -6917,7 +6917,7 @@
                 {
                     "title": "Resume Preparation",
                     "description": "Crafting an effective DevOps resume",
-                    "icon": "📄",
+                    "icon": "/icons/resume-prep.svg",
                     "items": [
                         "Include keywords",
                         "How to prepare resume",
@@ -6948,7 +6948,7 @@
                         "Basics of Linux"
                     ],
                     "color": "bg-blue-500",
-                    "icon": "☁️",
+                    "icon": "/icons/cloud.svg",
                     "description": "Fundamentals of cloud computing concepts"
                 },
                 {
@@ -6978,7 +6978,7 @@
                         "Key Management Service (KMS)"
                     ],
                     "color": "bg-orange-500",
-                    "icon": "🅰️",
+                    "icon": "/icons/cloud-computing.svg",
                     "description": "Core AWS services and their functionalities"
                 },
                 {
@@ -6994,7 +6994,7 @@
                         "Learn Amazon Snowball for data import/export"
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "📦",
+                    "icon": "/icons/database2.svg",
                     "description": "AWS storage solutions and data management"
                 },
                 {
@@ -7008,7 +7008,7 @@
                         "Deploying AWS database migration service"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "🗄️",
+                    "icon": "/icons/server.svg",
                     "description": "AWS database services and solutions"
                 },
                 {
@@ -7030,7 +7030,7 @@
                         "Getting Notifications When ASG Changes"
                     ],
                     "color": "bg-green-500",
-                    "icon": "⚖️",
+                    "icon": "/icons/weight-machine.svg",
                     "description": "Auto scaling configuration and management"
                 },
                 {
@@ -7053,7 +7053,7 @@
                         "What is Connection Draining & ELB traffic logging"
                     ],
                     "color": "bg-red-500",
-                    "icon": "🔀",
+                    "icon": "/icons/elastic-load.svg",
                     "description": "Load balancing concepts and configurations"
                 },
                 {
@@ -7071,7 +7071,7 @@
                         "Overview of VPN and its components"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "🌐",
+                    "icon": "/icons/private-cloud.svg",
                     "description": "Virtual private cloud setup and configuration"
                 },
                 {
@@ -7085,7 +7085,7 @@
                         "Learn Elastic OpsWorks and CLI"
                     ],
                     "color": "bg-pink-500",
-                    "icon": "📱",
+                    "icon": "/icons/smart-phone.svg",
                     "description": "AWS application services and their usage"
                 },
                 {
@@ -7099,7 +7099,7 @@
                         "Cloud watch"
                     ],
                     "color": "bg-gray-500",
-                    "icon": "🔒",
+                    "icon": "/icons/padlock.svg",
                     "description": "Access management and monitoring in AWS"
                 },
                 {
@@ -7110,7 +7110,7 @@
                         "What is JSON"
                     ],
                     "color": "bg-teal-500",
-                    "icon": "🏗️",
+                    "icon": "/icons/cloud-formation.svg",
                     "description": "Infrastructure as code with CloudFormation"
                 },
                 {
@@ -7124,7 +7124,7 @@
                         "Migration Process track"
                     ],
                     "color": "bg-amber-500",
-                    "icon": "🚚",
+                    "icon": "/icons/cloud-migration.svg",
                     "description": "Cloud migration strategies and processes"
                 },
                 {
@@ -7137,7 +7137,7 @@
                         "Understanding Native AWS Security"
                     ],
                     "color": "bg-red-600",
-                    "icon": "🛡️",
+                    "icon": "/icons/protection.svg",
                     "description": "Security best practices in AWS"
                 },
                 {
@@ -7154,7 +7154,7 @@
                         "Nagios"
                     ],
                     "color": "bg-blue-600",
-                    "icon": "🛠️",
+                    "icon": "/icons/hammer.svg",
                     "description": "Essential DevOps tools installation"
                 },
                 {
@@ -7171,7 +7171,7 @@
                         "Create a file and add to git, Edit file, Commit the code"
                     ],
                     "color": "bg-green-600",
-                    "icon": "🔄",
+                    "icon": "/icons/devops-infinity.svg",
                     "description": "DevOps fundamentals and version control"
                 },
                 {
@@ -7184,7 +7184,7 @@
                         "Create an image in Docker and run it"
                     ],
                     "color": "bg-indigo-600",
-                    "icon": "🐳",
+                    "icon": "/icons/docker.svg",
                     "description": "Containerization using Docker"
                 },
                 {
@@ -7201,7 +7201,7 @@
                         "Understanding Puppet File Server"
                     ],
                     "color": "bg-purple-600",
-                    "icon": "🎭",
+                    "icon": "/icons/puppet-config.svg",
                     "description": "Configuration management with Puppet"
                 },
                 {
@@ -7215,7 +7215,7 @@
                         "Write Ansible playbook"
                     ],
                     "color": "bg-gray-600",
-                    "icon": "⚙️",
+                    "icon": "/icons/settings.svg",
                     "description": "Automation with Ansible"
                 },
                 {
@@ -7226,7 +7226,7 @@
                         "Running Testing Cases"
                     ],
                     "color": "bg-yellow-600",
-                    "icon": "🧪",
+                    "icon": "/icons/testube.svg",
                     "description": "Continuous testing practices"
                 },
                 {
@@ -7240,7 +7240,7 @@
                         "Creating an end to end automated CI/CD Pipeline"
                     ],
                     "color": "bg-red-700",
-                    "icon": "🤖",
+                    "icon": "/icons/ai-bot.svg",
                     "description": "CI/CD implementation with Jenkins"
                 },
                 {
@@ -7256,7 +7256,7 @@
                         "Services & Ingress in Kubernetes"
                     ],
                     "color": "bg-blue-700",
-                    "icon": "⚓",
+                    "icon": "/icons/kubernates.svg",
                     "description": "Container orchestration with Kubernetes"
                 },
                 {
@@ -7270,7 +7270,7 @@
                         "Monitoring System Info using NRPE plugins"
                     ],
                     "color": "bg-green-700",
-                    "icon": "👀",
+                    "icon": "/icons/watching.svg",
                     "description": "Monitoring solutions with Nagios"
                 },
                 {
@@ -7283,7 +7283,7 @@
                         "Study about Beanstalk"
                     ],
                     "color": "bg-orange-600",
-                    "icon": "🔄",
+                    "icon": "/icons/devops-cloud.svg",
                     "description": "AWS native DevOps services"
                 }
             ],
@@ -7398,19 +7398,19 @@
             "coveringTopics": [
                 {
                     "title": "Resume preparation",
-                    "icon": "📝"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview practice",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "6-months internship",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
                     "title": "100% job opportunities guaranteed program",
-                    "icon": "🎓"
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -7424,40 +7424,40 @@
             "keyFeatures": [
                 {
                     "text": "125+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
-                    "text": "Industry expert faculties",
-                    "icon": "FiUsers",
-                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')"
+                    "text": "Free demo class available",
+                    "icon": "/icons/video.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
-                    "text": "Free demo class available",
-                    "icon": "FiPlayCircle",
-                    "bgImage": "url('https://images.unsplash.com/photo-1509869175650-a1d97972541a?q=80&w=500')"
+                    "text": "Certificate Guidance",
+                    "icon": "/icons/certificate.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
-                    "text": "Completed 115+ Batches",
-                    "icon": "FiAward",
-                    "bgImage": "url('https://images.unsplash.com/photo-1606761568499-6d2451b23c66?q=80&w=500')"
+                    "text": "Industry expert faculties",
+                    "icon": "/icons/help.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
-                    "text": "Certification guidance",
-                    "icon": "FiFileText",
-                    "bgImage": "url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=500')"
+                    "text": "Completed 115+ batches",
+                    "icon": "/icons/batch.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
             "roadMap": [
                 {
                     "title": "Introduction",
                     "description": "Fundamentals of Full Stack Development",
-                    "icon": "👋",
+                    "icon": "/icons/closed-book.svg",
                     "items": [
                         "What is Full stack developer?",
                         "Full stack developer course",
@@ -7470,7 +7470,7 @@
                 {
                     "title": "Front-end Development",
                     "description": "Building interactive user interfaces",
-                    "icon": "🎨",
+                    "icon": "/icons/frontend.svg",
                     "items": [
                         "Learn HTML and CSS fundamentals",
                         "Master JavaScript for dynamic web page functionalities",
@@ -7481,7 +7481,7 @@
                 {
                     "title": "Back-end Development",
                     "description": "Server-side programming and APIs",
-                    "icon": "⚙️",
+                    "icon": "/icons/backend.svg",
                     "items": [
                         "Understand server-side programming with Node.js or Python",
                         "Learn about databases and data storage",
@@ -7492,7 +7492,7 @@
                 {
                     "title": "Database Management",
                     "description": "Data storage and retrieval systems",
-                    "icon": "🗃️",
+                    "icon": "/icons/database.svg",
                     "items": [
                         "Gain proficiency in database design principles",
                         "Learn SQL for querying relational databases",
@@ -7503,7 +7503,7 @@
                 {
                     "title": "Full Stack Frameworks",
                     "description": "End-to-end application frameworks",
-                    "icon": "🧩",
+                    "icon": "/icons/fullstack2.svg",
                     "items": [
                         "Dive into full stack frameworks like MERN or MEAN",
                         "Understand the architecture of these frameworks"
@@ -7513,7 +7513,7 @@
                 {
                     "title": "Version Control and Collaboration",
                     "description": "Team development workflows",
-                    "icon": "🔄",
+                    "icon": "/icons/git.svg",
                     "items": [
                         "Learn version control using Git and GitHub",
                         "Understand branching, merging, and pull requests"
@@ -7523,7 +7523,7 @@
                 {
                     "title": "Deployment and DevOps",
                     "description": "Application deployment and CI/CD",
-                    "icon": "🚀",
+                    "icon": "/icons/deploy-devops.svg",
                     "items": [
                         "Explore deployment strategies (Heroku, AWS, Azure)",
                         "Learn containerization with Docker and Kubernetes",
@@ -7534,7 +7534,7 @@
                 {
                     "title": "Resume Preparation",
                     "description": "Crafting an effective developer resume",
-                    "icon": "📄",
+                    "icon": "/icons/resume-prep.svg",
                     "items": [
                         "Include keywords",
                         "How to prepare resume",
@@ -7576,7 +7576,7 @@
                         "HTML Head"
                     ],
                     "color": "bg-orange-500",
-                    "icon": "📄",
+                    "icon": "/icons/html.svg",
                     "description": "Fundamentals of HTML5 for web structure"
                 },
                 {
@@ -7628,7 +7628,7 @@
                         "CSS3 Responsive"
                     ],
                     "color": "bg-blue-500",
-                    "icon": "🎨",
+                    "icon": "/icons/css.svg",
                     "description": "Styling and layout techniques with CSS3"
                 },
                 {
@@ -7642,7 +7642,7 @@
                         "Bootstrap JS"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "💅",
+                    "icon": "/icons/module.svg",
                     "description": "Responsive design with Bootstrap framework"
                 },
                 {
@@ -7675,7 +7675,7 @@
                         "JavaScript BOM"
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "📜",
+                    "icon": "/icons/javascript.svg",
                     "description": "Core JavaScript programming concepts"
                 },
                 {
