@@ -673,7 +673,11 @@ const NavBar = () => {
                                     animate={{ rotate: darkMode ? 180 : 0 }}
                                     transition={{ duration: 0.5 }}
                                 >
+<<<<<<< HEAD
+                                    {darkMode ? <img src='/icons/sun.svg' alt='sun' className='w-7 h-7' /> : <img src='/icons/moon.svg' alt='moon' className='w-7 h-7' />}
+=======
                                     {darkMode ? <img src='/icons/sun.svg' alt='sun' className='w-7 h-7'/> : <img src='/icons/moon.svg' alt='moon' className='w-7 h-7'/>}
+>>>>>>> cf4e728fb3ff580b0e3a8e9ff3f5171ac4e808bd
                                 </motion.div>
                             </button>
                         </nav>
@@ -696,7 +700,12 @@ const NavBar = () => {
                                         setMobileActiveSubMenu(null);
                                     }
                                 }}
+<<<<<<< HEAD
+                                className="p-2 rounded-md dark:text-gray-300 text-gray-700 hover:dark:bg-gray-800 
+hover:bg-gray-100 focus:outline-none transition-colors"
+=======
                                 className="p-2 rounded-md dark:text-gray-300 text-gray-700 hover:dark:bg-gray-800 hover:bg-gray-100 focus:outline-none transition-colors"
+>>>>>>> cf4e728fb3ff580b0e3a8e9ff3f5171ac4e808bd
                                 aria-label="Toggle menu"
                             >
                                 {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
