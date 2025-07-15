@@ -336,6 +336,8 @@
 
 
 
+<<<<<<< HEAD
+=======
 
 
 
@@ -348,6 +350,7 @@
 
 
 
+>>>>>>> cf4e728fb3ff580b0e3a8e9ff3f5171ac4e808bd
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';     
 import {
@@ -510,7 +513,11 @@ const NavBar = () => {
                             <Link to="/" className="flex items-center">
                                 {/* Mobile logo (hidden on md screens and up) */}
                                 <img
+<<<<<<< HEAD
+                                    src="./logo.svg"  // Smaller/optimized version for mobile
+=======
                                     src="./small-logo.svg"  // Smaller/optimized version for mobile
+>>>>>>> cf4e728fb3ff580b0e3a8e9ff3f5171ac4e808bd
                                     alt="IT Accurate Logo"
                                     className="h-10 w-auto md:hidden"  // Only shows on mobile
                                 />
@@ -519,7 +526,11 @@ const NavBar = () => {
                                 <img
                                     src="./logo.svg"  // Regular version
                                     alt="IT Accurate Logo"
+<<<<<<< HEAD
+                                    className="h-12 w-auto hidden md:block"  // Only shows on md screens and up   
+=======
                                     className="h-12 w-auto hidden md:block"  // Only shows on md screens and up       
+>>>>>>> cf4e728fb3ff580b0e3a8e9ff3f5171ac4e808bd
                                 />
                             </Link>
                         </div>
@@ -673,7 +684,11 @@ const NavBar = () => {
                                     animate={{ rotate: darkMode ? 180 : 0 }}
                                     transition={{ duration: 0.5 }}
                                 >
+<<<<<<< HEAD
+                                    {darkMode ? <img src='/icons/sun.svg' alt='sun' className='w-7 h-7' /> : <img src='/icons/moon.svg' alt='moon' className='w-7 h-7' />}
+=======
                                     {darkMode ? <img src='/icons/sun.svg' alt='sun' className='w-7 h-7'/> : <img src='/icons/moon.svg' alt='moon' className='w-7 h-7'/>}
+>>>>>>> cf4e728fb3ff580b0e3a8e9ff3f5171ac4e808bd
                                 </motion.div>
                             </button>
                         </nav>
@@ -696,7 +711,12 @@ const NavBar = () => {
                                         setMobileActiveSubMenu(null);
                                     }
                                 }}
+<<<<<<< HEAD
+                                className="p-2 rounded-md dark:text-gray-300 text-gray-700 hover:dark:bg-gray-800 
+hover:bg-gray-100 focus:outline-none transition-colors"
+=======
                                 className="p-2 rounded-md dark:text-gray-300 text-gray-700 hover:dark:bg-gray-800 hover:bg-gray-100 focus:outline-none transition-colors"
+>>>>>>> cf4e728fb3ff580b0e3a8e9ff3f5171ac4e808bd
                                 aria-label="Toggle menu"
                             >
                                 {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}

@@ -7398,19 +7398,19 @@
             "coveringTopics": [
                 {
                     "title": "Resume preparation",
-                    "icon": "📝"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview practice",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "6-months internship",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
                     "title": "100% job opportunities guaranteed program",
-                    "icon": "🎓"
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -7424,40 +7424,40 @@
             "keyFeatures": [
                 {
                     "text": "125+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
-                    "text": "Industry expert faculties",
-                    "icon": "FiUsers",
-                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')"
+                    "text": "Free demo class available",
+                    "icon": "/icons/video.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
-                    "text": "Free demo class available",
-                    "icon": "FiPlayCircle",
-                    "bgImage": "url('https://images.unsplash.com/photo-1509869175650-a1d97972541a?q=80&w=500')"
+                    "text": "Certificate Guidance",
+                    "icon": "/icons/certificate.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
-                    "text": "Completed 115+ Batches",
-                    "icon": "FiAward",
-                    "bgImage": "url('https://images.unsplash.com/photo-1606761568499-6d2451b23c66?q=80&w=500')"
+                    "text": "Industry expert faculties",
+                    "icon": "/icons/help.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
-                    "text": "Certification guidance",
-                    "icon": "FiFileText",
-                    "bgImage": "url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=500')"
+                    "text": "Completed 115+ batches",
+                    "icon": "/icons/batch.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
             "roadMap": [
                 {
                     "title": "Introduction",
                     "description": "Fundamentals of Full Stack Development",
-                    "icon": "👋",
+                    "icon": "/icons/closed-book.svg",
                     "items": [
                         "What is Full stack developer?",
                         "Full stack developer course",
@@ -7470,7 +7470,7 @@
                 {
                     "title": "Front-end Development",
                     "description": "Building interactive user interfaces",
-                    "icon": "🎨",
+                    "icon": "/icons/frontend.svg",
                     "items": [
                         "Learn HTML and CSS fundamentals",
                         "Master JavaScript for dynamic web page functionalities",
@@ -7481,7 +7481,7 @@
                 {
                     "title": "Back-end Development",
                     "description": "Server-side programming and APIs",
-                    "icon": "⚙️",
+                    "icon": "/icons/backend.svg",
                     "items": [
                         "Understand server-side programming with Node.js or Python",
                         "Learn about databases and data storage",
@@ -7492,7 +7492,7 @@
                 {
                     "title": "Database Management",
                     "description": "Data storage and retrieval systems",
-                    "icon": "🗃️",
+                    "icon": "/icons/database.svg",
                     "items": [
                         "Gain proficiency in database design principles",
                         "Learn SQL for querying relational databases",
@@ -7503,7 +7503,7 @@
                 {
                     "title": "Full Stack Frameworks",
                     "description": "End-to-end application frameworks",
-                    "icon": "🧩",
+                    "icon": "/icons/fullstack2.svg",
                     "items": [
                         "Dive into full stack frameworks like MERN or MEAN",
                         "Understand the architecture of these frameworks"
@@ -7513,7 +7513,7 @@
                 {
                     "title": "Version Control and Collaboration",
                     "description": "Team development workflows",
-                    "icon": "🔄",
+                    "icon": "/icons/git.svg",
                     "items": [
                         "Learn version control using Git and GitHub",
                         "Understand branching, merging, and pull requests"
@@ -7523,7 +7523,7 @@
                 {
                     "title": "Deployment and DevOps",
                     "description": "Application deployment and CI/CD",
-                    "icon": "🚀",
+                    "icon": "/icons/deploy-devops.svg",
                     "items": [
                         "Explore deployment strategies (Heroku, AWS, Azure)",
                         "Learn containerization with Docker and Kubernetes",
@@ -7534,7 +7534,7 @@
                 {
                     "title": "Resume Preparation",
                     "description": "Crafting an effective developer resume",
-                    "icon": "📄",
+                    "icon": "/icons/resume-prep.svg",
                     "items": [
                         "Include keywords",
                         "How to prepare resume",
@@ -7576,7 +7576,7 @@
                         "HTML Head"
                     ],
                     "color": "bg-orange-500",
-                    "icon": "📄",
+                    "icon": "/icons/html.svg",
                     "description": "Fundamentals of HTML5 for web structure"
                 },
                 {
@@ -7628,7 +7628,7 @@
                         "CSS3 Responsive"
                     ],
                     "color": "bg-blue-500",
-                    "icon": "🎨",
+                    "icon": "/icons/css.svg",
                     "description": "Styling and layout techniques with CSS3"
                 },
                 {
@@ -7642,7 +7642,7 @@
                         "Bootstrap JS"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "💅",
+                    "icon": "/icons/module.svg",
                     "description": "Responsive design with Bootstrap framework"
                 },
                 {
@@ -7675,7 +7675,7 @@
                         "JavaScript BOM"
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "📜",
+                    "icon": "/icons/javascript.svg",
                     "description": "Core JavaScript programming concepts"
                 },
                 {

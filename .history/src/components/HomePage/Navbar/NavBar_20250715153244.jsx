@@ -336,6 +336,8 @@
 
 
 
+<<<<<<< HEAD
+=======
 
 
 
@@ -348,6 +350,7 @@
 
 
 
+>>>>>>> cf4e728fb3ff580b0e3a8e9ff3f5171ac4e808bd
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';     
 import {
@@ -510,7 +513,11 @@ const NavBar = () => {
                             <Link to="/" className="flex items-center">
                                 {/* Mobile logo (hidden on md screens and up) */}
                                 <img
+<<<<<<< HEAD
+                                    src="./logo.svg"  // Smaller/optimized version for mobile
+=======
                                     src="./small-logo.svg"  // Smaller/optimized version for mobile
+>>>>>>> cf4e728fb3ff580b0e3a8e9ff3f5171ac4e808bd
                                     alt="IT Accurate Logo"
                                     className="h-10 w-auto md:hidden"  // Only shows on mobile
                                 />
@@ -519,7 +526,11 @@ const NavBar = () => {
                                 <img
                                     src="./logo.svg"  // Regular version
                                     alt="IT Accurate Logo"
+<<<<<<< HEAD
+                                    className="h-12 w-auto hidden md:block"  // Only shows on md screens and up   
+=======
                                     className="h-12 w-auto hidden md:block"  // Only shows on md screens and up       
+>>>>>>> cf4e728fb3ff580b0e3a8e9ff3f5171ac4e808bd
                                 />
                             </Link>
                         </div>
@@ -533,7 +544,11 @@ const NavBar = () => {
                                 >
                                     <Link
                                         to={item.path}
+<<<<<<< HEAD
+                                        className="px-3 py-2 rounded-md text-sm font-medium dark:text-gray-300 text-gray-700 hover:dark:bg-gray-800 hover:bg-gray-100 transition-colors duration-200 flex items-center cursor-pointer"
+=======
                                         className="px-3 py-2 rounded-md text-sm font-medium dark:text-gray-300 text-gray-700 hover:dark:bg-gray-800 hover:bg-gray-100 transition-colors duration-200 flex items-center cursor-pointer"      
+>>>>>>> cf4e728fb3ff580b0e3a8e9ff3f5171ac4e808bd
                                         onMouseEnter={() => item.hasDropdown && handleMenuEnter(item.name)}
                                         onMouseLeave={() => item.hasDropdown && handleMenuLeave()}
                                     >
@@ -583,8 +598,15 @@ const NavBar = () => {
                                                                         <img src={course.icon} alt='course icon' className='w-9 h-9 mt-2' />
                                                                     </span>
                                                                     <div className="flex-1">
+<<<<<<< HEAD
+                                                                        <h3 className="font-medium dark:text-white
+ text-gray-800">{course.title}</h3>
+                                                                        <p className="text-sm text-gray-500 dark:t
+ext-gray-400">{course.description}</p>
+=======
                                                                         <h3 className="font-medium dark:text-white text-gray-800">{course.title}</h3>
                                                                         <p className="text-sm text-gray-500 dark:text-gray-400">{course.description}</p>
+>>>>>>> cf4e728fb3ff580b0e3a8e9ff3f5171ac4e808bd
                                                                     </div>
                                                                     {course.subMenu && (
                                                                         <FiArrowRight className="ml-2 text-gray-400 self-center" />
@@ -594,17 +616,32 @@ const NavBar = () => {
                                                                 {/* Sub-menu Dropdown */}
                                                                 {course.subMenu && (
                                                                     <motion.div
+<<<<<<< HEAD
+                                                                        initial={{
+                                                                            opacity: 0, x: course.position
+                                                                                === 'left' ? 10 : -10
+                                                                        }}
+                                                                        animate={{
+                                                                            opacity: activeSubMenu === course.title ? 1 : 0,
+                                                                            x: activeSubMenu === course.title ? 0
+                                                                                : (course.position === 'left' ? 10 : -10),
+=======
                                                                         initial={{ opacity: 0, x: course.position === 
 'left' ? 10 : -10 }}
                                                                         animate={{
                                                                             opacity: activeSubMenu === course.title ? 
 1 : 0,
                                                                             x: activeSubMenu === course.title ? 0 : (course.position === 'left' ? 10 : -10),
+>>>>>>> cf4e728fb3ff580b0e3a8e9ff3f5171ac4e808bd
                                                                             visibility: activeSubMenu === course.title ? 'visible' : 'hidden'
                                                                         }}
                                                                         transition={{ duration: 0.2, ease: 'easeOut' }}
                                                                         className={`absolute ${course.position === 'left' ? 'right-full mr-2' : 'left-full ml-2'
+<<<<<<< HEAD
+                                                                            } top-0 w-56 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-3 z-50 border border-gray-200/50 dark:border-gray-700/50 max-h-96 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100 dark:scrollbar-thumb-gray-600 dark:scrollbar-track-gray-800`}
+=======
                                                                             } top-0 w-56 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-3 z-50 border border-gray-200/50 dark:border-gray-700/50 max-h-96 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100 dark:scrollbar-thumb-gray-600 dark:scrollbar-track-gray-800`}        
+>>>>>>> cf4e728fb3ff580b0e3a8e9ff3f5171ac4e808bd
                                                                         onMouseEnter={() => handleSubMenuEnter(course.title)}
                                                                         onMouseLeave={handleSubMenuLeave}
                                                                     >
@@ -673,7 +710,11 @@ const NavBar = () => {
                                     animate={{ rotate: darkMode ? 180 : 0 }}
                                     transition={{ duration: 0.5 }}
                                 >
+<<<<<<< HEAD
+                                    {darkMode ? <img src='/icons/sun.svg' alt='sun' className='w-7 h-7' /> : <img src='/icons/moon.svg' alt='moon' className='w-7 h-7' />}
+=======
                                     {darkMode ? <img src='/icons/sun.svg' alt='sun' className='w-7 h-7'/> : <img src='/icons/moon.svg' alt='moon' className='w-7 h-7'/>}
+>>>>>>> cf4e728fb3ff580b0e3a8e9ff3f5171ac4e808bd
                                 </motion.div>
                             </button>
                         </nav>
@@ -696,7 +737,12 @@ const NavBar = () => {
                                         setMobileActiveSubMenu(null);
                                     }
                                 }}
+<<<<<<< HEAD
+                                className="p-2 rounded-md dark:text-gray-300 text-gray-700 hover:dark:bg-gray-800 
+hover:bg-gray-100 focus:outline-none transition-colors"
+=======
                                 className="p-2 rounded-md dark:text-gray-300 text-gray-700 hover:dark:bg-gray-800 hover:bg-gray-100 focus:outline-none transition-colors"
+>>>>>>> cf4e728fb3ff580b0e3a8e9ff3f5171ac4e808bd
                                 aria-label="Toggle menu"
                             >
                                 {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
