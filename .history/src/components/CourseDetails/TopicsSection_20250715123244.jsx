@@ -86,7 +86,7 @@ function TopicsSection({ courseDetail }) {
                   transition={{ delay: getDelay(index) + 0.2 }}
                   viewport={{ once: true }}
                 >
-                  {topic?.description}
+                  {topic.description}
                 </motion.p>
               )}
             </div>

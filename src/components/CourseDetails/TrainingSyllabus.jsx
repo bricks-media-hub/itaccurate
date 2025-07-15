@@ -204,8 +204,8 @@ const TrainingSyllabus = ({ syllabus }) => {
                                         <img src={filteredData[activeSection]?.icon} alt='icons' className='w-16 h-16' />
                                     </motion.div>
                                     <div>
-                                        <h2 className="text-2xl md:text-3xl font-bold">{filteredData[activeSection].title}</h2>
-                                        <p className="text-sm md:text-base opacity-90">{filteredData[activeSection].description}</p>
+                                        <h2 className="text-2xl md:text-3xl font-bold">{filteredData[activeSection]?.title}</h2>
+                                        <p className="text-sm md:text-base opacity-90">{filteredData[activeSection]?.description}</p>
                                     </div>
                                 </div>
                                 <div className="p-6">
@@ -216,7 +216,7 @@ const TrainingSyllabus = ({ syllabus }) => {
                                         </span>
                                     </div>
                                     <ul className="space-y-4">
-                                        {filteredData[activeSection].subpoints?.map((item, i) => (
+                                        {filteredData[activeSection]?.subpoints?.map((item, i) => (
                                             <motion.li
                                                 key={i}
                                                 initial={{ opacity: 0, x: -10 }}
@@ -298,7 +298,7 @@ const TrainingSyllabus = ({ syllabus }) => {
                                                     index + 1
                                                 )}
                                             </div>
-                                            <span className="text-sm">{section.title}</span>
+                                            <span className="text-sm">{section?.title}</span>
                                         </div>
                                     );
                                 })}

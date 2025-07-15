@@ -17,7 +17,7 @@ function Layout() {
                 activeLocation={activeLocation} 
                 setActiveLocation={setActiveLocation} 
             />
-            <ChatBotWidget />
+            {/* <ChatBotWidget /> */}
         </>
     )
 }
