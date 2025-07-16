@@ -656,7 +656,7 @@ const NavBar = () => {
                             </nav>
                         </div>
                         {/* right section */}
-                        <div className='flex -mr-7'>
+                        <div className='flex -mr-8'>
                             {/* Search Bar */}
                             <div className="relative ml-4 hidden md:block mt-1">
                                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">                                    <FiSearch className="h-5 w-5 text-gray-400" />
