@@ -525,7 +525,7 @@ const NavBar = () => {
                         </div>
                         
                         {/* middle section */}
-                        <div className='ml-16'>
+                        <div className='ml-7'>
                             {/* Desktop Navigation */}
                             <nav className="hidden md:flex items-center space-x-1 relative z-50">
                                 {navItems.map((item) => (
@@ -656,9 +656,9 @@ const NavBar = () => {
                             </nav>
                         </div>
                         {/* right section */}
-                        <div className='flex -mr-7'>
+                        <div className='flex'>
                             {/* Search Bar */}
-                            <div className="relative ml-4 hidden md:block mt-1">
+                            <div className="relative ml-4 hidden md:block mt-2">
                                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">                                    <FiSearch className="h-5 w-5 text-gray-400" />
                                 </div>
                                 <input

@@ -525,7 +525,7 @@ const NavBar = () => {
                         </div>
                         
                         {/* middle section */}
-                        <div className='ml-16'>
+                        <div>
                             {/* Desktop Navigation */}
                             <nav className="hidden md:flex items-center space-x-1 relative z-50">
                                 {navItems.map((item) => (
@@ -561,7 +561,7 @@ const NavBar = () => {
                                                 }}
                                                 transition={{ duration: 0.2, ease: 'easeOut' }}
                                                 className={`absolute left-0 mt-1 ${item.name === 'Courses'
-                                                    ? 'w-[700px] p-4 grid grid-cols-2 gap-2'
+                                                    ? 'lg:left-[-30vh] w-[700px] p-4 grid grid-cols-2 gap-2'
                                                     : 'w-56 p-2'
                                                     } bg-slate-50/75 dark:bg-gray-800/75 backdrop-blur-sm bg-opacity-80 dark:bg-opacity-80 rounded-lg shadow-xl z-50 border border-gray-200/70 dark:border-gray-700/50`}
                                                 onMouseEnter={handleDropdownEnter}
@@ -578,7 +578,7 @@ const NavBar = () => {
                                                                     onMouseLeave={handleSubMenuLeave}
                                                                 >
                                                                     <div
-                                                                        className={`p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200 flex items-start ${activeSubMenu === course.title ? 'bg-gray-100 dark:bg-gray-700' : ''
+                                                                        className={`p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200 flex items-start ${activeSubMenu === course.title ? 'bg-gray-100 dark:bg-gray-700' : ''
                                                                             }`}
                                                                     >
                                                                         <span className="text-2xl mr-3 text-purple-600 dark:text-purple-400">
@@ -656,9 +656,9 @@ const NavBar = () => {
                             </nav>
                         </div>
                         {/* right section */}
-                        <div className='flex -mr-7'>
+                        <div className='flex'>
                             {/* Search Bar */}
-                            <div className="relative ml-4 hidden md:block mt-1">
+                            <div className="relative ml-4 hidden md:block">
                                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">                                    <FiSearch className="h-5 w-5 text-gray-400" />
                                 </div>
                                 <input
@@ -689,7 +689,7 @@ const NavBar = () => {
                         <div className="md:hidden flex items-center">
                             <button
                                 onClick={toggleDarkMode}
-                                className="md:hidden mr-4 p-2 rounded-full dark:text-yellow-300 text-gray-700 hover:dark:bg-gray-800 hover:bg-gray-100 transition-colors"
+                                className="mr-4 p-2 rounded-full dark:text-yellow-300 text-gray-700 hover:dark:bg-gray-800 hover:bg-gray-100 transition-colors"
                                 aria-label="Toggle dark mode"
                             >
                                 {darkMode ? <img src='/icons/sun.svg' alt='sun' className='w-5 h-5' /> : <img src='/icons/moon.svg' alt='moon' className='w-5 h-5' />}

@@ -525,7 +525,7 @@ const NavBar = () => {
                         </div>
                         
                         {/* middle section */}
-                        <div className='ml-16'>
+                        <div>
                             {/* Desktop Navigation */}
                             <nav className="hidden md:flex items-center space-x-1 relative z-50">
                                 {navItems.map((item) => (
@@ -578,7 +578,7 @@ const NavBar = () => {
                                                                     onMouseLeave={handleSubMenuLeave}
                                                                 >
                                                                     <div
-                                                                        className={`p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200 flex items-start ${activeSubMenu === course.title ? 'bg-gray-100 dark:bg-gray-700' : ''
+                                                                        className={`p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200 flex items-start ${activeSubMenu === course.title ? 'bg-gray-100 dark:bg-gray-700' : ''
                                                                             }`}
                                                                     >
                                                                         <span className="text-2xl mr-3 text-purple-600 dark:text-purple-400">
@@ -656,9 +656,9 @@ const NavBar = () => {
                             </nav>
                         </div>
                         {/* right section */}
-                        <div className='flex -mr-7'>
+                        <div className='flex'>
                             {/* Search Bar */}
-                            <div className="relative ml-4 hidden md:block mt-1">
+                            <div className="relative ml-4 hidden md:block">
                                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">                                    <FiSearch className="h-5 w-5 text-gray-400" />
                                 </div>
                                 <input
