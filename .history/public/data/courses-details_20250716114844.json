@@ -12574,7 +12574,7 @@
                 },
                 {
                     "text": "36Hrs Self-Placed Videos",
-                    "icon": "/icons/xtweetplay.svg",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1573497161234-94b2f4b9d2fa?q=80&w=500')"
                 },
                 {
@@ -17214,7 +17214,7 @@
                 },
                 {
                     "title": "Career Launch Support",
-                    "icon": "/icons/briefcase2.svg",
+                    "icon": "brief",
                     "description": "End-to-end placement assistance until you secure your HR analytics role",
                     "highlights": [
                         "Resume workshops",
@@ -17228,7 +17228,7 @@
                 {
                     "title": "SAP SuccessFactors Fundamentals",
                     "description": "Core concepts and career opportunities in SAP SuccessFactors",
-                    "icon": "/icons/cloud.svg",
+                    "icon": "☁️",
                     "items": [
                         "Understanding cloud-based HCM solutions",
                         "Key differentiators from SAP HCM",
@@ -17251,7 +17251,7 @@
                 {
                     "title": "Stakeholder Alignment",
                     "description": "Strategic engagement for implementation success",
-                    "icon": "/icons/help.svg",
+                    "icon": "🤝",
                     "items": [
                         "Stakeholder mapping exercise",
                         "HR process pain point analysis",
@@ -17270,7 +17270,7 @@
                 {
                     "title": "Cloud Migration Strategy",
                     "description": "Planning the transition to cloud HCM",
-                    "icon": "/icons/rocket.svg",
+                    "icon": "🚀",
                     "items": [
                         "Current state assessment framework",
                         "Phased migration approach",
@@ -17289,7 +17289,7 @@
                 {
                     "title": "Data Governance Framework",
                     "description": "Ensuring security and compliance in SF",
-                    "icon": "/icons/padlock.svg",
+                    "icon": "🔐",
                     "items": [
                         "Role-based permissions design",
                         "GDPR compliance configurations",
@@ -17308,7 +17308,7 @@
                 {
                     "title": "People Analytics in SF",
                     "description": "Leveraging embedded analytics capabilities",
-                    "icon": "/icons/sap.svg",
+                    "icon": "📊",
                     "items": [
                         "Standard report customization",
                         "Advanced analytics setup",
@@ -17327,7 +17327,7 @@
                 {
                     "title": "UX Optimization",
                     "description": "Enhancing adoption through intuitive design",
-                    "icon": "/icons/computer.svg",
+                    "icon": "💻",
                     "items": [
                         "Employee Central UI best practices",
                         "Manager dashboard configurations",
@@ -17346,7 +17346,7 @@
                 {
                     "title": "Operational Support Model",
                     "description": "Sustaining long-term SF success",
-                    "icon": "/icons/hammer.svg",
+                    "icon": "🛠️",
                     "items": [
                         "Tiered support structure design",
                         "Knowledge base development",
@@ -17365,7 +17365,7 @@
                 {
                     "title": "SF Career Preparation",
                     "description": "Positioning for SF implementation roles",
-                    "icon": "/icons/resume-edit.svg",
+                    "icon": "📝",
                     "items": [
                         "SF implementation resume keywords",
                         "Achievement quantification methods",
@@ -17392,7 +17392,7 @@
                 {
                     "title": "SAP SuccessFactors Fundamentals",
                     "description": "Core concepts and system architecture overview",
-                    "icon": "/icons/wireframe-globe.svg",
+                    "icon": "🌐",
                     "subpoints": [
                         "Cloud HCM solution differentiators",
                         "Employee Central core capabilities",
@@ -17414,7 +17414,7 @@
                 {
                     "title": "Employee Central Implementation",
                     "description": "Core HR configuration and data management",
-                    "icon": "/icons/users.svg",
+                    "icon": "👥",
                     "subpoints": [
                         "Foundation object configuration",
                         "Position management workflows",
@@ -17433,7 +17433,7 @@
                 {
                     "title": "Recruiting Module",
                     "description": "End-to-end talent acquisition configuration",
-                    "icon": "/icons/module.svg",
+                    "icon": "💼",
                     "subpoints": [
                         "Recruitment marketing setup",
                         "Candidate relationship management",
@@ -17452,7 +17452,7 @@
                 {
                     "title": "Learning Management",
                     "description": "Enterprise learning system configuration",
-                    "icon": "/icons/graduation.svg",
+                    "icon": "🎓",
                     "subpoints": [
                         "Learning content architecture",
                         "Assignment rule configuration",
@@ -17471,7 +17471,7 @@
                 {
                     "title": "Performance & Goals",
                     "description": "Continuous performance management setup",
-                    "icon": "/icons/sap.svg",
+                    "icon": "📊",
                     "subpoints": [
                         "Goal plan templates",
                         "Performance form configuration",
@@ -17490,7 +17490,7 @@
                 {
                     "title": "Compensation Management",
                     "description": "Advanced compensation planning",
-                    "icon": "/icons/money-pouch.svg",
+                    "icon": "💰",
                     "subpoints": [
                         "Compensation plan architecture",
                         "Budget allocation strategies",
@@ -17509,7 +17509,7 @@
                 {
                     "title": "People Analytics",
                     "description": "Reporting and predictive analytics",
-                    "icon": "/icons/search-scope.svg",
+                    "icon": "🔍",
                     "subpoints": [
                         "Ad-hoc report builder",
                         "Advanced story reporting",
@@ -17528,7 +17528,7 @@
                 {
                     "title": "Time & Absence",
                     "description": "Workforce time tracking configuration",
-                    "icon": "/icons/job-clock.png",
+                    "icon": "⏱️",
                     "subpoints": [
                         "Time policy configuration",
                         "Absence type setup",
@@ -17547,7 +17547,7 @@
                 {
                     "title": "Integration & Security",
                     "description": "System integration and data protection",
-                    "icon": "/icons/padlock.svg",
+                    "icon": "🔐",
                     "subpoints": [
                         "Integration Center configuration",
                         "CPI integration scenarios",
@@ -17566,7 +17566,7 @@
                 {
                     "title": "Career Accelerators",
                     "description": "Implementation-focused career support",
-                    "icon": "/icons/rocket.svg",
+                    "icon": "🚀",
                     "subpoints": [
                         "5 real implementation projects",
                         "Module-specific certification prep",

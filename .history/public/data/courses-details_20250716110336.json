@@ -12574,7 +12574,7 @@
                 },
                 {
                     "text": "36Hrs Self-Placed Videos",
-                    "icon": "/icons/xtweetplay.svg",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1573497161234-94b2f4b9d2fa?q=80&w=500')"
                 },
                 {
@@ -15667,7 +15667,7 @@
                 {
                     "title": "Tableau",
                     "description": "Interactive data visualization platform",
-                    "icon": "/icons/data-visual.svg",
+                    "icon": "/icons/sap.svg",
                     "items": [
                         "Introduction to Tableau",
                         "Creating Visualizations and Dashboards",
@@ -15686,7 +15686,7 @@
                 {
                     "title": "Advanced Excel",
                     "description": "Advanced data analysis with Excel",
-                    "icon": "/icons/adv-excel.svg",
+                    "icon": "📑",
                     "items": [
                         "Advanced Formulas and Functions",
                         "Data Analysis with PivotTables and PivotCharts",
@@ -15705,7 +15705,7 @@
                 {
                     "title": "Statistics",
                     "description": "Fundamental statistical concepts for HR analytics",
-                    "icon": "/icons/stats2.svg",
+                    "icon": "🧮",
                     "items": [
                         "Descriptive Statistics",
                         "Probability and Probability Distributions",
@@ -15724,7 +15724,7 @@
                 {
                     "title": "SharePoint",
                     "description": "Document management and collaboration platform",
-                    "icon": "/icons/folder.svg",
+                    "icon": "🗂️",
                     "items": [
                         "Introduction to SharePoint",
                         "Creating and Managing SharePoint Sites",
@@ -15754,7 +15754,7 @@
                         "Using Google Sheets, graphs and Pivot tables"
                     ],
                     "color": "bg-green-600",
-                    "icon": "/icons/sheet.svg",
+                    "icon": "📋",
                     "description": "Data collection and basic analysis tools",
                     "duration": "6 hours",
                     "tools": [
@@ -15775,7 +15775,7 @@
                         "Examples of Employee Engagement Activities"
                     ],
                     "color": "bg-purple-600",
-                    "icon": "/icons/users.svg",
+                    "icon": "👥",
                     "description": "Strategies to measure and improve workforce engagement",
                     "duration": "4 hours",
                     "handsOn": [
@@ -15795,7 +15795,7 @@
                         "Linking Competency Framework to all HR functions"
                     ],
                     "color": "bg-blue-600",
-                    "icon": "/icons/map-paper.svg",
+                    "icon": "🗺️",
                     "description": "Framework development for organizational competencies",
                     "duration": "4 hours",
                     "tools": [
@@ -15825,7 +15825,7 @@
                         "Head Hunting"
                     ],
                     "color": "bg-amber-600",
-                    "icon": "/icons/selection.svg",
+                    "icon": "💼",
                     "description": "End-to-end talent acquisition processes",
                     "duration": "6 hours",
                     "tools": [
@@ -15853,7 +15853,7 @@
                         "Induction and Orientation effectiveness test"
                     ],
                     "color": "bg-cyan-600",
-                    "icon": "/icons/lift.svg",
+                    "icon": "🚪",
                     "description": "Structured employee onboarding processes",
                     "duration": "4 hours",
                     "projects": [
@@ -15876,7 +15876,7 @@
                         "Training Plan and Training Calendar"
                     ],
                     "color": "bg-emerald-600",
-                    "icon": "/icons/books-bunch.svg",
+                    "icon": "📚",
                     "description": "Employee growth and training strategies",
                     "duration": "4 hours",
                     "tools": [
@@ -15895,7 +15895,7 @@
                         "Connecting to Data Sources"
                     ],
                     "color": "bg-yellow-600",
-                    "icon": "/icons/power-bi.svg",
+                    "icon": "📊",
                     "description": "Data visualization and business intelligence",
                     "duration": "4 hours",
                     "tools": [
@@ -15917,7 +15917,7 @@
                         "Data Blending and Joining"
                     ],
                     "color": "bg-indigo-600",
-                    "icon": "/icons/data-visual.svg",
+                    "icon": "📈",
                     "description": "Interactive data visualization platform",
                     "duration": "4 hours",
                     "projects": [
@@ -15935,7 +15935,7 @@
                         "Excel Dashboarding"
                     ],
                     "color": "bg-lime-600",
-                    "icon": "/icons/adv-excel.svg",
+                    "icon": "📑",
                     "description": "Advanced data analysis with Excel",
                     "duration": "4 hours",
                     "handsOn": [
@@ -15953,7 +15953,7 @@
                         "Data Interpretation"
                     ],
                     "color": "bg-fuchsia-600",
-                    "icon": "/icons/stats2.svg",
+                    "icon": "🧮",
                     "description": "Fundamental statistical concepts for HR analytics",
                     "duration": "4 hours",
                     "tools": [
@@ -15971,7 +15971,7 @@
                         "Using Lists and Libraries in SharePoint"
                     ],
                     "color": "bg-blue-400",
-                    "icon": "/icons/folder.svg",
+                    "icon": "🗂️",
                     "description": "Document management and collaboration platform",
                     "duration": "4 hours",
                     "projects": [
@@ -16033,37 +16033,37 @@
             "coveringTopics": [
                 {
                     "title": "End User Training (ECC/S4 HANA)",
-                    "icon": "/icons/emp-comp.svg",
+                    "icon": "👨‍💻",
                     "duration": "1 Month"
                 },
                 {
                     "title": "Configuration (ECC/S4 HANA)",
-                    "icon": "/icons/settings.svg",
+                    "icon": "⚙️",
                     "duration": "2 Months"
                 },
                 {
                     "title": "Project Implementation",
-                    "icon": "/icons/project2.svg",
+                    "icon": "🏗️",
                     "duration": "1 Month"
                 },
                 {
                     "title": "Resume Preparation",
-                    "icon": "/icons/resume-prep.svg",
+                    "icon": "📝",
                     "duration": "Ongoing"
                 },
                 {
                     "title": "Interview Practice",
-                    "icon": "/icons/interview-prep.svg",
+                    "icon": "💬",
                     "duration": "Ongoing"
                 },
                 {
                     "title": "6-Months Internship",
-                    "icon": "/icons/internship-prep.svg",
+                    "icon": "👔",
                     "duration": "6 Months"
                 },
                 {
                     "title": "100% Job Opportunities Guarantee",
-                    "icon": "/icons/briefcase2.svg",
+                    "icon": "✅",
                     "duration": "Post-Program"
                 }
             ],
@@ -16085,32 +16085,32 @@
             "keyFeatures": [
                 {
                     "text": "162+ Hours course duration",
-                    "icon": "/icons/job-clock.png",
+                    "icon": "FiClock",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "Free demo class available",
-                    "icon": "/icons/video.svg",
+                    "icon": "FiVideo",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Certificate Guidance",
-                    "icon": "/icons/certificate.svg",
+                    "icon": "FiAward",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "/icons/briefcase.svg",
+                    "icon": "FiBriefcase",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Industry expert faculties",
-                    "icon": "/icons/help.svg",
+                    "icon": "FiHelpCircle",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Completed 200+ batches",
-                    "icon": "/icons/batch.svg",
+                    "icon": "FiUsers",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
@@ -16118,7 +16118,7 @@
                 {
                     "title": "Introduction to SAP HCM",
                     "description": "Fundamentals of SAP Human Capital Management",
-                    "icon": "/icons/books-bunch.svg",
+                    "icon": "📚",
                     "items": [
                         "What is SAP?",
                         "What is SAP HCM?",
@@ -16142,7 +16142,7 @@
                 {
                     "title": "Stakeholder Engagement",
                     "description": "Strategic alignment with business stakeholders",
-                    "icon": "/icons/help.svg",
+                    "icon": "🤝",
                     "items": [
                         "Engage with key stakeholders (HR, IT, business leaders)",
                         "Gather feedback on current SAP HCM processes",
@@ -16160,7 +16160,7 @@
                 {
                     "title": "Cloud Migration Strategy",
                     "description": "Planning for SAP HCM cloud transformation",
-                    "icon": "/icons/cloud-migration.svg",
+                    "icon": "☁️",
                     "items": [
                         "Assess cloud migration feasibility",
                         "Evaluate cloud vs on-premise options",
@@ -16179,7 +16179,7 @@
                 {
                     "title": "Data Security & Compliance",
                     "description": "Protecting sensitive HR information",
-                    "icon": "/icons/padlock.svg",
+                    "icon": "🔒",
                     "items": [
                         "Implement enhanced security measures",
                         "Protect sensitive HR data",
@@ -16198,7 +16198,7 @@
                 {
                     "title": "HR Analytics & Reporting",
                     "description": "Advanced workforce insights and planning",
-                    "icon": "/icons/sap.svg",
+                    "icon": "📊",
                     "items": [
                         "Enhance reporting capabilities",
                         "Implement predictive analytics",
@@ -16217,7 +16217,7 @@
                 {
                     "title": "User Experience Optimization",
                     "description": "Improving SAP HCM usability and adoption",
-                    "icon": "/icons/computer.svg",
+                    "icon": "💻",
                     "items": [
                         "Enhance overall user experience",
                         "Optimize system interfaces",
@@ -16236,7 +16236,7 @@
                 {
                     "title": "Post-Implementation Support",
                     "description": "Ensuring long-term system success",
-                    "icon": "/icons/hammer.svg",
+                    "icon": "🛠️",
                     "items": [
                         "Develop support/maintenance plan",
                         "Establish helpdesk structure",
@@ -16255,7 +16255,7 @@
                 {
                     "title": "Career Preparation",
                     "description": "SAP HCM professional resume development",
-                    "icon": "/icons/resume-edit.svg",
+                    "icon": "📝",
                     "items": [
                         "Optimizing resume with SAP keywords",
                         "Structuring impactful achievements",
@@ -16283,7 +16283,7 @@
                 {
                     "title": "SAP HCM Foundations",
                     "description": "Core concepts and navigation in SAP Human Capital Management",
-                    "icon": "/icons/mansion.svg",
+                    "icon": "🏛️",
                     "subpoints": [
                         "What is SAP? Architecture overview",
                         "SAP ERP Packages and versions",
@@ -16304,7 +16304,7 @@
                 {
                     "title": "Organizational Structures",
                     "description": "Configuring enterprise, personnel and organizational structures",
-                    "icon": "/icons/building.svg",
+                    "icon": "🏢",
                     "subpoints": [
                         "Client, Company, Company Code setup",
                         "Personnel Areas and Subareas configuration",
@@ -16324,7 +16324,7 @@
                 {
                     "title": "Master Data Management",
                     "description": "Employee data processing and personnel actions",
-                    "icon": "/icons/folders.svg",
+                    "icon": "📇",
                     "subpoints": [
                         "HR Master Data architecture",
                         "Employee hiring process flow",
@@ -16343,7 +16343,7 @@
                 {
                     "title": "Time Management",
                     "description": "Work schedules and attendance configuration",
-                    "icon": "/icons/job-clock.png" ,
+                    "icon": "⏰",
                     "subpoints": [
                         "Time evaluation setup",
                         "Work schedule rules definition",
@@ -16362,7 +16362,7 @@
                 {
                     "title": "Payroll Configuration",
                     "description": "Complete payroll setup and wage type management",
-                    "icon": "/icons/money-pouch.svg",
+                    "icon": "💰",
                     "subpoints": [
                         "Pay scale structures configuration",
                         "Personnel Calculation Rules (PCR)",
@@ -16381,7 +16381,7 @@
                 {
                     "title": "Payroll Processing",
                     "description": "End-to-end payroll execution and control",
-                    "icon": "/icons/recurring.svg",
+                    "icon": "🔄",
                     "subpoints": [
                         "Payroll period configuration",
                         "Control record management",
@@ -16400,7 +16400,7 @@
                 {
                     "title": "Reporting & Analytics",
                     "description": "HR reporting and organizational analytics",
-                    "icon": "/icons/increase-graph.svg",
+                    "icon": "📈",
                     "subpoints": [
                         "Organizational structure reporting",
                         "Position analysis reports",
@@ -16419,7 +16419,7 @@
                 {
                     "title": "Career Accelerators",
                     "description": "Professional development components",
-                    "icon": "/icons/rocket.svg",
+                    "icon": "🚀",
                     "subpoints": [
                         "5+ real SAP implementation projects",
                         "Topic-wise assessment tests",
@@ -16556,7 +16556,7 @@
             "coveringTopics": [
                 {
                     "title": "Professional Resume Preparation",
-                    "icon": "/icons/resume-prep.svg",
+                    "icon": "📄",
                     "description": "SAP-optimized resume building with industry keywords",
                     "features": [
                         "ATS-compliant formatting",
@@ -16568,7 +16568,7 @@
                 },
                 {
                     "title": "Interview Preparation & Practice",
-                    "icon": "/icons/interview-prep.svg",
+                    "icon": "💬",
                     "description": "Comprehensive SAP HCM interview training",
                     "features": [
                         "50+ technical scenario questions",
@@ -16580,7 +16580,7 @@
                 },
                 {
                     "title": "6-Month Intensive Internship",
-                    "icon": "/icons/internship-prep.svg",
+                    "icon": "👔",
                     "description": "Hands-on SAP HCM implementation experience",
                     "features": [
                         "Live client projects",
@@ -16592,7 +16592,7 @@
                 },
                 {
                     "title": "100% Job Assistance Guarantee",
-                    "icon": "/icons/briefcase.svg",
+                    "icon": "✅",
                     "description": "Dedicated placement support",
                     "features": [
                         "SAP partner network access",
@@ -16604,7 +16604,7 @@
                 },
                 {
                     "title": "HR Analytics Tools Access",
-                    "icon": "/icons/sap.svg",
+                    "icon": "📊",
                     "description": "Practical training on industry tools",
                     "features": [
                         "Power BI/Tableau sandbox",
@@ -16616,7 +16616,7 @@
                 },
                 {
                     "title": "Real-Time Project Exposure",
-                    "icon": "/icons/hammer.svg",
+                    "icon": "🛠️",
                     "description": "SAP SuccessFactors implementation practice",
                     "features": [
                         "Full lifecycle project simulations",
@@ -16641,115 +16641,115 @@
             "keyFeatures": [
                 {
                     "text": "50+ Hours of HR Analytics Training",
-                    "icon": "/icons/job-clock.png",
+                    "icon": "FiClock",
                     "bgImage": "url('https://images.unsplash.com/photo-1552664730-d307ca884978')",
                     "category": "Comprehensive Learning"
                 },
                 {
                     "text": "Certification Preparation for HR Roles",
-                    "icon": "/icons/certificate.svg",
+                    "icon": "FiAward",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1')",
                     "category": "Career Advancement"
                 },
                 {
                     "text": "Mentor Support for Data Analysis",
-                    "icon": "/icons/teaching.svg",
+                    "icon": "FiUser",
                     "bgImage": "url('https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e')",
                     "category": "Guidance"
                 },
                 {
                     "text": "Professional Resume Editing",
-                    "icon": "/icons/resume-edit.svg",
+                    "icon": "FiFileText",
                     "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4')",
                     "category": "Career Support"
                 },
                 {
                     "text": "52 Hours of Hands-On Projects",
-                    "icon": "/icons/project.svg",
+                    "icon": "FiCode",
                     "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c')",
                     "category": "Practical Experience"
                 },
                 {
                     "text": "Job-Oriented HR Analytics Program",
-                    "icon": "/icons/briefcase2.svg",
+                    "icon": "FiBriefcase",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216')",
                     "category": "Career Focused"
                 },
                 {
                     "text": "69 Hours of Self-Paced Learning",
-                    "icon": "/icons/xtweetplay.svg",
+                    "icon": "FiVideo",
                     "bgImage": "url('https://images.unsplash.com/photo-1546146830-2cca9512c68e')",
                     "category": "Flexible Learning"
                 },
                 {
                     "text": "Job Assistance for HR Analytics",
-                    "icon": "/icons/job-assist.svg",
+                    "icon": "FiUsers",
                     "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c')",
                     "category": "Placement Support"
                 },
                 {
                     "text": "Free Demo Classes",
-                    "icon": "/icons/video.svg",
+                    "icon": "FiShoppingBag",
                     "bgImage": "url('https://images.unsplash.com/photo-1501504905252-473c47e087f8')",
                     "category": "Trial Opportunity"
                 },
                 {
                     "text": "Affordable Training Fees",
-                    "icon": "/icons/dollar.svg",
+                    "icon": "FiDollarSign",
                     "bgImage": "url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85')",
                     "category": "Value"
                 },
                 {
                     "text": "Flexible Learning Schedule",
-                    "icon": "/icons/calendar.svg",
+                    "icon": "FiCalendar",
                     "bgImage": "url('https://images.unsplash.com/photo-1517842645767-c639042777db')",
                     "category": "Convenience"
                 },
                 {
                     "text": "1482+ Batches Completed",
-                    "icon": "/icons/batch.svg",
+                    "icon": "FiCheckCircle",
                     "bgImage": "url('https://images.unsplash.com/photo-1523240795612-9a054b0db644')",
                     "category": "Proven Track Record"
                 },
                 {
                     "text": "Real-World HR Analytics Case Studies",
-                    "icon": "/icons/book.svg",
+                    "icon": "FiBook",
                     "bgImage": "url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40')",
                     "category": "Practical Knowledge"
                 },
                 {
                     "text": "Access to HR Analytics Tools",
-                    "icon": "/icons/pie-chart.svg",
+                    "icon": "FiPieChart",
                     "bgImage": "url('https://images.unsplash.com/photo-1551288049-bebda4e38f71')",
                     "category": "Software Access"
                 },
                 {
                     "text": "Practical HR Analytics Applications",
-                    "icon": "/icons/target.svg",
+                    "icon": "FiTarget",
                     "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c')",
                     "category": "Skills Application"
                 },
                 {
                     "text": "Mock Interviews and Career Prep",
-                    "icon": "/icons/interview-prep.svg",
+                    "icon": "FiMic",
                     "bgImage": "url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0')",
                     "category": "Interview Readiness"
                 },
                 {
                     "text": "Expert Guidance on Reporting",
-                    "icon": "/icons/teaching.svg",
+                    "icon": "FiBarChart2",
                     "bgImage": "url('https://images.unsplash.com/photo-1460925895917-afdab827c52f')",
                     "category": "Specialized Training"
                 },
                 {
                     "text": "Interactive HR Analytics Sessions",
-                    "icon": "/icons/message2.svg",
+                    "icon": "FiMessageSquare",
                     "bgImage": "url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3')",
                     "category": "Engaging Learning"
                 },
                 {
                     "text": "Post-Training Job Support",
-                    "icon": "/icons/job-assist.svg",
+                    "icon": "FiLifeBuoy",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216')",
                     "category": "Ongoing Assistance"
                 }
@@ -16758,7 +16758,7 @@
                 {
                     "title": "HR Analytics Fundamentals",
                     "description": "Core concepts and evolution of people analytics",
-                    "icon": "/icons/sap.svg",
+                    "icon": "📊",
                     "items": [
                         "Definition and business impact",
                         "Evolution and current trends",
@@ -16779,7 +16779,7 @@
                 {
                     "title": "HR Data Management",
                     "description": "Mastering HR data collection and quality control",
-                    "icon": "/icons/folders.svg",
+                    "icon": "🗃️",
                     "items": [
                         "Primary vs secondary data sources",
                         "HRIS system data extraction",
@@ -16798,7 +16798,7 @@
                 {
                     "title": "Descriptive Analytics",
                     "description": "Transforming HR data into actionable insights",
-                    "icon": "/icons/increase-graph.svg",
+                    "icon": "📈",
                     "items": [
                         "Excel vs Tableau visualization",
                         "Advanced chart selection guide",
@@ -16818,7 +16818,7 @@
                 {
                     "title": "Excel for HR Professionals",
                     "description": "Advanced Excel techniques for HR analytics",
-                    "icon": "/icons/excel.svg",
+                    "icon": "📑",
                     "items": [
                         "Advanced lookup formulas",
                         "Dynamic data validation",
@@ -16839,7 +16839,7 @@
                 {
                     "title": "Tableau for HR",
                     "description": "Interactive HR data visualization",
-                    "icon": "/icons/data-visual.svg",
+                    "icon": "📊",
                     "items": [
                         "Tableau architecture setup",
                         "HR data blending techniques",
@@ -16860,7 +16860,7 @@
                 {
                     "title": "Predictive Analytics",
                     "description": "Forecasting HR outcomes with statistical models",
-                    "icon": "/icons/data.svg",
+                    "icon": "🔮",
                     "items": [
                         "Regression model selection",
                         "Attrition prediction models",
@@ -16880,7 +16880,7 @@
                 {
                     "title": "Prescriptive Analytics",
                     "description": "Data-driven HR decision making",
-                    "icon": "/icons/focus.svg",
+                    "icon": "🎯",
                     "items": [
                         "ROI analysis for HR programs",
                         "Optimization models",
@@ -16904,7 +16904,7 @@
                 {
                     "title": "HR Analytics Fundamentals",
                     "description": "Core concepts and business value of people analytics",
-                    "icon": "/icons/sap.svg",
+                    "icon": "📊",
                     "subpoints": [
                         "Definition and strategic importance in modern HR",
                         "Evolution from metrics to predictive analytics",
@@ -16922,7 +16922,7 @@
                 {
                     "title": "HR Data Governance",
                     "description": "Managing HR data quality and integrity",
-                    "icon": "/icons/server.svg",
+                    "icon": "🗄️",
                     "subpoints": [
                         "Primary data collection methods",
                         "Extracting data from HRIS systems",
@@ -16940,7 +16940,7 @@
                 {
                     "title": "Descriptive Analytics",
                     "description": "Transforming HR data into visual insights",
-                    "icon": "/icons/increase-graph.svg",
+                    "icon": "📈",
                     "subpoints": [
                         "Comparative analysis of Excel vs Tableau",
                         "Selecting appropriate visualizations",
@@ -16958,7 +16958,7 @@
                 {
                     "title": "Advanced Excel for HR",
                     "description": "Power tools for HR data analysis",
-                    "icon": "/icons/adv-excel.svg",
+                    "icon": "📑",
                     "subpoints": [
                         "Advanced lookup and reference functions",
                         "Dynamic data validation techniques",
@@ -16974,7 +16974,7 @@
                 {
                     "title": "Tableau for HR Analytics",
                     "description": "Interactive workforce visualization",
-                    "icon": "/icons/data-visual.svg",
+                    "icon": "📊",
                     "subpoints": [
                         "Tableau architecture for HR data",
                         "Advanced data blending techniques",
@@ -16993,7 +16993,7 @@
                 {
                     "title": "Predictive HR Analytics",
                     "description": "Forecasting workforce trends",
-                    "icon": "/icons/analyze-report.svg",
+                    "icon": "🔮",
                     "subpoints": [
                         "Regression model selection criteria",
                         "Building attrition prediction models",
@@ -17012,7 +17012,7 @@
                 {
                     "title": "Prescriptive Analytics",
                     "description": "Data-driven HR decision making",
-                    "icon": "/icons/focus.svg",
+                    "icon": "🎯",
                     "subpoints": [
                         "ROI analysis for HR programs",
                         "Optimization models for staffing",
@@ -17078,37 +17078,37 @@
             "coveringTopics": [
                 {
                     "title": "End User Training (ECC/S4 HANA)",
-                    "icon": "/icons/emp-comp.svg",
+                    "icon": "👨‍💻",
                     "duration": "1 Month"
                 },
                 {
                     "title": "Configuration (ECC/S4 HANA)",
-                    "icon": "/icons/settings.svg",
+                    "icon": "⚙️",
                     "duration": "2 Months"
                 },
                 {
                     "title": "Project Implementation",
-                    "icon": "/icons/project.svg",
+                    "icon": "🏗️",
                     "duration": "1 Month"
                 },
                 {
                     "title": "Resume Preparation",
-                    "icon": "/icons/resume-prep.svg",
+                    "icon": "📝",
                     "duration": "Ongoing"
                 },
                 {
                     "title": "Interview Practice",
-                    "icon": "/icons/interview-prep.svg",
+                    "icon": "💬",
                     "duration": "Ongoing"
                 },
                 {
                     "title": "6-Months Internship",
-                    "icon": "/icons/internship-prep.svg",
+                    "icon": "👔",
                     "duration": "6 Months"
                 },
                 {
                     "title": "100% Job Opportunities Guarantee",
-                    "icon": "/icons/briefcase.svg",
+                    "icon": "✅",
                     "duration": "Post-Program"
                 }
             ],
@@ -17126,7 +17126,7 @@
             "keyFeatures": [
                 {
                     "title": "162+ Hours of Intensive Training",
-                    "icon": "/icons/job-clock.png",
+                    "icon": "⏱️",
                     "description": "Comprehensive curriculum covering all aspects of HR analytics with balanced theory and practice",
                     "highlights": [
                         "80 hours of core concepts",
@@ -17137,7 +17137,7 @@
                 },
                 {
                     "title": "100% Job-Focused Program",
-                    "icon": "/icons/focus.svg",
+                    "icon": "🎯",
                     "description": "Designed specifically to meet current industry hiring requirements",
                     "highlights": [
                         "Aligned with employer needs",
@@ -17148,7 +17148,7 @@
                 },
                 {
                     "title": "Industry Expert Instructors",
-                    "icon": "/icons/teaching.svg",
+                    "icon": "👨‍🏫",
                     "description": "Learn from certified professionals with 10+ years of HR analytics experience",
                     "highlights": [
                         "Currently working practitioners",
@@ -17159,7 +17159,7 @@
                 },
                 {
                     "title": "Practical Project Experience",
-                    "icon": "/icons/project-discuss.svg",
+                    "icon": "🛠️",
                     "description": "Work on 5+ real-world HR analytics implementations",
                     "highlights": [
                         "Client case studies",
@@ -17170,7 +17170,7 @@
                 },
                 {
                     "title": "Try Before You Commit",
-                    "icon": "/icons/sheet.svg",
+                    "icon": "🆓",
                     "description": "Experience our teaching methodology with no-obligation demo classes",
                     "highlights": [
                         "2 free live sessions",
@@ -17181,7 +17181,7 @@
                 },
                 {
                     "title": "Proven Track Record",
-                    "icon": "/icons/trophy.svg",
+                    "icon": "🏆",
                     "description": "Trusted by 200+ batches of successful HR analytics professionals",
                     "highlights": [
                         "85% placement rate",
@@ -17192,7 +17192,7 @@
                 },
                 {
                     "title": "Certification Preparation",
-                    "icon": "/icons/certificate.svg",
+                    "icon": "📜",
                     "description": "Complete support for SAP/HRCI/SHRM certification exams",
                     "highlights": [
                         "Exam pattern analysis",
@@ -17203,7 +17203,7 @@
                 },
                 {
                     "title": "Lifetime Learning Access",
-                    "icon": "/icons/books-bunch.svg",
+                    "icon": "📚",
                     "description": "Continued access to all course resources even after completion",
                     "highlights": [
                         "Recorded lectures",
@@ -17214,7 +17214,7 @@
                 },
                 {
                     "title": "Career Launch Support",
-                    "icon": "/icons/briefcase2.svg",
+                    "icon": "💼",
                     "description": "End-to-end placement assistance until you secure your HR analytics role",
                     "highlights": [
                         "Resume workshops",
@@ -17228,7 +17228,7 @@
                 {
                     "title": "SAP SuccessFactors Fundamentals",
                     "description": "Core concepts and career opportunities in SAP SuccessFactors",
-                    "icon": "/icons/cloud.svg",
+                    "icon": "☁️",
                     "items": [
                         "Understanding cloud-based HCM solutions",
                         "Key differentiators from SAP HCM",
@@ -17251,7 +17251,7 @@
                 {
                     "title": "Stakeholder Alignment",
                     "description": "Strategic engagement for implementation success",
-                    "icon": "/icons/help.svg",
+                    "icon": "🤝",
                     "items": [
                         "Stakeholder mapping exercise",
                         "HR process pain point analysis",
@@ -17270,7 +17270,7 @@
                 {
                     "title": "Cloud Migration Strategy",
                     "description": "Planning the transition to cloud HCM",
-                    "icon": "/icons/rocket.svg",
+                    "icon": "🚀",
                     "items": [
                         "Current state assessment framework",
                         "Phased migration approach",
@@ -17289,7 +17289,7 @@
                 {
                     "title": "Data Governance Framework",
                     "description": "Ensuring security and compliance in SF",
-                    "icon": "/icons/padlock.svg",
+                    "icon": "🔐",
                     "items": [
                         "Role-based permissions design",
                         "GDPR compliance configurations",
@@ -17308,7 +17308,7 @@
                 {
                     "title": "People Analytics in SF",
                     "description": "Leveraging embedded analytics capabilities",
-                    "icon": "/icons/sap.svg",
+                    "icon": "📊",
                     "items": [
                         "Standard report customization",
                         "Advanced analytics setup",
@@ -17327,7 +17327,7 @@
                 {
                     "title": "UX Optimization",
                     "description": "Enhancing adoption through intuitive design",
-                    "icon": "/icons/computer.svg",
+                    "icon": "💻",
                     "items": [
                         "Employee Central UI best practices",
                         "Manager dashboard configurations",
@@ -17346,7 +17346,7 @@
                 {
                     "title": "Operational Support Model",
                     "description": "Sustaining long-term SF success",
-                    "icon": "/icons/hammer.svg",
+                    "icon": "🛠️",
                     "items": [
                         "Tiered support structure design",
                         "Knowledge base development",
@@ -17365,7 +17365,7 @@
                 {
                     "title": "SF Career Preparation",
                     "description": "Positioning for SF implementation roles",
-                    "icon": "/icons/resume-edit.svg",
+                    "icon": "📝",
                     "items": [
                         "SF implementation resume keywords",
                         "Achievement quantification methods",
@@ -17392,7 +17392,7 @@
                 {
                     "title": "SAP SuccessFactors Fundamentals",
                     "description": "Core concepts and system architecture overview",
-                    "icon": "/icons/wireframe-globe.svg",
+                    "icon": "🌐",
                     "subpoints": [
                         "Cloud HCM solution differentiators",
                         "Employee Central core capabilities",
@@ -17414,7 +17414,7 @@
                 {
                     "title": "Employee Central Implementation",
                     "description": "Core HR configuration and data management",
-                    "icon": "/icons/users.svg",
+                    "icon": "👥",
                     "subpoints": [
                         "Foundation object configuration",
                         "Position management workflows",
@@ -17433,7 +17433,7 @@
                 {
                     "title": "Recruiting Module",
                     "description": "End-to-end talent acquisition configuration",
-                    "icon": "/icons/module.svg",
+                    "icon": "💼",
                     "subpoints": [
                         "Recruitment marketing setup",
                         "Candidate relationship management",
@@ -17452,7 +17452,7 @@
                 {
                     "title": "Learning Management",
                     "description": "Enterprise learning system configuration",
-                    "icon": "/icons/graduation.svg",
+                    "icon": "🎓",
                     "subpoints": [
                         "Learning content architecture",
                         "Assignment rule configuration",
@@ -17471,7 +17471,7 @@
                 {
                     "title": "Performance & Goals",
                     "description": "Continuous performance management setup",
-                    "icon": "/icons/sap.svg",
+                    "icon": "📊",
                     "subpoints": [
                         "Goal plan templates",
                         "Performance form configuration",
@@ -17490,7 +17490,7 @@
                 {
                     "title": "Compensation Management",
                     "description": "Advanced compensation planning",
-                    "icon": "/icons/money-pouch.svg",
+                    "icon": "💰",
                     "subpoints": [
                         "Compensation plan architecture",
                         "Budget allocation strategies",
@@ -17509,7 +17509,7 @@
                 {
                     "title": "People Analytics",
                     "description": "Reporting and predictive analytics",
-                    "icon": "/icons/search-scope.svg",
+                    "icon": "🔍",
                     "subpoints": [
                         "Ad-hoc report builder",
                         "Advanced story reporting",
@@ -17528,7 +17528,7 @@
                 {
                     "title": "Time & Absence",
                     "description": "Workforce time tracking configuration",
-                    "icon": "/icons/job-clock.png",
+                    "icon": "⏱️",
                     "subpoints": [
                         "Time policy configuration",
                         "Absence type setup",
@@ -17547,7 +17547,7 @@
                 {
                     "title": "Integration & Security",
                     "description": "System integration and data protection",
-                    "icon": "/icons/padlock.svg",
+                    "icon": "🔐",
                     "subpoints": [
                         "Integration Center configuration",
                         "CPI integration scenarios",
@@ -17566,7 +17566,7 @@
                 {
                     "title": "Career Accelerators",
                     "description": "Implementation-focused career support",
-                    "icon": "/icons/rocket.svg",
+                    "icon": "🚀",
                     "subpoints": [
                         "5 real implementation projects",
                         "Module-specific certification prep",

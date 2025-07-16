@@ -12574,7 +12574,7 @@
                 },
                 {
                     "text": "36Hrs Self-Placed Videos",
-                    "icon": "/icons/xtweetplay.svg",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1573497161234-94b2f4b9d2fa?q=80&w=500')"
                 },
                 {
@@ -17547,7 +17547,7 @@
                 {
                     "title": "Integration & Security",
                     "description": "System integration and data protection",
-                    "icon": "/icons/padlock.svg",
+                    "icon": "🔐",
                     "subpoints": [
                         "Integration Center configuration",
                         "CPI integration scenarios",
@@ -17566,7 +17566,7 @@
                 {
                     "title": "Career Accelerators",
                     "description": "Implementation-focused career support",
-                    "icon": "/icons/rocket.svg",
+                    "icon": "🚀",
                     "subpoints": [
                         "5 real implementation projects",
                         "Module-specific certification prep",
