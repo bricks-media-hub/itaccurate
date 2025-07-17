@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./small-logo.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IT Accurate - Best Training Institute</title>
+  <Script id="zoom-script" strategy="afterInteractive">
+    {
+      `
+              function resetZoom() {
+                const wrapper = document.getElementById('zoom-wrapper');
+                wrapper.style.transform = 'scale(1)';
+                wrapper.style.width = '100%';
+                wrapper.style.height = '100%';
+                wrapper.style.transformOrigin = 'top left';
+              }
+
+              window.addEventListener('scroll', resetZoom, { once: true });
+              window.addEventListener('click', resetZoom, { once: true });
+              window.addEventListener('resize', resetZoom, { once: true });
+            `}
+  </Script>
+</head>
+
+<body>
+  
+  <div id="root" class="font-sans"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

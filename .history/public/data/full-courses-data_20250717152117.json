@@ -1,0 +1,2258 @@
+{
+        "fullCourseData": {
+        "Salesforce": {
+            "title": "SALESFORCE",
+            "description": "Over 35% of developers choose Salesforce, making it the most preferred and sought-after platform in the tech industry. Salesforce continues to dominate as the leading and in-demand technology in the technical world.",
+            "roles": [
+                {
+                    "title": "Salesforce Administrator",
+                    "link": "https://itaccurate.com/blogDetails/qrj7khQmzJoHdIhi2yb4b"
+                },
+                {
+                    "title": "Salesforce Developer",
+                    "link": "https://itaccurate.com/blogDetails/2t5W6Jhy5N1Zw12DNZTbR9"
+                },
+                {
+                    "title": "Salesforce Consultant",
+                    "link": "https://itaccurate.com/blogDetails/3aBvLRyxLCYxYOyoOyLgWI"
+                },
+                {
+                    "title": "Salesforce Architect",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Business Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Project Manager",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Solution Engineer",
+                    "link": "http://localhost:3000/blogDetails/6AQexnu5k4S4YlOo3F4E85"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Integration Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Lightning Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Marketing Cloud Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "CPQ Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Einstein Analytics Developer",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "Salesforce Administrator",
+                    "range": "₹3 LPA – ₹5 LPA"
+                },
+                {
+                    "role": "Salesforce Developer",
+                    "range": "₹4 LPA – ₹6 LPA"
+                },
+                {
+                    "role": "Salesforce Business Analyst",
+                    "range": "₹4.5 LPA – ₹7 LPA"
+                },
+                {
+                    "role": "Salesforce Consultant",
+                    "range": "₹5 LPA – ₹8 LPA"
+                },
+                {
+                    "role": "Salesforce Lightning Developer",
+                    "range": "₹5.5 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "Salesforce Integration Specialist",
+                    "range": "₹5.5 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "Salesforce Solution Architect",
+                    "range": "₹7 LPA – ₹10 LPA"
+                }
+            ]
+        },
+        "SAP": {
+            "title": "SAP",
+            "description": "SAP is a world leader in ERP solutions, offering cutting-edge tools that empower businesses to streamline and manage their operations efficiently.",
+            "roles": [
+                {
+                    "title": "SAP Consultant",
+                    "link": "http://localhost:3000/blogDetails/50onQvJFpV7yXcfAw56Hnw"
+                },
+                {
+                    "title": "SAP Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP Functional Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP Business Analyst",
+                    "link": "http://localhost:3000/blogDetails/4yaMet3FmgT0P9hPcFEaho"
+                },
+                {
+                    "title": "SAP Basis Administrator",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP Project Manager",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "SAP Integration Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP Cloud Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP HANA Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP FICO Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP Security Specialist",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "SAP Consultant",
+                    "range": "₹5 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "SAP Developer",
+                    "range": "₹4.5 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "SAP Business Analyst",
+                    "range": "₹6 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "SAP Basis Administrator",
+                    "range": "₹5 LPA – ₹8 LPA"
+                },
+                {
+                    "role": "SAP Project Manager",
+                    "range": "₹8 LPA – ₹15 LPA"
+                }
+            ]
+        },
+        "SAP MM": {
+            "title": "SAP MM (Materials Management)",
+            "description": "SAP MM focuses on inventory and procurement management, ensuring efficient material flow in organizations.",
+            "roles": [
+                {
+                    "title": "SAP MM Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Procurement Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Inventory Manager",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP MM Functional Consultant",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Supply Chain Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP MM Integration Expert",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Automation Specialist for Procurement",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "SAP MM Consultant",
+                    "range": "₹6 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "Procurement Specialist",
+                    "range": "₹5 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "Inventory Manager",
+                    "range": "₹4.5 LPA – ₹8 LPA"
+                }
+            ]
+        },
+        "SAP PM": {
+            "title": "SAP PM (Plant Maintenance)",
+            "description": "SAP PM ensures smooth maintenance operations for equipment and machinery within industries.",
+            "roles": [
+                {
+                    "title": "SAP PM Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Maintenance Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP Functional Analyst",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Equipment Maintenance Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP PM Integration Specialist",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "SAP PM Consultant",
+                    "range": "₹6 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "Maintenance Engineer",
+                    "range": "₹5 LPA – ₹9 LPA"
+                }
+            ]
+        },
+        "SAP ABAP": {
+            "title": "SAP ABAP (Advanced Business Application Programming)",
+            "description": "SAP ABAP focuses on developing custom reports and applications using SAP's programming language.",
+            "roles": [
+                {
+                    "title": "ABAP Developer",
+                    "link": "https://itaccurate.com/blogDetails/OesSVBDlQ16OnpJc5IOLe"
+                },
+                {
+                    "title": "Technical Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP Programmer",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Advanced ABAP Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "ABAP Workflow Developer",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "ABAP Developer",
+                    "range": "₹5.5 LPA – ₹9.5 LPA"
+                },
+                {
+                    "role": "Technical Consultant",
+                    "range": "₹6 LPA – ₹12 LPA"
+                }
+            ]
+        },
+        "SAP QM": {
+            "title": "SAP QM (Quality Management)",
+            "description": "SAP QM ensures product quality and compliance by managing inspections and audits.",
+            "roles": [
+                {
+                    "title": "Quality Management Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Quality Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP QM Specialist",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Inspection Process Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Audit Compliance Analyst",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "Quality Management Consultant",
+                    "range": "₹5 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "Quality Analyst",
+                    "range": "₹4 LPA – ₹8 LPA"
+                }
+            ]
+        },
+        "SAP PP": {
+            "title": "SAP PP (Production Planning)",
+            "description": "SAP PP handles production planning and management for efficient resource utilization.",
+            "roles": [
+                {
+                    "title": "SAP PP Consultant",
+                    "link": "http://localhost:3000/blogDetails/6BHkQVywPDMQD2K1pp3xed"
+                },
+                {
+                    "title": "Production Manager",
+                    "link": "http://localhost:3000/blogDetails/6BHkQVywPDMQD2K1pp3xed"
+                },
+                {
+                    "title": "Manufacturing Analyst",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Digital Manufacturing Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "PP Automation Expert",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "SAP PP Consultant",
+                    "range": "₹6 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "Production Manager",
+                    "range": "₹5.5 LPA – ₹9.5 LPA"
+                }
+            ]
+        },
+        "SAP WM & EWM": {
+            "title": "SAP WM & EWM (Warehouse Management & Extended Warehouse Management)",
+            "description": "SAP WM & EWM optimize warehouse operations and logistics processes.",
+            "roles": [
+                {
+                    "title": "Warehouse Manager",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP EWM Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Logistics Coordinator",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "SAP EWM Integration Specialist",
+                    "link": "https://itaccurate.com/blogDetails/1AljWria39J7tIixdlzyGZ"
+                },
+                {
+                    "title": "Warehouse Automation Expert",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "Warehouse Manager",
+                    "range": "₹5.5 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "SAP EWM Consultant",
+                    "range": "₹6.5 LPA – ₹11 LPA"
+                }
+            ]
+        },
+        "SAP LE & SL": {
+            "title": "SAP LE & SL (Logistics Execution & Service Logistics)",
+            "description": "SAP LE & SL handle the execution of logistics processes and services.",
+            "roles": [
+                {
+                    "title": "Logistics Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Service Logistics Coordinator",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP LE Specialist",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Digital Logistics Expert",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP Logistics Integrator",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "Logistics Consultant",
+                    "range": "₹6 LPA – ₹11 LPA"
+                },
+                {
+                    "role": "Service Logistics Coordinator",
+                    "range": "₹5 LPA – ₹9 LPA"
+                }
+            ]
+        },
+        "SAP BASIS": {
+            "title": "SAP BASIS",
+            "description": "SAP BASIS is the technical foundation for SAP systems, ensuring system health and security.",
+            "roles": [
+                {
+                    "title": "SAP BASIS Administrator",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Technical Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "System Engineer",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Cloud BASIS Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "System Optimization Expert",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "SAP BASIS Administrator",
+                    "range": "₹5 LPA – ₹9.5 LPA"
+                },
+                {
+                    "role": "Technical Consultant",
+                    "range": "₹6 LPA – ₹12 LPA"
+                }
+            ]
+        },
+        "SAP FICO": {
+            "title": "SAP FICO (Finance & Controlling)",
+            "description": "SAP FICO manages financial transactions and controlling processes for businesses.",
+            "roles": [
+                {
+                    "title": "SAP FICO Consultant",
+                    "link": "https://itaccurate.com/blogDetails/2D1KbbS4hAzHopNAP9IGlI"
+                },
+                {
+                    "title": "Financial Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Cost Controller",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Advanced Finance Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP Treasury Specialist",
+                    "link": "http://localhost:3000/blogDetails/683Qbl18Lbb7mIoOPQhCkD"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "SAP FICO Consultant",
+                    "range": "₹7 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "Financial Analyst",
+                    "range": "₹5.5 LPA – ₹10 LPA"
+                }
+            ]
+        },
+        "SAP SCM": {
+            "title": "SAP SCM (Supply Chain Management)",
+            "description": "SAP SCM optimizes supply chain processes for efficient material and information flow.",
+            "roles": [
+                {
+                    "title": "SCM Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Supply Chain Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Operations Manager",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Digital Supply Chain Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Advanced SCM Integrator",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "SCM Consultant",
+                    "range": "₹7 LPA – ₹13 LPA"
+                },
+                {
+                    "role": "Supply Chain Analyst",
+                    "range": "₹5.5 LPA – ₹10 LPA"
+                }
+            ]
+        },
+        "SAP BTP": {
+            "title": "SAP BTP (Business Technology Platform)",
+            "description": "SAP BTP focuses on integrating, extending, and enhancing SAP solutions using advanced cloud services, database management, and analytics.",
+            "roles": [
+                {
+                    "title": "BTP Developer",
+                    "link": "https://itaccurate.com/blogDetails/BTPDeveloper"
+                },
+                {
+                    "title": "SAP Integration Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Cloud Application Developer",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "SAP BTP Architect",
+                    "link": "/placed"
+                },
+                {
+                    "title": "BTP Security Consultant",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "BTP Developer",
+                    "range": "₹7 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "SAP Integration Specialist",
+                    "range": "₹8 LPA – ₹15 LPA"
+                }
+            ]
+        },
+        "SAP SuccessFactors": {
+            "title": "SAP SuccessFactors",
+            "description": "SAP SuccessFactors is a cloud-based human resource management system focused on talent management, employee experience, and HR analytics.",
+            "roles": [
+                {
+                    "title": "SAP SuccessFactors Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "HR Manager",
+                    "link": "/hr-manager"
+                },
+                {
+                    "title": "HRIS Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Learning Management System (LMS) Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Performance Management Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Recruitment Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Compensation Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Employee Central Consultant",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Talent Management Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Employee Experience Manager",
+                    "link": "/placed"
+                },
+                {
+                    "title": "HR Data Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Workforce Planning Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SuccessFactors Integration Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Cloud HR Specialist",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "SAP SuccessFactors Consultant",
+                    "range": "₹7 LPA – ₹15 LPA"
+                },
+                {
+                    "role": "HR Manager",
+                    "range": "₹5.5 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "HRIS Specialist",
+                    "range": "₹5 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "Learning Management System (LMS) Specialist",
+                    "range": "₹6 LPA – ₹11 LPA"
+                },
+                {
+                    "role": "Performance Management Specialist",
+                    "range": "₹6.5 LPA – ₹13 LPA"
+                },
+                {
+                    "role": "Recruitment Analyst",
+                    "range": "₹5 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "Compensation Analyst",
+                    "range": "₹5.5 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "Employee Central Consultant",
+                    "range": "₹7 LPA – ₹14 LPA"
+                }
+            ]
+        },
+        "SAP HCM": {
+            "title": "SAP HCM (SAP Human Capital Management)",
+            "description": "SAP HCM offers comprehensive solutions for workforce administration, payroll, time management, and talent management, ensuring streamlined HR processes within the SAP ecosystem.",
+            "roles": [
+                {
+                    "title": "SAP HCM Consultant",
+                    "link": "https://itaccurate.com/blogDetails/6yXCqZ6BVx27D4f6ZbdmUJ"
+                },
+                {
+                    "title": "SAP HCM Functional Consultant",
+                    "link": "https://itaccurate.com/blogDetails/6yXCqZ6BVx27D4f6ZbdmUJ"
+                },
+                {
+                    "title": "SAP HCM Payroll Specialist",
+                    "link": "https://itaccurate.com/blogDetails/6yXCqZ6BVx27D4f6ZbdmUJ"
+                },
+                {
+                    "title": "Workforce Planning Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP Organizational Management Analyst",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "SAP HCM Business Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP HCM Data Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP HCM Implementation Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP Talent Management Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP Time Management Specialist",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "SAP HCM Consultant",
+                    "range": "₹6 LPA – ₹14 LPA"
+                },
+                {
+                    "role": "SAP HCM Functional Consultant",
+                    "range": "₹7 LPA – ₹15 LPA"
+                },
+                {
+                    "role": "SAP HCM Payroll Specialist",
+                    "range": "₹5 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "Workforce Planning Analyst",
+                    "range": "₹4 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "SAP Organizational Management Analyst",
+                    "range": "₹5 LPA – ₹11 LPA"
+                }
+            ]
+        },
+        "SAP FIORI": {
+            "title": "SAP FIORI",
+            "description": "SAP FIORI focuses on user experience (UX) for SAP systems with a modernized UI design.",
+            "roles": [
+                {
+                    "title": "SAP FIORI Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "UX Designer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Technical Consultant",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "FIORI Workflow Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP UI/UX Expert",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "SAP FIORI Developer",
+                    "range": "₹6 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "UX Designer",
+                    "range": "₹5 LPA – ₹9.5 LPA"
+                }
+            ]
+        },
+        "Data Science": {
+            "title": "Data Science",
+            "description": "Data Science stands as one of the most sought-after fields today, blending programming, analytics, and machine learning skills to drive innovation and insights.",
+            "roles": [
+                {
+                    "title": "Data Scientist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Machine Learning Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "AI Researcher",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Business Intelligence Analyst",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Deep Learning Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Natural Language Processing Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Big Data Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data Visualization Expert",
+                    "link": "/placed"
+                },
+                {
+                    "title": "AI Product Manager",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "Data Scientist",
+                    "range": "₹6 LPA – ₹15 LPA"
+                },
+                {
+                    "role": "Machine Learning Engineer",
+                    "range": "₹7 LPA – ₹16 LPA"
+                },
+                {
+                    "role": "Data Engineer",
+                    "range": "₹5 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "AI Researcher",
+                    "range": "₹8 LPA – ₹18 LPA"
+                },
+                {
+                    "role": "Business Intelligence Analyst",
+                    "range": "₹4.5 LPA – ₹10 LPA"
+                }
+            ]
+        },
+        "Data Analytics": {
+            "title": "Data Analytics",
+            "description": "Data Analytics enables organizations to harness the power of data, transforming complex datasets into actionable insights for informed decision-making.",
+            "roles": [
+                {
+                    "title": "Data Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Business Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Market Research Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Operations Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Database Analyst",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Predictive Analytics Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data Quality Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Analytics Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "BI Tool Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data Governance Expert",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "Data Analyst",
+                    "range": "₹4 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "Business Analyst",
+                    "range": "₹5 LPA – ₹11 LPA"
+                },
+                {
+                    "role": "Market Research Analyst",
+                    "range": "₹3 LPA – ₹7 LPA"
+                },
+                {
+                    "role": "Operations Analyst",
+                    "range": "₹4 LPA – ₹8 LPA"
+                },
+                {
+                    "role": "Database Analyst",
+                    "range": "₹5 LPA – ₹10 LPA"
+                }
+            ]
+        },
+        "HR Analytics": {
+            "title": "HR Analytics (Human Resources Analytics)",
+            "description": "HR Analytics integrates data analytics with human resources to enhance decision-making by leveraging data for talent acquisition, employee performance, retention strategies, and workforce planning.",
+            "roles": [
+                {
+                    "title": "HR Data Analyst",
+                    "link": "https://itaccurate.com/blogDetails/6FibVNOFAby6xys5PSUdxy"
+                },
+                {
+                    "title": "People Analytics Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Workforce Data Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Talent Analytics Manager",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Employee Performance Analyst",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "HR Data Scientist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "People Analytics Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Workforce Optimization Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Talent Acquisition Data Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "HR Insights Manager",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "HR Data Analyst",
+                    "range": "₹5 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "People Analytics Specialist",
+                    "range": "₹6 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "Workforce Data Analyst",
+                    "range": "₹5 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "Talent Analytics Manager",
+                    "range": "₹7 LPA – ₹15 LPA"
+                },
+                {
+                    "role": "Employee Performance Analyst",
+                    "range": "₹5 LPA – ₹11 LPA"
+                }
+            ]
+        },
+        "HR Business Analyst": {
+            "title": "BA HR (Business Analytics for Human Resources)",
+            "description": "BA HR combines business analytics with human resources to optimize HR processes, improve employee satisfaction, and align workforce strategies with business goals.",
+            "roles": [
+                {
+                    "title": "HR Business Analyst",
+                    "link": "https://itaccurate.com/blogDetails/3mLdd9QUb82IlzrFGydUBD"
+                },
+                {
+                    "title": "Workforce Planning Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Compensation and Benefits Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Talent Management Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "HR Operations Analyst",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "HR Business Intelligence Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Strategic Workforce Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Organizational Insights Manager",
+                    "link": "/placed"
+                },
+                {
+                    "title": "HR Digital Transformation Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "People Analytics Strategist",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "HR Business Analyst",
+                    "range": "₹5 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "Workforce Planning Analyst",
+                    "range": "₹6 LPA – ₹11 LPA"
+                },
+                {
+                    "role": "Compensation and Benefits Analyst",
+                    "range": "₹5 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "Talent Management Analyst",
+                    "range": "₹6 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "HR Operations Analyst",
+                    "range": "₹4.5 LPA – ₹9 LPA"
+                }
+            ]
+        },
+        "SAP HR": {
+            "title": "SAP HR (SAP Human Resources Management)",
+            "description": "SAP HR integrates powerful tools for managing human resources, including payroll, recruitment, performance management, and employee development, all within the SAP ecosystem.",
+            "roles": [
+                {
+                    "title": "SAP HR Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP SuccessFactors Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP Payroll Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "HRIS Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP Employee Benefits Analyst",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "SAP HR Business Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP HR Data Scientist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP SuccessFactors Functional Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP HR Integration Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "SAP Talent Management Consultant",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "SAP HR Consultant",
+                    "range": "₹6 LPA – ₹15 LPA"
+                },
+                {
+                    "role": "SAP SuccessFactors Consultant",
+                    "range": "₹7 LPA – ₹16 LPA"
+                },
+                {
+                    "role": "SAP Payroll Specialist",
+                    "range": "₹5 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "HRIS Analyst",
+                    "range": "₹4 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "SAP Employee Benefits Analyst",
+                    "range": "₹5 LPA – ₹11 LPA"
+                }
+            ]
+        },
+        "Business Analytics": {
+            "title": "Business Analyst",
+            "description": "Business Analysts connect business objectives with technical solutions, playing a vital role in driving organizational success.",
+            "roles": [
+                {
+                    "title": "Business Analyst",
+                    "link": "https://itaccurate.com/blogDetails/1FhXRUv2LzAPVICVwQ4e1U"
+                },
+                {
+                    "title": "Functional Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Process Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "IT Business Analyst",
+                    "link": "http://localhost:3000/blogDetails/5wmmyCtRysqLSaQ2VoTBke"
+                },
+                {
+                    "title": "Project Analyst",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Agile Business Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Strategic Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data-Driven Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Product Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Digital Transformation Analyst",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "Business Analyst",
+                    "range": "₹5 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "IT Business Analyst",
+                    "range": "₹6 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "Process Analyst",
+                    "range": "₹4 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "Project Analyst",
+                    "range": "₹4.5 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "Strategic Analyst",
+                    "range": "₹7 LPA – ₹14 LPA"
+                }
+            ]
+        },
+        "Python": {
+            "title": "Python ",
+            "description": "Python is a highly versatile programming language, extensively utilized in web development, data science, and automation tasks.",
+            "roles": [
+                {
+                    "title": "Python Developer",
+                    "link": "https://itaccurate.com/blogDetails/4rPH09PDhF2lXfTOr9iBP8"
+                },
+                {
+                    "title": "Data Analyst",
+                    "link": "https://itaccurate.com/blogDetails/5tqbMktIpIivUakefK2wEi"
+                },
+                {
+                    "title": "Machine Learning Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Automation Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Backend Developer",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "AI Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Cloud Automation Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Python Web Developer",
+                    "link": "http://localhost:3000/blogDetails/7u3Iwrv0yhFEY0q9tLzUg2"
+                },
+                {
+                    "title": "IoT Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data Engineer",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "Python Developer",
+                    "range": "₹4 LPA – ₹8 LPA"
+                },
+                {
+                    "role": "Data Analyst",
+                    "range": "₹4.5 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "Machine Learning Engineer",
+                    "range": "₹6 LPA – ₹14 LPA"
+                },
+                {
+                    "role": "Automation Specialist",
+                    "range": "₹5 LPA – ₹11 LPA"
+                },
+                {
+                    "role": "Backend Developer",
+                    "range": "₹5 LPA – ₹10 LPA"
+                }
+            ]
+        },
+        "Full Stack Development": {
+            "title": "Full Stack Development",
+            "description": "Full Stack Development encompasses building and managing both the frontend and backend aspects of web applications, ensuring seamless functionality and user experience across all layers.",
+            "roles": [
+                {
+                    "title": "Full Stack Developer",
+                    "link": "https://itaccurate.com/blogDetails/4up5QtfcKhrGNEFkcIQ8Xc"
+                },
+                {
+                    "title": "Frontend Developer",
+                    "link": "https://itaccurate.com/blogDetails/2K7lJUp80kOrZHtYXD1Y9E"
+                },
+                {
+                    "title": "Backend Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "UI/UX Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "DevOps Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Software Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Web Application Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Database Administrator",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Cloud Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Mobile App Developer",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "MERN Stack Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "MEAN Stack Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "API Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Cloud Application Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Serverless Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Blockchain Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "AI/ML Full Stack Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "React Native Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Progressive Web App (PWA) Developer",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "Full Stack Developer",
+                    "range": "₹5 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "Frontend Developer",
+                    "range": "₹4.5 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "Backend Developer",
+                    "range": "₹5 LPA – ₹11 LPA"
+                },
+                {
+                    "role": "UI/UX Developer",
+                    "range": "₹4 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "DevOps Engineer",
+                    "range": "₹6 LPA – ₹15 LPA"
+                },
+                {
+                    "role": "Software Engineer",
+                    "range": "₹5 LPA – ₹11 LPA"
+                },
+                {
+                    "role": "Web Application Developer",
+                    "range": "₹5 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "Database Administrator",
+                    "range": "₹5 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "Cloud Engineer",
+                    "range": "₹7 LPA – ₹15 LPA"
+                },
+                {
+                    "role": "Mobile App Developer",
+                    "range": "₹5 LPA – ₹12 LPA"
+                }
+            ]
+        },
+        "AWS": {
+            "title": "AWS",
+            "description": "Amazon Web Services (AWS) is the top cloud platform, providing an extensive array of services to businesses globally.",
+            "roles": [
+                {
+                    "title": "AWS Solutions Architect",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Cloud Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "DevOps Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "AWS Security Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "AWS Developer",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Cloud Automation Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Serverless Application Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "AWS Networking Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Big Data Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Cloud Migration Consultant",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "AWS Solutions Architect",
+                    "range": "₹7 LPA – ₹15 LPA"
+                },
+                {
+                    "role": "Cloud Engineer",
+                    "range": "₹5.5 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "DevOps Engineer",
+                    "range": "₹6 LPA – ₹14 LPA"
+                },
+                {
+                    "role": "AWS Security Specialist",
+                    "range": "₹8 LPA – ₹16 LPA"
+                },
+                {
+                    "role": "AWS Developer",
+                    "range": "₹5 LPA – ₹10 LPA"
+                }
+            ]
+        },
+        "Salesforce Admin": {
+            "title": "Salesforce Admin",
+            "description": "Salesforce Admins are responsible for configuring, customizing, and managing Salesforce platforms to meet organizational needs, ensuring efficient operations and user experience.",
+            "roles": [
+                {
+                    "title": "Salesforce Administrator",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "System Admin",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Support Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce CRM Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Business Analyst – Salesforce",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Configuration Expert",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Data Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Training Specialist",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Specialized Salesforce Admin",
+                    "link": "/placed"
+                },
+                {
+                    "title": "System Optimizer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Integration Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Automation Expert",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Solution Architect",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Technical Consultant",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "Salesforce Administrator",
+                    "range": "₹3.5 LPA – ₹5.5 LPA"
+                },
+                {
+                    "role": "Salesforce Consultant",
+                    "range": "₹5 LPA – ₹8 LPA"
+                },
+                {
+                    "role": "System Admin",
+                    "range": "₹4 LPA – ₹7 LPA"
+                },
+                {
+                    "role": "Salesforce Support Specialist",
+                    "range": "₹3.5 LPA – ₹6 LPA"
+                },
+                {
+                    "role": "Salesforce CRM Specialist",
+                    "range": "₹4 LPA – ₹7 LPA"
+                },
+                {
+                    "role": "Business Analyst – Salesforce",
+                    "range": "₹6 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "Salesforce Configuration Expert",
+                    "range": "₹5 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "Salesforce Data Analyst",
+                    "range": "₹5 LPA – ₹8 LPA"
+                },
+                {
+                    "role": "Salesforce Training Specialist",
+                    "range": "₹4 LPA – ₹7 LPA"
+                }
+            ]
+        },
+        "Salesforce LWC & Integration": {
+            "title": "Salesforce LWC & Integration",
+            "description": "Master the skills to create Lightning Web Components (LWC) and integrate Salesforce with external systems seamlessly, enabling powerful solutions and advanced user interfaces.",
+            "roles": [
+                {
+                    "title": "Lightning Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Integration Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "LWC Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "API Integration Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Solution Architect",
+                    "link": "/placed"
+                },
+                {
+                    "title": "UI/UX Designer for Salesforce",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Administrator",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Cloud Integration Consultant",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Advanced Integration Expert",
+                    "link": "/placed"
+                },
+                {
+                    "title": "UI Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "LWC Architect",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce DevOps Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Integration Architect",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Mobile App Developer",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "Lightning Developer",
+                    "range": "₹5.5 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "Integration Specialist",
+                    "range": "₹5.5 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "Salesforce Developer",
+                    "range": "₹6 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "LWC Developer",
+                    "range": "₹6 LPA – ₹13 LPA"
+                },
+                {
+                    "role": "API Integration Developer",
+                    "range": "₹7 LPA – ₹14 LPA"
+                },
+                {
+                    "role": "Salesforce Solution Architect",
+                    "range": "₹12 LPA – ₹20 LPA"
+                },
+                {
+                    "role": "UI/UX Designer for Salesforce",
+                    "range": "₹5.5 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "Salesforce Administrator",
+                    "range": "₹6 LPA – ₹11 LPA"
+                },
+                {
+                    "role": "Cloud Integration Consultant",
+                    "range": "₹8 LPA – ₹16 LPA"
+                }
+            ]
+        },
+        "Salesforce Marketing Cloud": {
+            "title": "Salesforce Marketing and Cloud",
+            "description": "Salesforce Marketing Cloud specialists lead marketing automation efforts and enhance customer engagement strategies, driving results through personalized experiences and data-driven insights.",
+            "roles": [
+                {
+                    "title": "Marketing Cloud Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Campaign Manager",
+                    "link": "/placed"
+                },
+                {
+                    "title": "CRM Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Email Marketing Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Administrator",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Customer Engagement Manager",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Social Media Marketing Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Content Marketing Manager",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Marketing Strategist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Customer Journey Expert",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Marketing Automation Expert",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Salesforce Marketing Architect",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data Analyst – Marketing Cloud",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Brand Manager",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "Marketing Cloud Specialist",
+                    "range": "₹6 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "Campaign Manager",
+                    "range": "₹5 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "CRM Specialist",
+                    "range": "₹6 LPA – ₹13 LPA"
+                },
+                {
+                    "role": "Email Marketing Specialist",
+                    "range": "₹5 LPA – ₹11 LPA"
+                },
+                {
+                    "role": "Salesforce Administrator",
+                    "range": "₹7 LPA – ₹15 LPA"
+                },
+                {
+                    "role": "Salesforce Developer",
+                    "range": "₹8 LPA – ₹18 LPA"
+                },
+                {
+                    "role": "Customer Engagement Manager",
+                    "range": "₹7 LPA – ₹14 LPA"
+                },
+                {
+                    "role": "Social Media Marketing Specialist",
+                    "range": "₹5 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "Content Marketing Manager",
+                    "range": "₹6 LPA – ₹14 LPA"
+                }
+            ]
+        },
+        "DevOps": {
+            "title": "DevOps",
+            "description": "DevOps is a methodology that focuses on fostering collaboration between development and IT teams to automate workflows and accelerate the delivery of high-quality software.",
+            "roles": [
+                {
+                    "title": "DevOps Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Site Reliability Engineer (SRE)",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Build and Release Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Cloud DevOps Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Infrastructure Automation Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "CI/CD Pipeline Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Kubernetes Administrator",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Platform Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "GitOps Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "DevSecOps Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Cloud-Native DevOps Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "AI-Powered DevOps Specialist",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "DevOps Engineer",
+                    "range": "₹6 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "Site Reliability Engineer (SRE)",
+                    "range": "₹7 LPA – ₹15 LPA"
+                },
+                {
+                    "role": "Build and Release Engineer",
+                    "range": "₹5 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "Cloud DevOps Engineer",
+                    "range": "₹8 LPA – ₹16 LPA"
+                },
+                {
+                    "role": "Infrastructure Automation Engineer",
+                    "range": "₹6.5 LPA – ₹13 LPA"
+                },
+                {
+                    "role": "CI/CD Pipeline Specialist",
+                    "range": "₹6 LPA – ₹11 LPA"
+                },
+                {
+                    "role": "Kubernetes Administrator",
+                    "range": "₹7 LPA – ₹14 LPA"
+                }
+            ]
+        },
+        "ML": {
+            "title": "Machine Learning (ML)",
+            "description": "Machine Learning allows systems to learn and evolve from experience without explicit programming, driving progress in AI and enhancing data-driven decision-making.",
+            "roles": [
+                {
+                    "title": "Machine Learning Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data Scientist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "ML Research Scientist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Deep Learning Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Natural Language Processing (NLP) Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Recommendation Systems Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data Engineer for ML",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Edge ML Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "AI Algorithm Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Federated Learning Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Explainable AI Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Applied ML Researcher",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "Machine Learning Engineer",
+                    "range": "₹7 LPA – ₹14 LPA"
+                },
+                {
+                    "role": "Data Scientist",
+                    "range": "₹6 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "ML Research Scientist",
+                    "range": "₹8 LPA – ₹16 LPA"
+                },
+                {
+                    "role": "Deep Learning Engineer",
+                    "range": "₹8 LPA – ₹17 LPA"
+                },
+                {
+                    "role": "Natural Language Processing (NLP) Specialist",
+                    "range": "₹7 LPA – ₹14 LPA"
+                },
+                {
+                    "role": "Recommendation Systems Engineer",
+                    "range": "₹7 LPA – ₹13 LPA"
+                },
+                {
+                    "role": "Data Engineer for ML",
+                    "range": "₹6 LPA – ₹12 LPA"
+                }
+            ]
+        },
+        "AI_ML": {
+            "title": "Artificial Intelligence & Machine Learning (AI/ML)",
+            "description": "AI/ML combines intelligent systems and learning algorithms to automate processes, optimize decision-making, and create predictive models, driving innovation across industries.",
+            "roles": [
+                {
+                    "title": "AI Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Machine Learning Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data Scientist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "AI Research Scientist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Robotics Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "AI/ML Architect",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Deep Learning Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Computer Vision Engineer",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "AI Ethics Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "AI Solutions Architect",
+                    "link": "/placed"
+                },
+                {
+                    "title": "AI/ML Operations Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Automated Machine Learning Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "AI-Powered Analytics Specialist",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "AI Engineer",
+                    "range": "₹8 LPA – ₹18 LPA"
+                },
+                {
+                    "role": "Machine Learning Engineer",
+                    "range": "₹7 LPA – ₹15 LPA"
+                },
+                {
+                    "role": "Data Scientist",
+                    "range": "₹6 LPA – ₹13 LPA"
+                },
+                {
+                    "role": "AI Research Scientist",
+                    "range": "₹8 LPA – ₹20 LPA"
+                },
+                {
+                    "role": "Robotics Engineer",
+                    "range": "₹7 LPA – ₹14 LPA"
+                },
+                {
+                    "role": "AI/ML Architect",
+                    "range": "₹10 LPA – ₹25 LPA"
+                },
+                {
+                    "role": "Deep Learning Engineer",
+                    "range": "₹8 LPA – ₹17 LPA"
+                },
+                {
+                    "role": "Computer Vision Engineer",
+                    "range": "₹7 LPA – ₹16 LPA"
+                }
+            ]
+        },
+        "ServiceNow": {
+            "title": "ServiceNow",
+            "description": "ServiceNow is a leading cloud-based platform that enables enterprises to streamline operations, automate workflows, and improve service delivery. Its growing popularity and high demand make it one of the most preferred platforms in the IT industry.",
+            "roles": [
+                {
+                    "title": "ServiceNow Administrator",
+                    "link": "/placed"
+                },
+                {
+                    "title": "ServiceNow Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "ServiceNow Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "ServiceNow Architect",
+                    "link": "/placed"
+                },
+                {
+                    "title": "ServiceNow Business Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "ServiceNow Project Manager",
+                    "link": "/placed"
+                },
+                {
+                    "title": "ServiceNow Solution Engineer",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "ServiceNow Integration Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "ServiceNow ITOM Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "ServiceNow SecOps Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "ServiceNow HRSD Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "ServiceNow Platform Architect",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "ServiceNow Administrator",
+                    "range": "₹3.5 LPA – ₹6 LPA"
+                },
+                {
+                    "role": "ServiceNow Developer",
+                    "range": "₹4 LPA – ₹7 LPA"
+                },
+                {
+                    "role": "ServiceNow Business Analyst",
+                    "range": "₹4.5 LPA – ₹7.5 LPA"
+                },
+                {
+                    "role": "ServiceNow Consultant",
+                    "range": "₹5 LPA – ₹8.5 LPA"
+                },
+                {
+                    "role": "ServiceNow ITOM Specialist",
+                    "range": "₹6 LPA – ₹9 LPA"
+                },
+                {
+                    "role": "ServiceNow Architect",
+                    "range": "₹7 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "ServiceNow Integration Specialist",
+                    "range": "₹6 LPA – ₹10 LPA"
+                }
+            ]
+        },
+        "DataEngineering": {
+            "title": "Data Engineering",
+            "description": "Data Engineering focuses on designing, building, and managing systems that allow data to be collected, stored, processed, and analyzed at scale. With the rise of big data, cloud platforms, and real-time analytics, Data Engineering has become one of the most sought-after skills in the tech industry.",
+            "roles": [
+                {
+                    "title": "Data Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Big Data Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data Architect",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data Analyst",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data Scientist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Cloud Data Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "ETL Developer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data Warehouse Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Business Intelligence Engineer",
+                    "link": "/placed"
+                }
+            ],
+            "upcomingRoles": [
+                {
+                    "title": "Machine Learning Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data Operations Engineer",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data Governance Specialist",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data Engineering Consultant",
+                    "link": "/placed"
+                },
+                {
+                    "title": "Data Integration Specialist",
+                    "link": "/placed"
+                }
+            ],
+            "salaries": [
+                {
+                    "role": "Data Engineer",
+                    "range": "₹6 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "Big Data Engineer",
+                    "range": "₹8 LPA – ₹14 LPA"
+                },
+                {
+                    "role": "Data Architect",
+                    "range": "₹10 LPA – ₹18 LPA"
+                },
+                {
+                    "role": "Data Analyst",
+                    "range": "₹4 LPA – ₹8 LPA"
+                },
+                {
+                    "role": "Data Scientist",
+                    "range": "₹6.5 LPA – ₹15 LPA"
+                },
+                {
+                    "role": "Cloud Data Engineer",
+                    "range": "₹7 LPA – ₹13 LPA"
+                },
+                {
+                    "role": "ETL Developer",
+                    "range": "₹5 LPA – ₹10 LPA"
+                },
+                {
+                    "role": "Data Warehouse Engineer",
+                    "range": "₹6 LPA – ₹12 LPA"
+                },
+                {
+                    "role": "Business Intelligence Engineer",
+                    "range": "₹5 LPA – ₹10 LPA"
+                }
+            ]
+        }
+    }
+}
