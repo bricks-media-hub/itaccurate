@@ -1,3 +1,5 @@
+import React from 'react'; 
+
 export const HeaderSkeleton = () => {
     return (
         <header className="fixed top-0 z-50 w-full dark:bg-gray-800 bg-gray-100 shadow-sm">
