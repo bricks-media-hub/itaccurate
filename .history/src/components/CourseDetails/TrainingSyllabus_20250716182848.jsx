@@ -131,7 +131,7 @@ const TrainingSyllabus = ({ syllabus }) => {
                 </div>
 
                 {/* Timeline Progress Bar */}
-                <div className="z-10 mb-12">
+                <div className=" mb-12">
                     <div className="h-2 rounded-full bg-gray-200 dark:bg-gray-700">
                         <motion.div
                             className="h-full rounded-full bg-gradient-to-r from-blue-600 to-indigo-600"

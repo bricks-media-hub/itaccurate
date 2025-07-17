@@ -131,7 +131,7 @@ const TrainingSyllabus = ({ syllabus }) => {
                 </div>
 
                 {/* Timeline Progress Bar */}
-                <div className="z-10 mb-12">
+                <div className="relative mb-12">
                     <div className="h-2 rounded-full bg-gray-200 dark:bg-gray-700">
                         <motion.div
                             className="h-full rounded-full bg-gradient-to-r from-blue-600 to-indigo-600"
@@ -140,7 +140,7 @@ const TrainingSyllabus = ({ syllabus }) => {
                             transition={{ duration: 0.6 }}
                         />
                     </div>
-                    <div className="-bottom-8 left-0 right-0 flex justify-between text-sm text-gray-500 dark:text-gray-400">
+                    <div className="absolute -bottom-8 left-0 right-0 flex justify-between text-sm text-gray-500 dark:text-gray-400">
                         <span>Foundations</span>
                         <span>{Math.round(progress)}% Complete</span>
                         <span>Mastery</span>

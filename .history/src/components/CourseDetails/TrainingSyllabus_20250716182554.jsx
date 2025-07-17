@@ -108,7 +108,7 @@ const TrainingSyllabus = ({ syllabus }) => {
     }, [activeSection, shouldScroll]);
 
     return (
-        <div className="min-h-screen bg-white dark:bg-gray-900">
+        <div className="min-h-screen bg-white dark:bg-gray-900 relative">
             <div className="max-w-7xl mx-auto px-4 py-12">
                 {/* Header */}
                 <div className="mb-12 text-center">
@@ -131,7 +131,7 @@ const TrainingSyllabus = ({ syllabus }) => {
                 </div>
 
                 {/* Timeline Progress Bar */}
-                <div className="z-10 mb-12">
+                <div className="relative mb-12">
                     <div className="h-2 rounded-full bg-gray-200 dark:bg-gray-700">
                         <motion.div
                             className="h-full rounded-full bg-gradient-to-r from-blue-600 to-indigo-600"
