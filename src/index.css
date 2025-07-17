@@ -400,8 +400,3 @@
     /* animated space on banner homepage */
 
     /* in your CSS */
-.zoomed-wrapper {
-  transform: scale(0.9);
-  transform-origin: top left;
-}
-
