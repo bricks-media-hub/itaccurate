@@ -7,7 +7,7 @@ function AboutCourseSkeleton() {
   <div className="absolute inset-0 z-0 bg-gray-200 dark:bg-gray-800" />
   <div className="absolute inset-0 opacity-90 bg-gradient-to-r from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-600 z-0 backdrop-blur-sm" />
 
-  <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-start gap-6 md:gap-8">
+  <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-start gap-6 md:gap-8">
     {/* Content skeleton */}
     <div className="w-full md:w-[85%] lg:w-[88%] text-center md:text-left z-20 pt-5 space-y-6">
       {/* Title skeleton */}
