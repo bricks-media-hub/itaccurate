@@ -22,6 +22,7 @@ import CourseOpportunities from '../components/CourseDetails/CourseOpportunities
 import Projects from '../components/CourseDetails/Projects';
 import TestimonialSlider from '../components/CourseDetails/TestimonialSlider';
 import AboutCourseSkeleton from '../components/ui/SkeletonEffects/AboutCourseSkeleton';
+import AdvancedRoadMap from '../components/CourseDetails/AdvancedRoadMap';
 
 function AboutCourse() {
   const courseDetail = useLoaderData();
@@ -132,7 +133,8 @@ function AboutCourse() {
 
       <DemoBanner />
 
-      {courseDetail.roadMap && <RoadMap data={courseDetail.roadMap} title={courseDetail.whatIs.name} />}
+      {/* {courseDetail.roadMap && <RoadMap data={courseDetail.roadMap} title={courseDetail.whatIs.name} />} */}
+      {courseDetail.roadMap && <AdvancedRoadMap data={courseDetail.roadMap} title={courseDetail.whatIs.name} />}
       {/* {courseDetail.roadMap && <RoadMap />} */}
 
       {courseDetail.roadMap && <TrainingSyllabus syllabus={trainingSyllabus} />}
