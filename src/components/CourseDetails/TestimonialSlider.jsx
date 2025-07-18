@@ -40,14 +40,8 @@ const TestimonialSlider = ({ reviews }) => {
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     responsive: [
-      {
-        breakpoint: 1024,
-        settings: { slidesToShow: 2 },
-      },
-      {
-        breakpoint: 768,
-        settings: { slidesToShow: 1 },
-      },
+      { breakpoint: 1024, settings: { slidesToShow: 2 } },
+      { breakpoint: 768, settings: { slidesToShow: 1 } },
     ],
   };
 
@@ -80,28 +74,30 @@ const TestimonialSlider = ({ reviews }) => {
                 {/* Avatar */}
                 <div className="absolute top-8 sm:top-4 z-10">
                   <img
-                    src={item.image}
-                    alt={item.role}
-                    className="w-32 h-32 sm:w-44 sm:h-44 object-cover rounded-full border-4 border-white dark:border-gray-800 shadow-lg"
+                    src={item.image === 'default' ? '/icons/profile-user.svg' : item.image}
+                    alt={item.name}
+                    className="w-32 h-32 sm:w-44 sm:h-44 object-cover rounded-full dark:border-gray-800"
                   />
                 </div>
 
                 {/* Card */}
                 <motion.div
-                  className="bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-2xl px-6 pt-28 pb-10 text-center shadow-lg min-h-[320px] sm:min-h-[360px] flex flex-col justify-between relative overflow-visible"
+                  initial={{ y: -5 }}
+                  animate={{ y: 5 }}
+                  transition={{ type: 'spring', stiffness: 300, damping: 10 }}
                   whileHover={{ y: -10 }}
-                  transition={{ type: "spring", stiffness: 300 }}
+                  className="bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-2xl px-6 pt-28 pb-10 text-center shadow-lg min-h-[320px] sm:min-h-[360px] flex flex-col justify-between relative overflow-visible"
                 >
-                  {/* Curved Cut-out */}
-                  {/* <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-16 h-8 bg-white dark:bg-gray-900 rounded-b-full z-10"></div> */}
+                  {/* Curved Cut-out to simulate bounce */}
+                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-16 h-8 bg-white dark:bg-gray-800 rounded-b-full z-0"></div>
 
-                  <p className="text-gray-600 dark:text-gray-300 mb-6 italic line-clamp-5">
+                  <p className="text-gray-600 dark:text-gray-300 mb-6 italic">
                     "{item.review}"
                   </p>
 
                   <div className="flex justify-between items-center mt-auto">
                     <div className="text-left">
-                      <h4 className="font-bold text-blue-700 dark:text-blue-400 text-lg">{item.name}</h4>
+                      <h4 className="font-bold text-blue-700 dark:text-blue-400 text-lg">{item.name.toUpperCase()}</h4>
                       <p className="text-blue-600 dark:text-blue-300 text-sm">{item.role}</p>
                     </div>
                     <div className="flex space-x-1">
