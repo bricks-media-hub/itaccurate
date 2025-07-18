@@ -171,7 +171,7 @@ function AboutCourse() {
       <CourseOpportunities pageName={name.trim()} />
 
       {/* Show on evrey page which is not related sap and conditionally render if projects section available */}
-      {!location.pathname.includes('sap') && courseDetail.reviews && <TestimonialSlider reviews={reviews} />}
+      {courseDetail.reviews && <TestimonialSlider reviews={reviews} />}
 
       <CompanyMarquee />
 
