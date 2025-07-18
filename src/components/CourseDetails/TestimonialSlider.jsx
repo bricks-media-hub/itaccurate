@@ -74,7 +74,7 @@ const TestimonialSlider = ({ reviews }) => {
                 {/* Avatar */}
                 <div className="absolute top-8 sm:top-4 z-10">
                   <img
-                    src={item.image === 'default' ? '/icons/profile-user.svg' : item.image}
+                    src={item.image === 'default' ? '/icons/profile-user.svg' : item.image || '/icons/profile-user.svg'}
                     alt={item.name}
                     className="w-32 h-32 sm:w-44 sm:h-44 object-cover rounded-full dark:border-gray-800"
                   />
