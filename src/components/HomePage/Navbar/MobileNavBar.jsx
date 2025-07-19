@@ -10,8 +10,10 @@ import {
     FiChevronUp,
     FiArrowRight
 } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import SearchBar from './Search/SearchBar';
+import { useEffect } from 'react';
 
 const MobileNavBar = ({
     isOpen,
@@ -24,6 +26,11 @@ const MobileNavBar = ({
 }) => {
     const menuItems = useSelector((state) => state.navbar.menuItems);
     const placementsSubMenu = ["Placements", "Jobs", "Career"];
+    const location = useLocation();
+
+    useEffect(() => {
+        setIsOpen(false)
+    },[location.pathname])
 
     return (
         <AnimatePresence>
@@ -35,6 +42,8 @@ const MobileNavBar = ({
                     transition={{ duration: 0.3 }}
                     className="md:hidden mt-2 overflow-hidden"
                 >
+                    {/* Mobile Search */}
+                        <SearchBar variant="mobile"/>
                     <div className="pt-2 pb-4 space-y-1">
                         {navItems.map((item) => (
                             <div key={item.name}>
@@ -163,17 +172,6 @@ const MobileNavBar = ({
                             </div>
                         ))}
 
-                        {/* Mobile Search */}
-                        <div className="px-3 pt-2 relative">
-                            <div className="absolute inset-y-0 left-5 pl-3 flex items-center pointer-events-none">
-                                <FiSearch className="h-5 w-5 text-gray-400" />
-                            </div>
-                            <input
-                                type="text"
-                                className="block w-full pl-10 pr-3 py-2 border border-transparent rounded-md leading-5 dark:bg-gray-700 bg-gray-100 dark:text-gray-300 text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent sm:text-sm"
-                                placeholder="Search..."
-                            />
-                        </div>
                     </div>
                 </motion.div>
             )}

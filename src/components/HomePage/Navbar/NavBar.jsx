@@ -348,7 +348,7 @@
 
 
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import {
     FiSun,
@@ -371,6 +371,8 @@ import { useSelector } from 'react-redux';
 import { HeaderSkeleton } from '../../ui/SkeletonEffects/HeaderSkeleton';
 import { Link } from 'react-router-dom';
 import MobileNavBar from './MobileNavBar';
+import useSearchLogic from './Search/useSearchLogic';
+import SearchBar from './Search/SearchBar';
 
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -382,6 +384,8 @@ const NavBar = () => {
     const [mobileActiveSubMenu, setMobileActiveSubMenu] = useState(null);
     const [searchTerm, setSearchTerm] = useState('');
     const [hoverTimeout, setHoverTimeout] = useState(null);
+    const { handleSearch } = useSearchLogic();
+    
 
     // Check for saved theme preference
     useEffect(() => {
@@ -658,17 +662,7 @@ const NavBar = () => {
                         {/* right section */}
                         <div className='flex -mr-7'>
                             {/* Search Bar */}
-                            <div className="relative ml-4 hidden md:block mt-1">
-                                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">                                    <FiSearch className="h-5 w-5 text-gray-400" />
-                                </div>
-                                <input
-                                    type="text"
-                                    className="block w-full pl-10 pr-3 py-2 border border-transparent rounded-md leading-5 dark:bg-gray-700 bg-gray-100 dark:text-gray-300 text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent sm:text-sm transition-all duration-200"
-                                    placeholder="Search..."
-                                    value={searchTerm}
-                                    onChange={(e) => setSearchTerm(e.target.value)}
-                                />
-                            </div>
+                            <SearchBar variant="desktop"/>
 
                             {/* Dark/Light Mode Toggle */}
                             <button
