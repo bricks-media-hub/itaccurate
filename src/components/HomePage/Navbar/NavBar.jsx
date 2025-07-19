@@ -508,7 +508,7 @@ const NavBar = () => {
                     }`}
             >
                 <div className="container mx-auto px-4 py-3">
-                    <div className="flex justify-between items-center">
+                    <div className={`flex justify-between items-center ${scrolled ? '' : 'md:px-14'}`}>
                         {/* Logo */}
                         <div className="flex items-center">
                             <Link to="/" className="flex items-center">
