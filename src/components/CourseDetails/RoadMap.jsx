@@ -164,40 +164,46 @@ export default function RoadMap() {
 
 // Central Pipeline Component
 const CentralPipeline = () => (
-  <>
-          {/* Animated center striped line with bike rider */}
-        <motion.div 
-          className="absolute top-1/2 left-0 w-full h-1 transform -translate-y-1/2"
-          initial={{ x: "-100%" }}
-          animate={{ x: "100%" }}
-          transition={{ 
-            duration: 20,  // Faster animation like the original yellow dot
-            repeat: Infinity, 
-            ease: "linear" 
-          }}
-        >
-          <div className="h-full w-full flex items-center">
-            <div className="h-full w-32 bg-gradient-to-r from-transparent via-yellow-400 to-transparent">
-              <img 
-                src="/icons/bike-rider.svg" 
-                alt="Bike rider" 
-                className="absolute w-14 h-14 transform -translate-y-3"  // Adjust position to center on line
-              />
-            </div>
-          </div>
-        </motion.div>
-  <div className="relative left-0 right-0 top-1/2 transform -translate-y-1/2 h-5 md:block z-0">
-    <div className="relative w-full h-full">
-      {/* Road surface */}
-      <div className="absolute inset-0 bg-gray-800 rounded-sm overflow-hidden">
-        {/* Road gradient for depth */}
-        <div className="relative inset-0 bg-gradient-to-b from-gray-700 to-gray-900"></div>
-        
+  <div className="relative w-full h-10 overflow-hidden">
+    {/* Road surface */}
+    <div className="absolute inset-0 bg-gray-800">
+      {/* Road gradient for depth */}
+      <div className="absolute inset-0 bg-gradient-to-b from-gray-700 to-gray-900"></div>
 
+      {/* Road markings - center divider (dashed lines) */}
+      <div className="absolute top-1/2 left-0 w-full h-1 transform -translate-y-1/2 flex">
+        {[...Array(20)].map((_, i) => (
+          <div
+            key={i}
+            className="w-8 h-full bg-yellow-400 mx-4"
+            style={{ marginLeft: i === 0 ? "0" : "32px" }}
+          ></div>
+        ))}
       </div>
+
+      {/* Animated bike rider */}
+      <motion.div
+        className="absolute top-1/2 left-0 w-14 h-14 -mt-7 transform -translate-y-1/2 -translate-x-full z-10"
+        initial={{ x: "-100%" }}
+        animate={{ x: "100vw" }}
+        transition={{
+          duration: 8,
+          repeat: Infinity,
+          ease: "linear",
+        }}
+      >
+        <img
+          src="/icons/bike-rider.svg"
+          alt="Bike rider"
+          className="w-full h-full"
+        />
+      </motion.div>
     </div>
+
+    {/* Optional road edges */}
+    <div className="absolute top-0 left-0 w-full h-1 bg-white"></div>
+    <div className="absolute bottom-0 left-0 w-full h-1 bg-white"></div>
   </div>
-  </>
 );
 
 // Add these to your CSS:
