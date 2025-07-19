@@ -123,7 +123,7 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
               exit={{ scale: 0.9, y: 20 }}
               transition={{ type: 'spring', damping: 25 }}
               id="enquiry"
-              className="w-full max-w-2xl relative"
+              className="w-full md:max-w-2xl max-w-lg relative"
             >
               {/* Close button */}
               <button
