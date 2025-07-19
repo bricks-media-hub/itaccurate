@@ -745,7 +745,8 @@ const useChatBotLogic = () => {
     handleSend,
     toggleCategory,
     handleCourseSelect,
-    resetConversation
+    resetConversation,
+    setSelectedCourseDetails
   };
 };
 
