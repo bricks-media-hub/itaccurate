@@ -133,9 +133,8 @@ function AboutCourse() {
 
       <DemoBanner />
 
-      {courseDetail.roadMap && <RoadMap data={courseDetail.roadMap} title={courseDetail.whatIs.name} />}
-      {/* {courseDetail.roadMap && <AdvancedRoadMap data={courseDetail.roadMap} title={courseDetail.whatIs.name} />} */}
-      {/* {courseDetail.roadMap && <RoadMap />} */}
+      {/* {courseDetail.roadMap && <RoadMap data={courseDetail.roadMap} title={courseDetail.whatIs.name} />} */}
+      {courseDetail.roadMap && <AdvancedRoadMap data={courseDetail.roadMap} title={courseDetail.whatIs.name} />}
 
       {courseDetail.roadMap && <TrainingSyllabus syllabus={trainingSyllabus} />}
 
