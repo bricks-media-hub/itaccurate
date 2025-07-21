@@ -20,6 +20,8 @@ import Career from './pages/Career';
 import TermsOfService from './components/Terms/Terms';
 import PrivacyPolicy from './components/Terms/Privacy';
 import RefundPolicy from './components/Terms/Refund';
+import ProtectedRoute from './ProtectedRoute/SeoProtected';
+import LandingPage from './SEO/LandingPage';
 
 export const dynamicCourseRoutes = [
   'salesforce-training',
@@ -118,6 +120,14 @@ const router = createBrowserRouter([
       {
         path: '/refund',
         element: <RefundPolicy />
+      },
+      {
+        path: '/seo',
+        element: (
+          <ProtectedRoute>
+            <LandingPage />
+          </ProtectedRoute>
+        )
       }
     ],
   },
