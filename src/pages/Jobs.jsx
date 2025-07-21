@@ -99,18 +99,17 @@ function Jobs() {
                     
                     <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg border border-blue-100 dark:border-blue-900/30">
                       <p className="text-blue-700 dark:text-blue-300 font-medium text-sm sm:text-base">
-                        No jobs available at the moment. Please check back later or
-                        submit your resume for future opportunities.
+                        No jobs available at the moment. Please check back later.
                       </p>
                     </div>
                     
-                    <motion.button
+                    {/* <motion.button
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       className="px-5 py-2.5 sm:px-6 sm:py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg font-medium shadow-lg hover:shadow-xl transition-all text-sm sm:text-base"
                     >
                       Submit Your Resume
-                    </motion.button>
+                    </motion.button> */}
                   </div>
                 </div>
               </div>

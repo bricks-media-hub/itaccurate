@@ -359,7 +359,7 @@ const RoadmapItem = ({
           }}
           className="mt-auto px-4 py-2 text-xs md:text-sm font-medium rounded-lg bg-gradient-to-r from-blue-500 to-blue-600 text-white hover:from-blue-600 hover:to-blue-700 transition-colors shadow-md"
         >
-          Topics You Learn →
+          Concepts →
         </button>
       </motion.div>
     </motion.div>
