@@ -65,9 +65,9 @@ export const dynamicCourseRoutes = [
   'da-hr',
   'ba-hr',
   'data-engineering',
-  'sap-course-in-thane',
-  'sap-course-in-nagpur',
-  'sap-fico-course-in-nagpur'
+  // 'sap-course-in-thane',
+  // 'sap-course-in-nagpur',
+  // 'sap-fico-course-in-nagpur'
 ];
 
 // Create loader-based routes
@@ -122,12 +122,12 @@ const router = createBrowserRouter([
         element: <RefundPolicy />
       },
       {
-        path: '/seo',
-        element: (
-          <ProtectedRoute>
-            <LandingPage />
-          </ProtectedRoute>
-        )
+        path: '/sap-course-in-thane',
+        element: <LandingPage />
+      },
+      {
+        path: '/sap-course-in-nagpur',
+        element: <LandingPage />
       }
     ],
   },

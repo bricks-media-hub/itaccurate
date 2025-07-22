@@ -9,23 +9,36 @@ import Panel7 from "./Panel7";
 import Panel8 from "./Panel8";
 import Panel9 from "./Panel9";
 import Panel10 from "./Panel10";
+import { useLocation } from "react-router-dom";
 
 function LandingPage() {
   const [content, setContent] = useState({});
   const [isLoading, setIsLoading] = useState(true);
+  const location = useLocation();
+  
   // featching data
   useEffect(() => {
     const fetchData = async () => {
+      let URL;
+      if (location.pathname === "/sap-course-in-thane") {
+        URL = "/data/seo/sap-thane.json";
+      } else if (location.pathname === "/sap-course-in-nagpur") {
+        URL = "/data/seo/sap-nagpur.json";
+      }
+
+      if (!URL) return;
+
       setIsLoading(true);
       try {
-        const response = await axios.get("/data/seo/sap-thane.json");
+        const response = await axios.get(URL);
         setContent(response.data);
       } finally {
         setIsLoading(false);
       }
     };
+
     fetchData();
-  }, []);
+  }, [location.pathname]);
 
   return (
     <div>

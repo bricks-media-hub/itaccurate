@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import FreeDemoForm from "../components/ContactUs/FreeDemoForm";
 
 function Panel5({ data, imageUrl }) {
+  const [showForm, setShowForm] = useState(false);
   return (
+    <>
+    {showForm && <FreeDemoForm onClose={() => setShowForm(false)}/>}
       <div
         className="max-w-7xl mx-auto flex flex-col md:flex-row justify-center items-center gap-10 px-6 md:px-16 pt-24">
       <section className="flex justify-center md:justify-end w-full md:w-1/2">
@@ -41,6 +45,7 @@ function Panel5({ data, imageUrl }) {
         </div>
       </section>
     </div>
+    </>
   );
 }
 
