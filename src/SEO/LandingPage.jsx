@@ -15,7 +15,7 @@ function LandingPage() {
   const [content, setContent] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   const location = useLocation();
-  
+
   // featching data
   useEffect(() => {
     const fetchData = async () => {
@@ -24,6 +24,8 @@ function LandingPage() {
         URL = "/data/seo/sap-thane.json";
       } else if (location.pathname === "/sap-course-in-nagpur") {
         URL = "/data/seo/sap-nagpur.json";
+      } else if (location.pathname === "/sap-fico-course-in-nagpur") {
+        URL = "/data/seo/sap-fico-nagpur.json";
       }
 
       if (!URL) return;

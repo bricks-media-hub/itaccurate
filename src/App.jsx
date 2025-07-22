@@ -128,6 +128,10 @@ const router = createBrowserRouter([
       {
         path: '/sap-course-in-nagpur',
         element: <LandingPage />
+      },
+            {
+        path: '/sap-fico-course-in-nagpur',
+        element: <LandingPage />
       }
     ],
   },
