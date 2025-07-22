@@ -5,7 +5,7 @@ import Stats from "../components/Career/Stats";
 function Panel1({
   data,
   showImage = true,
-  imageUrl = "https://www.sipltraining.com/assets/img/sipl-sap-course4.png",
+  imageUrl = "/icons/corporate-training.svg",
   showButtons = true,
   reverseLayout = false,
   showStats = true,
