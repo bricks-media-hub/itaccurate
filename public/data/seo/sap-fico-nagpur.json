@@ -48,7 +48,7 @@
     "panel5": {
         "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1200&q=80",
         "heading": "Placement Support for SAP FICO Aspirants in Nagpur",
-        "content": "At IT Accurate, we’re as committed to your career as you are. With our <span class='text-blue-600'>SAP FICO course in Nagpur</span>, we offer complete placement support—from resume building to mock interviews and job referrals. Our dedicated placement cell connects you with companies hiring SAP FICO consultants, finance executives, and support specialists. We’ve built a strong network of industry recruiters across Nagpur, Pune, Mumbai, and beyond. Your success is our goal, and we go the extra mile to ensure every student gets the guidance and opportunities they need to step confidently into the SAP world."
+        "content": ["At IT Accurate, we’re as committed to your career as you are. With our <span class='text-blue-600'>SAP FICO course in Nagpur</span>, we offer complete placement support—from resume building to mock interviews and job referrals. Our dedicated placement cell connects you with companies hiring SAP FICO consultants, finance executives, and support specialists. We’ve built a strong network of industry recruiters across Nagpur, Pune, Mumbai, and beyond. Your success is our goal, and we go the extra mile to ensure every student gets the guidance and opportunities they need to step confidently into the SAP world."]
     },
     "panel6": {
         "heading": "Who Can Join the SAP FICO Course?",
