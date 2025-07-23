@@ -9,11 +9,11 @@ const OfferedCourses = () => {
       id: 1,
       title: "Python Full Stack",
       description:
-        "Master Django, Flask, and frontend integration for complete web solutions",
+        "Master Django, Backend, and frontend integration for complete web solutions",
       icon: "/icons/python-fullstack.png",
       color: "from-blue-500 to-indigo-600",
       darkColor: "from-blue-600 to-indigo-800",
-      link: "/python-full-stack"
+      link: "/python-full-stack",
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const OfferedCourses = () => {
       icon: "/icons/java.svg",
       color: "from-purple-500 to-indigo-700",
       darkColor: "from-purple-600 to-indigo-900",
-      link: "/java-full-stack"
+      link: "/java-full-stack",
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ const OfferedCourses = () => {
       icon: "/icons/mern-stack.png",
       color: "from-indigo-500 to-blue-700",
       darkColor: "from-indigo-600 to-blue-800",
-      link: "/mern-stack"
+      link: "/mern-stack",
     },
   ];
 

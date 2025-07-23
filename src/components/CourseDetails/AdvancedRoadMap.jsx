@@ -379,7 +379,7 @@ function DetailsPanel({ module, onClose }) {
             </div>
             
             {/* Additional Resources */}
-            <div>
+            {/* <div>
               <h4 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-4">Resources</h4>
               <div className="grid grid-cols-1 gap-3">
                 <a href="#" className="flex items-center p-3 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
@@ -399,7 +399,7 @@ function DetailsPanel({ module, onClose }) {
                   <span className="font-medium text-gray-700 dark:text-gray-300">Video Tutorials</span>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         

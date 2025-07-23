@@ -2,25 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaCertificate, FaChartLine, FaAward } from "react-icons/fa";
 
-const CertificationSection = ({ courseName }) => {
-  const certificationPoints = [
-    {
-      icon: <img src="/icons/badge2.svg" alt='icon' className='w-8 h-8' />,
-      title: "Recognized Certification",
-      description: "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate.",
-    },
-    {
-      icon: <img src="/icons/increase-graph.svg" alt='icon' className='w-8 h-8' />,
-      title: "Competitive Edge",
-      description: "The Data Engineering certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market.",
-    },
-    {
-      icon: <img src="/icons/graduation.svg" alt='icon' className='w-8 h-8' />,
-      title: "100% Passing Guarantee",
-      description: "IT Accurate provides comprehensive guidance for your Data Engineering global certification, ensuring a 100% passing guarantee in examinations such as Data analytics Certification, Data Engineering Platform Development Certification, and various other global exams.",
-    },
-  ];
-
+const CertificationSection = ({ courseName, certificationPoints }) => {
+  console.log(certificationPoints);
   return (
     <motion.section 
       initial={{ opacity: 0, y: 50 }}
@@ -64,7 +47,7 @@ const CertificationSection = ({ courseName }) => {
               <div className="flex items-start gap-5">
                 <div className="flex-shrink-0">
                   <div className="w-12 h-12 rounded-full bg-blue-500 dark:bg-indigo-600 flex items-center justify-center">
-                    {point.icon}
+                    <img src={point.icon} alt='icon' className='w-8 h-8' />
                   </div>
                 </div>
                 <div>

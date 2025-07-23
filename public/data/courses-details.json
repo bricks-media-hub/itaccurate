@@ -220,6 +220,23 @@
                     "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
                     "role": "Professional"
                 }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP S/4HANA Certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as Salesforce Administration Certification, SAP S/4 HANA Platform Development Certification, and various other global exams."
+                }
             ]
         },
         "sap-abap": {
@@ -673,6 +690,23 @@
                 {
                     "question": "What is the purpose of the ABAP Dictionary?",
                     "answer": "The ABAP Dictionary is used to define and manage database objects like tables, views, and indexes in the SAP system."
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP S/4HANA certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as SAP Certification, SAP S/4HANA Platform Development Certification, and various other global exams."
                 }
             ]
         },
@@ -1338,6 +1372,23 @@
                 {
                     "question": "Is SAP MM certification necessary for a career in SAP MM?",
                     "answer": "While not mandatory, SAP MM certification can enhance your credibility and marketability in the job market. It validates your skills and knowledge in SAP MM, making you a more competitive candidate for SAP MM-related roles."
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP S/4HANA certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as SAP Certification, SAP S/4HANA Platform DeveloMMent Certification, and various other global exams."
                 }
             ]
         },
@@ -2046,6 +2097,23 @@
                     "question": "What is Cost Center Accounting in SAP FICO?",
                     "answer": "Cost Center Accounting in SAP FICO helps organizations track and manage costs associated with specific departments or business units, aiding in cost control and analysis."
                 }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP S/4HANA certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as SAP Certification, SAP S/4HANA Platform Development Certification, and various other global exams."
+                }
             ]
         },
         "sap-sd": {
@@ -2461,6 +2529,23 @@
                 {
                     "question": "Explain the Integration of SAP SD with Other Modules.",
                     "answer": "SAP SD integrates with various modules like MM (Materials Management), PP (Production Planning), and WM (Warehouse Management) for seamless coordination between different business processes."
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP S/4HANA certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as SAP Certification, SAP S/4HANA Platform Development Certification, and various other global exams.."
                 }
             ]
         },
@@ -2931,6 +3016,23 @@
                     "question": "How can SAP HCM improve HR processes?",
                     "answer": "SAP HCM streamlines HR processes, reduces manual efforts, and enhances data accuracy, ultimately improving the efficiency and effectiveness of human resource management within an organization."
                 }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP S/4HANA certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as SAP Certification, SAP S/4HANA Platform Development Certification, and various other global exams."
+                }
             ]
         },
         "sap-basis-training-in-nagpur": {
@@ -3359,6 +3461,23 @@
                     "question": "What are the common challenges faced by SAP BASIS administrators?",
                     "answer": "Common challenges include handling system upgrades and migrations, managing system performance and tuning, ensuring data security and compliance, troubleshooting system errors, and keeping up with the latest SAP technologies and best practices."
                 }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP BASIS certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your SAP BASIS global certification, ensuring a 100% passing guarantee in examinations such as SAP Certification, SAP S/4HANA Platform Development Certification, and various other global exams.."
+                }
             ]
         },
         "sap-scm": {
@@ -3656,6 +3775,23 @@
                 {
                     "question": "How can SAP SCM contribute to sustainability in the supply chain?",
                     "answer": "SAP SCM supports sustainability tasks by way of optimizing transportation routes, reducing waste, and enabling higher visibility into the environmental effect of deliver chain sports. This allows agencies make extra eco-friendly choices."
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP S/4HANA certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as SAP Certification, SAP S/4HANA Platform Development Certification, and various other global exams."
                 }
             ]
         },
@@ -3990,6 +4126,23 @@
                 {
                     "question": "WHow does Ariba support mobile procurement?",
                     "answer": "SAP Ariba offers mobile apps, allowing users to manage procurement activities, approvals, and collaboration on the go."
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP S/4HANA certification offered by IT Accuratewill equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurateprovides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as SAP Certification, SAP S/4HANA Platform Development Certification, and various other global exams."
                 }
             ]
         },
@@ -4444,6 +4597,23 @@
                     "question": "What is SAP PP-PI (Production Planning for Process Industries)?",
                     "answer": "SAP PP-PI is a sub-module of SAP PP designed specifically for process industries, providing functionalities like batch management and recipe management."
                 }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP S/4HANA certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as SAP Certification, SAP S/4HANA Platform Development Certification, and various other global exams."
+                }
             ]
         },
         "sap-pm": {
@@ -4890,6 +5060,23 @@
                     "question": "What is SAP PP-PI (Production Planning for Process Industries)?",
                     "answer": "SAP PP-PI is a sub-module of SAP PP designed specifically for process industries, providing functionalities like batch management and recipe management."
                 }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP S/4HANA certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as SAP Certification, SAP S/4HANA Platform Development Certification, and various other global exams."
+                }
             ]
         },
         "sap-qm": {
@@ -5174,6 +5361,23 @@
                     "question": "What is the purpose of the Quality Info Record in SAP QM?",
                     "answer": "The Quality Info Record in SAP QM stores information about the quality of a material from a specific vendor. It includes details such as inspection specifications and sampling procedures for the material from that vendor."
                 }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP S/4HANA certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as SAP Certification, SAP S/4HANA Platform Development Certification, and various other global exams."
+                }
             ]
         },
         "sap-le-sl": {
@@ -5446,6 +5650,23 @@
                 {
                     "question": "Latest trends in SAP LE and SL?",
                     "answer": "Trends include the adoption of cloud-based solutions, increased focus on real-time analytics, incorporation of IoT (Internet of Things) for enhanced visibility, and the continuous development of AI-driven features to optimize logistics processes."
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP S/4HANA certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as SAP Certification, SAP S/4HANA Platform Development Certification, and various other global exams."
                 }
             ]
         },
@@ -5797,6 +6018,23 @@
                     "question": "Advantages of implementing SAP WM or EWM?",
                     "answer": "Implementing SAP WM or EWM can lead to improved inventory accuracy, increased efficiency in warehouse processes, better visibility into stock levels, and enhanced control over logistics operations."
                 }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP S/4HANA certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as SAP Certification, SAP S/4HANA Platform Development Certification, and various other global exams."
+                }
             ]
         },
         "sap-fiori": {
@@ -6116,6 +6354,23 @@
                     "question": "What is the Fiori user adoption strategy?",
                     "answer": "Successful Fiori user adoption involves training, change management, and effective communication to help users transition to the new interface smoothly and maximize the benefits of the Fiori experience."
                 }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP S/4HANA certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as SAP Certification, SAP S/4HANA Platform Development Certification, and various other global exams."
+                }
             ]
         },
         "sap-btp-training": {
@@ -6413,6 +6668,23 @@
                 {
                     "question": "Can SAP BTP be used with non-SAP systems?",
                     "answer": "Yes, SAP BTP allows integration with both SAP and non-SAP systems through its integration services."
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP S/4HANA certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as SAP Certification, SAP S/4HANA Platform Development Certification, and various other global exams."
                 }
             ]
         },
@@ -6869,6 +7141,23 @@
                     "review": "Enrolling in the Data Analytics course at IT Accurate Institute was one of the best decisions I made. The hands-on approach, coupled with insightful lectures, made the learning journey enjoyable. The institute's infrastructure and resources further enhanced the overall experience. I feel well- equipped for a career in data analytics.",
                     "image": "https://images.unsplash.com/photo-1669773793594-e8d4615deb7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
                     "role": "Data Science Associate"
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Data Analyst certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your Data Analyst global certification, ensuring a 100% passing guarantee in examinations such as Data analytics Certification, Data Analyst Platform Development Certification, and various other global exams."
                 }
             ]
         },
@@ -7511,6 +7800,28 @@
                     "image": "https://images.unsplash.com/photo-1723392133015-543bef0f1933?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
                     "role": "Cloud Engineer"
                 }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The DevOps certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your DevOps global certification, ensuring a 100% passing guarantee in examinations."
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "title": "Global Certification Support",
+                    "description": "DevOps Platform Development Certification and various other global exams."
+                }
             ]
         },
         "full-stack-developer": {
@@ -7844,6 +8155,20 @@
                 },
                 {
                     "title": "ReactJS (Building Web App using ReactJS)",
+                    "subpoints": [
+                        "Introduction",
+                        "Templating using JSX",
+                        "Components, State and Props",
+                        "Lifecycle of Components",
+                        "Rendering List and Portals",
+                        "Error Handling",
+                        "Routers",
+                        "Redux and Redux Saga",
+                        "Immutable.js",
+                        "Service Side Rendering",
+                        "Unit Testing",
+                        "Webpack"
+                    ],
                     "color": "bg-cyan-500",
                     "icon": "/icons/reactjs.svg",
                     "description": "Modern front-end development with React"
@@ -8082,12 +8407,34 @@
                     "image": "https://images.unsplash.com/photo-1698509423508-971fc81ebaa8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
                     "role": "MERN Stack Developer"
                 }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Full stack developer certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your Full stack developer global certification, ensuring a 100% passing guarantee in examinations such as Full stack developer Certification."
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "title": "Global Certification Support",
+                    "description": "Full stack developer Platform Development Certification, and various other global exams."
+                }
             ]
         },
         "python-full-stack": {
             "name": "Python Full Stack Development",
             "title": "Best Python Full Stack Developer Training Course",
-            "bgImage": "/coursesBgImages/fullstack.jpg",
+            "bgImage": "/coursesBgImages/python-full-stack.jpg",
             "detail": {},
             "coveringTopics": [
                 {
@@ -8313,13 +8660,274 @@
                     "color": "bg-indigo-700",
                     "icon": "/icons/fullstack.svg",
                     "description": "Learn decision-making with if-else and pass statements in Python"
+                },
+                {
+                    "title": "Python Loop",
+                    "subpoints": [
+                        "Python For",
+                        "Python While",
+                        "Python break and continue"
+                    ],
+                    "color": "bg-purple-700",
+                    "icon": "/icons/recurring.svg",
+                    "description": "Master looping with for, while, break, and continue in Python"
+                },
+                {
+                    "title": "Python Modules",
+                    "subpoints": [
+                        "Python Import",
+                        "Python Module Internally",
+                        "Python Module Externally",
+                        "Python Math Module",
+                        "Python Date Time Module",
+                        "Python Calendar Module"
+                    ],
+                    "color": "bg-emerald-700",
+                    "icon": "/icons/module.svg",
+                    "description": "Explore built-in and custom Python modules with import techniques"
+                },
+                {
+                    "title": "Python Package",
+                    "subpoints": [
+                        "Python Package Types",
+                        "Python Package Adding"
+                    ],
+                    "color": "bg-rose-700",
+                    "icon": "/icons/folders.svg",
+                    "description": "Understand Python packages, their types, and how to add them"
+                },
+                {
+                    "title": "Python List",
+                    "subpoints": [
+                        "Python List Operation",
+                        "Python List Manipulation",
+                        "Python Multiple List"
+                    ],
+                    "color": "bg-teal-700",
+                    "icon": "/icons/folder.svg",
+                    "description": "Learn list operations, manipulations, and handling multiple lists"
+                },
+                {
+                    "title": "Python Tuple",
+                    "subpoints": [
+                        "Python Tuple Operation",
+                        "Python Tuple Methods",
+                        "Python TUPLE VS LIST"
+                    ],
+                    "color": "bg-orange-700",
+                    "icon": "/icons/code.svg",
+                    "description": "Understand tuple operations, methods, and differences from lists"
+                },
+                {
+                    "title": "Python String",
+                    "subpoints": [
+                        "Python String Methods",
+                        "Python String Operations"
+                    ],
+                    "color": "bg-cyan-700",
+                    "icon": "/icons/string.svg",
+                    "description": "Learn string operations, methods, and manipulations in Python"
+                },
+                {
+                    "title": "Python Set",
+                    "subpoints": [
+                        "Python Set Types",
+                        "Python Set Operation"
+                    ],
+                    "color": "bg-pink-700",
+                    "icon": "/icons/set.svg",
+                    "description": "Work with unique collections using set types and operations in Python"
+                },
+                {
+                    "title": "Python Dictionary",
+                    "subpoints": [
+                        "Python Dictionary Creation",
+                        "Python Dictionary Operations"
+                    ],
+                    "color": "bg-yellow-700",
+                    "icon": "/icons/closed-book.svg",
+                    "description": "Create and manage key-value pairs with dictionary operations in Python"
+                },
+                {
+                    "title": "Python Object Oriented Programming",
+                    "subpoints": [
+                        "Need Of the OOPS in Python",
+                        "Python Class & Objects",
+                        "Python Class Properties",
+                        "Python Object Properties",
+                        "Python Class Methods",
+                        "Python Constructor",
+                        "Python Constructor Types"
+                    ],
+                    "color": "bg-fuchsia-700",
+                    "icon": "/icons/oops.svg",
+                    "description": "Learn classes, objects, constructors, and key OOP principles in Python"
+                },
+                {
+                    "title": "Python Encapsulation",
+                    "subpoints": [
+                        "Python Get Method",
+                        "Python Set Method"
+                    ],
+                    "color": "bg-lime-700",
+                    "icon": "/icons/capsule.svg",
+                    "description": "Understand encapsulation using getters and setters in Python"
+                },
+                {
+                    "title": "Python Abstraction",
+                    "subpoints": [
+                        "Python Abstract Class",
+                        "Python Interface"
+                    ],
+                    "color": "bg-sky-700",
+                    "icon": "/icons/box.svg",
+                    "description": "Implement abstraction using abstract classes and interfaces in Python"
+                },
+                {
+                    "title": "Python Inheritance",
+                    "subpoints": [
+                        "Role of the Inheritance in Python",
+                        "Python Inheritance Types"
+                    ],
+                    "color": "bg-red-700",
+                    "icon": "/icons/inheritance.svg",
+                    "description": "Learn how inheritance promotes code reuse and its types in Python"
+                },
+                {
+                    "title": "Python Polymorphism",
+                    "subpoints": [
+                        "Compile Time",
+                        "Runtime Polymorphism",
+                        "Python Overloading",
+                        "Python Overriding"
+                    ],
+                    "color": "bg-violet-700",
+                    "icon": "/icons/ds.svg",
+                    "description": "Understand polymorphism through overloading and overriding in Python"
+                },
+                {
+                    "title": "Python Input and Output",
+                    "subpoints": [
+                        "Python Input Methods",
+                        "Python Output Methods"
+                    ],
+                    "color": "bg-blue-700",
+                    "icon": "/icons/input-output.svg",
+                    "description": "Learn how to take user input and display output effectively in Python"
+                },
+                {
+                    "title": "Python Multithreading",
+                    "subpoints": [
+                        "What is the Thread?",
+                        "Thread Life Cycle",
+                        "Python Thread Methods"
+                    ],
+                    "color": "bg-amber-700",
+                    "icon": "/icons/threads.svg",
+                    "description": "Explore concurrency in Python using threads and thread management"
+                },
+                {
+                    "title": "Python Exception Handling",
+                    "subpoints": [
+                        "What is the Exception?",
+                        "Handle Error",
+                        "Try with except",
+                        "Multiple try and except",
+                        "User Defined Exception"
+                    ],
+                    "color": "bg-rose-800",
+                    "icon": "/icons/warning.svg",
+                    "description": "Handle errors gracefully using try, except, and custom exceptions"
+                },
+                {
+                    "title": "DJANGO",
+                    "subpoints": [
+                        "Introduction to Django Web Framework",
+                        "Introduction to REST and API",
+                        "Introduction to Restful Web services",
+                        "Django Rest Framework (DRF)",
+                        "DRF Advantages and Constraints",
+                        "Difference between Django and REST API",
+                        "REST API pre-requisites",
+                        "REST API Configuration and Installation",
+                        "Serialization and Deserialization",
+                        "JSON and XML",
+                        "Action and handler methods",
+                        "Function based and class-based views",
+                        "API Views",
+                        "Mixins"
+                    ],
+                    "color": "bg-green-800",
+                    "icon": "/icons/django.svg",
+                    "description": "Build powerful web apps and REST APIs using Django and DRF"
+                },
+                {
+                    "title": "Database Creation to Queries",
+                    "subpoints": [
+                        "Database Creation",
+                        "Alter (Delete/Drop) Database Table",
+                        "Alter (Delete/Drop) Table",
+                        "Insert Query",
+                        "Select Query",
+                        "Where Clause",
+                        "AND & OR Clauses",
+                        "Update Query",
+                        "Delete Query",
+                        "Like Clause",
+                        "Top Clause",
+                        "Order By and Group By"
+                    ],
+                    "color": "bg-indigo-800",
+                    "icon": "/icons/database.svg",
+                    "description": "Learn essential SQL commands from database creation to advanced querying"
+                },
+                {
+                    "title": "Advanced SQL",
+                    "subpoints": [
+                        "Distinct Keyword",
+                        "Constraints",
+                        "Joins and Its Types",
+                        "Union Clause",
+                        "Indexes",
+                        "Views",
+                        "Where and Having Clause",
+                        "SQL Transactions",
+                        "Date Functions",
+                        "Sub Queries",
+                        "SQL Injection"
+                    ],
+                    "color": "bg-slate-800",
+                    "icon": "/icons/sql.svg",
+                    "description": "Master complex SQL operations, joins, views, and security techniques"
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Full stack developer certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your Full stack developer global certification, ensuring a 100% passing guarantee in examinations such as Full stack developer Certification."
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "title": "Global Certification Support",
+                    "description": "Full stack developer Platform Development Certification, and various other global exams."
                 }
             ]
         },
         "java-full-stack": {
             "name": "Java Full Stack Development",
             "title": "Best Java Full Stack Developer Training Course",
-            "bgImage": "/coursesBgImages/fullstack.jpg",
+            "bgImage": "/coursesBgImages/java-full-stack.jpg",
             "detail": {},
             "coveringTopics": [
                 {
@@ -8395,7 +9003,7 @@
                     ],
                     "color": "bg-orange-500",
                     "icon": "/icons/html.svg",
-                    "description": "Fundamentals and features of HTML5"
+                    "description": "Learn foundational and advanced HTML5 elements and multimedia features"
                 },
                 {
                     "title": "CSS3",
@@ -8410,7 +9018,7 @@
                     ],
                     "color": "bg-blue-500",
                     "icon": "/icons/css.svg",
-                    "description": "Styling and layout techniques with CSS3"
+                    "description": "Master styling, layouts, and visual effects using CSS3"
                 },
                 {
                     "title": "JavaScript",
@@ -8425,7 +9033,7 @@
                     ],
                     "color": "bg-yellow-500",
                     "icon": "/icons/javascript.svg",
-                    "description": "Core JavaScript programming concepts"
+                    "description": "Understand core JavaScript and browser-based scripting"
                 },
                 {
                     "title": "Bootstrap",
@@ -8444,7 +9052,7 @@
                     ],
                     "color": "bg-purple-500",
                     "icon": "/icons/module.svg",
-                    "description": "Responsive design with Bootstrap framework"
+                    "description": "Build responsive UIs with Bootstrap components and utilities"
                 },
                 {
                     "title": "C Programming",
@@ -8459,8 +9067,8 @@
                         "Pointers in C"
                     ],
                     "color": "bg-sky-700",
-                    "icon": "/icons/c.svg",
-                    "description": "Basic programming with C language"
+                    "icon": "/icons/code.svg",
+                    "description": "Start programming with C fundamentals, functions, and pointers"
                 },
                 {
                     "title": "C++ Programming",
@@ -8475,186 +9083,321 @@
                         "Polymorphism"
                     ],
                     "color": "bg-indigo-700",
-                    "icon": "/icons/cpp.svg",
-                    "description": "Object-oriented programming in C++"
+                    "icon": "/icons/fullstack.svg",
+                    "description": "Object-oriented programming using C++ concepts and features"
                 },
                 {
-                    "title": "JAVA Fundamentals",
+                    "title": "Introduction of JAVA",
                     "subpoints": [
-                        "JAVA Overview and History",
-                        "JVM – The Heart of Java",
-                        "JAVA Environment Setup",
-                        "Installation & Setup",
-                        "Compilation & Execution",
-                        "Identifiers, Keywords, Literals, Comments",
-                        "Variable Initialization & Passing Values",
-                        "Primitive Data Types & Operators"
+                        "JAVA - Overview",
+                        "JAVA - History",
+                        "JAVA - JVM–The Heart of Java"
                     ],
                     "color": "bg-red-500",
                     "icon": "/icons/java.svg",
-                    "description": "Core Java fundamentals and environment setup"
+                    "description": "Get started with Java basics"
                 },
                 {
-                    "title": "JAVA Control Flow & Arrays",
+                    "title": "Language Fundamentals",
                     "subpoints": [
-                        "If-Else Statement",
-                        "Else If Ladder",
-                        "Switch Case",
-                        "Defining and Initializing Arrays",
-                        "2D and 3D Arrays",
-                        "Multi-Dimensional Arrays",
-                        "Array Class Methods"
+                        "JAVA Environment",
+                        "Installation & Setup",
+                        "JAVA Compilation & Executions"
+                    ],
+                    "color": "bg-teal-500",
+                    "icon": "/icons/book.svg",
+                    "description": "Get started with JVM internals"
+                },
+                {
+                    "title": "Basic Language Fundamentals",
+                    "subpoints": [
+                        "Identifiers.",
+                        "Keywords, Literals, Comments.",
+                        "Variable initialization & passing values.",
+                        "Primitive Data types & Operators."
+                    ],
+                    "color": "bg-blue-500",
+                    "icon": "/icons/book2.svg",
+                    "description": "Get started with Java Syntax and Data Types"
+                },
+                {
+                    "title": "Loops & Iteration",
+                    "subpoints": [
+                        "If –else statement",
+                        "Ladder else if",
+                        "Switch Case"
                     ],
                     "color": "bg-red-600",
-                    "icon": "/icons/loops.svg",
-                    "description": "Control structures and arrays in Java"
+                    "icon": "/icons/recurring.svg",
+                    "description": "Control structures and Loops in Java"
+                },
+                {
+                    "title": "JAVA-Array and String",
+                    "subpoints": [
+                        "Defining an Array.",
+                        "Initializing & Accessing Array.",
+                        "2d & 3d of Array.",
+                        "Multi –Dimensional Array.",
+                        "Arrays class Methods."
+                    ],
+                    "color": "bg-yellow-600",
+                    "icon": "/icons/string.svg",
+                    "description": "Defining Arrays and multi-dimensional Arrays in Java"
                 },
                 {
                     "title": "JAVA OOPS (Object Oriented Programming Structure)",
                     "subpoints": [
-                        "Class Fundamentals and Object Reference",
-                        "Constructors & Deconstructors",
-                        "Access Control & Modifiers",
-                        "Encapsulation with Getters and Setters",
-                        "Inheritance: Types and Use of Super",
-                        "Polymorphism: Overloading and Overriding",
-                        "Abstract Classes and Interfaces",
-                        "Object-Oriented Examples"
+                        "Class Fundamentals.",
+                        "Object & Object reference.",
+                        "Constructor & De Constructor.",
+                        "Access Control, Modifiers, and methods.",
+                        "Encapsulation & Its Properties.",
+                        "Getter and Setter in Encapsulation.",
+                        "Need of the Properties.",
+                        "Benefits of Inheritance in OOP.",
+                        "Types of Inheritance in Java.",
+                        "Constructors in inheritance.",
+                        "Use of “super”.",
+                        "Polymorphism Concepts.",
+                        "Overloading & overriding.",
+                        "Abstract Class & Interfaces.",
+                        "Implementation of interfaces.",
+                        "Example of the Object oriented."
                     ],
                     "color": "bg-pink-600",
                     "icon": "/icons/oops.svg",
-                    "description": "Java OOPs including inheritance, encapsulation, and polymorphism"
+                    "description": "Learn OOP principles in Java including inheritance and abstraction"
+                },
+                {
+                    "title": "JAVA-Packages",
+                    "subpoints": [
+                        "What are the Packages in JAVA?",
+                        "Creating Sub Package in Package.",
+                        "Import packages."
+                    ],
+                    "color": "bg-lime-500",
+                    "icon": "/icons/box.svg",
+                    "description": "Handle Java runtime errors using structured exception handling"
                 },
                 {
                     "title": "JAVA Exception Handling",
                     "subpoints": [
-                        "What is Exception",
-                        "Types of Exception",
-                        "Try, Catch, Finally, Throw, Throws",
-                        "Multiple Try-Catch",
-                        "In-Built & User Defined Exceptions"
+                        "What is the Exception?",
+                        "Handling Exception In JAVA.",
+                        "Types of Exception.",
+                        "Control Flow in Exceptions.",
+                        "Use of try, catch, finally, throw, throws",
+                        "In Exception Handling.",
+                        "Multiple tries with catch.",
+                        "In-built Exceptions.",
+                        "User Defined Exceptions."
                     ],
                     "color": "bg-rose-600",
-                    "icon": "/icons/exception.svg",
-                    "description": "Java exception handling and custom errors"
+                    "icon": "/icons/warning.svg",
+                    "description": "Handle Java runtime errors using structured exception handling"
                 },
                 {
                     "title": "JAVA GUI with Swing",
                     "subpoints": [
-                        "Applets and Their Use",
-                        "AWT and Swing Advantages",
-                        "Swing Class Components",
-                        "Multi-frame Models"
+                        "What is the Applet?",
+                        "Use of Applet.",
+                        "Applet Examples.",
+                        "What is Swing and AWT?",
+                        "Advantages of Swing & AWT.",
+                        "Swing class components",
+                        "Multi-frame model in Swing"
                     ],
                     "color": "bg-pink-700",
-                    "icon": "/icons/gui.svg",
-                    "description": "Java GUI programming with Swing and AWT"
+                    "icon": "/icons/frontend.svg",
+                    "description": "Build Java GUI applications using AWT and Swing"
                 },
                 {
                     "title": "JAVA Collections",
                     "subpoints": [
-                        "What are Collections and Their Need",
-                        "List, Set, Map, Queue Interfaces",
-                        "Types of Collections",
-                        "Examples on Collections"
+                        "What are the Collections?",
+                        "Types of Collections.",
+                        "Needs of the Collections.",
+                        "List Interface Types in Collections.",
+                        "Set Interface in Collections.",
+                        "MAP Interface in Collections.",
+                        "Queue Interface in Collections.",
+                        "Examples on Collections."
                     ],
                     "color": "bg-fuchsia-700",
-                    "icon": "/icons/collections.svg",
-                    "description": "Java data structures using collections framework"
+                    "icon": "/icons/fullstack2.svg",
+                    "description": "Work with Java Collections API for data management"
                 },
                 {
-                    "title": "JDBC (Java Database Connectivity)",
+                    "title": "ADVANCED JAVA (J2EE) JDBC",
                     "subpoints": [
-                        "What is JDBC and its Drivers",
-                        "MySQL and Oracle JDBC Setup",
-                        "Insert, Select, Update, Delete Operations"
+                        "What is the JDBC?",
+                        "JDBC Drivers",
+                        "JDBC Driver for MY-SQL",
+                        "JDBC Driver for Oracle",
+                        "Insert Operation of JDBC",
+                        "Select Operation of JDBC",
+                        "Update Operation of JDBC",
+                        "Delete Operation of JDBC"
                     ],
                     "color": "bg-lime-600",
-                    "icon": "/icons/database.svg",
-                    "description": "Database connectivity in Java using JDBC"
+                    "icon": "/icons/advanced-topics.svg",
+                    "description": "Connect Java with databases using JDBC"
                 },
                 {
-                    "title": "Servlets & JSP",
+                    "title": "Client-Server Architecture",
                     "subpoints": [
-                        "CGI Concepts and Servlet Features",
-                        "Servlet Life Cycle, API, and Setup",
-                        "Generic and HTTP Servlets",
-                        "Servlet Config, Context, Filters, Sessions",
-                        "JSP Life Cycle and Setup",
-                        "JSP Directives, Actions, Forms, Sessions, Cookies"
+                        "CGI Concepts",
+                        "What is the Servlet?",
+                        "Servlet Features",
+                        "Servlet Life Cycle",
+                        "Setup and Installation of the Servlet with Eclipse",
+                        "Servlet API",
+                        "Generic Servlet",
+                        "Send Redirect Method",
+                        "Servlet Config Interface",
+                        "Http Servlet",
+                        "Servlet Dispatcher",
+                        "Servlet Context",
+                        "Servlet Filters",
+                        "Servlet Cookies",
+                        "Servlet Session",
+                        "Servlet Events"
+                    ],
+                    "color": "bg-lime-600",
+                    "icon": "/icons/emp-comp.svg",
+                    "description": "Get Started with client-server architecture"
+                },
+                {
+                    "title": "Java Server Pages (JSP)",
+                    "subpoints": [
+                        "What is the JSP?",
+                        "JSP Life Cycle",
+                        "Setup and Installation of the JSP with Eclipse",
+                        "JSP Directives",
+                        "JSP Actions",
+                        "JSP Client Server Requests",
+                        "JSP Session",
+                        "JSP Cookie",
+                        "JSP Forms"
                     ],
                     "color": "bg-teal-600",
-                    "icon": "/icons/servlet.svg",
-                    "description": "Server-side development using Servlets and JSP"
+                    "icon": "/icons/server.svg",
+                    "description": "Develop server-side Java apps with Servlets and JSP"
                 },
                 {
-                    "title": "JSP JSTL (Tag Library)",
+                    "title": "JSP-JSTL (Java Server Tag Library)",
                     "subpoints": [
-                        "What is JSTL",
-                        "Core Tags",
-                        "Setup with Eclipse"
+                        "What is the JSTL?",
+                        "JSTL Core Tags",
+                        "Setup and Installation of the JSP with Eclipse"
                     ],
                     "color": "bg-sky-600",
-                    "icon": "/icons/tag.svg",
-                    "description": "Reusable logic via JSP tag libraries"
+                    "icon": "/icons/service.svg",
+                    "description": "Use JSTL tags to simplify JSP logic and code reuse"
                 },
                 {
                     "title": "Spring Framework",
                     "subpoints": [
-                        "Spring Architecture and Setup",
-                        "IOC Containers and Bean Lifecycle",
-                        "AOP, JDBC Framework",
-                        "Dependency Injection, Autowiring",
-                        "Spring MVC"
+                        "Architecture of the Spring Framework",
+                        "Setup and Installation of the Spring with",
+                        "Eclipse",
+                        "IOC Containers in Spring",
+                        "Bean in Spring",
+                        "Spring Life Cycle",
+                        "Spring AOP",
+                        "Spring JDBC Framework",
+                        "Spring Events Handling",
+                        "Dependency Injection in Spring",
+                        "MVC in Spring",
+                        "Auto Wiring in Spring"
                     ],
                     "color": "bg-green-700",
-                    "icon": "/icons/spring.svg",
-                    "description": "Spring Framework for enterprise Java applications"
+                    "icon": "/icons/framework.svg",
+                    "description": "Develop robust enterprise apps using Spring Framework"
                 },
                 {
                     "title": "Hibernate Framework",
                     "subpoints": [
-                        "Hibernate Architecture and Configuration",
-                        "Why Use Hibernate",
-                        "Mappings and Annotations",
-                        "HQL, Session Factory"
+                        "Hibernate Architecture",
+                        "What is the Hibernate?",
+                        "Why we Used Hibernate?",
+                        "Hibernate Mapping",
+                        "Hibernate Configuration",
+                        "Annotations VS Mappings",
+                        "HQL in Hibernate",
+                        "Session Factory in Hibernate"
                     ],
                     "color": "bg-emerald-700",
-                    "icon": "/icons/hibernate.svg",
-                    "description": "Object-relational mapping with Hibernate"
+                    "icon": "/icons/framework2.svg",
+                    "description": "Implement ORM in Java apps using Hibernate"
                 },
                 {
-                    "title": "SQL (Database)",
+                    "title": "Database - SQL Database Creation to Queries",
                     "subpoints": [
                         "Database Creation",
-                        "Alter, Drop Tables",
-                        "Insert, Select, Update, Delete",
-                        "Where, AND/OR, Like, Top",
-                        "Order By, Group By"
+                        "Alter (Delete/Drop) Database Table",
+                        "Alter (Delete/Drop) Table",
+                        "Insert Query",
+                        "Select Query",
+                        "Where Clause",
+                        "AND & OR Clauses",
+                        "Update Query",
+                        "Delete Query",
+                        "Like Clause",
+                        "Top Clause",
+                        "Order By and Group By"
                     ],
                     "color": "bg-gray-500",
-                    "icon": "/icons/sql.svg",
-                    "description": "SQL fundamentals and queries"
+                    "icon": "/icons/database.svg",
+                    "description": "Use basic SQL queries for database operations"
                 },
                 {
                     "title": "Advanced SQL",
                     "subpoints": [
-                        "Distinct Keyword, Constraints",
-                        "Joins and Union",
-                        "Indexes and Views",
-                        "Transactions, Date Functions, Sub Queries",
+                        "Distinct Keyword",
+                        "Constraints",
+                        "Joins and Its Types",
+                        "Union Clause",
+                        "Indexes",
+                        "Views",
+                        "Where and Having Clause",
+                        "SQL Transactions",
+                        "Date Functions",
+                        "Sub Queries",
                         "SQL Injection"
                     ],
                     "color": "bg-gray-700",
-                    "icon": "/icons/sql-advanced.svg",
-                    "description": "Advanced SQL concepts and security"
+                    "icon": "/icons/sql.svg",
+                    "description": "Master advanced SQL techniques, joins, and security"
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Full stack developer certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your Full stack developer global certification, ensuring a 100% passing guarantee in examinations such as Full stack developer Certification."
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "title": "Global Certification Support",
+                    "description": "Full stack developer Platform Development Certification, and various other global exams."
                 }
             ]
         },
         "mern-stack": {
             "name": "MERN Stack Development",
             "title": "Best MERN Stack Developer Training Course",
-            "bgImage": "/coursesBgImages/fullstack.jpg",
+            "bgImage": "/coursesBgImages/mern-stack.jpg",
             "detail": {},
             "coveringTopics": [
                 {
@@ -8729,7 +9472,7 @@
                     ],
                     "color": "bg-orange-500",
                     "icon": "/icons/html.svg",
-                    "description": "Foundation of web content with HTML"
+                    "description": "HTML is the basic and must have skill-set for every web developer. It is used and extended  by various other technologies. To be completely able to understand how things work in web development, you should develop an understanding of HTML. In this section, you will learn"
                 },
                 {
                     "title": "CSS",
@@ -8745,7 +9488,7 @@
                     ],
                     "color": "bg-blue-500",
                     "icon": "/icons/css.svg",
-                    "description": "Styling and layout using CSS"
+                    "description": "CSS is another important language amongst the web development trifecta. It will help you style, plan a layout and control the behaviour and look and feel of the web apps that you build. In this module, you will learn:"
                 },
                 {
                     "title": "JavaScript",
@@ -8766,7 +9509,7 @@
                     ],
                     "color": "bg-yellow-500",
                     "icon": "/icons/javascript.svg",
-                    "description": "Interactive logic using JavaScript"
+                    "description": "The third one amongst the must learn trifecta, Js is present in about 90% of the internet. To make sense of what you’re doing and to design and build new web apps, this language is used predominantly, and it is indispensable. In this section you will learn the following topics:"
                 },
                 {
                     "title": "ReactJS",
@@ -8786,7 +9529,7 @@
                     ],
                     "color": "bg-cyan-500",
                     "icon": "/icons/reactjs.svg",
-                    "description": "Modern front-end framework React.js"
+                    "description": "Reactjs is the best and most popular framework for front-end development. An integral part of the MERN stack, its community is great, and the demand for reactjs specialists is only increasing day-by-day. React is great for Rapid app development, SPAs and for creating awesome responsive and interactive web apps. In this topic you will learn:"
                 },
                 {
                     "title": "NodeJS",
@@ -8803,7 +9546,7 @@
                     ],
                     "color": "bg-green-500",
                     "icon": "/icons/nodejs.svg",
-                    "description": "Server-side JavaScript with Node.js"
+                    "description": "odejs is a great skill to have. It is JS based, and it completes the javascript full stack experience. It is a backend skill, which is in demand and pays well. In this module, you will learn the following:"
                 },
                 {
                     "title": "MySQL",
@@ -8822,8 +9565,8 @@
                         "Setting Up a connection & Querying the Database"
                     ],
                     "color": "bg-gray-500",
-                    "icon": "/icons/sql.svg",
-                    "description": "Database fundamentals with MySQL"
+                    "icon": "/icons/mysql.svg",
+                    "description": "MySQL is an open-source relational database management system (RDBMS) that stores and manages data. It's known for its reliability, performance, scalability, and ease of use. MySQL is used in many industries, including web applications, B2B services, and customer-facing applications"
                 },
                 {
                     "title": "Bootstrap",
@@ -8837,7 +9580,7 @@
                     ],
                     "color": "bg-purple-500",
                     "icon": "/icons/module.svg",
-                    "description": "Responsive UI with Bootstrap framework"
+                    "description": "This course is targeted for fresh engineers or professional who want to build competency in  the Bootstrap Based web development."
                 },
                 {
                     "title": "jQuery",
@@ -8853,7 +9596,29 @@
                     ],
                     "color": "bg-blue-600",
                     "icon": "/icons/jquery.svg",
-                    "description": "Simplified DOM manipulation with jQuery"
+                    "description": "This course provides you hands-on experience and exposure to develop jQuery Mobile  based responsive web application. It builds strong foundation of jQuery which will help  developer to apply concepts for responsive web frontend development."
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Full stack developer certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your Full stack developer global certification, ensuring a 100% passing guarantee in examinations such as Full stack developer Certification."
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "title": "Global Certification Support",
+                    "description": "Full stack developer Platform Development Certification, and various other global exams."
                 }
             ]
         },
@@ -9264,6 +10029,23 @@
                     "review": "The trainers at IT Accurate Institute have a deep understanding of AWS. They went above and beyond to ensure that every student grasped the concepts. The course materials were well-structured, making it easy to follow along. ",
                     "image": "https://images.unsplash.com/photo-1632507193320-e1c861050b21?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM5fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
                     "role": "AWS DevOps Engineer"
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The AWS certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your AWS global certification, ensuring a 100% passing guarantee in examinations such as AWS Certification, AWS Platform Development Certification, and various other global exams."
                 }
             ]
         },
@@ -10205,6 +10987,23 @@
                     "image": "https://images.unsplash.com/photo-1607710577791-a31393e17748?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
                     "role": "Analytics Consultant"
                 }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Data Engineering certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your Data Engineering global certification, ensuring a 100% passing guarantee in examinations such as Data analytics Certification, Data Engineering Platform Development Certification, and various other global exams."
+                }
             ]
         },
         "python": {
@@ -10580,6 +11379,23 @@
                     "review": "I am impressed with IT Accurate Institute's Python course. The interactive sessions and live coding exercises made learning Python enjoyable and effective. The course material is comprehensive, covering all essential aspects of Python programming.",
                     "image": "https://images.unsplash.com/photo-1623073467016-3245e3285794?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
                     "role": "Data Automation Specialist"
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Python certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your Python global certification, ensuring a 100% passing guarantee in examinations such as Data analytics Certification, Data Analyst Platform Development Certification, and various other global exams."
                 }
             ]
         },
@@ -11008,6 +11824,28 @@
                 {
                     "question": "What are the career prospects with ServiceNow skills?",
                     "answer": "With skills in ServiceNow, you can pursue careers as a ServiceNow Developer, Administrator, Architect, or Consultant, with opportunities in ITSM, ITOM, HR Service Delivery, and more."
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "ServiceNow training certification serves as proof of successful completion of courses with ServiceNow expertise."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The ServiceNow certification offered equips you with valuable skills, enhancing your competitiveness in the IT job market.."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "Comprehensive guidance is provided for global ServiceNow certifications, ensuring a 100% success guarantee in examinations."
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "title": "Global Certification Support",
+                    "description": "Certification includes ServiceNow Platform Development Certification and various other globally recognized exams."
                 }
             ]
         },
@@ -11456,6 +12294,18 @@
                     "review": "As someone who is passionate about technology stocks, I find the sector-specific insights on IT Accurate Institute particularly useful. The detailed analyses of tech companies and their market potential are outstanding. It's a fantastic resource for anyone interested in niche markets. ",
                     "image": "https://images.unsplash.com/photo-1650286549949-2cbcd1a25bad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
                     "role": "Professional"
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Share Market certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
                 }
             ]
         },
@@ -12088,6 +12938,23 @@
                     "image": "https://images.unsplash.com/photo-1648034394424-a44553101edc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
                     "role": "Professional"
                 }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Data science certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your Data Science global certification, ensuring a 100% passing guarantee in examinations such as Data science Certification, Data science Platform Development Certification, and various other global exams."
+                }
             ]
         },
         "best-machine-learning-training": {
@@ -12684,6 +13551,23 @@
                     "review": "Enrolling in IT Accurate Institute's Machine Learning course was a game-changer for me. The practical approach, industry-relevant projects, and expert guidance gave me a solid foundation in ML. The networking opportunities provided were an added bonus.",
                     "image": "https://images.unsplash.com/photo-1654648316271-613629e3088e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
                     "role": "Machine Learning Engineer"
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Machine learning certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your Machine learning global certification, ensuring a 100% passing guarantee in examinations such as Machine learning Certification, Machine learning Platform Development Certification, and various other global exams"
                 }
             ]
         },
@@ -13317,6 +14201,23 @@
                     "image": "https://images.unsplash.com/photo-1631606931376-f2845ed31d9d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA3fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
                     "role": "ML Specialist"
                 }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The AI & ML certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market"
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your AI & ML global certification, ensuring a 100% passing guarantee in examinations such as AI & ML Certification, AI & ML Platform Development Certification, and various other global exams."
+                }
             ]
         },
         "salesforce-training": {
@@ -13859,6 +14760,28 @@
                     "review": "The instructor’s expertise and the hands-on projects allowed me to quickly apply what I learned and stand out in the competitive job market ",
                     "image": "https://images.unsplash.com/photo-1680506740498-e430702b1981?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8MTAwJTIwaW5kaWFuJTIweW91bmclMjBtZW4lMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
                     "role": "Salesforce Developer"
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Salesforce certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your DevOps global certification, ensuring a 100% passing guarantee in examinations"
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "title": "Global Certification Support",
+                    "description": "Salesforce Platform Development Certification and various other global exams."
                 }
             ]
         },
@@ -14428,6 +15351,23 @@
                     "image": "https://images.unsplash.com/photo-1680506740498-e430702b1981?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8MTAwJTIwaW5kaWFuJTIweW91bmclMjBtZW4lMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
                     "role": "Salesforce Developer"
                 }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Salesforce certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate Admin training institute provides comprehensive guidance for your Salesforce global certification, ensuring a 100% passing guarantee in examinations such as Salesforce Administration Certification, Salesforce Platform Development Certification, and various other global exams."
+                }
             ]
         },
         "salesforce-development-2": {
@@ -14886,6 +15826,28 @@
                     "review": "The instructor’s expertise and the hands-on projects allowed me to quickly apply what I learned and stand out in the competitive job market ",
                     "image": "https://images.unsplash.com/photo-1680506740498-e430702b1981?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8MTAwJTIwaW5kaWFuJTIweW91bmclMjBtZW4lMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
                     "role": "Salesforce Developer"
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Salesforce certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your DevOps global certification, ensuring a 100% passing guarantee in examinations."
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "title": "Global Certification Support",
+                    "description": "Salesforce Platform Development Certification and various other global exams."
                 }
             ]
         },
@@ -15384,6 +16346,28 @@
                     "review": "The instructor’s expertise and the hands-on projects allowed me to quickly apply what I learned and stand out in the competitive job market ",
                     "image": "https://images.unsplash.com/photo-1680506740498-e430702b1981?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8MTAwJTIwaW5kaWFuJTIweW91bmclMjBtZW4lMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
                     "role": "Salesforce Developer"
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Salesforce LWC certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your Salesforce LWC global certification, ensuring a 100% passing guarantee in examinations."
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "title": "Global Certification Support",
+                    "description": "Salesforce LWC Platform Development Certification and various other global exams."
                 }
             ]
         },
@@ -15900,6 +16884,23 @@
                     "image": "https://images.unsplash.com/photo-1615233219275-1b6f164c6975?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE5fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
                     "role": "Email Campaign Analyst"
                 }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Salesforce Marketing Cloud certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your Salesforce Marketing Cloud global certification, ensuring a 100% passing guarantee in examinations such as Salesforce Marketing Cloud Certification, Salesforce Marketing Cloud Platform Development Certification, and various other global exams."
+                }
             ]
         },
         "best-business-analytics-training": {
@@ -16340,6 +17341,23 @@
                     "review": "I am extremely satisfied with the Business Analytics course at IT Accurate Institute. The faculty is passionate about the subject, and their enthusiasm is contagious. The course material is up-to-date, and the institute provides ample opportunities for networking and connecting with industry professionals. It's a great place to kickstart your career in analytics.",
                     "image": "https://plus.unsplash.com/premium_photo-1741374967692-2a7ab44af968?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM3fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
                     "role": "BI Developer"
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Business Analytics certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your Business Analytics global certification, ensuring a 100% passing guarantee in examinations such as Business Analytics Certification and various other global exams."
                 }
             ]
         },
@@ -16992,6 +18010,23 @@
                     "question": "What is the career outlook for HR Business Analysts?",
                     "answer": "The career outlook for HR Business Analysts is promising, as organizations increasingly recognize the value of data-driven decision-making in HR. The demand for professionals who can combine HR expertise with analytical skills is growing, particularly in companies looking to optimize their HR functions and improve employee performance."
                 }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate, showcasing your proficiency in HR Business Analyst."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Business Analytics for HR certification offered by IT Accurate will equip you with valuable skills, making you more competitive in the HR analytics job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate's HR Business Analyst training institute provides comprehensive guidance for your global certifications, ensuring a 100% passing guarantee in examinations such as Business Analytics for HR Certification, HR Analytics Certification, and various other global exams."
+                }
             ]
         },
         "sap-hr": {
@@ -17453,6 +18488,23 @@
                 {
                     "question": "How can SAP HCM improve HR processes?",
                     "answer": "SAP HCM streamlines HR processes, reduces manual efforts, and enhances data accuracy, ultimately improving the efficiency and effectiveness of human resource management within an organization."
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP S/4HANA certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as SAP Certification, SAP S/4HANA Platform Development Certification, and various other global exams."
                 }
             ]
         },
@@ -17975,6 +19027,23 @@
                 {
                     "question": "What is the future scope of HR Analytics?",
                     "answer": "The future of HR Analytics lies in the integration of AI, machine learning, and predictive analytics to optimize workforce management. As HR Analytics continues to evolve, it will offer deeper insights into employee performance, engagement, and retention, driving more strategic HR decisions."
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate’s HR Analytics certification will serve as proof that you have completed the HR Analytics course, showcasing your proficiency in analyzing employee data and driving HR decision-making."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The HR Analytics certification offered by IT Accurate will equip you with valuable skills in data analysis and visualization tools like Power BI, Tableau, and SAP SuccessFactors, making you more competitive in the HR job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate’s HR Analytics training institute provides comprehensive guidance for your global certifications, ensuring a 100% passing guarantee in examinations such as HR Analytics Certification, Data-Driven HR Decision Making, and various other global exams."
                 }
             ]
         },
@@ -18538,6 +19607,23 @@
                 {
                     "question": "What are the benefits of using SAP SuccessFactors?",
                     "answer": "SAP SuccessFactors offers a user-friendly interface, cloud-based accessibility, scalability, and powerful tools for managing HR processes efficiently, leading to enhanced employee engagement and organizational success."
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The SAP SuccessFactors certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your SAP SuccessFactors global certification, ensuring a 100% passing guarantee in examinations such as SAP Certification, SAP SuccessFactors Platform Development Certification, and various other global exams."
                 }
             ]
         }

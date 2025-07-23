@@ -22,10 +22,10 @@ const MobileNavBar = ({
     mobileActiveMenu,
     setMobileActiveMenu,
     mobileActiveSubMenu,
-    setMobileActiveSubMenu
+    setMobileActiveSubMenu,
+    placementsSubMenu
 }) => {
     const menuItems = useSelector((state) => state.navbar.menuItems);
-    const placementsSubMenu = ["Placements", "Jobs", "Career"];
     const location = useLocation();
 
     useEffect(() => {
@@ -159,12 +159,12 @@ const MobileNavBar = ({
                                     >
                                         {placementsSubMenu.map((subItem) => (
                                             <Link
-                                                key={subItem}
-                                                to={'/placed'}
+                                                key={subItem.menu}
+                                                to={subItem.link}
                                                 className="block px-3 py-2 rounded-md text-md dark:text-gray-300 text-gray-700 hover:dark:bg-gray-700 hover:bg-gray-100 transition-colors"
                                                 onClick={() => setIsOpen(false)}
                                             >
-                                                {subItem}
+                                                {subItem.menu}
                                             </Link>
                                         ))}
                                     </motion.div>

@@ -36,6 +36,7 @@ function AboutCourse() {
     faqs = [],
     projects = [],
     reviews = [],
+    certificationPoints = [],
   } = courseDetail;
   // console.log(courseDetail)
   const [isLoading, setIsLoading] = useState(true);
@@ -167,7 +168,7 @@ function AboutCourse() {
 
       <JobPreparation />
 
-      <CertificationSection certificateImg={null} courseName={name} />
+      <CertificationSection certificateImg={null} courseName={name} certificationPoints={certificationPoints}/>
 
       {/* Show on evrey page which is not related sap and conditionally render if projects section available */}
       {!location.pathname.includes("sap") && courseDetail.projects && (

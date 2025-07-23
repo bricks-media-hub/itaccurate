@@ -104,7 +104,7 @@ const Career = () => {
                 transition={{ delay: 0.2, duration: 0.8 }}
                 className="text-4xl md:text-6xl font-bold text-white mb-6"
               >
-                Build Your <span className="text-blue-300">Future</span> With Us
+                Build Your <span className="text-blue-600 dark:text-blue-300">Future</span> With Us
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0 }}
@@ -282,9 +282,9 @@ const Career = () => {
                       >
                         Apply Now{" "}
                         <img
-                          src="/icons/career-apply.svg"
+                          src="/icons/paper-plane.svg"
                           alt="Send"
-                          className="w-4 h-4 ml-2"
+                          className="w-5 h-5 ml-2"
                         />
                       </motion.a>
                     </td>
