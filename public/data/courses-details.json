@@ -9622,6 +9622,339 @@
                 }
             ]
         },
+        "dotnet-full-stack": {
+            "name": ".NET Full Stack Development",
+            "title": "Best .NET Full Stack Developer Training Course",
+            "bgImage": "/coursesBgImages/dotnet-fullstack.svg",
+            "detail": {},
+            "coveringTopics": [
+                {
+                    "title": "Resume preparation",
+                    "icon": "/icons/resume-prep.svg"
+                },
+                {
+                    "title": "Interview practice",
+                    "icon": "/icons/interview-prep.svg"
+                },
+                {
+                    "title": "6-months internship",
+                    "icon": "/icons/internship-prep.svg"
+                },
+                {
+                    "title": "100% job opportunities guaranteed program",
+                    "icon": "/icons/job.svg"
+                }
+            ],
+            "whatIs": {
+                "name": ".NET Full Stack Developer",
+                "points": []
+            },
+            "keyFeatures": [
+                {
+                    "text": "125+ Hours course duration",
+                    "icon": "/icons/job-clock.png",
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                },
+                {
+                    "text": "Free demo class available",
+                    "icon": "/icons/video.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                },
+                {
+                    "text": "Certificate Guidance",
+                    "icon": "/icons/certificate.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                },
+                {
+                    "text": "100% Job oriented training",
+                    "icon": "/icons/briefcase.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                },
+                {
+                    "text": "Industry expert faculties",
+                    "icon": "/icons/help.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                },
+                {
+                    "text": "Completed 115+ batches",
+                    "icon": "/icons/batch.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                }
+            ],
+            "trainingSyllabus": [
+                {
+                    "name": ".NET Full Stack Development"
+                },
+                {
+                    "title": "HTML and HTML5",
+                    "subpoints": [
+                        "History & Fundamental HTML",
+                        "Marking up body text",
+                        "Working with Images & Links",
+                        "Creating lists & Tables",
+                        "HTML5 Forms Audio and Video",
+                        "Embed fonts in a web page",
+                        "HTML5 Graphics",
+                        "HTML5 Canvas/SVG",
+                        "HTML5 Forms",
+                        "HTML5 Basic APIs"
+                    ],
+                    "color": "bg-orange-500",
+                    "icon": "/icons/html.svg",
+                    "description": "Master modern web development with HTML5 including multimedia, graphics, and semantic elements"
+                },
+                {
+                    "title": "CSS3",
+                    "subpoints": [
+                        "Overview of CSS",
+                        "Background & Color in CSS",
+                        "Working With text In CSS",
+                        "Working With Box Model in CSS",
+                        "Element In CSS",
+                        "Pseudo-classes and Pseudo-elements",
+                        "Effects In CSS"
+                    ],
+                    "color": "bg-blue-500",
+                    "icon": "/icons/css.svg",
+                    "description": "Create responsive and visually appealing designs with CSS3 styling and effects"
+                },
+                {
+                    "title": "JavaScript",
+                    "subpoints": [
+                        "Introduction to JavaScript",
+                        "Programming with JavaScript",
+                        "Structuring Data",
+                        "Working With Browser Object Model",
+                        "Working With Document Object Model",
+                        "Working With Forms",
+                        "Validation"
+                    ],
+                    "color": "bg-yellow-500",
+                    "icon": "/icons/javascript.svg",
+                    "description": "Implement interactive web functionality using core JavaScript and DOM manipulation"
+                },
+                {
+                    "title": "Bootstrap",
+                    "subpoints": [
+                        "Overview of Bootstrap",
+                        "Classes In Bootstrap",
+                        "Working With Navbars",
+                        "Working With Model",
+                        "Bootstrap Cards",
+                        "Bootstrap Forms",
+                        "Bootstrap Button",
+                        "Bootstrap Grid",
+                        "Bootstrap Text/Typography",
+                        "Bootstrap Progress Bar",
+                        "Bootstrap Dropdown"
+                    ],
+                    "color": "bg-purple-500",
+                    "icon": "/icons/module.svg",
+                    "description": "Build responsive, mobile-first websites using Bootstrap framework components"
+                },
+                {
+                    "title": "C Programming",
+                    "subpoints": [
+                        "Programming Techniques",
+                        "Introduction for C Language",
+                        "Tokens in C",
+                        "Control Flow Statement in C",
+                        "Looping Structure",
+                        "Arrays",
+                        "Working with Functions",
+                        "Pointers in C"
+                    ],
+                    "color": "bg-sky-700",
+                    "icon": "/icons/code.svg",
+                    "description": "Develop foundational programming skills with C including memory management and pointers"
+                },
+                {
+                    "title": "C++ Programming",
+                    "subpoints": [
+                        "OOPs Concept",
+                        "Introduction to C++",
+                        "Functions in C++",
+                        "Object and Classes",
+                        "Constructors & Destructors",
+                        "Operator Overloading in C++",
+                        "Inheritance in C++",
+                        "Polymorphism"
+                    ],
+                    "color": "bg-indigo-700",
+                    "icon": "/icons/fullstack.svg",
+                    "description": "Master object-oriented programming concepts using C++ language features"
+                },
+                {
+                    "title": ".NET Specialization with C#",
+                    "subpoints": [
+                        "C# Programming Language",
+                        "C#-Overview",
+                        "C#-Expressions",
+                        "C#-Data Types",
+                        "C#-Variables",
+                        "C#-Decision Statements",
+                        "C#- Loops & iteration",
+                        "C#-Functions & Methods",
+                        "C#-Namespaces",
+                        "C#- Arrays",
+                        "C#-String functions",
+                        "C#- Generic Collections",
+                        "C#- Delegates and Events",
+                        "C#- Anonymous Methods",
+                        "C#- Nullable Types",
+                        "C#-Multithreading",
+                        "C#- Indexers"
+                    ],
+                    "color": "bg-red-500",
+                    "icon": "/icons/csharp.svg",
+                    "description": "Comprehensive C# programming covering syntax, data structures, and advanced features"
+                },
+                {
+                    "title": "Database Programming with ADO.NET",
+                    "subpoints": [
+                        "Introduction and Evolution of ADO.NET",
+                        "Understanding the Role of Managed Provider and ADO.NET Objects",
+                        "Connecting to Database and Connection Pooling",
+                        "Performing Insert, Update and Delete Operations",
+                        "Fetching Data from database - Executing Select Statements",
+                        "How to implement Login facility with database",
+                        "Inserting Image into Database table",
+                        "Executing Stored Procedure",
+                        "Using Transaction",
+                        "Managing Data using Dataset",
+                        "Introduction Dataset and its Object Model",
+                        "Binding Dataset to Data Grid View",
+                        "Updating changes to database using Data Adapter",
+                        "Using SQL Command Builder",
+                        "Managing Data Table Programmatically",
+                        "Working with Data Views",
+                        "Working with Typed Data Set"
+                    ],
+                    "color": "bg-teal-500",
+                    "icon": "/icons/database.svg",
+                    "description": "Connect .NET applications to databases using ADO.NET for data persistence"
+                },
+                {
+                    "title": "Object Oriented Programming in C#",
+                    "subpoints": [
+                        "C#-Classes and objects",
+                        "C#-Encapsulation",
+                        "C#-Getter & Setter",
+                        "C#-Inheritance",
+                        "C#-Polymorphism",
+                        "C#-Partial Classes",
+                        "C#-Static Variable & Static Classes"
+                    ],
+                    "color": "bg-blue-500",
+                    "icon": "/icons/oops.svg",
+                    "description": "Apply object-oriented principles in C# for robust application design"
+                },
+                {
+                    "title": "Developing GUI Application Using WINFORMS",
+                    "subpoints": [
+                        "Basic Controls",
+                        "Panel & Layouts",
+                        "MenuStrip, ToolbarStrip and ContextMenuStrip",
+                        "Model and Modeless Dialog boxes",
+                        "Mutiple Document Interface( MDI)",
+                        "Form Inheritance",
+                        "Building Login Form",
+                        "Working with Resource Files and Setting",
+                        "Working with Advanced Controls like TreeView and ListView"
+                    ],
+                    "color": "bg-red-600",
+                    "icon": "/icons/winforms.svg",
+                    "description": "Create desktop applications with rich user interfaces using Windows Forms"
+                },
+                {
+                    "title": "ASP.Net NET Framework Overview Visual Studio IDE Developing Web Application Directory Structure of .NET",
+                    "subpoints": [
+                        "Asp.Net Life Cycle",
+                        "Asp.Net Server Controls",
+                        "Master page in Asp.net",
+                        "Security In Asp.Net",
+                        "Directives In Asp.Net",
+                        "Validations In Asp.Net",
+                        "AJAX Control in Asp.Net",
+                        "Custom Controls",
+                        "Security Features In .NET",
+                        "Data Caching In .NET",
+                        "Deployment In .NET",
+                        "Data Sources & Data Binding",
+                        "Accessing Data in Asp. NET",
+                        "Data Base Connectivity In Asp.NET"
+                    ],
+                    "color": "bg-yellow-600",
+                    "icon": "/icons/wireframe-globe.svg",
+                    "description": "Build dynamic web applications using ASP.NET framework and server controls"
+                },
+                {
+                    "title": "Web Services in .NET",
+                    "subpoints": [
+                        "Introduction to Web Services",
+                        "Consuming a Web Services",
+                        "Using session state in a Web Service",
+                        "Web Method attribute properties"
+                    ],
+                    "color": "bg-pink-600",
+                    "icon": "/icons/webservice.svg",
+                    "description": "Develop and consume SOAP-based web services in .NET environment"
+                },
+                {
+                    "title": "ASP.NET MVC with Entity Framework",
+                    "subpoints": [
+                        "Asp.Net MVC structure",
+                        "Roles Model, View",
+                        "Controllers In Asp.Net MVC",
+                        "Action Methods & URLS in MVC",
+                        "Creating Application in MVC",
+                        "Razor View Engine",
+                        "HTML Helper Methods",
+                        "Web API In Asp.Net MVC",
+                        "Entity Framework with MVC 6.0"
+                    ],
+                    "color": "bg-pink-700",
+                    "icon": "/icons/model.svg",
+                    "description": "Implement modern web applications using ASP.NET MVC pattern with Entity Framework ORM"
+                },
+                {
+                    "title": "SQL Server",
+                    "subpoints": [
+                        "Overview of SQL Server",
+                        "Installation Of SQL Server",
+                        "Database Architecture",
+                        "Data Manipulation Language (DML)",
+                        "Data Definition Language (DDL)",
+                        "Manipulation Of Data (SQL Command)"
+                    ],
+                    "color": "bg-fuchsia-700",
+                    "icon": "/icons/sql.svg",
+                    "description": "Manage relational databases using Microsoft SQL Server"
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Full stack developer certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your Full stack developer global certification, ensuring a 100% passing guarantee in examinations such as Full stack developer Certification."
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "title": "Global Certification Support",
+                    "description": "Full stack developer Platform Development Certification, and various other global exams."
+                }
+            ]
+        },
         "best-aws-training": {
             "name": "AWS",
             "title": "Best AWS Training Course",

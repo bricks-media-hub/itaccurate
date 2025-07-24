@@ -42,6 +42,7 @@ export const dynamicCourseRoutes = [
   "python-full-stack",
   "java-full-stack",
   "mern-stack",
+  "dotnet-full-stack",
   "tally",
   "python",
   "cybersecurity",

@@ -178,7 +178,7 @@ const NavBar = () => {
         <div className="container mx-auto px-4 py-3">
           <div
             className={`flex justify-between items-center ${
-              scrolled ? "" : "md:px-10"
+              scrolled ? "" : "md:px-10 lg:px-0"
             }`}
           >
             {/* Logo */}

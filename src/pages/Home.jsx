@@ -25,7 +25,7 @@ function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setFreeDemoFormPopUp(true);
-    }, 2000);
+    }, 15000);
     return () => clearTimeout(timer);
   }, []);
 

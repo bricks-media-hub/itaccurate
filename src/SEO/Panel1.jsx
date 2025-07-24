@@ -5,7 +5,7 @@ import Stats from "../components/Career/Stats";
 function Panel1({
   data,
   showImage = true,
-  imageUrl = "/icons/corporate-training.png",
+  imageUrl,
   showButtons = true,
   reverseLayout = false,
   showStats = true,

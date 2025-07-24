@@ -89,7 +89,30 @@
             "title": "Full Stack Development",
             "description": "End-to-End",
             "icon": "/icons/fullstack.svg",
-            "link":"/full-stack-developer"
+            "position": "right",
+            "subMenu": [
+                {
+                    "title": "Full Stack Development",
+                    "link": "/full-stack-developer"
+                },               
+                {
+                    "title": "Python Full Stack Development",
+                    "link": "/python-full-stack"
+                },
+                {
+                    "title": "Java Full Stack Development",
+                    "link": "/java-full-stack"
+                },
+                {
+                    "title": "MERN Stack Development",
+                    "link": "/mern-stack"
+                },
+                {
+                    "title": ".NET Full Stack Development",
+                    "link": "/dotnet-full-stack"
+                }
+            ],
+            "link": "/full-stack-developer"
         },
         {
             "title": "Data Science AI & ML",
@@ -110,19 +133,19 @@
                 }
             ],
             "position": "left",
-            "link":"/best-ai-ml-training"
+            "link": "/best-ai-ml-training"
         },
         {
             "title": "AWS",
             "description": "Cloud Power",
             "icon": "/icons/aws.svg",
-            "link":"/best-aws-training"
+            "link": "/best-aws-training"
         },
         {
             "title": "Data Engineering",
             "description": "Manipulate Data",
             "icon": "/icons/data-engineer.svg",
-            "link":"/data-engineering"
+            "link": "/data-engineering"
         },
         {
             "title": "Salesforce",
@@ -151,7 +174,7 @@
                 }
             ],
             "position": "right",
-            "link":"/salesforce-training"
+            "link": "/salesforce-training"
         },
         {
             "title": "Business Analytics",
@@ -168,7 +191,7 @@
                 }
             ],
             "position": "left",
-            "link":"/best-business-analytics-training"
+            "link": "/best-business-analytics-training"
         },
         {
             "title": "HR TRAINING",
@@ -193,25 +216,25 @@
                 }
             ],
             "position": "right",
-            "link":"/ba-hr"
+            "link": "/ba-hr"
         },
         {
             "title": "Python",
             "description": "Future Coding",
             "icon": "/icons/python.svg",
-            "link":"/python"
+            "link": "/python"
         },
         {
             "title": "ServiceNow Training",
             "description": "IT Service Management",
             "icon": "/icons/service.svg",
-            "link":"/servicenow"
+            "link": "/servicenow"
         },
         {
             "title": "Share Market",
             "description": "Learn Trading",
             "icon": "/icons/share.svg",
-            "link":"/share-market"
+            "link": "/share-market"
         }
     ],
     "courses": [

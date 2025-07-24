@@ -1,10 +1,11 @@
 {
     "panel1": {
+        "imageUrl": "/icons/corporate-training2.png",
         "heading": "<span class='underline text-indigo-800 dark:text-indigo-300'>SAP FICO Course</span> in Nagpur – Hands-On Training with <span class='underline text-indigo-800 dark:text-indigo-300'>Certification & Placement</span>",
         "content": "Looking to upskill in finance and accounting with technology? Enroll in <span class='text-blue-600'>IT Accurate’s SAP FICO course in Nagpur</span>, where real-world projects meet expert mentorship. Our hands-on approach gives you practical exposure to SAP’s Financial Accounting (FI) and Controlling (CO) modules – skills in high demand across industries. Whether you're a fresher or a working professional, we prepare you for real-time challenges and global certifications. Plus, with our 100% placement assistance, your path from learning to landing a job is seamless. Join one of the <span class='text-blue-600'>best SAP FICO courses in Nagpur</span> and take your career forward."
     },
     "panel2": {
-        "imageUrl": "https://plus.unsplash.com/premium_photo-1745457820877-caf9a8fa4e08?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fFRlYW0lMjBpbiUyMGElMjB3b3Jrc2hvcCUyMHdpdGglMjBsYXB0b3BzfGVufDB8fDB8fHww",
+        "imageUrl": "/icons/why-choose.jpg",
         "heading": "<span class='underline text-indigo-800 dark:text-indigo-300'>Why Choose</span> IT Accurate for SAP FICO Training in <span class='underline text-indigo-800 dark:text-indigo-300'>Nagpur?</span>",
         "content": "At IT Accurate, we don’t just teach SAP – we shape SAP professionals. As a leading institute for the <span class='text-blue-600'>SAP FICO course in Nagpur</span>, our training is built on deep industry insight and expert-led instruction. Our certified trainers bring years of real-time SAP project experience, making each class practical and easy to relate to. You get access to updated courseware, live assignments, and personalised mentoring. Whether you're switching careers or upgrading skills, our flexible batches, weekend classes, and online learning support make it easy to learn your way. Trusted by hundreds of learners, we’re known for our consistent results, transparent guidance, and strong placement connections with top MNCs and consulting firms."
     },
@@ -41,12 +42,12 @@
         "footerNote": "Whether you're preparing for certification or a job, our syllabus equips you with the exact knowledge companies are hiring for."
     },
     "panel4": {
-        "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        "imageUrl": "/icons/certification.svg",
         "heading": "SAP FICO Certification & Project-Based Learning",
         "content": "What makes our <span class='text-blue-600'>SAP FICO course in Nagpur</span> stand out is the focus on real-time learning. We don’t stop at theory – we give you hands-on access to SAP servers so you can practice every module with real project scenarios. From day one, you’ll be working on exercises that simulate actual finance operations in SAP. Once you complete the course, you’ll receive a certificate from IT Accurate, validating your skills and boosting your resume. You’ll also be fully prepared for global SAP certification exams. This project-based approach helps you transition smoothly into the job market with confidence and competence."
     },
     "panel5": {
-        "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1200&q=80",
+        "imageUrl": "/icons/placement-support.png",
         "heading": "Placement Support for SAP FICO Aspirants in Nagpur",
         "content": ["At IT Accurate, we’re as committed to your career as you are. With our <span class='text-blue-600'>SAP FICO course in Nagpur</span>, we offer complete placement support—from resume building to mock interviews and job referrals. Our dedicated placement cell connects you with companies hiring SAP FICO consultants, finance executives, and support specialists. We’ve built a strong network of industry recruiters across Nagpur, Pune, Mumbai, and beyond. Your success is our goal, and we go the extra mile to ensure every student gets the guidance and opportunities they need to step confidently into the SAP world."]
     },

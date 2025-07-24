@@ -45,7 +45,7 @@ function LandingPage() {
   return (
     <div>
       {content?.panel1 && (
-        <Panel1 data={content.panel1} isLoading={isLoading} />
+        <Panel1 data={content.panel1} isLoading={isLoading} imageUrl={content?.panel1.imageUrl}/>
       )}
       {content?.panel2 && (
         <Panel1
