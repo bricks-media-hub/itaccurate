@@ -4,9 +4,7 @@ import { FiUsers, FiLayers, FiBriefcase, FiAward } from "react-icons/fi";
 import FreeDemoForm from "../../ContactUs/FreeDemoForm";
 import RotatingImages from "./RotatingImages";
 import CompanyLogoGlobe from "./CompanyLogoGlobe";
-import BackgroundGlobe from "./BackgroundGlobe";
 import FeatureSection from "./FeatureSection";
-import Globe from "./Globe";
 
 function Banner() {
   const [showForm, setShowForm] = useState(false);
@@ -116,21 +114,6 @@ function Banner() {
           <div className="relative w-full md:w-[48%] h-[300px] sm:h-[380px] md:h-[430px] lg:h-[480px] flex items-center justify-center z-0">
             <div className="absolute inset-0 -z-10">
               <CompanyLogoGlobe />
-              {/* <Globe /> */}
-              {/* <Globe
-                theme="light"
-                cityList={[
-                  { name: "New York", lat: 40.7128, lng: -74.006 },
-                  { name: "Bangalore", lat: 12.9716, lng: 77.5946 },
-                  { name: "London", lat: 51.5074, lng: -0.1278 },
-                ]}
-                logos={[
-                  { src: "/icons/python.svg", size: 0.22, speed: 0.008 },
-                  { src: "/icons/sap.svg", size: 0.22, speed: 0.006 },
-                  { src: "/icons/dotnet.svg", size: 0.24, speed: 0.005 },
-                  { src: "/icons/fullstack.svg", size: 0.2, speed: 0.007 },
-                ]}
-              /> */}
             </div>
           </div>
         </div>
