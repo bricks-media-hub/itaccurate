@@ -8435,7 +8435,9 @@
             "name": "Python Full Stack Development",
             "title": "Best Python Full Stack Developer Training Course",
             "bgImage": "/coursesBgImages/python-full-stack.jpg",
-            "detail": {},
+            "detail": {
+                "paragraph1": "Looking to kickstart your career in full-stack development with Python? IT Accurate in Thane offers one of the most comprehensive and industry-aligned Python Full Stack Developer training courses in Mumbai. Covering everything from front-end languages like HTML5, CSS3, JavaScript, and Bootstrap, to robust back-end development using Python, Django, Django REST Framework, and SQL, this course ensures you gain hands-on, job-ready skills. What sets IT Accurate apart is its focus on practical learning, real-world projects, and personalised mentorship, all at competitive course fees. Students also benefit from dedicated placement assistance, which helps them secure roles in leading companies across various tech sectors. Whether you're a beginner or an upskilling professional, IT Accurate delivers the expertise and support needed to thrive as a Python full-stack developer."
+            },
             "coveringTopics": [
                 {
                     "title": "Resume preparation",
@@ -8456,7 +8458,11 @@
             ],
             "whatIs": {
                 "name": "Python Full Stack Developer",
-                "points": []
+                "points": [
+                    "A Python Full Stack Developer is a software professional skilled in developing both the front-end (client-side) and back-end (server-side) of web applications using Python and related technologies.",
+                    "They work with HTML, CSS, JavaScript, and Bootstrap for front-end development, and use Python frameworks like Django and Django REST Framework (DRF) for back-end logic, APIs, and database interactions.",
+                    "These developers are valued for their ability to manage the entire development cycle—from user interface design to data handling and deployment—making them highly sought after in today’s tech-driven job market."
+                ]
             },
             "keyFeatures": [
                 {
@@ -8928,7 +8934,9 @@
             "name": "Java Full Stack Development",
             "title": "Best Java Full Stack Developer Training Course",
             "bgImage": "/coursesBgImages/java-full-stack.jpg",
-            "detail": {},
+            "detail": {
+                "paragraph1": "If you're looking to master full-stack development with a strong Java foundation, IT Accurate in Thane stands out as one of the most trusted training institutes in Mumbai. Their Java Full Stack Developer course covers everything from core concepts, such as HTML5, CSS3, JavaScript, Bootstrap, and C/C++, to advanced modules including JDBC, Servlets, JSP, Spring, Hibernate, and MVC frameworks. With real-world projects, hands-on coding sessions, and a focus on job readiness, students receive not only technical skills but also placement assistance that leads to actual opportunities in reputable tech companies. Backed by experienced trainers and affordable course fees, IT Accurate ensures a balanced, practical, and industry-aligned curriculum, making it the go-to place for aspiring full-stack developers. "
+            },
             "coveringTopics": [
                 {
                     "title": "Resume preparation",
@@ -8949,7 +8957,11 @@
             ],
             "whatIs": {
                 "name": "Java Full Stack Developer",
-                "points": []
+                "points": [
+                    "A Java Full Stack Developer is a programmer who builds both the front-end (user interface) and back-end (server, database, APIs) of web applications using Java and related technologies.",
+                    "They work with tools like HTML, CSS, JavaScript, Core Java, JDBC, Servlets, JSP, Spring, Hibernate, and SQL to create fully functional, end-to-end applications.",
+                    "These developers are in high demand across industries due to their ability to handle complete software development cycles, from designing UI to managing data and deploying applications. "
+                ]
             },
             "keyFeatures": [
                 {
@@ -9398,7 +9410,9 @@
             "name": "MERN Stack Development",
             "title": "Best MERN Stack Developer Training Course",
             "bgImage": "/coursesBgImages/mern-stack.jpg",
-            "detail": {},
+            "detail": {
+                "paragraph1": "Suppose you're aspiring to become a job-ready full-stack developer using modern JavaScript technologies. In that case, IT Accurate’s MERN Stack Developer Training Course in Thane is one of the most comprehensive and career-focused options available. The course offers an in-depth curriculum covering MongoDB, Express.js, React.js, and Node.js, along with foundational web skills such as HTML, CSS, JavaScript, Bootstrap, jQuery, and MySQL for database exposure. With a strong focus on building dynamic, responsive, and scalable applications, this program combines theoretical learning with real-world projects that provide hands-on experience. IT Accurate is recognised for its affordable fees, industry-expert faculty, and placement support, which helps students secure roles in top startups and tech companies. Whether you're a beginner or looking to upskill, IT Accurate prepares you thoroughly for a high-growth MERN stack career. "
+            },
             "coveringTopics": [
                 {
                     "title": "Resume preparation",
@@ -9419,7 +9433,11 @@
             ],
             "whatIs": {
                 "name": "MERN Stack Development",
-                "points": []
+                "points": [
+                    "MERN Stack Development is a web development approach using four key technologies: MongoDB (database), Express.js (back-end framework), React.js (front-end library), and Node.js (runtime environment).",
+                    "It allows developers to build full-stack JavaScript applications, where both client-side and server-side code is written in JavaScript for better performance and seamless integration.",
+                    "MERN stack is widely used for creating dynamic, single-page applications (SPAs) and is in high demand due to its scalability, speed, and developer-friendly ecosystem. "
+                ]
             },
             "keyFeatures": [
                 {
@@ -9626,7 +9644,9 @@
             "name": ".NET Full Stack Development",
             "title": "Best .NET Full Stack Developer Training Course",
             "bgImage": "/coursesBgImages/dotnet-fullstack.svg",
-            "detail": {},
+            "detail": {
+                "paragraph1": "Looking to become a full-stack developer using Microsoft technologies? IT Accurate in Thane offers one of the most in-depth and career-oriented .NET Full Stack Developer training courses in Mumbai. This comprehensive program covers everything from front-end technologies, such as HTML5, CSS3, JavaScript, and Bootstrap, to powerful back-end development with C#, ADO.NET, ASP.NET, MVC, Web API, and SQL Server. Students gain hands-on experience building GUI applications, managing databases, and deploying secure, scalable web solutions using Microsoft’s .NET ecosystem. The course is supported by affordable fees, practical project work, and dedicated placement support, making it ideal for both beginners and working professionals seeking roles in software development. With industry-relevant training and strong mentorship, IT Accurate ensures you're job-ready from day one."
+            },
             "coveringTopics": [
                 {
                     "title": "Resume preparation",
@@ -9647,7 +9667,11 @@
             ],
             "whatIs": {
                 "name": ".NET Full Stack Developer",
-                "points": []
+                "points": [
+                    "A .NET Full Stack Developer is a software professional skilled in developing both front-end (client-side) and back-end (server-side) applications using Microsoft technologies like C#, ASP.NET, ADO.NET, MVC, and SQL Server.",
+                    "They work across the entire development process—from designing user interfaces with HTML, CSS, JavaScript, and Bootstrap to handling data logic, database connectivity, and API integration on the back end.",
+                    ".NET Full Stack Developers are in demand for building secure, scalable, and enterprise-level applications, especially in industries that rely on Microsoft’s technology stack. "
+                ]
             },
             "keyFeatures": [
                 {
