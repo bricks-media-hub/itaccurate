@@ -17,12 +17,12 @@ export default function RoadMap() {
     return () => clearTimeout(timer);
   }, []);
 
-  useEffect(() => {
-    const roadmapSection = document.getElementById("roadmap-section");
-    if (roadmapSection) {
-      roadmapSection.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  }, [currentPage]);
+  // useEffect(() => {
+  //   const roadmapSection = document.getElementById("roadmap-section");
+  //   if (roadmapSection) {
+  //     roadmapSection.scrollIntoView({ behavior: "smooth", block: "start" });
+  //   }
+  // }, [currentPage]);
 
   const pages = [];
   for (let i = 0; i < roadmapData.roadMap.length; i += itemsPerPage) {

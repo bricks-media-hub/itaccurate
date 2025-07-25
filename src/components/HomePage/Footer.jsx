@@ -110,11 +110,11 @@ const Footer = ({ activeLocation, setActiveLocation }) => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Brand & Quick Links */}
         <div className="space-y-4">
-                <img
-                  src="./logo.svg"
-                  alt="IT Accurate Logo"
-                  className="md:h-12 w-auto h-10"
-                />
+          <img
+            src="./logo.svg"
+            alt="IT Accurate Logo"
+            className="md:h-12 w-auto h-10"
+          />
           <div className="space-y-2">
             <h3 className="text-lg font-semibold relative pb-2 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-10 after:h-1 after:bg-indigo-500 after:rounded-full">
               Quick Links
