@@ -1,26 +1,26 @@
-import React, { useState } from 'react'
-import NavBar from './HomePage/Navbar/NavBar'
-import { Outlet } from 'react-router-dom'
-import Footer from './HomePage/Footer'
-import ScrollToTop from '../lib/ScrollToTop';
-import ChatBotWidget from './ChatBot/ChatBotWidget';
+import React, { useState } from "react";
+import NavBar from "./HomePage/Navbar/NavBar";
+import { Outlet } from "react-router-dom";
+import Footer from "./HomePage/Footer";
+import ScrollToTop from "../lib/ScrollToTop";
+import ChatBotWidget from "./ChatBot/ChatBotWidget";
+import { MapContextProvider } from "../lib/MapContext";
 
 function Layout() {
-    const [activeLocation, setActiveLocation] = useState('nagpur');
+  const [activeLocation, setActiveLocation] = useState("nagpur");
 
-    return (
-        <>
-            <NavBar />
-            <ScrollToTop />
-            <Outlet />
-            <Footer 
-                activeLocation={activeLocation} 
-                setActiveLocation={setActiveLocation} 
-            />
-            {/* TODO */}
-            {/* <ChatBotWidget /> */}
-        </>
-    )
+  return (
+    <div className="inset-0 w-full overflow-x-hidden">
+      <MapContextProvider>
+        <NavBar />
+        <ScrollToTop />
+        <Outlet />
+        <Footer />
+        {/* TODO */}
+        {/* <ChatBotWidget /> */}
+      </MapContextProvider>
+    </div>
+  );
 }
 
-export default Layout
+export default Layout;

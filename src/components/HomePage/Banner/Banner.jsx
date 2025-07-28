@@ -61,7 +61,7 @@ function Banner() {
         <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-indigo-600 opacity-40 dark:opacity-60 backdrop-blur-sm z-0" />
 
         {/* Main Banner Look */}
-        <div className="flex flex-col-reverse md:flex-row justify-center items-center w-full ">
+        <div className="flex flex-col-reverse md:flex-row justify-center items-center w-full">
           {/* Left Text Section */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -69,44 +69,48 @@ function Banner() {
             transition={{ duration: 0.8 }}
             className="w-full md:w-[52%] text-center md:text-left z-10 md:ml-14"
           >
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-shadow-lg mb-4 text-gray-900 dark:text-white">
-              LEARN WITH{" "}
-              <span className="text-blue-600 dark:text-blue-400">
-                IT ACCURATE
-              </span>
-            </h1>
-            <p className="text-base md:text-lg text-gray-700 dark:text-gray-300 mb-6">
-              FOR BEST JOB OPPORTUNITY
-            </p>
+            <div className="flex flex-col items-center justify-center">
+              <div>
+                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-shadow-lg mb-4 text-gray-900 dark:text-white">
+                  LEARN WITH{" "}
+                  <span className="text-blue-600 dark:text-blue-400">
+                    IT ACCURATE
+                  </span>
+                </h1>
+                <p className="text-base md:text-lg text-gray-700 dark:text-gray-300 mb-6">
+                  FOR BEST JOB OPPORTUNITY
+                </p>
 
-            <div className="flex flex-col lg:flex-row gap-3 sm:gap-4 justify-center md:justify-start">
-              <motion.a
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                href="#training-courses"
-                className="flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-500 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md text-base"
-              >
-                <img
-                  src="/icons/explore.svg"
-                  alt="explore"
-                  className="w-7 h-7"
-                />
-                Explore Courses
-              </motion.a>
-              <motion.a
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                href="#contact"
-                onClick={() => setShowForm(true)}
-                className="flex items-center justify-center gap-2 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border border-gray-300 dark:border-gray-600 font-semibold py-3 px-6 rounded-lg shadow-md text-base"
-              >
-                <img
-                  src="/icons/contact.svg"
-                  alt="contact"
-                  className="w-7 h-7"
-                />
-                Contact Now
-              </motion.a>
+                <div className="flex flex-col md:flex-row gap-3 sm:gap-4 justify-center md:justify-start">
+                  <motion.a
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    href="#training-courses"
+                    className="flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-500 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md text-base"
+                  >
+                    <img
+                      src="/icons/explore.svg"
+                      alt="explore"
+                      className="w-7 h-7"
+                    />
+                    Explore Courses
+                  </motion.a>
+                  <motion.a
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    href="#contact"
+                    onClick={() => setShowForm(true)}
+                    className="flex items-center justify-center gap-2 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border border-gray-300 dark:border-gray-600 font-semibold py-3 px-6 rounded-lg shadow-md text-base"
+                  >
+                    <img
+                      src="/icons/contact.svg"
+                      alt="contact"
+                      className="w-7 h-7"
+                    />
+                    Contact Now
+                  </motion.a>
+                </div>
+              </div>
             </div>
           </motion.div>
 

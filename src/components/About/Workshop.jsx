@@ -1,57 +1,62 @@
-import React from 'react'
+import React from "react";
 
 function Workshop() {
-
   const workshop = [
     {
-      image: './workshop/workshop1.webp',
+      image: "./workshop/workshop1.webp",
       title: "ERP Implementation Workshop",
-      description: "IT ACCURATE successfully completed a ERP workshop at LAD College",
+      description:
+        "IT ACCURATE successfully completed a ERP workshop at LAD College",
       college: "LAD College, Nagpur",
       date: "March 2023",
-      participants: "120+ students"
+      participants: "120+ students",
     },
     {
-      image: './workshop/workshop2.webp',
+      image: "./workshop/workshop2.webp",
       title: "Data Analytics Intensive",
-      description: "IT ACCURATE successfully completed a Data Analytics workshop at Pallotti College",
+      description:
+        "IT ACCURATE successfully completed a Data Analytics workshop at Pallotti College",
       college: "Pallotti College, Nagpur",
       date: "November 2022",
-      participants: "85+ students"
+      participants: "85+ students",
     },
     {
-      image: './workshop/workshop3.webp',
+      image: "./workshop/workshop3.webp",
       title: "Salesforce Certification Prep",
-      description: "IT ACCURATE successfully completed a Salesforce workshop at NIT College",
+      description:
+        "IT ACCURATE successfully completed a Salesforce workshop at NIT College",
       college: "NIT College, Nagpur",
       date: "February 2023",
-      participants: "95+ students"
+      participants: "95+ students",
     },
     {
-      image: './workshop/workshop4.webp',
+      image: "./workshop/workshop4.webp",
       title: "ERP Systems Training",
-      description: "IT ACCURATE successfully completed a ERP workshop at GH College",
+      description:
+        "IT ACCURATE successfully completed a ERP workshop at GH College",
       college: "GH College, Nagpur",
       date: "January 2023",
-      participants: "110+ students"
+      participants: "110+ students",
     },
     {
-      image: './workshop/workshop5.webp',
+      image: "./workshop/workshop5.webp",
       title: "AI & Data Science Workshop",
-      description: "IT ACCURATE successfully completed a Data Analytics and AI & ML workshop at GH Raisoni College",
+      description:
+        "IT ACCURATE successfully completed a Data Analytics and AI & ML workshop at GH Raisoni College",
       college: "GH Raisoni College, Nagpur",
       date: "April 2023",
-      participants: "150+ students"
+      participants: "150+ students",
     },
     {
-      image: './workshop/workshop6.webp',
+      image: "./workshop/workshop6.webp",
       title: "Advanced Tech Symposium",
-      description: "IT ACCURATE successfully completed a workshop at G.H. Raisoni College",
+      description:
+        "IT ACCURATE successfully completed a workshop at G.H. Raisoni College",
       college: "GH Raisoni College, Nagpur",
       date: "May 2023",
-      participants: "200+ students"
-    }
-  ]
+      participants: "200+ students",
+    },
+  ];
 
   return (
     <div className="py-16 px-6 bg-gradient-to-b from-blue-50 to-white dark:from-slate-900 dark:to-slate-800">
@@ -59,12 +64,14 @@ function Workshop() {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 relative inline-block">
-            <span className="relative z-10 bg-clip-text text-transparent text-4xl md:text-5xl font-bold mb-4 text-blue-800 dark:text-blue-300 text-blue-800 dark:text-white">
+            <span className="relative z-10 text-4xl md:text-5xl font-bold mb-4 dark:text-blue-300 text-blue-800">
               Our Workshop Successes
             </span>
           </h2>
+
           <p className="text-xl text-blue-600 dark:text-blue-200 max-w-2xl mx-auto">
-            Transforming education through hands-on technical workshops at premier institutions
+            Transforming education through hands-on technical workshops at
+            premier institutions
           </p>
         </div>
 
@@ -95,29 +102,62 @@ function Workshop() {
                 <div className="p-6 flex flex-col justify-between flex-grow">
                   <div className="flex items-start mb-3">
                     <div className="bg-blue-100 dark:bg-blue-900/30 p-2 rounded-lg mr-3">
-                      <img src="/icons/open-book.svg" alt="open book" className='w-7 h-7'/>
+                      <img
+                        src="/icons/open-book.svg"
+                        alt="open book"
+                        className="w-7 h-7"
+                      />
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-gray-800 dark:text-white">{workshop.title}</h3>
-                      <p className="text-blue-600 dark:text-blue-400 font-medium">{workshop.college}</p>
+                      <h3 className="text-xl font-bold text-gray-800 dark:text-white">
+                        {workshop.title}
+                      </h3>
+                      <p className="text-blue-600 dark:text-blue-400 font-medium">
+                        {workshop.college}
+                      </p>
                     </div>
                   </div>
 
-                  <p className="text-gray-600 dark:text-gray-300 mb-4 pl-2 border-l-2 border-indigo-400">{workshop.description}</p>
+                  <p className="text-gray-600 dark:text-gray-300 mb-4 pl-2 border-l-2 border-indigo-400">
+                    {workshop.description}
+                  </p>
 
                   <div className="flex justify-between items-center mt-auto pt-4">
                     <span className="text-sm text-gray-500 dark:text-gray-400 flex items-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-4 w-4 mr-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                        />
                       </svg>
                       {workshop.participants}
                     </span>
-                    <button className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition-all duration-300 group-hover:shadow-md flex items-center">
+                    {/* view photos button - photos not available... */}
+                    {/* <button className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition-all duration-300 group-hover:shadow-md flex items-center">
                       View Photos
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-2 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-4 w-4 ml-2 transition-transform group-hover:translate-x-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                        />
                       </svg>
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>
@@ -139,7 +179,7 @@ function Workshop() {
         </div> */}
       </div>
     </div>
-  )
+  );
 }
 
-export default Workshop
+export default Workshop;

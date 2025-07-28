@@ -65,7 +65,7 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
       if (web3Response.data.success) {
         // Submit to your backend 
         const dbResponse = await axios.post(config.apiUrl, data);
-
+        setIsVisible(false);
         toast.success("Form submitted successfully! We'll contact you shortly.", {
           position: "top-center",
           autoClose: 5000,
@@ -123,7 +123,7 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
               exit={{ scale: 0.9, y: 20 }}
               transition={{ type: 'spring', damping: 25 }}
               id="enquiry"
-              className="w-full md:max-w-2xl max-w-lg relative"
+              className="w-full md:max-w-2xl max-w-sm relative"
             >
               {/* Close button */}
               <button

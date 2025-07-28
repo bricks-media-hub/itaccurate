@@ -43,7 +43,7 @@ const TermsOfService = () => {
               by, or otherwise related to SAP SE or any of its affiliates ("SAP").
             </li>
             <li className="pl-2">
-              <strong className="text-gray-900 dark:text-white">"IT Accurate"</strong> previous name is Sapalogy training.
+              <strong className="text-gray-900 dark:text-white">"IT Accurate"</strong> previous name is IT Accurate training.
             </li>
             <li className="pl-2">
               The logos of technology companies displayed herein are used solely

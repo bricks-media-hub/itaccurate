@@ -4,6 +4,20 @@ export default {
   darkMode: "class", // This enables class-based dark mode
   theme: {
     extend: {
+      screens: {
+        'xs': '360px',      // Small phones
+        'sm': '640px',      // Mobile (default Tailwind)
+        'md': '768px',      // Tablet (default)
+        'lg': '1024px',     // Small laptop (default)
+        'xl': '1280px',     // Laptop (default)
+        '2xl': '1536px',    // Desktop monitor (default)
+        '3xl': '1920px',    // Full HD display
+        '4xl': '2560px',    // 2K display / ultra-wide monitors
+        '5xl': '3200px',    // Super ultra-wide / ultra HD
+        '6xl': '3840px',    // 4K UHD
+        '7xl': '5120px',    // 5K resolution
+        '8xl': '7680px',    // 8K resolution (extreme cases)
+      },
       colors: {
         // Add custom colors if needed
         primary: {

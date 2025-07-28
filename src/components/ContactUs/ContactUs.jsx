@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { GoogleMap } from "../../lib/GoogleMap";
 import config from "../../lib/config";
 import { FiMapPin } from "react-icons/fi";
@@ -6,12 +6,13 @@ import { useForm } from "react-hook-form";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
+import { useMapContext } from "../../lib/MapContext";
 
-const ContactUs = ({ initialLocation = "nagpur" }) => {
-  const [activeLocation, setActiveLocation] = useState(initialLocation);
+const ContactUs = ({ location = "Nagpur" }) => {
+  const [activeLocation, setActiveLocation] = useState(location);
   const [isFormVisible, setIsFormVisible] = useState(true);
   const [isSubmitting, setIsSubmitting] = useState(false);
-
+  const { mapLocation } = useMapContext();
   const {
     register,
     handleSubmit,
@@ -38,9 +39,9 @@ const ContactUs = ({ initialLocation = "nagpur" }) => {
     const handleHashChange = () => {
       const hash = window.location.hash;
       if (hash === '#thane') {
-        setActiveLocation('thane');
+        setActiveLocation('Thane');
       } else {
-        setActiveLocation('nagpur');
+        setActiveLocation('Nagpur');
       }
       setValue("location", hash === '#thane' ? 'Thane' : 'Nagpur');
     };
@@ -121,7 +122,7 @@ const ContactUs = ({ initialLocation = "nagpur" }) => {
         <div className={`relative ${isFormVisible ? "md:flex" : ""}`}>
           {/* Map Section */}
           <div id="map-section" className={`${isFormVisible ? "w-full md:w-1/2" : "w-full"} h-[400px] md:h-[500px] bg-gray-100 dark:bg-gray-700 relative`}>
-            <GoogleMap location={activeLocation} />
+            <GoogleMap location={mapLocation} />
             
             <button
               onClick={() => setIsFormVisible(!isFormVisible)}

@@ -284,7 +284,7 @@
 //             {
 //               access_key: "fabb3cfb-5cb8-4f83-81ae-b1c5caf0797a",
 //               subject: "New Contact Form Submission",
-//               from_name: "Sapalogy Training",
+//               from_name: "Sap Training",
 //               recipient_email: "shivanihiware77@gmail.com",
 //               ...finalData,
 //             },
@@ -558,7 +558,7 @@ const useChatBotLogic = () => {
       const web3Res = await axios.post("https://api.web3forms.com/submit", {
         access_key: "fabb3cfb-5cb8-4f83-81ae-b1c5caf0797a",
         subject: "New Contact Form Submission",
-        from_name: "Sapalogy Training",
+        from_name: "Sap Training",
         recipient_email: "shivanihiware77@gmail.com",
         ...data,
       });
