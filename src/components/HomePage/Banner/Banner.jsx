@@ -1,13 +1,30 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FiUsers, FiLayers, FiBriefcase, FiAward } from "react-icons/fi";
 import FreeDemoForm from "../../ContactUs/FreeDemoForm";
 import RotatingImages from "./RotatingImages";
 import CompanyLogoGlobe from "./CompanyLogoGlobe";
 import FeatureSection from "./FeatureSection";
+// import BannerSkeleton from "../../ui/SkeletonEffects/BannerSkeleton";
 
 function Banner() {
   const [showForm, setShowForm] = useState(false);
+  // const [isLoading, setIsLoading] = useState(true);
+
+  // useEffect(() => {
+  //   // Simulate loading with a timeout
+  //   const timer = setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 1500);
+
+  //   return () => clearTimeout(timer);
+  // }, []);
+
+  // if(isLoading) {
+  //   return(
+  //     <BannerSkeleton />
+  //   )
+  // }
 
   return (
     <div className="relative bg-white dark:bg-gray-900 transition-colors duration-300 pb-0 w-full">
