@@ -458,7 +458,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useSelector } from "react-redux";
 import { HeaderSkeleton } from "../../ui/SkeletonEffects/HeaderSkeleton";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import MobileNavBar from "./MobileNavBar";
 import SearchBar from "./Search/SearchBar";
 import DesktopNav from "./DesktopNav";
@@ -474,6 +474,13 @@ const NavBar = () => {
   const [mobileActiveMenu, setMobileActiveMenu] = useState(null);
   const [mobileActiveSubMenu, setMobileActiveSubMenu] = useState(null);
   const [hoverTimeout, setHoverTimeout] = useState(null);
+
+  const location = useLocation();
+  
+  // Close dropdown section when route change
+  useEffect(()=> {
+    setActiveMenu(false);
+  }, [location.pathname])
 
   // Check for saved theme preference
   useEffect(() => {
