@@ -607,7 +607,7 @@ const NavBar = () => {
             <div className="flex items-center">
               <Link to="/" className="flex items-center">
                 <img
-                  src="./logo.svg"
+                  src="./new-logo.png"
                   alt="IT Accurate Logo"
                   className="md:h-12 w-auto h-10"
                 />

@@ -326,7 +326,7 @@ const handleLocationClick = (e, location) => {
           <div className="lg:hidden space-y-6">
             {/* Logo */}
             <div className="flex justify-center">
-              <img src="./logo.svg" alt="Logo" className="h-10 w-auto" />
+              <img src="./new-logo.png" alt="Logo" className="h-10 w-auto" />
             </div>
             {/* Quick Links */}
             <details className="border-b border-gray-200 dark:border-gray-700 pb-4 group">
@@ -451,7 +451,7 @@ const handleLocationClick = (e, location) => {
           <div className="hidden lg:grid grid-cols-4 gap-8 3xl:gap-12 4xl:gap-16 5xl:gap-20">
             {/* Brand & Quick */}
             <div className="space-y-4">
-              <img src="./logo.svg" alt="Logo" className="h-12 w-auto" />
+              <img src="./new-logo.png" alt="Logo" className="h-12 w-auto" />
               <div className="space-y-2">
                 <h3 className="text-lg font-semibold relative pb-2 after:absolute after:bottom-0 after:left-0 after:w-10 after:h-1 after:bg-indigo-500 after:rounded-full">
                   Quick Links

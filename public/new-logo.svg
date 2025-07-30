@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1454" height="465" viewBox="0 0 1454 465">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-width: 15.6px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #1848a0;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-width: 21.06px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #17479f;
+      }
+
+      .cls-4 {
+        fill: #00adef;
+      }
+
+      .cls-5 {
+        font-size: 138.25px;
+        font-family: "Gill Sans MT";
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <rect id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" x="37" y="22" width="1380" height="421" rx="60" ry="60"/>
+  <path id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-2" d="M303.061,161.285A117.627,117.627,0,1,1,100.192,280.4"/>
+  <path id="Ellipse_1_copy_2" data-name="Ellipse 1 copy 2" class="cls-2" d="M299.046,285.921A117.627,117.627,0,1,1,266.484,122.79"/>
+  <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-3" d="M161.277,164.237L122,190.316l75.505,96.213s43.429-78.054,82.858-126.154c33.933-41.395,61.909-53.847,61.909-53.847s-27.587,5.823-66.711,36.906c-31.332,24.893-75.944,76.432-75.944,76.432Z"/>
+  <path class="cls-4" d="M153.462,167.4l-38.049,27.84,77.026,92.8s42.611-80.078,79.809-129.924c32.013-42.9,59.394-56.609,59.394-56.609s-27.294,7.073-64.962,39.9c-30.166,26.294-72.385,79.81-72.385,79.81Z"/>
+  <text id="IT_ACCURAtE" data-name="IT ACCURAtE" class="cls-5" transform="translate(358.411 277.092) scale(0.975)">IT ACCURAtE</text>
+</svg>
