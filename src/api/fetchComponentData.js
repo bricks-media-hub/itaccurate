@@ -20,7 +20,6 @@ export const fetchPlacedStudentData = async () => {
 
 //fetching full course data
 export const fetchFullCourseData = async (CourseName) => {
-  console.log(CourseName)
   const response = await fetch("/data/full-courses-data.json");
   const data = await response.json();
   return data.fullCourseData[CourseName];
@@ -52,3 +51,10 @@ export const GetCourseAbout = async (courseName) => {
     return [];
   }
 };
+
+// fetch current job openings
+export const fetchCurrentJobOpenings = async () => {
+  const response = await fetch("/data/current-job-openings.json");
+  const data = await response.json();
+  return data.currentOpenings;
+}

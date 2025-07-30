@@ -1,10 +1,11 @@
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere } from "@react-three/drei";
 import * as THREE from "three";
 import { Link } from "react-router-dom";
 import Stats from "../components/Career/Stats";
+import { fetchCurrentJobOpenings } from "../api/fetchComponentData";
 
 const FloatingIcons = () => {
   return (
@@ -34,17 +35,38 @@ const FloatingIcons = () => {
 };
 
 const Career = () => {
-  const jobOpenings = [
-    {
-      role: "B.D.E. (Business Development Executive)",
-      qualifications: "Bachelor's degree in business, sales, or marketing",
-      experience: "0 - 3 Years",
-      location: "India",
-      type: "Full-Time",
-      applyLink:
-        "https://docs.google.com/forms/u/0/d/e/1FAIpQLSc2hvFxBSJHChaqenWSOp-LbXF9hPu7eNXGBnjaX4qiWS21sg/formResponse",
-    },
-  ];
+  const [jobOpenings, setJobOpenings] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // getting data of current job openings
+  useEffect(() => {
+    const fetchJobs = async () => {
+      setIsLoading(true);
+      try {
+        const response = await fetchCurrentJobOpenings();
+        setJobOpenings(response);
+      } catch (err) {
+        console.error("Failed to fetch job openings:", err);
+        setError("Something went wrong while fetching job openings.");
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchJobs();
+  }, []);
+
+  // const jobOpenings = [
+  //   {
+  //     role: "B.D.E. (Business Development Executive)",
+  //     qualifications: "Bachelor's degree in business, sales, or marketing",
+  //     experience: "0 - 3 Years",
+  //     location: "India",
+  //     type: "Full-Time",
+  //     applyLink:
+  //       "https://docs.google.com/forms/u/0/d/e/1FAIpQLSc2hvFxBSJHChaqenWSOp-LbXF9hPu7eNXGBnjaX4qiWS21sg/formResponse",
+  //   },
+  // ];
 
   const benefits = [
     {
@@ -82,7 +104,6 @@ const Career = () => {
     },
   ];
 
-
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 overflow-x-hidden">
       {/* Hero Section with 3D Background */}
@@ -104,7 +125,9 @@ const Career = () => {
                 transition={{ delay: 0.2, duration: 0.8 }}
                 className="text-4xl md:text-6xl font-bold text-white mb-6"
               >
-                Build Your <span className="text-blue-600 dark:text-blue-300">Future</span> With Us
+                Build Your{" "}
+                <span className="text-blue-600 dark:text-blue-300">Future</span>{" "}
+                With Us
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0 }}
@@ -227,70 +250,78 @@ const Career = () => {
                   </th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
-                {jobOpenings.map((job, index) => (
-                  <motion.tr
-                    key={index}
-                    initial={{ opacity: 0, x: -20 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: index * 0.1 + 0.4, duration: 0.6 }}
-                    className="hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors"
-                  >
-                    <td className="px-8 py-6">
-                      <div className="font-medium text-lg text-gray-800 dark:text-white">
-                        {job.role}
-                      </div>
-                      <div className="text-sm text-gray-600 dark:text-gray-400 mt-2">
-                        <span className="font-medium">Qualification:</span>{" "}
-                        {job.qualifications}
-                      </div>
-                      <div className="text-sm text-gray-600 dark:text-gray-400">
-                        <span className="font-medium">Experience:</span>{" "}
-                        {job.experience}
-                      </div>
-                    </td>
-                    <td className="px-8 py-6 text-gray-600 dark:text-gray-300">
-                      <div className="flex items-center">
-                        <img
-                          src="/icons/map-pin-icon.png"
-                          alt="Location"
-                          className="w-5 h-5 mr-2"
-                        />
-                        {job.location}
-                      </div>
-                    </td>
-                    <td className="px-8 py-6">
-                      <span
-                        className={`px-3 py-1 inline-flex text-sm leading-5 font-semibold rounded-full ${
-                          job.type === "Full-Time"
-                            ? "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300"
-                            : "bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-300"
-                        }`}
-                      >
-                        {job.type}
-                      </span>
-                    </td>
-                    <td className="px-8 py-6">
-                      <motion.a
-                        href={job.applyLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all duration-300 shadow-md hover:shadow-lg"
-                      >
-                        Apply Now{" "}
-                        <img
-                          src="/icons/paper-plane.svg"
-                          alt="Send"
-                          className="w-5 h-5 ml-2"
-                        />
-                      </motion.a>
-                    </td>
-                  </motion.tr>
-                ))}
-              </tbody>
+<tbody className="divide-y divide-gray-200 dark:divide-gray-700">
+  {jobOpenings.map((job, index) => (
+    <motion.tr
+      key={index}
+      initial={{ opacity: 0, x: -20 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      transition={{ delay: index * 0.1 + 0.4, duration: 0.6 }}
+      className="hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors"
+    >
+      {/* Role & Qualification */}
+      <td className="px-4 sm:px-6 py-6 max-w-xs sm:max-w-md">
+        <div className="font-medium text-base sm:text-lg text-gray-800 dark:text-white">
+          {job.role}
+        </div>
+        <div className="text-sm text-gray-600 dark:text-gray-400 mt-2 break-words">
+          <span className="font-medium">Qualification:</span>{" "}
+          <span className="whitespace-pre-wrap">{job.qualifications}</span>
+        </div>
+        <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+          <span className="font-medium">Experience:</span>{" "}
+          {job.experience}
+        </div>
+      </td>
+
+      {/* Location */}
+      <td className="px-4 sm:px-6 py-6 text-gray-600 dark:text-gray-300 whitespace-nowrap">
+        <div className="flex items-center">
+          <img
+            src="/icons/map-pin-icon.png"
+            alt="Location"
+            className="w-5 h-5 mr-2 shrink-0"
+          />
+          <span className="text-sm sm:text-base">{job.location}</span>
+        </div>
+      </td>
+
+      {/* Job Type */}
+      <td className="px-4 sm:px-6 py-6 text-sm whitespace-nowrap">
+        <span
+          className={`px-3 py-1 inline-flex font-semibold rounded-full ${
+            job.type === "Full-Time"
+              ? "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300"
+              : "bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-300"
+          }`}
+        >
+          {job.type}
+        </span>
+      </td>
+
+      {/* Apply Button */}
+      <td className="px-4 sm:px-6 py-6">
+        <motion.a
+          href={job.applyLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          className="w-full sm:w-auto inline-flex items-center justify-center px-4 py-2 text-sm sm:text-base bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all duration-300 shadow-md hover:shadow-lg"
+        >
+          <span>Apply Now</span>
+          <img
+            src="/icons/paper-plane.svg"
+            alt="Send"
+            className="w-4 h-4 ml-2 sm:ml-2"
+          />
+        </motion.a>
+      </td>
+    </motion.tr>
+  ))}
+</tbody>
+
             </table>
           </div>
         </motion.div>
@@ -341,12 +372,12 @@ const Career = () => {
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 font-medium inline-flex items-center"
+                  className="bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all duration-300 shadow-md hover:shadow-lg font-medium inline-flex items-center p-2"
                 >
-                  Apply{" "}
+                  Apply{" "}Now
                   <img
-                    src="/images/briefcase-icon.png"
-                    alt="Briefcase"
+                    src="/icons/paper-plane.svg"
+                    alt="apply"
                     className="w-4 h-4 ml-1"
                   />
                 </motion.a>

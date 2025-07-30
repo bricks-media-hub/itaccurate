@@ -6,34 +6,34 @@ const CompanyLogoGlobe = () => {
   const mountRef = useRef(null);
   const [deviceType, setDeviceType] = useState("desktop"); // 'mobile', 'laptop', or 'desktop'
 
-  const companyLogos = [
-    { name: "React", logoPath: "/globeLogos/react.png" },
-    { name: "HTML5", logoPath: "/icons/html.svg" },
-    { name: "AWS", logoPath: "/globeLogos/aws-colorpng.png" },
-    { name: "C", logoPath: "/globeLogos/c.png" },
-    { name: "C++", logoPath: "/globeLogos/cpp.png" },
-    { name: "MySQL", logoPath: "/globeLogos/mysql.png" },
-    { name: "Kubernetes", logoPath: "/globeLogos/kubernates.png" },
-    { name: "Docker", logoPath: "/globeLogos/docker.png" },
-    { name: "Node.js", logoPath: "/globeLogos/nodejs.png" },
-    { name: "Express", logoPath: "/globeLogos/express.png" },
-    { name: "Java", logoPath: "/globeLogos/java.png" },
-    { name: ".NET", logoPath: "/globeLogos/dotnet.png" },
-    { name: "C#", logoPath: "/globeLogos/csharp.png" },
-    { name: "Python Full Stack", logoPath: "/icons/python-fullstack.png" },
-    { name: "ASP.NET", logoPath: "/globeLogos/aspnet.png" },
-    { name: "JavaScript", logoPath: "/globeLogos/javascript.png" },
-    { name: "CSS3", logoPath: "/globeLogos/css.png" },
-    { name: "GitHub", logoPath: "/globeLogos/github.png" },
-    { name: "AI", logoPath: "/globeLogos/ai.png" },
-    { name: "Excel", logoPath: "/globeLogos/excel.png" },
-    { name: "DevOps", logoPath: "/globeLogos/devops.png" },
-    { name: "Bootstrap", logoPath: "/globeLogos/bootstrap.png" },
-    { name: "Django", logoPath: "/globeLogos/django.png" },
-    { name: "Spring", logoPath: "/globeLogos/spring.png" },
-    { name: "Hibernate", logoPath: "/globeLogos/hibernate.png" },
-    { name: "Tableau", logoPath: "/globeLogos/tableau.png" },
-  ];
+const companyLogos = [
+    { name: "React", logoPath: "/globeLogos/react.png", link: "/demo/react" },
+    { name: "HTML5", logoPath: "/icons/html.svg", link: "/demo/html5" },
+    { name: "AWS", logoPath: "/globeLogos/aws-colorpng.png", link: "/demo/aws" },
+    { name: "C", logoPath: "/globeLogos/c.png", link: "/demo/c" },
+    { name: "C++", logoPath: "/globeLogos/cpp.png", link: "/demo/cpp" },
+    { name: "MySQL", logoPath: "/globeLogos/mysql.png", link: "/demo/mysql" },
+    { name: "Kubernetes", logoPath: "/globeLogos/kubernates.png", link: "/demo/kubernetes" },
+    { name: "Docker", logoPath: "/globeLogos/docker.png", link: "/demo/docker" },
+    { name: "Node.js", logoPath: "/globeLogos/nodejs.png", link: "/demo/nodejs" },
+    { name: "Express", logoPath: "/globeLogos/express.png", link: "/demo/express" },
+    { name: "Java", logoPath: "/globeLogos/java.png", link: "/demo/java" },
+    { name: ".NET", logoPath: "/globeLogos/dotnet.png", link: "/demo/dotnet" },
+    { name: "C#", logoPath: "/globeLogos/csharp.png", link: "/demo/csharp" },
+    { name: "Python Full Stack", logoPath: "/icons/python-fullstack.png", link: "/demo/python-fullstack" },
+    { name: "ASP.NET", logoPath: "/globeLogos/aspnet.png", link: "/demo/aspnet" },
+    { name: "JavaScript", logoPath: "/globeLogos/javascript.png", link: "/demo/javascript" },
+    { name: "CSS3", logoPath: "/globeLogos/css.png", link: "/demo/css3" },
+    { name: "GitHub", logoPath: "/globeLogos/github.png", link: "/demo/github" },
+    { name: "AI", logoPath: "/globeLogos/ai.png", link: "/demo/ai" },
+    { name: "Excel", logoPath: "/globeLogos/excel.png", link: "/demo/excel" },
+    { name: "DevOps", logoPath: "/globeLogos/devops.png", link: "/demo/devops" },
+    { name: "Bootstrap", logoPath: "/globeLogos/bootstrap.png", link: "/demo/bootstrap" },
+    { name: "Django", logoPath: "/globeLogos/django.png", link: "/demo/django" },
+    { name: "Spring", logoPath: "/globeLogos/spring.png", link: "/demo/spring" },
+    { name: "Hibernate", logoPath: "/globeLogos/hibernate.png", link: "/demo/hibernate" },
+    { name: "Tableau", logoPath: "/globeLogos/tableau.png", link: "/demo/tableau" },
+];
 
   // Set globe radius based on device type
   const getGlobeRadius = () => {
@@ -270,7 +270,7 @@ const CompanyLogoGlobe = () => {
     initScene();
     placeLogos();
     animate();
-
+// returning all objects after all functions on globe
     return () => {
       window.removeEventListener("resize", onResize);
       if (animationFrameId) cancelAnimationFrame(animationFrameId);
@@ -286,7 +286,7 @@ const CompanyLogoGlobe = () => {
       });
     };
   }, [deviceType]);
-
+// actual rendering in screen
   return (
     <div
       ref={mountRef}

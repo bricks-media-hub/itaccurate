@@ -46,15 +46,30 @@ const DropdownMenu = ({
                       ? "bg-gray-100 dark:bg-gray-700"
                       : ""
                   }`}
+                  // Add mouse events here as well to ensure they work even if bubbling is prevented
+                  onMouseEnter={(e) => {
+                    e.stopPropagation(); // Prevent duplicate events
+                    course.subMenu && handleSubMenuEnter(course.title);
+                  }}
                 >
                   <span className="text-2xl mr-3 text-purple-600 dark:text-purple-400">
                     <img
                       src={course.icon}
                       alt="course icon"
                       className="w-9 h-9 mt-2"
+                      onMouseEnter={(e) => {
+                        e.stopPropagation();
+                        course.subMenu && handleSubMenuEnter(course.title);
+                      }}
                     />
                   </span>
-                  <div className="flex-1">
+                  <div
+                    className="flex-1"
+                    onMouseEnter={(e) => {
+                      e.stopPropagation();
+                      course.subMenu && handleSubMenuEnter(course.title);
+                    }}
+                  >
                     <h3 className="font-medium dark:text-white text-gray-800">
                       {course.title}
                     </h3>
@@ -63,12 +78,18 @@ const DropdownMenu = ({
                     </p>
                   </div>
                   {course.subMenu && (
-                    <FiArrowRight className="ml-2 text-gray-400 self-center" />
+                    <FiArrowRight
+                      className="ml-2 text-gray-400 self-center"
+                      onMouseEnter={(e) => {
+                        e.stopPropagation();
+                        course.subMenu && handleSubMenuEnter(course.title);
+                      }}
+                    />
                   )}
                 </div>
 
                 {course.subMenu && (
-                  <SubMenuDropdown 
+                  <SubMenuDropdown
                     course={course}
                     activeSubMenu={activeSubMenu}
                     handleSubMenuEnter={handleSubMenuEnter}
@@ -82,7 +103,7 @@ const DropdownMenu = ({
       )}
 
       {item.name === "Placements" && (
-        <PlacementsDropdown 
+        <PlacementsDropdown
           subMenu={item.subMenu}
           handleSubMenuEnter={handleSubMenuEnter}
           handleSubMenuLeave={handleSubMenuLeave}
@@ -92,7 +113,12 @@ const DropdownMenu = ({
   );
 };
 
-const SubMenuDropdown = ({ course, activeSubMenu, handleSubMenuEnter, handleSubMenuLeave }) => (
+const SubMenuDropdown = ({
+  course,
+  activeSubMenu,
+  handleSubMenuEnter,
+  handleSubMenuLeave,
+}) => (
   <motion.div
     initial={{
       opacity: 0,
@@ -100,7 +126,12 @@ const SubMenuDropdown = ({ course, activeSubMenu, handleSubMenuEnter, handleSubM
     }}
     animate={{
       opacity: activeSubMenu === course.title ? 1 : 0,
-      x: activeSubMenu === course.title ? 0 : course.position === "left" ? 10 : -10,
+      x:
+        activeSubMenu === course.title
+          ? 0
+          : course.position === "left"
+          ? 10
+          : -10,
       visibility: activeSubMenu === course.title ? "visible" : "hidden",
     }}
     transition={{ duration: 0.2, ease: "easeOut" }}
@@ -128,7 +159,11 @@ const SubMenuDropdown = ({ course, activeSubMenu, handleSubMenuEnter, handleSubM
   </motion.div>
 );
 
-const PlacementsDropdown = ({ subMenu, handleSubMenuEnter, handleSubMenuLeave }) => (
+const PlacementsDropdown = ({
+  subMenu,
+  handleSubMenuEnter,
+  handleSubMenuLeave,
+}) => (
   <ul className="space-y-1">
     {subMenu.map((subItem) => (
       <li key={subItem}>
