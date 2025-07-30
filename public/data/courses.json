@@ -257,7 +257,7 @@
         {
             "title": "DATA ANALYTICS",
             "description": "Accelerate Your Career with Data Analytics Training and Certification program.",
-            "bgImage": "/courseImages/data-analysis.png",
+            "bgImage": "/courseImages/data-analysis.jpg",
             "cta": "Enquire Now",
             "color": "from-cyan-500 to-cyan-700",
             "link": "/best-data-analytics-training"
@@ -297,7 +297,7 @@
         {
             "title": "AWS",
             "description": "Empower Your Expertise: AWS with Our Comprehensive Training Courses.",
-            "bgImage": "./courseImages/aws.png",
+            "bgImage": "./courseImages/aws.jpg",
             "cta": "Enquire Now",
             "color": "from-orange-500 to-orange-700",
             "link": "/best-aws-training"
