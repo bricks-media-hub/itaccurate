@@ -28,6 +28,7 @@ import OfferedCourses from "../components/CourseDetails/OfferedCourses";
 function AboutCourse() {
   const courseDetail = useLoaderData();
   const location = useLocation();
+  
   // Safely destructure with fallbacks
   const {
     name = "",
