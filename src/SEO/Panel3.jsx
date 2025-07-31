@@ -2,7 +2,7 @@ import React from "react";
 import SAPHighlightSection from "./SapHighlightSection";
 
 const Panel3 = ({ data }) => {
-  console.log(data);
+  // console.log(data);
   return (
     <>
       <section className="mt-7 px-4 md:px-8 lg:px-16 py-12 bg-white dark:bg-gray-900 transition-colors duration-300">

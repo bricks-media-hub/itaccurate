@@ -4,7 +4,9 @@ import { useSwipeable } from "react-swipeable";
 import { useLoaderData } from "react-router-dom";
 
 export default function RoadMap() {
-  const roadmapData = useLoaderData();
+  const { courseDetail } = useLoaderData();
+  const roadmapData = courseDetail;
+  // console.log(courseDetail);
   const [activeIndex, setActiveIndex] = useState(null);
   const [connectionsVisible, setConnectionsVisible] = useState(false);
   const [activeLayer, setActiveLayer] = useState(0);

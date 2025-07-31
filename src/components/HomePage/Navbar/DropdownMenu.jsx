@@ -166,7 +166,7 @@ const PlacementsDropdown = ({
 }) => (
   <ul className="space-y-1">
     {subMenu.map((subItem) => (
-      <li key={subItem}>
+      <li key={subItem.menu}>
         <Link
           to={subItem.link}
           className="block px-3 py-2 rounded-md text-sm dark:text-gray-300 text-gray-700 hover:dark:bg-gray-700 hover:bg-gray-100 transition-colors duration-200"

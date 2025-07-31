@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FaCertificate, FaChartLine, FaAward } from "react-icons/fa";
 
 const CertificationSection = ({ courseName, certificationPoints }) => {
-  console.log(certificationPoints);
+  // console.log(certificationPoints);
   return (
     <motion.section 
       initial={{ opacity: 0, y: 50 }}

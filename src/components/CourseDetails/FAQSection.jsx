@@ -2,8 +2,8 @@ import { useState } from 'react';
 import FreeDemoForm from "../ContactUs/FreeDemoForm"
 
 const FAQSection = ({ faqs = [] }) => {
-  console.log("Received FAQs:", faqs);
-console.log("🚨 FAQs type check:", typeof faqs, Array.isArray(faqs), faqs);
+//   console.log("Received FAQs:", faqs);
+// console.log("🚨 FAQs type check:", typeof faqs, Array.isArray(faqs), faqs);
 
   const [activeIndex, setActiveIndex] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');

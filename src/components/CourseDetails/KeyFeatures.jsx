@@ -6,7 +6,7 @@ import { useState } from 'react';
 import FreeDemoForm from '../ContactUs/FreeDemoForm';
 
 function KeyFeatures() {
-  const courseDetail = useLoaderData();
+  const { courseDetail } = useLoaderData();
   const [showForm, setShowForm] = useState(false);
 
   return (

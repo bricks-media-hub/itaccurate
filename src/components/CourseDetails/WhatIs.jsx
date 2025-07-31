@@ -3,7 +3,7 @@ import React from 'react';
 import { useLoaderData } from "react-router-dom";
 
 function WhatIs() {
-  const courseDetail = useLoaderData();
+  const { courseDetail } = useLoaderData();
 
   return (
     <section className="py-12 px-4 md:px-12 max-w-7xl mx-auto">

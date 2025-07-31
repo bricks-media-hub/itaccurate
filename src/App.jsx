@@ -22,6 +22,7 @@ import PrivacyPolicy from "./components/Terms/Privacy";
 import RefundPolicy from "./components/Terms/Refund";
 import ProtectedRoute from "./ProtectedRoute/SeoProtected";
 import LandingPage from "./SEO/LandingPage";
+import { fetchCourseSeoData } from "./api/fetchSeoData";
 
 export const dynamicCourseRoutes = [
   "salesforce-training",
@@ -86,7 +87,13 @@ const router = createBrowserRouter([
       // Map each dynamic route with its loader
       ...dynamicCourseRoutes.map((route) => ({
         path: `/${route}`,
-        loader: () => fetchComponentData(route),
+        loader: async () => {
+          const [courseDetail, seoData] = await Promise.all([
+            fetchComponentData(route),
+            fetchCourseSeoData(route),
+          ]);
+          return { courseDetail, seoData };
+        },
         element: <AboutCourse />,
       })),
       {
