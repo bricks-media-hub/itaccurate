@@ -239,9 +239,9 @@ const Career = () => {
                   <th className="px-8 py-5 text-left text-sm font-medium">
                     Role
                   </th>
-                  <th className="px-8 py-5 text-left text-sm font-medium">
+                  {/* <th className="px-8 py-5 text-left text-sm font-medium">
                     Location
-                  </th>
+                  </th> */}
                   <th className="px-8 py-5 text-left text-sm font-medium">
                     Type
                   </th>
@@ -250,33 +250,35 @@ const Career = () => {
                   </th>
                 </tr>
               </thead>
-<tbody className="divide-y divide-gray-200 dark:divide-gray-700">
-  {jobOpenings.map((job, index) => (
-    <motion.tr
-      key={index}
-      initial={{ opacity: 0, x: -20 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      viewport={{ once: true }}
-      transition={{ delay: index * 0.1 + 0.4, duration: 0.6 }}
-      className="hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors"
-    >
-      {/* Role & Qualification */}
-      <td className="px-4 sm:px-6 py-6 max-w-xs sm:max-w-md">
-        <div className="font-medium text-base sm:text-lg text-gray-800 dark:text-white">
-          {job.role}
-        </div>
-        <div className="text-sm text-gray-600 dark:text-gray-400 mt-2 break-words">
-          <span className="font-medium">Qualification:</span>{" "}
-          <span className="whitespace-pre-wrap">{job.qualifications}</span>
-        </div>
-        <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-          <span className="font-medium">Experience:</span>{" "}
-          {job.experience}
-        </div>
-      </td>
+              <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
+                {jobOpenings.map((job, index) => (
+                  <motion.tr
+                    key={index}
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: index * 0.1 + 0.4, duration: 0.6 }}
+                    className="hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors"
+                  >
+                    {/* Role & Qualification */}
+                    <td className="px-4 sm:px-6 py-6 max-w-xs sm:max-w-md">
+                      <div className="font-medium text-base sm:text-lg text-gray-800 dark:text-white">
+                        {job.role}
+                      </div>
+                      <div className="text-sm text-gray-600 dark:text-gray-400 mt-2 break-words">
+                        <span className="font-medium">Qualification:</span>{" "}
+                        <span className="whitespace-pre-wrap">
+                          {job.qualifications}
+                        </span>
+                      </div>
+                      <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                        <span className="font-medium">Experience:</span>{" "}
+                        {job.experience}
+                      </div>
+                    </td>
 
-      {/* Location */}
-      <td className="px-4 sm:px-6 py-6 text-gray-600 dark:text-gray-300 whitespace-nowrap">
+                    {/* Location */}
+                    {/* <td className="px-4 sm:px-6 py-6 text-gray-600 dark:text-gray-300 whitespace-nowrap">
         <div className="flex items-center">
           <img
             src="/icons/map-pin-icon.png"
@@ -285,43 +287,42 @@ const Career = () => {
           />
           <span className="text-sm sm:text-base">{job.location}</span>
         </div>
-      </td>
+      </td> */}
 
-      {/* Job Type */}
-      <td className="px-4 sm:px-6 py-6 text-sm whitespace-nowrap">
-        <span
-          className={`px-3 py-1 inline-flex font-semibold rounded-full ${
-            job.type === "Full-Time"
-              ? "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300"
-              : "bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-300"
-          }`}
-        >
-          {job.type}
-        </span>
-      </td>
+                    {/* Job Type */}
+                    <td className="px-4 sm:px-6 py-6 text-sm whitespace-nowrap">
+                      <span
+                        className={`px-3 py-1 inline-flex font-semibold rounded-full ${
+                          job.type === "Full-Time"
+                            ? "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300"
+                            : "bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-300"
+                        }`}
+                      >
+                        {job.type}
+                      </span>
+                    </td>
 
-      {/* Apply Button */}
-      <td className="px-4 sm:px-6 py-6">
-        <motion.a
-          href={job.applyLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="w-full sm:w-auto inline-flex items-center justify-center px-4 py-2 text-sm sm:text-base bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all duration-300 shadow-md hover:shadow-lg"
-        >
-          <span>Apply Now</span>
-          <img
-            src="/icons/paper-plane.svg"
-            alt="Send"
-            className="w-4 h-4 ml-2 sm:ml-2"
-          />
-        </motion.a>
-      </td>
-    </motion.tr>
-  ))}
-</tbody>
-
+                    {/* Apply Button */}
+                    <td className="px-4 sm:px-6 py-6">
+                      <motion.a
+                        href={job.applyLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                        className="w-full sm:w-auto inline-flex items-center justify-center px-4 py-2 text-sm sm:text-base bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all duration-300 shadow-md hover:shadow-lg"
+                      >
+                        <span>Apply Now</span>
+                        <img
+                          src="/icons/paper-plane.svg"
+                          alt="Send"
+                          className="w-4 h-4 ml-2 sm:ml-2"
+                        />
+                      </motion.a>
+                    </td>
+                  </motion.tr>
+                ))}
+              </tbody>
             </table>
           </div>
         </motion.div>
@@ -340,14 +341,14 @@ const Career = () => {
               <div className="mb-3 text-xl font-semibold text-gray-800 dark:text-white">
                 {job.role}
               </div>
-              <div className="flex items-center text-sm text-gray-600 dark:text-gray-300 mb-2">
+              {/* <div className="flex items-center text-sm text-gray-600 dark:text-gray-300 mb-2">
                 <img
                   src="/icons/map-pin-icon.png"
                   alt="Location"
                   className="w-4 h-4 mr-2"
                 />
                 {job.location}
-              </div>
+              </div> */}
               <div className="text-sm text-gray-600 dark:text-gray-300 mb-2">
                 <span className="font-medium">Qualification:</span>{" "}
                 {job.qualifications}
@@ -374,7 +375,7 @@ const Career = () => {
                   whileTap={{ scale: 0.95 }}
                   className="bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all duration-300 shadow-md hover:shadow-lg font-medium inline-flex items-center p-2"
                 >
-                  Apply{" "}Now
+                  Apply Now
                   <img
                     src="/icons/paper-plane.svg"
                     alt="apply"
