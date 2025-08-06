@@ -11,10 +11,23 @@ import Panel9 from "./Panel9";
 import Panel10 from "./Panel10";
 import { useLocation } from "react-router-dom";
 
+const DEFAULT_SEO = {
+  title: "ITAccurate | Course Details",
+  description: "Explore our courses with expert mentors and real projects.",
+  keywords: "ITAccurate, training, courses",
+  canonical: "https://itaccurate.com",
+  scriptContents: "",
+};
+
 function LandingPage() {
   const [content, setContent] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   const location = useLocation();
+
+    const { title, description, keywords, canonical, scriptContents } = {
+    ...DEFAULT_SEO,
+    ...content.seo-data,
+  };
 
   // featching data
   useEffect(() => {
@@ -34,6 +47,7 @@ function LandingPage() {
       try {
         const response = await axios.get(URL);
         setContent(response.data);
+        console.log(content)
       } finally {
         setIsLoading(false);
       }
@@ -43,33 +57,53 @@ function LandingPage() {
   }, [location.pathname]);
 
   return (
-    <div>
-      {content?.panel1 && (
-        <Panel1 data={content.panel1} isLoading={isLoading} imageUrl={content?.panel1.imageUrl}/>
-      )}
-      {content?.panel2 && (
-        <Panel1
-          data={content.panel2}
-          showImage={true}
-          imageUrl={content.panel2.imageUrl}
-          showButtons={false}
-          reverseLayout={true}
-          showStats={false}
-        />
-      )}
-      {content?.panel3 && <Panel3 data={content.panel3} />}
-      {content?.panel4 && (
-        <Panel4 data={content.panel4} imageUrl={content.panel4.imageUrl} />
-      )}
-      {content?.panel5 && (
-        <Panel5 data={content.panel5} imageUrl={content.panel5.imageUrl} />
-      )}
-      {content?.panel6 && <Panel6 data={content.panel6} />}
-      {content?.panel7 && <Panel7 data={content.panel7} />}
-      {content?.panel8 && <Panel8 data={content.panel8} />}
-      {content?.panel9 && <Panel9 data={content.panel9} />}
-      {content?.panel10 && <Panel10 data={content.panel10} />}
-    </div>
+    <>
+      {/* seo contents */}
+      <Helmet>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta name="keywords" content={keywords} />
+        <link rel="canonical" href={canonical} />
+        {scriptContents && 
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(scriptContents) }}
+          />
+        }
+      </Helmet>
+      {/* actual page */}
+      <div>
+        {content?.panel1 && (
+          <Panel1
+            data={content.panel1}
+            isLoading={isLoading}
+            imageUrl={content?.panel1.imageUrl}
+          />
+        )}
+        {content?.panel2 && (
+          <Panel1
+            data={content.panel2}
+            showImage={true}
+            imageUrl={content.panel2.imageUrl}
+            showButtons={false}
+            reverseLayout={true}
+            showStats={false}
+          />
+        )}
+        {content?.panel3 && <Panel3 data={content.panel3} />}
+        {content?.panel4 && (
+          <Panel4 data={content.panel4} imageUrl={content.panel4.imageUrl} />
+        )}
+        {content?.panel5 && (
+          <Panel5 data={content.panel5} imageUrl={content.panel5.imageUrl} />
+        )}
+        {content?.panel6 && <Panel6 data={content.panel6} />}
+        {content?.panel7 && <Panel7 data={content.panel7} />}
+        {content?.panel8 && <Panel8 data={content.panel8} />}
+        {content?.panel9 && <Panel9 data={content.panel9} />}
+        {content?.panel10 && <Panel10 data={content.panel10} />}
+      </div>
+    </>
   );
 }
 

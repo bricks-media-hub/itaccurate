@@ -1,4 +1,113 @@
 {
+    "seo-data": {
+        "title": "SAP Course in Thane | Best SAP Classes at IT Accurate",
+        "description": "Join IT Accurate for the top SAP course in Thane. Get hands-on training from experts. Enroll in the best SAP classes and boost your career with SAP certification.",
+        "keywords": "Best SAP Training institute in Thane, SAP Training Institute Thane, SAP Course in Thane, SAP Classes in Thane, SAP Training in Thane, SAP Course in Thane West, SAP Training in Thane, SAP Course in Thane with Placement",
+        "canonical": "https://www.itaccurate.com/sap-course-in-thane",
+        "scriptContents": {
+            "@context": "https://schema.org",
+            "@type": "EducationalOrganization",
+            "name": "IT Accurate – SAP & Data Analytics in Thane",
+            "alternateName": "IT Accurate",
+            "url": "https://www.itaccurate.com/sap-course-in-thane",
+            "logo": "https://itaccurate.com/static/media/Logo.df8e8d904ee9375f2fa8.webp",
+            "description": "IT Accurate is a trusted SAP training institute in Thane offering hands-on SAP courses with 100% placement support. Learn SAP FICO, MM, SD, HANA, and more from expert trainers with real-time project experience.",
+            "founder": "IT Accurate Team",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Office No. 806, 8th Floor, Paradise Tower, next to McDonald's, Naupada, Thane West",
+                "addressLocality": "Thane",
+                "addressRegion": "Maharashtra",
+                "postalCode": "400601",
+                "addressCountry": "IN"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 19.1876209,
+                "longitude": 72.9752981
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91-7738277389",
+                "contactType": "Customer Service",
+                "availableLanguage": "English"
+            },
+            "sameAs": [
+                "https://www.facebook.com/Sapalogy/",
+                "https://www.instagram.com/it.accurate/",
+                "https://www.linkedin.com/posts/sapalogy-pvt-ltd_sapeducation-partner-nasik-activity-6584811124691165184-5l6o/",
+                "https://www.youtube.com/channel/UCXZYBXNxKE02guTUKujOq7w"
+            ],
+            "openingHours": "Mo-Su 00:00-23:59",
+            "review": [
+                {
+                    "@type": "Review",
+                    "author": {
+                        "@type": "Person",
+                        "name": "John Doe"
+                    },
+                    "datePublished": "2025-05-12",
+                    "reviewBody": "The SAP training at IT Accurate was truly amazing. The trainers are experts, and the practical sessions made learning easy. I got placement assistance, and within weeks, I was placed at a top company. Highly recommend this institute for anyone looking to build a career in SAP!",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "bestRating": "5",
+                        "worstRating": "1",
+                        "ratingValue": "5"
+                    }
+                },
+                {
+                    "@type": "Review",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Bittu"
+                    },
+                    "datePublished": "2025-05-14",
+                    "reviewBody": "I recently completed SAP MM training at IT Accurate, and it was an excellent learning experience. The trainers were highly knowledgeable, experienced & patient and explained everything in a simple and clear manner. The support from the trainers and institute was fantastic. They were always available to clear doubts and provided guidance even after the course was completed. Overall I had a great learning journey, and highly recommend IT Accurate to anyone looking to master SAP MM!!",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "bestRating": "5",
+                        "worstRating": "1",
+                        "ratingValue": "5"
+                    }
+                },
+                {
+                    "@type": "Review",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Suraj Gupta"
+                    },
+                    "datePublished": "2025-05-14",
+                    "reviewBody": "I had a great experience at IT Accurate in Thane. The training sessions were clear and practical, especially for SAP and Data Analytics. The instructors are knowledgeable and supportive, and the environment is perfect for learning. Highly recommended for anyone looking to enhance their IT skills.",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "bestRating": "5",
+                        "worstRating": "1",
+                        "ratingValue": "5"
+                    }
+                },
+                {
+                    "@type": "Review",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Nitkarsh Mishra"
+                    },
+                    "datePublished": "2025-05-14",
+                    "reviewBody": "I had a really good time learning SAP at IT Accurate in Thane. The trainers were kind and patient, and they made sure we understood everything properly. I didn’t know much when I joined, but now I feel much more confident. Grateful for the support and guidance I got here.",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "bestRating": "5",
+                        "worstRating": "1",
+                        "ratingValue": "5"
+                    }
+                }
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5",
+                "reviewCount": "4"
+            }
+        }
+    },
     "panel1": {
         "imageUrl": "/icons/corporate-training.png",
         "heading": "<span class='underline text-indigo-800 dark:text-indigo-300'>SAP Course</span> in Thane – Practical Training with <span class='underline text-indigo-800 dark:text-indigo-300'>100% Placement</span>",
