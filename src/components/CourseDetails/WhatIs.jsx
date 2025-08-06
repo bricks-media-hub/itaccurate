@@ -8,7 +8,7 @@ function WhatIs() {
   return (
     <section className="py-12 px-4 md:px-12 max-w-7xl mx-auto">
       <div className="flex flex-col lg:flex-row gap-6 lg:gap-8">
-        {/* Right Card - Features Grid */}
+        {/* Left Card - Image Card */}
         <motion.div
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
@@ -46,7 +46,7 @@ function WhatIs() {
             </motion.div>
           </div>
         </motion.div>
-        {/* Left Card - Description */}
+        {/* Right Card - Description */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}

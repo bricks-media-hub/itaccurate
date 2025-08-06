@@ -133,7 +133,7 @@ function AboutCourse() {
           </motion.div>
           {/* form section */}
           <div className="w-full md:w-[55%] lg:w-[52%] md:sticky top-6 z-10">
-            <div className="rounded-xl shadow-lg">
+            <div className="rounded-xl shadow-lg sticky">
               <FormComponent />
             </div>
           </div>
