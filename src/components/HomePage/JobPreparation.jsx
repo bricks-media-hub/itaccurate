@@ -17,17 +17,17 @@ const JobPreparation = () => {
       title: "Achieving Course Milestones",
       items: [
         {
-          icon: <FaGraduationCap className="text-xl" />,
+          icon: <img src="/icons/graduation.svg" alt="graduation" className="w-11 h-11"/>,
           title: "Hands-On Training with Internships",
           desc: "Participate in internships to bridge the gap between theory and practice. Develop workplace-ready skills on real tasks.",
         },
         {
-          icon: <FaProjectDiagram className="text-xl" />,
+          icon: <img src="/icons/blockchain.svg" alt="graduation" className="w-11 h-11"/>,
           title: "Industry-Driven Project Experience",
           desc: "Engage in market-standard projects to strengthen your portfolio and demonstrate your expertise.",
         },
         {
-          icon: <FaBriefcase className="text-xl" />,
+          icon: <img src="/icons/resume-prep.svg" alt="graduation" className="w-11 h-11"/>,
           title: "Resume Writing Excellence",
           desc: "Create an impactful, professional resume that highlights your strengths and achievements effectively.",
         },
@@ -37,17 +37,17 @@ const JobPreparation = () => {
       title: "Interview Readiness Strategies",
       items: [
         {
-          icon: <FaChalkboardTeacher className="text-xl" />,
+          icon: <img src="/icons/teaching.svg" alt="graduation" className="w-11 h-11"/>,
           title: "Core Competency Development",
           desc: "Sharpen your technical and analytical abilities through targeted practice sessions.",
         },
         {
-          icon: <FaHandsHelping className="text-xl" />,
+          icon: <img src="/icons/help.svg" alt="graduation" className="w-11 h-11"/>,
           title: "Mock Interview Simulations",
           desc: "Experience realistic interviews with constructive feedback to refine your performance.",
         },
         {
-          icon: <FaNetworkWired className="text-xl" />,
+          icon: <img src="/icons/folder-network.svg" alt="graduation" className="w-11 h-11"/>,
           title: "Dynamic Group Discussions",
           desc: "Enhance communication and collaboration skills through interactive team settings.",
         },
@@ -57,15 +57,21 @@ const JobPreparation = () => {
       title: "Securing Your Dream Job",
       items: [
         {
-          icon: <FaBriefcase className="text-xl" />,
+          icon: <img src="/icons/job-assist.svg" alt="graduation" className="w-11 h-11"/>,
           title: "Ongoing Career Support",
           desc: "Get assistance throughout your job search journey with personalized guidance.",
         },
         {
-          icon: <FaHandsHelping className="text-xl" />,
+          icon: <img src="/icons/referral.svg" alt="graduation" className="w-11 h-11"/>,
           title: "Exclusive Referral Opportunities",
           desc: "Tap into exclusive openings through our extensive industry network and referral programs.",
         },
+        {
+        icon: <img src="/icons/user-shield.svg" alt="graduation" className="w-11 h-11"/>,
+        title: "Job Guarantee Guidance",
+        desc:
+          "Get career support from mentors, resume optimization, and mock interviews to prepare you for confident placement.",
+        }
       ],
     },
   };

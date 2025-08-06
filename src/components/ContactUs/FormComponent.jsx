@@ -1,22 +1,35 @@
-import { useEffect, useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { useForm } from 'react-hook-form';
-import { FiArrowRight, FiCheck, FiUser, FiPhone, FiBookOpen, FiMail, FiMapPin } from 'react-icons/fi';
-import { FaGraduationCap } from 'react-icons/fa';
-import { useLocation } from 'react-router-dom';
-import { toast, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-import axios from 'axios';
+import { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { useForm } from "react-hook-form";
+import {
+  FiArrowRight,
+  FiCheck,
+  FiUser,
+  FiPhone,
+  FiBookOpen,
+  FiMail,
+  FiMapPin,
+} from "react-icons/fi";
+import { FaGraduationCap } from "react-icons/fa";
+import { useLocation } from "react-router-dom";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import axios from "axios";
 import config from "../../lib/config";
 
 export default function FormComponent({ title1, title2 }) {
-  const { register, handleSubmit, formState: { errors }, reset } = useForm({
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm({
     defaultValues: {
-      name: '',
-      phone: '',
-      course: '',
-      location: ''
-    }
+      name: "",
+      phone: "",
+      course: "",
+      location: "",
+    },
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -25,20 +38,39 @@ export default function FormComponent({ title1, title2 }) {
   const location = useLocation();
 
   const courses = [
-    "SAP", "Salesforce", "AWS", "DevOps",
-    "Python", "AI & ML", "Data Analytics",
-    "Business Analytics", "ServiceNow", "HR Training"
+    "SAP",
+    "Salesforce",
+    "AWS",
+    "DevOps",
+    "Python",
+    "AI & ML",
+    "Data Analytics",
+    "Business Analytics",
+    "ServiceNow",
+    "HR Training",
   ];
 
   const SAPCourses = [
-    "SAP", "SAP MM", "SAP FICO", "SAP SD", "SAP HCM",
-    "SAP ABAP", "SAP BASIS", "SAP SCM", "SAP ARIBA",
-    "SAP PP", "SAP PM", "SAP QM", "SAP LE&SL",
-    "SAP WM&EWM", "SAP FIORI", "SAP BTP"
+    "SAP",
+    "SAP MM",
+    "SAP FICO",
+    "SAP SD",
+    "SAP HCM",
+    "SAP ABAP",
+    "SAP BASIS",
+    "SAP SCM",
+    "SAP ARIBA",
+    "SAP PP",
+    "SAP PM",
+    "SAP QM",
+    "SAP LE&SL",
+    "SAP WM&EWM",
+    "SAP FIORI",
+    "SAP BTP",
   ];
 
   useEffect(() => {
-    if (location.pathname.includes('sap')) {
+    if (location.pathname.includes("sap")) {
       setCourseData(SAPCourses);
     } else {
       setCourseData(courses);
@@ -60,28 +92,31 @@ export default function FormComponent({ title1, title2 }) {
         {
           headers: {
             "Content-Type": "application/json",
-          }
+          },
         }
       );
 
       if (response.data.success) {
-        // Submit to your backend 
+        // Submit to your backend
         const dbResponse = await axios.post(config.apiUrl, data);
 
-        toast.success("Thank you! We'll contact you shortly to schedule your demo.", {
-          position: "top-center",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-        });
+        toast.success(
+          "Thank you! We'll contact you shortly to schedule your demo.",
+          {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+          }
+        );
         reset();
       } else {
         throw new Error("Form submission failed");
       }
     } catch (error) {
-      console.error('Submission error:', error);
+      console.error("Submission error:", error);
       toast.error("Failed to submit the form. Please try again.", {
         position: "top-center",
         autoClose: 5000,
@@ -122,7 +157,10 @@ export default function FormComponent({ title1, title2 }) {
             animate={{ opacity: 1, y: 0 }}
             className="text-center text-2xl sm:text-3xl font-bold text-gray-800 dark:text-white mb-6"
           >
-            {title1 ? (title1) : ("Book Your")} <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">{title2 ? (title2) : ("Free Demo")}</span>
+            {title1 ? title1 : "Book Your"}{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
+              {title2 ? title2 : "Free Demo"}
+            </span>
           </motion.h2>
 
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
@@ -139,9 +177,9 @@ export default function FormComponent({ title1, title2 }) {
                   maxLength: { value: 50, message: "Maximum 50 characters" },
                   pattern: {
                     value: /^[a-zA-Z\s]*$/,
-                    message: "Only letters and spaces allowed"
-                  }
-                }
+                    message: "Only letters and spaces allowed",
+                  },
+                },
               },
               {
                 name: "phone",
@@ -151,11 +189,15 @@ export default function FormComponent({ title1, title2 }) {
                 placeholder: "Your phone number",
                 validation: {
                   required: "Phone number is required",
+                  maxLength: {
+                    value: 10,
+                    message: "Enter a valid 10-digit phone number.",
+                  },
                   pattern: {
                     value: /^[0-9]{10}$/,
-                    message: "Please enter a valid 10-digit number"
-                  }
-                }
+                    message: "Please enter a valid 10-digit number",
+                  },
+                },
               },
               {
                 name: "location",
@@ -165,23 +207,34 @@ export default function FormComponent({ title1, title2 }) {
                 placeholder: "Enter your location",
                 validation: {
                   required: "Location is required",
-                  minLength: { value: 3, message: "Minimum 3 characters" }
-                }
-              }
+                  minLength: { value: 3, message: "Minimum 3 characters" },
+                },
+              },
             ].map((field) => (
               <div key={field.name}>
                 <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 flex items-center">
-                  <img src={field.icon} alt={field.label} className="w-5 h-5 mr-2" />
+                  <img
+                    src={field.icon}
+                    alt={field.label}
+                    className="w-5 h-5 mr-2"
+                  />
                   {field.label}
                 </label>
                 <input
                   type={field.type}
+                  maxLength={field.type === "tel" ? 10 : undefined}
+                  onInput={(e) => {
+                    field.type === "tel"
+                      ? (e.target.value = e.target.value.replace(/\D/g, ""))
+                      : undefined;
+                  }}
                   {...register(field.name, field.validation)}
                   placeholder={field.placeholder}
-                  className={`w-full px-3 py-2 bg-white dark:bg-gray-800 border rounded-lg focus:ring-2 focus:outline-none ${errors[field.name]
-                      ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
-                      : 'border-gray-200 dark:border-gray-700 focus:ring-blue-500'
-                    }`}
+                  className={`w-full px-3 py-2 bg-white dark:bg-gray-800 border rounded-lg focus:ring-2 focus:outline-none ${
+                    errors[field.name]
+                      ? "border-red-500 focus:ring-red-500 dark:border-red-400"
+                      : "border-gray-200 dark:border-gray-700 focus:ring-blue-500"
+                  }`}
                 />
                 {errors[field.name] && (
                   <p className="mt-1 text-sm text-red-600 dark:text-red-400">
@@ -194,15 +247,20 @@ export default function FormComponent({ title1, title2 }) {
             {/* Course Dropdown */}
             <div>
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 flex items-center">
-                <img src='/icons/select-course.svg' alt='Course' className="w-6 h-6 mr-2" />
+                <img
+                  src="/icons/select-course.svg"
+                  alt="Course"
+                  className="w-6 h-6 mr-2"
+                />
                 Course
               </label>
               <select
                 {...register("course", { required: "Please select a course" })}
-                className={`w-full px-3 py-2 bg-white dark:bg-gray-800 text-black dark:text-white border rounded-lg focus:ring-2 focus:outline-none ${errors.course
-                    ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
-                    : 'border-gray-200 dark:border-gray-700 focus:ring-blue-500'
-                  }`}
+                className={`w-full px-3 py-2 bg-white dark:bg-gray-800 text-black dark:text-white border rounded-lg focus:ring-2 focus:outline-none ${
+                  errors.course
+                    ? "border-red-500 focus:ring-red-500 dark:border-red-400"
+                    : "border-gray-200 dark:border-gray-700 focus:ring-blue-500"
+                }`}
               >
                 <option value="">Select a course</option>
                 {courseName.map((course) => (
@@ -222,15 +280,22 @@ export default function FormComponent({ title1, title2 }) {
             <motion.button
               onHoverStart={() => setHovered(true)}
               onHoverEnd={() => setHovered(false)}
-              whileHover={{ scale: 1.02, boxShadow: "0 5px 15px -3px rgba(99,102,241,0.3)" }}
+              whileHover={{
+                scale: 1.02,
+                boxShadow: "0 5px 15px -3px rgba(99,102,241,0.3)",
+              }}
               whileTap={{ scale: 0.98 }}
               type="submit"
               disabled={isSubmitting}
               className="w-full bg-gradient-to-r from-blue-500 to-purple-500 text-white font-medium py-3 px-4 rounded-lg shadow-md relative overflow-hidden group disabled:opacity-70 disabled:cursor-not-allowed"
             >
               <span className="relative z-10 flex items-center justify-center">
-                {isSubmitting ? 'Submitting...' : 'Book Demo'}
-                <FiArrowRight className={`ml-2 transition-transform ${hovered ? 'translate-x-1' : ''}`} />
+                {isSubmitting ? "Submitting..." : "Book Demo"}
+                <FiArrowRight
+                  className={`ml-2 transition-transform ${
+                    hovered ? "translate-x-1" : ""
+                  }`}
+                />
               </span>
               <span className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity"></span>
             </motion.button>

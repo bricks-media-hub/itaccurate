@@ -1,11 +1,11 @@
-import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { useForm } from 'react-hook-form';
-import { FiArrowRight, FiCheck, FiX } from 'react-icons/fi';
-import axios from 'axios';
-import { toast, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-import config from '../../lib/config';
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { useForm } from "react-hook-form";
+import { FiArrowRight, FiCheck, FiX } from "react-icons/fi";
+import axios from "axios";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import config from "../../lib/config";
 
 export default function FreeDemoForm({ onClose, title1, title2 }) {
   const [isVisible, setIsVisible] = useState(true);
@@ -24,21 +24,21 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
     "ServiceNow",
     "HR Training",
     "Share Market",
-    "Data Engineering"
+    "Data Engineering",
   ];
 
   const {
     register,
     handleSubmit,
     formState: { errors },
-    reset
+    reset,
   } = useForm({
     defaultValues: {
-      name: '',
-      phone: '',
-      course: '',
-      location: ''
-    }
+      name: "",
+      phone: "",
+      course: "",
+      location: "",
+    },
   });
 
   // Handle form submission
@@ -58,22 +58,25 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
         {
           headers: {
             "Content-Type": "application/json",
-          }
+          },
         }
       );
 
       if (web3Response.data.success) {
-        // Submit to your backend 
+        // Submit to your backend
         const dbResponse = await axios.post(config.apiUrl, data);
         setIsVisible(false);
-        toast.success("Form submitted successfully! We'll contact you shortly.", {
-          position: "top-center",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-        });
+        toast.success(
+          "Form submitted successfully! We'll contact you shortly.",
+          {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+          }
+        );
 
         reset();
         setTimeout(() => {
@@ -83,7 +86,7 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
         throw new Error("Web3Forms submission failed");
       }
     } catch (error) {
-      console.error('Submission error:', error);
+      console.error("Submission error:", error);
       toast.error("Failed to submit the form. Please try again.", {
         position: "top-center",
         autoClose: 5000,
@@ -121,7 +124,7 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
               initial={{ scale: 0.9, y: 20 }}
               animate={{ scale: 1, y: 0 }}
               exit={{ scale: 0.9, y: 20 }}
-              transition={{ type: 'spring', damping: 25 }}
+              transition={{ type: "spring", damping: 25 }}
               id="enquiry"
               className="w-full md:max-w-2xl max-w-sm relative"
             >
@@ -149,17 +152,19 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
                       className="relative z-10"
                     >
                       <h2 className="text-2xl font-bold mb-2">
-                        {title1 ? (title1) : ("For Free Demo")}
+                        {title1 ? title1 : "For Free Demo"}
                       </h2>
                       <h3 className="text-3xl font-bold mb-6">
-                        {title2 ? (title2) : ("Enquiry Now!")}
+                        {title2 ? title2 : "Enquiry Now!"}
                       </h3>
                       <ul className="space-y-3 hidden md:block">
                         <li className="flex items-center">
-                          <FiCheck className="mr-2 text-xl" /> Get free career counseling
+                          <FiCheck className="mr-2 text-xl" /> Get free career
+                          counseling
                         </li>
                         <li className="flex items-center">
-                          <FiCheck className="mr-2 text-xl" /> Attend demo classes
+                          <FiCheck className="mr-2 text-xl" /> Attend demo
+                          classes
                         </li>
                         <li className="flex items-center">
                           <FiCheck className="mr-2 text-xl" /> Flexible timings
@@ -168,7 +173,8 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
                           <FiCheck className="mr-2 text-xl" /> Expert trainers
                         </li>
                         <li className="flex items-center">
-                          <FiCheck className="mr-2 text-xl" /> Multiple locations
+                          <FiCheck className="mr-2 text-xl" /> Multiple
+                          locations
                         </li>
                       </ul>
                     </motion.div>
@@ -184,112 +190,169 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
                       onSubmit={handleSubmit(onSubmit)}
                     >
                       <div className="mb-4">
-                        <label className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium" htmlFor="name">
-                          <img src='/icons/user.svg' alt='user' className="inline mr-2 w-5 h-5 -mt-1" /> Your Name
+                        <label
+                          className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium"
+                          htmlFor="name"
+                        >
+                          <img
+                            src="/icons/user.svg"
+                            alt="user"
+                            className="inline mr-2 w-5 h-5 -mt-1"
+                          />{" "}
+                          Your Name
                         </label>
                         <input
                           id="name"
-                          className={`w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 text-sm ${errors.name
-                            ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
-                            : 'border-gray-300 focus:ring-blue-500 dark:border-gray-600'
-                            } dark:bg-gray-700 dark:text-white`}
+                          className={`w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 text-sm ${
+                            errors.name
+                              ? "border-red-500 focus:ring-red-500 dark:border-red-400"
+                              : "border-gray-300 focus:ring-blue-500 dark:border-gray-600"
+                          } dark:bg-gray-700 dark:text-white`}
                           placeholder="Enter your full name"
-                          {...register('name', {
-                            required: 'Name is required',
+                          {...register("name", {
+                            required: "Name is required",
                             minLength: {
                               value: 3,
-                              message: 'Name must be at least 3 characters'
+                              message: "Name must be at least 3 characters",
                             },
                             maxLength: {
                               value: 50,
-                              message: 'Name must be less than 50 characters'
+                              message: "Name must be less than 50 characters",
                             },
                             pattern: {
                               value: /^[a-zA-Z\s]*$/,
-                              message: 'Name should contain only letters and spaces'
-                            }
+                              message:
+                                "Name should contain only letters and spaces",
+                            },
                           })}
                         />
                         {errors.name && (
-                          <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.name.message}</p>
+                          <p className="mt-1 text-sm text-red-600 dark:text-red-400">
+                            {errors.name.message}
+                          </p>
                         )}
                       </div>
 
                       <div className="mb-4">
-                        <label className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium" htmlFor="phone">
-                          <img src='/icons/phone.svg' alt='contact' className="inline mr-2 w-5 h-5 -mt-1" /> Phone Number
+                        <label
+                          className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium"
+                          htmlFor="phone"
+                        >
+                          <img
+                            src="/icons/phone.svg"
+                            alt="contact"
+                            className="inline mr-2 w-5 h-5 -mt-1"
+                          />{" "}
+                          Phone Number
                         </label>
                         <input
                           type="tel"
                           id="phone"
-                          className={`w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 text-sm ${errors.phone
-                            ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
-                            : 'border-gray-300 focus:ring-blue-500 dark:border-gray-600'
-                            } dark:bg-gray-700 dark:text-white`}
+                          maxLength={10}
+                          onInput={(e) => {
+                            e.target.value = e.target.value.replace(/\D/g, "");
+                          }}
+                          className={`w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 text-sm ${
+                            errors.phone
+                              ? "border-red-500 focus:ring-red-500 dark:border-red-400"
+                              : "border-gray-300 focus:ring-blue-500 dark:border-gray-600"
+                          } dark:bg-gray-700 dark:text-white`}
                           placeholder="Enter your phone number"
-                          {...register('phone', {
-                            required: 'Phone number is required',
+                          {...register("phone", {
+                            required: "Phone number is required",
+                            maxLength: {
+                              value: 10,
+                              message: "Enter a valid 10-digit phone number.",
+                            },
                             pattern: {
                               value: /^[0-9]{10}$/,
-                              message: 'Please enter a valid 10-digit phone number'
-                            }
+                              message:
+                                "Please enter a valid 10-digit phone number",
+                            },
                           })}
                         />
                         {errors.phone && (
-                          <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.phone.message}</p>
+                          <p className="mt-1 text-sm text-red-600 dark:text-red-400">
+                            {errors.phone.message}
+                          </p>
                         )}
                       </div>
 
                       <div className="mb-4">
-                        <label className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium" htmlFor="location">
-                          <img src='/icons/map-pin-icon.png' alt='contact' className="inline mr-2 w-5 h-5 -mt-1" /> Your Location
+                        <label
+                          className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium"
+                          htmlFor="location"
+                        >
+                          <img
+                            src="/icons/map-pin-icon.png"
+                            alt="contact"
+                            className="inline mr-2 w-5 h-5 -mt-1"
+                          />{" "}
+                          Your Location
                         </label>
                         <input
                           type="text"
                           id="location"
-                          className={`w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 text-sm ${errors.location
-                            ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
-                            : 'border-gray-300 focus:ring-blue-500 dark:border-gray-600'
-                            } dark:bg-gray-700 dark:text-white`}
+                          className={`w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 text-sm ${
+                            errors.location
+                              ? "border-red-500 focus:ring-red-500 dark:border-red-400"
+                              : "border-gray-300 focus:ring-blue-500 dark:border-gray-600"
+                          } dark:bg-gray-700 dark:text-white`}
                           placeholder="Enter your location"
-                          {...register('location', {
-                            required: 'Location is required',
+                          {...register("location", {
+                            required: "Location is required",
                             minLength: {
                               value: 3,
-                              message: 'Location must be at least 3 characters'
+                              message: "Location must be at least 3 characters",
                             },
                             maxLength: {
                               value: 100,
-                              message: 'Location must be less than 100 characters'
-                            }
+                              message:
+                                "Location must be less than 100 characters",
+                            },
                           })}
                         />
                         {errors.location && (
-                          <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.location.message}</p>
+                          <p className="mt-1 text-sm text-red-600 dark:text-red-400">
+                            {errors.location.message}
+                          </p>
                         )}
                       </div>
 
                       <div className="mb-6">
-                        <label className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium" htmlFor="course">
-                          <img src='/icons/select-course.svg' alt='contact' className="inline mr-2 w-7 h-7 -mt-1" /> Select a Course
+                        <label
+                          className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium"
+                          htmlFor="course"
+                        >
+                          <img
+                            src="/icons/select-course.svg"
+                            alt="contact"
+                            className="inline mr-2 w-7 h-7 -mt-1"
+                          />{" "}
+                          Select a Course
                         </label>
                         <select
                           id="course"
-                          className={`w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 text-sm ${errors.course
-                            ? 'border-red-500 focus:ring-red-500 dark:border-red-400'
-                            : 'border-gray-300 focus:ring-blue-500 dark:border-gray-600'
-                            } dark:bg-gray-700 dark:text-white`}
-                          {...register('course', {
-                            required: 'Please select a course'
+                          className={`w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 text-sm ${
+                            errors.course
+                              ? "border-red-500 focus:ring-red-500 dark:border-red-400"
+                              : "border-gray-300 focus:ring-blue-500 dark:border-gray-600"
+                          } dark:bg-gray-700 dark:text-white`}
+                          {...register("course", {
+                            required: "Please select a course",
                           })}
                         >
                           <option value="">-- Select a Course --</option>
-                          {courses.map(course => (
-                            <option key={course} value={course}>{course}</option>
+                          {courses.map((course) => (
+                            <option key={course} value={course}>
+                              {course}
+                            </option>
                           ))}
                         </select>
                         {errors.course && (
-                          <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.course.message}</p>
+                          <p className="mt-1 text-sm text-red-600 dark:text-red-400">
+                            {errors.course.message}
+                          </p>
                         )}
                       </div>
 
@@ -300,7 +363,8 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
                         disabled={isSubmitting}
                         className="w-full bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-500 hover:to-purple-500 text-white font-medium py-3 px-4 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg disabled:opacity-70 disabled:cursor-not-allowed"
                       >
-                        {isSubmitting ? 'Submitting...' : 'Submit Now'} <FiArrowRight className="inline ml-2" />
+                        {isSubmitting ? "Submitting..." : "Submit Now"}{" "}
+                        <FiArrowRight className="inline ml-2" />
                       </motion.button>
                     </motion.form>
                   </div>

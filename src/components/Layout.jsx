@@ -5,6 +5,7 @@ import Footer from "./HomePage/Footer";
 import ScrollToTop from "../lib/ScrollToTop";
 import ChatBotWidget from "./ChatBot/ChatBotWidget";
 import { MapContextProvider } from "../lib/MapContext";
+import WhatsAppIcon from "./WhatsAppIcon";
 
 function Layout() {
   const [activeLocation, setActiveLocation] = useState("nagpur");
@@ -18,6 +19,7 @@ function Layout() {
         <Footer />
         {/* TODO */}
         {/* <ChatBotWidget /> */}
+        <WhatsAppIcon />
       </MapContextProvider>
     </div>
   );

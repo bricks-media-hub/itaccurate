@@ -79,7 +79,7 @@ const SearchBar = ({ variant = 'desktop', className = '' }) => {
           placeholder={
             variant === 'mobile'
               ? 'Search...'
-              : 'Search courses, topics...'
+              : 'Search pages, courses...'
           }
           value={searchTerm}
           onChange={(e) => {
