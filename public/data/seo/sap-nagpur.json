@@ -1,4 +1,104 @@
 {
+  "seo-data": {
+    "title": "Best SAP Course in Nagpur | IT Accurate - SAP Training & Certification",
+    "description": "Enroll in the best SAP course in Nagpur with placement support at IT Accurate. Join our expert-led SAP classes including FICO & more. Start your SAP career today!",
+    "keywords": "sap course in nagpur, sap classes in nagpur, sap training in nagpur, sap institute in nagpur, sap fico course in nagpur, sap course in nagpur with placement, sap training institute in nagpur",
+    "canonical": "https://itaccurate.com/sap-course-in-nagpur",
+    "scriptContents": {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "Sapalogy Training - IT ACCURATE",
+      "alternateName": "IT Accurate",
+      "description": "Software training institute in Nagpur, Maharashtra, offering SAP and Data Analytics courses with real-time project exposure.",
+      "url": "https://itaccurate.com",
+      "sameAs": [
+        "https://www.facebook.com/Sapalogy/",
+        "https://www.instagram.com/it.accurate/",
+        "https://www.linkedin.com/posts/sapalogy-pvt-ltd_sapeducation-partner-nasik-activity-6584811124691165184-5l6o/",
+        "https://www.youtube.com/channel/UCXZYBXNxKE02guTUKujOq7w"
+      ],
+      "telephone": "+919175978889",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "607, 608 B-wing, Lokmat Bhavan, Lokmat Square, Ramdaspeth",
+        "addressLocality": "Nagpur",
+        "addressRegion": "Maharashtra",
+        "postalCode": "440012",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 21.1354806,
+        "longitude": 79.0780286
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "09:00",
+          "closes": "19:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "3"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Deepak Jiwtode"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "datePublished": "2025-02-26",
+          "reviewBody": "The training conducted by Sapalogy was awesome. It helped me to understand SAP project system module with good conceptual clarity and real-world scenarios."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Yash Verma"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "datePublished": "2025-01-15",
+          "reviewBody": "Sapology Training is a highly effective way to improve communication and conflict resolution skills! Engaging and experienced trainers."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Parvat Rajpurohit"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "datePublished": "2025-05-12",
+          "reviewBody": "The SAP FICO course at IT Accurate was well-structured. Trainer explained concepts clearly and gave real-time project exposure."
+        }
+      ],
+      "department": {
+        "@type": "EducationalOccupationalProgram",
+        "name": "SAP Training",
+        "occupationalCategory": "SAP"
+      }
+    }
+  },
   "panel1": {
     "imageUrl": "/icons/corporate-training.png",
     "heading": "<span class='underline text-indigo-800 dark:text-indigo-300'>SAP Course</span> in Nagpur – Practical Training with <span class='underline text-indigo-800 dark:text-indigo-300'>100% Placement</span>",

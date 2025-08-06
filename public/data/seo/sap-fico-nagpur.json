@@ -1,4 +1,104 @@
 {
+    "seo-data": {
+        "title": "SAP FICO Course in Nagpur | Best SAP FICO Training at IT Accurate",
+        "description": "Enroll in the best SAP FICO course in Nagpur at IT Accurate. Get expert-led training, hands-on practice, and SAP certification. Start your SAP FICO career today!",
+        "keywords": "SAP FICO Course in Nagpur, SAP FICO Training Nagpur, SAP FICO Classes in Nagpur, Best SAP FICO Institute Nagpur, IT Accurate SAP FICO, SAP FICO Certification Nagpur, SAP Training Nagpur, SAP FICO Module Nagpur",
+        "canonical": "https://www.itaccurate.com/sap-fico-course-in-nagpur",
+        "scriptContents": {
+            "@context": "https://schema.org",
+            "@type": "EducationalOrganization",
+            "name": "Sapalogy Training - IT ACCURATE",
+            "alternateName": "IT Accurate",
+            "description": "Software training institute in Nagpur, Maharashtra, offering SAP and Data Analytics courses with real-time project exposure.",
+            "url": "https://itaccurate.com",
+            "sameAs": [
+                "https://www.facebook.com/Sapalogy/",
+                "https://www.instagram.com/it.accurate/",
+                "https://www.linkedin.com/posts/sapalogy-pvt-ltd_sapeducation-partner-nasik-activity-6584811124691165184-5l6o/",
+                "https://www.youtube.com/channel/UCXZYBXNxKE02guTUKujOq7w"
+            ],
+            "telephone": "+919175978889",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "607, 608 B-wing, Lokmat Bhavan, Lokmat Square, Ramdaspeth",
+                "addressLocality": "Nagpur",
+                "addressRegion": "Maharashtra",
+                "postalCode": "440012",
+                "addressCountry": "IN"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 21.1354806,
+                "longitude": 79.0780286
+            },
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Monday",
+                        "Tuesday",
+                        "Wednesday",
+                        "Thursday",
+                        "Friday",
+                        "Saturday"
+                    ],
+                    "opens": "09:00",
+                    "closes": "19:00"
+                }
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5",
+                "reviewCount": "3"
+            },
+            "review": [
+                {
+                    "@type": "Review",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Deepak Jiwtode"
+                    },
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "datePublished": "2025-02-26",
+                    "reviewBody": "The training conducted by Sapalogy was awesome. It helped me to understand SAP project system module with good conceptual clarity and real-world scenarios."
+                },
+                {
+                    "@type": "Review",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Yash Verma"
+                    },
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "datePublished": "2025-01-15",
+                    "reviewBody": "Sapology Training is a highly effective way to improve communication and conflict resolution skills! Engaging and experienced trainers."
+                },
+                {
+                    "@type": "Review",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Parvat Rajpurohit"
+                    },
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "datePublished": "2025-05-12",
+                    "reviewBody": "The SAP FICO course at IT Accurate was well-structured. Trainer explained concepts clearly and gave real-time project exposure."
+                }
+            ],
+            "department": {
+                "@type": "EducationalOccupationalProgram",
+                "name": "SAP Training",
+                "occupationalCategory": "SAP"
+            }
+        }
+    },
     "panel1": {
         "imageUrl": "/icons/corporate-training2.png",
         "heading": "<span class='underline text-indigo-800 dark:text-indigo-300'>SAP FICO Course</span> in Nagpur – Hands-On Training with <span class='underline text-indigo-800 dark:text-indigo-300'>Certification & Placement</span>",
@@ -49,7 +149,9 @@
     "panel5": {
         "imageUrl": "/icons/placement-support.png",
         "heading": "Placement Support for SAP FICO Aspirants in Nagpur",
-        "content": ["At IT Accurate, we’re as committed to your career as you are. With our <span class='text-blue-600'>SAP FICO course in Nagpur</span>, we offer complete placement support—from resume building to mock interviews and job referrals. Our dedicated placement cell connects you with companies hiring SAP FICO consultants, finance executives, and support specialists. We’ve built a strong network of industry recruiters across Nagpur, Pune, Mumbai, and beyond. Your success is our goal, and we go the extra mile to ensure every student gets the guidance and opportunities they need to step confidently into the SAP world."]
+        "content": [
+            "At IT Accurate, we’re as committed to your career as you are. With our <span class='text-blue-600'>SAP FICO course in Nagpur</span>, we offer complete placement support—from resume building to mock interviews and job referrals. Our dedicated placement cell connects you with companies hiring SAP FICO consultants, finance executives, and support specialists. We’ve built a strong network of industry recruiters across Nagpur, Pune, Mumbai, and beyond. Your success is our goal, and we go the extra mile to ensure every student gets the guidance and opportunities they need to step confidently into the SAP world."
+        ]
     },
     "panel6": {
         "heading": "Who Can Join the SAP FICO Course?",
