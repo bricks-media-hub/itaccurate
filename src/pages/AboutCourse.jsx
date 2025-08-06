@@ -81,6 +81,8 @@ function AboutCourse() {
         {/* Dangerously inject any full‐script blocks (JSON-LD, GTM, etc.) */}
         {scriptTag && <div dangerouslySetInnerHTML={{ __html: scriptTag }} />}
       </Helmet>
+
+      
       {/* normal regular page starts here */}
       <div className="relative bg-white dark:bg-gray-900 transition-colors duration-300">
         {/* Hero Section */}
