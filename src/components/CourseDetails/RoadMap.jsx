@@ -192,7 +192,7 @@ const CentralPipeline = () => (
 
       {/* Animated bike rider */}
       <motion.div
-        className="absolute top-1/2 left-0 w-14 h-14 -mt-7 transform -translate-y-1/2 -translate-x-full z-10"
+        className="absolute top-1/2 left-0 w-11 h-14 -mt-7 transform -translate-y-1/2 -translate-x-full z-10"
         initial={{ x: "-100%" }}
         animate={{ x: "100vw" }}
         transition={{

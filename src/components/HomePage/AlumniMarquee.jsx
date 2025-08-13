@@ -95,7 +95,7 @@ const AlumniMarquee = ({ title }) => {
   }, []);
 
   return (
-    <section className="w-full py-12 bg-gradient-to-r from-blue-100 to-purple-100 dark:from-gray-900 dark:to-gray-800">
+    <section className="w-full py-12 bg-gradient-to-r from-blue-100 to-purple-100 dark:from-gray-950 dark:to-gray-800">
 <h2
   className={`text-3xl md:text-4xl font-bold text-center mb-6 ${
     title ? 'text-4xl md:text-5xl font-bold mb-4 text-blue-800 dark:text-blue-300' : 'text-gray-800 dark:text-white'
