@@ -1,9 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import PopUpTimeOut from '../lib/PopUpTimeOut';
 
 function Jobs() {
   return (
     <div className="min-h-screen py-20 px-4 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-900 dark:to-gray-800">
+      <PopUpTimeOut />
       <div className="max-w-6xl mx-auto">
         {/* Header with animation */}
         <motion.div

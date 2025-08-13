@@ -6,6 +6,7 @@ import * as THREE from "three";
 import { Link } from "react-router-dom";
 import Stats from "../components/Career/Stats";
 import { fetchCurrentJobOpenings } from "../api/fetchComponentData";
+import PopUpTimeOut from "../lib/PopUpTimeOut";
 
 const FloatingIcons = () => {
   return (
@@ -106,6 +107,7 @@ const Career = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 overflow-x-hidden">
+      <PopUpTimeOut />
       {/* Hero Section with 3D Background */}
       <section className="relative h-[500px] md:h-[600px]">
         <div className="absolute inset-0 bg-black/40 z-10" />

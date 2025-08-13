@@ -24,6 +24,7 @@ import TestimonialSlider from "../components/CourseDetails/TestimonialSlider";
 import AboutCourseSkeleton from "../components/ui/SkeletonEffects/AboutCourseSkeleton";
 import AdvancedRoadMap from "../components/CourseDetails/AdvancedRoadMap";
 import OfferedCourses from "../components/CourseDetails/OfferedCourses";
+import PopUpTimeOut from "../lib/PopUpTimeOut";
 
 function AboutCourse() {
   const courseDetail = useLoaderData();
@@ -56,6 +57,7 @@ function AboutCourse() {
 
   return (
     <div className="relative bg-white dark:bg-gray-900 transition-colors duration-300">
+      <PopUpTimeOut />
       {/* Hero Section */}
       <section className="relative w-full overflow-visible py-16 sm:py-20 md:py-24 bg-white dark:bg-gray-900">
         <div

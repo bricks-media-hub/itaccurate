@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import NavBar from "./HomePage/Navbar/NavBar";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Footer from "./HomePage/Footer";
 import ScrollToTop from "../lib/ScrollToTop";
 import ChatBotWidget from "./ChatBot/ChatBotWidget";

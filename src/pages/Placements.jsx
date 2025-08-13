@@ -7,6 +7,7 @@ import SuccessfulStudentPlaced from '../components/Placement/SuccessfulStudentPl
 import OtherCareerStats from '../components/Placement/OtherCareerStats';
 import SuccessStats from '../components/Placement/SuccessStats';
 import SubscribeDemo from '../components/Placement/SubscribeDemo';
+import PopUpTimeOut from '../lib/PopUpTimeOut';
 
 const Placements = () => {
   const [showForm, setShowForm] = useState(false);
@@ -21,6 +22,7 @@ const placementStats = [
 
   return (
     <div className="dark:bg-gray-900 relative">
+      <PopUpTimeOut />
       {/* Header section */}
       <section className="mt-16">
         <div className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 py-10 px-4 sm:px-6 lg:px-8">

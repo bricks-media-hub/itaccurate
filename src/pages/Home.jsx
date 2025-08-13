@@ -3,7 +3,6 @@ import NavBar from '../components/HomePage/Navbar/NavBar';
 import Banner from '../components/HomePage/Banner/Banner';
 import CompanyPartnersRatings from '../components/HomePage/CompanyPartnersRatings';
 import TrainingCourses from '../components/HomePage/TrainingCourses';
-import FreeDemoForm from '../components/ContactUs/FreeDemoForm';
 import { WhatMakesUsDifferent } from '../components/HomePage/WhatMakesUsDifferent';
 import PlacedStudents from '../components/HomePage/PlacedStudents';
 import ReachUsForm from '../components/ContactUs/ReachUsForm';
@@ -16,22 +15,14 @@ import JobPreparation from '../components/HomePage/JobPreparation';
 import ContactUs from '../components/ContactUs/ContactUs';
 import Slider from '../components/HomePage/Slider';
 import Footer from '../components/HomePage/Footer';
+import PopUpTimeOut from '../lib/PopUpTimeOut';
 
 function Home() {
-
-  const [freeDemoFormPopUp, setFreeDemoFormPopUp] = useState(false);
   const [activeLocation, setActiveLocation] = useState('nagpur');
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setFreeDemoFormPopUp(true);
-    }, 15000);
-    return () => clearTimeout(timer);
-  }, []);
 
   return (
     <div className="font-sans">
-      {freeDemoFormPopUp && <FreeDemoForm />}
+      <PopUpTimeOut />
       {/* <NavBar /> */}
       <Banner />
       <div className='mt-32'>

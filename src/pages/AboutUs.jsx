@@ -7,12 +7,14 @@ import Awards from "../components/About/Awards";
 import MOUSlider from "../components/About/MOUSlider";
 import PlacementsSection from "../components/About/PlacementSection";
 import { motion } from "framer-motion";
+import PopUpTimeOut from "../lib/PopUpTimeOut";
 
 const AboutUs = () => {
   const [showForm, setShowForm] = useState(false);
 
   return (
     <div className="bg-gray-50 dark:bg-slate-900 dark:text-white transition-colors duration-500">
+      <PopUpTimeOut />
       <Hero />
       <Certification />
       <Awards />

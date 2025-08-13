@@ -10,6 +10,7 @@ import Panel8 from "./Panel8";
 import Panel9 from "./Panel9";
 import Panel10 from "./Panel10";
 import { useLocation } from "react-router-dom";
+import PopUpTimeOut from "../lib/PopUpTimeOut";
 
 function LandingPage() {
   const [content, setContent] = useState({});
@@ -44,6 +45,7 @@ function LandingPage() {
 
   return (
     <div>
+      <PopUpTimeOut />
       {content?.panel1 && (
         <Panel1 data={content.panel1} isLoading={isLoading} imageUrl={content?.panel1.imageUrl}/>
       )}
