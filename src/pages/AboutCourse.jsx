@@ -22,7 +22,6 @@ import CourseOpportunities from "../components/CourseDetails/CourseOpportunities
 import Projects from "../components/CourseDetails/Projects";
 import TestimonialSlider from "../components/CourseDetails/TestimonialSlider";
 import AboutCourseSkeleton from "../components/ui/SkeletonEffects/AboutCourseSkeleton";
-import AdvancedRoadMap from "../components/CourseDetails/AdvancedRoadMap";
 import OfferedCourses from "../components/CourseDetails/OfferedCourses";
 import PopUpTimeOut from "../lib/PopUpTimeOut";
 
@@ -141,9 +140,22 @@ function AboutCourse() {
           </div>
         </div>
       </section>
-
+      {console.log(courseDetail?.coveringTopics)}
+      {/* another topic section for Data Analytics */}
+      {location.pathname === "/best-data-analytics-training" && (
+        <TopicsSection coveringTopics={courseDetail?.coveringTopics2} 
+        heading={
+          <span>
+            All the <span className="text-blue-600">Topics</span> Will Be
+            Covered in{" "}
+            <span className="text-blue-600">Detail</span>
+          </span>
+        }
+        />
+      )}
+      {/* conditionally send heading on route change */}
       {courseDetail.coveringTopics && (
-        <TopicsSection courseDetail={courseDetail} />
+        <TopicsSection coveringTopics={courseDetail?.coveringTopics} heading={location.pathname === "/best-data-analytics-training" && <span className="text-blue-600">Also Include</span>} />
       )}
 
       {courseDetail.whatIs && <WhatIs />}
@@ -157,7 +169,6 @@ function AboutCourse() {
       {courseDetail.roadMap && (
         <RoadMap data={courseDetail.roadMap} title={courseDetail.whatIs.name} />
       )}
-      {/* {courseDetail.roadMap && <AdvancedRoadMap data={courseDetail.roadMap} title={courseDetail.whatIs.name} />} */}
 
       {courseDetail.trainingSyllabus && <TrainingSyllabus syllabus={trainingSyllabus} />}
 

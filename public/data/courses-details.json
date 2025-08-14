@@ -6706,7 +6706,7 @@
                 },
                 {
                     "title": "ChatGPT",
-                    "icon": "/icons/ai-bot.svg"
+                    "icon": "/icons/chatgpt.svg"
                 },
                 {
                     "title": "Interview preparation",
@@ -6727,6 +6727,56 @@
                 {
                     "title": "100% job opportunities guaranteed program",
                     "icon": "/icons/job-assist.svg"
+                }
+            ],
+            "coveringTopics2": [
+                {
+                    "title": "Python",
+                    "icon": "/globeLogos/python.png"
+                },
+                {
+                    "title": "Tableau",
+                    "icon": "/globeLogos/tabelau2.png"
+                },
+                {
+                    "title": "Power BI",
+                    "icon": "/globeLogos/power-bi.svg"
+                },
+                {
+                    "title": "Advanced Excel",
+                    "icon": "/globeLogos/excel.png"
+                },
+                {
+                    "title": "Machine Learning",
+                    "icon": "/icons/brain.svg"
+                },
+                {
+                    "title": "R Programming",
+                    "icon": "/globeLogos/r-program.png"
+                },
+                {
+                    "title": "Jupyter (Python Notebook)",
+                    "icon": "/globeLogos/jupyter.png"
+                },
+                {
+                    "title": "NumPy",
+                    "icon": "/globeLogos/numpy.png"
+                },
+                {
+                    "title": "Pandas",
+                    "icon": "/globeLogos/pandas.png"
+                },
+                {
+                    "title": "TensorFlow",
+                    "icon": "/globeLogos/tensorflow.svg"
+                },
+                {
+                    "title": "Mongo DB",
+                    "icon": "/globeLogos/mongodb.svg"
+                },
+                {
+                    "title": "MySQL",
+                    "icon": "/globeLogos/mysql.png"
                 }
             ],
             "whatIs": {
