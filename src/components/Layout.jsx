@@ -12,7 +12,7 @@ function Layout() {
   const [activeLocation, setActiveLocation] = useState("nagpur");
 
   return (
-    <div className="inset-0 w-full overflow-x-hidden md:overflow-visible">
+    <div className="inset-0 w-full overflow-x-hidden">
       <MapContextProvider>
         <NavBar />
         <ScrollToTop />
