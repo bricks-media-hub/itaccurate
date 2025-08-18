@@ -7237,6 +7237,56 @@
                     "icon": "/icons/job.svg"
                 }
             ],
+            "coveringTopics2": [
+                {
+                    "title": "Linux",
+                    "icon": "/icons/Linux.svg"
+                },
+                {
+                    "title": "Amazon Web Services",
+                    "icon": "/icons/aws-color.svg"
+                },
+                {
+                    "title": "Git",
+                    "icon": "/icons/git.svg"
+                },
+                {
+                    "title": "Jenkins",
+                    "icon": "/icons/Jenkins.svg"
+                },
+                {
+                    "title": "Terraform",
+                    "icon": "/icons/teraform.svg"
+                },
+                {
+                    "title": "Ansible",
+                    "icon": "/icons/Ansible.svg"
+                },
+                {
+                    "title": "Docker",
+                    "icon": "/icons/docker.svg"
+                },
+                {
+                    "title": "Kubernetes",
+                    "icon": "/icons/Kubernetes.svg"
+                },
+                {
+                    "title": "Selenium",
+                    "icon": "/icons/Selenium.svg"
+                },
+                {
+                    "title": "Apache Maven",
+                    "icon": "/icons/Apache-Maven.svg"
+                },
+                {
+                    "title": "OpenStack",
+                    "icon": "/icons/OpenStack.svg"
+                },
+                {
+                    "title": "GitLab",
+                    "icon": "/icons/GitLab.svg"
+                }
+            ],
             "whatIs": {
                 "name": "DevOps",
                 "points": [
@@ -12771,6 +12821,68 @@
                     "description": "Get career support and placement assistance post-completion"
                 }
             ],
+            "coveringTopics2": [
+                {
+                    "title": "Python",
+                    "icon": "/icons/python.svg"
+                },
+                {
+                    "title": "Apache Spark",
+                    "icon": "/icons/Apache-Spark.svg"
+                },
+                {
+                    "title": "TensorFlow",
+                    "icon": "/globeLogos/tensorflow.svg"
+                },
+                {
+                    "title": "Scikit Learn",
+                    "icon": "/icons/scikit-learn.svg"
+                },
+                {
+                    "title": "Power BI",
+                    "icon": "/globeLogos/power-bi.svg"
+                },
+                {
+                    "title": "Tableau",
+                    "icon": "/globeLogos/tabelau2.png"
+                },
+                {
+                    "title": "NumPy",
+                    "icon": "/globeLogos/numpy.png"
+                },
+                {
+                    "title": "SQL",
+                    "icon": "/icons/Azure-sql.svg"
+                },
+                {
+                    "title": "Machine Learnig",
+                    "icon": "/icons/brain.svg"
+                },
+                                {
+                    "title": "Natural Language Processing (NLP)",
+                    "icon": "/icons/nlp.webp"
+                },
+                                {
+                    "title": "Artificial Intelligence (AI)",
+                    "icon": "/globeLogos/ai.png"
+                },
+                                {
+                    "title": "R Programming",
+                    "icon": "/globeLogos/r-program.png"
+                },
+                                {
+                    "title": "Statistics",
+                    "icon": "/icons/stats3.svg"
+                },
+                                {
+                    "title": "Microsoft Excel",
+                    "icon": "/globeLogos/excel.png"
+                },
+                                {
+                    "title": "Computer Vision",
+                    "icon": "/icons/computer-vision.svg"
+                }
+            ],
             "whatIs": {
                 "name": "Data Science ",
                 "points": [
@@ -17335,6 +17447,41 @@
                     "title": "100% job opportunities guaranteed program",
                     "icon": "/icons/job.svg"
                 }
+            ],
+            "coveringTopics2": [
+                {
+                    "title": "Statistics",
+                    "icon": "/icons/stats3.svg"
+                },
+                {
+                    "title": "Microsoft Excel",
+                    "icon": "/globeLogos/excel.png"
+                },
+                                {
+                    "title": "Power BI",
+                    "icon": "/globeLogos/power-bi.svg"
+                },
+                                {
+                    "title": "MySQL",
+                    "icon": "/globeLogos/mysql.png"
+                },
+                                {
+                    "title": "GitHub",
+                    "icon": "/icons/github.svg"
+                },  
+                                {
+                    "title": "Amazon Web Services",
+                    "icon": "/icons/aws-color.svg"
+                },
+                                {
+                    "title": "ChatGPT",
+                    "icon": "/icons/chatgpt.svg"
+                },
+                                {
+                    "title": "Snowflake",
+                    "icon": "/icons/snowflake.svg"
+                }
+
             ],
             "whatIs": {
                 "name": "Business analytics ",

@@ -28,7 +28,7 @@ import PopUpTimeOut from "../lib/PopUpTimeOut";
 function AboutCourse() {
   const courseDetail = useLoaderData();
   const location = useLocation();
-  
+
   // Safely destructure with fallbacks
   const {
     name = "",
@@ -140,23 +140,34 @@ function AboutCourse() {
           </div>
         </div>
       </section>
-      {console.log(courseDetail?.coveringTopics)}
-      {/* another topic section for Data Analytics */}
-      {location.pathname === "/best-data-analytics-training" && (
-        <TopicsSection coveringTopics={courseDetail?.coveringTopics2} 
-        heading={
-          <span>
-            All the <span className="text-blue-600">Topics</span> Will Be
-            Covered in{" "}
-            <span className="text-blue-600">Detail</span>
-          </span>
-        }
-        />
+
+      {/* conditionally rendering coveringTopics on basis of coveringTopics/coveringTopics2 availability */}
+      {courseDetail?.coveringTopics2 && (
+        <>
+        {/* coveringTopics 1 */}
+          <TopicsSection
+            coveringTopics={courseDetail?.coveringTopics2}
+            heading={
+              <span>
+                All the <span className="text-blue-600">Topics</span> Will Be
+                Covered in <span className="text-blue-600">Detail</span>
+              </span>
+            }
+          />
+          {/* coveringTopics 2 */}
+          <TopicsSection
+            coveringTopics={courseDetail?.coveringTopics}
+            heading={
+                <span className="text-blue-600">Also Include</span>
+            }
+          />
+        </>
       )}
-      {/* conditionally send heading on route change */}
-      {courseDetail.coveringTopics && (
-        <TopicsSection coveringTopics={courseDetail?.coveringTopics} heading={location.pathname === "/best-data-analytics-training" && <span className="text-blue-600">Also Include</span>} />
-      )}
+
+      {/* rendering if coveringTopics2 is not available */}
+      {
+        !courseDetail?.coveringTopics2 && <TopicsSection coveringTopics={courseDetail?.coveringTopics} />
+      }
 
       {courseDetail.whatIs && <WhatIs />}
 
@@ -170,7 +181,9 @@ function AboutCourse() {
         <RoadMap data={courseDetail.roadMap} title={courseDetail.whatIs.name} />
       )}
 
-      {courseDetail.trainingSyllabus && <TrainingSyllabus syllabus={trainingSyllabus} />}
+      {courseDetail.trainingSyllabus && (
+        <TrainingSyllabus syllabus={trainingSyllabus} />
+      )}
 
       {location.pathname.slice(1) === "sap-mm" && (
         <TrainingSyllabus syllabus={trainingSyllabus2} />
@@ -182,9 +195,13 @@ function AboutCourse() {
 
       <JobPreparation />
 
-      <CertificationSection certificateImg={null} courseName={name} certificationPoints={certificationPoints}/>
+      <CertificationSection
+        certificateImg={null}
+        courseName={name}
+        certificationPoints={certificationPoints}
+      />
 
-      {/* Show on evrey page which is not related sap and conditionally render if projects section available */}
+      {/* Show on evrey page which is not related to sap and conditionally render if projects section available */}
       {!location.pathname.includes("sap") && courseDetail.projects && (
         <Projects projects={projects} name={name} />
       )}
