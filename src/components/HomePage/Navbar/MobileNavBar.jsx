@@ -278,10 +278,12 @@ const MobileNavBar = ({
                       }
                     }}
                   >
-                    <div className="flex items-center text-lg">
+                    <Link to={`${item.path}`} className="w-full">
+                    <div className="flex items-center text-lg w-full">
                       <span className="mr-2 w-5 h-5">{item.icon}</span>
-                      <Link to={`${item.path}`}>{item.name}</Link>
+                        {item.name}
                     </div>
+                    </Link>
                     {item.hasDropdown && (
                       <span>
                         {mobileActiveMenu === item.name ? (

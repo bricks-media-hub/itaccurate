@@ -317,9 +317,9 @@ const handleLocationClick = (e, location) => {
 };
 
   return (
-    <footer className="w-full bg-gray-50 dark:bg-black text-gray-800 dark:text-gray-200 pt-12 pb-6 shadow-lg transition-colors duration-300">
+    <footer className="bg-gray-50 dark:bg-black text-gray-800 dark:text-gray-200 pt-12 pb-6 shadow-lg transition-colors duration-300">
       {/* Responsive outer padding */}
-      <div className="w-full lg:ml-16 px-4 sm:px-6 lg:px-8 3xl:px-20 4xl:px-32 5xl:px-52 transition-all duration-300">
+      <div className="lg:ml-16 px-4 sm:px-6 lg:px-8 3xl:px-20 4xl:px-32 5xl:px-52 transition-all duration-300">
         {/* Constrain content up to 5xl */}
         <div className="max-w-screen-5xl mx-auto">
           {/* Mobile Layout */}

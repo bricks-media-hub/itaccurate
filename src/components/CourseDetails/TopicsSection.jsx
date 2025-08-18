@@ -77,7 +77,7 @@ function TopicsSection({ coveringTopics, heading }) {
 
                 {topic?.description && (
                   <motion.p
-                    className="text-sm sm:text-[0.92rem] text-center text-gray-600 dark:text-gray-300 leading-relaxed"
+                    className="text-sm sm:text-[0.92rem] sm:text-center text-gray-600 dark:text-gray-300 leading-relaxed"
                     initial={{ opacity: 0, height: 0 }}
                     whileInView={{ opacity: 1, height: "auto" }}
                     transition={{ delay: getDelay(index) + 0.2 }}
