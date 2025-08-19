@@ -15,6 +15,8 @@ import {
   FiMap,
 } from "react-icons/fi";
 import { GoogleMap } from "../lib/GoogleMap";
+import config from "../lib/config";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
   const {
@@ -36,6 +38,7 @@ const Contact = () => {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const messageContent = watch("message"); // Track message field but don't submit it
+  const navigate = useNavigate();
 
   const courses = [
     "SAP",
@@ -59,7 +62,7 @@ const Contact = () => {
       ),
       location: "Nagpur",
       address:
-        "607, 608 B-wing, Lokmat Bhavan, Lokmat Square, Ramdaspehi, Nagpur",
+        "607, 608 B-wing, Lokmat Bhavan, Lokmat Square, Ramdaspeth, Nagpur 440012",
       phoneLink: "tel:09175978889",
       phone: "09175978889",
       email: "info@itaccurate.com",
@@ -72,7 +75,7 @@ const Contact = () => {
         <img src="/icons/location.svg" alt="location" className="w-10 h-10" />
       ),
       location: "Thane",
-      address: "Office No. 806, Paradise Tower, Noupada, Thane West",
+      address: "Office No. 806, 8th Floor, Paradise Tower, next to McDonald's, Naupada, Thane West 400602",
       phoneLink: "tel:07738277389",
       phone: "07738277389",
       email: "info@itaccurate.com",
@@ -106,15 +109,17 @@ const Contact = () => {
       );
 
       if (response.data.success) {
-        toast.success("Thank you for your message! We'll contact you soon.", {
-          position: "top-center",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-        });
+        await axios.post(config.apiUrl, data);
+        // toast.success("Thank you for your message! We'll contact you soon.", {
+        //   position: "top-center",
+        //   autoClose: 5000,
+        //   hideProgressBar: false,
+        //   closeOnClick: true,
+        //   pauseOnHover: true,
+        //   draggable: true,
+        // });
         reset();
+        navigate("/successful");
       } else {
         throw new Error("Form submission failed");
       }

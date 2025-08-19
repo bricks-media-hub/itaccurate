@@ -11,7 +11,7 @@ import {
   FiMapPin,
 } from "react-icons/fi";
 import { FaGraduationCap } from "react-icons/fa";
-import { useLocation } from "react-router-dom";
+import { redirect, useLocation, useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
@@ -36,6 +36,7 @@ export default function FormComponent({ title1, title2 }) {
   const [hovered, setHovered] = useState(false);
   const [courseName, setCourseData] = useState([]);
   const location = useLocation();
+  const navigate = useNavigate();
 
   const courses = [
     "SAP",
@@ -100,18 +101,19 @@ export default function FormComponent({ title1, title2 }) {
         // Submit to your backend
         const dbResponse = await axios.post(config.apiUrl, data);
 
-        toast.success(
-          "Thank you! We'll contact you shortly to schedule your demo.",
-          {
-            position: "top-center",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-          }
-        );
+        // toast.success(
+        //   "Thank you! We'll contact you shortly to schedule your demo.",
+        //   {
+        //     position: "top-center",
+        //     autoClose: 5000,
+        //     hideProgressBar: false,
+        //     closeOnClick: true,
+        //     pauseOnHover: true,
+        //     draggable: true,
+        //   }
+        // );
         reset();
+        navigate("/successful");
       } else {
         throw new Error("Form submission failed");
       }
@@ -230,11 +232,10 @@ export default function FormComponent({ title1, title2 }) {
                   }}
                   {...register(field.name, field.validation)}
                   placeholder={field.placeholder}
-                  className={`w-full px-3 py-2 bg-white dark:bg-gray-800 border rounded-lg focus:ring-2 focus:outline-none ${
-                    errors[field.name]
+                  className={`w-full px-3 py-2 bg-white dark:bg-gray-800 border rounded-lg focus:ring-2 focus:outline-none ${errors[field.name]
                       ? "border-red-500 focus:ring-red-500 dark:border-red-400"
                       : "border-gray-200 dark:border-gray-700 focus:ring-blue-500"
-                  }`}
+                    }`}
                 />
                 {errors[field.name] && (
                   <p className="mt-1 text-sm text-red-600 dark:text-red-400">
@@ -256,11 +257,10 @@ export default function FormComponent({ title1, title2 }) {
               </label>
               <select
                 {...register("course", { required: "Please select a course" })}
-                className={`w-full px-3 py-2 bg-white dark:bg-gray-800 text-black dark:text-white border rounded-lg focus:ring-2 focus:outline-none ${
-                  errors.course
+                className={`w-full px-3 py-2 bg-white dark:bg-gray-800 text-black dark:text-white border rounded-lg focus:ring-2 focus:outline-none ${errors.course
                     ? "border-red-500 focus:ring-red-500 dark:border-red-400"
                     : "border-gray-200 dark:border-gray-700 focus:ring-blue-500"
-                }`}
+                  }`}
               >
                 <option value="">Select a course</option>
                 {courseName.map((course) => (
@@ -292,9 +292,8 @@ export default function FormComponent({ title1, title2 }) {
               <span className="relative z-10 flex items-center justify-center">
                 {isSubmitting ? "Submitting..." : "Book Demo"}
                 <FiArrowRight
-                  className={`ml-2 transition-transform ${
-                    hovered ? "translate-x-1" : ""
-                  }`}
+                  className={`ml-2 transition-transform ${hovered ? "translate-x-1" : ""
+                    }`}
                 />
               </span>
               <span className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity"></span>
