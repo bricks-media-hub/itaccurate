@@ -34,7 +34,7 @@ const CertificationSection = ({ courseName, certificationPoints }) => {
 
       <div className="flex flex-col-reverse lg:flex-row gap-12 items-center">
         <div className="lg:w-1/2 space-y-8">
-          {certificationPoints.map((point, index) => (
+          {certificationPoints?.map((point, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, x: -30 }}

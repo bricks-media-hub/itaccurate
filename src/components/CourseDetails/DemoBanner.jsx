@@ -71,7 +71,22 @@ function DemoBanner() {
   };
 
   return (
-    <div className="w-full px-4 sm:px-6 lg:px-8 md:-mt-5 mb-5">
+    <div className="
+  w-full px-4 sm:px-6 lg:px-8 
+  -mt-3    
+  sm:-mt-4 
+  md:-mt-5 
+  lg:-mt-6 
+  xl:-mt-8 
+  2xl:-mt-10 
+  3xl:-mt-12 
+  4xl:-mt-14 
+  5xl:-mt-16 
+  6xl:-mt-20 
+  7xl:-mt-24 
+  8xl:-mt-28 
+  mb-5
+">
       <div className="relative max-w-7xl mx-auto bg-gradient-to-r from-blue-500 to-indigo-700 rounded-2xl shadow-xl overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute -top-20 -right-20 w-40 h-40 rounded-full bg-white/10" />

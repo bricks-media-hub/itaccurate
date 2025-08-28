@@ -21,12 +21,17 @@ function LandingPage() {
   useEffect(() => {
     const fetchData = async () => {
       let URL;
-      if (location.pathname === "/sap-course-in-thane") {
-        URL = "/data/seo/sap-thane.json";
-      } else if (location.pathname === "/sap-course-in-nagpur") {
-        URL = "/data/seo/sap-nagpur.json";
-      } else if (location.pathname === "/sap-fico-course-in-nagpur") {
+        // this url will not working till update (only data will load)
+      if (location.pathname === "/sap-fico-course-in-nagpur") {   
         URL = "/data/seo/sap-fico-nagpur.json";
+      } 
+      // this url will not working till update (only data will load)
+      else if (location.pathname === "/sap-course-in-nagpur") {
+        URL = "/data/seo/sap-nagpur.json";
+      } 
+        // this is only working url left...
+      else if (location.pathname === "/sap-course-in-thane") { 
+        URL = "/data/seo/sap-thane.json";
       }
 
       if (!URL) return;

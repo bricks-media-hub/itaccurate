@@ -41,7 +41,6 @@ function AboutCourse() {
   } = courseDetail;
   // console.log(courseDetail)
   const [isLoading, setIsLoading] = useState(true);
-
   useEffect(() => {
     const timeout = setTimeout(() => {
       setIsLoading(false);
@@ -140,7 +139,6 @@ function AboutCourse() {
           </div>
         </div>
       </section>
-
       {/* conditionally rendering coveringTopics on basis of coveringTopics/coveringTopics2 availability */}
       {courseDetail?.coveringTopics2 && (
         <>
@@ -168,17 +166,17 @@ function AboutCourse() {
       {
         !courseDetail?.coveringTopics2 && <TopicsSection coveringTopics={courseDetail?.coveringTopics} />
       }
+      
+      {courseDetail?.whatIs && <WhatIs name={courseDetail?.whatIs?.name} points={courseDetail?.whatIs?.points} bgImage={courseDetail?.bgImage} />}
 
-      {courseDetail.whatIs && <WhatIs />}
-
-      {courseDetail.keyFeatures && <KeyFeatures />}
+      {courseDetail?.keyFeatures && <KeyFeatures name={courseDetail?.whatIs?.name} keyFeatures={courseDetail?.keyFeatures}/>}
 
       <UpcomingBatches />
 
       <DemoBanner />
 
-      {courseDetail.roadMap && (
-        <RoadMap data={courseDetail.roadMap} title={courseDetail.whatIs.name} />
+      {courseDetail?.roadMap && (
+        <RoadMap data={courseDetail?.roadMap} title={courseDetail?.whatIs?.name} />
       )}
 
       {courseDetail.trainingSyllabus && (

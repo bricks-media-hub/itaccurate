@@ -1,10 +1,10 @@
-import React from 'react';
-import Slider from 'react-slick';
-import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
-import { motion } from 'framer-motion';
-import { RiDoubleQuotesL, RiDoubleQuotesR } from 'react-icons/ri';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React from "react";
+import Slider from "react-slick";
+import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
+import { motion } from "framer-motion";
+import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const PrevArrow = ({ onClick }) => (
   <motion.button
@@ -62,7 +62,8 @@ const TestimonialSlider = ({ reviews }) => {
             </span>
           </h2>
           <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto text-lg md:text-xl">
-            Hear from our alumni about their learning experiences and career transformations
+            Hear from our alumni about their learning experiences and career
+            transformations
           </p>
         </motion.div>
 
@@ -74,7 +75,11 @@ const TestimonialSlider = ({ reviews }) => {
                 {/* Avatar */}
                 <div className="absolute top-8 sm:top-4 z-10">
                   <img
-                    src={item.image === 'default' ? '/icons/profile-user.svg' : item.image || '/icons/profile-user.svg'}
+                    src={
+                      item.image === "default"
+                        ? "/icons/profile-user.svg"
+                        : item.image || "/icons/profile-user.svg"
+                    }
                     alt={item.name}
                     className="w-32 h-32 sm:w-44 sm:h-44 object-cover rounded-full dark:border-gray-800"
                   />
@@ -84,7 +89,7 @@ const TestimonialSlider = ({ reviews }) => {
                 <motion.div
                   initial={{ y: -5 }}
                   animate={{ y: 5 }}
-                  transition={{ type: 'spring', stiffness: 300, damping: 10 }}
+                  transition={{ type: "spring", stiffness: 300, damping: 10 }}
                   whileHover={{ y: -10 }}
                   className="bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-2xl px-6 pt-28 pb-10 text-center shadow-lg min-h-[320px] sm:min-h-[360px] flex flex-col justify-between relative overflow-visible"
                 >
@@ -97,20 +102,41 @@ const TestimonialSlider = ({ reviews }) => {
 
                   <div className="flex justify-between items-center mt-auto">
                     <div className="text-left">
-                      <h4 className="font-bold text-blue-700 dark:text-blue-400 text-lg">{item.name.toUpperCase()}</h4>
-                      <p className="text-blue-600 dark:text-blue-300 text-sm">{item.role}</p>
+                      <h4 className="font-bold text-blue-700 dark:text-blue-400 text-lg">
+                        {item.name.toUpperCase()}
+                      </h4>
+                      <p className="text-blue-600 dark:text-blue-300 text-sm">
+                        {item.role}
+                      </p>
                     </div>
-                    <div className="flex space-x-1">
-                      {[...Array(5)].map((_, i) => (
-                        <motion.span
-                          key={i}
-                          className="text-yellow-400 text-lg"
-                          whileHover={{ scale: 1.2 }}
-                          transition={{ type: "spring", stiffness: 500 }}
-                        >
-                          ★
-                        </motion.span>
-                      ))}
+
+                    {/* ⭐ Stars with Google watermark */}
+                    <div className="relative flex items-center justify-center">
+                      {/* Google Logo as watermark */}
+                      <img
+                        src="/icons/google-logo.svg"
+                        alt="Google Logo"
+                        className="absolute w-14 h-14 opacity-40 -z-10"
+                        style={{
+                          left: "50%",
+                          top: "50%",
+                          transform: "translate(-50%, -50%)",
+                        }}
+                      />
+
+                      {/* Stars */}
+                      <div className="flex space-x-1 relative z-10">
+                        {[...Array(5)].map((_, i) => (
+                          <motion.span
+                            key={i}
+                            className="text-yellow-400 text-xl"
+                            whileHover={{ scale: 1.2 }}
+                            transition={{ type: "spring", stiffness: 500 }}
+                          >
+                            ★
+                          </motion.span>
+                        ))}
+                      </div>
                     </div>
                   </div>
 

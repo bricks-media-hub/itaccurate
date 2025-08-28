@@ -21,7 +21,7 @@ export default {
       colors: {
         // Add custom colors if needed
         primary: {
-          DEFAULT: "#2563eb", // blue-600
+          DEFAULT: "#2563eb", // blue-600 
           dark: "#1d4ed8", // blue-700
         },
         dark: {

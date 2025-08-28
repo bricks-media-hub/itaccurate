@@ -1,34 +1,10 @@
 import { motion } from 'framer-motion';
 import { FiArrowRight } from 'react-icons/fi';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Modules = () => {
     const modules = [
-        {
-            title: "SAP",
-            description: "IT Accurate Training offers expert SAP training, empowering you to efficiently manage SAP systems and ensure seamless operations.",
-            cta: "Go to SAP page",
-            link: "/best-sap-training",
-            color: "from-blue-500 to-blue-700",
-            bgImage: "bg-[url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')]"
-        },
-        {
-            title: "SAP BASIS",
-            description: "IT Accurate Training offers expert SAP BASIS training, empowering you to efficiently manage SAP systems and ensure seamless operations.",
-            cta: "Go to SAP BASIS page",
-            link: "/sap-basis-training-in-nagpur",
-            color: "from-purple-500 to-purple-700",
-            bgImage: "bg-[url('https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')]"
-        },
-        {
-            title: "SAP MM",
-            description: "SAP MM (Materials Management) is a module in SAP ERP that manages procurement processes and inventory management. IT Accurate Institute offers comprehensive training in SAP MM for effective utilization",
-            cta: "Go to SAP MM page",
-            link: "/sap-mm",
-            color: "from-cyan-500 to-cyan-700",
-            bgImage: "bg-[url('https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')]"
-        },
-        {
+                {
             title: "SAP FICO",
             description: "SAP FICO, offered by IT Accurate Institute, encompasses financial accounting and controlling modules within the SAP ERP system, facilitating comprehensive financial management and reporting for organizations",
             cta: "Go to SAP FICO page",
@@ -36,7 +12,15 @@ const Modules = () => {
             color: "from-green-500 to-green-700",
             bgImage: "bg-[url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')]"
         },
-        {
+                {
+            title: "SAP MM",
+            description: "SAP MM (Materials Management) is a module in SAP ERP that manages procurement processes and inventory management. IT Accurate Institute offers comprehensive training in SAP MM for effective utilization",
+            cta: "Go to SAP MM page",
+            link: "/sap-mm",
+            color: "from-cyan-500 to-cyan-700",
+            bgImage: "bg-[url('https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')]"
+        },
+                {
             title: "SAP ABAP",
             description: "SAP ABAP is a programming language used for developing applications within the SAP ecosystem. IT Accurate Institute is a training center specializing in SAP courses, including ABAP programming to equip professionals with the skills.",
             cta: "Go to SAP ABAP page",
@@ -44,6 +28,15 @@ const Modules = () => {
             color: "from-red-500 to-red-700",
             bgImage: "bg-[url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80')]"
         },
+                {
+            title: "SAP SD",
+            description: "SAP SD (Sales and Distribution) is a module in SAP ERP that manages sales and customer service processes. It covers order-to-cash processes, including sales order processing, pricing, delivery, and billing. SAP SD to equip individuals with skills.",
+            cta: "Go to SAP SD page",
+            link: "/sap-sd",
+            color: "from-emerald-500 to-emerald-700",
+            bgImage: "bg-[url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')]"
+        },
+
         {
             title: "SAP HCM",
             description: "SAP HCM (Human Capital Management) is an integrated software suite by SAP that manages HR processes, from recruitment to payroll. IT Accurate Institute likely provides training in SAP HCM and related modules.",
@@ -60,6 +53,15 @@ const Modules = () => {
             color: "from-pink-500 to-pink-700",
             bgImage: "bg-[url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')]"
         },
+                {
+            title: "SAP",
+            description: "IT Accurate Training offers expert SAP training, empowering you to efficiently manage SAP systems and ensure seamless operations.",
+            cta: "Go to SAP page",
+            link: "/best-sap-training",
+            color: "from-blue-500 to-blue-700",
+            bgImage: "bg-[url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')]"
+        },
+
         {
             title: "SAP SCM",
             description: "SAP SCM (Supply Chain Management) is a software suite by SAP that integrates and optimizes key supply chain processes for enhanced efficiency. It enables businesses to manage procurement, production, and distribution seamlessly, ensuring streamlined operations.",
@@ -84,14 +86,7 @@ const Modules = () => {
             color: "from-lime-500 to-lime-700",
             bgImage: "bg-[url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')]"
         },
-        {
-            title: "SAP SD",
-            description: "SAP SD (Sales and Distribution) is a module in SAP ERP that manages sales and customer service processes. It covers order-to-cash processes, including sales order processing, pricing, delivery, and billing. SAP SD to equip individuals with skills.",
-            cta: "Go to SAP SD page",
-            link: "/sap-sd",
-            color: "from-emerald-500 to-emerald-700",
-            bgImage: "bg-[url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')]"
-        },
+
         {
             title: "SAP FIORI",
             description: "SAP Fiori is a user experience (UX) design approach and set of design principles that enhance the usability and functionality of SAP applications. It provides a modern, responsive, and personalized user interface for a seamless and intuitive user experience in the SAP environment.",
@@ -132,9 +127,15 @@ const Modules = () => {
             color: "from-sky-500 to-sky-700",
             bgImage: "bg-[url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')]"
         },
+                {
+            title: "SAP BASIS",
+            description: "IT Accurate Training offers expert SAP BASIS training, empowering you to efficiently manage SAP systems and ensure seamless operations.",
+            cta: "Go to SAP BASIS page",
+            link: "/sap-basis-training-in-nagpur",
+            color: "from-purple-500 to-purple-700",
+            bgImage: "bg-[url('https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')]"
+        },
     ];
-    const location = useLocation();
-    const filteredData = location.pathname === "/best-sap-training" ? modules.slice(1) : modules;
 
     return (
         <section className="py-16 dark:bg-gray-700 bg-zinc-50">
@@ -152,7 +153,7 @@ const Modules = () => {
                 </motion.div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                    {filteredData.map((course, index) => (
+                    {modules.map((course, index) => (
                         <div className='rounded-xl'>
                             <motion.div
                                 key={course.title}
