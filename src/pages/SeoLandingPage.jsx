@@ -33,6 +33,8 @@ function SeoLandingPage() {
         DATA_URL = "/data/seo/updated-sap-nagpur.json";
       } else if (location.pathname === "/sap-course-in-thane") {
         DATA_URL = "/data/seo/updated-sap-thane.json";
+      } else if (location.pathname === "/sap-fico-course-in-nagpur") {
+        DATA_URL = "/data/seo/updated-sap-fico-nagpur.json";
       }
 
       if (!DATA_URL) return;

@@ -6,6 +6,16 @@ import { SafeImage } from "../lib/SafeImage";
 
 const CourseFeesDuration = ({ data }) => {
   const [showForm, setShowForm] = useState(false);
+  const [showSapFico, setShowFico] = useState(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === "/sap-fico-course-in-nagpur") {
+      setShowFico(true);
+    } else {
+      setShowFico(false);
+    }
+  }, [location.pathname]);
 
   if (!data) return null;
 
@@ -41,7 +51,7 @@ const CourseFeesDuration = ({ data }) => {
             className="flex flex-col items-center"
           >
             <div className="w-full h-full max-w-xl bg-white dark:bg-gray-900 shadow-2xl rounded-3xl p-8 border border-indigo-200 dark:border-gray-700">
-              {/* {showSapFico ? (
+              {showSapFico ? (
                 <ul className="text-indigo-800 dark:text-indigo-300 text-base space-y-5">
                   <li className="flex items-start gap-3">
                     <SafeImage
@@ -98,7 +108,7 @@ const CourseFeesDuration = ({ data }) => {
                     </span>
                   </li>
                 </ul>
-              ) : ( */}
+              ) : (
                 <ul className="text-indigo-800 dark:text-indigo-300 text-base space-y-5">
                   <li className="flex items-start gap-3">
                     <SafeImage
@@ -152,7 +162,7 @@ const CourseFeesDuration = ({ data }) => {
                     </span>
                   </li>
                 </ul>
-              {/* )} */}
+               )} 
             </div>
 
             {/* Apply Now Button */}

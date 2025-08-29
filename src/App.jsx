@@ -137,7 +137,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/sap-fico-course-in-nagpur",
-        element: <LandingPage />,
+        element: <SeoLandingPage />,
       },
       {
         path: '/successful',

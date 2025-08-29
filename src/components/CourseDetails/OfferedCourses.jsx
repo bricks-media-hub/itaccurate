@@ -168,6 +168,7 @@
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { SafeImage } from "../../lib/SafeImage";
 
 const OfferedCourses = () => {
   const [hoveredCard, setHoveredCard] = useState(null);

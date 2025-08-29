@@ -1,0 +1,228 @@
+{
+    "sap-fico-course-in-nagpur": {
+        "name": "SAP FICO Training",
+        "title": "SAP FICO Course in Nagpur – ",
+        "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "detail": {
+            "points": [
+  "Looking to upskill in finance and accounting with technology? Enroll in IT Accurate’s SAP FICO course in Nagpur.",
+  "Gain practical exposure to SAP’s Financial Accounting (FI) and Controlling (CO) modules through real-world projects and expert mentorship.",
+  "Experience a hands-on approach designed to prepare you for real-time challenges and global certifications.",
+  "Suitable for both freshers and working professionals aiming to advance in their careers.",
+  "Benefit from 100% placement assistance, ensuring a seamless path from learning to landing a job.",
+  "Join one of the best SAP FICO courses in Nagpur and take your career forward."
+            ]
+        },
+        "coveringTopics": [
+            {
+                "title": "Resume preparation",
+                "icon": "/icons/resume-prep.svg"
+            },
+            {
+                "title": "Interview practice",
+                "icon": "/icons/interview-prep.svg"
+            },
+            {
+                "title": "6-months internship",
+                "icon": "/icons/internship-prep.svg"
+            },
+            {
+                "title": "100% job opportunities guaranteed program",
+                "icon": "/icons/job.svg"
+            }
+        ],
+        "whyChoose": {
+            "title": "Why Choose IT Accurate for SAP FICO Training in Nagpur",
+            "imageUrl": "/icons/why-choose.jpg",
+            "points": [
+  "At IT Accurate, we don’t just teach SAP – we shape SAP professionals.",
+  "As a leading institute for the SAP FICO course in Nagpur, our training is built on deep industry insight and expert-led instruction.",
+  "Certified trainers with years of real-time SAP project experience make each class practical and easy to relate to.",
+  "Access updated courseware, live assignments, and personalised mentoring for effective learning.",
+  "Flexible batches, weekend classes, and online learning support make it easy to learn your way.",
+  "Trusted by hundreds of learners for consistent results, transparent guidance, and strong placement connections with top MNCs and consulting firms."
+            ]
+        },
+        "courseLocation": {
+            "title": "SAP FICO Certification & Project-Based Learning",
+            "imageUrl": "/icons/certification.svg",
+            "points": [
+  "What makes our SAP FICO course in Nagpur stand out is the focus on real-time learning.",
+  "We don’t stop at theory – you get hands-on access to SAP servers to practice every module with real project scenarios.",
+  "From day one, you’ll work on exercises that simulate actual finance operations in SAP.",
+  "On completing the course, you’ll receive a certificate from IT Accurate, validating your skills and boosting your resume.",
+  "You’ll also be fully prepared for global SAP certification exams.",
+  "Our project-based approach ensures you transition smoothly into the job market with confidence and competence."
+            ]
+        },
+        "keyFeatures": [
+            {
+                "text": "152+ Hrs Instructor-Led Training",
+                "icon": "/icons/job-clock.png",
+                "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+            },
+            {
+                "text": "36Hrs Self-Placed Videos",
+                "icon": "/icons/video.svg",
+                "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+            },
+            {
+                "text": "Certificate Guidance",
+                "icon": "/icons/certificate.svg",
+                "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+            },
+            {
+                "text": "Job Assistance",
+                "icon": "/icons/job-assist.svg",
+                "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+            },
+            {
+                "text": "Mentor Support",
+                "icon": "/icons/teaching.svg",
+                "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+            },
+            {
+                "text": "Free Demo Class Available",
+                "icon": "/icons/calendar.svg",
+                "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+            },
+            {
+                "text": "Resume Editing",
+                "icon": "/icons/resume-edit.svg",
+                "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')"
+            },
+            {
+                "text": "Affordable Fees Structure",
+                "icon": "/icons/wallet.svg",
+                "bgImage": "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=500')"
+            },
+            {
+                "text": "52 Hrs Project & Exercises",
+                "icon": "/icons/code.svg",
+                "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')"
+            },
+            {
+                "text": "Flexible Schedule",
+                "icon": "/icons/calendar2.svg",
+                "bgImage": "url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=500')"
+            },
+            {
+                "text": "100% Job Oriented Training",
+                "icon": "/icons/briefcase.svg",
+                "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')"
+            },
+            {
+                "text": "Completed 1500+ Batches",
+                "icon": "/icons/batch.svg",
+                "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')"
+            }
+        ],
+        "reviews": [
+            {
+                "name": "RAHUL PATEL",
+                "review": "I had a fantastic experience at IT Accurate Institute! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
+                "image": "https://plus.unsplash.com/premium_photo-1682092090968-3b9daa5ecdd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                "role": "Professional"
+            },
+            {
+                "name": "NISHA GANDHE",
+                "review": "The interactive learning environment fostered by this institute greatly enhanced my understanding of SAP SCM.",
+                "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                "role": "SAP Consultant"
+            },
+            {
+                "name": "Ayaan LOKHANDE",
+                "review": "The trainers at IT Accurate Institute are not just experts in SAP MM but are also incredibly supportive.",
+                "image": "https://plus.unsplash.com/premium_photo-1734603745283-053c19cdebe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                "role": "SAP Consultant"
+            },
+            {
+                "name": "Kiaan TIWARI",
+                "review": "I feel well-prepared to implement SAP QM solutions in my professional role.",
+                "image": "https://plus.unsplash.com/premium_photo-1661637752177-e657a9daaf4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                "role": "Professional"
+            },
+            {
+                "name": "Karan K",
+                "review": "I enrolled in SAP LE at IT Accurate Institute and found the course structure to be comprehensive",
+                "image": "https://img.freepik.com/premium-photo/portrait-young-man-against-blue-background_1048944-13176074.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                "role": ""
+            },
+            {
+                "name": "TOSHIBA KHAN",
+                "review": "My experience with the SAP WM & EWM course at IT Accurate Institute was exceptional.",
+                "image": "https://images.unsplash.com/photo-1641101236998-f88254ac8743?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                "role": "Professional"
+            },
+            {
+                "name": "Rakesh NANAWANE",
+                "review": "I enrolled in the SAP HCM program at IT Accurate Institute to deepen my understanding of human capital management, and the curriculum did not disappoint.",
+                "image": "https://images.unsplash.com/photo-1560085911-ce42861f221f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                "role": "Professional"
+            },
+            {
+                "name": "GULSHAN BHALME",
+                "review": "One of the highlights of the institute's SAP ARIBA training program was the emphasis on job placement assistance",
+                "image": "https://images.unsplash.com/photo-1635084617135-df8225e8cf1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                "role": "Professional"
+            },
+            {
+                "name": "Ira Patel",
+                "review": "The SAP BASIS course at IT Accurate Institute was exceptional! The instructors were highly knowledgeable and provided hands-on training that made complex concepts easy to understand.I gained practical skills that helped me secure a job in SAP administration. ",
+                "image": "https://images.unsplash.com/photo-1680506727554-3ba2d9f99129?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                "role": "Professional"
+            },
+            {
+                "name": "Nisha DHOTE",
+                "review": "IT Accurate Institute has exceeded my expectations for SAP FICO training. i can suggest this is the best platform for knowledge",
+                "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                "role": "Professional"
+            },
+            {
+                "name": "Ritika NAGLE",
+                "review": "SAP Fiori training at IT Accurate Institute was an enriching experience. The instructors were not just educators: they were mentors. guiding us.",
+                "image": "https://images.unsplash.com/photo-1721593444652-f2ab6a703710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                "role": "Professional"
+            },
+            {
+                "name": "Vani JAIN",
+                "review": "The SAP PP course exceeded my expectations. The course materials were up- to-date, and the instructors were always available to clarify doubts. The interactive learning environment fostered collaboration among students, enhancing the overall learning experience.",
+                "image": "https://images.unsplash.com/photo-1725033489648-a819750348eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                "role": "SAP Consultant"
+            },
+            {
+                "name": "VIBHAS SHINDHE",
+                "review": "The interactive nature of the SAP SD course at IT Accurate Institute made the learning experience engaging and dynamic.",
+                "image": "https://images.unsplash.com/photo-1713173922799-42c38fc7359c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                "role": "Professional"
+            },
+            {
+                "name": "UDESH KSHIRSAGAR",
+                "review": "Their deep knowledge of SAP ABAP and their ability to explain complex concepts in a simple manner make the learning experience enjoyable",
+                "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                "role": "Professional"
+            }
+        ],
+        "certificationPoints": [
+            {
+                "icon": "/icons/badge2.svg",
+                "title": "Recognized Certification",
+                "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+            },
+            {
+                "icon": "/icons/increase-graph.svg",
+                "title": "Competitive Edge",
+                "description": "The SAP S/4HANA Certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+            },
+            {
+                "icon": "/icons/graduation.svg",
+                "title": "100% Passing Guarantee",
+                "description": "IT Accurate provides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as Salesforce Administration Certification, SAP S/4 HANA Platform Development Certification, and various other global exams."
+            }
+        ],
+        "FeesDuration": {
+            "heading": "Fees, Duration & SAP Certification at IT Accurate",
+            "content": "Our <span class='text-blue-600'>SAP course in Nagpur</span> is competitively priced with flexible payment options. Duration typically ranges from 6 to 10 weeks, depending on the module you choose. Upon completion, you'll receive a certificate from IT Accurate, recognised by top recruiters in the SAP domain. We also guide you through official SAP certification paths if you're aiming for global credentials. <br /><br />Contact us for the latest fees and batch availability."
+        }
+    }
+}
