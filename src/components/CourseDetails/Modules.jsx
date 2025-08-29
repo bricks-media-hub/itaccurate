@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
 import { FiArrowRight } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
-const Modules = () => {
+const Modules = ({ courseName = "SAP" }) => {
+    const location = useLocation();
+
     const modules = [
                 {
             title: "SAP FICO",
@@ -137,6 +139,12 @@ const Modules = () => {
         },
     ];
 
+const filteredModules =
+  location.pathname === "/sap-fico-course-in-nagpur"
+    ? modules.slice(1)  
+    : modules;
+
+
     return (
         <section className="py-16 dark:bg-gray-700 bg-zinc-50">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -148,12 +156,12 @@ const Modules = () => {
                     className="text-center mb-12"
                 >
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 dark:text-indigo-600 text-blue-600">
-                        SAP <span className='text-slate-800 dark:text-white'>Modules</span>
+                        {courseName} <span className='text-slate-800 dark:text-white'>Modules</span>
                     </h2>
                 </motion.div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                    {modules.map((course, index) => (
+                    {filteredModules.map((course, index) => (
                         <div className='rounded-xl' key={index}>
                             <motion.div
                                 initial={{ opacity: 0, y: 20 }}

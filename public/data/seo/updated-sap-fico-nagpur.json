@@ -1,11 +1,12 @@
 {
     "sap-fico-course-in-nagpur": {
-        "name": "SAP FICO Training",
+        "name": "SAP FICO",
         "title": "SAP FICO Course in Nagpur – ",
         "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
         "detail": {
             "points": [
   "Looking to upskill in finance and accounting with technology? Enroll in IT Accurate’s SAP FICO course in Nagpur.",
+  "Located in the heart of the city, Lokmat Bhawan, Ramdaspeth.",
   "Gain practical exposure to SAP’s Financial Accounting (FI) and Controlling (CO) modules through real-world projects and expert mentorship.",
   "Experience a hands-on approach designed to prepare you for real-time challenges and global certifications.",
   "Suitable for both freshers and working professionals aiming to advance in their careers.",
@@ -40,6 +41,7 @@
   "Certified trainers with years of real-time SAP project experience make each class practical and easy to relate to.",
   "Access updated courseware, live assignments, and personalised mentoring for effective learning.",
   "Flexible batches, weekend classes, and online learning support make it easy to learn your way.",
+  "Located in the heart of the city, Lokmat Bhawan, Ramdaspeth.",
   "Trusted by hundreds of learners for consistent results, transparent guidance, and strong placement connections with top MNCs and consulting firms."
             ]
         },
@@ -221,8 +223,8 @@
             }
         ],
         "FeesDuration": {
-            "heading": "Fees, Duration & SAP Certification at IT Accurate",
-            "content": "Our <span class='text-blue-600'>SAP course in Nagpur</span> is competitively priced with flexible payment options. Duration typically ranges from 6 to 10 weeks, depending on the module you choose. Upon completion, you'll receive a certificate from IT Accurate, recognised by top recruiters in the SAP domain. We also guide you through official SAP certification paths if you're aiming for global credentials. <br /><br />Contact us for the latest fees and batch availability."
+            "heading": "Fees, Duration & Batch Options",
+            "content": "The <span class='text-blue-600'>SAP FICO course in Nagpur at IT Accurate</span> offers flexible batch timings, and weekday and weekend options are available. Course duration is 2.5 to 3 months, with extended access to practice sessions. Our fee structure is affordable with EMI and installment options to support learners from all backgrounds. Reach out today for the latest batch schedule and fee details."
         }
     }
 }

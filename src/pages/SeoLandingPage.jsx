@@ -21,6 +21,7 @@ import CourseOpportunities from "../components/CourseDetails/CourseOpportunities
 import TestimonialSlider from "../components/CourseDetails/TestimonialSlider";
 import TopicsSection from "../components/CourseDetails/TopicsSection";
 import { SafeImage } from "../lib/SafeImage";
+import PopUpTimeOut from "../lib/PopUpTimeOut";
 
 function SeoLandingPage() {
   const [landingPageDetails, setLandingPageDetails] = useState({});
@@ -59,6 +60,7 @@ function SeoLandingPage() {
 
   return (
     <div className="relative bg-white dark:bg-gray-900 transition-colors duration-300">
+      <PopUpTimeOut />
       {/* Hero/Banner Section */}
       <section className="relative w-full overflow-visible py-16 sm:py-20 md:py-24 bg-white dark:bg-gray-900">
         <div
@@ -122,7 +124,7 @@ function SeoLandingPage() {
       </section>
 
       {/* Sap Modules */}
-      <Modules />
+      <Modules courseName={landingPageDetails?.name} />
 
       {/* Sap Image */}
       <div className="py-11 bg-gray-100 dark:bg-slate-900">
@@ -161,7 +163,7 @@ function SeoLandingPage() {
       <DemoBanner />
 
       {/* Course Location and Details */}
-      {landingPageDetails?.courseLocation && (
+      {location.pathname !== "/sap-fico-course-in-nagpur" && landingPageDetails?.courseLocation && (
         <CourseLocationDetails
           title={landingPageDetails?.courseLocation?.title}
           points={landingPageDetails?.courseLocation?.points}
@@ -192,10 +194,8 @@ function SeoLandingPage() {
       {/* Course Fees & Duration details */}
       <CourseFeesDuration data={landingPageDetails?.FeesDuration} />
 
-
-
       {/* Career Oppurtunities */}
-      <CourseOpportunities pageName={"SAP"} />
+      <CourseOpportunities pageName={landingPageDetails?.name} />
 
       {/* Testimonials */}
       {landingPageDetails?.reviews && <TestimonialSlider reviews={landingPageDetails?.reviews} />}

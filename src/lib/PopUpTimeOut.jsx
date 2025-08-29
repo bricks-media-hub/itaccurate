@@ -7,17 +7,20 @@ function PopUpTimeOut() {
   const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
-    setShowPopup(false); 
-    const timer = setTimeout(() => {
+    // Show first popup immediately after route change
+    // setShowPopup(true);
+
+    // Set interval for every 15 sec
+    const interval = setInterval(() => {
       setShowPopup(true);
     }, 15000);
 
-    return () => clearTimeout(timer);
-  }, [location.pathname]); 
+    return () => clearInterval(interval); 
+  }, [location.pathname]);
 
   return (
     <>
-      {showPopup && <FreeDemoForm />}
+      {showPopup && <FreeDemoForm onClose={() => setShowPopup(false)} />}
     </>
   );
 }
