@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { SafeImage } from "../lib/SafeImage";
 
 const Panel4 = ({ data, imageUrl }) => {
   return (
@@ -31,7 +32,7 @@ const Panel4 = ({ data, imageUrl }) => {
           viewport={{ once: true }}
           className="order-1 md:order-2 rounded-xl overflow-hidden shadow-xl ring-1 ring-indigo-100 dark:ring-indigo-900"
         >
-          <img
+          <SafeImage
             src={imageUrl}
             alt="SAP Training in Thane"
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-500 ease-in-out"

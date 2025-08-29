@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import FreeDemoForm from "../components/ContactUs/FreeDemoForm";
+import { SafeImage } from "../lib/SafeImage";
 
 function Panel5({ data, imageUrl }) {
   const [showForm, setShowForm] = useState(false);
@@ -9,7 +10,7 @@ function Panel5({ data, imageUrl }) {
       <div
         className="max-w-7xl mx-auto flex flex-col md:flex-row justify-center items-center gap-10 px-6 md:px-16 pt-24">
       <section className="flex justify-center md:justify-end w-full md:w-1/2">
-        <img
+        <SafeImage
           src={imageUrl}
           alt="Course"
           className="max-h-[640px] w-full max-w-lg sm:max-w-xl md:max-w-2xl object-contain"

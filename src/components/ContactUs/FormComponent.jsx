@@ -16,6 +16,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import config from "../../lib/config";
+import { SafeImage } from "../../lib/SafeImage";
 
 export default function FormComponent({ title1, title2 }) {
   const {
@@ -34,7 +35,7 @@ export default function FormComponent({ title1, title2 }) {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [hovered, setHovered] = useState(false);
-  const [courseName, setCourseData] = useState([]);
+  const [courseData, setCourseData] = useState([]);
   const location = useLocation();
 
   const courses = [
@@ -213,7 +214,7 @@ export default function FormComponent({ title1, title2 }) {
             ].map((field) => (
               <div key={field.name}>
                 <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 flex items-center">
-                  <img
+                  <SafeImage
                     src={field.icon}
                     alt={field.label}
                     className="w-5 h-5 mr-2"
@@ -247,7 +248,7 @@ export default function FormComponent({ title1, title2 }) {
             {/* Course Dropdown */}
             <div>
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 flex items-center">
-                <img
+                <SafeImage
                   src="/icons/select-course.svg"
                   alt="Course"
                   className="w-6 h-6 mr-2"
@@ -263,7 +264,7 @@ export default function FormComponent({ title1, title2 }) {
                 }`}
               >
                 <option value="">Select a course</option>
-                {courseName.map((course) => (
+                {courseData?.map((course) => (
                   <option key={course} value={course}>
                     {course}
                   </option>

@@ -13,6 +13,7 @@ import { Link } from "react-router-dom";
 import FreeDemoForm from "../ContactUs/FreeDemoForm";
 import { useSelector } from "react-redux";
 import TrainingCoursesSkeleton from "../ui/SkeletonEffects/TrainingCoursesSkeleton";
+import { SafeImage } from "../../lib/SafeImage";
 
 const TrainingCourses = () => {
   const [showForm, setShowForm] = useState(false);
@@ -83,7 +84,7 @@ const TrainingCourses = () => {
                   color="blue-gray"
                   className="relative h-56 w-full p-0 m-0 bg-gray-100 dark:bg-gray-800 overflow-hidden"
                 >
-                  <img
+                  <SafeImage
                     src={course.bgImage}
                     alt={course.title}
                     className="w-full h-full object-cover"

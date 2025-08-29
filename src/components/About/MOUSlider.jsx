@@ -4,6 +4,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { SafeImage } from '../../lib/SafeImage';
 
 const MOUSlider = () => {
     const mouData = [
@@ -79,7 +80,7 @@ const MOUSlider = () => {
                                 <div className="group relative bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 h-[420px] flex flex-col border border-gray-200 dark:border-gray-700">
                                     {/* Image Container with fixed height */}
                                     <div className="relative h-64 overflow-hidden bg-gray-100 dark:bg-gray-700">
-                                        <img
+                                        <SafeImage
                                             src={mou.image}
                                             alt={`MOU ${mou.id}`}
                                             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"

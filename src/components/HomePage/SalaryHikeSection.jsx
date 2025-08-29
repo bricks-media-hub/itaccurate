@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { SafeImage } from "../../lib/SafeImage";
 
 const SalaryHikeSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -62,7 +63,7 @@ const SalaryHikeSection = () => {
     <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 w-full md:w-auto">
       <div className="relative">
         <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-blue-500 rounded-xl opacity-20 blur-md"></div>
-        <img
+        <SafeImage
           src={slides[currentIndex].logo}
           alt="Logo"
           className="w-12 h-12 sm:w-16 sm:h-16 object-contain relative"

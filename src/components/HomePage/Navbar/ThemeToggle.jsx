@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { SafeImage } from "../../../lib/SafeImage";
 
 const ThemeToggle = ({ darkMode, toggleDarkMode, isMobile = false }) => {
   return (
@@ -12,13 +13,13 @@ const ThemeToggle = ({ darkMode, toggleDarkMode, isMobile = false }) => {
         transition={{ duration: 0.5 }}
       >
         {darkMode ? (
-          <img 
+          <SafeImage 
             src="/icons/sun.svg" 
             alt="sun" 
             className={isMobile ? "w-5 h-5" : "w-7 h-7"} 
           />
         ) : (
-          <img 
+          <SafeImage 
             src="/icons/moon.svg" 
             alt="moon" 
             className={isMobile ? "w-5 h-5" : "w-7 h-7"} 

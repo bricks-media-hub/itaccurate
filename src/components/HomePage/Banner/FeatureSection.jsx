@@ -1,31 +1,32 @@
 import React from 'react'
 import { FiUsers, FiLayers, FiBriefcase, FiAward } from 'react-icons/fi';
 import { motion } from 'framer-motion';
+import { SafeImage } from '../../../lib/SafeImage';
 
 function FeatureSection() {
 
     // Feature cards data
     const features = [
         {
-            icon: <img src="/icons/expert.svg" alt="expert" className="w-8 h-8 sm:w-10 sm:h-10" />,
+            icon: <SafeImage src="/icons/expert.svg" alt="expert" className="w-8 h-8 sm:w-10 sm:h-10" />,
             bgColor: "bg-blue-100 dark:bg-blue-900",
             title: "Expert Instructors",
             description: "Learn from industry professionals with years of practical experience."
         },
         {
-            icon: <img src="/icons/project.svg" alt="expert" className="w-8 h-8 sm:w-10 sm:h-10" />,
+            icon: <SafeImage src="/icons/project.svg" alt="expert" className="w-8 h-8 sm:w-10 sm:h-10" />,
             bgColor: "bg-purple-100 dark:bg-purple-900",
             title: "Project-based Learning",
             description: "Gain hands-on experience by working on real-world projects."
         },
         {
-            icon: <img src="/icons/briefcase.svg" alt="expert" className="w-8 h-8 sm:w-10 sm:h-10" />,
+            icon: <SafeImage src="/icons/briefcase.svg" alt="expert" className="w-8 h-8 sm:w-10 sm:h-10" />,
             bgColor: "bg-green-100 dark:bg-green-900",
             title: "Internship Opportunities",
             description: "Get placed in top companies with our internship programs."
         },
         {
-            icon: <img src="/icons/medal.svg" alt="expert" className="w-8 h-8 sm:w-10 sm:h-10" />,
+            icon: <SafeImage src="/icons/medal.svg" alt="expert" className="w-8 h-8 sm:w-10 sm:h-10" />,
             bgColor: "bg-yellow-100 dark:bg-yellow-900",
             title: "Certification Programs",
             description: "Earn recognized certifications to boost your career prospects."

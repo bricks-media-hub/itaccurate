@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { SafeImage } from "../../lib/SafeImage";
 
 const PrevArrow = ({ onClick }) => (
   <motion.button
@@ -74,7 +75,7 @@ const TestimonialSlider = ({ reviews }) => {
               <div className="relative flex flex-col items-center pt-20 sm:pt-24 pb-10">
                 {/* Avatar */}
                 <div className="absolute top-8 sm:top-4 z-10">
-                  <img
+                  <SafeImage
                     src={
                       item.image === "default"
                         ? "/icons/profile-user.svg"
@@ -110,10 +111,9 @@ const TestimonialSlider = ({ reviews }) => {
                       </p>
                     </div>
 
-                    {/* ⭐ Stars with Google watermark */}
-                    <div className="relative flex items-center justify-center">
-                      {/* Google Logo as watermark */}
-                      <img
+                    {/* Google Logo Like a Watermark */}
+                    {/* <div className="relative flex items-center justify-center">
+                      <SafeImage
                         src="/icons/google-logo.svg"
                         alt="Google Logo"
                         className="absolute w-14 h-14 opacity-40 -z-10"
@@ -124,7 +124,6 @@ const TestimonialSlider = ({ reviews }) => {
                         }}
                       />
 
-                      {/* Stars */}
                       <div className="flex space-x-1 relative z-10">
                         {[...Array(5)].map((_, i) => (
                           <motion.span
@@ -136,6 +135,35 @@ const TestimonialSlider = ({ reviews }) => {
                             ★
                           </motion.span>
                         ))}
+                      </div>
+                    </div> */}
+
+                    {/* Google Logo at below the bottom */}
+                    <div className="relative flex flex-col items-center justify-center space-y-2">
+                      {/* Stars */}
+                      <div className="flex space-x-1">
+                        {[...Array(5)].map((_, i) => (
+                          <motion.span
+                            key={i}
+                            className="text-yellow-400 text-xl"
+                            whileHover={{ scale: 1.2 }}
+                            transition={{ type: "spring", stiffness: 500 }}
+                          >
+                            ★
+                          </motion.span>
+                        ))}
+                      </div>
+
+                      {/* Google Logo below stars */}
+                      <div className="flex items-center space-x-2 mt-1">
+                        <SafeImage
+                          src="/icons/google-logo.svg"
+                          alt="Google Logo"
+                          className="w-6 h-6"
+                        />
+                        {/* <span className="text-sm text-gray-600">
+                          Google Reviews
+                        </span> */}
                       </div>
                     </div>
                   </div>

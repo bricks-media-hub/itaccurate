@@ -4,6 +4,7 @@ import { Link, useLoaderData } from 'react-router-dom';
 import * as FiIcons from 'react-icons/fi';
 import { useState } from 'react';
 import FreeDemoForm from '../ContactUs/FreeDemoForm';
+import { SafeImage } from '../../lib/SafeImage';
 
 function KeyFeatures({ name, keyFeatures }) {
   const [showForm, setShowForm] = useState(false);
@@ -23,7 +24,7 @@ function KeyFeatures({ name, keyFeatures }) {
       <div className="absolute top-0 left-0 w-32 h-32 sm:w-40 sm:h-40 bg-purple-500/10 dark:bg-purple-700/20 rounded-full -translate-x-1/2 -translate-y-1/2 blur-xl z-0" />
       <div className="absolute bottom-0 right-0 w-40 h-40 sm:w-48 sm:h-48 bg-blue-500/10 dark:bg-blue-700/20 rounded-full translate-x-1/3 translate-y-1/3 blur-xl z-0" />
 
-      <div className="max-w-7xl mx-auto relative z-10">
+      <div className="max-w-full mx-auto relative z-10">
         {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -77,7 +78,7 @@ function KeyFeatures({ name, keyFeatures }) {
                     transition={{ type: 'spring', stiffness: 400 }}
                     className="p-3 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/30 dark:to-purple-900/30 rounded-xl flex-shrink-0"
                   >
-                    <img
+                    <SafeImage
                       src={feature?.icon}
                       alt="icons"
                       className="w-10 h-10 sm:w-14 sm:h-14"

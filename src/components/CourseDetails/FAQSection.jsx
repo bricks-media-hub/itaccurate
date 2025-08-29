@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import FreeDemoForm from "../ContactUs/FreeDemoForm"
+import { SafeImage } from '../../lib/SafeImage';
 
 const FAQSection = ({ faqs = [] }) => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -111,7 +112,7 @@ const FAQSection = ({ faqs = [] }) => {
         <div className="hidden lg:block lg:w-1/3 relative">
           <div className="sticky top-24">
             <div className="relative group">
-              <img
+              <SafeImage
                 src="./faq.jpg"
                 alt="FAQ Illustration"
                 className="w-full h-auto rounded-2xl transform transition-transform duration-500 group-hover:scale-105"

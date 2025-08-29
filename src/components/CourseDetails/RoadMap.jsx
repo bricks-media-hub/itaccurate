@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useSwipeable } from "react-swipeable";
 import { useLoaderData } from "react-router-dom";
+import { SafeImage } from "../../lib/SafeImage";
 
 export default function RoadMap() {
   const roadmapData = useLoaderData();
@@ -201,7 +202,7 @@ const CentralPipeline = () => (
           ease: "linear",
         }}
       >
-        <img
+        <SafeImage
           src="/icons/bike-rider.svg"
           alt="Bike rider"
           className="w-full h-full"
@@ -348,7 +349,7 @@ const RoadmapItem = ({
         onClick={onClick}
       >
         <div className={`w-14 h-14 md:w-16 md:h-16 mb-4 rounded-full flex items-center justify-center bg-gradient-to-br ${module.color} text-white shadow-lg mx-auto`}>
-          <img src={module.icon} alt={module.title} className="w-6 h-6 md:w-8 md:h-8" />
+          <SafeImage src={module.icon} alt={module.title} className="w-6 h-6 md:w-8 md:h-8" />
         </div>
         <h3 className="font-extrabold text-lg md:text-xl mb-2 text-gray-900 dark:text-gray-100">{module.title}</h3>
         <p className="text-xs md:text-sm text-gray-600 dark:text-gray-300 mb-4 flex-grow">{module.description}</p>
@@ -391,7 +392,7 @@ function DetailsPanel({ module, onClose }) {
           {/* Header */}
           <div className="flex justify-between items-start mb-6">
             <div className={`w-16 h-16 rounded-full flex items-center justify-center bg-gradient-to-br ${module.color} text-white shadow-lg`}>
-              <img src={module.icon} alt={module.title} className="w-8 h-8" />
+              <SafeImage src={module.icon} alt={module.title} className="w-8 h-8" />
             </div>
             <button 
               onClick={onClose}
@@ -972,7 +973,7 @@ function DetailsPanel({ module, onClose }) {
 //               onMouseLeave={handleMouseLeave}
 //               className={`relative z-10 w-16 h-16 rounded-2xl flex items-center justify-center text-2xl bg-gradient-to-tr ${module.color} text-white shadow-lg hover:shadow-xl transition-all cursor-pointer mb-4`}
 //             >
-//               <img src={module?.icon} alt="icon" className="w-8 h-8" />
+//               <SafeImage src={module?.icon} alt="icon" className="w-8 h-8" />
 //               <div className="absolute -inset-2 rounded-xl border-2 border-white/20 animate-ping opacity-0 hover:opacity-100 transition-opacity"></div>
 //             </motion.button>
 
@@ -1024,7 +1025,7 @@ function DetailsPanel({ module, onClose }) {
 //                   <div
 //                     className={`flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center text-white mr-4 ${module.color}`}
 //                   >
-//                     <img
+//                     <SafeImage
 //                       src={module?.icon}
 //                       alt="small icon"
 //                       className="w-6 h-6"
@@ -1128,7 +1129,7 @@ function DetailsPanel({ module, onClose }) {
 //                 <div
 //                   className={`w-10 h-10 rounded-lg flex items-center justify-center text-white mr-3 ${module.color}`}
 //                 >
-//                   <img src={module?.icon} alt="small icon" className="w-5 h-5" />
+//                   <SafeImage src={module?.icon} alt="small icon" className="w-5 h-5" />
 //                 </div>
 //                 <h4 className="font-semibold text-lg text-gray-800 dark:text-white">
 //                   {module.title}

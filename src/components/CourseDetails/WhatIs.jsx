@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { useLoaderData, useLocation } from "react-router-dom";
 import FormComponent from "../ContactUs/FormComponent";
+import { SafeImage } from "../../lib/SafeImage";
 
 function WhatIs({ defaultText = true, name, points, bgImage }) {
   const location = useLocation();
@@ -36,7 +37,7 @@ function WhatIs({ defaultText = true, name, points, bgImage }) {
               >
                 <div className="relative w-full" style={{ height: "auto" }}>
                   <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-                    <img
+                    <SafeImage
                       src={bgImage}
                       alt="Image Name"
                       className="w-full h-auto object-cover rounded-2xl"

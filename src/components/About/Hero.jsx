@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FiArrowDown, FiCheck, FiCalendar, FiGlobe, FiBook, FiAward, FiTrendingUp, FiUsers } from 'react-icons/fi';
+import { SafeImage } from '../../lib/SafeImage';
 
 const Counter = ({ endValue, duration = 2000 }) => {
     const [count, setCount] = useState(0);
@@ -210,7 +211,7 @@ const Hero = () => {
                             <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                             <div className="relative z-10 flex flex-col sm:flex-row sm:items-start gap-6">
                                 {/* <div className={`${item.iconBg} w-16 h-16 sm:w-20 sm:h-20 rounded-xl sm:mr-4 flex items-center justify-center transform group-hover:rotate-12 transition-transform`}> */}
-                                <img src={item.icon} alt="icon" className="w-8 h-8 sm:w-14 sm:h-14 object-contain" />
+                                <SafeImage src={item.icon} alt="icon" className="w-8 h-8 sm:w-14 sm:h-14 object-contain" />
                                 {/* </div> */}
 
                                 <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed flex-grow">
@@ -252,7 +253,7 @@ const Hero = () => {
                                 whileHover={{ scale: 1.03 }}
                             >
                                 <div className="flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 mb-6 mx-auto bg-white/20 rounded-full backdrop-blur-sm">
-                                    <img src={icon} alt="icons" className='w-10 h-10 sm:w-20 sm:h-20'/>
+                                    <SafeImage src={icon} alt="icons" className='w-10 h-10 sm:w-20 sm:h-20'/>
                                 </div>
                                 <div className="text-5xl font-bold mb-3 text-center">
                                     <Counter endValue={value} />+

@@ -1,5 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
+import { SafeImage } from "../../lib/SafeImage";
 
 const logos = [
   [
@@ -89,7 +90,7 @@ const CompanyMarquee = ({ title }) => {
                   key={i}
                   className="mx-6 flex items-center justify-center hover:scale-105 transition-transform duration-300"
                 >
-                  <img
+                  <SafeImage
                     src={logo}
                     alt={`Logo ${i + 1}`}
                     className="w-28 h-28 sm:w-32 sm:h-32 object-contain dark:brightness-90"

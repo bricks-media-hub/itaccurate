@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useForm } from "react-hook-form";
 import { FiArrowRight, FiCheck, FiX } from "react-icons/fi";
@@ -6,12 +6,15 @@ import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import config from "../../lib/config";
+import { useLocation } from "react-router-dom";
+import { SafeImage } from "../../lib/SafeImage";
 
 export default function FreeDemoForm({ onClose, title1, title2 }) {
   const [isVisible, setIsVisible] = useState(true);
+  const [courseData, setCourseData] = useState([]);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const location = useLocation();
 
-  // Demo courses data
   const courses = [
     "SAP",
     "Salesforce",
@@ -23,9 +26,35 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
     "Business Analytics",
     "ServiceNow",
     "HR Training",
-    "Share Market",
-    "Data Engineering",
   ];
+
+  const SAPCourses = [
+    "SAP",
+    "SAP MM",
+    "SAP FICO",
+    "SAP SD",
+    "SAP HCM",
+    "SAP ABAP",
+    "SAP BASIS",
+    "SAP SCM",
+    "SAP ARIBA",
+    "SAP PP",
+    "SAP PM",
+    "SAP QM",
+    "SAP LE&SL",
+    "SAP WM&EWM",
+    "SAP FIORI",
+    "SAP BTP",
+  ];
+
+  useEffect(() => {
+    if(location.pathname.includes("sap")){
+        setCourseData(SAPCourses);
+    }
+    else{
+      setCourseData(courses);
+    }
+  }, [location.pathname])
 
   const {
     register,
@@ -194,7 +223,7 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
                           className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium"
                           htmlFor="name"
                         >
-                          <img
+                          <SafeImage
                             src="/icons/user.svg"
                             alt="user"
                             className="inline mr-2 w-5 h-5 -mt-1"
@@ -238,7 +267,7 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
                           className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium"
                           htmlFor="phone"
                         >
-                          <img
+                          <SafeImage
                             src="/icons/phone.svg"
                             alt="contact"
                             className="inline mr-2 w-5 h-5 -mt-1"
@@ -283,7 +312,7 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
                           className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium"
                           htmlFor="location"
                         >
-                          <img
+                          <SafeImage
                             src="/icons/map-pin-icon.png"
                             alt="contact"
                             className="inline mr-2 w-5 h-5 -mt-1"
@@ -324,7 +353,7 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
                           className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium"
                           htmlFor="course"
                         >
-                          <img
+                          <SafeImage
                             src="/icons/select-course.svg"
                             alt="contact"
                             className="inline mr-2 w-7 h-7 -mt-1"
@@ -343,7 +372,7 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
                           })}
                         >
                           <option value="">-- Select a Course --</option>
-                          {courses.map((course) => (
+                          {courseData?.map((course) => (
                             <option key={course} value={course}>
                               {course}
                             </option>

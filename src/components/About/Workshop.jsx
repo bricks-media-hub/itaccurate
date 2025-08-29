@@ -1,4 +1,5 @@
 import React from "react";
+import { SafeImage } from "../../lib/SafeImage";
 
 function Workshop() {
   const workshop = [
@@ -86,7 +87,7 @@ function Workshop() {
               <div className="flex flex-col justify-between h-full bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden group transition-all duration-300">
                 {/* Workshop Image */}
                 <div className="relative h-60 overflow-hidden">
-                  <img
+                  <SafeImage
                     src={workshop.image}
                     alt={`${workshop.title} workshop`}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -102,7 +103,7 @@ function Workshop() {
                 <div className="p-6 flex flex-col justify-between flex-grow">
                   <div className="flex items-start mb-3">
                     <div className="bg-blue-100 dark:bg-blue-900/30 p-2 rounded-lg mr-3">
-                      <img
+                      <SafeImage
                         src="/icons/open-book.svg"
                         alt="open book"
                         className="w-7 h-7"

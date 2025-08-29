@@ -154,9 +154,8 @@ const Modules = () => {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                     {modules.map((course, index) => (
-                        <div className='rounded-xl'>
+                        <div className='rounded-xl' key={index}>
                             <motion.div
-                                key={course.title}
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import FreeDemoForm from "../components/ContactUs/FreeDemoForm";
 import Stats from "../components/Career/Stats";
+import { SafeImage } from "../lib/SafeImage";
 
 function Panel1({
   data,
@@ -30,7 +31,7 @@ function Panel1({
             {isLoading ? (
               <div className="min-h-[400px] w-full max-w-lg bg-gray-200 dark:bg-gray-700 animate-pulse rounded-lg"></div>
             ) : (
-              <img
+              <SafeImage
                 src={imageUrl}
                 alt="Course"
                 className="max-h-[640px] w-full max-w-lg sm:max-w-xl md:max-w-2xl object-contain"

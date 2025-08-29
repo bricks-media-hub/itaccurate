@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { FiCalendar, FiClock, FiBookOpen, FiArrowRight } from 'react-icons/fi';
 import FreeDemoForm from '../ContactUs/FreeDemoForm';
+import DemoBanner from './DemoBanner';
+import { SafeImage } from '../../lib/SafeImage';
 
 const initialDates = ['2025-06-12', '2025-06-19', '2025-06-26', '2025-07-01'];
 
@@ -30,7 +32,7 @@ function UpcomingBatches() {
   ];
 
   return (
-    <div className="bg-white dark:bg-gray-900 py-12 px-4 sm:px-6 lg:px-8 min-h-screen transition-colors duration-300">
+    <div className="bg-white dark:bg-gray-900 py-12 px-4 sm:px-6 lg:px-8 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-white mb-6">
           Upcoming <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Batches</span>
@@ -55,7 +57,7 @@ function UpcomingBatches() {
               <div className="relative h-full bg-white/90 dark:bg-gray-800/95 backdrop-blur-sm p-5 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 flex flex-col">
                 {/* Course image with overlay */}
                 <div className="relative overflow-hidden rounded-lg mb-4 h-40">
-                  <img
+                  <SafeImage
                     src={courseImages[idx]}
                     alt={`Course batch ${idx + 1}`}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -71,7 +73,7 @@ function UpcomingBatches() {
                 <div className="mb-3">
                   <p className="flex items-center gap-2 text-gray-700 dark:text-gray-200 font-medium">
                     {/* <FiCalendar className="text-blue-600 dark:text-blue-400" /> */}
-                    <img src="/icons/calendar2.svg" alt="calender" className='w-5 h-5'/>
+                    <SafeImage src="/icons/calendar2.svg" alt="calender" className='w-5 h-5'/>
                     <span>{new Date(date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}</span>
                   </p>
                 </div>
@@ -80,12 +82,12 @@ function UpcomingBatches() {
                 <div className="space-y-2 text-sm text-gray-600 dark:text-gray-300 mb-5">
                   <p className="flex items-center gap-2">
                     {/* <FiBookOpen className="text-indigo-600 dark:text-indigo-400" /> */}
-                    <img src="/icons/book.svg" alt="calender" className='w-5 h-5'/>
+                    <SafeImage src="/icons/book.svg" alt="calender" className='w-5 h-5'/>
                     <span>Mon-Sat Sessions</span>
                   </p>
                   <p className="flex items-center gap-2">
                     {/* <FiClock className="text-blue-600 dark:text-blue-400" /> */}
-                    <img src="/icons/job-clock.png" alt="calender" className='w-5 h-5'/>
+                    <SafeImage src="/icons/job-clock.png" alt="calender" className='w-5 h-5'/>
                     <span>Flexible Timing Available</span>
                   </p>
                   <p>Weekdays Regular</p>

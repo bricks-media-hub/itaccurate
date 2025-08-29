@@ -1,5 +1,6 @@
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import React, { useEffect } from "react";
+import { SafeImage } from "../../lib/SafeImage";
 
 function Stats() {
   const AnimatedCounter = ({ from = 0, to = 100 }) => {
@@ -48,7 +49,7 @@ function Stats() {
                       bg-white/20 ring-2 ring-white/30 dark:ring-blue-400/30 
                       shadow-[0_0_20px_rgba(255,255,255,0.15)]"
               >
-                <img src={stat.icon} alt="icon" className="w-8 h-8" />
+                <SafeImage src={stat.icon} alt="icon" className="w-8 h-8" />
               </div>
 
               {/* Animated number */}

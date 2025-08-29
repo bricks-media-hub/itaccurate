@@ -120,30 +120,30 @@
 //   const navItems = [
 //     {
 //       name: "Courses",
-//       icon: <img src="/icons/book.svg" alt="book" />,
+//       icon: <SafeImage src="/icons/book.svg" alt="book" />,
 //       path: "#courses",
 //       hasDropdown: true,
 //     },
 //     {
 //       name: "About",
-//       icon: <img src="/icons/user.svg" alt="user" />,
+//       icon: <SafeImage src="/icons/user.svg" alt="user" />,
 //       path: "/about-us",
 //     },
 //     {
 //       name: "Blog",
-//       icon: <img src="/icons/blog.svg" alt="blog" />,
+//       icon: <SafeImage src="/icons/blog.svg" alt="blog" />,
 //       path: "/blog",
 //     },
 //     {
 //       name: "Placements",
-//       icon: <img src="/icons/badge.svg" alt="badge" />,
+//       icon: <SafeImage src="/icons/badge.svg" alt="badge" />,
 //       path: "#placements",
 //       hasDropdown: true,
 //       subMenu: placementsSubMenu,
 //     },
 //     {
 //       name: "Contact",
-//       icon: <img src="/icons/mail.svg" alt="mail" />,
+//       icon: <SafeImage src="/icons/mail.svg" alt="mail" />,
 //       path: "/contact",
 //     },
 //   ];
@@ -184,7 +184,7 @@
 //             {/* Logo */}
 //             <div className="flex items-center">
 //               <Link to="/" className="flex items-center">
-//                 <img
+//                 <SafeImage
 //                   src="./logo.svg"
 //                   alt="IT Accurate Logo"
 //                   className="md:h-12 w-auto h-10"
@@ -261,7 +261,7 @@
 //                                     }`}
 //                                   >
 //                                     <span className="text-2xl mr-3 text-purple-600 dark:text-purple-400">
-//                                       <img
+//                                       <SafeImage
 //                                         src={course.icon}
 //                                         alt="course icon"
 //                                         className="w-9 h-9 mt-2"
@@ -383,9 +383,9 @@
 //                   transition={{ duration: 0.5 }}
 //                 >
 //                   {darkMode ? (
-//                     <img src="/icons/sun.svg" alt="sun" className="w-7 h-7" />
+//                     <SafeImage src="/icons/sun.svg" alt="sun" className="w-7 h-7" />
 //                   ) : (
-//                     <img src="/icons/moon.svg" alt="moon" className="w-7 h-7" />
+//                     <SafeImage src="/icons/moon.svg" alt="moon" className="w-7 h-7" />
 //                   )}
 //                 </motion.div>
 //               </button>
@@ -399,9 +399,9 @@
 //                 aria-label="Toggle dark mode"
 //               >
 //                 {darkMode ? (
-//                   <img src="/icons/sun.svg" alt="sun" className="w-5 h-5" />
+//                   <SafeImage src="/icons/sun.svg" alt="sun" className="w-5 h-5" />
 //                 ) : (
-//                   <img src="/icons/moon.svg" alt="moon" className="w-5 h-5" />
+//                   <SafeImage src="/icons/moon.svg" alt="moon" className="w-5 h-5" />
 //                 )}
 //               </button>
 //               {/* mobile menu button */}
@@ -464,6 +464,7 @@ import SearchBar from "./Search/SearchBar";
 import DesktopNav from "./DesktopNav";
 import ThemeToggle from "./ThemeToggle";
 import { FiMenu, FiX } from "react-icons/fi";
+import { SafeImage } from "../../../lib/SafeImage";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -555,30 +556,30 @@ const NavBar = () => {
   const navItems = [
     {
       name: "Courses",
-      icon: <img src="/icons/book.svg" alt="book" />,
+      icon: <SafeImage src="/icons/book.svg" alt="book" />,
       path: "#courses",
       hasDropdown: true,
     },
     {
       name: "About",
-      icon: <img src="/icons/user.svg" alt="user" />,
+      icon: <SafeImage src="/icons/user.svg" alt="user" />,
       path: "/about-us",
     },
     {
       name: "Blog",
-      icon: <img src="/icons/blog.svg" alt="blog" />,
+      icon: <SafeImage src="/icons/blog.svg" alt="blog" />,
       path: "/blog",
     },
     {
       name: "Placements",
-      icon: <img src="/icons/badge.svg" alt="badge" />,
+      icon: <SafeImage src="/icons/badge.svg" alt="badge" />,
       path: "#placements",
       hasDropdown: true,
       subMenu: placementsSubMenu,
     },
     {
       name: "Contact",
-      icon: <img src="/icons/mail.svg" alt="mail" />,
+      icon: <SafeImage src="/icons/mail.svg" alt="mail" />,
       path: "/contact",
     },
   ];
@@ -613,7 +614,7 @@ const NavBar = () => {
             {/* Logo */}
             <div className="flex items-center">
               <Link to="/" className="flex items-center">
-                <img
+                <SafeImage
                   src="./new-logo.png"
                   alt="IT Accurate Logo"
                   className="md:h-12 w-auto h-10"

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { SafeImage } from "../../lib/SafeImage";
 
 function TopicsSection({ coveringTopics, heading }) {
   const getDelay = (index) => index * 0.08;
@@ -59,7 +60,7 @@ function TopicsSection({ coveringTopics, heading }) {
                 whileHover={{ scale: 1.1 }}
                 transition={{ type: "spring", stiffness: 400 }}
               >
-                <img
+                <SafeImage
                   src={topic?.icon}
                   alt="icons"
                   className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-cover"

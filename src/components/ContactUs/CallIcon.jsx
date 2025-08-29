@@ -1,4 +1,5 @@
 import React from "react";
+import { SafeImage } from "../../lib/SafeImage";
 
 const CallIcon = () => {
   const handleClick = () => {
@@ -21,7 +22,7 @@ const CallIcon = () => {
         transition-transform
       "
     >
-      <img
+      <SafeImage
         src="https://cdn-icons-png.flaticon.com/512/724/724664.png"
         alt="Call"
         className="w-[45px] h-[45px] md:w-[45px] md:h-[45px]"

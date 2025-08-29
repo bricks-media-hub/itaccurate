@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Marquee from 'react-fast-marquee';
 import { useSelector } from 'react-redux';
 import hdfcLogo from "../../../public/BankLogos/hdfclogo.jpg"
+import { SafeImage } from '../../lib/SafeImage';
 
 const calculateEMI = (principal, rate, months) => {
     const monthlyRate = rate / (12 * 100);
@@ -54,7 +55,7 @@ const FeesDetails = () => {
         <div className="my-16 max-w-5xl mx-auto p-6 bg-slate-50 dark:bg-gray-900 rounded-2xl shadow-2xl border border-gray-200 dark:border-gray-700">
             <div className="flex flex-col sm:flex-row items-center justify-between mb-6">
                 <h2 className="text-2xl font-bold text-gray-800 dark:text-white">Select Course</h2>
-                <img src={hdfcLogo} alt="HDFC Logo" className="w-44 mt-4 sm:mt-0" />
+                <SafeImage src={hdfcLogo} alt="HDFC Logo" className="w-44 mt-4 sm:mt-0" />
             </div>
 
             <div className="relative w-full group">
@@ -175,7 +176,7 @@ const FeesDetails = () => {
 
             <Marquee direction="right" gradient={false} speed={100} className="mt-4">
                 {banklogos.map((img, i) => (
-                    <img key={i} src={img.banklogo} alt="Bank Logo" className="h-12 mx-8" />
+                    <SafeImage key={i} src={img.banklogo} alt="Bank Logo" className="h-12 mx-8" />
                 ))}
             </Marquee>
         </div>

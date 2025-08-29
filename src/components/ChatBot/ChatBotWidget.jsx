@@ -9,6 +9,7 @@ import useChatBotLogic from "./useChatBotLogic";
 import ChatMessage from "./ChatMessage";
 import CourseCard from "./CourseCard";
 import CourseDetails from "./CourseDetails";
+import { SafeImage } from "../../lib/SafeImage";
 
 const ChatBotWidget = () => {
     const {
@@ -46,7 +47,7 @@ const ChatBotWidget = () => {
                 style={{ zIndex: 100 }}
             >
                 <div className="relative w-56 h-56">
-                    <img
+                    <SafeImage
                         src="/helpme.gif"
                         alt="Help icon"
                         className="w-full h-full object-contain drop-shadow-lg"
@@ -98,7 +99,7 @@ const ChatBotWidget = () => {
                                         className="w-10 h-10 rounded-full bg-white bg-opacity-20 flex items-center justify-center"
                                     >
                                         {/* <FiMessageSquare size={20} /> */}
-                                        <img src="/icons/com-message.svg" alt="message icon" className="w-10 h-10" />
+                                        <SafeImage src="/icons/com-message.svg" alt="message icon" className="w-10 h-10" />
                                     </motion.div>
                                     <div>
                                         <h3 className="font-bold text-lg">Course Assistant</h3>

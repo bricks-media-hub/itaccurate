@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaCertificate, FaChartLine, FaAward } from "react-icons/fa";
+import { SafeImage } from "../../lib/SafeImage";
 
 const CertificationSection = ({ courseName, certificationPoints }) => {
   return (
@@ -46,7 +47,7 @@ const CertificationSection = ({ courseName, certificationPoints }) => {
               <div className="flex items-start gap-5">
                 <div className="flex-shrink-0">
                   <div className="w-12 h-12 rounded-full bg-blue-500 dark:bg-indigo-600 flex items-center justify-center">
-                    <img src={point.icon} alt='icon' className='w-8 h-8' />
+                    <SafeImage src={point.icon} alt='icon' className='w-8 h-8' />
                   </div>
                 </div>
                 <div>
@@ -70,7 +71,7 @@ const CertificationSection = ({ courseName, certificationPoints }) => {
         >
           <div className="relative max-w-7xl w-full">
             <div className="absolute -inset-4 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-2xl opacity-20 blur-lg dark:opacity-30"></div>
-            <img
+            <SafeImage
               src="./certificate.webp"
               alt="Certification"
               className="relative rounded-xl shadow-2xl border-4 border-white dark:border-zinc-700 w-full h-auto"

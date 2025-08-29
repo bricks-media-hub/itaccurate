@@ -250,7 +250,7 @@ const SuccessStats = () => {
               {/* Content */}
               <div className="relative z-20 p-6 text-center flex flex-col justify-center items-center">
                 <div className="text-4xl mb-3">
-                  <img src={placement.icon} alt='icons' className='w-14 h-14' />
+                  <SafeImage src={placement.icon} alt='icons' className='w-14 h-14' />
                 </div>
                 <h3 className="text-lg font-semibold text-black mb-2">{placement.role}</h3>
                 <p className="text-3xl font-bold text-black">

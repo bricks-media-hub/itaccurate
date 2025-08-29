@@ -3,6 +3,7 @@ import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { SafeImage } from '../../lib/SafeImage';
 
 const NextArrow = ({ onClick }) => (
   <button
@@ -74,7 +75,7 @@ export default function Projects({ projects, name }) {
                   {/* Background with fallback */}
                   <div className={`absolute inset-0 ${fallbackColors[index % fallbackColors.length]}`}>
                     {project.image && (
-                      <img
+                      <SafeImage
                         src={project.image}
                         alt={project.title}
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
@@ -99,7 +100,7 @@ export default function Projects({ projects, name }) {
                           className="text-blue-600 dark:text-blue-400 text-xl"
                           dangerouslySetInnerHTML={{ __html: projects[0]?.icon }}
                         /> */}
-                        <img src={projects[0]?.icon} alt="icon" className='w-10 h-10'/>
+                        <SafeImage src={projects[0]?.icon} alt="icon" className='w-10 h-10'/>
                       </div>
                     </div>
 
@@ -219,7 +220,7 @@ export default function Projects({ projects, name }) {
 //                     </span>
 //                     <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-3 rounded-xl group-hover:from-blue-100 group-hover:to-blue-200 transition-all">
 //                       {/* <div className="text-blue-600 text-2xl" dangerouslySetInnerHTML={{ __html: projects[0]?.icon }} /> */}
-//                       <img src={projects[0]?.icon} alt="icon" className='w-10 h-10'/>
+//                       <SafeImage src={projects[0]?.icon} alt="icon" className='w-10 h-10'/>
 //                     </div>
 //                   </div>
 //                   <h3 className="text-xl font-bold text-gray-800 mb-3 leading-snug group-hover:text-blue-600 transition-colors">

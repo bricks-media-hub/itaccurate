@@ -1,6 +1,7 @@
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
+import { SafeImage } from "../../lib/SafeImage";
 
 export const AnimatedWhatMakesUsDifferent = ({
   testimonials,
@@ -71,7 +72,7 @@ export const AnimatedWhatMakesUsDifferent = ({
                 } : {}}
               >
                 <div className="relative h-full w-full overflow-hidden rounded-3xl shadow-lg">
-                  <img
+                  <SafeImage
                     src={testimonial.src}
                     alt={testimonial.name}
                     width={400}
@@ -131,7 +132,7 @@ export const AnimatedWhatMakesUsDifferent = ({
                 transition={{ delay: 0.1 }}
               >
                 <div className="mr-4 mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-400">
-                  <img src="/icons/blue-tick.svg" alt="blue-tick" />
+                  <SafeImage src="/icons/blue-tick.svg" alt="blue-tick" />
                 </div>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
                   Training programs at IT Accurate act as a foundation for students who are willing to become distinguished & expert IT professionals.
@@ -145,7 +146,7 @@ export const AnimatedWhatMakesUsDifferent = ({
                 transition={{ delay: 0.2 }}
               >
                 <div className="mr-4 mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-400">
-                  <img src="/icons/blue-tick.svg" alt="blue-tick" />
+                  <SafeImage src="/icons/blue-tick.svg" alt="blue-tick" />
                 </div>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
                   Our commitment & focus towards empowering students with cutting-edge industry practices & expertise has resulted in exceptional learning experiences.
@@ -159,7 +160,7 @@ export const AnimatedWhatMakesUsDifferent = ({
                 transition={{ delay: 0.3 }}
               >
                 <div className="mr-4 mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-400">
-                  <img src="/icons/blue-tick.svg" alt="blue-tick" />
+                  <SafeImage src="/icons/blue-tick.svg" alt="blue-tick" />
                 </div>
                 <p className="text-lg text-gray-600 dark:text-gray-300">
                   This approach has helped students seize the right career opportunities in competitive markets.

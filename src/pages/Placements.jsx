@@ -8,6 +8,7 @@ import OtherCareerStats from '../components/Placement/OtherCareerStats';
 import SuccessStats from '../components/Placement/SuccessStats';
 import SubscribeDemo from '../components/Placement/SubscribeDemo';
 import PopUpTimeOut from '../lib/PopUpTimeOut';
+import { SafeImage } from '../lib/SafeImage';
 
 const Placements = () => {
   const [showForm, setShowForm] = useState(false);
@@ -37,7 +38,7 @@ const placementStats = [
               >
                 <div className="flex items-center gap-3 mb-5">
                   <div className="p-3 bg-indigo-100 dark:bg-indigo-900 rounded-full">
-                    <img src='/icons/search-scope.svg' className="text-indigo-600 dark:text-indigo-300 text-xl w-6 h-6 sm:w-10 sm:h-10" />
+                    <SafeImage src='/icons/search-scope.svg' className="text-indigo-600 dark:text-indigo-300 text-xl w-6 h-6 sm:w-10 sm:h-10" />
                   </div>
                   <span className="text-sm font-semibold text-indigo-600 dark:text-indigo-300 uppercase tracking-wide">
                     Career Placements
@@ -68,7 +69,7 @@ const placementStats = [
                       >
                           {/* icon */}
                           <div>
-                            <img
+                            <SafeImage
                               src={stat.icon}
                               alt={stat.label}
                               className="w-7 h-7 sm:w-10 sm:h-10"
@@ -87,7 +88,7 @@ const placementStats = [
                   <div className="bg-yellow-50 dark:bg-gray-900 border-l-4 border-yellow-500 rounded-xl p-5 mt-6 sm:mt-8">
                     <div className="flex flex-col md:flex-row items-start gap-4">
                       {/* <div className="bg-yellow-100 dark:bg-yellow-800/30 p-3 rounded-full"> */}
-                        <img src="/icons/teaching.svg" alt="Teaching" className="w-12 h-12 self-center" />
+                        <SafeImage src="/icons/teaching.svg" alt="Teaching" className="w-12 h-12 self-center" />
                       {/* </div> */}
                       <div>
                         <h3 className="text-lg font-bold text-yellow-700 dark:text-yellow-400 mb-2">
@@ -117,7 +118,7 @@ const placementStats = [
                   transition={{ duration: 0.8 }}
                   className="relative group"
                 >
-                  <img
+                  <SafeImage
                     src="./placement.svg"
                     alt="Placement Illustration"
                     className="w-full h-auto rounded-2xl transition-transform duration-500 group-hover:scale-105"

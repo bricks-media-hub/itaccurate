@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Marquee from "react-fast-marquee";
+import { SafeImage } from "../../lib/SafeImage";
 
 const companyData = [
   {
@@ -120,7 +121,7 @@ const AlumniMarquee = ({ title }) => {
             className="flex items-center justify-center mx-4 transition-transform duration-300 hover:scale-105"
           >
             <div className="p-3 rounded-lg">
-              <img
+              <SafeImage
                 src={isDark ? company.lightLogo : company.darkLogo}
                 alt={company.name}
                 className="w-28 md:w-32 h-auto object-contain"

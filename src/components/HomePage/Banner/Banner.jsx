@@ -5,6 +5,7 @@ import FreeDemoForm from "../../ContactUs/FreeDemoForm";
 import RotatingImages from "./RotatingImages";
 import CompanyLogoGlobe from "./CompanyLogoGlobe";
 import FeatureSection from "./FeatureSection";
+import { SafeImage } from "../../../lib/SafeImage";
 
 function Banner() {
   const [showForm, setShowForm] = useState(false);
@@ -88,7 +89,7 @@ function Banner() {
                     href="#training-courses"
                     className="flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-500 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md text-base"
                   >
-                    <img
+                    <SafeImage
                       src="/icons/explore.svg"
                       alt="explore"
                       className="w-7 h-7"
@@ -102,7 +103,7 @@ function Banner() {
                     onClick={() => setShowForm(true)}
                     className="flex items-center justify-center gap-2 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border border-gray-300 dark:border-gray-600 font-semibold py-3 px-6 rounded-lg shadow-md text-base"
                   >
-                    <img
+                    <SafeImage
                       src="/icons/contact.svg"
                       alt="contact"
                       className="w-7 h-7"

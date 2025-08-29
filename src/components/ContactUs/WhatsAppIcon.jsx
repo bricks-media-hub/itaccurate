@@ -1,4 +1,5 @@
 import React from "react";
+import { SafeImage } from "../../lib/SafeImage";
 
 const WhatsAppIcon = () => {
   const handleClick = () => {
@@ -19,7 +20,7 @@ const WhatsAppIcon = () => {
         transition-transform
       "
     >
-      <img
+      <SafeImage
         src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
         alt="WhatsApp"
         className="w-[60px] h-[60px] md:w-[55px] md:h-[55px]"

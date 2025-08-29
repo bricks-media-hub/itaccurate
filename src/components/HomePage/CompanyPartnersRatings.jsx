@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
 import CompanyPartnersRatingsSkeleton from "../ui/SkeletonEffects/CompanyPartnersRatingSkeleton";
+import { SafeImage } from "../../lib/SafeImage";
 
 const CompanyPartnersRatings = () => {
 
@@ -82,7 +83,7 @@ const CompanyPartnersRatings = () => {
                                         {/* Inner shadow effect */}
                                         <div className="absolute inset-0 rounded-lg shadow-[inset_0_0_15px_rgba(0,0,0,0.1)] dark:shadow-[inset_0_0_15px_rgba(0,0,0,0.3)] group-hover:shadow-[inset_0_0_20px_rgba(59,130,246,0.2)] dark:group-hover:shadow-[inset_0_0_20px_rgba(168,85,247,0.3)] transition-all duration-300 pointer-events-none"></div>
 
-                                        <img
+                                        <SafeImage
                                             src={company.logo}
                                             alt={company.name}
                                             className="h-14 md:h-20 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
@@ -94,7 +95,7 @@ const CompanyPartnersRatings = () => {
                                                 {company.name}
                                             </p>
                                             <div className="flex items-center justify-center text-xs mt-1 space-x-1">
-                                                <img src="/icons/star.svg" alt="star" className="w-3 h-3 text-yellow-500 dark:text-yellow-400 -mt-1" />
+                                                <SafeImage src="/icons/star.svg" alt="star" className="w-3 h-3 text-yellow-500 dark:text-yellow-400 -mt-1" />
                                                 <span className="font-semibold text-yellow-500 dark:text-yellow-400">{company.rating}</span>
                                                 <span className="text-gray-500 dark:text-gray-400">({company.reviews}+)</span>
                                             </div>

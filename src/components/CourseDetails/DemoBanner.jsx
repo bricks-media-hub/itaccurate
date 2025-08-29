@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import config from '../../lib/config';
+import { SafeImage } from '../../lib/SafeImage';
 
 function DemoBanner() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -71,22 +72,7 @@ function DemoBanner() {
   };
 
   return (
-    <div className="
-  w-full px-4 sm:px-6 lg:px-8 
-  -mt-3    
-  sm:-mt-4 
-  md:-mt-5 
-  lg:-mt-6 
-  xl:-mt-8 
-  2xl:-mt-10 
-  3xl:-mt-12 
-  4xl:-mt-14 
-  5xl:-mt-16 
-  6xl:-mt-20 
-  7xl:-mt-24 
-  8xl:-mt-28 
-  mb-5
-">
+  <div className='w-full px-4 sm:px-6 lg:px-8 mb-14'>
       <div className="relative max-w-7xl mx-auto bg-gradient-to-r from-blue-500 to-indigo-700 rounded-2xl shadow-xl overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute -top-20 -right-20 w-40 h-40 rounded-full bg-white/10" />
@@ -110,7 +96,7 @@ function DemoBanner() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                   <div className="relative">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none z-20">
-                      <img src="/icons/user.svg" alt="user" className='w-5 h-5'/>
+                      <SafeImage src="/icons/user.svg" alt="user" className='w-5 h-5'/>
                     </div>
                     <input
                       type="text"
@@ -133,7 +119,7 @@ function DemoBanner() {
 
                   <div className="relative">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none z-20">
-                      <img src="/icons/phone.svg" alt="phone" className='w-5 h-5'/>
+                      <SafeImage src="/icons/phone.svg" alt="phone" className='w-5 h-5'/>
                     </div>
                     <input
                       type="tel"

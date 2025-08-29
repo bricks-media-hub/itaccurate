@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import PopUpTimeOut from '../lib/PopUpTimeOut';
+import { SafeImage } from '../lib/SafeImage';
 
 function Jobs() {
   return (
@@ -20,7 +21,7 @@ function Jobs() {
               transition={{ type: "spring", stiffness: 300 }}
               className="relative w-16 h-16 sm:w-20 sm:h-20"
             >
-              <img 
+              <SafeImage 
                 src="./icons/job-icon.png" 
                 alt="career opportunities"
                 className="w-full h-full object-contain drop-shadow-lg"
@@ -64,7 +65,7 @@ function Jobs() {
                     whileHover={{ scale: 1.03 }}
                     className="overflow-hidden rounded-lg shadow-lg"
                   >
-                    <img 
+                    <SafeImage 
                       src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
                       alt="Office workspace"
                       className="w-full h-auto object-cover"
@@ -80,7 +81,7 @@ function Jobs() {
                       whileHover={{ rotate: 10 }}
                       className="w-8 h-8 sm:w-10 sm:h-10"
                     >
-                      <img 
+                      <SafeImage 
                         src="./icons/job-clock.png" 
                         alt="hiring status" 
                         className="w-full h-full object-contain"

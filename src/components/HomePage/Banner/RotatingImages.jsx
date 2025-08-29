@@ -99,7 +99,7 @@ function RotatingImages() {
                                     transformOrigin: "center center",
                                 }}
                             >
-                                <img
+                                <i
                                     src={image.src}
                                     alt={image.alt}
                                     className={`w-full h-full object-cover rounded-xl shadow-lg border bg-gradient-to-r ${image.color}`}

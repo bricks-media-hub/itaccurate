@@ -116,7 +116,7 @@
 //                           >
 //                             <div className="flex items-center">
 //                               <span className="mr-2">
-//                                 <img
+//                                 <SafeImage
 //                                   src={course.icon}
 //                                   alt="course icon"
 //                                   className="w-6 h-6 -mt-2 md:w-9 md:h-9 md:mt-2"
@@ -329,7 +329,7 @@ const MobileNavBar = ({
                             >
                               <div className="flex items-center">
                                 <span className="mr-2">
-                                  <img
+                                  <SafeImage
                                     src={course.icon}
                                     alt="course icon"
                                     className="w-6 h-6 -mt-2 md:w-9 md:h-9 md:mt-2"

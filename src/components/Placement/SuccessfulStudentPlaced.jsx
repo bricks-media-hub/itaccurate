@@ -7,6 +7,7 @@ import {
     FaLongArrowAltUp,
 } from 'react-icons/fa';
 import { fetchPlacedStudentData } from '../../api/fetchComponentData';
+import { SafeImage } from '../../lib/SafeImage';
 
 const SuccessfulStudentPlaced = () => {
     const [showAll, setShowAll] = useState(false);
@@ -49,7 +50,7 @@ const SuccessfulStudentPlaced = () => {
                         >
                             <div className="p-5">
                                 <div className="flex items-center space-x-4 mb-4">
-                                    <img
+                                    <SafeImage
                                         src={student.photo}
                                         alt={student.name}
                                         className="w-16 h-16 rounded-full object-cover border-2 border-white dark:border-gray-700 shadow"
@@ -68,7 +69,7 @@ const SuccessfulStudentPlaced = () => {
 
                                 <div className="space-y-3">
                                     <div className="flex items-center text-base text-gray-600 dark:text-gray-300">
-                                        {student.logo ? (<img src={student.logo} alt='logo' className='w-auto h-7' />) : (<FaBuilding className="mr-2 text-indigo-500 dark:text-indigo-400" />)}
+                                        {student.logo ? (<SafeImage src={student.logo} alt='logo' className='w-auto h-7' />) : (<FaBuilding className="mr-2 text-indigo-500 dark:text-indigo-400" />)}
                                         <span>{student.company}</span>
                                     </div>
 

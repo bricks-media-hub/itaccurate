@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
+import { SafeImage } from "../lib/SafeImage";
 
 function CourseLocationDetails({ title, points, bgImage }) {
   return (
@@ -32,7 +33,7 @@ function CourseLocationDetails({ title, points, bgImage }) {
               >
                 <div className="relative w-full" style={{ height: "auto" }}>
                   <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-                    <img
+                    <SafeImage
                       src={bgImage}
                       alt="Image Name"
                       className="w-full h-auto object-cover rounded-2xl"
@@ -58,7 +59,7 @@ function CourseLocationDetails({ title, points, bgImage }) {
           >
             {/* Heading with gradient and animated underline */}
             <h2 className="relative inline-block text-2xl sm:text-3xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-purple-400 mb-6">
-              {`${title}?`}
+              {`${title}`}
               <span className="absolute left-0 -bottom-1 w-full h-1 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full animate-pulse" />
             </h2>
 

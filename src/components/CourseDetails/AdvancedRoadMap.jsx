@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useLoaderData } from "react-router-dom";
+import { SafeImage } from "../../lib/SafeImage";
 
 export default function AdvancedRoadMap() {
   const [selectedModule, setSelectedModule] = useState(null);
@@ -211,7 +212,7 @@ function CyclingBoyDesktop({ roadWidth }) {
         repeatDelay: 0.5
       }}
     >
-      <img 
+      <SafeImage 
         src="/icons/bike-rider.svg" 
         alt="Cycling Boy" 
         className="w-full h-full object-contain" 
@@ -293,7 +294,7 @@ function RoadmapItem({ module, index, onClick, position, totalItems, isMobile })
         className="p-5 md:p-6 bg-white dark:bg-gray-800 rounded-2xl md:rounded-3xl shadow-lg hover:shadow-xl relative z-10 transition-all duration-300 w-full max-w-xs h-full flex flex-col"
       >
         <div className={`w-14 h-14 md:w-16 md:h-16 mb-4 rounded-full flex items-center justify-center bg-gradient-to-br ${module.color} text-white shadow-lg mx-auto`}>
-          <img src={module.icon} alt={module.title} className="w-6 h-6 md:w-8 md:h-8" />
+          <SafeImage src={module.icon} alt={module.title} className="w-6 h-6 md:w-8 md:h-8" />
         </div>
         <h3 className="font-extrabold text-lg md:text-xl mb-2 text-gray-900 dark:text-gray-100">{module.title}</h3>
         <p className="text-xs md:text-sm text-gray-600 dark:text-gray-300 mb-4 flex-grow">{module.description}</p>
@@ -340,8 +341,8 @@ function DetailsPanel({ module, onClose }) {
         <div className="p-6 md:p-8">
           {/* Header */}
           <div className="flex justify-between items-start mb-6">
-            <div className={`w-16 h-16 rounded-full flex items-center justify-center bg-gradient-to-br ${module.color} text-white shadow-lg`}>
-              <img src={module.icon} alt={module.title} className="w-8 h-8" />
+            <div className={`w-16 h-16 rounded-full flex items-center justify-center bg-gradient-to-br ${module?.color} text-white shadow-lg`}>
+              <SafeImage src={module?.icon} alt={module?.title} className="w-8 h-8" />
             </div>
             <button 
               onClick={onClose}

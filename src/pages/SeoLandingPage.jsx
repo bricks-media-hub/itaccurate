@@ -20,6 +20,7 @@ import ContactUs from "../components/ContactUs/ContactUs";
 import CourseOpportunities from "../components/CourseDetails/CourseOpportunities";
 import TestimonialSlider from "../components/CourseDetails/TestimonialSlider";
 import TopicsSection from "../components/CourseDetails/TopicsSection";
+import { SafeImage } from "../lib/SafeImage";
 
 function SeoLandingPage() {
   const [landingPageDetails, setLandingPageDetails] = useState({});
@@ -99,7 +100,7 @@ function SeoLandingPage() {
                     >
                       <span className="mr-2 text-blue-600">
                         <div className="mr-4 mt-2 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-400">
-                          <img src="/icons/blue-tick.svg" alt="blue-tick" />
+                          <SafeImage src="/icons/blue-tick.svg" alt="blue-tick" />
                         </div>
                       </span>
                       {point}
@@ -123,7 +124,7 @@ function SeoLandingPage() {
 
       {/* Sap Image */}
       <div className="py-11 bg-gray-100 dark:bg-slate-900">
-        <img
+        <SafeImage
           className="md:w-[70vw] m-auto w-10vw"
           src="./addons.png"
           alt="addon"
@@ -150,6 +151,12 @@ function SeoLandingPage() {
           keyFeatures={landingPageDetails?.keyFeatures}
         />
       )}
+      
+      {/* Upcoming batches */}
+      <UpcomingBatches />
+
+      {/* Demo Form */}
+      <DemoBanner />
 
       {/* Course Location and Details */}
       {landingPageDetails?.courseLocation && (
@@ -160,12 +167,6 @@ function SeoLandingPage() {
         />
       )}
 
-      {/* Upcoming batches */}
-      <UpcomingBatches />
-
-      {/* Demo Form */}
-      <DemoBanner />
-
       {/* Sap Certification */}
       <CertificationSection
         certificateImg={null}
@@ -173,14 +174,14 @@ function SeoLandingPage() {
         certificationPoints={landingPageDetails?.certificationPoints}
       />
 
-            {/* Successful Students */}
+      {/* Successful Students */}
       <div className="-mt-16">
         <PlacedStudents
           className={`text-2xl sm:text-3xl md:text-4xl font-bold text-slate-800 dark:text-white`}
         />
       </div>
 
-            {/* Companies marquee */}
+      {/* Companies marquee */}
       <CompanyMarquee />
 
       {/* Professional Success */}

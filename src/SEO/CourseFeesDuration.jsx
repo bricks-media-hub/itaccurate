@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import FreeDemoForm from "../components/ContactUs/FreeDemoForm";
 import { useLocation } from "react-router-dom";
+import { SafeImage } from "../lib/SafeImage";
 
 const CourseFeesDuration = ({ data }) => {
   const [showForm, setShowForm] = useState(false);
@@ -43,7 +44,7 @@ const CourseFeesDuration = ({ data }) => {
               {/* {showSapFico ? (
                 <ul className="text-indigo-800 dark:text-indigo-300 text-base space-y-5">
                   <li className="flex items-start gap-3">
-                    <img
+                    <SafeImage
                       src="/icons/job-clock.png"
                       alt="Batch Timing Icon"
                       className="w-6 h-6"
@@ -54,7 +55,7 @@ const CourseFeesDuration = ({ data }) => {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <img
+                    <SafeImage
                       src="/icons/calendar2.svg"
                       alt="Course Duration Icon"
                       className="w-6 h-6"
@@ -64,7 +65,7 @@ const CourseFeesDuration = ({ data }) => {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <img
+                    <SafeImage
                       src="/icons/teaching.svg"
                       alt="Practice Access Icon"
                       className="w-6 h-6"
@@ -75,7 +76,7 @@ const CourseFeesDuration = ({ data }) => {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <img
+                    <SafeImage
                       src="/icons/money-pouch.svg"
                       alt="Fees Icon"
                       className="w-6 h-6"
@@ -86,7 +87,7 @@ const CourseFeesDuration = ({ data }) => {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <img
+                    <SafeImage
                       src="/icons/contact.svg"
                       alt="Contact Icon"
                       className="w-6 h-6"
@@ -100,7 +101,7 @@ const CourseFeesDuration = ({ data }) => {
               ) : ( */}
                 <ul className="text-indigo-800 dark:text-indigo-300 text-base space-y-5">
                   <li className="flex items-start gap-3">
-                    <img
+                    <SafeImage
                       src="/icons/money-pouch.svg"
                       alt="Fees Icon"
                       className="w-6 h-6"
@@ -110,7 +111,7 @@ const CourseFeesDuration = ({ data }) => {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <img
+                    <SafeImage
                       src="/icons/job-clock.png"
                       alt="Duration Icon"
                       className="w-6 h-6"
@@ -120,7 +121,7 @@ const CourseFeesDuration = ({ data }) => {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <img
+                    <SafeImage
                       src="/icons/certificate.svg"
                       alt="Certificate Icon"
                       className="w-6 h-6"
@@ -130,7 +131,7 @@ const CourseFeesDuration = ({ data }) => {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <img
+                    <SafeImage
                       src="/icons/wireframe-globe.svg"
                       alt="Global Path Icon"
                       className="w-6 h-6"
@@ -141,7 +142,7 @@ const CourseFeesDuration = ({ data }) => {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <img
+                    <SafeImage
                       src="/icons/contact.svg"
                       alt="Contact Icon"
                       className="w-6 h-6"

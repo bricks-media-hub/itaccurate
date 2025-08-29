@@ -9,6 +9,7 @@ import {
   FaUserShield,
 } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
+import { SafeImage } from "../../lib/SafeImage";
 
 const JobPreparation = () => {
   const [activeTab, setActiveTab] = useState("CourseCompletion");
@@ -22,19 +23,19 @@ const JobPreparation = () => {
   const tabContent = {
     CourseCompletion: [
       {
-        icon: <img src="/icons/graduation.svg" alt="graduation" className="w-11 h-11"/>,
+        icon: <SafeImage src="/icons/graduation.svg" alt="graduation" className="w-11 h-11"/>,
         title: "Hands-On Training with Internships",
         description:
           "Participate in our internship opportunities to bridge the gap between theory and practice. Develop workplace-ready skills while working on tasks that mirror real-world scenarios.",
       },
       {
-        icon: <img src="/icons/blockchain.svg" alt="graduation" className="w-11 h-11"/>,
+        icon: <SafeImage src="/icons/blockchain.svg" alt="graduation" className="w-11 h-11"/>,
         title: "Industry-Driven Project Experience",
         description:
           "Engage in projects designed to meet market standards. Strengthen your portfolio with practical implementations that demonstrate your expertise and innovation.",
       },
       {
-        icon: <img src="/icons/resume-prep.svg" alt="graduation" className="w-11 h-11"/>,
+        icon: <SafeImage src="/icons/resume-prep.svg" alt="graduation" className="w-11 h-11"/>,
         title: "Resume Writing Excellence",
         description:
           "Create an impactful resume that highlights your strengths and achievements effectively. Impress employers with a professional and tailored profile.",
@@ -42,19 +43,19 @@ const JobPreparation = () => {
     ],
     InterviewPreparation: [
       {
-        icon: <img src="/icons/teaching.svg" alt="graduation" className="w-11 h-11"/>,
+        icon: <SafeImage src="/icons/teaching.svg" alt="graduation" className="w-11 h-11"/>,
         title: "Core Competency Development",
         description:
           "Sharpen your technical and analytical abilities with targeted practice sessions. Gain the confidence to tackle interview challenges with ease.",
       },
       {
-        icon: <img src="/icons/help.svg" alt="graduation" className="w-11 h-11"/>,
+        icon: <SafeImage src="/icons/help.svg" alt="graduation" className="w-11 h-11"/>,
         title: "Mock Interview Simulations",
         description:
           "Participate in realistic interview exercises that mimic actual hiring processes. Get constructive feedback to refine your performance.",
       },
       {
-        icon: <img src="/icons/folder-network.svg" alt="graduation" className="w-11 h-11"/>,
+        icon: <SafeImage src="/icons/folder-network.svg" alt="graduation" className="w-11 h-11"/>,
         title: "Dynamic Group Discussions",
         description:
           "Enhance your communication and collaboration skills through interactive group sessions. Learn how to articulate your ideas effectively in a team setting.",
@@ -62,19 +63,19 @@ const JobPreparation = () => {
     ],
     Placement: [
       {
-        icon: <img src="/icons/job-assist.svg" alt="graduation" className="w-11 h-11"/>,
+        icon: <SafeImage src="/icons/job-assist.svg" alt="graduation" className="w-11 h-11"/>,
         title: "Ongoing Career Support",
         description:
           "Receive dedicated assistance throughout your job search until you secure a role with a leading organization. Benefit from personalized guidance at every step.",
       },
       {
-        icon: <img src="/icons/referral.svg" alt="graduation" className="w-11 h-11"/>,
+        icon: <SafeImage src="/icons/referral.svg" alt="graduation" className="w-11 h-11"/>,
         title: "Exclusive Referral Opporturnity",
         description:
           "Leverage our extensive network for access to exclusive job openings. Open doors to exciting career paths through our referral program.",
       },
       {
-        icon: <img src="/icons/user-shield.svg" alt="graduation" className="w-11 h-11"/>,
+        icon: <SafeImage src="/icons/user-shield.svg" alt="graduation" className="w-11 h-11"/>,
         title: "Job Guarantee Guidance",
         description:
           "Receive dedicated career support from industry mentors, resume optimization, and personalized mock interviews—ensuring you're fully prepared and placed with confidence.",

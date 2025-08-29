@@ -86,7 +86,7 @@
 //                     <div>
 //                       <div className="bg-white/30 dark:bg-black/30 backdrop-blur-sm rounded-full w-24 h-24 mx-auto mb-6 flex items-center justify-center">
 //                         <div className="p-2 bg-white rounded-full">
-//                           <img
+//                           <SafeImage
 //                             src={course.icon}
 //                             alt={course.title}
 //                             className="w-16 h-16 object-contain rounded-xl"
@@ -266,7 +266,7 @@ const OfferedCourses = () => {
                 <div className="p-6 h-full flex flex-col">
                   {/* Icon */}
                   <div className={`mb-6 w-16 h-16 rounded-lg ${hoveredCard === course.id ? course.color : 'bg-gray-100 dark:bg-gray-700'} flex items-center justify-center transition-colors duration-300`}>
-                    <img 
+                    <SafeImage 
                       src={course.icon} 
                       alt={course.title} 
                       className="w-10 h-10 object-contain" 

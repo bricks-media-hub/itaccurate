@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Marquee from "react-fast-marquee";
 import { useSelector } from "react-redux";
 import FreeDemoForm from "../ContactUs/FreeDemoForm";
+import { SafeImage } from "../../lib/SafeImage";
 
 const PlacedStudents = ({ className }) => {
   const [showDemoForm, setShowDemoForm] = useState(false);
@@ -54,18 +55,18 @@ const PlacedStudents = ({ className }) => {
                 rel="noopener noreferrer"
                 className="absolute top-3 right-3 w-5 h-5 opacity-70 hover:opacity-100 transition"
               >
-                <img
+                <SafeImage
                   src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
                   alt="LinkedIn"
                   className="w-full h-full"
                 />
               </a>
               <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-blue-500 dark:border-blue-400 shadow-inner">
-                <img src={student.image} alt={student.name} className="w-full h-full object-cover" />
+                <SafeImage src={student.image} alt={student.name} className="w-full h-full object-cover" />
               </div>
               <p className="mt-3 text-md font-bold text-gray-800 dark:text-white">{student.name}</p>
               <p className="text-xs text-gray-500 dark:text-gray-300">{student.role}</p>
-              <img
+              <SafeImage
                 src={student.logo}
                 alt={student.company}
                 className="w-20 mt-2 object-contain transition-transform hover:scale-110"
@@ -90,18 +91,18 @@ const PlacedStudents = ({ className }) => {
                 rel="noopener noreferrer"
                 className="absolute top-3 right-3 w-5 h-5 opacity-70 hover:opacity-100 transition"
               >
-                <img
+                <SafeImage
                   src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
                   alt="LinkedIn"
                   className="w-full h-full"
                 />
               </a>
               <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-blue-500 dark:border-blue-400 shadow-inner">
-                <img src={student.image} alt={student.name} className="w-full h-full object-cover" />
+                <SafeImage src={student.image} alt={student.name} className="w-full h-full object-cover" />
               </div>
               <p className="mt-3 text-md font-bold text-gray-800 dark:text-white">{student.name}</p>
               <p className="text-xs text-gray-500 dark:text-gray-300">{student.role}</p>
-              <img
+              <SafeImage
                 src={student.logo}
                 alt={student.company}
                 className="w-20 mt-2 object-contain transition-transform hover:scale-110"

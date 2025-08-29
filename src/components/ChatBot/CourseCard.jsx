@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FiChevronDown, FiChevronRight, FiInfo } from "react-icons/fi";
+import { SafeImage } from '../../lib/SafeImage';
 
 const CourseCard = ({ 
   course, 
@@ -21,7 +22,7 @@ const CourseCard = ({
       >
         <div className="flex items-center space-x-3">
           {course.icon ? (
-            <img src={course.icon} alt={course.title} className="w-8 h-8" />
+            <SafeImage src={course.icon} alt={course.title} className="w-8 h-8" />
           ) : (
             <div className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center">
               <FiMessageSquare className="text-blue-600 dark:text-blue-300" />

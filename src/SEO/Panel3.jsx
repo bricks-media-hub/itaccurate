@@ -1,5 +1,6 @@
 import React from "react";
 import SAPHighlightSection from "./SapHighlightSection";
+import { SafeImage } from "../lib/SafeImage";
 
 const Panel3 = ({ data }) => {
   console.log(data);
@@ -37,7 +38,7 @@ const Panel3 = ({ data }) => {
                      group-hover:bg-indigo-500 dark:group-hover:bg-indigo-900/50
                      transition-colors duration-300"
                   >
-                    <img
+                    <SafeImage
                       src={module.icon}
                       alt="icon"
                       className="h-12 w-12 text-indigo-600 dark:text-indigo-400"

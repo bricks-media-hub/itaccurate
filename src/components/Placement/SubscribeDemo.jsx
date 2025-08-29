@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaTools, FaChalkboardTeacher, FaTasks, FaRocket } from "react-icons/fa";
 import FreeDemoForm from "../ContactUs/FreeDemoForm"
+import { SafeImage } from "../../lib/SafeImage";
 
 const SubscribeDemo = () => {
   const [showForm, setShowForm] = useState(false);
@@ -76,7 +77,7 @@ const SubscribeDemo = () => {
             >
               <div className="flex flex-col items-center text-center">
                 <div className="p-3 mb-4 bg-blue-200 dark:bg-blue-900/30 rounded-full text-blue-600 dark:text-blue-400">
-                  <img src={benefit.icon} alt="icons" className="w-8 h-8" />
+                  <SafeImage src={benefit.icon} alt="icons" className="w-8 h-8" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
                   {benefit.title}

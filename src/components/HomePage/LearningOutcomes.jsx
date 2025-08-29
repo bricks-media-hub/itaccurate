@@ -1,3 +1,4 @@
+import { SafeImage } from "../../lib/SafeImage";
 import { CardBody, CardContainer, CardItem } from "../ui/3dCard";
 
 export function LearningOutcomes() {
@@ -45,7 +46,7 @@ export function LearningOutcomes() {
                                 {item.title}
                             </CardItem>
                             <CardItem translateZ="100" className="w-full mt-4">
-                                <img
+                                <SafeImage
                                     src={item.image}
                                     height="1000"
                                     width="1000"

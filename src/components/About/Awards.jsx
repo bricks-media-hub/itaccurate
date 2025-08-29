@@ -8,6 +8,7 @@ import 'swiper/css/pagination';
 // Import Swiper core and required modules
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
+import { SafeImage } from '../../lib/SafeImage';
 
 function Awards() {
     const awards = [
@@ -110,7 +111,7 @@ function Awards() {
 
                                     {/* Award Image - Adjust height here */}
                                     <div className="relative h-64 overflow-hidden bg-gray-100 dark:bg-gray-700 flex items-center justify-center p-4">
-                                        <img
+                                        <SafeImage
                                             src={award.image}
                                             alt={award.title}
                                             className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110"

@@ -255,19 +255,19 @@
             "coveringTopics": [
                 {
                     "title": "Resume preparation",
-                    "icon": "📝"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview practice",
-                    "icon": "👔"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
                     "title": "6-months internship",
-                    "icon": "👨‍💻"
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
                     "title": "100% job opportunities guaranteed program",
-                    "icon": "🎓"
+                    "icon": "/icons/job.svg"
                 }
             ],
             "whatIs": {
@@ -284,32 +284,32 @@
             "keyFeatures": [
                 {
                     "text": "130+ Hours course duration",
-                    "icon": "FiClock",
+                    "icon": "/icons/job-clock.png",
                     "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
                 },
                 {
                     "text": "Free demo class available",
-                    "icon": "FiVideo",
+                    "icon": "/icons/video.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
                 },
                 {
                     "text": "Certificate Guidance",
-                    "icon": "FiAward",
+                    "icon": "/icons/certificate.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
                 },
                 {
                     "text": "100% Job oriented training",
-                    "icon": "FiBriefcase",
+                    "icon": "/icons/briefcase.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
                 },
                 {
                     "text": "Industry expert faculties",
-                    "icon": "FiHelpCircle",
+                    "icon": "/icons/help.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
                 },
                 {
                     "text": "Completed 120+ batches",
-                    "icon": "FiUsers",
+                    "icon": "/icons/batch.svg",
                     "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
                 }
             ],
@@ -317,7 +317,7 @@
                 {
                     "title": "Introduction",
                     "description": "Foundation of SAP knowledge",
-                    "icon": "📚",
+                    "icon": "/icons/book2.svg",
                     "items": [
                         "What is SAP?",
                         "What is SAP ABAP?",
@@ -332,7 +332,7 @@
                 {
                     "title": "Web Dynpro ABAP",
                     "description": "Web application development in SAP",
-                    "icon": "🌐",
+                    "icon": "/icons/webservice.svg",
                     "items": [
                         "Develop web-based applications with Web Dynpro ABAP",
                         "Master MVC (Model-View-Controller) architecture",
@@ -344,7 +344,7 @@
                 {
                     "title": "ABAP OOP",
                     "description": "Modern ABAP development techniques",
-                    "icon": "🧩",
+                    "icon": "/icons/oops.svg",
                     "items": [
                         "Implement ABAP Object-Oriented Programming",
                         "Create and use classes and interfaces",
@@ -356,7 +356,7 @@
                 {
                     "title": "Debugging & Optimization",
                     "description": "Ensure code quality and performance",
-                    "icon": "🔍",
+                    "icon": "/icons/search-scope.svg",
                     "items": [
                         "Master ABAP debugging techniques",
                         "Optimize ABAP code performance",
@@ -368,7 +368,7 @@
                 {
                     "title": "ALV Programming",
                     "description": "Reporting solutions in SAP",
-                    "icon": "📊",
+                    "icon": "/icons/stats.svg",
                     "items": [
                         "Develop reports using ALV Grid",
                         "Create ALV List displays",
@@ -380,7 +380,7 @@
                 {
                     "title": "ABAP Unit Testing",
                     "description": "Quality assurance in ABAP",
-                    "icon": "🧪",
+                    "icon": "/icons/testube.svg",
                     "items": [
                         "Implement unit testing with ABAP Unit",
                         "Apply test-driven development (TDD)",
@@ -392,7 +392,7 @@
                 {
                     "title": "SAP Gateway & OData",
                     "description": "Integration technologies",
-                    "icon": "🔗",
+                    "icon": "/icons/locked.svg",
                     "items": [
                         "Build OData services with SAP Gateway",
                         "Enable SAP-external communication",
@@ -404,7 +404,7 @@
                 {
                     "title": "Career Preparation",
                     "description": "Launch your SAP career",
-                    "icon": "📝",
+                    "icon": "/icons/sheet.svg",
                     "items": [
                         "Optimize resume with SAP keywords",
                         "Highlight project impact and achievements",
@@ -429,7 +429,7 @@
                         "SAP Landscape."
                     ],
                     "color": "bg-blue-500",
-                    "icon": "🏛️",
+                    "icon": "/icons/mansion.svg",
                     "description": "SAP fundamentals and architecture overview"
                 },
                 {
@@ -468,7 +468,7 @@
                         "Control-Break Statements"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "👨‍💻",
+                    "icon": "/icons/emp-comp.svg",
                     "description": "Core ABAP programming concepts and techniques"
                 },
                 {
@@ -487,7 +487,7 @@
                         "Table Maintenance Generator"
                     ],
                     "color": "bg-green-500",
-                    "icon": "🗃️",
+                    "icon": "/icons/folders.svg",
                     "description": "Mastering SAP data structures and definitions"
                 },
                 {
@@ -501,7 +501,7 @@
                         "HR"
                     ],
                     "color": "bg-yellow-500",
-                    "icon": "🔄",
+                    "icon": "/icons/recurring.svg",
                     "description": "Understanding SAP business process integration"
                 },
                 {
@@ -518,7 +518,7 @@
                         "SQL Query"
                     ],
                     "color": "bg-red-500",
-                    "icon": "📈",
+                    "icon": "/icons/stats3.svg",
                     "description": "Developing various types of SAP reports"
                 },
                 {
@@ -545,7 +545,7 @@
                         "LUW (Logical Unit Work)"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "💻",
+                    "icon": "/icons/computer.svg",
                     "description": "Creating interactive transaction screens in SAP"
                 },
                 {
@@ -565,7 +565,7 @@
                         "Presentation Server"
                     ],
                     "color": "bg-pink-500",
-                    "icon": "📤",
+                    "icon": "/icons/batch.svg",
                     "description": "Techniques for batch data processing in SAP"
                 },
                 {
@@ -579,7 +579,7 @@
                         "Modifying Standard SAP Scripts"
                     ],
                     "color": "bg-purple-500",
-                    "icon": "📜",
+                    "icon": "/icons/sheet.svg",
                     "description": "Traditional SAP printing and forms technology"
                 },
                 {
@@ -593,7 +593,7 @@
                         "Differences Between Smart Forms & Scripts"
                     ],
                     "color": "bg-teal-500",
-                    "icon": "🧠",
+                    "icon": "/icons/google-forms.svg",
                     "description": "Modern form processing in SAP"
                 },
                 {
@@ -603,7 +603,7 @@
                         "Introduction to Cross Applications"
                     ],
                     "color": "bg-blue-600",
-                    "icon": "🔄",
+                    "icon": "/icons/mobile-acc.svg",
                     "description": "SAP integration across different applications"
                 },
                 {
@@ -614,7 +614,7 @@
                         "Logical System"
                     ],
                     "color": "bg-teal-500",
-                    "icon": "🔗",
+                    "icon": "/icons/locked.svg",
                     "description": "Configuring distributed SAP systems"
                 },
                 {
@@ -634,7 +634,7 @@
                         "Extended IDOC"
                     ],
                     "color": "bg-indigo-500",
-                    "icon": "📨",
+                    "icon": "/icons/document.svg",
                     "description": "Working with SAP's data exchange format"
                 },
                 {
@@ -646,7 +646,7 @@
                         "Types of User-Exits & Customer-Exits"
                     ],
                     "color": "bg-pink-500",
-                    "icon": "✨",
+                    "icon": "/icons/shining.svg",
                     "description": "Extending standard SAP functionality"
                 }
             ],

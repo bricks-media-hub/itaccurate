@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { SafeImage } from '../../lib/SafeImage';
 
 // Simplified color palette with 5 default colors
 const defaultColors = [
@@ -166,7 +167,7 @@ const TrainingSyllabus = ({ syllabus }) => {
                                         transition={{ duration: 1, repeat: 0 }}
                                         className="text-4xl"
                                     >
-                                        <img src={filteredData[activeSection]?.icon} alt='icons' className='w-16 h-16' />
+                                        <SafeImage src={filteredData[activeSection]?.icon} alt='icons' className='w-16 h-16' />
                                     </motion.div>
                                     <div>
                                         <h2 className="text-2xl md:text-3xl font-bold">{filteredData[activeSection]?.title}</h2>

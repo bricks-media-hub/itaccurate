@@ -1,4 +1,5 @@
 import React from "react";
+import { SafeImage } from "../lib/SafeImage";
 
 const SAPHighlightSection = () => {
   const highlights = [
@@ -33,7 +34,7 @@ const SAPHighlightSection = () => {
             >
               <div className="mb-5 p-1 rounded-full bg-white shadow-lg">
                 <div className="bg-indigo-600 rounded-full p-4 flex items-center justify-center">
-                  <img 
+                  <SafeImage 
                     src={item.icon} 
                     alt="icon" 
                     className="h-6 w-6 sm:h-8 sm:w-8" 

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
+import { SafeImage } from "../../../lib/SafeImage";
 
 const DropdownMenu = ({
   item,
@@ -53,7 +54,7 @@ const DropdownMenu = ({
                   }}
                 >
                   <span className="text-2xl mr-3 text-purple-600 dark:text-purple-400">
-                    <img
+                    <SafeImage
                       src={course.icon}
                       alt="course icon"
                       className="w-9 h-9 mt-2"
@@ -166,7 +167,7 @@ const PlacementsDropdown = ({
 }) => (
   <ul className="space-y-1">
     {subMenu.map((subItem) => (
-      <li key={subItem}>
+      <li key={subItem.link}>
         <Link
           to={subItem.link}
           className="block px-3 py-2 rounded-md text-sm dark:text-gray-300 text-gray-700 hover:dark:bg-gray-700 hover:bg-gray-100 transition-colors duration-200"

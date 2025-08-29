@@ -29,17 +29,17 @@
 
 //   const contactInfo = [
 //     {
-//       icon: <img src="/icons/mail.svg" alt="mail" className="w-4 h-4" />,
+//       icon: <SafeImage src="/icons/mail.svg" alt="mail" className="w-4 h-4" />,
 //       label: "info@itaccurate.com",
 //       href: "mailto:info@itaccurata.com",
 //     },
 //     {
-//       icon: <img src="/icons/phone.svg" alt="phone" className="w-4 h-4" />,
+//       icon: <SafeImage src="/icons/phone.svg" alt="phone" className="w-4 h-4" />,
 //       label: "09175978889",
 //       href: "tel:09175978889",
 //     },
 //     {
-//       icon: <img src="/icons/map-pin-icon.png" alt="map" className="w-5 h-5" />,
+//       icon: <SafeImage src="/icons/map-pin-icon.png" alt="map" className="w-5 h-5" />,
 //       location: "Nagpur",
 //       mapId: "nagpur",
 //       address:
@@ -50,7 +50,7 @@
 //         "https://www.google.com/maps/dir//607,+608+B-wing,+Lokmat+Bhavan,+Lokmat+Square,+Ramdaspeth,+Nagpur,+Maharashtra+440012",
 //     },
 //     {
-//       icon: <img src="/icons/map-pin-icon.png" alt="map" className="w-5 h-5" />,
+//       icon: <SafeImage src="/icons/map-pin-icon.png" alt="map" className="w-5 h-5" />,
 //       location: "Thane",
 //       mapId: "thane",
 //       address:
@@ -93,7 +93,7 @@
 //         <div className="mx-auto w-full max-w-screen-5xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 3xl:gap-12 4xl:gap-16 5xl:gap-20">
 //           {/* Brand & Quick Links */}
 //           <div className="space-y-4">
-//             <img
+//             <SafeImage
 //               src="./logo.svg"
 //               alt="IT Accurate Logo"
 //               className="md:h-12 w-auto h-10"
@@ -246,6 +246,7 @@ import {
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { useMapContext } from "../../lib/MapContext";
+import { SafeImage } from "../../lib/SafeImage";
 
 const Footer = ({ activeLocation, setActiveLocation }) => {
   const courses = useSelector((state) => state.courses.courseData);
@@ -267,17 +268,17 @@ const Footer = ({ activeLocation, setActiveLocation }) => {
 
   const contactInfo = [
     {
-      icon: <img src="/icons/mail.svg" alt="mail" className="w-4 h-4" />,
+      icon: <SafeImage src="/icons/mail.svg" alt="mail" className="w-4 h-4" />,
       label: "info@itaccurate.com",
       href: "mailto:info@itaccurate.com",
     },
     {
-      icon: <img src="/icons/phone.svg" alt="phone" className="w-4 h-4" />,
+      icon: <SafeImage src="/icons/phone.svg" alt="phone" className="w-4 h-4" />,
       label: "09175978889",
       href: "tel:09175978889",
     },
     {
-      icon: <img src="/icons/map-pin-icon.png" alt="map" className="w-5 h-5" />,
+      icon: <SafeImage src="/icons/map-pin-icon.png" alt="map" className="w-5 h-5" />,
       location: "Nagpur",
       mapId: "nagpur",
       address:
@@ -288,7 +289,7 @@ const Footer = ({ activeLocation, setActiveLocation }) => {
         "https://www.google.com/maps/place/Sapalogy+Training-+IT+ACCURATE/@21.135481,79.078029,2702m/data=!3m1!1e3!4m6!3m5!1s0x3bd4bf33b07e2643:0x1b45df16c0e6fa96!8m2!3d21.1354806!4d79.0780286!16s%2Fg%2F11ff0vtdt7!5m1!1e1?hl=en&entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D",
     },
     {
-      icon: <img src="/icons/map-pin-icon.png" alt="map" className="w-5 h-5" />,
+      icon: <SafeImage src="/icons/map-pin-icon.png" alt="map" className="w-5 h-5" />,
       location: "Thane",
       mapId: "thane",
       address:
@@ -326,7 +327,7 @@ const handleLocationClick = (e, location) => {
           <div className="lg:hidden space-y-6">
             {/* Logo */}
             <div className="flex justify-center">
-              <img src="./new-logo.png" alt="Logo" className="h-10 w-auto" />
+              <SafeImage src="./new-logo.png" alt="Logo" className="h-10 w-auto" />
             </div>
             {/* Quick Links */}
             <details className="border-b border-gray-200 dark:border-gray-700 pb-4 group">
@@ -451,7 +452,7 @@ const handleLocationClick = (e, location) => {
           <div className="hidden lg:grid grid-cols-4 gap-8 3xl:gap-12 4xl:gap-16 5xl:gap-20">
             {/* Brand & Quick */}
             <div className="space-y-4">
-              <img src="./new-logo.png" alt="Logo" className="h-12 w-auto" />
+              <SafeImage src="./new-logo.png" alt="Logo" className="h-12 w-auto" />
               <div className="space-y-2">
                 <h3 className="text-lg font-semibold relative pb-2 after:absolute after:bottom-0 after:left-0 after:w-10 after:h-1 after:bg-indigo-500 after:rounded-full">
                   Quick Links

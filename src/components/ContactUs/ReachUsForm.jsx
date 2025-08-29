@@ -14,6 +14,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import config from "../../lib/config";
+import { SafeImage } from "../../lib/SafeImage";
 
 export default function ReachUsForm() {
   const {
@@ -187,7 +188,7 @@ export default function ReachUsForm() {
                     className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium"
                     htmlFor="name"
                   >
-                    <img
+                    <SafeImage
                       src="/icons/user.svg"
                       alt="user"
                       className="inline mr-2 w-5 h-5 -mt-1"
@@ -230,7 +231,7 @@ export default function ReachUsForm() {
                     className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium"
                     htmlFor="phone"
                   >
-                    <img
+                    <SafeImage
                       src="/icons/phone.svg"
                       alt="contact"
                       className="inline mr-2 w-5 h-5 -mt-1"
@@ -274,7 +275,7 @@ export default function ReachUsForm() {
                     className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium"
                     htmlFor="location"
                   >
-                    <img
+                    <SafeImage
                       src="/icons/map-pin-icon.png"
                       alt="contact"
                       className="inline mr-2 w-5 h-5 -mt-1"
@@ -314,7 +315,7 @@ export default function ReachUsForm() {
                     className="block text-gray-700 dark:text-gray-300 mb-2 text-sm font-medium"
                     htmlFor="course"
                   >
-                    <img
+                    <SafeImage
                       src="/icons/select-course.svg"
                       alt="contact"
                       className="inline mr-2 w-7 h-7 -mt-1"

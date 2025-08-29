@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import Stats from "../components/Career/Stats";
 import { fetchCurrentJobOpenings } from "../api/fetchComponentData";
 import PopUpTimeOut from "../lib/PopUpTimeOut";
+import { SafeImage } from "../lib/SafeImage";
 
 const FloatingIcons = () => {
   return (
@@ -282,7 +283,7 @@ const Career = () => {
                     {/* Location */}
                     {/* <td className="px-4 sm:px-6 py-6 text-gray-600 dark:text-gray-300 whitespace-nowrap">
         <div className="flex items-center">
-          <img
+          <SafeImage
             src="/icons/map-pin-icon.png"
             alt="Location"
             className="w-5 h-5 mr-2 shrink-0"
@@ -315,7 +316,7 @@ const Career = () => {
                         className="w-full sm:w-auto inline-flex items-center justify-center px-4 py-2 text-sm sm:text-base bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all duration-300 shadow-md hover:shadow-lg"
                       >
                         <span>Apply Now</span>
-                        <img
+                        <SafeImage
                           src="/icons/paper-plane.svg"
                           alt="Send"
                           className="w-4 h-4 ml-2 sm:ml-2"
@@ -344,7 +345,7 @@ const Career = () => {
                 {job.role}
               </div>
               {/* <div className="flex items-center text-sm text-gray-600 dark:text-gray-300 mb-2">
-                <img
+                <SafeImage
                   src="/icons/map-pin-icon.png"
                   alt="Location"
                   className="w-4 h-4 mr-2"
@@ -378,7 +379,7 @@ const Career = () => {
                   className="bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all duration-300 shadow-md hover:shadow-lg font-medium inline-flex items-center p-2"
                 >
                   Apply Now
-                  <img
+                  <SafeImage
                     src="/icons/paper-plane.svg"
                     alt="apply"
                     className="w-4 h-4 ml-1"
@@ -444,7 +445,7 @@ const Career = () => {
                  shadow-[0_0_20px_5px_rgba(59,130,246,0.3)] dark:shadow-[0_0_20px_5px_rgba(59,130,246,0.2)]
                  ring-1 ring-blue-300 dark:ring-blue-700/30 transition-all duration-300"
                   >
-                    <img
+                    <SafeImage
                       src={benefit.icon}
                       alt={benefit.title}
                       className="w-10 h-10"
@@ -480,7 +481,7 @@ const Career = () => {
             >
               <div className="relative">
                 <div className="absolute -inset-4 bg-blue-100 dark:bg-blue-900/20 rounded-2xl blur opacity-75"></div>
-                <img
+                <SafeImage
                   src="https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   alt="Team culture"
                   className="relative rounded-xl shadow-2xl w-full h-auto"
@@ -518,7 +519,7 @@ const Career = () => {
                     className="flex items-start"
                   >
                     <span className="flex-shrink-0 mt-1 mr-3">
-                      <img
+                      <SafeImage
                         src="/icons/career-tick.svg"
                         alt="Check"
                         className="w-5 h-5"

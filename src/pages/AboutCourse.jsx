@@ -24,6 +24,7 @@ import TestimonialSlider from "../components/CourseDetails/TestimonialSlider";
 import AboutCourseSkeleton from "../components/ui/SkeletonEffects/AboutCourseSkeleton";
 import OfferedCourses from "../components/CourseDetails/OfferedCourses";
 import PopUpTimeOut from "../lib/PopUpTimeOut";
+import { SafeImage } from "../lib/SafeImage";
 
 function AboutCourse() {
   const courseDetail = useLoaderData();
@@ -227,7 +228,7 @@ function AboutCourse() {
 
       {location.pathname.includes("sap") && (
         <div className="py-11 bg-gray-100 dark:bg-slate-900">
-          <img
+          <SafeImage
             className="md:w-[70vw] m-auto w-10vw"
             src="./addons.png"
             alt="addon"

@@ -15,6 +15,7 @@ import {
   FiMap,
 } from "react-icons/fi";
 import { GoogleMap } from "../lib/GoogleMap";
+import { SafeImage } from "../lib/SafeImage";
 
 const Contact = () => {
   const {
@@ -55,7 +56,7 @@ const Contact = () => {
   const locations = [
     {
       icon: (
-        <img src="/icons/location.svg" alt="location" className="w-10 h-10" />
+        <SafeImage src="/icons/location.svg" alt="location" className="w-10 h-10" />
       ),
       location: "Nagpur",
       address:
@@ -69,7 +70,7 @@ const Contact = () => {
     },
     {
       icon: (
-        <img src="/icons/location.svg" alt="location" className="w-10 h-10" />
+        <SafeImage src="/icons/location.svg" alt="location" className="w-10 h-10" />
       ),
       location: "Thane",
       address: "Office No. 806, Paradise Tower, Noupada, Thane West",
@@ -374,7 +375,7 @@ const Contact = () => {
                           <div className="space-y-2">
                             <div className="flex items-center text-gray-700 dark:text-gray-300">
                               {/* <MdPhone className="mr-2 text-blue-600" /> */}
-                              <img
+                              <SafeImage
                                 src="/icons/phone.svg"
                                 alt="telephone"
                                 className="w-5 h-5 mr-2"
@@ -385,7 +386,7 @@ const Contact = () => {
                             </div>
                             <div className="flex items-center text-gray-700 dark:text-gray-300">
                               {/* <MdOutlineEmail className="mr-2 text-blue-600" /> */}
-                              <img
+                              <SafeImage
                                 src="/icons/mail.svg"
                                 alt="email"
                                 className="w-5 h-5 mr-2"
@@ -404,7 +405,7 @@ const Contact = () => {
                             rel="noopener noreferrer"
                           >
                             {/* <FiMapPin className="mr-1" />  */}
-                            <img
+                            <SafeImage
                               src="/icons/map-location.svg"
                               alt="email"
                               className="w-7 h-7 mr-1"
@@ -432,7 +433,7 @@ const Contact = () => {
                     <div className="flex items-center">
                       <div className="bg-blue-100 dark:bg-blue-900/30 p-2 rounded-full mr-4">
                         {/* <FiMail className="text-blue-600" /> */}
-                        <img
+                        <SafeImage
                           src="/icons/email.svg"
                           alt="email"
                           className="w-7 h-7"
@@ -452,7 +453,7 @@ const Contact = () => {
                     <div className="flex items-center">
                       <div className="bg-blue-100 dark:bg-blue-900/30 p-2 rounded-full mr-4">
                         {/* <FiGlobe className="text-blue-600" /> */}
-                        <img
+                        <SafeImage
                           src="/icons/internet-globe.svg"
                           alt="email"
                           className="w-7 h-7"
@@ -493,7 +494,7 @@ const Contact = () => {
                     {/* Name Field */}
                     <div>
                       <label className="flex text-gray-700 dark:text-gray-300 mb-2 font-medium">
-                        <img
+                        <SafeImage
                           src="/icons/user.svg"
                           alt="user"
                           className="w-5 h-5 mr-2"
@@ -529,7 +530,7 @@ const Contact = () => {
                     {/* Phone Field */}
                     <div>
                       <label className="flex text-gray-700 dark:text-gray-300 mb-2 font-medium">
-                        <img
+                        <SafeImage
                           src="/icons/phone.svg"
                           alt="phone"
                           className="w-5 h-5 mr-2"
@@ -561,7 +562,7 @@ const Contact = () => {
                     {/* Location Field */}
                     <div>
                       <label className="flex text-gray-700 dark:text-gray-300 mb-2 font-medium">
-                        <img
+                        <SafeImage
                           src="/icons/map-pin-icon.png"
                           alt="location"
                           className="w-5 h-5 mr-2"
@@ -593,7 +594,7 @@ const Contact = () => {
                     {/* Course Field */}
                     <div>
                       <label className="flex text-gray-700 dark:text-gray-300 mb-2 font-medium">
-                        <img
+                        <SafeImage
                           src="/icons/book.svg"
                           alt="course"
                           className="w-6 h-6 mr-2"

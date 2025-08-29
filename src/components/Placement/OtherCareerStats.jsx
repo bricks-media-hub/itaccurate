@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import React from 'react'
+import { SafeImage } from '../../lib/SafeImage'
 
 const OtherCareer = [
     {
@@ -80,7 +81,7 @@ function OtherCareerStats() {
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center space-x-4">
                                         <span className="text-2xl">
-                                            <img src={item.icon} alt="icon" className="w-12 h-12" />
+                                            <SafeImage src={item.icon} alt="icon" className="w-12 h-12" />
                                         </span>
                                         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{item.category}</h3>
                                     </div>
@@ -104,7 +105,7 @@ function OtherCareerStats() {
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center space-x-4">
                                         <span className="text-2xl">
-                                            <img src={item.icon} alt='icons' className='w-12 w-12' />
+                                            <SafeImage src={item.icon} alt='icons' className='w-12 w-12' />
                                         </span>
                                         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{item.category}</h3>
                                     </div>

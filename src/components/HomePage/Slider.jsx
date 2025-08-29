@@ -2,6 +2,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 import { client } from '../../lib/client';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import { FaSpinner } from 'react-icons/fa';
+import { SafeImage } from '../../lib/SafeImage';
 
 const Slider = () => {
     const [isSliderLoading, setIsSliderLoading] = useState(true);
@@ -81,7 +82,7 @@ const Slider = () => {
                                         index === currentIndex ? 'opacity-100 scale-100' : 'opacity-50 scale-90'
                                     }`}
                                 >
-                                    <img 
+                                    <SafeImage 
                                         src={slide.slideImg} 
                                         alt={`Slide ${slide.id}`} 
                                         className="w-full h-full object-contain object-center"
