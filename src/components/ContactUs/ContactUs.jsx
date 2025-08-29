@@ -7,12 +7,15 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import { useMapContext } from "../../lib/MapContext";
+import { useNavigate } from "react-router-dom";
 
 const ContactUs = ({ location = "Nagpur" }) => {
   const [activeLocation, setActiveLocation] = useState(location);
   const [isFormVisible, setIsFormVisible] = useState(true);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { mapLocation } = useMapContext();
+  const navigate = useNavigate();
+
   const {
     register,
     handleSubmit,
@@ -95,16 +98,17 @@ const ContactUs = ({ location = "Nagpur" }) => {
         // Submit to your backend
         await axios.post(config.apiUrl, data);
 
-        toast.success("Thank you! We'll contact you shortly.", {
-          position: "top-center",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-        });
+        // toast.success("Thank you! We'll contact you shortly.", {
+        //   position: "top-center",
+        //   autoClose: 5000,
+        //   hideProgressBar: false,
+        //   closeOnClick: true,
+        //   pauseOnHover: true,
+        //   draggable: true,
+        // });
 
         reset();
+        navigate("/successful");
       } else {
         throw new Error("Web3Forms submission failed");
       }

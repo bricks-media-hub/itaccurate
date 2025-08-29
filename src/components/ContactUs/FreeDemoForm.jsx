@@ -8,12 +8,14 @@ import "react-toastify/dist/ReactToastify.css";
 import config from "../../lib/config";
 import { useLocation } from "react-router-dom";
 import { SafeImage } from "../../lib/SafeImage";
+import { useNavigate } from "react-router-dom";
 
 export default function FreeDemoForm({ onClose, title1, title2 }) {
   const [isVisible, setIsVisible] = useState(true);
   const [courseData, setCourseData] = useState([]);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
 
   const courses = [
     "SAP",
@@ -95,22 +97,23 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
         // Submit to your backend
         const dbResponse = await axios.post(config.apiUrl, data);
         setIsVisible(false);
-        toast.success(
-          "Form submitted successfully! We'll contact you shortly.",
-          {
-            position: "top-center",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-          }
-        );
+        // toast.success(
+        //   "Form submitted successfully! We'll contact you shortly.",
+        //   {
+        //     position: "top-center",
+        //     autoClose: 5000,
+        //     hideProgressBar: false,
+        //     closeOnClick: true,
+        //     pauseOnHover: true,
+        //     draggable: true,
+        //   }
+        // );
 
         reset();
-        setTimeout(() => {
+        navigate("/successful");
+        // setTimeout(() => {
           handleClose();
-        }, 3000);
+        // }, 3000);
       } else {
         throw new Error("Web3Forms submission failed");
       }

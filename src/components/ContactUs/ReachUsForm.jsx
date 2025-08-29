@@ -15,6 +15,7 @@ import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import config from "../../lib/config";
 import { SafeImage } from "../../lib/SafeImage";
+import { useNavigate } from "react-router-dom";
 
 export default function ReachUsForm() {
   const {
@@ -32,6 +33,7 @@ export default function ReachUsForm() {
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const navigate = useNavigate();
 
   const courses = [
     "SAP",
@@ -72,19 +74,20 @@ export default function ReachUsForm() {
         // Submit to your backend
         const dbResponse = await axios.post(config.apiUrl, data);
 
-        toast.success(
-          "Thank you for your enquiry! We'll contact you shortly.",
-          {
-            position: "top-center",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-          }
-        );
+        // toast.success(
+        //   "Thank you for your enquiry! We'll contact you shortly.",
+        //   {
+        //     position: "top-center",
+        //     autoClose: 5000,
+        //     hideProgressBar: false,
+        //     closeOnClick: true,
+        //     pauseOnHover: true,
+        //     draggable: true,
+        //   }
+        // );
 
         reset();
+        navigate("/successful");
       } else {
         throw new Error("Web3Forms submission failed");
       }

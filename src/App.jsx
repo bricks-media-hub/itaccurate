@@ -23,6 +23,7 @@ import RefundPolicy from "./components/Terms/Refund";
 import ProtectedRoute from "./ProtectedRoute/SeoProtected";
 import LandingPage from "./SEO/LandingPage";
 import SeoLandingPage from "./pages/SeoLandingPage";
+import ContactSuccessful from "./lib/ContactSuccessful";
 
 export const dynamicCourseRoutes = [
   "salesforce-training",
@@ -137,6 +138,10 @@ const router = createBrowserRouter([
       {
         path: "/sap-fico-course-in-nagpur",
         element: <LandingPage />,
+      },
+      {
+        path: '/successful',
+        element: <ContactSuccessful />
       },
       {
         path: "*",
