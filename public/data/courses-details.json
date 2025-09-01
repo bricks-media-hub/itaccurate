@@ -237,7 +237,11 @@
                     "title": "100% Passing Guarantee",
                     "description": "IT Accurate provides comprehensive guidance for your SAP S/4HANA global certification, ensuring a 100% passing guarantee in examinations such as Salesforce Administration Certification, SAP S/4 HANA Platform Development Certification, and various other global exams."
                 }
-            ]
+            ],
+            "FeesDuration": {
+            "heading": "Fees, Duration & SAP Certification at IT Accurate",
+            "content": "Our <span class='text-blue-600'>SAP course in Thane</span> is competitively priced with flexible payment options. Duration typically ranges from 6 to 10 weeks, depending on the module you choose. Upon completion, you'll receive a certificate from IT Accurate, recognised by top recruiters in the SAP domain. We also guide you through official SAP certification paths if you're aiming for global credentials. <br /><br />Contact us for the latest fees and batch availability."
+        }
         },
         "sap-abap": {
             "name": "SAP ABAP",
