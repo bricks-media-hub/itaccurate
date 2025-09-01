@@ -3,9 +3,11 @@ import Marquee from "react-fast-marquee";
 import { useSelector } from "react-redux";
 import FreeDemoForm from "../ContactUs/FreeDemoForm";
 import { SafeImage } from "../../lib/SafeImage";
+import { useNavigate } from "react-router-dom";
 
 const PlacedStudents = ({ className }) => {
   const [showDemoForm, setShowDemoForm] = useState(false);
+  const navigate = useNavigate();
 
   const buttons = [
     {
@@ -14,7 +16,7 @@ const PlacedStudents = ({ className }) => {
     },
     {
       label: "Get Our Placement Stats",
-      href: "/placed"
+      onClick: () => navigate(`/placed`)
     }
   ];
   const placedStudents = useSelector((state) => state.students.placedStudents);
@@ -115,28 +117,14 @@ const PlacedStudents = ({ className }) => {
       {/* Call to Action Buttons */}
       <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mt-10">
         {buttons.map((btn, i) => (
-          btn.href ? (
-            <a key={i} href={btn.href} className="group relative block w-fit">
+            <div key={i} onClick={btn.onClick} className="group relative block w-fit">
               <button className="relative inline-flex items-center justify-center gap-2 px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full shadow-md transition-all duration-300 hover:scale-105 hover:shadow-lg">
                 {btn.label}
                 <svg className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>
               </button>
-            </a>
-          ) : (
-            <div key={i} className="group relative block w-fit">
-              <button
-                onClick={btn.onClick}
-                className="relative inline-flex items-center justify-center gap-2 px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full shadow-md transition-all duration-300 hover:scale-105 hover:shadow-lg"
-              >
-                {btn.label}
-                <svg className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                </svg>
-              </button>
             </div>
-          )
         ))}
       </div>
 

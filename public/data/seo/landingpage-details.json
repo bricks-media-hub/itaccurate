@@ -777,12 +777,31 @@
                 "icon": "/globeLogos/mysql.png"
             }
         ],
-        "whatIs": {
-            "name": "Data analytics",
+        "whyChoose": {
+            "title": "Why Choose IT Accurate for SAP Training in Nagpur",
+            "imageUrl": "/coursesBgImages/data-analytics.jpg",
             "points": [
-                "Data analytics is the process of analysing raw data in order to draw out meaningful, actionable insights.",
-                "Data analytics help business to understand the target market fastes, increases sales, reduce costs, increase revenue and allow better problem solving.",
-                "The demand for data analyst and scientist in india is at an all time high, with a projected an million job opening by 2026."
+                "IT Accurate stands out among SAP classes in Nagpur with a focus on delivering job-ready skills.",
+                "Our trainers are working professionals with deep domain expertise, bringing practical insights to every session.",
+                "We provide personalised learning, flexible schedules, and real-time project experience for a clear understanding of SAP applications.",
+                "Modules include SAP FICO, MM, SD, and HANA—tailored to meet current market needs.",
+                "Proven track record with a consistent student success rate and expert guidance.",
+                "Supportive learning environment that helps students thrive.",
+                "Located in the heart of the city, Lokmat Bhawan, Ramdaspeth.",
+                "Strong network of recruiters and placement partners to ensure the right career start.",
+                "More than just an institute—we act as your long-term partner in growth."
+            ]
+        },
+        "courseLocation": {
+            "title": "SAP Course in Nagpur West",
+            "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+            "points": [
+                "Conveniently located in Nagpur West, offering easy access for students and professionals across the city.",
+                "Located in the heart of the city, Lokmat Bhawan, Ramdaspeth.",
+                "Well-connected by both road and rail, making it simple to attend classes with a busy schedule.",
+                "Comfortable classrooms and practical lab sessions for effective learning.",
+                "Flexible options to switch between weekend and weekday batches.",
+                "Ideal choice for anyone looking for quality SAP training in Nagpur, close to home or office."
             ]
         },
         "keyFeatures": [
@@ -1068,79 +1087,6 @@
                 "description": "Comprehensive real-world project implementation"
             }
         ],
-        "faqs": [
-            {
-                "question": "What's Data Analyst?",
-                "answer": "A Data Analyst is a professional who interprets and analyzes complex data sets to provide insights and support decision-making processes within an organization."
-            },
-            {
-                "question": "What skills are required to become a Data Analyst?",
-                "answer": "Key abilities include talent in programming languages (e.G., Python, R), statistical evaluation, data visualization, SQL, and a strong information of information manipulation and interpretation."
-            },
-            {
-                "question": "What is the role of SQL in Data Analysis?",
-                "answer": "SQL (Structured Query Language) is crucial for Data Analysts as it allows them to query databases, retrieve relevant data, and perform various data manipulations for analysis."
-            },
-            {
-                "question": "How does Python contribute to Data Analysis?",
-                "answer": "Python is widely used in Data Analysis for its versatility and rich ecosystem of libraries (e.g., Pandas, NumPy, Matplotlib). It helps in data manipulation, statistical analysis, and creating visualizations."
-            },
-            {
-                "question": "What is the difference between Data Analyst and Data Scientist?",
-                "answer": "While both roles deal with data, Data Analysts focus on interpreting and analyzing existing data to answer specific business questions, whereas Data Scientists often build predictive models and work on more complex, exploratory tasks."
-            },
-            {
-                "question": "Explain the importance of data visualization in Data Analysis.",
-                "answer": "Data visualization is crucial for conveying complex information in a clear and understandable way. It helps in identifying patterns, trends, and outliers in the data."
-            },
-            {
-                "question": "What is exploratory data analysis (EDA)?",
-                "answer": "Exploratory Data Analysis is the process of visually and statistically exploring data sets to understand their characteristics, uncover patterns, and identify potential relationships between variables."
-            },
-            {
-                "question": "How does a Data Analyst contribute to business decision-making?",
-                "answer": "Data Analysts help companies make knowledgeable selections by presenting insights derived from records evaluation. They perceive traits, styles, and anomalies which can manual strategic picks."
-            },
-            {
-                "question": "What are some common data cleaning techniques?",
-                "answer": "Regression assessment is a statistical method used to recognize the relationship among based and unbiased variables. It helps in predicting the price of the based variable based totally completely at the values of impartial variables."
-            }
-        ],
-        "projects": [
-            {
-                "icon": "/icons/big-data-process.svg"
-            },
-            {
-                "title": "CREDIT DEFAULT RISK analysis",
-                "detail": "To analyze the determination of a customer's credit default risk, though essential, is often difficult as it involves a certain level of subjectivity.",
-                "image": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-            },
-            {
-                "title": "analysing CUSTOMISING SOLUTIONS",
-                "detail": "This study is to explore the attributes contributing to customer churn so that the team can customise solutions or services for potential churners",
-                "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-            },
-            {
-                "title": "INSURANCE FRAUD analysis",
-                "detail": "Insurance fraud analysis is to detect insurance fraud and reduce unnecessary costs.",
-                "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-            },
-            {
-                "title": "CRYPTOCURRENCY strategy",
-                "detail": "CRYPTOCURRENCY The goal of this analysis is to test different investing strategies in cryptocurrencies.",
-                "image": "https://images.unsplash.com/photo-1621761191319-c6fb62004040?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-            },
-            {
-                "title": "PREDICTING ANNUAL PREMIUMS FOR customers",
-                "detail": "While providing affordable insurance, this project aims to predict a proper annual premium for customers in the US through data analysis, so as to avoid company loss.",
-                "image": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-            },
-            {
-                "title": "HOME LOAN ELIGIBILITY analysis",
-                "detail": "While providing affordable insurance, this project aims to predict a proper annual premium for customers in the US through data analysis, so as to avoid company loss",
-                "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-            }
-        ],
         "reviews": [
             {
                 "name": "Vikram MANKAR",
@@ -1207,6 +1153,10 @@
                 "title": "100% Passing Guarantee",
                 "description": "IT Accurate provides comprehensive guidance for your Data Analyst global certification, ensuring a 100% passing guarantee in examinations such as Data analytics Certification, Data Analyst Platform Development Certification, and various other global exams."
             }
-        ]
+        ],
+        "FeesDuration": {
+            "heading": "Fees, Duration & SAP Certification at IT Accurate",
+            "content": "Our <span class='text-blue-600'>SAP course in Nagpur</span> is competitively priced with flexible payment options. Duration typically ranges from 6 to 10 weeks, depending on the module you choose. Upon completion, you'll receive a certificate from IT Accurate, recognised by top recruiters in the SAP domain. We also guide you through official SAP certification paths if you're aiming for global credentials. <br /><br />Contact us for the latest fees and batch availability."
+        }
     }
 }

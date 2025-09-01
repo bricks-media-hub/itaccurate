@@ -84,7 +84,7 @@ const CompanyMarquee = ({ title }) => {
         {/* Marquee Rows */}
         <div className="flex flex-col gap-6">
           {logos.map((row, index) => (
-            <Marquee key={index} speed={40} gradient={false} pauseOnHover={true}>
+            <Marquee key={index} speed={40} gradient={false} pauseOnHover={true} className="h-36">
               {row.map((logo, i) => (
                 <div
                   key={i}

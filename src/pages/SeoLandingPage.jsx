@@ -22,6 +22,7 @@ import TestimonialSlider from "../components/CourseDetails/TestimonialSlider";
 import TopicsSection from "../components/CourseDetails/TopicsSection";
 import { SafeImage } from "../lib/SafeImage";
 import PopUpTimeOut from "../lib/PopUpTimeOut";
+import TrainingSyllabus from "../components/CourseDetails/TrainingSyllabus";
 
 function SeoLandingPage() {
   const location = useLocation();
@@ -111,13 +112,37 @@ function SeoLandingPage() {
               className="md:w-[70vw] m-auto w-10vw"
               src="./addons.png"
               alt="addon"
+              loading="lazy"
             />
           </div>
         </>
       )}
-      
+
       {/* Topics */}
-      <TopicsSection coveringTopics={landingPageDetails?.coveringTopics} />
+      {landingPageDetails?.coveringTopics2 && (
+        <>
+          {/* coveringTopics 1 */}
+          <TopicsSection
+            coveringTopics={landingPageDetails?.coveringTopics2}
+            heading={
+              <span>
+                All the <span className="text-blue-600">Topics</span> Will Be
+                Covered in <span className="text-blue-600">Detail</span>
+              </span>
+            }
+          />
+          {/* coveringTopics 2 */}
+          <TopicsSection
+            coveringTopics={landingPageDetails?.coveringTopics}
+            heading={<span className="text-blue-600">Also Include</span>}
+          />
+        </>
+      )}
+
+      {/* rendering if coveringTopics2 is not available */}
+      {!landingPageDetails?.coveringTopics2 && (
+        <TopicsSection coveringTopics={landingPageDetails?.coveringTopics} />
+      )}
 
       {/* Why Choose IT Accurate */}
       {landingPageDetails?.whyChoose && (
@@ -142,6 +167,11 @@ function SeoLandingPage() {
 
       {/* Demo Form */}
       <DemoBanner />
+
+      {/* Course Syllabus */}
+      {landingPageDetails?.trainingSyllabus && (
+        <TrainingSyllabus syllabus={landingPageDetails?.trainingSyllabus} />
+      )}
 
       {/* Course Location and Details */}
       {location.pathname !== "/sap-fico-course-in-nagpur" &&
