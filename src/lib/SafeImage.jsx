@@ -7,6 +7,7 @@ export const SafeImage = ({ src, alt = "icon-image", className, loading = "lazy"
       className={className}
       onError={(e) => (e.currentTarget.src = fallback)}
       loading={loading}
+      
       {...rest}
     />
   );

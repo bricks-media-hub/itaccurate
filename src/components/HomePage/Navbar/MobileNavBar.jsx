@@ -222,6 +222,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 import SearchBar from "./Search/SearchBar";
 import { useEffect } from "react";
+import { SafeImage } from "../../../lib/SafeImage";
 
 
 const MobileNavBar = ({

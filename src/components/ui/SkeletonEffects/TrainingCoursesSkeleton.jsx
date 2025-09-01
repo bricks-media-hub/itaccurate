@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function TrainingCoursesSkeleton() {
   return (
@@ -12,8 +12,8 @@ function TrainingCoursesSkeleton() {
 
         {/* Courses Grid Skeleton */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {[...Array(4)].map((_, index) => (
-            <div key={index} className="w-full max-w-sm mx-auto">
+          {[...Array(12)].map((_, index) => (
+            <div className="w-full max-w-sm mx-auto" key={index}>
               <div className="relative shadow-lg rounded-xl overflow-hidden bg-white dark:bg-gray-800 animate-pulse">
                 {/* Image Placeholder */}
                 <div className="h-56 w-full bg-gray-200 dark:bg-gray-700"></div>
@@ -29,8 +29,8 @@ function TrainingCoursesSkeleton() {
 
                 {/* Footer Placeholder */}
                 <div className="p-4 bg-white dark:bg-gray-900 flex justify-between items-center">
-                  <div className="h-10 w-24 bg-gray-300 dark:bg-gray-700 rounded-lg"></div>
                   <div className="h-6 w-20 bg-gray-200 dark:bg-gray-700 rounded"></div>
+                  <div className="h-10 w-24 bg-gray-300 dark:bg-gray-700 rounded-lg"></div>
                 </div>
               </div>
             </div>

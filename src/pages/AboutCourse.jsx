@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useLoaderData } from "react-router";
+import { useLoaderData, useNavigation } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import FormComponent from "../components/ContactUs/FormComponent";
@@ -27,8 +27,9 @@ import PopUpTimeOut from "../lib/PopUpTimeOut";
 import { SafeImage } from "../lib/SafeImage";
 
 function AboutCourse() {
-  const courseDetail = useLoaderData();
+  const courseDetail = useLoaderData() || {};
   const location = useLocation();
+  const navigation = useNavigation();
 
   // Safely destructure with fallbacks
   const {
@@ -40,17 +41,8 @@ function AboutCourse() {
     reviews = [],
     certificationPoints = [],
   } = courseDetail;
-  // console.log(courseDetail)
-  const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setIsLoading(false);
-    }, 800); // Simulate loading time
 
-    return () => clearTimeout(timeout);
-  }, []);
-
-  if (isLoading) {
+  if (navigation.state == "loading") {
     return <AboutCourseSkeleton />;
   }
 

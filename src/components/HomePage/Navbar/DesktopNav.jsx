@@ -8,7 +8,7 @@ import { FiChevronUp } from "react-icons/fi";
 
 const DesktopNav = ({ navItems, activeMenu, handleMenuEnter, handleMenuLeave, 
   activeSubMenu, handleSubMenuEnter, handleSubMenuLeave, handleDropdownEnter, 
-  handleDropdownLeave }) => {
+  handleDropdownLeave, handleCloseMenuDropdown }) => {
   const menuItems = useSelector((state) => state.navbar.menuItems);
 
   return (
@@ -46,6 +46,7 @@ const DesktopNav = ({ navItems, activeMenu, handleMenuEnter, handleMenuLeave,
               handleSubMenuLeave={handleSubMenuLeave}
               handleDropdownEnter={handleDropdownEnter}
               handleDropdownLeave={handleDropdownLeave}
+              handleCloseMenuDropdown={handleCloseMenuDropdown}
             />
           )}
         </div>

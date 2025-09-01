@@ -146,6 +146,7 @@
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { FaLongArrowAltDown, FaLongArrowAltUp } from 'react-icons/fa';
+import { SafeImage } from '../../lib/SafeImage';
 
 const SuccessStats = () => {
   const [showAll, setShowAll] = useState(false);

@@ -12,6 +12,7 @@ const DropdownMenu = ({
   handleSubMenuLeave,
   handleDropdownEnter,
   handleDropdownLeave,
+  handleCloseMenuDropdown
 }) => {
   return (
     <motion.div
@@ -33,7 +34,7 @@ const DropdownMenu = ({
       {item.name === "Courses" && (
         <>
           {menuItems.map((course) => (
-            <Link to={course.link} key={course.title}>
+            <Link to={course.link} key={course.title} onClick={() => handleCloseMenuDropdown()}>
               <div
                 className="relative group"
                 onMouseEnter={() =>
@@ -52,6 +53,7 @@ const DropdownMenu = ({
                     e.stopPropagation(); // Prevent duplicate events
                     course.subMenu && handleSubMenuEnter(course.title);
                   }}
+                  // onClick={() => handleCloseMenuDropdown()}
                 >
                   <span className="text-2xl mr-3 text-purple-600 dark:text-purple-400">
                     <SafeImage
@@ -150,6 +152,7 @@ const SubMenuDropdown = ({
         <li key={subItem.title}>
           <Link
             to={subItem.link}
+            onClick={() => handleCloseMenuDropdown()}
             className="block px-3 py-2 rounded-md text-sm dark:text-gray-300 text-gray-700 hover:dark:bg-gray-700 hover:bg-gray-100 transition-colors duration-200"
           >
             {subItem.title}

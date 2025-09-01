@@ -480,7 +480,8 @@ const NavBar = () => {
   
   // Close dropdown section when route change
   useEffect(()=> {
-    setActiveMenu(false);
+    setActiveMenu(null);
+    setActiveSubMenu(null);
   }, [location.pathname])
 
   // Check for saved theme preference
@@ -489,7 +490,7 @@ const NavBar = () => {
     setDarkMode(savedMode);
     document.documentElement.classList.toggle("dark", savedMode);
   }, []);
-
+ 
   // Handle scroll effect
   useEffect(() => {
     const handleScroll = () => {
@@ -505,6 +506,15 @@ const NavBar = () => {
     localStorage.setItem("darkMode", newMode);
     document.documentElement.classList.toggle("dark", newMode);
   };
+
+const handleCloseMenuDropdown = () => {
+  if (hoverTimeout) {
+    clearTimeout(hoverTimeout);
+    setHoverTimeout(null);
+  }
+  setActiveMenu(null);
+  setActiveSubMenu(null);
+};
 
   const handleMenuEnter = (menuName) => {
     clearTimeout(hoverTimeout);
@@ -634,6 +644,7 @@ const NavBar = () => {
                 handleSubMenuLeave={handleSubMenuLeave}
                 handleDropdownEnter={handleDropdownEnter}
                 handleDropdownLeave={handleDropdownLeave}
+                handleCloseMenuDropdown={handleCloseMenuDropdown}
               />
             </div>
 

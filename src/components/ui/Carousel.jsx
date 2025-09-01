@@ -1,5 +1,6 @@
 import { IconArrowNarrowRight } from "@tabler/icons-react";
 import { useState, useRef, useId, useEffect } from "react";
+import { SafeImage } from "../../lib/SafeImage";
 
 const Slide = ({
   slide,

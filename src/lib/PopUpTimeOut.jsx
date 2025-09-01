@@ -1,22 +1,50 @@
-import React, { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
-import FreeDemoForm from '../components/ContactUs/FreeDemoForm';
+// import React, { useState, useEffect } from 'react';
+// import { useLocation } from 'react-router-dom';
+// import FreeDemoForm from '../components/ContactUs/FreeDemoForm';
+
+// function PopUpTimeOut() {
+//   const location = useLocation();
+//   const [showPopup, setShowPopup] = useState(false);
+
+//   useEffect(() => {
+//     const interval = setInterval(() => {
+//       setShowPopup(true);
+//     }, 15000);
+
+//     return () => clearInterval(interval); 
+//   }, [location.pathname]);
+
+//   return (
+//     <>
+//       {showPopup && <FreeDemoForm onClose={() => setShowPopup(false)} />}
+//     </>
+//   );
+// }
+
+// export default PopUpTimeOut;
+
+
+
+
+import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
+import FreeDemoForm from "../components/ContactUs/FreeDemoForm";
 
 function PopUpTimeOut() {
   const location = useLocation();
   const [showPopup, setShowPopup] = useState(false);
+  const [popupCount, setPopupCount] = useState(0);
 
   useEffect(() => {
-    // Show first popup immediately after route change
-    // setShowPopup(true);
+    if (popupCount >= 2) return;
 
-    // Set interval for every 15 sec
-    const interval = setInterval(() => {
+    const timer = setInterval(() => {
       setShowPopup(true);
+      setPopupCount((prev) => prev + 1);
     }, 15000);
 
-    return () => clearInterval(interval); 
-  }, [location.pathname]);
+    return () => clearTimeout(timer);
+  }, [location.pathname, popupCount]);
 
   return (
     <>

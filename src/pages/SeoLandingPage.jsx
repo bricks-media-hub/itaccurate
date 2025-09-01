@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import AboutCourseSkeleton from "../components/ui/SkeletonEffects/AboutCourseSkeleton";
 import axios from "axios";
-import { useLocation } from "react-router-dom";
+import { useLoaderData, useLocation, useNavigation } from "react-router-dom";
 import FormComponent from "../components/ContactUs/FormComponent";
 import { TiTick } from "react-icons/ti";
 import Modules from "../components/CourseDetails/Modules";
@@ -24,37 +24,11 @@ import { SafeImage } from "../lib/SafeImage";
 import PopUpTimeOut from "../lib/PopUpTimeOut";
 
 function SeoLandingPage() {
-  const [landingPageDetails, setLandingPageDetails] = useState({});
-  const [loading, isLoading] = useState(false);
   const location = useLocation();
-  useEffect(() => {
-    const fetchData = async () => {
-      let DATA_URL;
-      if (location.pathname === "/sap-course-in-nagpur") {
-        DATA_URL = "/data/seo/updated-sap-nagpur.json";
-      } else if (location.pathname === "/sap-course-in-thane") {
-        DATA_URL = "/data/seo/updated-sap-thane.json";
-      } else if (location.pathname === "/sap-fico-course-in-nagpur") {
-        DATA_URL = "/data/seo/updated-sap-fico-nagpur.json";
-      }
+  const navigation = useNavigation();
+  const landingPageDetails = useLoaderData() || {};
 
-      if (!DATA_URL) return;
-
-      isLoading(true);
-      try {
-        const { data } = await axios.get(DATA_URL);
-        const key = location.pathname.replace("/", "");
-        setLandingPageDetails(data[key]);
-      } catch (error) {
-        console.log("Landing Page Data :: Error :: ", error);
-      } finally {
-        isLoading(false);
-      }
-    };
-    fetchData();
-  }, [location.pathname]);
-
-  if (loading) {
+  if (navigation.state === "loading") {
     return <AboutCourseSkeleton />;
   }
 
@@ -104,7 +78,10 @@ function SeoLandingPage() {
                     >
                       <span className="mr-2 text-blue-600">
                         <div className="mr-4 mt-2 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-400">
-                          <SafeImage src="/icons/blue-tick.svg" alt="blue-tick" />
+                          <SafeImage
+                            src="/icons/blue-tick.svg"
+                            alt="blue-tick"
+                          />
                         </div>
                       </span>
                       {point}
@@ -123,18 +100,22 @@ function SeoLandingPage() {
         </div>
       </section>
 
-      {/* Sap Modules */}
-      <Modules courseName={landingPageDetails?.name} />
+      {location.pathname.includes("sap") && (
+        <>
+          {/* SAP Modules */}
+          <Modules courseName={landingPageDetails?.name} />
 
-      {/* Sap Image */}
-      <div className="py-11 bg-gray-100 dark:bg-slate-900">
-        <SafeImage
-          className="md:w-[70vw] m-auto w-10vw"
-          src="./addons.png"
-          alt="addon"
-        />
-      </div>
-
+          {/* SAP Industry Specified Image */}
+          <div className="py-11 bg-gray-100 dark:bg-slate-900">
+            <SafeImage
+              className="md:w-[70vw] m-auto w-10vw"
+              src="./addons.png"
+              alt="addon"
+            />
+          </div>
+        </>
+      )}
+      
       {/* Topics */}
       <TopicsSection coveringTopics={landingPageDetails?.coveringTopics} />
 
@@ -155,7 +136,7 @@ function SeoLandingPage() {
           keyFeatures={landingPageDetails?.keyFeatures}
         />
       )}
-      
+
       {/* Upcoming batches */}
       <UpcomingBatches />
 
@@ -163,13 +144,14 @@ function SeoLandingPage() {
       <DemoBanner />
 
       {/* Course Location and Details */}
-      {location.pathname !== "/sap-fico-course-in-nagpur" && landingPageDetails?.courseLocation && (
-        <CourseLocationDetails
-          title={landingPageDetails?.courseLocation?.title}
-          points={landingPageDetails?.courseLocation?.points}
-          bgImage={landingPageDetails?.courseLocation?.imageUrl}
-        />
-      )}
+      {location.pathname !== "/sap-fico-course-in-nagpur" &&
+        landingPageDetails?.courseLocation && (
+          <CourseLocationDetails
+            title={landingPageDetails?.courseLocation?.title}
+            points={landingPageDetails?.courseLocation?.points}
+            bgImage={landingPageDetails?.courseLocation?.imageUrl}
+          />
+        )}
 
       {/* Sap Certification */}
       <CertificationSection
@@ -198,9 +180,9 @@ function SeoLandingPage() {
       <CourseOpportunities pageName={landingPageDetails?.name} />
 
       {/* Testimonials */}
-      {landingPageDetails?.reviews && <TestimonialSlider reviews={landingPageDetails?.reviews} />}
-
-
+      {landingPageDetails?.reviews && (
+        <TestimonialSlider reviews={landingPageDetails?.reviews} />
+      )}
 
       {/* Contact Us */}
       <ContactUs />

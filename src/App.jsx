@@ -24,6 +24,7 @@ import ProtectedRoute from "./ProtectedRoute/SeoProtected";
 import LandingPage from "./SEO/LandingPage";
 import SeoLandingPage from "./pages/SeoLandingPage";
 import ContactSuccessful from "./lib/ContactSuccessful";
+import { fetchSeoLandingPageDetails } from "./api/fetchSeoData";
 
 export const dynamicCourseRoutes = [
   "salesforce-training",
@@ -76,6 +77,13 @@ export const dynamicCourseRoutes = [
   // 'sap-fico-course-in-nagpur'
 ];
 
+const landingPageDetails = [
+  "sap-course-in-thane",
+  "sap-course-in-nagpur",
+  "sap-fico-course-in-nagpur",
+  "data-analytics"
+]
+
 // Create loader-based routes
 const router = createBrowserRouter([
   {
@@ -127,18 +135,23 @@ const router = createBrowserRouter([
         path: "/refund",
         element: <RefundPolicy />,
       },
-      {
-        path: "/sap-course-in-thane",
+      ...landingPageDetails.map((route) => ({
+        path: `/${route}`,
+        loader: () => fetchSeoLandingPageDetails(route),
         element: <SeoLandingPage />,
-      },
-      {
-        path: "/sap-course-in-nagpur",
-        element: <SeoLandingPage />,
-      },
-      {
-        path: "/sap-fico-course-in-nagpur",
-        element: <SeoLandingPage />,
-      },
+      })),
+      // {
+      //   path: "/sap-course-in-thane",
+      //   element: <SeoLandingPage />,
+      // },
+      // {
+      //   path: "/sap-course-in-nagpur",
+      //   element: <SeoLandingPage />,
+      // },
+      // {
+      //   path: "/sap-fico-course-in-nagpur",
+      //   element: <SeoLandingPage />,
+      // },
       {
         path: '/successful',
         element: <ContactSuccessful />

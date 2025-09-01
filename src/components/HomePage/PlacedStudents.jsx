@@ -42,7 +42,7 @@ const PlacedStudents = ({ className }) => {
 
       {/* First Marquee */}
       <div className="my-8 overflow-hidden h-64" style={{ msOverflowStyle: 'none', scrollbarWidth: 'none' }}>
-        <Marquee className="my-4" speed={30} gradient={false}>
+        <Marquee className="my-4 h-60 scrollbar-hide" speed={30} gradient={false}>
           {placedStudents1.map((student, index) => (
             <div
               key={index}
@@ -78,7 +78,7 @@ const PlacedStudents = ({ className }) => {
 
       {/* Second Marquee */}
       <div className="my-8 overflow-hidden h-64" style={{ msOverflowStyle: 'none', scrollbarWidth: 'none' }}>
-        <Marquee className="my-4" speed={70} direction="right" gradient={false}>
+        <Marquee className="my-4 h-60 scrollbar-hide" speed={70} direction="right" gradient={false}>
           {placedStudents2.map((student, index) => (
             <div
               key={index}
