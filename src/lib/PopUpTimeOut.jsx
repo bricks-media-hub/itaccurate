@@ -41,7 +41,7 @@ function PopUpTimeOut() {
     const timer = setInterval(() => {
       setShowPopup(true);
       setPopupCount((prev) => prev + 1);
-    }, 8000);
+    }, 7000);
 
     return () => clearTimeout(timer);
   }, [location.pathname, popupCount]);
