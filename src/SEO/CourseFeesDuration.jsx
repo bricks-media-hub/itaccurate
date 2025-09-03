@@ -6,16 +6,16 @@ import { SafeImage } from "../lib/SafeImage";
 
 const CourseFeesDuration = ({ data }) => {
   const [showForm, setShowForm] = useState(false);
-  const [showSapFico, setShowFico] = useState(null);
-  const location = useLocation();
+  // const [showSapFico, setShowFico] = useState(null);
+  // const location = useLocation();
 
-  useEffect(() => {
-    if (location.pathname === "/sap-fico-course-in-nagpur") {
-      setShowFico(true);
-    } else {
-      setShowFico(false);
-    }
-  }, [location.pathname]);
+  // useEffect(() => {
+  //   if (location.pathname === "/sap-fico-course-in-nagpur") {
+  //     setShowFico(true);
+  //   } else {
+  //     setShowFico(false);
+  //   }
+  // }, [location.pathname]);
 
   if (!data) return null;
 
@@ -51,118 +51,21 @@ const CourseFeesDuration = ({ data }) => {
             className="flex flex-col items-center"
           >
             <div className="w-full h-full max-w-xl bg-white dark:bg-gray-900 shadow-2xl rounded-3xl p-8 border border-indigo-200 dark:border-gray-700">
-              {showSapFico ? (
+              {data?.points?.map((point, index) => (
                 <ul className="text-indigo-800 dark:text-indigo-300 text-base space-y-5">
-                  <li className="flex items-start gap-3">
+                  <li className="flex items-start gap-3" key={index}>
                     <SafeImage
-                      src="/icons/job-clock.png"
-                      alt="Batch Timing Icon"
+                      src={point?.icon}
+                      alt="icon"
                       className="w-6 h-6"
                     />
                     <span>
-                      <strong>Flexible Batch Timings</strong> – Weekday &
-                      weekend options available
+                      <strong>{point?.point}</strong> – {point?.content}
                     </span>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <SafeImage
-                      src="/icons/calendar2.svg"
-                      alt="Course Duration Icon"
-                      className="w-6 h-6"
-                    />
-                    <span>
-                      <strong>Course Duration</strong> – 2.5 to 3 months
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <SafeImage
-                      src="/icons/teaching.svg"
-                      alt="Practice Access Icon"
-                      className="w-6 h-6"
-                    />
-                    <span>
-                      <strong>Extended Practice Access</strong> – Beyond course
-                      completion
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <SafeImage
-                      src="/icons/money-pouch.svg"
-                      alt="Fees Icon"
-                      className="w-6 h-6"
-                    />
-                    <span>
-                      <strong>Affordable Fees</strong> – With EMI & installment
-                      options
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <SafeImage
-                      src="/icons/contact.svg"
-                      alt="Contact Icon"
-                      className="w-6 h-6"
-                    />
-                    <span>
-                      <strong>Get Details</strong> – Reach out for latest fees &
-                      batch schedule
-                    </span>
-                  </li>
+                  <br />
                 </ul>
-              ) : (
-                <ul className="text-indigo-800 dark:text-indigo-300 text-base space-y-5">
-                  <li className="flex items-start gap-3">
-                    <SafeImage
-                      src="/icons/money-pouch.svg"
-                      alt="Fees Icon"
-                      className="w-6 h-6"
-                    />
-                    <span>
-                      <strong>Affordable Fees</strong> – Flexible EMI options
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <SafeImage
-                      src="/icons/job-clock.png"
-                      alt="Duration Icon"
-                      className="w-6 h-6"
-                    />
-                    <span>
-                      <strong>Duration</strong> – 6 to 10 weeks
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <SafeImage
-                      src="/icons/certificate.svg"
-                      alt="Certificate Icon"
-                      className="w-6 h-6"
-                    />
-                    <span>
-                      <strong>Certificate</strong> – From IT Accurate
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <SafeImage
-                      src="/icons/wireframe-globe.svg"
-                      alt="Global Path Icon"
-                      className="w-6 h-6"
-                    />
-                    <span>
-                      <strong>Global Path</strong> – SAP official certification
-                      guidance
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <SafeImage
-                      src="/icons/contact.svg"
-                      alt="Contact Icon"
-                      className="w-6 h-6"
-                    />
-                    <span>
-                      <strong>Contact Us</strong> – For latest fees & batches
-                    </span>
-                  </li>
-                </ul>
-               )} 
+              ))}
             </div>
 
             {/* Apply Now Button */}

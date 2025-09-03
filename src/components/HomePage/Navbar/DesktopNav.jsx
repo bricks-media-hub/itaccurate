@@ -9,6 +9,7 @@ import { FiChevronUp } from "react-icons/fi";
 const DesktopNav = ({ navItems, activeMenu, handleMenuEnter, handleMenuLeave, 
   activeSubMenu, handleSubMenuEnter, handleSubMenuLeave, handleDropdownEnter, 
   handleDropdownLeave, handleCloseMenuDropdown }) => {
+    
   const menuItems = useSelector((state) => state.navbar.menuItems);
 
   return (

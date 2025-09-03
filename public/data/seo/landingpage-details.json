@@ -224,7 +224,34 @@
         ],
         "FeesDuration": {
             "heading": "Fees, Duration & Batch Options",
-            "content": "The <span class='text-blue-600'>SAP FICO course in Nagpur at IT Accurate</span> offers flexible batch timings, and weekday and weekend options are available. Course duration is 2.5 to 3 months, with extended access to practice sessions. Our fee structure is affordable with EMI and installment options to support learners from all backgrounds. Reach out today for the latest batch schedule and fee details."
+            "content": "The <span class='text-blue-600'>SAP FICO course in Nagpur at IT Accurate</span> offers flexible batch timings, and weekday and weekend options are available. Course duration is 2.5 to 3 months, with extended access to practice sessions. Our fee structure is affordable with EMI and installment options to support learners from all backgrounds. Reach out today for the latest batch schedule and fee details.",
+            "points": [
+                {
+                    "icon": "/icons/job-clock.png",
+                    "point": "Flexible Batch Timings",
+                    "content": "Weekday & weekend options available"
+                },
+                {
+                    "icon": "/icons/calendar2.svg",
+                    "point": "Course Duration",
+                    "content": "2.5 to 3 months"
+                },
+                {
+                    "icon": "/icons/teaching.svg",
+                    "point": "Extended Practice Access",
+                    "content": "Beyond course completion"
+                },
+                {
+                    "icon": "/icons/money-pouch.svg",
+                    "point": "Affordable Fees",
+                    "content": "With EMI & installment options"
+                },
+                {
+                    "icon": "/icons/contact.svg",
+                    "point": "Get Details",
+                    "content": "Reach out for latest fees & batch schedule"
+                }
+            ]
         }
     },
     "sap-course-in-nagpur": {
@@ -455,7 +482,34 @@
         ],
         "FeesDuration": {
             "heading": "Fees, Duration & SAP Certification at IT Accurate",
-            "content": "Our <span class='text-blue-600'>SAP course in Nagpur</span> is competitively priced with flexible payment options. Duration typically ranges from 6 to 10 weeks, depending on the module you choose. Upon completion, you'll receive a certificate from IT Accurate, recognised by top recruiters in the SAP domain. We also guide you through official SAP certification paths if you're aiming for global credentials. <br /><br />Contact us for the latest fees and batch availability."
+            "content": "Our <span class='text-blue-600'>SAP course in Nagpur</span> is competitively priced with flexible payment options. Duration typically ranges from 6 to 10 weeks, depending on the module you choose. Upon completion, you'll receive a certificate from IT Accurate, recognised by top recruiters in the SAP domain. We also guide you through official SAP certification paths if you're aiming for global credentials. <br /><br />Contact us for the latest fees and batch availability.",
+            "points": [
+                {
+                    "icon": "/icons/money-pouch.svg",
+                    "point": "Affordable Fees",
+                    "content": "Flexible EMI options"
+                },
+                {
+                    "icon": "/icons/job-clock.png",
+                    "point": "Duration",
+                    "content": "6 to 10 weeks"
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "point": "Certificate",
+                    "content": "From IT Accurate"
+                },
+                {
+                    "icon": "/icons/wireframe-globe.svg",
+                    "point": "Global Path",
+                    "content": "SAP official certification"
+                },
+                {
+                    "icon": "/icons/contact.svg",
+                    "point": "Contact Us",
+                    "content": "For latest fees & batches"
+                }
+            ]
         }
     },
     "sap-course-in-thane": {
@@ -683,15 +737,52 @@
         ],
         "FeesDuration": {
             "heading": "Fees, Duration & SAP Certification at IT Accurate",
-            "content": "Our <span class='text-blue-600'>SAP course in Thane</span> is competitively priced with flexible payment options. Duration typically ranges from 6 to 10 weeks, depending on the module you choose. Upon completion, you'll receive a certificate from IT Accurate, recognised by top recruiters in the SAP domain. We also guide you through official SAP certification paths if you're aiming for global credentials. <br /><br />Contact us for the latest fees and batch availability."
+            "content": "Our <span class='text-blue-600'>SAP course in Thane</span> is competitively priced with flexible payment options. Duration typically ranges from 6 to 10 weeks, depending on the module you choose. Upon completion, you'll receive a certificate from IT Accurate, recognised by top recruiters in the SAP domain. We also guide you through official SAP certification paths if you're aiming for global credentials. <br /><br />Contact us for the latest fees and batch availability.",
+            "points": [
+                {
+                    "icon": "/icons/money-pouch.svg",
+                    "point": "Affordable Fees",
+                    "content": "Flexible EMI options"
+                },
+                {
+                    "icon": "/icons/job-clock.png",
+                    "point": "Duration",
+                    "content": "6 to 10 weeks"
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "point": "Certificate",
+                    "content": "From IT Accurate"
+                },
+                {
+                    "icon": "/icons/wireframe-globe.svg",
+                    "point": "Global Path",
+                    "content": "SAP official certification"
+                },
+                {
+                    "icon": "/icons/contact.svg",
+                    "point": "Contact Us",
+                    "content": "For latest fees & batches"
+                }
+            ]
         }
     },
-    "data-analytics": {
+    "data-analytics-course-in-nagpur": {
         "name": "Data Analytics",
-        "title": "Best Data analytics Training Course",
+        "title": "Data Analytics Training Course",
         "bgImage": "/coursesBgImages/data-analytics.jpg",
         "detail": {
-            "paragraph1": "Best Data analytics Training by IT Accurate offers you the Best Data analytics training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our Data analytics training course covers every technical topics in details and the student is left with real-time hand on experience. Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in Data analytics in just 5 months."
+            "points": [
+                "The Comprehensive Data Analytics Course in Nagpur is designed for both fresh graduates and experienced professionals",
+                "Expert guidance with 100% guaranteed placement assistance to help you build a secure career.",
+                "Training covers all core technical topics in detail, ensuring clarity and depth of knowledge.",
+                "Students gain real-time hands-on experience through practical, job-oriented sessions.",
+                "Our program not only provides a Data Analytics Certification in Nagpur but also equips you with knowledge equivalent to over 2 years of industry experience.",
+                "Time-efficient learning model – get trained in just 5 months of advanced data analytics training.",
+                "Recognised as one of the Best Data Analytics Training in Nagpur, combining classroom excellence with industry relevance.",
+                "Located in the heart of the city, Lokmat Bhawan, Ramdaspeth.",
+                "Flexible options available, including online data analytics courses in Nagpur for working professionals and students."
+            ]
         },
         "coveringTopics": [
             {
@@ -778,30 +869,35 @@
             }
         ],
         "whyChoose": {
-            "title": "Why Choose IT Accurate for SAP Training in Nagpur",
+            "title": "Why Choose IT Accurate for Data Analytics in Nagpur",
             "imageUrl": "/coursesBgImages/data-analytics.jpg",
             "points": [
-                "IT Accurate stands out among SAP classes in Nagpur with a focus on delivering job-ready skills.",
-                "Our trainers are working professionals with deep domain expertise, bringing practical insights to every session.",
-                "We provide personalised learning, flexible schedules, and real-time project experience for a clear understanding of SAP applications.",
-                "Modules include SAP FICO, MM, SD, and HANA—tailored to meet current market needs.",
-                "Proven track record with a consistent student success rate and expert guidance.",
-                "Supportive learning environment that helps students thrive.",
+                "Best Data Analytics Training in Nagpur with a structured curriculum covering Python, SQL, Excel, Power BI, Tableau, and more.",
+                "Hands-on learning approach with real-time projects that prepare you for practical industry challenges.",
+                "Expert trainers with proven experience in data science and analytics, ensuring personalised guidance.",
+                "Recognised as a leading Data Analytics Institute in Nagpur, offering career-focused and job-oriented programs.",
+                "Advanced Data Analytics Training in Nagpur is designed to match the skill needs of top companies.",
+                "100% placement assistance with resume building, interview preparation, and referrals to partner companies.",
+                "Industry-relevant Data Analytics Certification in Nagpur, boosting your credibility in the job market.",
+                "Fast-track program – learn advanced analytics concepts in just 5 months.",
+                "Flexible learning formats, including online data analytics courses in Nagpur for working professionals and students.",
                 "Located in the heart of the city, Lokmat Bhawan, Ramdaspeth.",
-                "Strong network of recruiters and placement partners to ensure the right career start.",
-                "More than just an institute—we act as your long-term partner in growth."
+                "Proven track record of helping freshers and experienced candidates land high-paying analytics roles."
             ]
         },
         "courseLocation": {
-            "title": "SAP Course in Nagpur West",
+            "title": "Data Analytics Course in Nagpur",
             "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
             "points": [
-                "Conveniently located in Nagpur West, offering easy access for students and professionals across the city.",
+                "IT Accurate offers a comprehensive Data Analytics Course in Nagpur  designed for beginners and working professionals.",
+                "The course covers essential tools like Excel, SQL, Python, Power BI, and Tableau, making you industry-ready.",
                 "Located in the heart of the city, Lokmat Bhawan, Ramdaspeth.",
-                "Well-connected by both road and rail, making it simple to attend classes with a busy schedule.",
-                "Comfortable classrooms and practical lab sessions for effective learning.",
-                "Flexible options to switch between weekend and weekday batches.",
-                "Ideal choice for anyone looking for quality SAP training in Nagpur, close to home or office."
+                "Our best data analytics training in Nagpur focuses on practical, hands-on learning with real-time projects.",
+                "Students gain the confidence to handle large datasets, analyse trends, and create impactful business insights.",
+                "With advanced data analytics training in Nagpur , you not only earn a certificate but also acquire knowledge equivalent to 2+ years of field experience.",
+                "The program is structured to be completed in just 5 months, ensuring faster entry into the analytics job market.",
+                "IT Accurate is recognised as a trusted data analytics institute in Nagpur, offering 100% placement assistance.",
+                "Flexible modes of learning, including online data analytics courses in Nagpur , make it accessible for students and working professionals alike."
             ]
         },
         "keyFeatures": [
@@ -1155,8 +1251,547 @@
             }
         ],
         "FeesDuration": {
-            "heading": "Fees, Duration & SAP Certification at IT Accurate",
-            "content": "Our <span class='text-blue-600'>SAP course in Nagpur</span> is competitively priced with flexible payment options. Duration typically ranges from 6 to 10 weeks, depending on the module you choose. Upon completion, you'll receive a certificate from IT Accurate, recognised by top recruiters in the SAP domain. We also guide you through official SAP certification paths if you're aiming for global credentials. <br /><br />Contact us for the latest fees and batch availability."
+            "heading": "Fees, Duration & Data Analytics Certification at IT Accurate",
+            "content": "Our <span class='text-blue-600'>Data Analytics Course in Nagpur</span> is competitively priced with flexible payment options. Duration typically ranges from 6 to 10 weeks, or even more, depending on the module you choose. Upon completion, you'll receive a certificate from <span class='text-blue-600'>IT Accurate</span>, recognised by top recruiters in the respective domain. We also guide you through official certification paths if you're aiming for global credentials.<br /><br />Contact us for the latest fees and batch availability.",
+            "points": [
+                {
+                    "icon": "/icons/money-pouch.svg",
+                    "point": "Affordable Fees",
+                    "content": "Competitively priced with flexible payment options"
+                },
+                {
+                    "icon": "/icons/job-clock.png",
+                    "point": "Duration",
+                    "content": "6 to 10+ weeks or more, depending on module"
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "point": "Certificate",
+                    "content": "From IT Accurate, recognised by top recruiters"
+                },
+                {
+                    "icon": "/icons/wireframe-globe.svg",
+                    "point": "Global Path",
+                    "content": "Guidance for official global certification credentials"
+                },
+                {
+                    "icon": "/icons/contact.svg",
+                    "point": "Contact Us",
+                    "content": "Get latest fees and batch availability"
+                }
+            ]
+        }
+    },
+    "data-analytics-course-in-thane": {
+        "name": "Data Analytics",
+        "title": "Data Analytics Training Course",
+        "bgImage": "/coursesBgImages/data-analytics.jpg",
+        "detail": {
+            "points": [
+                "The Comprehensive Data Analytics Course in Thane is designed for both fresh graduates and experienced professionals",
+                "Expert guidance with 100% guaranteed placement assistance to help you build a secure career.",
+                "Training covers all core technical topics in detail, ensuring clarity and depth of knowledge.",
+                "Students gain real-time hands-on experience through practical, job-oriented sessions.",
+                "Our program not only provides a Data Analytics Certification in Thane but also equips you with knowledge equivalent to over 2 years of industry experience.",
+                "Time-efficient learning model – get trained in just 5 months of advanced data analytics training.",
+                "Recognised as one of the Best Data Analytics Training in Thane, combining classroom excellence with industry relevance.",
+                "Flexible options available, including online data analytics courses in Thane for working professionals and students."
+            ]
+        },
+        "coveringTopics": [
+            {
+                "title": "GitHub",
+                "icon": "/icons/github.svg"
+            },
+            {
+                "title": "Snowflake",
+                "icon": "/icons/snowflake.svg"
+            },
+            {
+                "title": "ChatGPT",
+                "icon": "/icons/chatgpt.svg"
+            },
+            {
+                "title": "Interview preparation",
+                "icon": "/icons/interview-prep.svg"
+            },
+            {
+                "title": "Case studies",
+                "icon": "/icons/sap.svg"
+            },
+            {
+                "title": "5+ Capstone projects",
+                "icon": "/icons/trophy.svg"
+            },
+            {
+                "title": "Industry-level projects",
+                "icon": "/icons/crane.svg"
+            },
+            {
+                "title": "100% job opportunities guaranteed program",
+                "icon": "/icons/job-assist.svg"
+            }
+        ],
+        "coveringTopics2": [
+            {
+                "title": "Python",
+                "icon": "/globeLogos/python.png"
+            },
+            {
+                "title": "Tableau",
+                "icon": "/globeLogos/tabelau2.png"
+            },
+            {
+                "title": "Power BI",
+                "icon": "/globeLogos/power-bi.svg"
+            },
+            {
+                "title": "Advanced Excel",
+                "icon": "/globeLogos/excel.png"
+            },
+            {
+                "title": "Machine Learning",
+                "icon": "/icons/brain.svg"
+            },
+            {
+                "title": "R Programming",
+                "icon": "/globeLogos/r-program.png"
+            },
+            {
+                "title": "Jupyter (Python Notebook)",
+                "icon": "/globeLogos/jupyter.png"
+            },
+            {
+                "title": "NumPy",
+                "icon": "/globeLogos/numpy.png"
+            },
+            {
+                "title": "Pandas",
+                "icon": "/globeLogos/pandas.png"
+            },
+            {
+                "title": "TensorFlow",
+                "icon": "/globeLogos/tensorflow.svg"
+            },
+            {
+                "title": "Mongo DB",
+                "icon": "/globeLogos/mongodb.svg"
+            },
+            {
+                "title": "MySQL",
+                "icon": "/globeLogos/mysql.png"
+            }
+        ],
+        "whyChoose": {
+            "title": "Why Choose IT Accurate for Data Analytics in Thane",
+            "imageUrl": "/coursesBgImages/data-analytics.jpg",
+            "points": [
+                "Best Data Analytics Training in Thane with a structured curriculum covering Python, SQL, Excel, Power BI, Tableau, and more.",
+                "OHands-on learning approach with real-time projects that prepare you for practical industry challenges.",
+                "Expert trainers with proven experience in data science and analytics, ensuring personalised guidance.",
+                "Recognised as a leading Data Analytics Institute in Thane, offering career-focused and job-oriented programs.",
+                "Advanced Data Analytics Training in Thane is designed to match the skill needs of top companies.",
+                "100% placement assistance with resume building, interview preparation, and referrals to partner companies.",
+                "Industry-relevant Data Analytics Certification in Thane, boosting your credibility in the job market.",
+                "Fast-track program – learn advanced analytics concepts in just 5 months.",
+                "Flexible learning formats, including online data analytics courses in Thane for working professionals and students.",
+                "Proven track record of helping freshers and experienced candidates land high-paying analytics roles."
+            ]
+        },
+        "courseLocation": {
+            "title": "Data Analytics Course in Thane",
+            "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+            "points": [
+                "IT Accurate offers a comprehensive Data Analytics Course in Thane  designed for beginners and working professionals.",
+                "The course covers essential tools like Excel, SQL, Python, Power BI, and Tableau, making you industry-ready.",
+                "Our best data analytics training in Thane focuses on practical, hands-on learning with real-time projects.",
+                "Students gain the confidence to handle large datasets, analyse trends, and create impactful business insights.",
+                "With advanced data analytics training in Thane , you not only earn a certificate but also acquire knowledge equivalent to 2+ years of field experience.",
+                "The program is structured to be completed in just 5 months, ensuring faster entry into the analytics job market.",
+                "IT Accurate is recognised as a trusted data analytics institute in Thane, offering 100% placement assistance.",
+                "Flexible modes of learning, including online data analytics courses in Thane , make it accessible for students and working professionals alike."
+            ]
+        },
+        "keyFeatures": [
+            {
+                "text": "162+ Hours course duration",
+                "icon": "/icons/job-clock.png",
+                "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+            },
+            {
+                "text": "100% Job oriented Training",
+                "icon": "/icons/briefcase.svg",
+                "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+            },
+            {
+                "text": "Industry expert faculties",
+                "icon": "/icons/help.svg",
+                "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+            },
+            {
+                "text": "Free demo class available",
+                "icon": "/icons/video.svg",
+                "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+            },
+            {
+                "text": "Completed 200+ Batches",
+                "icon": "/icons/batch.svg",
+                "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+            },
+            {
+                "text": "Certifaction guidance",
+                "icon": "/icons/certificate.svg",
+                "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+            }
+        ],
+        "roadMap": [
+            {
+                "title": "Introduction",
+                "description": "Fundamentals of Data Analytics",
+                "icon": "/icons/closed-book.svg",
+                "items": [
+                    "What is Data analytics?",
+                    "Data Analytics course",
+                    "Data Analytics certification",
+                    "Data Analytics jobs in india",
+                    "Data Analytics jobs"
+                ],
+                "color": "from-blue-500 to-indigo-600"
+            },
+            {
+                "title": "Define Objectives and Scope",
+                "description": "Setting the foundation for your analysis",
+                "icon": "/icons/focus.svg",
+                "items": [
+                    "Clearly outline the goals and objectives of your data analytics initiative.",
+                    "Identify the key questions you want to answer or the problems you want to solve.",
+                    "Define the scope of your analysis, including the data sources and time period."
+                ],
+                "color": "from-purple-500 to-pink-600"
+            },
+            {
+                "title": "Data Collection and Integration",
+                "description": "Gathering and preparing your data",
+                "icon": "/icons/search-scope.svg",
+                "items": [
+                    "Identify relevant data sources and gather the necessary datasets.",
+                    "Cleanse and preprocess the data to ensure accuracy and consistency.",
+                    "Integrate data from different sources to create a comprehensive dataset for analysis."
+                ],
+                "color": "from-green-500 to-teal-600"
+            },
+            {
+                "title": "Exploratory Data Analysis (EDA)",
+                "description": "Understanding your data",
+                "icon": "/icons/analyze-report.svg",
+                "items": [
+                    "Perform EDA to understand the characteristics of the data.",
+                    "Identify patterns, trends, and outliers that may impact the analysis.",
+                    "Use visualization techniques to communicate insights effectively."
+                ],
+                "color": "from-yellow-500 to-orange-600"
+            },
+            {
+                "title": "Modeling and Analysis",
+                "description": "Applying analytical techniques",
+                "icon": "/icons/brain.svg",
+                "items": [
+                    "Select appropriate analytical models based on the nature of the problem.",
+                    "Train and validate models using historical data.",
+                    "Apply the models to new data for predictive or descriptive analysis."
+                ],
+                "color": "from-red-500 to-pink-600"
+            },
+            {
+                "title": "Interpretation and Communication",
+                "description": "Sharing your findings",
+                "icon": "/icons/group-chat.svg",
+                "items": [
+                    "Interpret the results of the analysis in the context of the business objectives.",
+                    "Clearly communicate findings to both technical and non-technical stakeholders.",
+                    "Provide actionable insights and recommendations based on the analysis."
+                ],
+                "color": "from-indigo-500 to-blue-600"
+            },
+            {
+                "title": "Continuous Improvement and Optimization",
+                "description": "Enhancing your analytics process",
+                "icon": "/icons/recurring.svg",
+                "items": [
+                    "Establish mechanisms for continuous monitoring of data quality and model performance.",
+                    "Iterate on the analysis based on feedback and changing business requirements.",
+                    "Explore new data sources and advanced analytics techniques for continuous improvement."
+                ],
+                "color": "from-teal-500 to-green-600"
+            },
+            {
+                "title": "Resume Preparation",
+                "description": "Crafting an effective data analytics resume",
+                "icon": "/icons/resume-prep.svg",
+                "items": [
+                    "Include keywords.",
+                    "How to prepare resume.",
+                    "How to prepare resume for freshers.",
+                    "Show impact.",
+                    "Include soft skills.",
+                    "Be unique."
+                ],
+                "color": "from-gray-500 to-blue-600"
+            }
+        ],
+        "trainingSyllabus": [
+            {
+                "name": "Data analytics"
+            },
+            {
+                "title": "Python Basics",
+                "subpoints": [
+                    "Introduction of python for data analysis",
+                    "Data types in python",
+                    "Pre-define function in python and its use",
+                    "Input and output method",
+                    "String data type and its operation",
+                    "Integer data type and its operation",
+                    "List data type and its operation",
+                    "Tuple data type and its operation",
+                    "Set data type and its operation",
+                    "Dictionary data type and its operation",
+                    "If, else and elif condition and nested condition",
+                    "For loop and while loop and nested loop with condition",
+                    "User-define function in python",
+                    "List comprehension and lambda function",
+                    "File handling in python",
+                    "Operating System"
+                ],
+                "color": "bg-blue-500",
+                "icon": "/icons/python.svg",
+                "description": "Fundamentals of Python programming for data analysis"
+            },
+            {
+                "title": "Python Library",
+                "subpoints": [
+                    "Pandas for data cleaning",
+                    "Numpy for data manipulation",
+                    "Matplotlib for data visualization",
+                    "Seaborn for data visualization",
+                    "SciPy for statistics",
+                    "Statistics for data analysis",
+                    "Sci-kit learn for machine learning"
+                ],
+                "color": "bg-green-500",
+                "icon": "/icons/books-bunch.svg",
+                "description": "Essential Python libraries for data science"
+            },
+            {
+                "title": "Statistics",
+                "subpoints": [
+                    "Introduction of statistics",
+                    "Stats Definition: I. Descriptive II. Inferential",
+                    "Population and sample",
+                    "Descriptive statistics",
+                    "Distribution",
+                    "Type of distribution",
+                    "Inferential statistics",
+                    "Hypothesis testing",
+                    "Type-I error and Type-II error",
+                    "Data transformation"
+                ],
+                "color": "bg-purple-500",
+                "icon": "/icons/stats.svg",
+                "description": "Statistical concepts for data analysis"
+            },
+            {
+                "title": "MySQL Database",
+                "subpoints": [
+                    "Introduction of database",
+                    "Type of database",
+                    "MySQL introduction and installation",
+                    "SQL commands",
+                    "Database creation",
+                    "Bulk data load",
+                    "Basic queries in mysql",
+                    "Stroe Procedure",
+                    "View in SQL",
+                    "Case in SQL",
+                    "User-define function in database",
+                    "Condition in database",
+                    "Table constraint in table",
+                    "Partition in SQL",
+                    "Trigger in SQL",
+                    "CTE, Recursive CTE",
+                    "Regular expression in SQL",
+                    "Window function",
+                    "Window analytical function"
+                ],
+                "color": "bg-orange-500",
+                "icon": "/icons/database.svg",
+                "description": "Database management with MySQL"
+            },
+            {
+                "title": "Power BI",
+                "subpoints": [
+                    "Introduction of Power BI and its component",
+                    "Power View: Creating and customizing visualization",
+                    "Building interactive report and dashboard",
+                    "Power Query: Data preparation and transformation using Power Query",
+                    "ETL in Power BI",
+                    "Power BI DAX: (Data Analysis Expression)",
+                    "Integration of Power BI with database",
+                    "Power BI Service: Sharing and publishing"
+                ],
+                "color": "bg-yellow-500",
+                "icon": "/icons/power-bi.svg",
+                "description": "Data visualization and business intelligence"
+            },
+            {
+                "title": "Advanced Excel",
+                "subpoints": [
+                    "Introduction of Excel: file format",
+                    "Excel formatting: conditional formatting",
+                    "Data validation",
+                    "Pivot table and chart",
+                    "Excel functions",
+                    "Data Visualization techniques",
+                    "Data Analysis Tool"
+                ],
+                "color": "bg-green-600",
+                "icon": "/icons/adv-excel.svg",
+                "description": "Advanced data analysis with Excel"
+            },
+            {
+                "title": "Machine Learning",
+                "subpoints": [
+                    "Introduction of machine learning algorithms",
+                    "Supervised Machine learning",
+                    "Unsupervised Machine learning",
+                    "Feature engineering and selection",
+                    "Model building",
+                    "Model evaluation and selection"
+                ],
+                "color": "bg-red-500",
+                "icon": "/icons/ai-bot.svg",
+                "description": "Fundamentals of machine learning"
+            },
+            {
+                "title": "Bonus Topics",
+                "subpoints": [
+                    "GitHub",
+                    "Snowflake",
+                    "AWS",
+                    "CHATGPT",
+                    "Interview Preparation"
+                ],
+                "color": "bg-indigo-500",
+                "icon": "/icons/gift.svg",
+                "description": "Additional valuable skills and tools"
+            },
+            {
+                "title": "Data Analytics End to End Project",
+                "subpoints": [
+                    ""
+                ],
+                "color": "bg-teal-500",
+                "icon": "/icons/trophy.svg",
+                "description": "Comprehensive real-world project implementation"
+            }
+        ],
+        "reviews": [
+            {
+                "name": "Vikram MANKAR",
+                "review": "I enrolled in the Data Analytics course at IT Accurate Institute, Thane, and it was a game-changer for me. The instructors were knowledgeable. the curriculum was comprehensive, and the hands-on projects really enhanced my skills. I highly recommend it to anyone looking to delve into the world of data analytics.",
+                "image": "https://img.freepik.com/premium-photo/portrait-young-man_1048944-27791352.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                "role": "Data Analyst"
+            },
+            {
+                "name": "Aditi YADAV",
+                "review": "The Data Analytics course at IT Accurate Institute was a fantastic experience. The instructors were patient and always willing to help. The real-world applications and case studies made the concepts easy to grasp. I feel well-prepared to apply my skills in the professional arena.",
+                "image": "https://plus.unsplash.com/premium_photo-1664910774825-ebfd99c87639?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzd8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                "role": "Data Science Associate"
+            },
+            {
+                "name": "Vedant JAIN",
+                "review": "IT Accurate Institute's Data Analytics course was worth every penny. The curriculum was up-to-date with industry standards, and the practical approach to learning made it enjoyable. The institute's support system is commendable, and I now feel confident in my ability to handle complex data analytics tasks.",
+                "image": "https://images.unsplash.com/photo-1625999984550-ef318c3a4648?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                "role": "Data Science Associate"
+            },
+            {
+                "name": "Shaurya R.",
+                "review": "As a beginner in data analytics, found the course at IT Accurate Institute to be beginner- friendly yet challenging enough to keep me engaged. The interactive sessions and group projects allowed for a dynamic learning experience. I appreciate the institute's commitment to fostering a collaborative and supportive learning environment. ",
+                "image": "https://images.unsplash.com/photo-1642752243427-0b1b09b13668?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                "role": "Data Analyst"
+            },
+            {
+                "name": "Atharv SHIRSAGAR",
+                "review": "I had a great time at IT Accurate Institute's Data Analytics course. The instructors were not only knowledgeable but also passionate about the subject, which made the classes more engaging. The practical approach, using real- world data, gave me a solid foundation to build upon.",
+                "image": "https://plus.unsplash.com/premium_photo-1689838026921-c09632fd77ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                "role": "Data Science Associate"
+            },
+            {
+                "name": "Aditi JOSE",
+                "review": "The Data Analytics course at IT Accurate Institute exceeded my expectations. The institute's emphasis on practical skills development, along with theoretical knowledge, set it apart. The career guidance and placement assistance provided were an added bonus. I'm confident in my ability to apply what I've learned.",
+                "image": "",
+                "role": "Data Analyst"
+            },
+            {
+                "name": "Rohit GANDHI",
+                "review": "IT Accurate Institute's Data Analytics course provided a holistic understanding of the subject. The mix of theoretical and practical sessions allowed for a comprehensive learning experience. The institute's commitment to staying current with industry trends is evident in the course content",
+                "image": "https://images.unsplash.com/photo-1628416504816-25c2ad749fab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                "role": "Data Consultant"
+            },
+            {
+                "name": "Aravind SAHU",
+                "review": "Enrolling in the Data Analytics course at IT Accurate Institute was one of the best decisions I made. The hands-on approach, coupled with insightful lectures, made the learning journey enjoyable. The institute's infrastructure and resources further enhanced the overall experience. I feel well- equipped for a career in data analytics.",
+                "image": "https://images.unsplash.com/photo-1669773793594-e8d4615deb7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                "role": "Data Science Associate"
+            }
+        ],
+        "certificationPoints": [
+            {
+                "icon": "/icons/badge2.svg",
+                "title": "Recognized Certification",
+                "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+            },
+            {
+                "icon": "/icons/increase-graph.svg",
+                "title": "Competitive Edge",
+                "description": "The Data Analyst certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+            },
+            {
+                "icon": "/icons/graduation.svg",
+                "title": "100% Passing Guarantee",
+                "description": "IT Accurate provides comprehensive guidance for your Data Analyst global certification, ensuring a 100% passing guarantee in examinations such as Data analytics Certification, Data Analyst Platform Development Certification, and various other global exams."
+            }
+        ],
+        "FeesDuration": {
+            "heading": "Fees, Duration & Data Analytics Certification at IT Accurate",
+            "content": "Our <span class='text-blue-600'>Data Analytics Course in Thane</span> is competitively priced with flexible payment options. Duration typically ranges from 6 to 10 weeks, or even more, depending on the module you choose. Upon completion, you'll receive a certificate from <span class='text-blue-600'>IT Accurate</span>, recognised by top recruiters in the respective domain. We also guide you through official certification paths if you're aiming for global credentials.<br /><br />Contact us for the latest fees and batch availability.",
+            "points": [
+                {
+                    "icon": "/icons/money-pouch.svg",
+                    "point": "Affordable Fees",
+                    "content": "Competitively priced with flexible payment options"
+                },
+                {
+                    "icon": "/icons/job-clock.png",
+                    "point": "Duration",
+                    "content": "6 to 10+ weeks or more, depending on module"
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "point": "Certificate",
+                    "content": "From IT Accurate, recognised by top recruiters"
+                },
+                {
+                    "icon": "/icons/wireframe-globe.svg",
+                    "point": "Global Path",
+                    "content": "Guidance for official global certification credentials"
+                },
+                {
+                    "icon": "/icons/contact.svg",
+                    "point": "Contact Us",
+                    "content": "Get latest fees and batch availability"
+                }
+            ]
         }
     }
 }

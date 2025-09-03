@@ -61,12 +61,24 @@ function SeoLandingPage() {
             className="w-full md:w-[85%] lg:w-[88%] text-center md:text-left z-20 pt-5"
           >
             {/* Dynamic Heading */}
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4 text-gray-700 dark:text-black">
-              {landingPageDetails?.title}
-              <span className="text-blue-600 dark:text-indigo-800">
-                Practical Training with 100% Placement
-              </span>
-            </h1>
+            {location.pathname.includes("sap") ? (
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4 text-gray-700 dark:text-black">
+                {landingPageDetails?.title}
+                <span className="text-blue-600 dark:text-indigo-800">
+                  Practical Training with 100% Placement
+                </span>
+              </h1>
+            ) : (
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4 text-blue-600 dark:text-indigo-800">
+                <span className="text-gray-700 dark:text-black">Best </span>
+                {landingPageDetails?.title}
+                <span className="text-gray-700 dark:text-black">
+                  {
+                    location.pathname.includes("thane") ? " in Thane" : " in Nagpur"
+                  }
+                </span>
+              </h1>
+            )}
 
             {/* Bullet Points */}
             {Array.isArray(landingPageDetails?.detail?.points) &&
@@ -85,6 +97,7 @@ function SeoLandingPage() {
                           />
                         </div>
                       </span>
+                      {/* <span dangerouslySetInnerHTML={{ __html: point}} /> */}
                       {point}
                     </li>
                   ))}

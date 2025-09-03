@@ -81,7 +81,8 @@ const landingPageDetails = [
   "sap-course-in-thane",
   "sap-course-in-nagpur",
   "sap-fico-course-in-nagpur",
-  "data-analytics"
+  "data-analytics-course-in-thane",
+  "data-analytics-course-in-nagpur",
 ]
 
 // Create loader-based routes
@@ -140,18 +141,6 @@ const router = createBrowserRouter([
         loader: () => fetchSeoLandingPageDetails(route),
         element: <SeoLandingPage />,
       })),
-      // {
-      //   path: "/sap-course-in-thane",
-      //   element: <SeoLandingPage />,
-      // },
-      // {
-      //   path: "/sap-course-in-nagpur",
-      //   element: <SeoLandingPage />,
-      // },
-      // {
-      //   path: "/sap-fico-course-in-nagpur",
-      //   element: <SeoLandingPage />,
-      // },
       {
         path: '/successful',
         element: <ContactSuccessful />
