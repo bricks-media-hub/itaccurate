@@ -36,7 +36,7 @@ function KeyFeatures({ name, keyFeatures }) {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
             <span className="bg-clip-text text-black dark:text-white">
               Key Features of{' '}
-              <span className="text-blue-600">{name}</span>
+              <span className="text-blue-600">{name}{' '}{location.pathname.includes('sap') && 'Training'}</span>
             </span>
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">

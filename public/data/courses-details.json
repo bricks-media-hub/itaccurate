@@ -5,25 +5,46 @@
             "title": "Best SAP Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "Best SAP Training by IT Accurate has well-structured SAP Training program. The SAP training Course as well as certification courses help you to maximize the productivity of your Sales, Marketing or Admin tasks by tapping into the vast resources of Salesforce. Join us, Best SAP Classes to build up your career in the booming sector and add the hot skill to your resume. Our subject expert provides the best real time projects, examples, and learnings in the SAP classes.",
-                "paragraph2": "Join us, Best SAP Classes to build up your career in the booming sector and add the hot skill to your resume. Our subject expert provides the best real-time projects, examples, and learnings in the SAP classes."
+                "paragraph1": "IT Accurate offers the best SAP trainings for students, freshers & professionals. Get hands-on experience, 2+ years equivalent knowledge & guaranteed placement opportunities in just 4 months.",
+                "paragraph2": "Learn SAP S/4 HANA & start Your Career in SAP consulting IT Accurate offers best SAP training with 80% practicals from industry experts.  designed on realtime scenarios with study notes for every student who wants to upgrade their skills.",
+                "paragraph3": "Small batch size in morning and evening time available.  This is perfectly suitable for students and working professionals with 100% guaranteed interview and resume preparation. We provide SAP global certification guidance."
             },
             "coveringTopics": [
                 {
-                    "title": "Resume preparation",
+                    "title": "End-User Training (1 month - ECC / S/4 HANA)",
+                    "icon": "/icons/closed-book.svg"
+                },
+                {
+                    "title": "Configuration Training (2 months - ECC / S/4 HANA)",
+                    "icon": "/icons/hammer.svg"
+                },
+                {
+                    "title": "Project Work (1 month)",
+                    "icon": "/icons/folder.svg"
+                },
+                {
+                    "title": "Advanced Excel and Tally",
+                    "icon": "/icons/excel.svg"
+                },
+                {
+                    "title": "Resume Preparation",
                     "icon": "/icons/resume-prep.svg"
                 },
                 {
-                    "title": "Interview practice",
+                    "title": "Interview Practice",
                     "icon": "/icons/interview-prep.svg"
                 },
                 {
-                    "title": "6-months internship",
+                    "title": "Internship (6 months real-world exposure)",
                     "icon": "/icons/internship-prep.svg"
                 },
                 {
-                    "title": "100% job opportunities guaranteed program",
+                    "title": "100% Job Opportunities Guaranteed Program",
                     "icon": "/icons/job.svg"
+                },
+                {
+                    "title": "Global Certification Guidance",
+                    "icon" : "/icons/internet-globe.svg"
                 }
             ],
             "whatIs": {
@@ -258,20 +279,40 @@
             },
             "coveringTopics": [
                 {
-                    "title": "Resume preparation",
+                    "title": "End-User Training (1 month - ECC / S/4 HANA)",
+                    "icon": "/icons/closed-book.svg"
+                },
+                {
+                    "title": "Configuration Training (2 months - ECC / S/4 HANA)",
+                    "icon": "/icons/hammer.svg"
+                },
+                {
+                    "title": "Project Work (1 month)",
+                    "icon": "/icons/folder.svg"
+                },
+                {
+                    "title": "Advanced Excel and Tally",
+                    "icon": "/icons/excel.svg"
+                },
+                {
+                    "title": "Resume Preparation",
                     "icon": "/icons/resume-prep.svg"
                 },
                 {
-                    "title": "Interview practice",
+                    "title": "Interview Practice",
                     "icon": "/icons/interview-prep.svg"
                 },
                 {
-                    "title": "6-months internship",
+                    "title": "Internship (6 months real-world exposure)",
                     "icon": "/icons/internship-prep.svg"
                 },
                 {
-                    "title": "100% job opportunities guaranteed program",
+                    "title": "100% Job Opportunities Guaranteed Program",
                     "icon": "/icons/job.svg"
+                },
+                {
+                    "title": "Global Certification Guidance",
+                    "icon" : "/icons/internet-globe.svg"
                 }
             ],
             "whatIs": {
@@ -729,20 +770,40 @@
             },
             "coveringTopics": [
                 {
-                    "title": "Resume preparation",
+                    "title": "End-User Training (1 month - ECC / S/4 HANA)",
+                    "icon": "/icons/closed-book.svg"
+                },
+                {
+                    "title": "Configuration Training (2 months - ECC / S/4 HANA)",
+                    "icon": "/icons/hammer.svg"
+                },
+                {
+                    "title": "Project Work (1 month)",
+                    "icon": "/icons/folder.svg"
+                },
+                {
+                    "title": "Advanced Excel and Tally",
+                    "icon": "/icons/excel.svg"
+                },
+                {
+                    "title": "Resume Preparation",
                     "icon": "/icons/resume-prep.svg"
                 },
                 {
-                    "title": "Interview practice",
+                    "title": "Interview Practice",
                     "icon": "/icons/interview-prep.svg"
                 },
                 {
-                    "title": "6-months internship",
+                    "title": "Internship (6 months real-world exposure)",
                     "icon": "/icons/internship-prep.svg"
                 },
                 {
-                    "title": "100% job opportunities guaranteed program",
+                    "title": "100% Job Opportunities Guaranteed Program",
                     "icon": "/icons/job.svg"
+                },
+                {
+                    "title": "Global Certification Guidance",
+                    "icon" : "/icons/internet-globe.svg"
                 }
             ],
             "whatIs": {
@@ -2139,20 +2200,40 @@
             },
             "coveringTopics": [
                 {
-                    "title": "Resume preparation",
+                    "title": "End-User Training (1 month - ECC / S/4 HANA)",
+                    "icon": "/icons/closed-book.svg"
+                },
+                {
+                    "title": "Configuration Training (2 months - ECC / S/4 HANA)",
+                    "icon": "/icons/hammer.svg"
+                },
+                {
+                    "title": "Project Work (1 month)",
+                    "icon": "/icons/folder.svg"
+                },
+                {
+                    "title": "Advanced Excel and Tally",
+                    "icon": "/icons/excel.svg"
+                },
+                {
+                    "title": "Resume Preparation",
                     "icon": "/icons/resume-prep.svg"
                 },
                 {
-                    "title": "Interview practice",
+                    "title": "Interview Practice",
                     "icon": "/icons/interview-prep.svg"
                 },
                 {
-                    "title": "6-months internship",
+                    "title": "Internship (6 months real-world exposure)",
                     "icon": "/icons/internship-prep.svg"
                 },
                 {
-                    "title": "100% job opportunities guaranteed program",
+                    "title": "100% Job Opportunities Guaranteed Program",
                     "icon": "/icons/job.svg"
+                },
+                {
+                    "title": "Global Certification Guidance",
+                    "icon" : "/icons/internet-globe.svg"
                 }
             ],
             "whatIs": {
@@ -2570,32 +2651,40 @@
             },
             "coveringTopics": [
                 {
-                    "title": "End user 1 month (ECC / S/4 HANA)",
-                    "icon": "/icons/emp-comp.svg"
+                    "title": "End-User Training (1 month - ECC / S/4 HANA)",
+                    "icon": "/icons/closed-book.svg"
                 },
                 {
-                    "title": "Configuration 2 months (ECC / S/4 HANA)",
-                    "icon": "/icons/settings.svg"
+                    "title": "Configuration Training (2 months - ECC / S/4 HANA)",
+                    "icon": "/icons/hammer.svg"
                 },
                 {
-                    "title": "Project 1 month",
+                    "title": "Project Work (1 month)",
                     "icon": "/icons/folder.svg"
                 },
                 {
-                    "title": "Resume preparation",
+                    "title": "Advanced Excel and Tally",
+                    "icon": "/icons/excel.svg"
+                },
+                {
+                    "title": "Resume Preparation",
                     "icon": "/icons/resume-prep.svg"
                 },
                 {
-                    "title": "Interview practice",
+                    "title": "Interview Practice",
                     "icon": "/icons/interview-prep.svg"
                 },
                 {
-                    "title": "6-months internship",
+                    "title": "Internship (6 months real-world exposure)",
                     "icon": "/icons/internship-prep.svg"
                 },
                 {
-                    "title": "100% job opportunities guaranteed program",
+                    "title": "100% Job Opportunities Guaranteed Program",
                     "icon": "/icons/job.svg"
+                },
+                {
+                    "title": "Global Certification Guidance",
+                    "icon" : "/icons/internet-globe.svg"
                 }
             ],
             "whatIs": {
@@ -3059,32 +3148,40 @@
             },
             "coveringTopics": [
                 {
-                    "title": "End user 1 month (ECC / S/4 HANA)",
-                    "icon": "/icons/emp-comp.svg"
+                    "title": "End-User Training (1 month - ECC / S/4 HANA)",
+                    "icon": "/icons/closed-book.svg"
                 },
                 {
-                    "title": "Configuration 2 months (ECC / S/4 HANA)",
-                    "icon": "/icons/settings.svg"
+                    "title": "Configuration Training (2 months - ECC / S/4 HANA)",
+                    "icon": "/icons/hammer.svg"
                 },
                 {
-                    "title": "Project 1 month",
+                    "title": "Project Work (1 month)",
                     "icon": "/icons/folder.svg"
                 },
                 {
-                    "title": "Resume preparation",
+                    "title": "Advanced Excel and Tally",
+                    "icon": "/icons/excel.svg"
+                },
+                {
+                    "title": "Resume Preparation",
                     "icon": "/icons/resume-prep.svg"
                 },
                 {
-                    "title": "Interview practice",
+                    "title": "Interview Practice",
                     "icon": "/icons/interview-prep.svg"
                 },
                 {
-                    "title": "6-months internship",
+                    "title": "Internship (6 months real-world exposure)",
                     "icon": "/icons/internship-prep.svg"
                 },
                 {
-                    "title": "100% job opportunities guaranteed program",
+                    "title": "100% Job Opportunities Guaranteed Program",
                     "icon": "/icons/job.svg"
+                },
+                {
+                    "title": "Global Certification Guidance",
+                    "icon" : "/icons/internet-globe.svg"
                 }
             ],
             "whatIs": {
@@ -3509,20 +3606,40 @@
             },
             "coveringTopics": [
                 {
-                    "title": "Resume preparation",
+                    "title": "End-User Training (1 month - ECC / S/4 HANA)",
+                    "icon": "/icons/closed-book.svg"
+                },
+                {
+                    "title": "Configuration Training (2 months - ECC / S/4 HANA)",
+                    "icon": "/icons/hammer.svg"
+                },
+                {
+                    "title": "Project Work (1 month)",
+                    "icon": "/icons/folder.svg"
+                },
+                {
+                    "title": "Advanced Excel and Tally",
+                    "icon": "/icons/excel.svg"
+                },
+                {
+                    "title": "Resume Preparation",
                     "icon": "/icons/resume-prep.svg"
                 },
                 {
-                    "title": "Interview practice",
+                    "title": "Interview Practice",
                     "icon": "/icons/interview-prep.svg"
                 },
                 {
-                    "title": "6-months internship",
+                    "title": "Internship (6 months real-world exposure)",
                     "icon": "/icons/internship-prep.svg"
                 },
                 {
-                    "title": "100% job opportunities guaranteed program",
+                    "title": "100% Job Opportunities Guaranteed Program",
                     "icon": "/icons/job.svg"
+                },
+                {
+                    "title": "Global Certification Guidance",
+                    "icon" : "/icons/internet-globe.svg"
                 }
             ],
             "whatIs": {
@@ -3824,20 +3941,40 @@
             },
             "coveringTopics": [
                 {
-                    "title": "Resume preparation",
+                    "title": "End-User Training (1 month - ECC / S/4 HANA)",
+                    "icon": "/icons/closed-book.svg"
+                },
+                {
+                    "title": "Configuration Training (2 months - ECC / S/4 HANA)",
+                    "icon": "/icons/hammer.svg"
+                },
+                {
+                    "title": "Project Work (1 month)",
+                    "icon": "/icons/folder.svg"
+                },
+                {
+                    "title": "Advanced Excel and Tally",
+                    "icon": "/icons/excel.svg"
+                },
+                {
+                    "title": "Resume Preparation",
                     "icon": "/icons/resume-prep.svg"
                 },
                 {
-                    "title": "Interview practice",
+                    "title": "Interview Practice",
                     "icon": "/icons/interview-prep.svg"
                 },
                 {
-                    "title": "6-months internship",
+                    "title": "Internship (6 months real-world exposure)",
                     "icon": "/icons/internship-prep.svg"
                 },
                 {
-                    "title": "100% job opportunities guaranteed program",
+                    "title": "100% Job Opportunities Guaranteed Program",
                     "icon": "/icons/job.svg"
+                },
+                {
+                    "title": "Global Certification Guidance",
+                    "icon" : "/icons/internet-globe.svg"
                 }
             ],
             "whatIs": {
@@ -4170,32 +4307,40 @@
             },
             "coveringTopics": [
                 {
-                    "title": "End user 1 month (ECC / S/4 HANA)",
-                    "icon": "/icons/emp-comp.svg"
+                    "title": "End-User Training (1 month - ECC / S/4 HANA)",
+                    "icon": "/icons/closed-book.svg"
                 },
                 {
-                    "title": "Configuration 2 months (ECC / S/4 HANA)",
-                    "icon": "/icons/settings.svg"
+                    "title": "Configuration Training (2 months - ECC / S/4 HANA)",
+                    "icon": "/icons/hammer.svg"
                 },
                 {
-                    "title": "Project 1 month",
+                    "title": "Project Work (1 month)",
                     "icon": "/icons/folder.svg"
                 },
                 {
-                    "title": "Resume preparation",
+                    "title": "Advanced Excel and Tally",
+                    "icon": "/icons/excel.svg"
+                },
+                {
+                    "title": "Resume Preparation",
                     "icon": "/icons/resume-prep.svg"
                 },
                 {
-                    "title": "Interview practice",
+                    "title": "Interview Practice",
                     "icon": "/icons/interview-prep.svg"
                 },
                 {
-                    "title": "6-months internship",
+                    "title": "Internship (6 months real-world exposure)",
                     "icon": "/icons/internship-prep.svg"
                 },
                 {
-                    "title": "100% job opportunities guaranteed program",
+                    "title": "100% Job Opportunities Guaranteed Program",
                     "icon": "/icons/job.svg"
+                },
+                {
+                    "title": "Global Certification Guidance",
+                    "icon" : "/icons/internet-globe.svg"
                 }
             ],
             "whatIs": {
@@ -4645,20 +4790,40 @@
             },
             "coveringTopics": [
                 {
-                    "title": "Resume preparation",
+                    "title": "End-User Training (1 month - ECC / S/4 HANA)",
+                    "icon": "/icons/closed-book.svg"
+                },
+                {
+                    "title": "Configuration Training (2 months - ECC / S/4 HANA)",
+                    "icon": "/icons/hammer.svg"
+                },
+                {
+                    "title": "Project Work (1 month)",
+                    "icon": "/icons/folder.svg"
+                },
+                {
+                    "title": "Advanced Excel and Tally",
+                    "icon": "/icons/excel.svg"
+                },
+                {
+                    "title": "Resume Preparation",
                     "icon": "/icons/resume-prep.svg"
                 },
                 {
-                    "title": "Interview practice",
+                    "title": "Interview Practice",
                     "icon": "/icons/interview-prep.svg"
                 },
                 {
-                    "title": "6-months internship",
+                    "title": "Internship (6 months real-world exposure)",
                     "icon": "/icons/internship-prep.svg"
                 },
                 {
-                    "title": "100% job opportunities guaranteed program",
+                    "title": "100% Job Opportunities Guaranteed Program",
                     "icon": "/icons/job.svg"
+                },
+                {
+                    "title": "Global Certification Guidance",
+                    "icon" : "/icons/internet-globe.svg"
                 }
             ],
             "whatIs": {
@@ -5108,20 +5273,40 @@
             },
             "coveringTopics": [
                 {
-                    "title": "Resume preparation",
+                    "title": "End-User Training (1 month - ECC / S/4 HANA)",
+                    "icon": "/icons/closed-book.svg"
+                },
+                {
+                    "title": "Configuration Training (2 months - ECC / S/4 HANA)",
+                    "icon": "/icons/hammer.svg"
+                },
+                {
+                    "title": "Project Work (1 month)",
+                    "icon": "/icons/folder.svg"
+                },
+                {
+                    "title": "Advanced Excel and Tally",
+                    "icon": "/icons/excel.svg"
+                },
+                {
+                    "title": "Resume Preparation",
                     "icon": "/icons/resume-prep.svg"
                 },
                 {
-                    "title": "Interview practice",
+                    "title": "Interview Practice",
                     "icon": "/icons/interview-prep.svg"
                 },
                 {
-                    "title": "6-months internship",
+                    "title": "Internship (6 months real-world exposure)",
                     "icon": "/icons/internship-prep.svg"
                 },
                 {
-                    "title": "100% job opportunities guaranteed program",
+                    "title": "100% Job Opportunities Guaranteed Program",
                     "icon": "/icons/job.svg"
+                },
+                {
+                    "title": "Global Certification Guidance",
+                    "icon" : "/icons/internet-globe.svg"
                 }
             ],
             "whatIs": {
@@ -5409,20 +5594,40 @@
             },
             "coveringTopics": [
                 {
-                    "title": "Resume preparation",
+                    "title": "End-User Training (1 month - ECC / S/4 HANA)",
+                    "icon": "/icons/closed-book.svg"
+                },
+                {
+                    "title": "Configuration Training (2 months - ECC / S/4 HANA)",
+                    "icon": "/icons/hammer.svg"
+                },
+                {
+                    "title": "Project Work (1 month)",
+                    "icon": "/icons/folder.svg"
+                },
+                {
+                    "title": "Advanced Excel and Tally",
+                    "icon": "/icons/excel.svg"
+                },
+                {
+                    "title": "Resume Preparation",
                     "icon": "/icons/resume-prep.svg"
                 },
                 {
-                    "title": "Interview practice",
+                    "title": "Interview Practice",
                     "icon": "/icons/interview-prep.svg"
                 },
                 {
-                    "title": "6-months internship",
+                    "title": "Internship (6 months real-world exposure)",
                     "icon": "/icons/internship-prep.svg"
                 },
                 {
-                    "title": "100% job opportunities guaranteed program",
+                    "title": "100% Job Opportunities Guaranteed Program",
                     "icon": "/icons/job.svg"
+                },
+                {
+                    "title": "Global Certification Guidance",
+                    "icon" : "/icons/internet-globe.svg"
                 }
             ],
             "whatIs": {
@@ -5694,32 +5899,40 @@
             },
             "coveringTopics": [
                 {
-                    "title": "End user 1 month (ECC / S/4 HANA)",
-                    "icon": "/icons/emp-comp.svg"
+                    "title": "End-User Training (1 month - ECC / S/4 HANA)",
+                    "icon": "/icons/closed-book.svg"
                 },
                 {
-                    "title": "Configuration 2 months (ECC / S/4 HANA)",
-                    "icon": "/icons/settings.svg"
+                    "title": "Configuration Training (2 months - ECC / S/4 HANA)",
+                    "icon": "/icons/hammer.svg"
                 },
                 {
-                    "title": "Project 1 month",
+                    "title": "Project Work (1 month)",
                     "icon": "/icons/folder.svg"
                 },
                 {
-                    "title": "Resume preparation",
+                    "title": "Advanced Excel and Tally",
+                    "icon": "/icons/excel.svg"
+                },
+                {
+                    "title": "Resume Preparation",
                     "icon": "/icons/resume-prep.svg"
                 },
                 {
-                    "title": "Interview practice",
+                    "title": "Interview Practice",
                     "icon": "/icons/interview-prep.svg"
                 },
                 {
-                    "title": "6-months internship",
+                    "title": "Internship (6 months real-world exposure)",
                     "icon": "/icons/internship-prep.svg"
                 },
                 {
-                    "title": "100% job opportunities guaranteed program",
+                    "title": "100% Job Opportunities Guaranteed Program",
                     "icon": "/icons/job.svg"
+                },
+                {
+                    "title": "Global Certification Guidance",
+                    "icon" : "/icons/internet-globe.svg"
                 }
             ],
             "whatIs": {
@@ -6062,11 +6275,11 @@
             "coveringTopics": [
                 {
                     "title": "End-User Training (1 month - ECC / S/4 HANA)",
-                    "icon": "/icons/emp-comp.svg"
+                    "icon": "/icons/closed-book.svg"
                 },
                 {
                     "title": "Configuration Training (2 months - ECC / S/4 HANA)",
-                    "icon": "/icons/settings.svg"
+                    "icon": "/icons/hammer.svg"
                 },
                 {
                     "title": "Project Work (1 month)",
@@ -6091,6 +6304,10 @@
                 {
                     "title": "100% Job Opportunities Guaranteed Program",
                     "icon": "/icons/job.svg"
+                },
+                {
+                    "title": "Global Certification Guidance",
+                    "icon" : "/icons/internet-globe.svg"
                 }
             ],
             "whatIs": {
@@ -6402,20 +6619,40 @@
             },
             "coveringTopics": [
                 {
-                    "title": "Resume preparation",
+                    "title": "End-User Training (1 month - ECC / S/4 HANA)",
+                    "icon": "/icons/closed-book.svg"
+                },
+                {
+                    "title": "Configuration Training (2 months - ECC / S/4 HANA)",
+                    "icon": "/icons/hammer.svg"
+                },
+                {
+                    "title": "Project Work (1 month)",
+                    "icon": "/icons/folder.svg"
+                },
+                {
+                    "title": "Advanced Excel and Tally",
+                    "icon": "/icons/excel.svg"
+                },
+                {
+                    "title": "Resume Preparation",
                     "icon": "/icons/resume-prep.svg"
                 },
                 {
-                    "title": "Interview practice",
+                    "title": "Interview Practice",
                     "icon": "/icons/interview-prep.svg"
                 },
                 {
-                    "title": "6-months internship",
+                    "title": "Internship (6 months real-world exposure)",
                     "icon": "/icons/internship-prep.svg"
                 },
                 {
-                    "title": "100% job opportunities guaranteed program",
+                    "title": "100% Job Opportunities Guaranteed Program",
                     "icon": "/icons/job.svg"
+                },
+                {
+                    "title": "Global Certification Guidance",
+                    "icon" : "/icons/internet-globe.svg"
                 }
             ],
             "whatIs": {

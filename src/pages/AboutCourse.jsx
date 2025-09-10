@@ -95,6 +95,16 @@ function AboutCourse() {
             ) : (
               ""
             )}
+            {courseDetail?.detail?.paragraph3 ? (
+              <p
+                className="text-base sm:text-lg md:text-xl font-semibold text-gray-700 dark:text-gray-800 mb-5 sm:mb-6"
+                dangerouslySetInnerHTML={{
+                  __html: courseDetail?.detail?.paragraph3,
+                }}
+              />
+            ) : (
+              ""
+            )}
 
             {Array.isArray(courseDetail?.detail?.extras) &&
               courseDetail?.detail?.extras.length > 0 && (
