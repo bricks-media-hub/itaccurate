@@ -69,6 +69,10 @@
                 {
                     "title": "SAP BTP",
                     "link": "/sap-btp-training"
+                },
+                {
+                    "title": "SAP Successfactors",
+                    "link": "/sap-successfactors"
                 }
             ],
             "position": "left"
