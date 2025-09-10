@@ -19862,39 +19862,40 @@
             },
             "coveringTopics": [
                 {
-                    "title": "End User Training (ECC/S/4 HANA)",
-                    "icon": "/icons/emp-comp.svg",
-                    "duration": "1 Month"
+                    "title": "End-User Training (1 month - ECC / S/4 HANA)",
+                    "icon": "/icons/closed-book.svg"
                 },
                 {
-                    "title": "Configuration (ECC/S/4 HANA)",
-                    "icon": "/icons/settings.svg",
-                    "duration": "2 Months"
+                    "title": "Configuration Training (2 months - ECC / S/4 HANA)",
+                    "icon": "/icons/hammer.svg"
                 },
                 {
-                    "title": "Project Implementation",
-                    "icon": "/icons/project.svg",
-                    "duration": "1 Month"
+                    "title": "Project Work (1 month)",
+                    "icon": "/icons/folder.svg"
+                },
+                {
+                    "title": "Advanced Excel and Tally",
+                    "icon": "/icons/excel.svg"
                 },
                 {
                     "title": "Resume Preparation",
-                    "icon": "/icons/resume-prep.svg",
-                    "duration": "Ongoing"
+                    "icon": "/icons/resume-prep.svg"
                 },
                 {
                     "title": "Interview Practice",
-                    "icon": "/icons/interview-prep.svg",
-                    "duration": "Ongoing"
+                    "icon": "/icons/interview-prep.svg"
                 },
                 {
-                    "title": "6-Months Internship",
-                    "icon": "/icons/internship-prep.svg",
-                    "duration": "6 Months"
+                    "title": "Internship (6 months real-world exposure)",
+                    "icon": "/icons/internship-prep.svg"
                 },
                 {
-                    "title": "100% Job Opportunities Guarantee",
-                    "icon": "/icons/briefcase.svg",
-                    "duration": "Post-Program"
+                    "title": "100% Job Opportunities Guaranteed Program",
+                    "icon": "/icons/job.svg"
+                },
+                {
+                    "title": "Global Certification Guidance",
+                    "icon" : "/icons/internet-globe.svg"
                 }
             ],
             "whatIs": {
