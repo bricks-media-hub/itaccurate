@@ -47,6 +47,7 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
     "SAP WM&EWM",
     "SAP FIORI",
     "SAP BTP",
+    "SAP Successfactors"
   ];
 
   useEffect(() => {

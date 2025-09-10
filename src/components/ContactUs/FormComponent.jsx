@@ -69,6 +69,7 @@ export default function FormComponent({ title1, title2 }) {
     "SAP WM&EWM",
     "SAP FIORI",
     "SAP BTP",
+    "SAP Successfactors"
   ];
 
   useEffect(() => {
