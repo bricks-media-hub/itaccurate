@@ -135,7 +135,7 @@ function AboutCourse() {
       {/* conditionally rendering coveringTopics on basis of coveringTopics/coveringTopics2 availability */}
       {courseDetail?.coveringTopics2 && (
         <>
-        {/* coveringTopics 1 */}
+          {/* coveringTopics 1 */}
           <TopicsSection
             coveringTopics={courseDetail?.coveringTopics2}
             heading={
@@ -148,28 +148,40 @@ function AboutCourse() {
           {/* coveringTopics 2 */}
           <TopicsSection
             coveringTopics={courseDetail?.coveringTopics}
-            heading={
-                <span className="text-blue-600">Also Include</span>
-            }
+            heading={<span className="text-blue-600">Also Include</span>}
           />
         </>
       )}
 
       {/* rendering if coveringTopics2 is not available */}
-      {
-        !courseDetail?.coveringTopics2 && <TopicsSection coveringTopics={courseDetail?.coveringTopics} />
-      }
-      
-      {courseDetail?.whatIs && <WhatIs name={courseDetail?.whatIs?.name} points={courseDetail?.whatIs?.points} bgImage={courseDetail?.bgImage} />}
+      {!courseDetail?.coveringTopics2 && (
+        <TopicsSection coveringTopics={courseDetail?.coveringTopics} />
+      )}
 
-      {courseDetail?.keyFeatures && <KeyFeatures name={courseDetail?.whatIs?.name} keyFeatures={courseDetail?.keyFeatures}/>}
+      {courseDetail?.whatIs && (
+        <WhatIs
+          name={courseDetail?.whatIs?.name}
+          points={courseDetail?.whatIs?.points}
+          bgImage={courseDetail?.bgImage}
+        />
+      )}
+
+      {courseDetail?.keyFeatures && (
+        <KeyFeatures
+          name={courseDetail?.whatIs?.name}
+          keyFeatures={courseDetail?.keyFeatures}
+        />
+      )}
 
       <UpcomingBatches />
 
       <DemoBanner />
 
       {courseDetail?.roadMap && (
-        <RoadMap data={courseDetail?.roadMap} title={courseDetail?.whatIs?.name} />
+        <RoadMap
+          data={courseDetail?.roadMap}
+          title={courseDetail?.whatIs?.name}
+        />
       )}
 
       {courseDetail.trainingSyllabus && (
@@ -178,6 +190,16 @@ function AboutCourse() {
 
       {location.pathname.slice(1) === "sap-mm" && (
         <TrainingSyllabus syllabus={trainingSyllabus2} />
+      )}
+
+      {location.pathname.includes("sap") && (
+        <div className="py-11 bg-gray-100 dark:bg-slate-900">
+          <SafeImage
+            className="md:w-[70vw] m-auto w-10vw"
+            src="./addons.png"
+            alt="addon"
+          />
+        </div>
       )}
 
       {location.pathname.slice(1) === "full-stack-developer" && (
@@ -216,16 +238,6 @@ function AboutCourse() {
               : []
           }
         />
-      )}
-
-      {location.pathname.includes("sap") && (
-        <div className="py-11 bg-gray-100 dark:bg-slate-900">
-          <SafeImage
-            className="md:w-[70vw] m-auto w-10vw"
-            src="./addons.png"
-            alt="addon"
-          />
-        </div>
       )}
 
       <CourseOpportunities pageName={name.trim()} />

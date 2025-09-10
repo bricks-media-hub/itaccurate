@@ -559,7 +559,7 @@ const handleCloseMenuDropdown = () => {
 
   const placementsSubMenu = [
     { menu: "Placements", link: "/placed" },
-    { menu: "Jobs", link: "/jobs-openings" },
+    // { menu: "Jobs", link: "/jobs-openings" },
     { menu: "Career", link: "/career" },
   ];
 

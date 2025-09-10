@@ -17,12 +17,16 @@ import Slider from "../components/HomePage/Slider";
 import Footer from "../components/HomePage/Footer";
 import PopUpTimeOut from "../lib/PopUpTimeOut";
 import FeatureSection from "../components/HomePage/Banner/FeatureSection";
+import { useNavigation } from "react-router-dom";
+import Loader from "../components/ui/Loader";
 
 function Home() {
   const [activeLocation, setActiveLocation] = useState("nagpur");
-
+  const navigation = useNavigation();
+  const navigating = Boolean(navigation.location);
   return (
     <div className="font-sans">
+      {navigating && <Loader />}
       <PopUpTimeOut />
       {/* <NavBar /> */}
       <Banner />

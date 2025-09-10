@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion';
 import { FiArrowRight } from 'react-icons/fi';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Modules = ({ courseName = "SAP" }) => {
+    const navigate = useNavigate();
     const location = useLocation();
 
     const modules = [
@@ -139,6 +140,10 @@ const Modules = ({ courseName = "SAP" }) => {
         },
     ];
 
+    const handleNavigation = (courseLink) => {
+        navigate(courseLink);
+    }
+
 const filteredModules =
   location.pathname === "/sap-fico-course-in-nagpur"
     ? modules.slice(1)  
@@ -162,7 +167,7 @@ const filteredModules =
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                     {filteredModules.map((course, index) => (
-                        <div className='rounded-xl' key={index}>
+                        <div className='rounded-xl cursor-pointer' key={index} onClick={() => handleNavigation(course?.link)}>
                             <motion.div
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}

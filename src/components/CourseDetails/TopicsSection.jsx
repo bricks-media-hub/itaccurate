@@ -29,7 +29,7 @@ function TopicsSection({ coveringTopics, heading }) {
         )}
       </motion.h1>
 
-      {/* Topics grid */}
+      {/* Topics flex */}
       <div className="flex sm:flex-row flex-col sm:flex-wrap sm:justify-center gap-4 sm:gap-6 relative z-10 max-w-6xl mx-auto">
         {coveringTopics?.map((topic, index) => (
           <div

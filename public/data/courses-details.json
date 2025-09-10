@@ -251,8 +251,8 @@
                 "paragraph1": "SAP ABAP Training by IT Accurate offers you the best SAP ABAP(Advanced Business Application Programming) training for freshers and experienced candidates, with expert guidance and 100% guaranteed placement assistance. Our SAP training course covers every technical topic in detail and the student is left with real-time hands-on experience.",
                 "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP ABAP with S/4 HANA in just 4 months.",
                 "extras": [
-                    "End user 1 month (ECC / S4 HANA)",
-                    "Configuration 2 months(ECC/S4 HANA)",
+                    "End user 1 month (ECC / S/4 HANA)",
+                    "Configuration 2 months(ECC/S/4 HANA)",
                     "Project 1 month"
                 ]
             },
@@ -722,8 +722,8 @@
                 "paragraph1": "SAP MM Training by IT Accurate offers you the best SAP course institute & training centers for freshers and experienced candidates in Nagpur, with expert guidance and 100% guaranteed placement assistance. Our SAP MM Training course covers every technical topic in detail and the student is left with real-time hands-on experience.",
                 "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP MM with S/4 HANA in just 4 months. IT Accurate SAP training institute is practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 7+ years of field experience. IT Accurate SAP training institute value your time as much as over. Hence IT Accurate SAP training institute invented to train you in SAP MM with S/4 HANA in just 4 months.",
                 "extras": [
-                    "End user 1 month (ECC / S4 HANA)",
-                    "Configuration 2 months(ECC/S4 HANA)",
+                    "End user 1 month (ECC / S/4 HANA)",
+                    "Configuration 2 months(ECC/S/4 HANA)",
                     "Project 1 month"
                 ]
             },
@@ -807,7 +807,7 @@
                     "color": "from-blue-500 to-indigo-600"
                 },
                 {
-                    "title": "SAP MM End user (ECC/S4 HANA)",
+                    "title": "SAP MM End user (ECC/S/4 HANA)",
                     "description": "Hands-on training for daily SAP MM end-user activities",
                     "icon": "/icons/sheet.svg",
                     "items": [
@@ -821,7 +821,7 @@
                     "color": "from-green-500 to-teal-600"
                 },
                 {
-                    "title": "SAP MM Consultant (ECC/S4 HANA)",
+                    "title": "SAP MM Consultant (ECC/S/4 HANA)",
                     "description": "Core configuration and project implementation for SAP MM",
                     "icon": "/icons/hammer.svg",
                     "items": [
@@ -1165,7 +1165,7 @@
             ],
             "trainingSyllabus2": [
                 {
-                    "name": "S4 HANA"
+                    "name": "S/4 HANA"
                 },
                 {
                     "title": "Sap introduction & overview",
@@ -1436,6 +1436,10 @@
                 {
                     "title": "100% Job Opportunities Guaranteed Program",
                     "icon": "/icons/job.svg"
+                },
+                {
+                    "title": "Global Certification Guidance",
+                    "icon" : "/icons/internet-globe.svg"
                 }
             ],
             "whatIs": {
@@ -2128,8 +2132,8 @@
                 "paragraph1": "IT Accurate offers you the best SAP SD(Sales and Distribution) training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our SAP training course covers every technical topics in details and the student is left with real-time hand on experience.",
                 "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP SD with S/4 HANA in just 4 months.",
                 "extras": [
-                    "End user 1 month (ECC / S4 HANA)",
-                    "Configuration 2 months(ECC/S4 HANA)",
+                    "End user 1 month (ECC / S/4 HANA)",
+                    "Configuration 2 months(ECC/S/4 HANA)",
                     "Project 1 month"
                 ]
             },
@@ -2289,6 +2293,9 @@
                 }
             ],
             "trainingSyllabus": [
+                {
+                    "name": "SAP SD"
+                },
                 {
                     "title": "Introduction to SAP SD",
                     "subpoints": [
@@ -2563,11 +2570,11 @@
             },
             "coveringTopics": [
                 {
-                    "title": "End user 1 month (ECC / S4 HANA)",
+                    "title": "End user 1 month (ECC / S/4 HANA)",
                     "icon": "/icons/emp-comp.svg"
                 },
                 {
-                    "title": "Configuration 2 months (ECC / S4 HANA)",
+                    "title": "Configuration 2 months (ECC / S/4 HANA)",
                     "icon": "/icons/settings.svg"
                 },
                 {
@@ -2730,6 +2737,9 @@
                 }
             ],
             "trainingSyllabus": [
+                {
+                    "name": "SAP HCM"
+                },
                 {
                     "title": "SAP HCM - Introduction",
                     "description": "Fundamentals of SAP Human Capital Management",
@@ -3049,11 +3059,11 @@
             },
             "coveringTopics": [
                 {
-                    "title": "End user 1 month (ECC / S4 HANA)",
+                    "title": "End user 1 month (ECC / S/4 HANA)",
                     "icon": "/icons/emp-comp.svg"
                 },
                 {
-                    "title": "Configuration 2 months (ECC / S4 HANA)",
+                    "title": "Configuration 2 months (ECC / S/4 HANA)",
                     "icon": "/icons/settings.svg"
                 },
                 {
@@ -3492,8 +3502,8 @@
                 "paragraph1": "IT Accurate offers you the best SAP SCM (Supply Chain Management) training for freshers and experience candidate , with expert guidance and 100% guranteed placement assistance. Our SAP training course covers every technical topics in details and the student is left with real-time hand on experience.",
                 "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP SCM with S/4 HANA in just 4 months.",
                 "extras": [
-                    "End user 1 month (ECC / S4 HANA)",
-                    "Configuration 2 months(ECC/S4 HANA)",
+                    "End user 1 month (ECC / S/4 HANA)",
+                    "Configuration 2 months(ECC/S/4 HANA)",
                     "Project 1 month"
                 ]
             },
@@ -3807,8 +3817,8 @@
                 "paragraph1": "SAP ARIBA Training by IT Accurateoffers you the best SAP ARIBA(Advanced Business Application Programming) training for freshers and experienced candidates, with expert guidance and 100% guaranteed placement assistance. Our SAP training course covers every technical topic in detail and the student is left with real-time hands-on experience.",
                 "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP ARIBA with S/4 HANA in just 4 months.",
                 "extras": [
-                    "End user 1 month (ECC / S4 HANA)",
-                    "Configuration 2 months(ECC/S4 HANA)",
+                    "End user 1 month (ECC / S/4 HANA)",
+                    "Configuration 2 months(ECC/S/4 HANA)",
                     "Project 1 month"
                 ]
             },
@@ -4160,11 +4170,11 @@
             },
             "coveringTopics": [
                 {
-                    "title": "End user 1 month (ECC / S4 HANA)",
+                    "title": "End user 1 month (ECC / S/4 HANA)",
                     "icon": "/icons/emp-comp.svg"
                 },
                 {
-                    "title": "Configuration 2 months (ECC / S4 HANA)",
+                    "title": "Configuration 2 months (ECC / S/4 HANA)",
                     "icon": "/icons/settings.svg"
                 },
                 {
@@ -4628,8 +4638,8 @@
                 "paragraph1": "IT Accurate offers you the best SAP PM (Plant Maintenance) Training for freshers and experience candidate , with expert guidance and 100% Guaranteed placement assistance. Our SAP PM Training course covers every technical topics in details and the student is left with real-time hand on experience.",
                 "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 8+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP PM with S/4 HANA in just 4 months.",
                 "extras": [
-                    "End user 1 month (ECC / S4 HANA)",
-                    "Configuration 2 months(ECC/S4 HANA)",
+                    "End user 1 month (ECC / S/4 HANA)",
+                    "Configuration 2 months(ECC/S/4 HANA)",
                     "Project 1 month"
                 ]
             },
@@ -5091,8 +5101,8 @@
                 "paragraph1": "IT Accurate offers you the Best SAP QM (Quality Management) Training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our SAP training course covers every technical topics in details and the student is left with real-time hand on experience.",
                 "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP QM with S/4 HANA in just 4 months.",
                 "extras": [
-                    "End user 1 month (ECC / S4 HANA)",
-                    "Configuration 2 months(ECC/S4 HANA)",
+                    "End user 1 month (ECC / S/4 HANA)",
+                    "Configuration 2 months(ECC/S/4 HANA)",
                     "Project 1 month"
                 ]
             },
@@ -5392,8 +5402,8 @@
                 "paragraph1": "IT Accurate offers you the best SAP LE & SL Training for freshers and experience candidate, with expert guidance and 100% Guaranteed placement assistance. Our SAP Training course covers every technical topics in details and the student is left with real-time hand on experience.",
                 "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP LE & SL with S/4 HANA in just 4 months.",
                 "extras": [
-                    "End user 1 month (ECC / S4 HANA)",
-                    "Configuration 2 months(ECC/S4 HANA)",
+                    "End user 1 month (ECC / S/4 HANA)",
+                    "Configuration 2 months(ECC/S/4 HANA)",
                     "Project 1 month"
                 ]
             },
@@ -5684,11 +5694,11 @@
             },
             "coveringTopics": [
                 {
-                    "title": "End user 1 month (ECC / S4 HANA)",
+                    "title": "End user 1 month (ECC / S/4 HANA)",
                     "icon": "/icons/emp-comp.svg"
                 },
                 {
-                    "title": "Configuration 2 months (ECC / S4 HANA)",
+                    "title": "Configuration 2 months (ECC / S/4 HANA)",
                     "icon": "/icons/settings.svg"
                 },
                 {
@@ -6385,8 +6395,8 @@
                 "paragraph1": "IT Accurate offers you the best SAP WM & EWM training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our SAP training course covers every technical topics in details and the student is left with real-time hand on experience..",
                 "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP WM & EWM with S/4 HANA in just 4 months.",
                 "extras": [
-                    "End user 1 month (ECC / S4 HANA)",
-                    "Configuration 2 months(ECC/S4 HANA)",
+                    "End user 1 month (ECC / S/4 HANA)",
+                    "Configuration 2 months(ECC/S/4 HANA)",
                     "Project 1 month"
                 ]
             },
@@ -18597,12 +18607,12 @@
             },
             "coveringTopics": [
                 {
-                    "title": "End User Training (ECC/S4 HANA)",
+                    "title": "End User Training (ECC/S/4 HANA)",
                     "icon": "/icons/emp-comp.svg",
                     "duration": "1 Month"
                 },
                 {
-                    "title": "Configuration (ECC/S4 HANA)",
+                    "title": "Configuration (ECC/S/4 HANA)",
                     "icon": "/icons/settings.svg",
                     "duration": "2 Months"
                 },
@@ -19615,12 +19625,12 @@
             },
             "coveringTopics": [
                 {
-                    "title": "End User Training (ECC/S4 HANA)",
+                    "title": "End User Training (ECC/S/4 HANA)",
                     "icon": "/icons/emp-comp.svg",
                     "duration": "1 Month"
                 },
                 {
-                    "title": "Configuration (ECC/S4 HANA)",
+                    "title": "Configuration (ECC/S/4 HANA)",
                     "icon": "/icons/settings.svg",
                     "duration": "2 Months"
                 },
