@@ -6,7 +6,6 @@ import { FaBriefcase, FaMoneyBillWave, FaChartLine } from "react-icons/fa";
 import FreeDemoForm from "../ContactUs/FreeDemoForm";
 
 const CourseOpportunities = ({ pageName }) => {
-  console.log(pageName)
   const [fullCourseData, setFullCourseData] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   const [showForm, setShowForm] = useState(false);

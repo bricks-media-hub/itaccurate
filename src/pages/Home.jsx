@@ -23,10 +23,12 @@ import Loader from "../components/ui/Loader";
 function Home() {
   const [activeLocation, setActiveLocation] = useState("nagpur");
   const navigation = useNavigation();
-  const navigating = Boolean(navigation.location);
+
+  if(navigation.state === "loading") return <Loader />
+
   return (
     <div className="font-sans">
-      {navigating && <Loader />}
+
       <PopUpTimeOut />
       {/* <NavBar /> */}
       <Banner />

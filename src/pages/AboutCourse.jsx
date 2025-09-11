@@ -42,7 +42,8 @@ function AboutCourse() {
     certificationPoints = [],
   } = courseDetail;
 
-  if (navigation.state == "loading") {
+  // When AboutCourse is mounted but still fetching data
+  if (navigation.state === "loading") {
     return <AboutCourseSkeleton />;
   }
 
@@ -125,7 +126,7 @@ function AboutCourse() {
                             <TiTick className="text-white font-bold" />
                           </div>
                         </div>
-                        <span className="text-gray-700 dark:text-gray-800 text-lg font-semibold">
+                        <span className="text-gray-700 dark:text-gray-800 text-lg font-semibold text-start">
                           {extra}
                         </span>
                       </li>

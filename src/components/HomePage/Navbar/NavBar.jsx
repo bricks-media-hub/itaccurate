@@ -526,7 +526,7 @@ const handleCloseMenuDropdown = () => {
       if (activeSubMenu === null) {
         setActiveMenu(null);
       }
-    }, 150);
+    }, 200);
     setHoverTimeout(timeout);
   };
 
@@ -541,7 +541,7 @@ const handleCloseMenuDropdown = () => {
       if (activeMenu === null) {
         setActiveSubMenu(null);
       }
-    }, 150);
+    }, 200);
     setHoverTimeout(timeout);
   };
 

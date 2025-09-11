@@ -88,10 +88,13 @@ function KeyFeatures({ name, keyFeatures }) {
                   {/* Text */}
                   <div className="flex flex-col text-left sm:text-center flex-grow">
                     <h3 className="text-base sm:text-xl font-semibold text-gray-800 dark:text-gray-100 mb-1 sm:mb-3">
-                      {feature.text}
+                      {feature?.text}
                     </h3>
                     <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mb-2 sm:mb-4">
-                      {feature.description ||
+                      {/* {(feature?.description || feature?.highlight || feature?.category) ? 
+                      feature?.description || feature?.highlight || feature?.category : ""
+                      } */}
+                      {feature?.description || feature?.highlight || feature?.category ||
                         'Comprehensive coverage with practical examples'}
                     </p>
                     <div

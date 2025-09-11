@@ -64,62 +64,74 @@
                 {
                     "text": "152+ Hrs Instructor-Led Training",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "36Hrs Self-Placed Videos",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Job Assistance",
                     "icon": "/icons/job-assist.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Mentor Support",
                     "icon": "/icons/teaching.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free Demo Class Available",
                     "icon": "/icons/calendar.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Resume Editing",
                     "icon": "/icons/resume-edit.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Affordable Fees Structure",
                     "icon": "/icons/wallet.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "52 Hrs Project & Exercises",
                     "icon": "/icons/code.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Flexible Schedule",
                     "icon": "/icons/calendar2.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job Oriented Training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 1500+ Batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "faqs": [
@@ -330,32 +342,38 @@
                 {
                     "text": "130+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 120+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -823,32 +841,38 @@
                 {
                     "text": "124+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 200+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -1518,32 +1542,38 @@
                 {
                     "text": "162+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 200+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -2254,32 +2284,38 @@
                 {
                     "text": "125+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 200+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -2706,32 +2742,38 @@
                 {
                     "text": "162+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 200+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -3200,32 +3242,38 @@
                 {
                     "text": "126+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 200+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -3660,32 +3708,38 @@
                 {
                     "text": "120+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 200+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -3991,32 +4045,38 @@
                 {
                     "text": "125+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 200+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -4363,32 +4423,38 @@
                 {
                     "text": "124+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 200+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -4846,32 +4912,38 @@
                 {
                     "text": "124+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 200+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -5327,32 +5399,38 @@
                 {
                     "text": "124+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 200+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -5649,32 +5727,38 @@
                 {
                     "text": "124+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 200+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -5951,32 +6035,38 @@
                 {
                     "text": "123+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 200+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -6328,32 +6418,38 @@
                 {
                     "text": "123+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 200+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -6670,32 +6766,38 @@
                 {
                     "text": "130+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 200+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -7042,32 +7144,38 @@
                 {
                     "text": "162+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented Training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 200+ Batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certifaction guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -7550,32 +7658,38 @@
                 {
                     "text": "154+ Hrs Instructor-Led Training",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "32 Hrs Project & Exercises",
                     "icon": "/icons/activity.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Flexible Schedule",
                     "icon": "/icons/calendar2.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "30 Hrs Self-paced videos",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1579762715118-a6f1d4b934f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1579762715118-a6f1d4b934f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Job Assistance",
                     "icon": "/icons/teaching.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "NASSCOM Certification",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1508997449629-303059a039c0?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1508997449629-303059a039c0?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -8213,32 +8327,38 @@
                 {
                     "text": "125+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 115+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -8819,32 +8939,38 @@
                 {
                     "text": "125+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 115+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "trainingSyllabus": [
@@ -9318,32 +9444,38 @@
                 {
                     "text": "125+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 115+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "trainingSyllabus": [
@@ -9799,27 +9931,32 @@
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 115+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "trainingSyllabus": [
@@ -10028,32 +10165,38 @@
                 {
                     "text": "125+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 115+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "trainingSyllabus": [
@@ -10374,32 +10517,38 @@
                 {
                     "text": "64+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 115+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -11274,57 +11423,68 @@
                 {
                     "text": "200+ Hours of comprehensive course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job-oriented training with real-world projects",
                     "icon": "/icons/briefcase2.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Experienced instructors with expertise in Data Engineering technologies",
                     "icon": "/icons/teaching.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available for hands-on experience",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1509869175650-a1d97972541a?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1509869175650-a1d97972541a?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Over 300+ successful batches with industry-leading results",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1606761568499-6d2451b23c66?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1606761568499-6d2451b23c66?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certification guidance for top industry-recognized certifications",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Hands-on experience with Data Ingestion, Processing, and Storage tools",
                     "icon": "/icons/data-processing-increase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Comprehensive coverage of SQL, NoSQL, Cloud Computing, and Big Data technologies",
                     "icon": "/icons/sql.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Training on leading Data Engineering platforms like AWS, Spark, Hadoop, and MongoDB",
                     "icon": "/icons/cloud-process.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry-specific case studies and real-time problem-solving techniques",
                     "icon": "/icons/books-bunch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Post-training placement support and resume building",
                     "icon": "/icons/job-assist.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -11770,32 +11930,38 @@
                 {
                     "text": "80+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented Training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 159+ Batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certifaction guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -13147,32 +13313,38 @@
                 {
                     "text": "220+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 100+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -13798,32 +13970,38 @@
                 {
                     "text": "154+ Hrs Instructor-Led Training",
                     "icon": "/icons/user-admin.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1581090700227-1e8c6d69c9b3?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1581090700227-1e8c6d69c9b3?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "32 Hrs Project & Exercises",
                     "icon": "/icons/project.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Flexible Schedule",
                     "icon": "/icons/calendar.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "30 Hrs Self-paced videos",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1584697964154-3c2c0e0d0b91?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1584697964154-3c2c0e0d0b91?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Job Assistance",
                     "icon": "/icons/job-assist.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "NASSCOM Certification",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -14381,22 +14559,26 @@
                 {
                     "text": "220+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
@@ -14406,7 +14588,8 @@
                 {
                     "text": "Completed 100+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -15029,62 +15212,74 @@
                 {
                     "text": "152+ Hrs Instructor-Led Training",
                     "icon": "/icons/user-admin.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1581093588401-3b4f529f711b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1581093588401-3b4f529f711b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certficate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1588776814546-ec7b7389f9c6?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1588776814546-ec7b7389f9c6?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Mentor Support",
                     "icon": "/icons/user-check.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Resume Editing",
                     "icon": "/icons/resume-edit.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1603575448362-1dbe1cbe4f2c?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1603575448362-1dbe1cbe4f2c?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "52 Hrs Project & Exercises",
                     "icon": "/icons/project2.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1573497491208-6b1acb260507?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1573497491208-6b1acb260507?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job Oriented Training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "36Hrs Self-Placed Videos",
                     "icon": "/icons/xtweetplay.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1573497161234-94b2f4b9d2fa?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1573497161234-94b2f4b9d2fa?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Job Assistance",
                     "icon": "/icons/job-assist.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free Demo Class Available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Affordable Fees Structure",
                     "icon": "/icons/dollar.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Flexible Schedule",
                     "icon": "/icons/calendar.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1560264418-c4445382edbc?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1560264418-c4445382edbc?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 1500+ Batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1605902711622-cfb43c4437d1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1605902711622-cfb43c4437d1?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -15604,62 +15799,74 @@
                 {
                     "text": "50+ Hrs Instructor Led Training",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1551836022-4c4c79ecde15?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1551836022-4c4c79ecde15?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1581091870622-2c51d6c6a6de?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1581091870622-2c51d6c6a6de?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Mentor support",
                     "icon": "/icons/teaching.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1590650046871-92c887180603?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1590650046871-92c887180603?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Resume editing",
                     "icon": "/icons/resume-edit.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1584697964154-335d50c28d4c?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1584697964154-335d50c28d4c?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "52 Hrs Project & Exercises",
                     "icon": "/icons/project.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523966211575-eb4a01e7dd49?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523966211575-eb4a01e7dd49?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented Training",
                     "icon": "/icons/job.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1549924231-f129b911e442?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1549924231-f129b911e442?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "69 Hrs Self-placed videos",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1560520039-2a9f7801f4c0?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1560520039-2a9f7801f4c0?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Job Assistance",
                     "icon": "/icons/job-assist.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1549924231-f129b911e442?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1549924231-f129b911e442?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Affordable fees structure",
                     "icon": "/icons/dollar.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1588776814546-ec7e1f7f5d3b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1588776814546-ec7e1f7f5d3b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Flexible Schedule",
                     "icon": "/icons/calendar.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1584697964485-cc341f9d7e8f?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1584697964485-cc341f9d7e8f?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 1482+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1581091870600-d1a2760d44c3?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1581091870600-d1a2760d44c3?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -16180,62 +16387,74 @@
                 {
                     "text": "70+ Hrs Instructor Led Training",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1581091012184-7f13c65c1d4a?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1581091012184-7f13c65c1d4a?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Mentor support",
                     "icon": "/icons/teaching.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1590650046871-92c887180603?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1590650046871-92c887180603?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Resume editing",
                     "icon": "/icons/resume-edit.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1584697964154-0c041aa54e28?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1584697964154-0c041aa54e28?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "52 Hrs Project & Exercises",
                     "icon": "/icons/project.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1581090700227-1fe9c8f44f4e?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1581090700227-1fe9c8f44f4e?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented Training",
                     "icon": "/icons/job.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "36 Hrs Self-placed videos",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1555435021-139f1c8bbd91?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1555435021-139f1c8bbd91?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Job Assistance",
                     "icon": "/icons/job-assist.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1598511726797-3df6b18103f2?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1598511726797-3df6b18103f2?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1623965313796-28e834f14596?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1623965313796-28e834f14596?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Affordable fees structure",
                     "icon": "/icons/dollar.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Flexible Schedule",
                     "icon": "/icons/calendar2.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 1500+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1581092334563-c418cfb57d86?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1581092334563-c418cfb57d86?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -16662,62 +16881,74 @@
                 {
                     "text": "34+ Hrs Instructor Led Training",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Mentor support",
                     "icon": "/icons/teaching.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Resume editing",
                     "icon": "/icons/resume-edit.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "10+ Hrs Project & Exercises",
                     "icon": "/icons/activity.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1573497491208-6b1acb260507?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1573497491208-6b1acb260507?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented Training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1515169067865-5387ec356754?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1515169067865-5387ec356754?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "56+ Hrs Self-placed videos",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1559060012-0fc8d4e773b5?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1559060012-0fc8d4e773b5?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Job Assistance",
                     "icon": "/icons/job-assist.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1605902711622-cfb43c44367e?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1605902711622-cfb43c44367e?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Affordable fees structure",
                     "icon": "/icons/dollar.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1565372918674-069b4c6dbb22?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1565372918674-069b4c6dbb22?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Flexible Schedule",
                     "icon": "/icons/calendar.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 420+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -17204,62 +17435,74 @@
                 {
                     "text": "34+ Hrs Instructor Led Training",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Mentor support",
                     "icon": "/icons/teaching.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Resume editing",
                     "icon": "/icons/resume-edit.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "10+ Hrs Project & Exercises",
                     "icon": "/icons/activity.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1573497491208-6b1acb260507?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1573497491208-6b1acb260507?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented Training",
                     "icon": "/icons/briefcase3.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1515169067865-5387ec356754?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1515169067865-5387ec356754?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "56+ Hrs Self-placed videos",
                     "icon": "/icons/xtweetplay.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1559060012-0fc8d4e773b5?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1559060012-0fc8d4e773b5?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Job Assistance",
                     "icon": "/icons/job-assist.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1605902711622-cfb43c44367e?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1605902711622-cfb43c44367e?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Affordable fees structure",
                     "icon": "/icons/dollar.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1565372918674-069b4c6dbb22?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1565372918674-069b4c6dbb22?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Flexible Schedule",
                     "icon": "/icons/calendar2.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 420+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -17746,32 +17989,38 @@
                 {
                     "text": "120+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 100+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -18215,97 +18464,116 @@
                 {
                     "text": "50+ Hours of Instructor-Led Training",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certification Preparation and Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Dedicated Mentor Support",
                     "icon": "/icons/teaching.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Professional Resume Editing Services",
                     "icon": "/icons/resume-edit.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "52 Hours of Hands-On Projects and Exercises",
                     "icon": "/icons/code.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job-Oriented Training Program",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "69 Hours of Self-Paced Learning Videos",
                     "icon": "/icons/xtweetplay.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1546146830-2cca9512c68e?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1546146830-2cca9512c68e?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Comprehensive Job Assistance",
                     "icon": "/icons/job-assist.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free Demo Classes Available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Budget-Friendly Fee Structure",
                     "icon": "/icons/dollar.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Flexible Learning Schedule",
                     "icon": "/icons/calendar.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1517842645767-c639042777db?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1517842645767-c639042777db?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Successfully Completed 1482+ Batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Real-World Case Studies in Business and HR Analytics",
                     "icon": "/icons/book.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Access to Analytics Tools like Power BI, Tableau, and Excel",
                     "icon": "/icons/pie-chart.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Focus on Practical Applications and Industry Insights",
                     "icon": "/icons/target.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Mock Interviews and Career Preparation Workshops",
                     "icon": "/icons/interview-prep.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Expert Guidance on Data Visualization Techniques",
                     "icon": "/icons/sap.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Interactive Sessions with Industry Professionals",
                     "icon": "/icons/message2.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Post-Training Support for Job Placement and Growth",
                     "icon": "/icons/job-boy.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -18898,32 +19166,38 @@
                 {
                     "text": "162+ Hours course duration",
                     "icon": "/icons/job-clock.png",
-                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Free demo class available",
                     "icon": "/icons/video.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Certificate Guidance",
                     "icon": "/icons/certificate.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "100% Job oriented training",
                     "icon": "/icons/briefcase.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Industry expert faculties",
                     "icon": "/icons/help.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": ""
                 },
                 {
                     "text": "Completed 200+ batches",
                     "icon": "/icons/batch.svg",
-                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": ""
                 }
             ],
             "roadMap": [
@@ -19909,107 +20183,53 @@
                     "Becoming proficient in HR Analytics requires practical experience with data analysis and visualization, as well as the ability to interpret and communicate data-driven insights to HR leaders and decision-makers."
                 ]
             },
-            "keyFeatures": [
-                {
-                    "title": "162+ Hours of Intensive Training",
-                    "icon": "/icons/job-clock.png",
-                    "description": "Comprehensive curriculum covering all aspects of HR analytics with balanced theory and practice",
-                    "highlights": [
-                        "80 hours of core concepts",
-                        "60 hours of hands-on projects",
-                        "22 hours of case studies",
-                        "Industry-aligned course structure"
-                    ]
-                },
-                {
-                    "title": "100% Job-Focused Program",
-                    "icon": "/icons/focus.svg",
-                    "description": "Designed specifically to meet current industry hiring requirements",
-                    "highlights": [
-                        "Aligned with employer needs",
-                        "Includes in-demand HR tech skills",
-                        "Real-world problem solving",
-                        "Portfolio development support"
-                    ]
-                },
-                {
-                    "title": "Industry Expert Instructors",
-                    "icon": "/icons/teaching.svg",
-                    "description": "Learn from certified professionals with 10+ years of HR analytics experience",
-                    "highlights": [
-                        "Currently working practitioners",
-                        "Corporate training background",
-                        "Multiple SAP/Workday certifications",
-                        "Mentorship approach"
-                    ]
-                },
-                {
-                    "title": "Practical Project Experience",
-                    "icon": "/icons/project-discuss.svg",
-                    "description": "Work on 5+ real-world HR analytics implementations",
-                    "highlights": [
-                        "Client case studies",
-                        "End-to-end project execution",
-                        "Tools: SAP SuccessFactors, Tableau",
-                        "Solution documentation"
-                    ]
-                },
-                {
-                    "title": "Try Before You Commit",
-                    "icon": "/icons/sheet.svg",
-                    "description": "Experience our teaching methodology with no-obligation demo classes",
-                    "highlights": [
-                        "2 free live sessions",
-                        "Sample course materials",
-                        "Q&A with instructors",
-                        "Platform orientation"
-                    ]
-                },
-                {
-                    "title": "Proven Track Record",
-                    "icon": "/icons/trophy.svg",
-                    "description": "Trusted by 200+ batches of successful HR analytics professionals",
-                    "highlights": [
-                        "85% placement rate",
-                        "Alumni network access",
-                        "Corporate partnerships",
-                        "Consistent quality"
-                    ]
-                },
-                {
-                    "title": "Certification Preparation",
-                    "icon": "/icons/certificate.svg",
-                    "description": "Complete support for SAP/HRCI/SHRM certification exams",
-                    "highlights": [
-                        "Exam pattern analysis",
-                        "Practice tests",
-                        "Study materials",
-                        "Doubt-clearing sessions"
-                    ]
-                },
-                {
-                    "title": "Lifetime Learning Access",
-                    "icon": "/icons/books-bunch.svg",
-                    "description": "Continued access to all course resources even after completion",
-                    "highlights": [
-                        "Recorded lectures",
-                        "Updated materials",
-                        "Case study library",
-                        "Toolkit downloads"
-                    ]
-                },
-                {
-                    "title": "Career Launch Support",
-                    "icon": "/icons/briefcase2.svg",
-                    "description": "End-to-end placement assistance until you secure your HR analytics role",
-                    "highlights": [
-                        "Resume workshops",
-                        "Mock interviews",
-                        "Job portal guidance",
-                        "Reference preparation"
-                    ]
-                }
-            ],
+"keyFeatures": [
+  {
+    "text": "162+ Hours of Course Duration",
+    "icon": "/icons/job-clock.png",
+    "description": "Extensive training program designed to provide in-depth knowledge and practical skills in HR analytics"
+  },
+  {
+    "text": "100% Job-Oriented Training",
+    "icon": "/icons/focus.svg",
+    "description": "Specially tailored curriculum aligned with the latest industry hiring needs"
+  },
+  {
+    "text": "Led by Industry Expert Faculties",
+    "icon": "/icons/teaching.svg",
+    "description": "Guidance from certified HR analytics professionals with over a decade of real-world experience"
+  },
+  {
+    "text": "Hands-On Learning with Real-Time Projects",
+    "icon": "/icons/project-discuss.svg",
+    "description": "Gain practical exposure by working on 5+ real-time HR analytics projects and case studies"
+  },
+  {
+    "text": "Free Demo Classes Available",
+    "icon": "/icons/sheet.svg",
+    "description": "Experience our interactive teaching approach with free, no-obligation demo sessions"
+  },
+  {
+    "text": "Completed 200+ Batches Successfully",
+    "icon": "/icons/trophy.svg",
+    "description": "Proven track record with thousands of successful HR analytics professionals trained"
+  },
+  {
+    "text": "Comprehensive Certification Guidance",
+    "icon": "/icons/certificate.svg",
+    "description": "End-to-end assistance for SAP, HRCI, and SHRM certification preparation"
+  },
+  {
+    "text": "Access to Recorded Sessions and Study Materials",
+    "icon": "/icons/books-bunch.svg",
+    "description": "Lifetime access to recordings, e-books, and study notes for continuous learning"
+  },
+  {
+    "text": "Resume Building and Interview Preparation Support",
+    "icon": "/icons/briefcase2.svg",
+    "description": "Complete career support including resume creation, mock interviews, and placement assistance"
+  }
+],
             "roadMap": [
                 {
                     "title": "SAP SuccessFactors Fundamentals",
