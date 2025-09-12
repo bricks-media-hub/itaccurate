@@ -25,6 +25,7 @@ import AboutCourseSkeleton from "../components/ui/SkeletonEffects/AboutCourseSke
 import OfferedCourses from "../components/CourseDetails/OfferedCourses";
 import PopUpTimeOut from "../lib/PopUpTimeOut";
 import { SafeImage } from "../lib/SafeImage";
+import CourseFeesDuration from "../SEO/CourseFeesDuration";
 
 function AboutCourse() {
   const courseDetail = useLoaderData() || {};
@@ -249,6 +250,10 @@ function AboutCourse() {
               : []
           }
         />
+      )}
+
+      {courseDetail.FeesDuration && (
+        <CourseFeesDuration data={courseDetail?.FeesDuration} />
       )}
 
       <CourseOpportunities pageName={name.trim()} />

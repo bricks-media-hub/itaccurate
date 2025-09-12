@@ -8,6 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import { useMapContext } from "../../lib/MapContext";
 import { useNavigate } from "react-router-dom";
+import { SafeImage } from "../../lib/SafeImage";
 
 const ContactUs = ({ location = "Nagpur" }) => {
   const [activeLocation, setActiveLocation] = useState(location);
@@ -218,6 +219,11 @@ const ContactUs = ({ location = "Nagpur" }) => {
               <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
                 <div className="space-y-1">
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                    <SafeImage
+                      src="/icons/user.svg"
+                      alt="user"
+                      className="inline mr-2 w-5 h-5 -mt-1"
+                    />{" "}
                     Your Name <span className="text-red-500">*</span>
                   </label>
                   <input
@@ -252,6 +258,11 @@ const ContactUs = ({ location = "Nagpur" }) => {
 
                 <div className="space-y-1">
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                    <SafeImage
+                      src="/icons/phone.svg"
+                      alt="phone"
+                      className="inline mr-2 w-5 h-5 -mt-1"
+                    />{" "}
                     Phone Number <span className="text-red-500">*</span>
                   </label>
                   <input
@@ -283,7 +294,12 @@ const ContactUs = ({ location = "Nagpur" }) => {
 
                 <div className="space-y-1">
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
-                    <FiMapPin className="inline mr-2" /> Your Location
+                    <SafeImage
+                      src="/icons/map-pin-icon.png"
+                      alt="map-pin"
+                      className="inline mr-2 w-5 h-5 -mt-1"
+                    />{" "}
+                    Your Location
                   </label>
                   <input
                     {...register("location", {
@@ -305,6 +321,11 @@ const ContactUs = ({ location = "Nagpur" }) => {
 
                 <div className="space-y-1">
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+                    <SafeImage
+                      src="/icons/select-course.svg"
+                      alt="course"
+                      className="inline mr-2 w-5 h-5 -mt-1"
+                    />{" "}
                     Select Course <span className="text-red-500">*</span>
                   </label>
                   <select

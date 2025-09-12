@@ -40,6 +40,9 @@ const Career = () => {
   const [jobOpenings, setJobOpenings] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
+  // currently one link for each job
+  const applyLink = "https://docs.google.com/forms/d/e/1FAIpQLSfbPHZN-JUYskToyWAr4X8MtJNOtkbMnPsdKfNg-MTLHyljhw/viewform?usp=dialog"
+
   // getting data of current job openings
   useEffect(() => {
     const fetchJobs = async () => {
@@ -308,7 +311,9 @@ const Career = () => {
                     {/* Apply Button */}
                     <td className="px-4 sm:px-6 py-6">
                       <motion.a
-                        href={job.applyLink}
+                        // href={job.applyLink}
+                        // currently one link for every form, NOTE: old link not updated on "job.applyLink"
+                        href={applyLink}
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.05 }}

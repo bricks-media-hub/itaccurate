@@ -4,6 +4,7 @@ import { fetchFullCourseData } from "../../api/fetchComponentData";
 import { Link } from "react-router-dom";
 import { FaBriefcase, FaMoneyBillWave, FaChartLine } from "react-icons/fa";
 import FreeDemoForm from "../ContactUs/FreeDemoForm";
+import { SafeImage } from "../../lib/SafeImage";
 
 const CourseOpportunities = ({ pageName }) => {
   const [fullCourseData, setFullCourseData] = useState({});
@@ -34,11 +35,7 @@ const CourseOpportunities = ({ pageName }) => {
   }
 
   if (!fullCourseData) {
-    return (
-      <p className="text-center text-gray-600 dark:text-gray-400">
-        
-      </p>
-    );
+    return <p className="text-center text-gray-600 dark:text-gray-400"></p>;
   }
 
   return (
@@ -72,7 +69,11 @@ const CourseOpportunities = ({ pageName }) => {
             <div className="p-6">
               <div className="flex items-center mb-6">
                 <div className="p-3 bg-blue-100 dark:bg-blue-900/30 rounded-full mr-4">
-                  <FaMoneyBillWave className="text-blue-600 dark:text-blue-400 text-xl" />
+                  <SafeImage
+                    src="/icons/rupee.svg"
+                    alt="rupee"
+                    className="inline w-8 h-8"
+                  />{" "}
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                   Salary Packages in {fullCourseData.title}
@@ -109,12 +110,19 @@ const CourseOpportunities = ({ pageName }) => {
                   </tbody>
                 </table>
               </div>
-{ showForm && (<FreeDemoForm onClose={() => setShowForm(false)} title1={"Start Your Learning Journey"} title2={"Talk to Our Expert"}/>) }
+              {showForm && (
+                <FreeDemoForm
+                  onClose={() => setShowForm(false)}
+                  title1={"Start Your Learning Journey"}
+                  title2={"Talk to Our Expert"}
+                />
+              )}
               <div className="mt-6 flex flex-wrap gap-4">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow transition-all" onClick={()=> setShowForm(true)}
+                  className="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow transition-all"
+                  onClick={() => setShowForm(true)}
                 >
                   Contact Us
                 </motion.button>
@@ -139,7 +147,11 @@ const CourseOpportunities = ({ pageName }) => {
             <div className="p-6">
               <div className="flex items-center mb-6">
                 <div className="p-3 bg-indigo-100 dark:bg-indigo-900/30 rounded-full mr-4">
-                  <FaBriefcase className="text-indigo-600 dark:text-indigo-400 text-xl" />
+                  <SafeImage
+                    src="/icons/briefcase.svg"
+                    alt="briefcase"
+                    className="inline w-8 h-8"
+                  />{" "}
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                   Work Opportunities for {fullCourseData.title}
@@ -168,7 +180,11 @@ const CourseOpportunities = ({ pageName }) => {
               <div>
                 <div className="flex items-center mb-4">
                   <div className="p-2 bg-green-100 dark:bg-green-900/30 rounded-full mr-3">
-                    <FaChartLine className="text-green-600 dark:text-green-400 text-lg" />
+                    <SafeImage
+                      src="/icons/increase-graph.svg"
+                      alt="increasing"
+                      className="inline w-10 h-10"
+                    />{" "}
                   </div>
                   <h4 className="text-lg font-medium text-gray-800 dark:text-gray-200">
                     Emerging Job Roles
