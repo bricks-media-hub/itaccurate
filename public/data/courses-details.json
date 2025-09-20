@@ -15677,6 +15677,22 @@
             },
             "coveringTopics": [
                 {
+                    "title": "Salesforce Admin",
+                    "icon": "/icons/salesforce-admin.png"
+                },
+                {
+                    "icon": "/icons/salesforce-developers.png", 
+                    "title" : "Salesforce Developers"
+                },
+                {
+                    "icon": "/icons/salesforce-architects.png",
+                    "title" : "Salesforce Architects"
+                },
+                {
+                    "icon": "icons/salesforce-lightning.png",
+                    "title" : "Salesforce Lightning"
+                },
+                {
                     "title": "Resume preparation",
                     "icon": "/icons/resume-prep.svg"
                 },

@@ -73,7 +73,7 @@ function TopicsSection({ coveringTopics, heading }) {
                   className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-100 mb-2 sm:mb-3 leading-tight sm:text-center"
                   whileHover={{ scale: 1.02 }}
                 >
-                  {topic?.title}
+                  {topic.title && topic?.title}
                 </motion.h3>
 
                 {topic?.description && (
