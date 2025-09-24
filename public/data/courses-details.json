@@ -782,6 +782,92 @@
                     "answer": "The ABAP Dictionary is used to define and manage database objects like tables, views, and indexes in the SAP system."
                 }
             ],
+                        "reviews": [
+                {
+                    "name": "RAHUL PATEL",
+                    "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
+                    "image": "https://plus.unsplash.com/premium_photo-1682092090968-3b9daa5ecdd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "NISHA GANDHE",
+                    "review": "The interactive learning environment fostered by this institute greatly enhanced my understanding of SAP SCM.",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Ayaan LOKHANDE",
+                    "review": "The trainers at IT Accurate Institute are not just experts in SAP MM but are also incredibly supportive.",
+                    "image": "https://plus.unsplash.com/premium_photo-1734603745283-053c19cdebe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Kiaan TIWARI",
+                    "review": "I feel well-prepared to implement SAP QM solutions in my professional role.",
+                    "image": "https://plus.unsplash.com/premium_photo-1661637752177-e657a9daaf4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Karan K",
+                    "review": "I enrolled in SAP LE at IT Accurate Institute and found the course structure to be comprehensive",
+                    "image": "https://img.freepik.com/premium-photo/portrait-young-man-against-blue-background_1048944-13176074.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": ""
+                },
+                {
+                    "name": "TOSHIBA KHAN",
+                    "review": "My experience with the SAP WM & EWM course at IT Accurate Institute was exceptional.",
+                    "image": "https://images.unsplash.com/photo-1641101236998-f88254ac8743?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Rakesh NANAWANE",
+                    "review": "I enrolled in the SAP HCM program at IT Accurate Institute to deepen my understanding of human capital management, and the curriculum did not disappoint.",
+                    "image": "https://images.unsplash.com/photo-1560085911-ce42861f221f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "GULSHAN BHALME",
+                    "review": "One of the highlights of the institute's SAP ARIBA training program was the emphasis on job placement assistance",
+                    "image": "https://images.unsplash.com/photo-1635084617135-df8225e8cf1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ira Patel",
+                    "review": "The SAP BASIS course at IT Accurate Institute was exceptional! The instructors were highly knowledgeable and provided hands-on training that made complex concepts easy to understand.I gained practical skills that helped me secure a job in SAP administration. ",
+                    "image": "https://images.unsplash.com/photo-1680506727554-3ba2d9f99129?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Nisha DHOTE",
+                    "review": "IT Accurate Institute has exceeded my expectations for SAP FICO training. i can suggest this is the best platform for knowledge",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ritika NAGLE",
+                    "review": "SAP Fiori training at IT Accurate Institute was an enriching experience. The instructors were not just educators: they were mentors. guiding us.",
+                    "image": "https://images.unsplash.com/photo-1721593444652-f2ab6a703710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Vani JAIN",
+                    "review": "The SAP PP course exceeded my expectations. The course materials were up- to-date, and the instructors were always available to clarify doubts. The interactive learning environment fostered collaboration among students, enhancing the overall learning experience.",
+                    "image": "https://images.unsplash.com/photo-1725033489648-a819750348eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "VIBHAS SHINDHE",
+                    "review": "The interactive nature of the SAP SD course at IT Accurate Institute made the learning experience engaging and dynamic.",
+                    "image": "https://images.unsplash.com/photo-1713173922799-42c38fc7359c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "UDESH KSHIRSAGAR",
+                    "review": "Their deep knowledge of SAP ABAP and their ability to explain complex concepts in a simple manner make the learning experience enjoyable",
+                    "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                }
+            ],
             "certificationPoints": [
                 {
                     "icon": "/icons/badge2.svg",
@@ -1519,6 +1605,92 @@
                 {
                     "question": "Is SAP MM certification necessary for a career in SAP MM?",
                     "answer": "While not mandatory, SAP MM certification can enhance your credibility and marketability in the job market. It validates your skills and knowledge in SAP MM, making you a more competitive candidate for SAP MM-related roles."
+                }
+            ],
+                        "reviews": [
+                {
+                    "name": "RAHUL PATEL",
+                    "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
+                    "image": "https://plus.unsplash.com/premium_photo-1682092090968-3b9daa5ecdd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "NISHA GANDHE",
+                    "review": "The interactive learning environment fostered by this institute greatly enhanced my understanding of SAP SCM.",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Ayaan LOKHANDE",
+                    "review": "The trainers at IT Accurate Institute are not just experts in SAP MM but are also incredibly supportive.",
+                    "image": "https://plus.unsplash.com/premium_photo-1734603745283-053c19cdebe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Kiaan TIWARI",
+                    "review": "I feel well-prepared to implement SAP QM solutions in my professional role.",
+                    "image": "https://plus.unsplash.com/premium_photo-1661637752177-e657a9daaf4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Karan K",
+                    "review": "I enrolled in SAP LE at IT Accurate Institute and found the course structure to be comprehensive",
+                    "image": "https://img.freepik.com/premium-photo/portrait-young-man-against-blue-background_1048944-13176074.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": ""
+                },
+                {
+                    "name": "TOSHIBA KHAN",
+                    "review": "My experience with the SAP WM & EWM course at IT Accurate Institute was exceptional.",
+                    "image": "https://images.unsplash.com/photo-1641101236998-f88254ac8743?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Rakesh NANAWANE",
+                    "review": "I enrolled in the SAP HCM program at IT Accurate Institute to deepen my understanding of human capital management, and the curriculum did not disappoint.",
+                    "image": "https://images.unsplash.com/photo-1560085911-ce42861f221f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "GULSHAN BHALME",
+                    "review": "One of the highlights of the institute's SAP ARIBA training program was the emphasis on job placement assistance",
+                    "image": "https://images.unsplash.com/photo-1635084617135-df8225e8cf1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ira Patel",
+                    "review": "The SAP BASIS course at IT Accurate Institute was exceptional! The instructors were highly knowledgeable and provided hands-on training that made complex concepts easy to understand.I gained practical skills that helped me secure a job in SAP administration. ",
+                    "image": "https://images.unsplash.com/photo-1680506727554-3ba2d9f99129?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Nisha DHOTE",
+                    "review": "IT Accurate Institute has exceeded my expectations for SAP FICO training. i can suggest this is the best platform for knowledge",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ritika NAGLE",
+                    "review": "SAP Fiori training at IT Accurate Institute was an enriching experience. The instructors were not just educators: they were mentors. guiding us.",
+                    "image": "https://images.unsplash.com/photo-1721593444652-f2ab6a703710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Vani JAIN",
+                    "review": "The SAP PP course exceeded my expectations. The course materials were up- to-date, and the instructors were always available to clarify doubts. The interactive learning environment fostered collaboration among students, enhancing the overall learning experience.",
+                    "image": "https://images.unsplash.com/photo-1725033489648-a819750348eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "VIBHAS SHINDHE",
+                    "review": "The interactive nature of the SAP SD course at IT Accurate Institute made the learning experience engaging and dynamic.",
+                    "image": "https://images.unsplash.com/photo-1713173922799-42c38fc7359c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "UDESH KSHIRSAGAR",
+                    "review": "Their deep knowledge of SAP ABAP and their ability to explain complex concepts in a simple manner make the learning experience enjoyable",
+                    "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
                 }
             ],
             "certificationPoints": [
@@ -2286,6 +2458,92 @@
                     "answer": "Cost Center Accounting in SAP FICO helps organizations track and manage costs associated with specific departments or business units, aiding in cost control and analysis."
                 }
             ],
+                        "reviews": [
+                {
+                    "name": "RAHUL PATEL",
+                    "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
+                    "image": "https://plus.unsplash.com/premium_photo-1682092090968-3b9daa5ecdd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "NISHA GANDHE",
+                    "review": "The interactive learning environment fostered by this institute greatly enhanced my understanding of SAP SCM.",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Ayaan LOKHANDE",
+                    "review": "The trainers at IT Accurate Institute are not just experts in SAP MM but are also incredibly supportive.",
+                    "image": "https://plus.unsplash.com/premium_photo-1734603745283-053c19cdebe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Kiaan TIWARI",
+                    "review": "I feel well-prepared to implement SAP QM solutions in my professional role.",
+                    "image": "https://plus.unsplash.com/premium_photo-1661637752177-e657a9daaf4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Karan K",
+                    "review": "I enrolled in SAP LE at IT Accurate Institute and found the course structure to be comprehensive",
+                    "image": "https://img.freepik.com/premium-photo/portrait-young-man-against-blue-background_1048944-13176074.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": ""
+                },
+                {
+                    "name": "TOSHIBA KHAN",
+                    "review": "My experience with the SAP WM & EWM course at IT Accurate Institute was exceptional.",
+                    "image": "https://images.unsplash.com/photo-1641101236998-f88254ac8743?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Rakesh NANAWANE",
+                    "review": "I enrolled in the SAP HCM program at IT Accurate Institute to deepen my understanding of human capital management, and the curriculum did not disappoint.",
+                    "image": "https://images.unsplash.com/photo-1560085911-ce42861f221f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "GULSHAN BHALME",
+                    "review": "One of the highlights of the institute's SAP ARIBA training program was the emphasis on job placement assistance",
+                    "image": "https://images.unsplash.com/photo-1635084617135-df8225e8cf1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ira Patel",
+                    "review": "The SAP BASIS course at IT Accurate Institute was exceptional! The instructors were highly knowledgeable and provided hands-on training that made complex concepts easy to understand.I gained practical skills that helped me secure a job in SAP administration. ",
+                    "image": "https://images.unsplash.com/photo-1680506727554-3ba2d9f99129?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Nisha DHOTE",
+                    "review": "IT Accurate Institute has exceeded my expectations for SAP FICO training. i can suggest this is the best platform for knowledge",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ritika NAGLE",
+                    "review": "SAP Fiori training at IT Accurate Institute was an enriching experience. The instructors were not just educators: they were mentors. guiding us.",
+                    "image": "https://images.unsplash.com/photo-1721593444652-f2ab6a703710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Vani JAIN",
+                    "review": "The SAP PP course exceeded my expectations. The course materials were up- to-date, and the instructors were always available to clarify doubts. The interactive learning environment fostered collaboration among students, enhancing the overall learning experience.",
+                    "image": "https://images.unsplash.com/photo-1725033489648-a819750348eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "VIBHAS SHINDHE",
+                    "review": "The interactive nature of the SAP SD course at IT Accurate Institute made the learning experience engaging and dynamic.",
+                    "image": "https://images.unsplash.com/photo-1713173922799-42c38fc7359c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "UDESH KSHIRSAGAR",
+                    "review": "Their deep knowledge of SAP ABAP and their ability to explain complex concepts in a simple manner make the learning experience enjoyable",
+                    "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                }
+            ],
             "certificationPoints": [
                 {
                     "icon": "/icons/badge2.svg",
@@ -2777,6 +3035,92 @@
                 {
                     "question": "Explain the Integration of SAP SD with Other Modules.",
                     "answer": "SAP SD integrates with various modules like MM (Materials Management), PP (Production Planning), and WM (Warehouse Management) for seamless coordination between different business processes."
+                }
+            ],
+                        "reviews": [
+                {
+                    "name": "RAHUL PATEL",
+                    "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
+                    "image": "https://plus.unsplash.com/premium_photo-1682092090968-3b9daa5ecdd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "NISHA GANDHE",
+                    "review": "The interactive learning environment fostered by this institute greatly enhanced my understanding of SAP SCM.",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Ayaan LOKHANDE",
+                    "review": "The trainers at IT Accurate Institute are not just experts in SAP MM but are also incredibly supportive.",
+                    "image": "https://plus.unsplash.com/premium_photo-1734603745283-053c19cdebe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Kiaan TIWARI",
+                    "review": "I feel well-prepared to implement SAP QM solutions in my professional role.",
+                    "image": "https://plus.unsplash.com/premium_photo-1661637752177-e657a9daaf4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Karan K",
+                    "review": "I enrolled in SAP LE at IT Accurate Institute and found the course structure to be comprehensive",
+                    "image": "https://img.freepik.com/premium-photo/portrait-young-man-against-blue-background_1048944-13176074.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": ""
+                },
+                {
+                    "name": "TOSHIBA KHAN",
+                    "review": "My experience with the SAP WM & EWM course at IT Accurate Institute was exceptional.",
+                    "image": "https://images.unsplash.com/photo-1641101236998-f88254ac8743?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Rakesh NANAWANE",
+                    "review": "I enrolled in the SAP HCM program at IT Accurate Institute to deepen my understanding of human capital management, and the curriculum did not disappoint.",
+                    "image": "https://images.unsplash.com/photo-1560085911-ce42861f221f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "GULSHAN BHALME",
+                    "review": "One of the highlights of the institute's SAP ARIBA training program was the emphasis on job placement assistance",
+                    "image": "https://images.unsplash.com/photo-1635084617135-df8225e8cf1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ira Patel",
+                    "review": "The SAP BASIS course at IT Accurate Institute was exceptional! The instructors were highly knowledgeable and provided hands-on training that made complex concepts easy to understand.I gained practical skills that helped me secure a job in SAP administration. ",
+                    "image": "https://images.unsplash.com/photo-1680506727554-3ba2d9f99129?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Nisha DHOTE",
+                    "review": "IT Accurate Institute has exceeded my expectations for SAP FICO training. i can suggest this is the best platform for knowledge",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ritika NAGLE",
+                    "review": "SAP Fiori training at IT Accurate Institute was an enriching experience. The instructors were not just educators: they were mentors. guiding us.",
+                    "image": "https://images.unsplash.com/photo-1721593444652-f2ab6a703710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Vani JAIN",
+                    "review": "The SAP PP course exceeded my expectations. The course materials were up- to-date, and the instructors were always available to clarify doubts. The interactive learning environment fostered collaboration among students, enhancing the overall learning experience.",
+                    "image": "https://images.unsplash.com/photo-1725033489648-a819750348eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "VIBHAS SHINDHE",
+                    "review": "The interactive nature of the SAP SD course at IT Accurate Institute made the learning experience engaging and dynamic.",
+                    "image": "https://images.unsplash.com/photo-1713173922799-42c38fc7359c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "UDESH KSHIRSAGAR",
+                    "review": "Their deep knowledge of SAP ABAP and their ability to explain complex concepts in a simple manner make the learning experience enjoyable",
+                    "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
                 }
             ],
             "certificationPoints": [
@@ -3313,6 +3657,92 @@
                     "answer": "SAP HCM streamlines HR processes, reduces manual efforts, and enhances data accuracy, ultimately improving the efficiency and effectiveness of human resource management within an organization."
                 }
             ],
+                        "reviews": [
+                {
+                    "name": "RAHUL PATEL",
+                    "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
+                    "image": "https://plus.unsplash.com/premium_photo-1682092090968-3b9daa5ecdd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "NISHA GANDHE",
+                    "review": "The interactive learning environment fostered by this institute greatly enhanced my understanding of SAP SCM.",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Ayaan LOKHANDE",
+                    "review": "The trainers at IT Accurate Institute are not just experts in SAP MM but are also incredibly supportive.",
+                    "image": "https://plus.unsplash.com/premium_photo-1734603745283-053c19cdebe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Kiaan TIWARI",
+                    "review": "I feel well-prepared to implement SAP QM solutions in my professional role.",
+                    "image": "https://plus.unsplash.com/premium_photo-1661637752177-e657a9daaf4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Karan K",
+                    "review": "I enrolled in SAP LE at IT Accurate Institute and found the course structure to be comprehensive",
+                    "image": "https://img.freepik.com/premium-photo/portrait-young-man-against-blue-background_1048944-13176074.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": ""
+                },
+                {
+                    "name": "TOSHIBA KHAN",
+                    "review": "My experience with the SAP WM & EWM course at IT Accurate Institute was exceptional.",
+                    "image": "https://images.unsplash.com/photo-1641101236998-f88254ac8743?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Rakesh NANAWANE",
+                    "review": "I enrolled in the SAP HCM program at IT Accurate Institute to deepen my understanding of human capital management, and the curriculum did not disappoint.",
+                    "image": "https://images.unsplash.com/photo-1560085911-ce42861f221f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "GULSHAN BHALME",
+                    "review": "One of the highlights of the institute's SAP ARIBA training program was the emphasis on job placement assistance",
+                    "image": "https://images.unsplash.com/photo-1635084617135-df8225e8cf1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ira Patel",
+                    "review": "The SAP BASIS course at IT Accurate Institute was exceptional! The instructors were highly knowledgeable and provided hands-on training that made complex concepts easy to understand.I gained practical skills that helped me secure a job in SAP administration. ",
+                    "image": "https://images.unsplash.com/photo-1680506727554-3ba2d9f99129?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Nisha DHOTE",
+                    "review": "IT Accurate Institute has exceeded my expectations for SAP FICO training. i can suggest this is the best platform for knowledge",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ritika NAGLE",
+                    "review": "SAP Fiori training at IT Accurate Institute was an enriching experience. The instructors were not just educators: they were mentors. guiding us.",
+                    "image": "https://images.unsplash.com/photo-1721593444652-f2ab6a703710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Vani JAIN",
+                    "review": "The SAP PP course exceeded my expectations. The course materials were up- to-date, and the instructors were always available to clarify doubts. The interactive learning environment fostered collaboration among students, enhancing the overall learning experience.",
+                    "image": "https://images.unsplash.com/photo-1725033489648-a819750348eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "VIBHAS SHINDHE",
+                    "review": "The interactive nature of the SAP SD course at IT Accurate Institute made the learning experience engaging and dynamic.",
+                    "image": "https://images.unsplash.com/photo-1713173922799-42c38fc7359c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "UDESH KSHIRSAGAR",
+                    "review": "Their deep knowledge of SAP ABAP and their ability to explain complex concepts in a simple manner make the learning experience enjoyable",
+                    "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                }
+            ],
             "certificationPoints": [
                 {
                     "icon": "/icons/badge2.svg",
@@ -3803,6 +4233,92 @@
                     "answer": "Common challenges include handling system upgrades and migrations, managing system performance and tuning, ensuring data security and compliance, troubleshooting system errors, and keeping up with the latest SAP technologies and best practices."
                 }
             ],
+                        "reviews": [
+                {
+                    "name": "RAHUL PATEL",
+                    "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
+                    "image": "https://plus.unsplash.com/premium_photo-1682092090968-3b9daa5ecdd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "NISHA GANDHE",
+                    "review": "The interactive learning environment fostered by this institute greatly enhanced my understanding of SAP SCM.",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Ayaan LOKHANDE",
+                    "review": "The trainers at IT Accurate Institute are not just experts in SAP MM but are also incredibly supportive.",
+                    "image": "https://plus.unsplash.com/premium_photo-1734603745283-053c19cdebe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Kiaan TIWARI",
+                    "review": "I feel well-prepared to implement SAP QM solutions in my professional role.",
+                    "image": "https://plus.unsplash.com/premium_photo-1661637752177-e657a9daaf4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Karan K",
+                    "review": "I enrolled in SAP LE at IT Accurate Institute and found the course structure to be comprehensive",
+                    "image": "https://img.freepik.com/premium-photo/portrait-young-man-against-blue-background_1048944-13176074.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": ""
+                },
+                {
+                    "name": "TOSHIBA KHAN",
+                    "review": "My experience with the SAP WM & EWM course at IT Accurate Institute was exceptional.",
+                    "image": "https://images.unsplash.com/photo-1641101236998-f88254ac8743?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Rakesh NANAWANE",
+                    "review": "I enrolled in the SAP HCM program at IT Accurate Institute to deepen my understanding of human capital management, and the curriculum did not disappoint.",
+                    "image": "https://images.unsplash.com/photo-1560085911-ce42861f221f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "GULSHAN BHALME",
+                    "review": "One of the highlights of the institute's SAP ARIBA training program was the emphasis on job placement assistance",
+                    "image": "https://images.unsplash.com/photo-1635084617135-df8225e8cf1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ira Patel",
+                    "review": "The SAP BASIS course at IT Accurate Institute was exceptional! The instructors were highly knowledgeable and provided hands-on training that made complex concepts easy to understand.I gained practical skills that helped me secure a job in SAP administration. ",
+                    "image": "https://images.unsplash.com/photo-1680506727554-3ba2d9f99129?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Nisha DHOTE",
+                    "review": "IT Accurate Institute has exceeded my expectations for SAP FICO training. i can suggest this is the best platform for knowledge",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ritika NAGLE",
+                    "review": "SAP Fiori training at IT Accurate Institute was an enriching experience. The instructors were not just educators: they were mentors. guiding us.",
+                    "image": "https://images.unsplash.com/photo-1721593444652-f2ab6a703710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Vani JAIN",
+                    "review": "The SAP PP course exceeded my expectations. The course materials were up- to-date, and the instructors were always available to clarify doubts. The interactive learning environment fostered collaboration among students, enhancing the overall learning experience.",
+                    "image": "https://images.unsplash.com/photo-1725033489648-a819750348eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "VIBHAS SHINDHE",
+                    "review": "The interactive nature of the SAP SD course at IT Accurate Institute made the learning experience engaging and dynamic.",
+                    "image": "https://images.unsplash.com/photo-1713173922799-42c38fc7359c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "UDESH KSHIRSAGAR",
+                    "review": "Their deep knowledge of SAP ABAP and their ability to explain complex concepts in a simple manner make the learning experience enjoyable",
+                    "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                }
+            ],
             "certificationPoints": [
                 {
                     "icon": "/icons/badge2.svg",
@@ -4173,6 +4689,92 @@
                 {
                     "question": "How can SAP SCM contribute to sustainability in the supply chain?",
                     "answer": "SAP SCM supports sustainability tasks by way of optimizing transportation routes, reducing waste, and enabling higher visibility into the environmental effect of deliver chain sports. This allows agencies make extra eco-friendly choices."
+                }
+            ],
+                        "reviews": [
+                {
+                    "name": "RAHUL PATEL",
+                    "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
+                    "image": "https://plus.unsplash.com/premium_photo-1682092090968-3b9daa5ecdd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "NISHA GANDHE",
+                    "review": "The interactive learning environment fostered by this institute greatly enhanced my understanding of SAP SCM.",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Ayaan LOKHANDE",
+                    "review": "The trainers at IT Accurate Institute are not just experts in SAP MM but are also incredibly supportive.",
+                    "image": "https://plus.unsplash.com/premium_photo-1734603745283-053c19cdebe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Kiaan TIWARI",
+                    "review": "I feel well-prepared to implement SAP QM solutions in my professional role.",
+                    "image": "https://plus.unsplash.com/premium_photo-1661637752177-e657a9daaf4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Karan K",
+                    "review": "I enrolled in SAP LE at IT Accurate Institute and found the course structure to be comprehensive",
+                    "image": "https://img.freepik.com/premium-photo/portrait-young-man-against-blue-background_1048944-13176074.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": ""
+                },
+                {
+                    "name": "TOSHIBA KHAN",
+                    "review": "My experience with the SAP WM & EWM course at IT Accurate Institute was exceptional.",
+                    "image": "https://images.unsplash.com/photo-1641101236998-f88254ac8743?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Rakesh NANAWANE",
+                    "review": "I enrolled in the SAP HCM program at IT Accurate Institute to deepen my understanding of human capital management, and the curriculum did not disappoint.",
+                    "image": "https://images.unsplash.com/photo-1560085911-ce42861f221f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "GULSHAN BHALME",
+                    "review": "One of the highlights of the institute's SAP ARIBA training program was the emphasis on job placement assistance",
+                    "image": "https://images.unsplash.com/photo-1635084617135-df8225e8cf1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ira Patel",
+                    "review": "The SAP BASIS course at IT Accurate Institute was exceptional! The instructors were highly knowledgeable and provided hands-on training that made complex concepts easy to understand.I gained practical skills that helped me secure a job in SAP administration. ",
+                    "image": "https://images.unsplash.com/photo-1680506727554-3ba2d9f99129?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Nisha DHOTE",
+                    "review": "IT Accurate Institute has exceeded my expectations for SAP FICO training. i can suggest this is the best platform for knowledge",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ritika NAGLE",
+                    "review": "SAP Fiori training at IT Accurate Institute was an enriching experience. The instructors were not just educators: they were mentors. guiding us.",
+                    "image": "https://images.unsplash.com/photo-1721593444652-f2ab6a703710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Vani JAIN",
+                    "review": "The SAP PP course exceeded my expectations. The course materials were up- to-date, and the instructors were always available to clarify doubts. The interactive learning environment fostered collaboration among students, enhancing the overall learning experience.",
+                    "image": "https://images.unsplash.com/photo-1725033489648-a819750348eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "VIBHAS SHINDHE",
+                    "review": "The interactive nature of the SAP SD course at IT Accurate Institute made the learning experience engaging and dynamic.",
+                    "image": "https://images.unsplash.com/photo-1713173922799-42c38fc7359c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "UDESH KSHIRSAGAR",
+                    "review": "Their deep knowledge of SAP ABAP and their ability to explain complex concepts in a simple manner make the learning experience enjoyable",
+                    "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
                 }
             ],
             "certificationPoints": [
@@ -4581,6 +5183,92 @@
                 {
                     "question": "WHow does Ariba support mobile procurement?",
                     "answer": "SAP Ariba offers mobile apps, allowing users to manage procurement activities, approvals, and collaboration on the go."
+                }
+            ],
+                        "reviews": [
+                {
+                    "name": "RAHUL PATEL",
+                    "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
+                    "image": "https://plus.unsplash.com/premium_photo-1682092090968-3b9daa5ecdd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "NISHA GANDHE",
+                    "review": "The interactive learning environment fostered by this institute greatly enhanced my understanding of SAP SCM.",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Ayaan LOKHANDE",
+                    "review": "The trainers at IT Accurate Institute are not just experts in SAP MM but are also incredibly supportive.",
+                    "image": "https://plus.unsplash.com/premium_photo-1734603745283-053c19cdebe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Kiaan TIWARI",
+                    "review": "I feel well-prepared to implement SAP QM solutions in my professional role.",
+                    "image": "https://plus.unsplash.com/premium_photo-1661637752177-e657a9daaf4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Karan K",
+                    "review": "I enrolled in SAP LE at IT Accurate Institute and found the course structure to be comprehensive",
+                    "image": "https://img.freepik.com/premium-photo/portrait-young-man-against-blue-background_1048944-13176074.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": ""
+                },
+                {
+                    "name": "TOSHIBA KHAN",
+                    "review": "My experience with the SAP WM & EWM course at IT Accurate Institute was exceptional.",
+                    "image": "https://images.unsplash.com/photo-1641101236998-f88254ac8743?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Rakesh NANAWANE",
+                    "review": "I enrolled in the SAP HCM program at IT Accurate Institute to deepen my understanding of human capital management, and the curriculum did not disappoint.",
+                    "image": "https://images.unsplash.com/photo-1560085911-ce42861f221f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "GULSHAN BHALME",
+                    "review": "One of the highlights of the institute's SAP ARIBA training program was the emphasis on job placement assistance",
+                    "image": "https://images.unsplash.com/photo-1635084617135-df8225e8cf1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ira Patel",
+                    "review": "The SAP BASIS course at IT Accurate Institute was exceptional! The instructors were highly knowledgeable and provided hands-on training that made complex concepts easy to understand.I gained practical skills that helped me secure a job in SAP administration. ",
+                    "image": "https://images.unsplash.com/photo-1680506727554-3ba2d9f99129?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Nisha DHOTE",
+                    "review": "IT Accurate Institute has exceeded my expectations for SAP FICO training. i can suggest this is the best platform for knowledge",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ritika NAGLE",
+                    "review": "SAP Fiori training at IT Accurate Institute was an enriching experience. The instructors were not just educators: they were mentors. guiding us.",
+                    "image": "https://images.unsplash.com/photo-1721593444652-f2ab6a703710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Vani JAIN",
+                    "review": "The SAP PP course exceeded my expectations. The course materials were up- to-date, and the instructors were always available to clarify doubts. The interactive learning environment fostered collaboration among students, enhancing the overall learning experience.",
+                    "image": "https://images.unsplash.com/photo-1725033489648-a819750348eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "VIBHAS SHINDHE",
+                    "review": "The interactive nature of the SAP SD course at IT Accurate Institute made the learning experience engaging and dynamic.",
+                    "image": "https://images.unsplash.com/photo-1713173922799-42c38fc7359c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "UDESH KSHIRSAGAR",
+                    "review": "Their deep knowledge of SAP ABAP and their ability to explain complex concepts in a simple manner make the learning experience enjoyable",
+                    "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
                 }
             ],
             "certificationPoints": [
@@ -5096,6 +5784,92 @@
                 {
                     "question": "What is SAP PP-PI (Production Planning for Process Industries)?",
                     "answer": "SAP PP-PI is a sub-module of SAP PP designed specifically for process industries, providing functionalities like batch management and recipe management."
+                }
+            ],
+                        "reviews": [
+                {
+                    "name": "RAHUL PATEL",
+                    "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
+                    "image": "https://plus.unsplash.com/premium_photo-1682092090968-3b9daa5ecdd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "NISHA GANDHE",
+                    "review": "The interactive learning environment fostered by this institute greatly enhanced my understanding of SAP SCM.",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Ayaan LOKHANDE",
+                    "review": "The trainers at IT Accurate Institute are not just experts in SAP MM but are also incredibly supportive.",
+                    "image": "https://plus.unsplash.com/premium_photo-1734603745283-053c19cdebe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Kiaan TIWARI",
+                    "review": "I feel well-prepared to implement SAP QM solutions in my professional role.",
+                    "image": "https://plus.unsplash.com/premium_photo-1661637752177-e657a9daaf4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Karan K",
+                    "review": "I enrolled in SAP LE at IT Accurate Institute and found the course structure to be comprehensive",
+                    "image": "https://img.freepik.com/premium-photo/portrait-young-man-against-blue-background_1048944-13176074.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": ""
+                },
+                {
+                    "name": "TOSHIBA KHAN",
+                    "review": "My experience with the SAP WM & EWM course at IT Accurate Institute was exceptional.",
+                    "image": "https://images.unsplash.com/photo-1641101236998-f88254ac8743?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Rakesh NANAWANE",
+                    "review": "I enrolled in the SAP HCM program at IT Accurate Institute to deepen my understanding of human capital management, and the curriculum did not disappoint.",
+                    "image": "https://images.unsplash.com/photo-1560085911-ce42861f221f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "GULSHAN BHALME",
+                    "review": "One of the highlights of the institute's SAP ARIBA training program was the emphasis on job placement assistance",
+                    "image": "https://images.unsplash.com/photo-1635084617135-df8225e8cf1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ira Patel",
+                    "review": "The SAP BASIS course at IT Accurate Institute was exceptional! The instructors were highly knowledgeable and provided hands-on training that made complex concepts easy to understand.I gained practical skills that helped me secure a job in SAP administration. ",
+                    "image": "https://images.unsplash.com/photo-1680506727554-3ba2d9f99129?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Nisha DHOTE",
+                    "review": "IT Accurate Institute has exceeded my expectations for SAP FICO training. i can suggest this is the best platform for knowledge",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ritika NAGLE",
+                    "review": "SAP Fiori training at IT Accurate Institute was an enriching experience. The instructors were not just educators: they were mentors. guiding us.",
+                    "image": "https://images.unsplash.com/photo-1721593444652-f2ab6a703710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Vani JAIN",
+                    "review": "The SAP PP course exceeded my expectations. The course materials were up- to-date, and the instructors were always available to clarify doubts. The interactive learning environment fostered collaboration among students, enhancing the overall learning experience.",
+                    "image": "https://images.unsplash.com/photo-1725033489648-a819750348eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "VIBHAS SHINDHE",
+                    "review": "The interactive nature of the SAP SD course at IT Accurate Institute made the learning experience engaging and dynamic.",
+                    "image": "https://images.unsplash.com/photo-1713173922799-42c38fc7359c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "UDESH KSHIRSAGAR",
+                    "review": "Their deep knowledge of SAP ABAP and their ability to explain complex concepts in a simple manner make the learning experience enjoyable",
+                    "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
                 }
             ],
             "certificationPoints": [
@@ -5618,6 +6392,92 @@
                     "answer": "SAP PP-PI is a sub-module of SAP PP designed specifically for process industries, providing functionalities like batch management and recipe management."
                 }
             ],
+                        "reviews": [
+                {
+                    "name": "RAHUL PATEL",
+                    "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
+                    "image": "https://plus.unsplash.com/premium_photo-1682092090968-3b9daa5ecdd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "NISHA GANDHE",
+                    "review": "The interactive learning environment fostered by this institute greatly enhanced my understanding of SAP SCM.",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Ayaan LOKHANDE",
+                    "review": "The trainers at IT Accurate Institute are not just experts in SAP MM but are also incredibly supportive.",
+                    "image": "https://plus.unsplash.com/premium_photo-1734603745283-053c19cdebe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Kiaan TIWARI",
+                    "review": "I feel well-prepared to implement SAP QM solutions in my professional role.",
+                    "image": "https://plus.unsplash.com/premium_photo-1661637752177-e657a9daaf4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Karan K",
+                    "review": "I enrolled in SAP LE at IT Accurate Institute and found the course structure to be comprehensive",
+                    "image": "https://img.freepik.com/premium-photo/portrait-young-man-against-blue-background_1048944-13176074.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": ""
+                },
+                {
+                    "name": "TOSHIBA KHAN",
+                    "review": "My experience with the SAP WM & EWM course at IT Accurate Institute was exceptional.",
+                    "image": "https://images.unsplash.com/photo-1641101236998-f88254ac8743?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Rakesh NANAWANE",
+                    "review": "I enrolled in the SAP HCM program at IT Accurate Institute to deepen my understanding of human capital management, and the curriculum did not disappoint.",
+                    "image": "https://images.unsplash.com/photo-1560085911-ce42861f221f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "GULSHAN BHALME",
+                    "review": "One of the highlights of the institute's SAP ARIBA training program was the emphasis on job placement assistance",
+                    "image": "https://images.unsplash.com/photo-1635084617135-df8225e8cf1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ira Patel",
+                    "review": "The SAP BASIS course at IT Accurate Institute was exceptional! The instructors were highly knowledgeable and provided hands-on training that made complex concepts easy to understand.I gained practical skills that helped me secure a job in SAP administration. ",
+                    "image": "https://images.unsplash.com/photo-1680506727554-3ba2d9f99129?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Nisha DHOTE",
+                    "review": "IT Accurate Institute has exceeded my expectations for SAP FICO training. i can suggest this is the best platform for knowledge",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ritika NAGLE",
+                    "review": "SAP Fiori training at IT Accurate Institute was an enriching experience. The instructors were not just educators: they were mentors. guiding us.",
+                    "image": "https://images.unsplash.com/photo-1721593444652-f2ab6a703710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Vani JAIN",
+                    "review": "The SAP PP course exceeded my expectations. The course materials were up- to-date, and the instructors were always available to clarify doubts. The interactive learning environment fostered collaboration among students, enhancing the overall learning experience.",
+                    "image": "https://images.unsplash.com/photo-1725033489648-a819750348eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "VIBHAS SHINDHE",
+                    "review": "The interactive nature of the SAP SD course at IT Accurate Institute made the learning experience engaging and dynamic.",
+                    "image": "https://images.unsplash.com/photo-1713173922799-42c38fc7359c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "UDESH KSHIRSAGAR",
+                    "review": "Their deep knowledge of SAP ABAP and their ability to explain complex concepts in a simple manner make the learning experience enjoyable",
+                    "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                }
+            ],
             "certificationPoints": [
                 {
                     "icon": "/icons/badge2.svg",
@@ -5976,6 +6836,92 @@
                     "answer": "The Quality Info Record in SAP QM stores information about the quality of a material from a specific vendor. It includes details such as inspection specifications and sampling procedures for the material from that vendor."
                 }
             ],
+                        "reviews": [
+                {
+                    "name": "RAHUL PATEL",
+                    "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
+                    "image": "https://plus.unsplash.com/premium_photo-1682092090968-3b9daa5ecdd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "NISHA GANDHE",
+                    "review": "The interactive learning environment fostered by this institute greatly enhanced my understanding of SAP SCM.",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Ayaan LOKHANDE",
+                    "review": "The trainers at IT Accurate Institute are not just experts in SAP MM but are also incredibly supportive.",
+                    "image": "https://plus.unsplash.com/premium_photo-1734603745283-053c19cdebe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Kiaan TIWARI",
+                    "review": "I feel well-prepared to implement SAP QM solutions in my professional role.",
+                    "image": "https://plus.unsplash.com/premium_photo-1661637752177-e657a9daaf4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Karan K",
+                    "review": "I enrolled in SAP LE at IT Accurate Institute and found the course structure to be comprehensive",
+                    "image": "https://img.freepik.com/premium-photo/portrait-young-man-against-blue-background_1048944-13176074.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": ""
+                },
+                {
+                    "name": "TOSHIBA KHAN",
+                    "review": "My experience with the SAP WM & EWM course at IT Accurate Institute was exceptional.",
+                    "image": "https://images.unsplash.com/photo-1641101236998-f88254ac8743?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Rakesh NANAWANE",
+                    "review": "I enrolled in the SAP HCM program at IT Accurate Institute to deepen my understanding of human capital management, and the curriculum did not disappoint.",
+                    "image": "https://images.unsplash.com/photo-1560085911-ce42861f221f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "GULSHAN BHALME",
+                    "review": "One of the highlights of the institute's SAP ARIBA training program was the emphasis on job placement assistance",
+                    "image": "https://images.unsplash.com/photo-1635084617135-df8225e8cf1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ira Patel",
+                    "review": "The SAP BASIS course at IT Accurate Institute was exceptional! The instructors were highly knowledgeable and provided hands-on training that made complex concepts easy to understand.I gained practical skills that helped me secure a job in SAP administration. ",
+                    "image": "https://images.unsplash.com/photo-1680506727554-3ba2d9f99129?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Nisha DHOTE",
+                    "review": "IT Accurate Institute has exceeded my expectations for SAP FICO training. i can suggest this is the best platform for knowledge",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ritika NAGLE",
+                    "review": "SAP Fiori training at IT Accurate Institute was an enriching experience. The instructors were not just educators: they were mentors. guiding us.",
+                    "image": "https://images.unsplash.com/photo-1721593444652-f2ab6a703710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Vani JAIN",
+                    "review": "The SAP PP course exceeded my expectations. The course materials were up- to-date, and the instructors were always available to clarify doubts. The interactive learning environment fostered collaboration among students, enhancing the overall learning experience.",
+                    "image": "https://images.unsplash.com/photo-1725033489648-a819750348eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "VIBHAS SHINDHE",
+                    "review": "The interactive nature of the SAP SD course at IT Accurate Institute made the learning experience engaging and dynamic.",
+                    "image": "https://images.unsplash.com/photo-1713173922799-42c38fc7359c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "UDESH KSHIRSAGAR",
+                    "review": "Their deep knowledge of SAP ABAP and their ability to explain complex concepts in a simple manner make the learning experience enjoyable",
+                    "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                }
+            ],
             "certificationPoints": [
                 {
                     "icon": "/icons/badge2.svg",
@@ -6283,6 +7229,92 @@
                     "color": "bg-red-500",
                     "icon": "/icons/recurring.svg",
                     "description": "Cross-module integration points"
+                }
+            ],
+                        "reviews": [
+                {
+                    "name": "RAHUL PATEL",
+                    "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
+                    "image": "https://plus.unsplash.com/premium_photo-1682092090968-3b9daa5ecdd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "NISHA GANDHE",
+                    "review": "The interactive learning environment fostered by this institute greatly enhanced my understanding of SAP SCM.",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Ayaan LOKHANDE",
+                    "review": "The trainers at IT Accurate Institute are not just experts in SAP MM but are also incredibly supportive.",
+                    "image": "https://plus.unsplash.com/premium_photo-1734603745283-053c19cdebe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Kiaan TIWARI",
+                    "review": "I feel well-prepared to implement SAP QM solutions in my professional role.",
+                    "image": "https://plus.unsplash.com/premium_photo-1661637752177-e657a9daaf4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Karan K",
+                    "review": "I enrolled in SAP LE at IT Accurate Institute and found the course structure to be comprehensive",
+                    "image": "https://img.freepik.com/premium-photo/portrait-young-man-against-blue-background_1048944-13176074.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": ""
+                },
+                {
+                    "name": "TOSHIBA KHAN",
+                    "review": "My experience with the SAP WM & EWM course at IT Accurate Institute was exceptional.",
+                    "image": "https://images.unsplash.com/photo-1641101236998-f88254ac8743?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Rakesh NANAWANE",
+                    "review": "I enrolled in the SAP HCM program at IT Accurate Institute to deepen my understanding of human capital management, and the curriculum did not disappoint.",
+                    "image": "https://images.unsplash.com/photo-1560085911-ce42861f221f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "GULSHAN BHALME",
+                    "review": "One of the highlights of the institute's SAP ARIBA training program was the emphasis on job placement assistance",
+                    "image": "https://images.unsplash.com/photo-1635084617135-df8225e8cf1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ira Patel",
+                    "review": "The SAP BASIS course at IT Accurate Institute was exceptional! The instructors were highly knowledgeable and provided hands-on training that made complex concepts easy to understand.I gained practical skills that helped me secure a job in SAP administration. ",
+                    "image": "https://images.unsplash.com/photo-1680506727554-3ba2d9f99129?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Nisha DHOTE",
+                    "review": "IT Accurate Institute has exceeded my expectations for SAP FICO training. i can suggest this is the best platform for knowledge",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ritika NAGLE",
+                    "review": "SAP Fiori training at IT Accurate Institute was an enriching experience. The instructors were not just educators: they were mentors. guiding us.",
+                    "image": "https://images.unsplash.com/photo-1721593444652-f2ab6a703710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Vani JAIN",
+                    "review": "The SAP PP course exceeded my expectations. The course materials were up- to-date, and the instructors were always available to clarify doubts. The interactive learning environment fostered collaboration among students, enhancing the overall learning experience.",
+                    "image": "https://images.unsplash.com/photo-1725033489648-a819750348eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "VIBHAS SHINDHE",
+                    "review": "The interactive nature of the SAP SD course at IT Accurate Institute made the learning experience engaging and dynamic.",
+                    "image": "https://images.unsplash.com/photo-1713173922799-42c38fc7359c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "UDESH KSHIRSAGAR",
+                    "review": "Their deep knowledge of SAP ABAP and their ability to explain complex concepts in a simple manner make the learning experience enjoyable",
+                    "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
                 }
             ],
             "faqs": [
@@ -6735,6 +7767,92 @@
                     "answer": "Implementing SAP WM or EWM can lead to improved inventory accuracy, increased efficiency in warehouse processes, better visibility into stock levels, and enhanced control over logistics operations."
                 }
             ],
+                        "reviews": [
+                {
+                    "name": "RAHUL PATEL",
+                    "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
+                    "image": "https://plus.unsplash.com/premium_photo-1682092090968-3b9daa5ecdd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "NISHA GANDHE",
+                    "review": "The interactive learning environment fostered by this institute greatly enhanced my understanding of SAP SCM.",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Ayaan LOKHANDE",
+                    "review": "The trainers at IT Accurate Institute are not just experts in SAP MM but are also incredibly supportive.",
+                    "image": "https://plus.unsplash.com/premium_photo-1734603745283-053c19cdebe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Kiaan TIWARI",
+                    "review": "I feel well-prepared to implement SAP QM solutions in my professional role.",
+                    "image": "https://plus.unsplash.com/premium_photo-1661637752177-e657a9daaf4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Karan K",
+                    "review": "I enrolled in SAP LE at IT Accurate Institute and found the course structure to be comprehensive",
+                    "image": "https://img.freepik.com/premium-photo/portrait-young-man-against-blue-background_1048944-13176074.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": ""
+                },
+                {
+                    "name": "TOSHIBA KHAN",
+                    "review": "My experience with the SAP WM & EWM course at IT Accurate Institute was exceptional.",
+                    "image": "https://images.unsplash.com/photo-1641101236998-f88254ac8743?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Rakesh NANAWANE",
+                    "review": "I enrolled in the SAP HCM program at IT Accurate Institute to deepen my understanding of human capital management, and the curriculum did not disappoint.",
+                    "image": "https://images.unsplash.com/photo-1560085911-ce42861f221f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "GULSHAN BHALME",
+                    "review": "One of the highlights of the institute's SAP ARIBA training program was the emphasis on job placement assistance",
+                    "image": "https://images.unsplash.com/photo-1635084617135-df8225e8cf1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ira Patel",
+                    "review": "The SAP BASIS course at IT Accurate Institute was exceptional! The instructors were highly knowledgeable and provided hands-on training that made complex concepts easy to understand.I gained practical skills that helped me secure a job in SAP administration. ",
+                    "image": "https://images.unsplash.com/photo-1680506727554-3ba2d9f99129?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Nisha DHOTE",
+                    "review": "IT Accurate Institute has exceeded my expectations for SAP FICO training. i can suggest this is the best platform for knowledge",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ritika NAGLE",
+                    "review": "SAP Fiori training at IT Accurate Institute was an enriching experience. The instructors were not just educators: they were mentors. guiding us.",
+                    "image": "https://images.unsplash.com/photo-1721593444652-f2ab6a703710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Vani JAIN",
+                    "review": "The SAP PP course exceeded my expectations. The course materials were up- to-date, and the instructors were always available to clarify doubts. The interactive learning environment fostered collaboration among students, enhancing the overall learning experience.",
+                    "image": "https://images.unsplash.com/photo-1725033489648-a819750348eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "VIBHAS SHINDHE",
+                    "review": "The interactive nature of the SAP SD course at IT Accurate Institute made the learning experience engaging and dynamic.",
+                    "image": "https://images.unsplash.com/photo-1713173922799-42c38fc7359c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "UDESH KSHIRSAGAR",
+                    "review": "Their deep knowledge of SAP ABAP and their ability to explain complex concepts in a simple manner make the learning experience enjoyable",
+                    "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                }
+            ],
             "certificationPoints": [
                 {
                     "icon": "/icons/badge2.svg",
@@ -7112,6 +8230,92 @@
                     "answer": "Successful Fiori user adoption involves training, change management, and effective communication to help users transition to the new interface smoothly and maximize the benefits of the Fiori experience."
                 }
             ],
+                        "reviews": [
+                {
+                    "name": "RAHUL PATEL",
+                    "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
+                    "image": "https://plus.unsplash.com/premium_photo-1682092090968-3b9daa5ecdd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "NISHA GANDHE",
+                    "review": "The interactive learning environment fostered by this institute greatly enhanced my understanding of SAP SCM.",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Ayaan LOKHANDE",
+                    "review": "The trainers at IT Accurate Institute are not just experts in SAP MM but are also incredibly supportive.",
+                    "image": "https://plus.unsplash.com/premium_photo-1734603745283-053c19cdebe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Kiaan TIWARI",
+                    "review": "I feel well-prepared to implement SAP QM solutions in my professional role.",
+                    "image": "https://plus.unsplash.com/premium_photo-1661637752177-e657a9daaf4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Karan K",
+                    "review": "I enrolled in SAP LE at IT Accurate Institute and found the course structure to be comprehensive",
+                    "image": "https://img.freepik.com/premium-photo/portrait-young-man-against-blue-background_1048944-13176074.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": ""
+                },
+                {
+                    "name": "TOSHIBA KHAN",
+                    "review": "My experience with the SAP WM & EWM course at IT Accurate Institute was exceptional.",
+                    "image": "https://images.unsplash.com/photo-1641101236998-f88254ac8743?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Rakesh NANAWANE",
+                    "review": "I enrolled in the SAP HCM program at IT Accurate Institute to deepen my understanding of human capital management, and the curriculum did not disappoint.",
+                    "image": "https://images.unsplash.com/photo-1560085911-ce42861f221f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "GULSHAN BHALME",
+                    "review": "One of the highlights of the institute's SAP ARIBA training program was the emphasis on job placement assistance",
+                    "image": "https://images.unsplash.com/photo-1635084617135-df8225e8cf1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ira Patel",
+                    "review": "The SAP BASIS course at IT Accurate Institute was exceptional! The instructors were highly knowledgeable and provided hands-on training that made complex concepts easy to understand.I gained practical skills that helped me secure a job in SAP administration. ",
+                    "image": "https://images.unsplash.com/photo-1680506727554-3ba2d9f99129?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Nisha DHOTE",
+                    "review": "IT Accurate Institute has exceeded my expectations for SAP FICO training. i can suggest this is the best platform for knowledge",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ritika NAGLE",
+                    "review": "SAP Fiori training at IT Accurate Institute was an enriching experience. The instructors were not just educators: they were mentors. guiding us.",
+                    "image": "https://images.unsplash.com/photo-1721593444652-f2ab6a703710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Vani JAIN",
+                    "review": "The SAP PP course exceeded my expectations. The course materials were up- to-date, and the instructors were always available to clarify doubts. The interactive learning environment fostered collaboration among students, enhancing the overall learning experience.",
+                    "image": "https://images.unsplash.com/photo-1725033489648-a819750348eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "VIBHAS SHINDHE",
+                    "review": "The interactive nature of the SAP SD course at IT Accurate Institute made the learning experience engaging and dynamic.",
+                    "image": "https://images.unsplash.com/photo-1713173922799-42c38fc7359c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "UDESH KSHIRSAGAR",
+                    "review": "Their deep knowledge of SAP ABAP and their ability to explain complex concepts in a simple manner make the learning experience enjoyable",
+                    "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                }
+            ],
             "certificationPoints": [
                 {
                     "icon": "/icons/badge2.svg",
@@ -7482,6 +8686,92 @@
                 {
                     "question": "Can SAP BTP be used with non-SAP systems?",
                     "answer": "Yes, SAP BTP allows integration with both SAP and non-SAP systems through its integration services."
+                }
+            ],
+                        "reviews": [
+                {
+                    "name": "RAHUL PATEL",
+                    "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
+                    "image": "https://plus.unsplash.com/premium_photo-1682092090968-3b9daa5ecdd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "NISHA GANDHE",
+                    "review": "The interactive learning environment fostered by this institute greatly enhanced my understanding of SAP SCM.",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Ayaan LOKHANDE",
+                    "review": "The trainers at IT Accurate Institute are not just experts in SAP MM but are also incredibly supportive.",
+                    "image": "https://plus.unsplash.com/premium_photo-1734603745283-053c19cdebe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "Kiaan TIWARI",
+                    "review": "I feel well-prepared to implement SAP QM solutions in my professional role.",
+                    "image": "https://plus.unsplash.com/premium_photo-1661637752177-e657a9daaf4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Karan K",
+                    "review": "I enrolled in SAP LE at IT Accurate Institute and found the course structure to be comprehensive",
+                    "image": "https://img.freepik.com/premium-photo/portrait-young-man-against-blue-background_1048944-13176074.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": ""
+                },
+                {
+                    "name": "TOSHIBA KHAN",
+                    "review": "My experience with the SAP WM & EWM course at IT Accurate Institute was exceptional.",
+                    "image": "https://images.unsplash.com/photo-1641101236998-f88254ac8743?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Rakesh NANAWANE",
+                    "review": "I enrolled in the SAP HCM program at IT Accurate Institute to deepen my understanding of human capital management, and the curriculum did not disappoint.",
+                    "image": "https://images.unsplash.com/photo-1560085911-ce42861f221f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "GULSHAN BHALME",
+                    "review": "One of the highlights of the institute's SAP ARIBA training program was the emphasis on job placement assistance",
+                    "image": "https://images.unsplash.com/photo-1635084617135-df8225e8cf1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ira Patel",
+                    "review": "The SAP BASIS course at IT Accurate Institute was exceptional! The instructors were highly knowledgeable and provided hands-on training that made complex concepts easy to understand.I gained practical skills that helped me secure a job in SAP administration. ",
+                    "image": "https://images.unsplash.com/photo-1680506727554-3ba2d9f99129?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Nisha DHOTE",
+                    "review": "IT Accurate Institute has exceeded my expectations for SAP FICO training. i can suggest this is the best platform for knowledge",
+                    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Ritika NAGLE",
+                    "review": "SAP Fiori training at IT Accurate Institute was an enriching experience. The instructors were not just educators: they were mentors. guiding us.",
+                    "image": "https://images.unsplash.com/photo-1721593444652-f2ab6a703710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Vani JAIN",
+                    "review": "The SAP PP course exceeded my expectations. The course materials were up- to-date, and the instructors were always available to clarify doubts. The interactive learning environment fostered collaboration among students, enhancing the overall learning experience.",
+                    "image": "https://images.unsplash.com/photo-1725033489648-a819750348eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "SAP Consultant"
+                },
+                {
+                    "name": "VIBHAS SHINDHE",
+                    "review": "The interactive nature of the SAP SD course at IT Accurate Institute made the learning experience engaging and dynamic.",
+                    "image": "https://images.unsplash.com/photo-1713173922799-42c38fc7359c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "UDESH KSHIRSAGAR",
+                    "review": "Their deep knowledge of SAP ABAP and their ability to explain complex concepts in a simple manner make the learning experience enjoyable",
+                    "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
                 }
             ],
             "certificationPoints": [

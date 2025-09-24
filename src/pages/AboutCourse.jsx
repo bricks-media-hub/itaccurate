@@ -26,11 +26,40 @@ import OfferedCourses from "../components/CourseDetails/OfferedCourses";
 import PopUpTimeOut from "../lib/PopUpTimeOut";
 import { SafeImage } from "../lib/SafeImage";
 import CourseFeesDuration from "../SEO/CourseFeesDuration";
+import OfferLetters from "../components/CourseDetails/OfferLetters";
 
 function AboutCourse() {
   const courseDetail = useLoaderData() || {};
   const location = useLocation();
   const navigation = useNavigation();
+  const sapOfferLetters = [
+    { src: "/OfferLetters/Sap/offer1.jfif" },
+    { src: "/OfferLetters/Sap/offer2.png" },
+    { src: "/OfferLetters/Sap/offer3.jfif" },
+    { src: "/OfferLetters/Sap/offer4.jfif" },
+    { src: "/OfferLetters/Sap/offer5.png" },
+    { src: "/OfferLetters/Sap/offer6.png" },
+    { src: "/OfferLetters/Sap/offer7.png" },
+    { src: "/OfferLetters/Sap/offer8.jfif" },
+    { src: "/OfferLetters/Sap/offer9.jfif" },
+    { src: "/OfferLetters/Sap/offer10.jfif" },
+    { src: "/OfferLetters/Sap/offer11.jfif" },
+    { src: "/OfferLetters/Sap/offer12.png" },
+  ];
+  const allTechOfferLetters = [
+    { src: "/OfferLetters/AllTechs/offer1.jpg" },
+    { src: "/OfferLetters/AllTechs/offer2.webp" },
+    { src: "/OfferLetters/AllTechs/offer3.jfif" },
+    { src: "/OfferLetters/AllTechs/offer4.jpg" },
+    { src: "/OfferLetters/AllTechs/offer5.jpg" },
+    { src: "/OfferLetters/AllTechs/offer6.jpg" },
+    { src: "/OfferLetters/AllTechs/offer7.jfif" },
+    { src: "/OfferLetters/AllTechs/offer8.jfif" },
+    { src: "/OfferLetters/AllTechs/offer9.jfif" },
+    { src: "/OfferLetters/AllTechs/offer10.webp" },
+    { src: "/OfferLetters/AllTechs/offer11.webp" },
+    { src: "/OfferLetters/AllTechs/offer12.webp" },
+  ];
 
   // Safely destructure with fallbacks
   const {
@@ -233,6 +262,15 @@ function AboutCourse() {
 
       {/* Only show modules if there any sap related pages */}
       {location.pathname.includes("sap") && <Modules />}
+
+      <OfferLetters
+        letters={
+          location.pathname.includes("sap")
+            ? sapOfferLetters
+            : allTechOfferLetters
+        }
+        reviews={courseDetail.reviews ? reviews : undefined}
+      />
 
       <div className="-mt-16">
         <PlacedStudents

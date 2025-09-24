@@ -23,7 +23,7 @@ const FAQSection = ({ faqs = [] }) => {
     : [];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-12">
         {/* FAQ Section */}
         <div className="lg:w-2/3">
