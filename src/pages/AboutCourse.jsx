@@ -27,6 +27,7 @@ import PopUpTimeOut from "../lib/PopUpTimeOut";
 import { SafeImage } from "../lib/SafeImage";
 import CourseFeesDuration from "../SEO/CourseFeesDuration";
 import OfferLetters from "../components/CourseDetails/OfferLetters";
+import JobOpenings from "../components/CourseDetails/JobOpenings";
 
 function AboutCourse() {
   const courseDetail = useLoaderData() || {};
@@ -271,6 +272,13 @@ function AboutCourse() {
         }
         reviews={courseDetail.reviews ? reviews : undefined}
       />
+
+      {courseDetail?.JobOpenings && (
+        <JobOpenings
+          name={courseDetail?.whatIs?.name}
+          keyFeatures={courseDetail?.JobOpenings}
+        />
+      )}
 
       <div className="-mt-16">
         <PlacedStudents

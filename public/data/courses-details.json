@@ -301,7 +301,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "job": "Sap",
+                    "cta": "Naukri.com",
+                    "link": "",
+                    "btncolor": "bg-[#275DF5]"
+                },
+                {
+                    "job": "Sap",
+                    "cta": "Indeed.com",
+                    "link": "",
+                    "btncolor": "bg-[#313131]"
+                },
+                {
+                    "job": "Sap",
+                    "cta": "Linkedin.com",
+                    "link": "",
+                    "btncolor": "bg-[#0A66C2]"
+                },
+                {
+                    "job": "Sap",
+                    "cta": "Glassdoor.com",
+                    "link": ""  ,
+                    "btncolor": "bg-[#00580D]"
+                },
+                {
+                    "job": "Sap",
+                    "cta": "Monster.com",
+                    "link": "",
+                    "btncolor": "bg-[#58003B]"
+                },
+                {
+                    "job": "Sap",
+                    "cta": "Shine.com",
+                    "link": "",
+                    "btncolor": "bg-[#D24A00]"
+                }
+            ]
         },
         "sap-abap": {
             "name": "SAP ABAP",
