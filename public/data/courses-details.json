@@ -324,7 +324,7 @@
                 {
                     "profession": "SAP SD Consultant",
                     "cta": "Glassdoor.com",
-                    "link": "https://www.glassdoor.co.in/Job/sap-abap-developer-jobs-SRCH_KO0,18.htm"  ,
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
                     "btncolor": "green"
                 },
                 {
@@ -820,7 +820,7 @@
                     "answer": "The ABAP Dictionary is used to define and manage database objects like tables, views, and indexes in the SAP system."
                 }
             ],
-                        "reviews": [
+            "reviews": [
                 {
                     "name": "RAHUL PATEL",
                     "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
@@ -953,7 +953,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "profession": "SAP ABAP Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "SAP FICO Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "SAP MM Consultant",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "SAP SD Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "SAP Basis Administrator",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "SAP HANA Data Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         },
         "sap-mm": {
             "name": "SAP MM",
@@ -1645,7 +1683,7 @@
                     "answer": "While not mandatory, SAP MM certification can enhance your credibility and marketability in the job market. It validates your skills and knowledge in SAP MM, making you a more competitive candidate for SAP MM-related roles."
                 }
             ],
-                        "reviews": [
+            "reviews": [
                 {
                     "name": "RAHUL PATEL",
                     "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
@@ -1778,7 +1816,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "profession": "SAP ABAP Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "SAP FICO Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "SAP MM Consultant",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "SAP SD Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "SAP Basis Administrator",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "SAP HANA Data Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         },
         "sap-fico": {
             "name": "SAP FICO",
@@ -2496,7 +2572,7 @@
                     "answer": "Cost Center Accounting in SAP FICO helps organizations track and manage costs associated with specific departments or business units, aiding in cost control and analysis."
                 }
             ],
-                        "reviews": [
+            "reviews": [
                 {
                     "name": "RAHUL PATEL",
                     "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
@@ -2629,7 +2705,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "profession": "SAP ABAP Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "SAP FICO Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "SAP MM Consultant",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "SAP SD Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "SAP Basis Administrator",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "SAP HANA Data Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         },
         "sap-sd": {
             "name": "SAP SD",
@@ -3075,7 +3189,7 @@
                     "answer": "SAP SD integrates with various modules like MM (Materials Management), PP (Production Planning), and WM (Warehouse Management) for seamless coordination between different business processes."
                 }
             ],
-                        "reviews": [
+            "reviews": [
                 {
                     "name": "RAHUL PATEL",
                     "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
@@ -3208,7 +3322,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "profession": "SAP ABAP Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "SAP FICO Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "SAP MM Consultant",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "SAP SD Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "SAP Basis Administrator",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "SAP HANA Data Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         },
         "sap-hcm": {
             "name": "SAP HCM",
@@ -3695,7 +3847,7 @@
                     "answer": "SAP HCM streamlines HR processes, reduces manual efforts, and enhances data accuracy, ultimately improving the efficiency and effectiveness of human resource management within an organization."
                 }
             ],
-                        "reviews": [
+            "reviews": [
                 {
                     "name": "RAHUL PATEL",
                     "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
@@ -3828,7 +3980,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "profession": "SAP ABAP Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "SAP FICO Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "SAP MM Consultant",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "SAP SD Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "SAP Basis Administrator",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "SAP HANA Data Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         },
         "sap-basis-training-in-nagpur": {
             "name": "SAP BASIS",
@@ -4271,7 +4461,7 @@
                     "answer": "Common challenges include handling system upgrades and migrations, managing system performance and tuning, ensuring data security and compliance, troubleshooting system errors, and keeping up with the latest SAP technologies and best practices."
                 }
             ],
-                        "reviews": [
+            "reviews": [
                 {
                     "name": "RAHUL PATEL",
                     "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
@@ -4404,7 +4594,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "profession": "SAP ABAP Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "SAP FICO Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "SAP MM Consultant",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "SAP SD Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "SAP Basis Administrator",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "SAP HANA Data Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         },
         "sap-scm": {
             "name": "SAP SCM",
@@ -4729,7 +4957,7 @@
                     "answer": "SAP SCM supports sustainability tasks by way of optimizing transportation routes, reducing waste, and enabling higher visibility into the environmental effect of deliver chain sports. This allows agencies make extra eco-friendly choices."
                 }
             ],
-                        "reviews": [
+            "reviews": [
                 {
                     "name": "RAHUL PATEL",
                     "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
@@ -4862,7 +5090,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "profession": "SAP ABAP Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "SAP FICO Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "SAP MM Consultant",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "SAP SD Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "SAP Basis Administrator",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "SAP HANA Data Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         },
         "sap-ariba": {
             "name": "SAP ARIBA",
@@ -5223,7 +5489,7 @@
                     "answer": "SAP Ariba offers mobile apps, allowing users to manage procurement activities, approvals, and collaboration on the go."
                 }
             ],
-                        "reviews": [
+            "reviews": [
                 {
                     "name": "RAHUL PATEL",
                     "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
@@ -5356,7 +5622,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "profession": "SAP ABAP Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "SAP FICO Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "SAP MM Consultant",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "SAP SD Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "SAP Basis Administrator",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "SAP HANA Data Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         },
         "sap-pp": {
             "name": "SAP PP",
@@ -5824,7 +6128,7 @@
                     "answer": "SAP PP-PI is a sub-module of SAP PP designed specifically for process industries, providing functionalities like batch management and recipe management."
                 }
             ],
-                        "reviews": [
+            "reviews": [
                 {
                     "name": "RAHUL PATEL",
                     "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
@@ -5957,7 +6261,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "profession": "SAP ABAP Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "SAP FICO Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "SAP MM Consultant",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "SAP SD Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "SAP Basis Administrator",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "SAP HANA Data Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         },
         "sap-pm": {
             "name": "SAP PM",
@@ -6430,7 +6772,7 @@
                     "answer": "SAP PP-PI is a sub-module of SAP PP designed specifically for process industries, providing functionalities like batch management and recipe management."
                 }
             ],
-                        "reviews": [
+            "reviews": [
                 {
                     "name": "RAHUL PATEL",
                     "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
@@ -6563,7 +6905,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "profession": "SAP ABAP Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "SAP FICO Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "SAP MM Consultant",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "SAP SD Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "SAP Basis Administrator",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "SAP HANA Data Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         },
         "sap-qm": {
             "name": "SAP QM",
@@ -6874,7 +7254,7 @@
                     "answer": "The Quality Info Record in SAP QM stores information about the quality of a material from a specific vendor. It includes details such as inspection specifications and sampling procedures for the material from that vendor."
                 }
             ],
-                        "reviews": [
+            "reviews": [
                 {
                     "name": "RAHUL PATEL",
                     "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
@@ -7007,7 +7387,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "profession": "SAP ABAP Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "SAP FICO Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "SAP MM Consultant",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "SAP SD Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "SAP Basis Administrator",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "SAP HANA Data Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         },
         "sap-le-sl": {
             "name": "SAP LE & SL",
@@ -7269,7 +7687,7 @@
                     "description": "Cross-module integration points"
                 }
             ],
-                        "reviews": [
+            "reviews": [
                 {
                     "name": "RAHUL PATEL",
                     "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
@@ -7440,7 +7858,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "profession": "SAP ABAP Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "SAP FICO Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "SAP MM Consultant",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "SAP SD Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "SAP Basis Administrator",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "SAP HANA Data Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         },
         "sap-wm-ewm": {
             "name": "SAP WM & EWM",
@@ -7805,7 +8261,7 @@
                     "answer": "Implementing SAP WM or EWM can lead to improved inventory accuracy, increased efficiency in warehouse processes, better visibility into stock levels, and enhanced control over logistics operations."
                 }
             ],
-                        "reviews": [
+            "reviews": [
                 {
                     "name": "RAHUL PATEL",
                     "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
@@ -7938,7 +8394,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "profession": "SAP ABAP Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "SAP FICO Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "SAP MM Consultant",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "SAP SD Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "SAP Basis Administrator",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "SAP HANA Data Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         },
         "sap-fiori": {
             "name": "SAP FIORI",
@@ -8268,7 +8762,7 @@
                     "answer": "Successful Fiori user adoption involves training, change management, and effective communication to help users transition to the new interface smoothly and maximize the benefits of the Fiori experience."
                 }
             ],
-                        "reviews": [
+            "reviews": [
                 {
                     "name": "RAHUL PATEL",
                     "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
@@ -8401,7 +8895,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "profession": "SAP ABAP Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "SAP FICO Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "SAP MM Consultant",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "SAP SD Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "SAP Basis Administrator",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "SAP HANA Data Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         },
         "sap-btp-training": {
             "name": "SAP BTP",
@@ -8726,7 +9258,7 @@
                     "answer": "Yes, SAP BTP allows integration with both SAP and non-SAP systems through its integration services."
                 }
             ],
-                        "reviews": [
+            "reviews": [
                 {
                     "name": "RAHUL PATEL",
                     "review": "I had a fantastic experience at IT Accurate Institute in Nagpur! The SAP course was well- structured, and the instructors were highly knowledgeable. The hands-on projects helped me apply what I learned, and the support from the staff was exceptional. I feel confident in my SAP skills now.",
@@ -8859,7 +9391,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "profession": "SAP ABAP Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "SAP FICO Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "SAP MM Consultant",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "SAP SD Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "SAP Basis Administrator",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "SAP HANA Data Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         },
         "best-data-analytics-training": {
             "name": "Data Analytics",
@@ -9387,6 +9957,44 @@
                     "icon": "/icons/graduation.svg",
                     "title": "100% Passing Guarantee",
                     "description": "IT Accurate provides comprehensive guidance for your Data Analyst global certification, ensuring a 100% passing guarantee in examinations such as Data analytics Certification, Data Analyst Platform Development Certification, and various other global exams."
+                }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "Data Analyst",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Business Intelligence (BI) Analyst",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Data Analytics Trainer",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Reporting Analyst",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Analytics Consultant",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Data Visualization Specialist",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
                 }
             ]
         },
@@ -10107,6 +10715,44 @@
                     "title": "Global Certification Support",
                     "description": "DevOps Platform Development Certification and various other global exams."
                 }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "DevOps Engineer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Site Reliability Engineer (SRE)",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Cloud DevOps Engineer",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "CI/CD Specialist",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "DevOps Technical Lead",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Infrastructure Engineer (DevOps)",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
             ]
         },
         "full-stack-developer": {
@@ -10720,6 +11366,44 @@
                     "title": "Global Certification Support",
                     "description": "Full stack developer Platform Development Certification, and various other global exams."
                 }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "Full Stack Developer (Python/Java/MERN/.NET)",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Backend Developer",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Frontend Developer",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Technical Lead (Full Stack)",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Solution Architect (Full Stack)",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "DevOps Engineer (Full Stack)",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
             ]
         },
         "python-full-stack": {
@@ -11225,6 +11909,44 @@
                     "title": "Global Certification Support",
                     "description": "Full stack developer Platform Development Certification, and various other global exams."
                 }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "Python Full Stack Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Python Backend Developer",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Python Frontend Developer",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Python Technical Lead",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Python Solution Architect",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Python DevOps Engineer",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
             ]
         },
         "java-full-stack": {
@@ -11707,6 +12429,44 @@
                     "title": "Global Certification Support",
                     "description": "Full stack developer Platform Development Certification, and various other global exams."
                 }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "Java Full Stack Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Java Backend Developer",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Java Frontend Developer",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Java Technical Lead",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Java Solution Architect",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Java DevOps Engineer",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
             ]
         },
         "mern-stack": {
@@ -11946,6 +12706,44 @@
                     "icon": "/icons/certificate.svg",
                     "title": "Global Certification Support",
                     "description": "Full stack developer Platform Development Certification, and various other global exams."
+                }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "MERN Stack Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Frontend Developer (React)",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Backend Developer (Node.js/Express)",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Full Stack Technical Lead",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "MERN Solution Architect",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "DevOps Engineer (MERN Stack)",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
                 }
             ]
         },
@@ -12291,6 +13089,44 @@
                     "icon": "/icons/certificate.svg",
                     "title": "Global Certification Support",
                     "description": "Full stack developer Platform Development Certification, and various other global exams."
+                }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": ".NET Full Stack Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": ".NET Backend Developer",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": ".NET Frontend Developer",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": ".NET Solution Architect",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": ".NET DevOps Engineer",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": ".NET Technical Lead",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
                 }
             ]
         },
@@ -12724,6 +13560,44 @@
                     "icon": "/icons/graduation.svg",
                     "title": "100% Passing Guarantee",
                     "description": "IT Accurate provides comprehensive guidance for your AWS global certification, ensuring a 100% passing guarantee in examinations such as AWS Certification, AWS Platform Development Certification, and various other global exams."
+                }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "AWS Cloud Engineer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "AWS Solutions Architect",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "AWS DevOps Engineer",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "AWS Cloud Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "AWS SysOps Administrator",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "AWS Security Specialist",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
                 }
             ]
         },
@@ -13693,6 +14567,44 @@
                     "title": "100% Passing Guarantee",
                     "description": "IT Accurate provides comprehensive guidance for your Data Engineering global certification, ensuring a 100% passing guarantee in examinations such as Data analytics Certification, Data Engineering Platform Development Certification, and various other global exams."
                 }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "Data Engineer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Big Data Engineer",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "ETL Developer",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Cloud Data Engineer",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Database Engineer",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Data Platform Engineer",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
             ]
         },
         "python": {
@@ -14091,6 +15003,44 @@
                     "icon": "/icons/graduation.svg",
                     "title": "100% Passing Guarantee",
                     "description": "IT Accurate provides comprehensive guidance for your Python global certification, ensuring a 100% passing guarantee in examinations such as Data analytics Certification, Data Analyst Platform Development Certification, and various other global exams."
+                }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "Python Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Data Scientist (Python)",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Machine Learning Engineer",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Python Automation Engineer",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Backend Developer (Python/Django/Flask)",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Python Full-Stack Developer",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
                 }
             ]
         },
@@ -14541,6 +15491,44 @@
                     "icon": "/icons/certificate.svg",
                     "title": "Global Certification Support",
                     "description": "Certification includes ServiceNow Platform Development Certification and various other globally recognized exams."
+                }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "Salesforce Administrator",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Salesforce Developer",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Salesforce Consultant",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Salesforce Technical Architect",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Salesforce Business Analyst",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Salesforce Project Manager",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
                 }
             ]
         },
@@ -15001,6 +15989,44 @@
                     "icon": "/icons/increase-graph.svg",
                     "title": "Competitive Edge",
                     "description": "The Share Market certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "Stock Market Trainer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Equity Analyst",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Financial Analyst",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Investment Advisor",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Technical Analyst",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Trading Strategist",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
                 }
             ]
         },
@@ -15718,6 +16744,44 @@
                     "title": "100% Passing Guarantee",
                     "description": "IT Accurate provides comprehensive guidance for your Data Science global certification, ensuring a 100% passing guarantee in examinations such as Data science Certification, Data science Platform Development Certification, and various other global exams."
                 }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "Data Science Trainer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Data Scientist",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Machine Learning Engineer",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Business Intelligence (BI) Analyst",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Data Analyst",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Data Science Curriculum Developer",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
             ]
         },
         "best-machine-learning-training": {
@@ -16337,6 +17401,44 @@
                     "icon": "/icons/graduation.svg",
                     "title": "100% Passing Guarantee",
                     "description": "IT Accurate provides comprehensive guidance for your Machine learning global certification, ensuring a 100% passing guarantee in examinations such as Machine learning Certification, Machine learning Platform Development Certification, and various other global exams"
+                }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "Machine Learning Trainer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Machine Learning Engineer",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Data Scientist",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Deep Learning Specialist",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "AI/ML Curriculum Developer",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "ML Research Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
                 }
             ]
         },
@@ -16993,6 +18095,44 @@
                     "title": "100% Passing Guarantee",
                     "description": "IT Accurate provides comprehensive guidance for your AI & ML global certification, ensuring a 100% passing guarantee in examinations such as AI & ML Certification, AI & ML Platform Development Certification, and various other global exams."
                 }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "AI/ML Trainer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Machine Learning Engineer",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Data Scientist",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "AI Research Analyst",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Deep Learning Specialist",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "AI & ML Curriculum Developer",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
             ]
         },
         "salesforce-training": {
@@ -17009,16 +18149,16 @@
                     "icon": "/icons/salesforce-admin.png"
                 },
                 {
-                    "icon": "/icons/salesforce-developers.png", 
-                    "title" : "Salesforce Developers"
+                    "icon": "/icons/salesforce-developers.png",
+                    "title": "Salesforce Developers"
                 },
                 {
                     "icon": "/icons/salesforce-architects.png",
-                    "title" : "Salesforce Architects"
+                    "title": "Salesforce Architects"
                 },
                 {
                     "icon": "icons/salesforce-lightning.png",
-                    "title" : "Salesforce Lightning"
+                    "title": "Salesforce Lightning"
                 },
                 {
                     "title": "Resume preparation",
@@ -17585,6 +18725,44 @@
                     "icon": "/icons/certificate.svg",
                     "title": "Global Certification Support",
                     "description": "Salesforce Platform Development Certification and various other global exams."
+                }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "Salesforce Trainer / Instructor",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Salesforce Training Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Salesforce eLearning Specialist",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Salesforce Curriculum Developer",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Salesforce Learning & Development Specialist",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Salesforce Certification Coach",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
                 }
             ]
         },
@@ -18183,6 +19361,44 @@
                     "title": "100% Passing Guarantee",
                     "description": "IT Accurate Admin training institute provides comprehensive guidance for your Salesforce global certification, ensuring a 100% passing guarantee in examinations such as Salesforce Administration Certification, Salesforce Platform Development Certification, and various other global exams."
                 }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "Salesforce Administrator",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Salesforce Advanced Administrator",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Salesforce System Administrator",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Salesforce CRM Administrator",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Salesforce Cloud Administrator (Sales/Service Cloud)",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Salesforce Data Administrator",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
             ]
         },
         "salesforce-development-2": {
@@ -18675,6 +19891,44 @@
                     "icon": "/icons/certificate.svg",
                     "title": "Global Certification Support",
                     "description": "Salesforce Platform Development Certification and various other global exams."
+                }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "Salesforce Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Salesforce Technical Lead",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Salesforce Platform Developer",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Salesforce AppExchange Developer",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Salesforce Full-Stack Developer",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Salesforce DevOps Engineer",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
                 }
             ]
         },
@@ -19207,6 +20461,44 @@
                     "icon": "/icons/certificate.svg",
                     "title": "Global Certification Support",
                     "description": "Salesforce LWC Platform Development Certification and various other global exams."
+                }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "Salesforce LWC Developer",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Salesforce Integration Developer",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Salesforce Technical Architect (LWC & Integration)",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Salesforce UI/UX Engineer (LWC)",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Salesforce Full Stack Developer (LWC + Apex)",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Salesforce Middleware Specialist (MuleSoft/Integration)",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
                 }
             ]
         },
@@ -19752,6 +21044,44 @@
                     "title": "100% Passing Guarantee",
                     "description": "IT Accurate provides comprehensive guidance for your Salesforce Marketing Cloud global certification, ensuring a 100% passing guarantee in examinations such as Salesforce Marketing Cloud Certification, Salesforce Marketing Cloud Platform Development Certification, and various other global exams."
                 }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "Salesforce Marketing Cloud Consultant",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Salesforce Marketing Cloud Developer",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Salesforce Marketing Cloud Administrator",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Marketing Automation Specialist (SFMC)",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Salesforce Email Marketing Specialist",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "CRM & Marketing Data Analyst (Salesforce)",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
             ]
         },
         "best-business-analytics-training": {
@@ -20249,6 +21579,44 @@
                     "icon": "/icons/graduation.svg",
                     "title": "100% Passing Guarantee",
                     "description": "IT Accurate provides comprehensive guidance for your Business Analytics global certification, ensuring a 100% passing guarantee in examinations such as Business Analytics Certification and various other global exams."
+                }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "Business Analyst",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Data Analyst",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Financial Analyst",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Marketing Analyst",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Operations Analyst",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Business Intelligence (BI) Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
                 }
             ]
         },
@@ -20937,6 +22305,44 @@
                     "title": "100% Passing Guarantee",
                     "description": "IT Accurate's HR Business Analyst training institute provides comprehensive guidance for your global certifications, ensuring a 100% passing guarantee in examinations such as Business Analytics for HR Certification, HR Analytics Certification, and various other global exams."
                 }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "HR Business Analyst",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "HR Data Analyst",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "HRIS Business Analyst",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Workforce Planning Analyst",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Compensation & Benefits Analyst",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Talent Acquisition Business Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
             ]
         },
         "sap-hr": {
@@ -21453,7 +22859,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "profession": "SAP HR Consultant (HCM)",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "SAP SuccessFactors Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "SAP HR Payroll Specialist",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "SAP Time Management Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "SAP Organizational Management Consultant",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "SAP HR Functional Analyst",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         },
         "da-hr": {
             "name": "HR Analytics ",
@@ -21991,6 +23435,44 @@
                     "icon": "/icons/graduation.svg",
                     "title": "100% Passing Guarantee",
                     "description": "IT Accurate’s HR Analytics training institute provides comprehensive guidance for your global certifications, ensuring a 100% passing guarantee in examinations such as HR Analytics Certification, Data-Driven HR Decision Making, and various other global exams."
+                }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "HR Data Analyst",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "People Analytics Specialist",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "HR Business Intelligence Analyst",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Talent Analytics Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Workforce Planning Analyst",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Compensation & Benefits Analyst (with Analytics focus)",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
                 }
             ]
         },
@@ -22550,7 +24032,45 @@
                         "content": "For latest fees & batches"
                     }
                 ]
-            }
+            },
+            "JobOpenings": [
+                {
+                    "profession": "SAP SuccessFactors Employee Central Consultant",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "SAP SuccessFactors Recruiting Consultant",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "SAP SuccessFactors Learning Management Consultant",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "SAP SuccessFactors Compensation Consultant",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "SAP SuccessFactors Performance and Goals Consultant",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "SAP SuccessFactors Integration Specialist",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         }
     }
 }

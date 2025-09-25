@@ -64,7 +64,7 @@ const OfferLetters = ({ letters = [], reviews = [] }) => {
                       <SafeImage
                         src={student?.image}
                         alt={student?.name || "Student"}
-                        className="flex-shrink-0 w-20 h-20 sm:w-28 sm:h-28 rounded-full border-2 border-blue-500 object-cover"
+                        className="flex-shrink-0 w-20 h-20 sm:w-28 sm:h-28 rounded-full border-2 border-blue-500 object-cover cursor-pointer"
                         draggable={false}
                       />
                     </div>
@@ -79,24 +79,8 @@ const OfferLetters = ({ letters = [], reviews = [] }) => {
                     </div>
                   </div>
                 ))
-              ) : (
-                <div className="flex flex-col items-center justify-center p-4 text-sm text-gray-500 space-y-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-red-500"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M12 9v2m0 4h.01M12 3a9 9 0 100 18 9 9 0 000-18z"
-                    />
-                  </svg>
-                  <span>Oops! Something went wrong</span>
-                </div>
+              ) : ( 
+                null
               )}
             </Slider>
           </div>
