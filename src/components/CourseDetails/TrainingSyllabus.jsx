@@ -109,7 +109,7 @@ const TrainingSyllabus = ({ syllabus }) => {
     }, [activeSection, shouldScroll]);
 
     return (
-        <div className="min-h-screen bg-white dark:bg-gray-900">
+        <div className="bg-white dark:bg-gray-900">
             <div className="max-w-7xl mx-auto px-4 py-12">
                 {/* Header */}
                 <div className="mb-12 text-center">

@@ -304,40 +304,40 @@
             },
             "JobOpenings": [
                 {
-                    "job": "Sap",
+                    "profession": "SAP ABAP Developer",
                     "cta": "Naukri.com",
-                    "link": "",
-                    "btncolor": "bg-[#275DF5]"
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
                 },
                 {
-                    "job": "Sap",
+                    "profession": "SAP FICO Consultant",
                     "cta": "Indeed.com",
-                    "link": "",
-                    "btncolor": "bg-[#313131]"
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
                 },
                 {
-                    "job": "Sap",
+                    "profession": "SAP MM Consultant",
                     "cta": "Linkedin.com",
-                    "link": "",
-                    "btncolor": "bg-[#0A66C2]"
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
                 },
                 {
-                    "job": "Sap",
+                    "profession": "SAP SD Consultant",
                     "cta": "Glassdoor.com",
-                    "link": ""  ,
-                    "btncolor": "bg-[#00580D]"
+                    "link": "https://www.glassdoor.co.in/Job/sap-abap-developer-jobs-SRCH_KO0,18.htm"  ,
+                    "btncolor": "green"
                 },
                 {
-                    "job": "Sap",
+                    "profession": "SAP Basis Administrator",
                     "cta": "Monster.com",
-                    "link": "",
-                    "btncolor": "bg-[#58003B]"
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
                 },
                 {
-                    "job": "Sap",
+                    "profession": "SAP HANA Data Analyst",
                     "cta": "Shine.com",
-                    "link": "",
-                    "btncolor": "bg-[#D24A00]"
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
                 }
             ]
         },

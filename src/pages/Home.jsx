@@ -1,6 +1,91 @@
-import React, { useEffect, useState } from "react";
-import NavBar from "../components/HomePage/Navbar/NavBar";
+// import React, { useEffect, useState } from "react";
+// import NavBar from "../components/HomePage/Navbar/NavBar";
+// import Banner from "../components/HomePage/Banner/Banner";
+// import CompanyPartnersRatings from "../components/HomePage/CompanyPartnersRatings";
+// import TrainingCourses from "../components/HomePage/TrainingCourses";
+// import { WhatMakesUsDifferent } from "../components/HomePage/WhatMakesUsDifferent";
+// import PlacedStudents from "../components/HomePage/PlacedStudents";
+// import ReachUsForm from "../components/ContactUs/ReachUsForm";
+// import SalaryHikeSection from "../components/HomePage/SalaryHikeSection";
+// import { LearningOutcomes } from "../components/HomePage/LearningOutcomes";
+// import TrainerDetails from "../components/HomePage/AboutTrainer";
+// import AlumniMarquee from "../components/HomePage/AlumniMarquee";
+// import FeesDetails from "../components/HomePage/FeesDetails";
+// import JobPreparation from "../components/HomePage/JobPreparation";
+// import ContactUs from "../components/ContactUs/ContactUs";
+// import Slider from "../components/HomePage/Slider";
+// import Footer from "../components/HomePage/Footer";
+// import PopUpTimeOut from "../lib/PopUpTimeOut";
+// import FeatureSection from "../components/HomePage/Banner/FeatureSection";
+// import { useNavigation } from "react-router-dom";
+// import Loader from "../components/ui/Loader";
+
+// function Home() {
+//   const [activeLocation, setActiveLocation] = useState("nagpur");
+//   const navigation = useNavigation();
+
+//   if(navigation.state === "loading") return <Loader />
+
+//   return (
+//     <div className="font-sans">
+
+//       <PopUpTimeOut />
+//       {/* <NavBar /> */}
+//       <Banner />
+//       <div className="sm:hidden">
+//         <TrainingCourses />
+//       </div>
+//       <div className="sm:hidden">
+//         <WhatMakesUsDifferent />
+//       </div>
+//       <div className="mt-32 sm:block hidden">
+//         <CompanyPartnersRatings />
+//       </div>
+//       <div className="sm:hidden">
+//         <FeatureSection />
+//       </div>
+//       <div className="hidden sm:block">
+//         <TrainingCourses />
+//       </div>
+//       <div className="sm:block hidden">
+//         <WhatMakesUsDifferent />
+//       </div>
+//       <PlacedStudents />
+//       <ReachUsForm />
+//       <SalaryHikeSection />
+
+//       <LearningOutcomes />
+//       <TrainerDetails />
+//       <AlumniMarquee />
+//       <FeesDetails />
+//       <JobPreparation />
+//       <div className="sm:hidden">
+//         <CompanyPartnersRatings />
+//       </div>
+//       {/* <Slider /> */}
+//       <ContactUs
+//         initialLocation={activeLocation}
+//         setActiveLocation={setActiveLocation} // Pass this if needed
+//       />
+//       {/* <Footer setSelectedLocation={setSelectedLocation} /> */}
+//     </div>
+//   );
+// }
+
+// export default Home;
+
+
+
+import React, { useState, memo } from "react";
+import { useNavigation } from "react-router-dom";
+
+// Core UI
+import Loader from "../components/ui/Loader";
+
+// Sections
+import PopUpTimeOut from "../lib/PopUpTimeOut";
 import Banner from "../components/HomePage/Banner/Banner";
+import FeatureSection from "../components/HomePage/Banner/FeatureSection";
 import CompanyPartnersRatings from "../components/HomePage/CompanyPartnersRatings";
 import TrainingCourses from "../components/HomePage/TrainingCourses";
 import { WhatMakesUsDifferent } from "../components/HomePage/WhatMakesUsDifferent";
@@ -13,63 +98,81 @@ import AlumniMarquee from "../components/HomePage/AlumniMarquee";
 import FeesDetails from "../components/HomePage/FeesDetails";
 import JobPreparation from "../components/HomePage/JobPreparation";
 import ContactUs from "../components/ContactUs/ContactUs";
-import Slider from "../components/HomePage/Slider";
-import Footer from "../components/HomePage/Footer";
-import PopUpTimeOut from "../lib/PopUpTimeOut";
-import FeatureSection from "../components/HomePage/Banner/FeatureSection";
-import { useNavigation } from "react-router-dom";
-import Loader from "../components/ui/Loader";
+// import NavBar from "../components/HomePage/Navbar/NavBar";
+// import Slider from "../components/HomePage/Slider";
+// import Footer from "../components/HomePage/Footer";
 
+/**
+ * Home Page Component
+ * - Renders landing page sections in a responsive layout
+ * - Uses `useNavigation` from React Router to show a loader during transitions
+ */
 function Home() {
   const [activeLocation, setActiveLocation] = useState("nagpur");
   const navigation = useNavigation();
 
-  if(navigation.state === "loading") return <Loader />
+  // Show loader while navigating
+  if (navigation.state === "loading") {
+    return <Loader />;
+  }
 
   return (
     <div className="font-sans">
-
+      {/* Timed Popup */}
       <PopUpTimeOut />
+
+      {/* Hero Section */}
       {/* <NavBar /> */}
       <Banner />
+
+      {/* Mobile Sections */}
       <div className="sm:hidden">
         <TrainingCourses />
       </div>
       <div className="sm:hidden">
         <WhatMakesUsDifferent />
-      </div>
-      <div className="mt-32 sm:block hidden">
-        <CompanyPartnersRatings />
       </div>
       <div className="sm:hidden">
         <FeatureSection />
       </div>
+
+      {/* Desktop Sections */}
+      <div className="hidden sm:block mt-32">
+        <CompanyPartnersRatings />
+      </div>
       <div className="hidden sm:block">
         <TrainingCourses />
       </div>
-      <div className="sm:block hidden">
+      <div className="hidden sm:block">
         <WhatMakesUsDifferent />
       </div>
+
+      {/* Common Sections */}
       <PlacedStudents />
       <ReachUsForm />
       <SalaryHikeSection />
-
       <LearningOutcomes />
       <TrainerDetails />
       <AlumniMarquee />
       <FeesDetails />
       <JobPreparation />
+
+      {/* Mobile: Company Ratings after Job Prep */}
       <div className="sm:hidden">
         <CompanyPartnersRatings />
       </div>
-      {/* <Slider /> */}
+
+      {/* Contact Section */}
       <ContactUs
         initialLocation={activeLocation}
-        setActiveLocation={setActiveLocation} // Pass this if needed
+        setActiveLocation={setActiveLocation}
       />
+
+      {/* Optional Sections */}
+      {/* <Slider /> */}
       {/* <Footer setSelectedLocation={setSelectedLocation} /> */}
     </div>
   );
 }
 
-export default Home;
+export default memo(Home);
