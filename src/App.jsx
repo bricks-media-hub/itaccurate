@@ -83,6 +83,7 @@ const landingPageDetails = [
   "sap-fico-course-in-nagpur",
   "data-analytics-course-in-thane",
   "data-analytics-course-in-nagpur",
+  // "ethical-hacking"
 ]
 
 // Create loader-based routes
