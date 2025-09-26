@@ -9,9 +9,14 @@ import SuccessStats from '../components/Placement/SuccessStats';
 import SubscribeDemo from '../components/Placement/SubscribeDemo';
 import PopUpTimeOut from '../lib/PopUpTimeOut';
 import { SafeImage } from '../lib/SafeImage';
+import { getSeoData } from "../lib/seoUtil";
+import { useLocation } from 'react-router-dom';
 
 const Placements = () => {
   const [showForm, setShowForm] = useState(false);
+  const location = useLocation();
+    const path = location.pathname.slice(1);
+    const seo = getSeoData(path);
 
 const placementStats = [
   { icon: '/icons/graduation.svg', value: "200+", label: "Students Trained" },
@@ -22,6 +27,15 @@ const placementStats = [
 
 
   return (
+    <>
+        
+    {/* seo tags */}
+    <title>{seo.metaTitle}</title>
+    <meta name="description" content={seo.metaDescription} />
+
+    {/* <meta name="keywords" content={seo.keywords || ''} /> */}
+    
+    {/* content page */}
     <div className="dark:bg-gray-900 relative">
       <PopUpTimeOut />
       {/* Header section */}
@@ -201,6 +215,7 @@ const placementStats = [
       <SuccessStats />
       <SubscribeDemo />
     </div>
+    </>
   );
 };
 

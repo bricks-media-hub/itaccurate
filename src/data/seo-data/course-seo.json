@@ -1,0 +1,296 @@
+{
+  "home": {
+    "pageUrl": "https://www.itaccurate.com/",
+    "metaTitle": "Best IT Training Institute in Thane & Nagpur | IT Accurate",
+    "metaDescription": "Join IT Accurate for hands-on IT training, expert instructors, and 100% placement support. Enroll today and boost your career with global certifications.",
+    "canonicalTag": "https://www.itaccurate.com/"
+  },
+  "contact": {
+    "pageUrl": "https://www.itaccurate.com/contact",
+    "metaTitle": "Contact IT Accurate | Thane & Nagpur Training Centers",
+    "metaDescription": "Get in touch with IT Accurate for queries, admissions, or demo classes. Visit our Thane or Nagpur branches today.",
+    "canonicalTag": "https://www.itaccurate.com/contact"
+  },
+  "about-us": {
+    "pageUrl": "https://www.itaccurate.com/about-us",
+    "metaTitle": "IT Accurate – Leading IT Training Institute in India",
+    "metaDescription": "Get job-ready with IT Accurate, Thane & Nagpur's top IT institute. Hands-on training, expert mentors, and 100% placement assistance since 2012.",
+    "canonicalTag": "https://www.itaccurate.com/about-us"
+  },
+  "best-sap-training": {
+    "pageUrl": "https://www.itaccurate.com/best-sap-training",
+    "metaTitle": "Best SAP Training Course - IT Accurate",
+    "metaDescription": "Master SAP with IT Accurate’s hands-on training, real projects, expert guidance & 100% placement support. Book your free demo class today!",
+    "canonicalTag": "https://www.itaccurate.com/best-sap-training"
+  },
+  "sap-mm": {
+    "pageUrl": "https://www.itaccurate.com/sap-mm",
+    "metaTitle": "Best SAP MM Training Course - IT Accurate",
+    "metaDescription": "Join SAP MM course at IT Accurate. Get hands-on training, certification guidance & 100% placement support. Book your free demo today!",
+    "canonicalTag": "https://www.itaccurate.com/sap-mm"
+  },
+  "sap-fico": {
+    "pageUrl": "https://www.itaccurate.com/sap-fico",
+    "metaTitle": "Best SAP FICO Training Course - IT Accurate",
+    "metaDescription": "Get certified in SAP FICO with hands-on training, real-time projects & 100% placement at IT Accurate in Thane & Nagpur. Fast-track your career in 4 months!",
+    "canonicalTag": "https://www.itaccurate.com/sap-fico"
+  },
+  "sap-sd": {
+    "pageUrl": "https://www.itaccurate.com/sap-sd",
+    "metaTitle": "Best SAP SD Training Course - IT Accurate",
+    "metaDescription": "Enroll in SAP SD course at IT Accurate. S/4 HANA training, hands-on projects & 100% placement support. Become job-ready in just 4 months. Book your demo.",
+    "canonicalTag": "https://www.itaccurate.com/sap-sd"
+  },
+  "sap-hcm": {
+    "pageUrl": "https://www.itaccurate.com/sap-hcm",
+    "metaTitle": "Best SAP HCM Training Course - IT Accurate",
+    "metaDescription": "Master SAP HCM with S/4 HANA at IT Accurate. Get hands-on training, expert guidance & 100% placement support. Become job-ready in 4 months. Book demo.",
+    "canonicalTag": "https://www.itaccurate.com/sap-hcm"
+  },
+  "sap-abap": {
+    "pageUrl": "https://www.itaccurate.com/sap-abap",
+    "metaTitle": "Best SAP ABAP Training Course - IT Accurate",
+    "metaDescription": "Join SAP ABAP Course at IT Accurate. Hands-on S/4 HANA training, expert trainers, and 100% placement support. Become job-ready in just 4 months.",
+    "canonicalTag": "https://www.itaccurate.com/sap-abap"
+  },
+  "sap-basis-training-in-nagpur": {
+    "pageUrl": "https://www.itaccurate.com/sap-basis-training-in-nagpur",
+    "metaTitle": "Best SAP BASIS Training Course - IT Accurate",
+    "metaDescription": "Master SAP BASIS with S/4 HANA at IT Accurate. Get hands-on training, expert mentorship & 100% placement support. Become job-ready in just 4 months.",
+    "canonicalTag": "https://www.itaccurate.com/sap-basis-training-in-nagpur"
+  },
+  "sap-scm": {
+    "pageUrl": "https://www.itaccurate.com/sap-scm",
+    "metaTitle": "Best SAP SCM Training Course - IT Accurate",
+    "metaDescription": "Join SAP SCM with S/4 HANA training at IT Accurate. Get hands-on learning, expert guidance & 100% placement support. Complete the course in just 4 month.",
+    "canonicalTag": "https://www.itaccurate.com/sap-scm"
+  },
+  "sap-ariba": {
+    "pageUrl": "https://www.itaccurate.com/sap-ariba",
+    "metaTitle": "Best SAP ARIBA Training Course - IT Accurate",
+    "metaDescription": "Master SAP ARIBA with S/4 HANA at IT Accurate. Hands-on training, expert mentors & 100% placement support. Become job-ready in just 4 months.",
+    "canonicalTag": "https://www.itaccurate.com/sap-ariba"
+  },
+  "sap-pp": {
+    "pageUrl": "https://www.itaccurate.com/sap-pp",
+    "metaTitle": "Best SAP PP Training Course - IT Accurate",
+    "metaDescription": "Get hands-on SAP PP training at IT Accurate. 100% placement support, expert trainers & real-time projects. Become industry-ready in just 4 months.",
+    "canonicalTag": "https://www.itaccurate.com/sap-pp"
+  },
+  "sap-pm": {
+    "pageUrl": "https://www.itaccurate.com/sap-pm",
+    "metaTitle": "Best SAP PM Training Course - IT Accurate",
+    "metaDescription": "Master SAP PM with hands-on training at IT Accurate. Learn with S/4 HANA, real-time projects & get 100% placement support. Become job-ready in 4 month.",
+    "canonicalTag": "https://www.itaccurate.com/sap-pm"
+  },
+  "sap-qm": {
+    "pageUrl": "https://www.itaccurate.com/sap-qm",
+    "metaTitle": "Best SAP QM Training Course - IT Accurate",
+    "metaDescription": "Join IT Accurate’s SAP QM course with S/4 HANA. Get hands-on training, real-time projects & 100% placement support. Become job-ready in just 4 months.",
+    "canonicalTag": "https://www.itaccurate.com/sap-qm"
+  },
+  "sap-le-sl": {
+    "pageUrl": "https://www.itaccurate.com/sap-le-sl",
+    "metaTitle": "Best SAP LE&SL Training Course - IT Accurate",
+    "metaDescription": "Join IT Accurate's SAP LE & SL course with S/4 HANA. Get hands-on training, expert guidance & 100% placement support. Enroll now.",
+    "canonicalTag": "https://www.itaccurate.com/sap-le-sl"
+  },
+  "sap-wm-ewm": {
+    "pageUrl": "https://www.itaccurate.com/sap-wm-ewm",
+    "metaTitle": "Best SAP WM & EWM Training Course - IT Accurate",
+    "metaDescription": "Master SAP WM & EWM with S/4 HANA at IT Accurate. Get hands-on training, expert support & 100% placement assistance. Be  job-ready in just 4 months.",
+    "canonicalTag": "https://www.itaccurate.com/sap-wm-ewm"
+  },
+  "sap-fiori": {
+    "pageUrl": "https://www.itaccurate.com/sap-fiori",
+    "metaTitle": "Best SAP FIORI Training Course - IT Accurate",
+    "metaDescription": "Get hands-on SAP FIORI training with S/4 HANA at IT Accurate, Nagpur. 4-month job-ready course with expert guidance & 100% placement support.",
+    "canonicalTag": "https://www.itaccurate.com/sap-fiori"
+  },
+  "sap-btp-training": {
+    "pageUrl": "https://www.itaccurate.com/sap-btp-training",
+    "metaTitle": "Best SAP BTP Training Course - IT Accurate",
+    "metaDescription": "Master SAP BTP with hands-on S/4 HANA training at IT Accurate. 4-month course with expert mentors, real-time projects & 100% placement support.",
+    "canonicalTag": "https://www.itaccurate.com/sap-btp-training"
+  },
+  "best-devops-training": {
+    "pageUrl": "https://www.itaccurate.com/best-devops-training",
+    "metaTitle": "Best DevOps Training Course - IT Accurate",
+    "metaDescription": "Get hands-on DevOps training with expert mentors at IT Accurate. 5-month course, real-time projects & 100% placement support. Ideal for freshers & pros.",
+    "canonicalTag": "https://www.itaccurate.com/best-devops-training"
+  },
+  "best-ai-ml-training": {
+    "pageUrl": "https://www.itaccurate.com/best-ai-ml-training",
+    "metaTitle": "Best AI & ML Training Course - IT Accurate",
+    "metaDescription": "Master AI & ML with hands-on training at IT Accurate. 7-month course, real-time projects & 100% placement support. For freshers & working professionals.",
+    "canonicalTag": "https://www.itaccurate.com/best-ai-ml-training"
+  },
+  "best-data-science-training": {
+    "pageUrl": "https://www.itaccurate.com/best-data-science-training",
+    "metaTitle": "Best Data Science Training Course - IT Accurate",
+    "metaDescription": "Join IT Accurate’s Data Science course with hands-on training, expert mentors & 100% placement support. Become job-ready in just 7 months. Enroll now!",
+    "canonicalTag": "https://www.itaccurate.com/best-data-science-training"
+  },
+  "best-machine-learning-training": {
+    "pageUrl": "https://www.itaccurate.com/best-machine-learning-training",
+    "metaTitle": "Best Machine learning Training Course - IT Accurate",
+    "metaDescription": "Master Machine Learning with hands-on training, expert mentors & job support at IT Accurate. Become industry-ready in 4 months. Enroll today!",
+    "canonicalTag": "https://www.itaccurate.com/best-machine-learning-training"
+  },
+  "data-engineering": {
+    "pageUrl": "https://www.itaccurate.com/data-engineering",
+    "metaTitle": "Best Data Engineering Training Course - IT Accurate",
+    "metaDescription": "Get hands-on Data Engineering training with expert mentors, certification & placement support. Master skills in 5 months at IT Accurate. Enroll now!",
+    "canonicalTag": "https://www.itaccurate.com/data-engineering"
+  },
+  "best-business-analytics-training": {
+    "pageUrl": "https://www.itaccurate.com/best-business-analytics-training",
+    "metaTitle": "Best Business analytics Training Course - IT Accurate",
+    "metaDescription": "Master Business Analytics in 3 months with hands-on training, expert mentors & 100% placement support. Get certified with IT Accurate. Enroll today!",
+    "canonicalTag": "https://www.itaccurate.com/best-business-analytics-training"
+  },
+  "ba-hr": {
+    "pageUrl": "https://www.itaccurate.com/ba-hr",
+    "metaTitle": "Best HR Business Analyst Training Course - IT Accurate",
+    "metaDescription": "Join IT Accurate's HR Business Analyst course for hands-on training, expert mentorship, global certification, and 100% job placement support.",
+    "canonicalTag": "https://www.itaccurate.com/ba-hr"
+  },
+  "python": {
+    "pageUrl": "https://www.itaccurate.com/python",
+    "metaTitle": "Best Python Training Course - IT Accurate",
+    "metaDescription": "Master Python in 1.5 months with IT Accurate’s hands-on training. Get expert mentorship, real-time projects & 100% placement support. Enroll today!",
+    "canonicalTag": "https://www.itaccurate.com/python"
+  },
+  "share-market": {
+    "pageUrl": "https://www.itaccurate.com/share-market",
+    "metaTitle": "Best Share Market Training Course - IT Accurate",
+    "metaDescription": "Master the stock market in 3 months with IT Accurate. Get hands-on training, expert mentors & certification. Ideal for beginners & professionals.",
+    "canonicalTag": "https://www.itaccurate.com/share-market"
+  },
+  "best-data-analytics-training": {
+    "pageUrl": "https://www.itaccurate.com/best-data-analytics-training",
+    "metaTitle": "Best Data analytics Training Course - IT Accurate",
+    "metaDescription": "Enroll in IT Accurate’s 5-month Data Analytics course. Get hands-on training, certification & 100% placement support. Ideal for freshers & professionals.",
+    "canonicalTag": "https://www.itaccurate.com/best-data-analytics-training"
+  },
+  "full-stack-developer": {
+    "pageUrl": "https://www.itaccurate.com/full-stack-developer",
+    "metaTitle": "Best Full Stack Developer  Training Course - IT Accurate",
+    "metaDescription": "Join IT Accurate’s 4-month Full Stack Developer course. Get hands-on training, expert guidance & 100% placement support. Ideal for freshers & pros.",
+    "canonicalTag": "https://www.itaccurate.com/full-stack-developer"
+  },
+  "python-full-stack": {
+    "pageUrl": "https://www.itaccurate.com/python-full-stack",
+    "metaTitle": "Best Python Full Stack Developer Training Course - IT Accurate",
+    "metaDescription": "Join IT Accurate’s Python Full Stack course in Thane with hands-on training, real projects & 100% placement support. Upskill for a career in tech today!",
+    "canonicalTag": "https://www.itaccurate.com/python-full-stack"
+  },
+  "java-full-stack": {
+    "pageUrl": "https://www.itaccurate.com/java-full-stack",
+    "metaTitle": "Best Java Full Stack Developer Training Course - IT Accurate",
+    "metaDescription": "Master Java Full Stack Development at IT. Get hands-on training, expert guidance, and 100% placement support. Enroll now!",
+    "canonicalTag": "https://www.itaccurate.com/java-full-stack"
+  },
+  "mern-stack": {
+    "pageUrl": "https://www.itaccurate.com/mern-stack",
+    "metaTitle": "Best MERN Stack Developer Training Course - IT Accurate",
+    "metaDescription": "Master MERN stack with hands-on training, real projects & job support at IT Accurate. Learn MongoDB, Express, React, Node & more. Enroll today!",
+    "canonicalTag": "https://www.itaccurate.com/mern-stack"
+  },
+  "dotnet-full-stack": {
+    "pageUrl": "https://www.itaccurate.com/dotnet-full-stack",
+    "metaTitle": "Best NET Full Stack Developer Training Course - IT Accurate",
+    "metaDescription": "Join IT Accurate’s .NET Full Stack Developer course. Get hands-on training, real projects, expert mentors & placement support. Enroll now!",
+    "canonicalTag": "https://www.itaccurate.com/dotnet-full-stack"
+  },
+  "best-aws-training": {
+    "pageUrl": "https://www.itaccurate.com/best-aws-training",
+    "metaTitle": "Best AWS Training Training Course - IT Accurate",
+    "metaDescription": "Get job-ready with IT Accurate's AWS course. Hands-on training, expert mentors, and 100% placement support. Learn AWS in just 2 months.",
+    "canonicalTag": "https://www.itaccurate.com/best-aws-training"
+  },
+  "salesforce-training": {
+    "pageUrl": "https://www.itaccurate.com/salesforce-training",
+    "metaTitle": "Best Salesforce Training Training Course - IT Accurate",
+    "metaDescription": "aster Salesforce in 5 months with IT Accurate. Hands-on training, expert mentors & 100% placement support. Get skills equal to 2+ years of experience.",
+    "canonicalTag": "https://www.itaccurate.com/salesforce-training"
+  },
+  "salesforce-admin": {
+    "pageUrl": "https://www.itaccurate.com/salesforce-admin",
+    "metaTitle": "Best Salesforce Admin Training Training Course - IT Accurate",
+    "metaDescription": "Become a Salesforce Admin in 1.5 months with IT Accurate. Get hands-on training, 10+ yrs skill level & 100% placement support. Enroll now!",
+    "canonicalTag": "https://www.itaccurate.com/salesforce-admin"
+  },
+  "salesforce-development-2": {
+    "pageUrl": "https://www.itaccurate.com/salesforce-development-2",
+    "metaTitle": "Best Salesforce Development Training Training Course - IT Accurate",
+    "metaDescription": "Master Salesforce Development in 2 months with IT Accurate. Hands-on training, expert mentors & 100% placement support. Ideal for freshers & professionals.",
+    "canonicalTag": "https://www.itaccurate.com/salesforce-development-2"
+  },
+  "salesforce-lwc-integration": {
+    "pageUrl": "https://www.itaccurate.com/salesforce-lwc-integration",
+    "metaTitle": "Best Salesforce LWC & Integration Training Training Course - IT Accurate",
+    "metaDescription": "Learn Salesforce LWC & Integration in 1 month at IT Accurate. Hands-on training, expert guidance & 100% placement support. Ideal for freshers & pros.",
+    "canonicalTag": "https://www.itaccurate.com/salesforce-lwc-integration"
+  },
+  "salesforce-marketing-cloud": {
+    "pageUrl": "https://www.itaccurate.com/salesforce-marketing-cloud",
+    "metaTitle": "Best Salesforce Marketing Cloud Training Training Course - IT Accurate",
+    "metaDescription": "Master Salesforce Marketing Cloud in 3 months with IT Accurate. Get hands-on training, expert guidance & 100% placement support for freshers & professionals.",
+    "canonicalTag": "https://www.itaccurate.com/salesforce-marketing-cloud"
+  },
+  "sap-hr": {
+    "pageUrl": "https://www.itaccurate.com/sap-hr",
+    "metaTitle": "Best SAP HCM Training Training Course - IT Accurate",
+    "metaDescription": "Master SAP HCM with S/4 HANA in 4 months at IT Accurate. Get hands-on training, expert mentorship & 100% placement support. Enroll now!",
+    "canonicalTag": "https://www.itaccurate.com/sap-hr"
+  },
+  "da-hr": {
+    "pageUrl": "https://www.itaccurate.com/da-hr",
+    "metaTitle": "Best HR Analytics Training Training Course - IT Accurate",
+    "metaDescription": "Learn HR Analytics in 2 months with IT Accurate. Get hands-on training in SAP, Power BI, Tableau & 100% placement support. Enroll now to upskill fast!",
+    "canonicalTag": "https://www.itaccurate.com/da-hr"
+  },
+  "sap-successfactors": {
+    "pageUrl": "https://www.itaccurate.com/sap-successfactors",
+    "metaTitle": "Best SAP SuccessFactors Training Training Course - IT Accurate",
+    "metaDescription": "Master SAP SuccessFactors with hands-on training, S/4 HANA integration & 100% placement support. Get certified in 4 months at IT Accurate. Enroll now!",
+    "canonicalTag": "https://www.itaccurate.com/sap-successfactors"
+  },
+  "servicenow": {
+    "pageUrl": "https://www.itaccurate.com/servicenow",
+    "metaTitle": "Best ServiceNow Training Training Course - IT Accurate",
+    "metaDescription": "Get job-ready with hands-on ServiceNow training, expert guidance & 100% placement support. Become certified in 5 months at IT Accurate. Enroll today!",
+    "canonicalTag": "https://www.itaccurate.com/servicenow"
+  },
+  "placed": {
+    "pageUrl": "https://www.itaccurate.com/placed",
+    "metaTitle": "Career Placements at IT Accurate | 85% Success Rate",
+    "metaDescription": "Join IT Accurate and boost your tech career with 85% placement success, hands-on training, expert mentors & 50+ hiring partners. Start your journey today!",
+    "canonicalTag": "https://www.itaccurate.com/placed"
+  },
+  "career": {
+    "pageUrl": "https://www.itaccurate.com/career",
+    "metaTitle": "Careers at IT Accurate | Join Our Growing Tech Team",
+    "metaDescription": "Explore tech career opportunities at IT Accurate. Join our expert team, grow with real projects, and enjoy flexible work, perks, and a thriving culture.",
+    "canonicalTag": "https://www.itaccurate.com/career"
+  },
+  "sap-course-in-thane": {
+    "pageUrl": "https://www.itaccurate.com/sap-course-in-thane",
+    "metaTitle": "IT Accurate | SAP Course in Thane with 100% Placement support",
+    "metaDescription": "Master SAP with expert trainers through our SAP Course in Thane. Get hands-on training, real projects, and placement support at IT Accurate. Enroll today!",
+    "canonicalTag": "https://www.itaccurate.com/sap-course-in-thane"
+  },
+  "sap-course-in-nagpur": {
+    "pageUrl": "https://itaccurate.com/sap-course-in-nagpur",
+    "metaTitle": "IT Accurate | SAP Course in Nagpur with 100% Placement support",
+    "metaDescription": "Join IT Accurate’s SAP course in Nagpur with hands-on training, expert mentors & 100% placement support. Build job-ready skills for a successful ERP career.",
+    "canonicalTag": "https://itaccurate.com/sap-course-in-nagpur"
+  },
+  "sap-fico-course-in-nagpur": {
+    "pageUrl": "https://www.itaccurate.com/sap-fico-course-in-nagpur",
+    "metaTitle": "SAP FICO Course in Nagpur | IT Accurate with 100% Placement",
+    "metaDescription": "Join IT Accurate’s SAP FICO course in Nagpur with hands-on training, expert mentors & 100% placement support. Build a successful ERP career today.",
+    "canonicalTag": "https://www.itaccurate.com/sap-fico-course-in-nagpur"
+  }
+}

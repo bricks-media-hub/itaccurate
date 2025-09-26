@@ -2,9 +2,23 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import PopUpTimeOut from '../lib/PopUpTimeOut';
 import { SafeImage } from '../lib/SafeImage';
+import { getSeoData } from "../lib/seoUtil";
+import { useLocation, useNavigation } from 'react-router-dom';
 
 function Jobs() {
+  const location = useLocation();
+    const path = location.pathname.slice(1);
+    const seo = getSeoData(path);
   return (
+    <>
+        
+    {/* seo tags */}
+    <title>{seo.metaTitle}</title>
+    <meta name="description" content={seo.metaDescription} />
+
+    {/* <meta name="keywords" content={seo.keywords || ''} /> */}
+    
+    {/* content page */}
     <div className="min-h-screen py-20 px-4 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-900 dark:to-gray-800">
       <PopUpTimeOut />
       <div className="max-w-6xl mx-auto">
@@ -148,6 +162,7 @@ function Jobs() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

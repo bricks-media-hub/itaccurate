@@ -350,6 +350,7 @@ import CourseFeesDuration from "../SEO/CourseFeesDuration";
 import OfferLetters from "../components/CourseDetails/OfferLetters";
 import JobOpenings from "../components/CourseDetails/JobOpenings";
 import { TiTick } from "react-icons/ti";
+import { getSeoData } from "../lib/seoUtil";
 
 /**
  * Constants moved outside component to avoid re-creation on each render and to
@@ -436,6 +437,8 @@ function AboutCourse() {
   const courseDetail = useLoaderData() || {};
   const location = useLocation();
   const navigation = useNavigation();
+  const path = location.pathname.slice(1);
+  const seo = getSeoData(path);
 
   // Defensive destructuring with sensible defaults
   const {
@@ -483,6 +486,15 @@ function AboutCourse() {
   const extras = Array.isArray(detail?.extras) ? detail.extras : [];
 
   return (
+    <>
+
+    {/* seo tags */}
+    <title>{seo.metaTitle}</title>
+    <meta name="description" content={seo.metaDescription} />
+
+    {/* <meta name="keywords" content={seo.keywords || ''} /> */}
+
+    {/* content page */}
     <div className="relative bg-white dark:bg-gray-900 transition-colors duration-300">
       {/* Global timed popup (kept at top-level for z-index simplicity) */}
       <PopUpTimeOut />
@@ -625,6 +637,7 @@ function AboutCourse() {
 
       <ContactUs />
     </div>
+    </>
   );
 }
 

@@ -21,7 +21,6 @@ import TermsOfService from "./components/Terms/Terms";
 import PrivacyPolicy from "./components/Terms/Privacy";
 import RefundPolicy from "./components/Terms/Refund";
 import ProtectedRoute from "./ProtectedRoute/SeoProtected";
-import LandingPage from "./SEO/LandingPage";
 import SeoLandingPage from "./pages/SeoLandingPage";
 import ContactSuccessful from "./lib/ContactSuccessful";
 import { fetchSeoLandingPageDetails } from "./api/fetchSeoData";
@@ -151,6 +150,7 @@ const router = createBrowserRouter([
         element: <NotFoundPage />,
       },
     ],
+
   },
 ]);
 

@@ -8,11 +8,25 @@ import MOUSlider from "../components/About/MOUSlider";
 import PlacementsSection from "../components/About/PlacementSection";
 import { motion } from "framer-motion";
 import PopUpTimeOut from "../lib/PopUpTimeOut";
+import { getSeoData } from "../lib/seoUtil";
+import { useLocation } from "react-router-dom";
 
 const AboutUs = () => {
   const [showForm, setShowForm] = useState(false);
+  const location = useLocation();
+  const path = location.pathname.slice(1);
+  const seo = getSeoData(path);
 
   return (
+    <>
+    
+    {/* seo tags */}
+    <title>{seo.metaTitle}</title>
+    <meta name="description" content={seo.metaDescription} />
+
+    {/* <meta name="keywords" content={seo.keywords || ''} /> */}
+    
+    {/* content page */}
     <div className="bg-gray-50 dark:bg-slate-900 dark:text-white transition-colors duration-500">
       <PopUpTimeOut />
       <Hero />
@@ -63,6 +77,7 @@ const AboutUs = () => {
         </button>
       </motion.section>
     </div>
+    </>
   );
 };
 

@@ -23,17 +23,29 @@ import TopicsSection from "../components/CourseDetails/TopicsSection";
 import { SafeImage } from "../lib/SafeImage";
 import PopUpTimeOut from "../lib/PopUpTimeOut";
 import TrainingSyllabus from "../components/CourseDetails/TrainingSyllabus";
+import { getSeoData } from "../lib/seoUtil";
 
 function SeoLandingPage() {
   const location = useLocation();
   const navigation = useNavigation();
   const landingPageDetails = useLoaderData() || {};
+    const path = location.pathname.slice(1);
+    const seo = getSeoData(path);
 
   if (navigation.state === "loading") {
     return <AboutCourseSkeleton />;
   }
 
   return (
+    <>
+        
+    {/* seo tags */}
+    <title>{seo.metaTitle}</title>
+    <meta name="description" content={seo.metaDescription} />
+
+    {/* <meta name="keywords" content={seo.keywords || ''} /> */}
+    
+    {/* content page */}
     <div className="relative bg-white dark:bg-gray-900 transition-colors duration-300">
       <PopUpTimeOut />
       {/* Hero/Banner Section */}
@@ -230,6 +242,7 @@ function SeoLandingPage() {
       {/* Contact Us */}
       <ContactUs />
     </div>
+    </>
   );
 }
 

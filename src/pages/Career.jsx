@@ -1,13 +1,13 @@
-import { motion, useMotionValue, useTransform, animate } from "framer-motion";
-import { useRef, useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere } from "@react-three/drei";
-import * as THREE from "three";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Stats from "../components/Career/Stats";
 import { fetchCurrentJobOpenings } from "../api/fetchComponentData";
 import PopUpTimeOut from "../lib/PopUpTimeOut";
 import { SafeImage } from "../lib/SafeImage";
+import { getSeoData } from "../lib/seoUtil";
 
 const FloatingIcons = () => {
   return (
@@ -39,6 +39,9 @@ const FloatingIcons = () => {
 const Career = () => {
   const [jobOpenings, setJobOpenings] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const location = useLocation();
+  const path = location.pathname.slice(1);
+  const seo = getSeoData(path);
 
   // currently one link for each job
   const applyLink = "https://docs.google.com/forms/d/e/1FAIpQLSfbPHZN-JUYskToyWAr4X8MtJNOtkbMnPsdKfNg-MTLHyljhw/viewform?usp=dialog"
@@ -110,6 +113,14 @@ const Career = () => {
   ];
 
   return (
+    <>
+
+    {/* seo tags */}
+    <title>{seo.metaTitle}</title>
+    <meta name="description" content={seo.metaDescription} />
+
+    {/* <meta name="keywords" content={seo.keywords || ''} /> */}
+
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 overflow-x-hidden">
       <PopUpTimeOut />
       {/* Hero Section with 3D Background */}
@@ -603,6 +614,7 @@ const Career = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

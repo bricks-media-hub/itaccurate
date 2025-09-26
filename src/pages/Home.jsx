@@ -77,7 +77,7 @@
 
 
 import React, { useState, memo } from "react";
-import { useNavigation } from "react-router-dom";
+import { useLocation, useNavigation } from "react-router-dom";
 
 // Core UI
 import Loader from "../components/ui/Loader";
@@ -98,6 +98,7 @@ import AlumniMarquee from "../components/HomePage/AlumniMarquee";
 import FeesDetails from "../components/HomePage/FeesDetails";
 import JobPreparation from "../components/HomePage/JobPreparation";
 import ContactUs from "../components/ContactUs/ContactUs";
+import { getSeoData } from "../lib/seoUtil";
 // import NavBar from "../components/HomePage/Navbar/NavBar";
 // import Slider from "../components/HomePage/Slider";
 // import Footer from "../components/HomePage/Footer";
@@ -110,6 +111,9 @@ import ContactUs from "../components/ContactUs/ContactUs";
 function Home() {
   const [activeLocation, setActiveLocation] = useState("nagpur");
   const navigation = useNavigation();
+  const location = useLocation();
+    const path = location.pathname.slice(1);
+    const seo = getSeoData(path);
 
   // Show loader while navigating
   if (navigation.state === "loading") {
@@ -117,6 +121,15 @@ function Home() {
   }
 
   return (
+    <>
+        
+    {/* seo tags */}
+    <title>{seo.metaTitle}</title>
+    <meta name="description" content={seo.metaDescription} />
+
+    {/* <meta name="keywords" content={seo.keywords || ''} /> */}
+    
+    {/* content page */}
     <div className="font-sans">
       {/* Timed Popup */}
       <PopUpTimeOut />
@@ -172,6 +185,7 @@ function Home() {
       {/* <Slider /> */}
       {/* <Footer setSelectedLocation={setSelectedLocation} /> */}
     </div>
+    </>
   );
 }
 

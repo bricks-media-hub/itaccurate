@@ -18,8 +18,13 @@ import { GoogleMap } from "../lib/GoogleMap";
 import { SafeImage } from "../lib/SafeImage";
 import config from "../lib/config";
 import { useNavigate } from "react-router-dom";
+import { getSeoData } from "../lib/seoUtil";
 
 const Contact = () => {
+  const location = useLocation();
+    const path = location.pathname.slice(1);
+    const seo = getSeoData(path);
+
   const {
     register,
     handleSubmit,
@@ -140,6 +145,15 @@ const Contact = () => {
   };
 
   return (
+    <>
+        
+    {/* seo tags */}
+    <title>{seo.metaTitle}</title>
+    <meta name="description" content={seo.metaDescription} />
+
+    {/* <meta name="keywords" content={seo.keywords || ''} /> */}
+    
+    {/* content page */}
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 mt-14">
       <ToastContainer />
 
@@ -744,6 +758,7 @@ const Contact = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 
