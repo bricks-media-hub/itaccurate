@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
-import { FiUsers, FiLayers, FiBriefcase, FiAward } from "react-icons/fi";
+import { useState } from "react";
 import FreeDemoForm from "../../ContactUs/FreeDemoForm";
-import RotatingImages from "./RotatingImages";
 import CompanyLogoGlobe from "./CompanyLogoGlobe";
 import FeatureSection from "./FeatureSection";
 import { SafeImage } from "../../../lib/SafeImage";

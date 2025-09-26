@@ -17,7 +17,7 @@ import {
 import { GoogleMap } from "../lib/GoogleMap";
 import { SafeImage } from "../lib/SafeImage";
 import config from "../lib/config";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { getSeoData } from "../lib/seoUtil";
 
 const Contact = () => {
