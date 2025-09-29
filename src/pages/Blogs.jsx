@@ -14,7 +14,7 @@ function Blogs() {
     {/* seo tags */}
     <title>{seo.metaTitle}</title>
     <meta name="description" content={seo.metaDescription} />
-
+    <link rel="canonical" href={seo.canonicalTag} />
     {/* <meta name="keywords" content={seo.keywords || ''} /> */}
     
     {/* content page */}

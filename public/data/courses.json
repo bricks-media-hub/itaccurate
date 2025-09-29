@@ -98,7 +98,7 @@
                 {
                     "title": "Full Stack Development",
                     "link": "/full-stack-developer"
-                },               
+                },
                 {
                     "title": "Python Full Stack Development",
                     "link": "/python-full-stack"
@@ -117,6 +117,12 @@
                 }
             ],
             "link": "/full-stack-developer"
+        },
+        {
+            "title": "Ethical Hacking",
+            "description": "Defend and Secure",
+            "icon": "/icons/ethical-hacking.svg",
+            "link": "/ethical-hacking"
         },
         {
             "title": "Data Science AI & ML",

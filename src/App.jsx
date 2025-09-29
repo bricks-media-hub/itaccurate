@@ -74,6 +74,7 @@ export const dynamicCourseRoutes = [
   // 'sap-course-in-thane',
   // 'sap-course-in-nagpur',
   // 'sap-fico-course-in-nagpur'
+  "ethical-hacking",
 ];
 
 const landingPageDetails = [

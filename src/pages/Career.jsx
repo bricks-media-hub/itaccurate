@@ -118,7 +118,7 @@ const Career = () => {
     {/* seo tags */}
     <title>{seo.metaTitle}</title>
     <meta name="description" content={seo.metaDescription} />
-
+    <link rel="canonical" href={seo.canonicalTag} />
     {/* <meta name="keywords" content={seo.keywords || ''} /> */}
 
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 overflow-x-hidden">

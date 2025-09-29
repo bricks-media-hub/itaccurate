@@ -24071,6 +24071,515 @@
                     "btncolor": "orange"
                 }
             ]
+        },
+        "ethical-hacking": {
+            "name": "Ethical Hacking",
+            "title": "Best Ethical Hacking & Penetration Testing Course",
+            "bgImage": "/coursesBgImages/ethical-hacking.jpg",
+            "detail": {
+                "paragraph1": "Best Ethical Hacking Training by IT Accurate gives you hands-on, industry-standard penetration testing training for both freshers and experienced professionals. Our program covers offensive security methodologies, real-world exploit development, and defensive countermeasures — all taught by certified security experts. You’ll work on live labs, CTFs and real-world scenarios to build practical skills that recruiters look for, with placement assistance and career mentoring included."
+            },
+            "coveringTopics": [
+                {
+                    "title": "Kali Linux",
+                    "icon": "/icons/Linux.svg"
+                },
+                {
+                    "title": "Nmap",
+                    "icon": "/icons/nmaporg.jfif"
+                },
+                {
+                    "title": "Metasploit",
+                    "icon": "/icons/metasploit.png"
+                },
+                {
+                    "title": "Burp Suite",
+                    "icon": "/icons/burp-suite.png"
+                },
+                {
+                    "title": "Wireshark",
+                    "icon": "/icons/wireshark.png"
+                },
+                {
+                    "title": "Vulnerability Assessment",
+                    "icon": "/icons/sample-research.svg"
+                },
+                {
+                    "title": "Report Writing",
+                    "icon": "/icons/analyze-report.svg"
+                },
+                {
+                    "title": "CTF Challenges",
+                    "icon": "/icons/trophy.svg"
+                }
+            ],
+            "coveringTopics2": [
+                {
+                    "title": "Python for Security",
+                    "icon": "/globeLogos/python.png"
+                },
+                {
+                    "title": "Linux Fundamentals",
+                    "icon": "/icons/Linux.svg"
+                },
+                {
+                    "title": "Web Application Hacking",
+                    "icon": "/icons/webservice.svg"
+                },
+                {
+                    "title": "Network Security",
+                    "icon": "/icons/network.svg"
+                },
+                {
+                    "title": "Mobile App Security",
+                    "icon": "/icons/mobile-acc.svg"
+                },
+                {
+                    "title": "Cloud Security Basics",
+                    "icon": "/icons/cloud.svg"
+                },
+                {
+                    "title": "Reverse Engineering",
+                    "icon": "/icons/recurring.svg"
+                },
+                {
+                    "title": "OSINT",
+                    "icon": "/icons/osint.png"
+                },
+                {
+                    "title": "Docker Security",
+                    "icon": "/icons/docker.svg"
+                },
+                {
+                    "title": "Active Directory Attacks",
+                    "icon": "/icons/advanced-topics.svg"
+                },
+                {
+                    "title": "Exploit Development",
+                    "icon": "/icons/exploit.svg"
+                },
+                {
+                    "title": "SIEM & Logging",
+                    "icon": "/icons/logs.svg"
+                }
+            ],
+            "whatIs": {
+                "name": "Ethical Hacking",
+                "points": [
+                    "Ethical hacking (penetration testing) is the authorized probing of systems to discover and fix security weaknesses before malicious actors exploit them.",
+                    "It helps organisations strengthen their security posture, comply with regulations, and protect sensitive data from breaches.",
+                    "Demand for certified penetration testers, red teamers, and security analysts in India and globally continues to rise as cyber threats grow more sophisticated."
+                ]
+            },
+            "keyFeatures": [
+                {
+                    "text": "200+ Hours Practical Labs",
+                    "icon": "/icons/job-clock.png",
+                    "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')",
+                    "description": "Extensive hands-on labs covering real attack scenarios and defensive techniques."
+                },
+                {
+                    "text": "100% Job Oriented Training",
+                    "icon": "/icons/briefcase.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')",
+                    "description": "Curriculum aligned to employer needs and real penetration testing tasks."
+                },
+                {
+                    "text": "Certified Security Instructors",
+                    "icon": "/icons/help.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=500')",
+                    "description": "Trainers with OSCP/CEH/CREST experience and industry consulting background."
+                },
+                {
+                    "text": "Live Lab Environment",
+                    "icon": "/icons/video.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1545239351-1141bd82e8a6?q=80&w=500')",
+                    "description": "Isolated cloud labs to practice network, web, mobile and cloud attacks."
+                },
+                {
+                    "text": "Capture The Flag (CTF)",
+                    "icon": "/icons/batch.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=500')",
+                    "description": "Regular CTFs to sharpen offensive and defensive skills under pressure."
+                },
+                {
+                    "text": "Certification Guidance",
+                    "icon": "/icons/certificate.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=500')",
+                    "description": "Help with preparing for CEH, OSCP and other industry certifications."
+                }
+            ],
+            "roadMap": [
+                {
+                    "title": "Introduction & Ethics",
+                    "description": "Foundations, rules of engagement and legal considerations",
+                    "icon": "/icons/closed-book.svg",
+                    "items": [
+                        "What is ethical hacking?",
+                        "Types of hackers and legal/ethical guidelines",
+                        "Responsible disclosure and scope definition",
+                        "Penetration testing methodology (PTES / OWASP)"
+                    ],
+                    "color": "from-indigo-500 to-blue-600"
+                },
+                {
+                    "title": "Reconnaissance & OSINT",
+                    "description": "Gathering public information and mapping targets",
+                    "icon": "/icons/search-scope.svg",
+                    "items": [
+                        "Footprinting and information gathering",
+                        "OSINT tools and techniques",
+                        "Subdomain enumeration and WHOIS",
+                        "Shodan, Censys and public leaks"
+                    ],
+                    "color": "from-green-500 to-teal-600"
+                },
+                {
+                    "title": "Scanning & Enumeration",
+                    "description": "Identify live hosts, open ports and services",
+                    "icon": "/icons/analyze-report.svg",
+                    "items": [
+                        "Port scanning with Nmap",
+                        "Service and version detection",
+                        "Vulnerability scanning basics",
+                        "Banner grabbing and fingerprinting"
+                    ],
+                    "color": "from-yellow-500 to-orange-600"
+                },
+                {
+                    "title": "Web Application Attacks",
+                    "description": "OWASP Top 10 and exploitation of web flaws",
+                    "icon": "/icons/brain.svg",
+                    "items": [
+                        "SQL Injection, XSS, CSRF",
+                        "Authentication & session vulnerabilities",
+                        "Insecure deserialization and file upload flaws",
+                        "Using Burp Suite for workflow interception"
+                    ],
+                    "color": "from-red-500 to-pink-600"
+                },
+                {
+                    "title": "Network & Wireless Attacks",
+                    "description": "Attacking network infrastructure and Wi-Fi",
+                    "icon": "/icons/group-chat.svg",
+                    "items": [
+                        "ARP poisoning, MITM and sniffing with Wireshark",
+                        "Exploiting router misconfigurations",
+                        "Wireless security: WEP/WPA attacks",
+                        "VPN and remote access vulnerabilities"
+                    ],
+                    "color": "from-purple-500 to-pink-600"
+                },
+                {
+                    "title": "Post-Exploitation & Privilege Escalation",
+                    "description": "Maintaining access and moving laterally",
+                    "icon": "/icons/recurring.svg",
+                    "items": [
+                        "Windows & Linux privilege escalation",
+                        "Kerberos & Active Directory attacks",
+                        "Persistence mechanisms and cleanup",
+                        "Lateral movement techniques"
+                    ],
+                    "color": "from-teal-500 to-green-600"
+                },
+                {
+                    "title": "Reverse Engineering & Exploit Dev",
+                    "description": "Analyze binaries and craft exploits",
+                    "icon": "/icons/closed-book.svg",
+                    "items": [
+                        "Basics of assembly and debuggers",
+                        "Static & dynamic analysis",
+                        "Buffer overflows and ROP basics",
+                        "Developing proof-of-concept exploits"
+                    ],
+                    "color": "from-gray-500 to-blue-600"
+                },
+                {
+                    "title": "Reporting & Remediation",
+                    "description": "Clear vulnerability reports and mitigation steps",
+                    "icon": "/icons/resume-prep.svg",
+                    "items": [
+                        "Writing professional pentest reports",
+                        "Risk rating and CVSS",
+                        "Prioritization and remediation guidance",
+                        "Presentation to stakeholders"
+                    ],
+                    "color": "from-indigo-500 to-blue-600"
+                }
+            ],
+            "trainingSyllabus": [
+                {
+                    "name": "Ethical Hacking"
+                },
+                {
+                    "title": "Introduction to Cyber Security & Linux",
+                    "subpoints": [
+                        "Overview of cybersecurity",
+                        "Setting up Kali Linux",
+                        "Linux basics and shell commands",
+                        "File permissions and processes",
+                        "Networking fundamentals (TCP/IP, DNS, HTTP)",
+                        "SSH, SFTP and secure administration"
+                    ],
+                    "color": "bg-blue-500",
+                    "icon": "/icons/Linux.svg",
+                    "description": "Foundational OS and networking skills required for penetration testing"
+                },
+                {
+                    "title": "Reconnaissance & OSINT",
+                    "subpoints": [
+                        "Open source intelligence (OSINT) techniques",
+                        "Using tools: Recon-ng,theHarvester, Google dorking",
+                        "Subdomain enumeration and scraping",
+                        "Social engineering basics"
+                    ],
+                    "color": "bg-green-500",
+                    "icon": "/icons/search-scope.svg",
+                    "description": "Information gathering to build a target profile"
+                },
+                {
+                    "title": "Scanning & Vulnerability Assessment",
+                    "subpoints": [
+                        "Nmap scanning techniques",
+                        "Vulnerability scanners (OpenVAS, Nessus basics)",
+                        "Interpreting scan results",
+                        "Prioritizing findings"
+                    ],
+                    "color": "bg-purple-500",
+                    "icon": "/icons/sample-research.svg",
+                    "description": "Detecting weaknesses in networks and services"
+                },
+                {
+                    "title": "Web Application Security",
+                    "subpoints": [
+                        "OWASP Top 10 deep dive",
+                        "SQL Injection exploitation and prevention",
+                        "Cross-Site Scripting (XSS) types and fixes",
+                        "Authentication flaws and session management",
+                        "Using Burp Suite for manual testing"
+                    ],
+                    "color": "bg-orange-500",
+                    "icon": "/icons/webservice.svg",
+                    "description": "Identify and exploit web vulnerabilities and secure them"
+                },
+                {
+                    "title": "Network & Wireless Hacking",
+                    "subpoints": [
+                        "Packet capture and analysis with Wireshark",
+                        "Man-in-the-Middle (MITM) attacks",
+                        "ARP spoofing and network pivoting",
+                        "Wireless attacks: WEP/WPA cracking"
+                    ],
+                    "color": "bg-yellow-500",
+                    "icon": "/icons/network.svg",
+                    "description": "Attacking and defending network infrastructure"
+                },
+                {
+                    "title": "Post Exploitation & Active Directory",
+                    "subpoints": [
+                        "Maintaining access and pivoting",
+                        "Windows internals for pentesters",
+                        "Kerberos attacks and AD enumeration",
+                        "Exfiltration techniques"
+                    ],
+                    "color": "bg-red-500",
+                    "icon": "/icons/advanced-topics.svg",
+                    "description": "Techniques used after initial compromise to escalate and persist"
+                },
+                {
+                    "title": "Reverse Engineering & Malware Analysis",
+                    "subpoints": [
+                        "Static vs dynamic analysis",
+                        "Using Ghidra / IDA / Radare",
+                        "Basic malware behavior analysis",
+                        "Obfuscation and packing"
+                    ],
+                    "color": "bg-indigo-500",
+                    "icon": "/icons/recurring.svg",
+                    "description": "Understanding binary behaviour and analyzing malicious code"
+                },
+                {
+                    "title": "Exploit Development & Automation",
+                    "subpoints": [
+                        "Scripting with Python for automation",
+                        "Metasploit framework",
+                        "Writing reliable exploits",
+                        "Building custom tools"
+                    ],
+                    "color": "bg-teal-500",
+                    "icon": "/icons/metasploit.png",
+                    "description": "Practical exploit writing and tool development"
+                },
+                {
+                    "title": "Cloud & Container Security (Bonus)",
+                    "subpoints": [
+                        "Cloud security basics (AWS/GCP)",
+                        "Container security and Docker misconfigurations",
+                        "Cloud attack vectors and mitigations"
+                    ],
+                    "color": "bg-gray-500",
+                    "icon": "/icons/cloud.svg",
+                    "description": "Security considerations for modern infrastructure"
+                },
+                {
+                    "title": "End to End Penetration Testing Project",
+                    "subpoints": [
+                        "Scoping, reconnaissance, exploitation, post-exploitation and reporting"
+                    ],
+                    "color": "bg-green-600",
+                    "icon": "/icons/trophy.svg",
+                    "description": "Complete real-world pentest from start to finish"
+                }
+            ],
+            "faqs": [
+                {
+                    "question": "What is ethical hacking?",
+                    "answer": "Ethical hacking is the authorized practice of probing systems to discover security weaknesses and help organisations fix them before malicious hackers exploit them."
+                },
+                {
+                    "question": "Do I need programming knowledge?",
+                    "answer": "Basic scripting (Python, Bash) helps a lot. Many tools are available, but being able to script and automate tests makes you a stronger pentester."
+                },
+                {
+                    "question": "Which certifications will I be prepared for?",
+                    "answer": "This course prepares you for certifications such as CEH, OSCP (with additional focused practice), CompTIA Pentest+, and vendor/cloud certs."
+                },
+                {
+                    "question": "Can beginners join?",
+                    "answer": "Yes — we cover fundamentals like Linux and networking first, then progress to intermediate and advanced topics with guided labs."
+                },
+                {
+                    "question": "Are labs real-world?",
+                    "answer": "Yes — labs mimic real environments (web apps, networks, AD domains, containers) to give hands-on, practical experience."
+                },
+                {
+                    "question": "Will I learn web app hacking?",
+                    "answer": "Absolutely — the syllabus includes OWASP Top 10, manual exploitation, and using Burp Suite for advanced testing."
+                },
+                {
+                    "question": "Is placement assistance provided?",
+                    "answer": "Yes — we provide resume feedback, mock interviews, employer introductions and placement guidance."
+                },
+                {
+                    "question": "Do you teach reporting?",
+                    "answer": "Yes — professional pentest report writing, risk ratings and remediation guidance are part of the course."
+                },
+                {
+                    "question": "How can I practice after the course?",
+                    "answer": "We provide ongoing lab access, CTF challenges and project templates to continue practicing and building a portfolio."
+                }
+            ],
+            "projects": [
+                {
+                    "icon": "/icons/ethical-hacking.svg"
+                },
+                {
+                    "title": "Web Application Pentest",
+                    "detail": "Complete assessment of a multi-tier web application including SQLi, XSS, auth bypass and business logic flaws.",
+                    "image": "https://plus.unsplash.com/premium_photo-1677093906033-dc2beb53ace3?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                },
+                {
+                    "title": "Network Penetration Test",
+                    "detail": "Full network discovery, exploitation of misconfigurations and lateral movement in an enterprise lab.",
+                    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&q=80"
+                },
+                {
+                    "title": "Mobile App Security Assessment",
+                    "detail": "Static and dynamic analysis of Android/iOS app, identifying insecure storage, weak crypto and API issues.",
+                    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=500&q=80"
+                },
+                {
+                    "title": "Active Directory Attack Simulation",
+                    "detail": "AD enumeration, Kerberos attacks, and privilege escalation in a simulated corporate domain.",
+                    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=500&q=80"
+                },
+                {
+                    "title": "IoT Device Security",
+                    "detail": "Assessing firmware, web interfaces and network services of an IoT device to find vulnerabilities.",
+                    "image": "https://plus.unsplash.com/premium_photo-1663054919747-d237d710c70e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+            ],
+            "reviews": [
+                {
+                    "name": "Rahul DESHPANDE",
+                    "review": "The Ethical Hacking course at IT Accurate was a game changer. The labs were realistic and the instructors explained complex exploits clearly. Highly recommended.",
+                    "image": "https://images.unsplash.com/photo-1655375055526-dba4d0f2466d?q=80&w=771&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    "role": "Security Analyst"
+                },
+                {
+                    "name": "Pooja KUMARI",
+                    "review": "Practical approach and constant lab practice helped me crack a security analyst role. The placement support was also valuable.",
+                    "image": "https://images.unsplash.com/photo-1750008559378-3f4b60a6b81b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fGluZGlhbiUyMHN0dWRlbnQlMjBnaXJsJTIwZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Junior Penetration Tester"
+                },
+                {
+                    "name": "Aman GUPTA",
+                    "review": "Excellent course structure and real world scenarios. Trainers are experienced and always available to help with lab problems.",
+                    "image": "https://images.unsplash.com/photo-1698356253803-838dceb68946?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    "role": "Red Team Intern"
+                },
+                {
+                    "name": "Sneha RATHODE",
+                    "review": "Loved the capture the flag sessions and project based learning. Gave me confidence to attempt OSCP style labs later.",
+                    "image": "https://images.unsplash.com/photo-1706943262473-fc393f495501?q=80&w=886&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    "role": "Security Engineer"
+                }
+            ],
+            "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Industry Recognised Certification",
+                    "description": "Complete the course to get an IT Accurate certification recognised by our industry partners."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Career Advantage",
+                    "description": "Practical skills and a project portfolio that help you stand out for security roles."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "Certification Guidance",
+                    "description": "We provide mentorship and exam strategies for CEH, OSCP and other security certifications."
+                }
+            ],
+            "JobOpenings": [
+                {
+                    "profession": "Penetration Tester",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/job-name",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Security Analyst",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Application Security Engineer",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Red Team Operator",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Security Consultant",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Vulnerability Researcher",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/job-name",
+                    "btncolor": "orange"
+                }
+            ]
         }
     }
 }

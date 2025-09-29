@@ -62,7 +62,7 @@ const OfferLetters = ({ letters = [], reviews = [] }) => {
                   >
                     <div>
                       <SafeImage
-                        src={student?.image}
+                        src={student?.image || "/icons/profile-user.svg"}
                         alt={student?.name || "Student"}
                         className="flex-shrink-0 w-20 h-20 sm:w-28 sm:h-28 rounded-full border-2 border-blue-500 object-cover cursor-pointer"
                         draggable={false}
