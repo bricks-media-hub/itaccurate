@@ -578,7 +578,7 @@ const handleCloseMenuDropdown = () => {
     {
       name: "Blog",
       icon: <SafeImage src="/icons/blog.svg" alt="blog" />,
-      path: "/blog",
+      path: "/blogs",
     },
     {
       name: "Placements",

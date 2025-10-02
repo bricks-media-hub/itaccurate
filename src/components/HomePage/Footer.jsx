@@ -256,7 +256,7 @@ const Footer = ({ activeLocation, setActiveLocation }) => {
     { label: "Home", to: "/" },
     { label: "Courses", to: "#training-courses", hasDropdown: true },
     { label: "About", to: "/about-us" },
-    { label: "Blogs", to: "/blog" },
+    { label: "Blogs", to: "/blogs" },
     { label: "Contact", to: "/contact" },
   ];
 

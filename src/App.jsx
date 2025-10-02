@@ -24,6 +24,7 @@ import ProtectedRoute from "./ProtectedRoute/SeoProtected";
 import SeoLandingPage from "./pages/SeoLandingPage";
 import ContactSuccessful from "./lib/ContactSuccessful";
 import { fetchSeoLandingPageDetails } from "./api/fetchSeoData";
+import BlogDetail from "./components/Blogs/BlogDetail";
 
 export const dynamicCourseRoutes = [
   "salesforce-training",
@@ -117,10 +118,36 @@ const router = createBrowserRouter([
         path: "/about-us",
         element: <AboutUs />,
       },
+
+
+// Blog Section starts here
+/**
+ * NOTE: ************************************************ READ IT CAREFULLY ****************************************************
+ * This blog section is currently static and does NOT use any backend or dynamic data fetching.
+ *
+ * - Blog landing page cards uses data from:
+ *   Location: src/data/blogCardDetails.js
+ * 
+ * - Blog details page uses data from:
+ *   Location: src/data/blogs.js
+ *
+ * FUTURE IMPROVEMENT:
+ * Once backend integration is available, replace this static data with API calls 
+ * to fetch blog content dynamically. This will allow real-time updates, scalability, 
+ * and content management without code changes.
+ */
+
       {
-        path: "/blog",
+        path: "/blogs",
         element: <Blogs />,
       },
+      {
+        path: "/blog/:id",
+        element: <BlogDetail />,
+      },
+// Blog section ends here
+
+
       {
         path: "/contact",
         element: <Contact />,

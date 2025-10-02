@@ -135,7 +135,7 @@ const useSearchLogic = () => {
       { title: 'Terms',  route: '/terms',         keywords: ['terms','terms of service'] },
       { title: 'Jobs',   route: '/jobs-openings', keywords: ['jobs','job openings','careers','openings'] },
       { title: 'Placed', route: '/placed',        keywords: ['placements','placed students','placement'] },
-      { title: 'Blog',   route: '/blog',          keywords: ['blog','news','articles'] },
+      { title: 'Blog',   route: '/blogs',          keywords: ['blog','news','articles'] },
       // …then all your courses + submenus
     ];
 
