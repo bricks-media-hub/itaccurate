@@ -209,7 +209,7 @@ export default function Blogs() {
                     </div>
 
                     <Link
-                      to={`/blog/${post.id}`}
+                      to={`/blog/${post.slug}`}
                       className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-semibold bg-blue-600 hover:bg-blue-700 text-white shadow-lg shadow-blue-500/25 dark:shadow-blue-900/25 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/30 hover:-translate-y-0.5 group/btn"
                     >
                       Read

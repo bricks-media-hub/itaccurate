@@ -1,7 +1,275 @@
+import ReactMarkdown from 'react-markdown';
+// src/utils/slugify.js
+export function slugify(text) {
+  return text
+    .toString()
+    .toLowerCase()
+    .trim()
+    .replace(/['"]/g, "")          // remove quotes
+    .replace(/[^a-z0-9]+/g, "-")   // replace non-alphanum with dashes
+    .replace(/(^-|-$)/g, "");      // remove leading/trailing dash
+}
+
+
 export const blogs = [
+  
+{
+ id: 4,
+    title: "How Much Will Data Analytics Professionals Earn in 2026? Salary Insights & Predictions ",
+    excerpt:
+      "Think about the apps you use daily - Netflix recommending what to watch ",
+      slug: 'how-much-will-data-analytics-professionals-earn-in-2006-salary-insigths-predictions',
+    author: "IT Accurate",
+    
+    date: "oct 20, 2025",
+    tag: "SAP Professionals",
+    readTime: "8 min read",
+    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870",
+    content: `How Much Will Data Analytics Professionals Earn in 2026? Salary Insights & Predictions' 
+
+## Why Everyone is Talking About Data Analytics Careers
+
+Think about the apps you use daily - Netflix recommending what to watch, Amazon showing “frequently bought together,” or Google Maps suggesting the fastest route. All these smart suggestions are powered by data analytics.
+
+
+Now imagine being the expert behind these systems - analysing data, forecasting trends, and helping companies make high-value decisions. That’s exactly why data analytics professionals are in high demand today - and their salary growth by 2026 looks extremely promising
+
+If you're considering a career in this field or planning to upskill, understanding the future salary scope in data analytics will help you make a smarter decision.
+
+
+## Data Analytics Career Growth in 2026 – What to Expect 
+
+Companies across industries like finance, healthcare, e-commerce, IT, logistics, retail, and digital marketing are investing heavily in data teams. And this demand directly impacts salaries.
+
+
+
+### Expected Salary Range for Data Analytics Roles in 2026
+
+
+
+## Why Data Analytics Salaries Are Rising So Fast
+### 1. Data is the New Currency
+Businesses are using data to make faster, more accurate decisions. This increases the demand - and salary - of skilled analysts.
+
+### 2. Skill Gap = Higher Pay
+There are thousands of job openings, but very few professionals with hands-on skills in tools like Python, SQL, Power BI, Tableau, and Machine Learning.
+
+### 3. Remote & Global Hiring
+By 2026, companies will hire talent globally-allowing Indian professionals to earn international packages while working from home.
+
+## Skills That Can Boost Your Salary by 2026
+To be among top-earning data analytics professionals, focus on building expertise in:
+###  Essential Technical Skills
+
+- SQL & Advanced Excel
+
+- Python or R Programming
+
+- Power BI / Tableau Dashboards
+
+- Data Cleaning & Visualization
+
+- Machine Learning Basics
+
+### Bonus Skills That Increase Salary
+
+- Cloud Analytics (AWS, Azure)
+
+- AI & Automation tools
+
+- NLP & Predictive Modelling
+
+- Big Data Platforms
+
+## How Training & Certification Can Increase Your Salary Potential
+
+A recognized data analytics certification and hands-on project training can help you:
+
+- Negotiate a higher salary package
+
+- Stand out in job interviews
+
+- Apply for international remote roles
+
+- Build confidence with real-world projects
+
+
+ Whether you're a fresher or working professional, getting structured training from a reputed institute like IT Accurate can fast-track your salary growth before 2026.
+
+## Top Career Paths with High Salary Growth by 2026
+
+- Data Analyst
+
+- Business Intelligence Analyst
+
+- Data Scientist
+
+- Analytics Consultant
+
+- Machine Learning Analyst
+
+- Data Visualization Specialist
+
+Pro Tip: Start as a Data Analyst → gain experience → transition to Data Scientist or Analytics Manager roles for a significant salary boost.
+
+## Conclusion: The Future of Data Analytics Salaries is Bright
+
+
+By 2026, data professionals will be among the highest-paid tech experts, with salaries growing rapidly due to global demand.
+
+ If you've been thinking about entering this field, now is the best time. With the right skills, certification, and project experience, your earning potential can easily double or even triple in the next few years.
+
+
+🚀 Your journey to a high-paying data analytics career starts today. Want me to add a Call to Action or training recommendation section for IT Accurate at the end?
+
+
+`,
+ 
+ insertTableAfter: [8],
+
+    // tables array must match the above length: tables[0] goes after block 5, tables[1] after block 7
+    tables: [
+      // Table 1 (appears after block 5)
+      [
+        { Role : "Junior Data Analyst", ExpectedSalaryIn2026India : "₹6-8 LPA", ExpectedSalaryIn2026Global: "$60,000 - $75,000" },
+        { Role : "Data Analyst / BI Analyst", ExpectedSalaryIn2026India : "₹10-14 LPA", ExpectedSalaryIn2026Global: "$80,000 – $98,000" },
+        { Role : "Senior Data Analyst", ExpectedSalaryIn2026India : "₹14–20 LPA", ExpectedSalaryIn2026Global: "$100,000 – $120,000" },
+        { Role : "Data Scientist", ExpectedSalaryIn2026India : "₹18-28 LPA", ExpectedSalaryIn2026Global: "₹18-28 LPA" },
+        { Role : "Analytics Manager / Consultant", ExpectedSalaryIn2026India : "₹25–40 LPA", ExpectedSalaryIn2026Global: "$150,000+" },
+      
+      ],
+
+      
+    ],
+
+    
+},
+
+
+
+   {
+    
+    id: 3,
+    title: "What Is the Salary Range for SAP Professionals?",
+    excerpt:
+      "Think about how global companies like Reliance, Tata, Amazon, BMW, and Coca-Cola manage their finance, inventory, HR, sales, and supply chain ",
+      slug: 'what-is-salary-range-sap-professionals',
+    author: "IT Accurate",
+    
+    date: "oct 10, 2025",
+    tag: "SAP Professionals",
+    readTime: "8 min read",
+    img: "https://plus.unsplash.com/premium_photo-1661335260175-5735a1d487e1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870",
+    content: `What Is the Salary Range for SAP Professionals? 
+
+## Introduction
+
+Think about how global companies like Reliance, Tata, Amazon, BMW, and Coca-Cola manage their finance, inventory, HR, sales, and supply chain — all from one unified system. This seamless business management is powered by SAP – one of the world’s most powerful ERP (Enterprise Resource Planning) platforms.
+
+With over 400,000 companies using SAP globally, skilled SAP professionals are in high demand across IT, manufacturing, finance, logistics, retail, and consulting sectors.
+
+Now here’s the exciting part — SAP professionals are among the highest-paid tech experts in the industry. Whether you’re a fresher or an experienced professional planning to upskill, understanding the salary structure of SAP roles can help you choose the right path.
+
+
+## SAP Salary Range in India & Abroad – 2025 Insights 
+
+SAP offers multiple career tracks based on modules like SAP FICO (Finance), SAP MM (Material Management), SAP HR/HCM, SAP SD (Sales & Distribution), SAP ABAP (Technical), SAP PP (Production Planning) and more. Each module comes with high-paying career opportunities.
+
+
+
+### Average SAP Salary Abroad (Global Opportunities)
+
+High Potential: SAP consultants often receive onsite project opportunities, making it one of the best-paying global IT career paths.
+
+### SAP Functional vs Technical — Which One Pays More?
+There are two major categories in SAP careers:
+SAP Functional Modules (Non-Coding)
+Best for graduates from Commerce, Finance, Business, Operations, HR, Supply Chain backgrounds.
+
+
+### High-paying modules include:
+-SAP FICO (Finance)
+-SAP MM (Materials Management)
+-SAP SD (Sales & Distribution)
+-SAP HR/HCM (Human Resources)
+
+
+
+
+### SAP Technical Modules (Coding/Development)
+Best suited for IT, Computer Science, and Engineering graduates.
+### High-paying modules include:
+
+-SAP ABAP (Programming)
+-SAP Basis / Security
+-SAP BI/HANA (Analytics)
+-SAP Fiori/UI5 (Interface Design)
+
+Both paths offer excellent salary growth. Freshers in SAP FICO or ABAP can start at ₹5–7 LPA and quickly move to ₹12–15 LPA within 3–4 years.
+
+
+### Factors That Affect SAP Salary Growth
+Your salary as an SAP professional depends on:
+
+-Module Selection (FICO, MM, ABAP, HANA are top-paying)
+-Industry (Manufacturing, FMCG, Finance & IT pay the highest)
+-Practical Project Experience
+-SAP Certification (Globally Recognized = Higher Salary Offers)
+-Ability to Handle Client Projects & Implementations
+
+
+## How Certification & Training Can Boost Your SAP Salary 
+
+In SAP careers, certified professionals earn 30-40% more than non-certified candidates.
+ A structured SAP training with live projects, implementation scenarios, and certification guidance can help you:
+
+ -Secure better salary packages
+ -Get shortlisted faster in interviews
+ -Apply for international SAP roles
+-Build confidence for client-facing consulting roles
+
+
+
+## Conclusion: A High-Paying Future with SAP Careers
+
+
+Whether you’re a fresher, working professional, or switching career domains, SAP offers one of the fastest salary growth paths in the tech and business world.
+
+With increasing global adoption and digital transformation trends, SAP consultants will continue to be among the top earners by 2025 and beyond.
+
+Your SAP journey could be the turning point in your career — with high salaries, global exposure, and long-term stability.
+
+
+`,
+ 
+ insertTableAfter: [7, 8],
+
+    // tables array must match the above length: tables[0] goes after block 5, tables[1] after block 7
+    tables: [
+      // Table 1 (appears after block 5)
+      [
+        { ExperienceLevel : "Fresher / 0-2 Years", Role: "SAP Support / SAP Associate Consultant", AverageSalaryRangeIndia: "₹4.5 LPA – ₹6.5 LPA" },
+       { ExperienceLevel : "2-5 Years", Role: "SAP Consultant (Module Specialist)", AverageSalaryRangeIndia: "₹7 LPA – ₹12 LPA" },
+       { ExperienceLevel : "5-8 Years", Role: "Senior SAP Functional/Technical Consultant", AverageSalaryRangeIndia: "₹12 LPA – ₹18 LPA" },
+       { ExperienceLevel : "8+ Years", Role: "SAP Lead / SAP Project Manager", AverageSalaryRangeIndia: "₹18 LPA – ₹30+ LPA" },
+      ],
+
+      // Table 2 (appears after block 7)
+      [
+        { Country: "USA", AverageSAPSalaryAnnual: "$100,000 – $140,000" },
+        { Country: "UAE / Dubai", AverageSAPSalaryAnnual: "AED 180,000 – AED 300,000" },
+        { Country: "Germany (SAP Headquarters market)", AverageSAPSalaryAnnual: "€70,000 – €110,000" },
+        { Country: "Australia", AverageSAPSalaryAnnual: "AUD 110,000 – AUD 150,000" },
+
+      ],
+    ],
+
+    
+},
   {
     id: 2,
     title: "Data Analytics in 2025: Your Guide to a Future-Proof Career",
+    slug: 'data-analytics-in-2025-your-guide-to-a-future-proof-career',
     excerpt:
       "The demand for data analysts is exploding. Learn why this skill is essential and how to build a high-growth career.",
     author: "IT Accurate",
@@ -187,6 +455,7 @@ Don't wait for the future to arrive. Create it. Start your Data Analytics journe
     title: "Why 2025 is the Year to Launch Your SAP Career in India",
     excerpt:
       "Explore the expanding scope of SAP, from S/4HANA migrations to AI integration, and why now is the time to skill up.",
+      slug: 'why-2025-is-the-year-to-launch-your-sap-career-in-india',
     author: "IT Accurate",
     date: "Sep 15, 2025",
     tag: "SAP",
