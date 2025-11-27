@@ -48,6 +48,7 @@ export default function ReachUsForm() {
     "HR Training",
     "Share Market",
     "Data Engineering",
+    "Cyber Security",
   ];
 
   const onSubmit = async (data) => {
@@ -62,6 +63,7 @@ export default function ReachUsForm() {
           from_name: "IT Accurate",
           ...data,
           recipient_email: "shivanihiware77@gmail.com",
+          cc: "dme.bricksmedia@gmail.com",
         },
         {
           headers: {

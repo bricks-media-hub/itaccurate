@@ -44,6 +44,7 @@ const ContactUs = ({ location = "Nagpur" }) => {
     "ServiceNow",
     "HR Training",
     "Share Market",
+      "Cyber Security",
   ];
 
   // Handle location changes from hash
@@ -87,6 +88,7 @@ const ContactUs = ({ location = "Nagpur" }) => {
           from_name: "IT Training",
           ...data,
           recipient_email: "shivanihiware77@gmail.com",
+          cc: "dme.bricksmedia@gmail.com",
         },
         {
           headers: {

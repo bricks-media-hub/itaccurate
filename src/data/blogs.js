@@ -14,6 +14,474 @@ export function slugify(text) {
 export const blogs = [
   
 {
+ id: 6,
+    title: "Python Developer Salary in India 2025: How IT Accurate Helps You Earn More  ",
+    excerpt:
+      "In the ever-evolving world of technology, one language has quietly — and powerfully — taken over the programming landscape: Python.",
+      slug: 'python-developer-salary-in-india-2025-how-it-accurate-helps-you-earn-more',
+    author: "IT Accurate",
+    
+    date: "oct 28, 2025",
+    tag: "Python Developer",
+    readTime: "8 min read",
+    img: "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870",
+    content: `Python Developer Salary in India 2025: How IT Accurate Helps You Earn More  ' 
+
+## The Rise of Python and Its Career Potential
+
+In the ever-evolving world of technology, one language has quietly — and powerfully — taken over the programming landscape: Python. Whether you’re analysing massive datasets, building web applications, automating workflows, or designing machine-learning models, Python is at the heart of it all.
+
+
+Over the last decade, Python has transformed from a “beginner’s language” into one of the most valuable professional skill sets in the world. It powers giants like Google, Netflix, YouTube, and NASA — and closer home, thousands of Indian startups and tech firms rely on Python developers to build scalable, data-driven systems.
+
+
+With such widespread adoption, the Python Developer Salary in India has surged — and 2025 is no exception. The average pay for Python professionals continues to rise as companies compete for skilled talent capable of turning code into business solutions.
+
+At IT Accurate, we believe Python isn’t just a language — it’s a gateway to opportunity. This blog explores the latest Python Developer Salary trends in India for 2025, what drives these numbers, and how the proper training and mentorship at IT Accurate can help you earn more, grow faster, and stand out in the competitive tech market.
+
+
+## Why Python Is So Popular in 2025
+
+Python’s popularity isn’t accidental — it’s the result of its simplicity, flexibility, and universality.
+
+## Here’s why it remains a developer favourite in 2025:
+
+### Easy to Learn, Hard to Outgrow:
+Python’s clean syntax and readability make it perfect for beginners, yet it’s powerful enough for advanced applications like artificial intelligence and cloud automation.
+
+
+### One Language, Many Domains:
+
+From web development (using Django or Flask) to data analysis, AI, machine learning, and automation, Python fits everywhere. This multi-domain usability keeps demand — and salaries — high.
+
+### Vast Community and Resources: 
+Python’s global community ensures continuous innovation and support. It’s easier to find tools, frameworks, and mentors — something IT Accurate leverages through its guided learning ecosystem.
+
+### Adoption by Major Industries:
+
+Top sectors — fintech, e-commerce, healthcare, and IT — rely heavily on Python for analytics, automation, and backend development. This creates thousands of high-paying roles for skilled developers each year.
+Because of all this, Python Developer Salaries in India are among the most competitive in the tech world. Let’s see exactly how they look in 2025.
+
+
+
+## Python Developer Salary in India 2025: Updated Insights
+If you’re wondering, “What’s the average Python Developer Salary in India in 2025?” — the answer depends on several factors, but the numbers are impressive across the board.
+
+ ### Let’s break it down. 
+### 1. Salary by Experience Level
+
+At IT Accurate, we’ve consistently seen our Python graduates command higher starting salaries than market averages, thanks to their strong foundation, practical experience, and industry-ready portfolio.
+
+### 2. Salary by Location
+
+Just like in most tech fields, location influences your pay.
+Here’s how Python Developer Salaries vary across India:
+
+- Bangalore: ₹9 – ₹20 LPA — India’s Silicon Valley, home to startups and global tech companies.
+- Mumbai: ₹8 – ₹16 LPA — thriving in fintech, media, and data-driven roles.
+- Pune: ₹7 – ₹14 LPA — strong IT and SaaS ecosystem.
+- Hyderabad: ₹8 – ₹15 LPA — booming in AI and automation domains.
+- Delhi NCR: ₹7 – ₹13 LPA — excellent for analytics and corporate tech jobs.
+- Chennai & Kochi: ₹6 – ₹12 LPA — growing hubs for backend and automation work.
+However, remote and hybrid work has changed the game — a Python developer trained at IT Accurate in Thane or Nagpur can work for companies anywhere in the world. That means location no longer limits your salary potential.
+
+
+### 3. Salary by Role
+Python opens doors to multiple roles, each with its own salary range:
+
+
+The takeaway? The more specialised your Python skills, the higher your earning power.
+At IT Accurate, we ensure you gain both core programming expertise and specialised domain knowledge, giving you the edge in every role.
+
+## Factors That Influence a Python Developer's Salary
+Your salary as a Python professional isn’t fixed — a variety of factors shape it. Here’s what matters most and how IT Accurate helps you improve each one:
+
+### 1. Experience and Skill Mastery
+Naturally, the more experience you have, the more you earn. But what really matters is how you use that experience.
+Employers value developers who can build scalable applications, debug efficiently, and integrate systems seamlessly.
+
+At IT Accurate, you’ll learn not just syntax — but real-world development skills, including:
+
+- Django, Flask, REST APIs
+- Object-oriented programming (OOP)
+- Database management (MySQL, MongoDB)
+- Version control (Git, GitHub)
+- Cloud deployment basics (AWS, Azure)
+
+### 2. Industry and Company Type
+Startups, product-based companies, and tech giants offer different pay scales. Startups often provide rapid learning and decent pay growth; MNCs offer stability and higher packages for specialised roles.
+
+IT Accurate’s career mentors help you identify the right industry path based on your strengths and career goals — whether you aim for high growth or job security.
+
+### 3. Certifications and Education
+While a degree helps, practical certification from a reputed institute like IT Accurate is what recruiters trust. It signals hands-on skill.
+Our certifications are industry-recognised and aligned with real employer expectations, adding tangible value to your resume.
+
+### 4. Project Experience and Portfolio
+The secret to a high Python Developer Salary? Projects.
+Employers look for proof of skill — and that comes from live projects, GitHub portfolios, and problem-solving experience.
+
+That’s why every IT Accurate student builds multiple end-to-end projects:
+
+- Web apps
+- APIs
+- Automation tools
+- Machine-learning prototypes
+
+These projects serve as professional evidence of your capability — boosting your salary prospects immediately.
+
+### 5. Communication and Soft Skills
+Python developers don’t work in isolation. Collaboration, presentation, and communication skills influence your growth and promotions.
+IT Accurate includes soft-skill training, interview simulations, and career workshops to make sure you’re confident — not just competent.
+
+## How IT Accurate Helps You Earn a Higher Python Developer Salary
+Here’s where IT Accurate truly stands out. We don’t just teach you how to code — we prepare you for a career that pays well and grows fast.
+
+## Here’s how we help you build real earning power:
+### 1. Industry-Aligned Curriculum
+Our Python Developer Program is designed in collaboration with working professionals and recruiters.
+You’ll learn exactly what employers demand — from Python basics to advanced frameworks like Django, Flask, and RESTful APIs, plus integration with databases, deployment, and cloud.
+
+Each module builds on practical application, not theory.
+That’s why IT Accurate graduates start job-ready and often negotiate salaries higher than peers from purely academic programs.
+
+### 2. Hands-On, Project-Based Learning
+Learning by doing is the fastest way to mastery.
+Every concept at IT Accurate is reinforced through real projects, coding challenges, and assignments that mirror the work you’ll do in a professional environment.
+
+By the time you finish, you’ll have a portfolio of projects you can showcase to employers — making you stand out in salary negotiations.
+
+### 3. Career-Focused Mentorship
+Our mentors are experienced developers, data scientists, and IT professionals who’ve worked in leading companies.
+They guide you personally — not just in coding, but in understanding the business logic, team dynamics, and best practices that lead to faster promotions and better pay.
+
+
+### 4. Resume, Placement & Interview Support
+
+Knowing Python is only half the journey. Presenting your skills effectively matters too.
+That’s why IT Accurate offers:
+
+- Resume-building workshops
+- Mock technical interviews
+- One-on-one placement guidance
+- Salary negotiation training
+
+Our placement cell connects you with hiring partners across India, helping you land roles that truly reflect your skill level.
+
+
+### 5. Real Alumni Success
+Many IT Accurate graduates have landed roles in leading tech companies, startups, and analytics firms — often doubling their previous salaries.
+Their success stories are living proof that the proper training directly impacts your income.
+
+When you learn from a place that prioritises application over memorisation, results follow naturally — in your skills, confidence, and salary.
+
+### 6. Flexible Learning Options
+
+We understand that every learner is different.
+Whether you’re a student, working professional, or career switcher, IT Accurate offers flexible schedules and hybrid learning modes.
+You can train at your own pace — without compromising quality or outcomes.
+
+Our commitment is simple: to make learning accessible, impactful, and career-changing.
+
+## Python Developer Career Path & Growth Opportunities
+The beauty of being a Python developer is that your career can evolve in many directions — and with each step, your Python Developer Salary grows significantly.
+
+### A typical career progression looks like this:
+- Junior Python Developer (0–2 years): Focused on writing and debugging code.
+- Mid-Level Developer (3–5 years): Handles architecture, integrations, and optimisation.
+- Senior Developer / Tech Lead (6–9 years): Oversees teams and drives product vision.
+- Software Architect / Engineering Manager (10+ years): Strategic leadership and high-value solution design.
+
+### Beyond that, Python opens doors to specialised roles such as:
+- Machine Learning Engineer
+- Data Engineer
+- AI Developer
+- Automation Specialist
+- Full Stack Developer
+- DevOps Engineer
+Each transition adds both responsibility and financial reward.
+
+With continuous learning — something IT Accurate emphasises deeply — your career ceiling becomes virtually limitless.
+
+## Future Trends: What Will Python Developers Earn Beyond 2025?
+The future looks bright — and profitable — for Python developers.
+
+### AI and Data Science Boom:
+As businesses depend more on AI and analytics, demand for Python skills in these domains will surge, further raising salaries.
+
+### Cloud and Automation Growth:
+Python’s role in DevOps, scripting, and cloud deployment means developers proficient in automation will command premium pay.
+
+### Global Remote Work:
+Indian Python developers can now work for international companies at global pay scales — expanding earning potential like never before.
+
+### Continuous Upskilling Equals Continuous Growth:
+Developers who keep learning — adopting frameworks, cloud tools, and AI concepts — will always stay ahead in salary growth.
+
+At IT Accurate, our advanced workshops keep you up to date and ready for future opportunities — both in India and abroad.
+
+## Conclusion: Start Your High-Earning Python Career with IT Accurate
+
+The Python Developer Salary in India 2025 reflects one undeniable truth — Python isn’t just a programming language; it’s a passport to a high-growth, high-paying career.
+
+For beginners, it’s the perfect entry point into the tech world. For professionals, it’s a bridge to bigger opportunities — whether in AI, data, or full-stack development. But success doesn’t happen by accident — it comes from structured learning, practical exposure, and the right mentorship.
+
+That’s where IT Accurate comes in.
+Our mission is to empower learners with job-ready Python skills, hands-on project experience, and career guidance that directly translates into better salaries and long-term success.
+
+When you learn with IT Accurate, you don’t just become a Python developer — you become a problem solver, a creator, and a professional ready to earn what you truly deserve.
+
+Ready to build your career and command a top-tier Python Developer Salary?
+Join IT Accurate’s Python Developer Training Program today and take the first step toward your future in tech.
+
+## About IT Accurate
+
+IT Accurate is a leading IT training institute based in Thane and Nagpur, India, specialising in job-oriented programs in Python Development, Data Science, Artificial Intelligence, Cloud Technologies, and Data Analytics.
+
+Founded in 2012, IT Accurate has trained thousands of students and professionals, helping them transform their careers through hands-on learning, expert mentorship, and strong placement support.
+
+We believe education should be practical, personal, and profitable — giving learners the confidence and competence to succeed in today’s competitive IT world.
+
+Locations: Thane | Nagpur
+
+Website: www.itaccurate.com 
+
+Contact: +91 9175978889 
+
+Email: info@itaccurate.com 
+
+IT Accurate — Learn. Build. Earn Smarter. 
+
+
+
+`,
+ 
+ insertTableAfter: [22, 30],
+
+    // tables array must match the above length: tables[0] goes after block 5, tables[1] after block 7
+    tables: [
+      // Table 1 (appears after block 5)
+      [
+        { ExperienceLevel : "Entry-Level (0–2 years)", AverageAnnualSalaryIn2025India : "₹4 – ₹7 LPA", ExperienceLevel : "Fresh graduates and beginners who know Python, basic frameworks, and databases." },
+       { ExperienceLevel : "Mid-Level (3–6 years)", AverageAnnualSalaryIn2025India : "₹8 – ₹15 LPA", ExperienceLevel : "Professionals skilled in Django, Flask, APIs, and full-stack or data-driven projects." },
+       { ExperienceLevel : "Senior-Level (7+ years)", AverageAnnualSalaryIn2025India : "₹18 – ₹25 LPA (and above)", ExperienceLevel : "Senior developers, team leads, or architects with specialisation in AI, ML, or DevOps." },
+      
+      ],
+
+       [
+        { JobTitle : "Python Developer", AverageSalaryIn2025 : "₹8 – ₹12 LPA" },
+        { JobTitle : "Backend Developer", AverageSalaryIn2025 : "₹9 – ₹14 LPA" },
+        { JobTitle : "Full Stack Developer", AverageSalaryIn2025 : "₹10 – ₹16 LPA" },
+        { JobTitle : "Data Analyst", AverageSalaryIn2025 : "₹8 – ₹13 LPA" },
+        { JobTitle : "Machine Learning Engineer", AverageSalaryIn2025 : "₹12 – ₹22 LPA" },
+        { JobTitle : "Automation Engineer", AverageSalaryIn2025 : "₹7 – ₹12 LPA" },
+        { JobTitle : "AI Engineer", AverageSalaryIn2025 : "₹15 – ₹25 LPA" },
+      
+      ],
+
+      
+    ],
+
+    
+},
+
+
+
+
+
+{
+ id: 5,
+    title: "Data Science Salary in India 2025: How IT Accurate Helps You Earn More ",
+    excerpt:
+      "In today’s fast-moving digital economy, data is more than just numbers — it’s the language of business. ",
+      slug: 'data-science-salary-in-india-2025-how-it-accurate-helps-you-earn-more',
+    author: "IT Accurate",
+    
+    date: "oct 24, 2025",
+    tag: "Data Analytics",
+    readTime: "8 min read",
+    img: "https://images.unsplash.com/photo-1599658880436-c61792e70672?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870",
+    content: `Data Science Salary in India 2025: How IT Accurate Helps You Earn More ' 
+
+## The Booming Demand for Data Scientists
+
+In today’s fast-moving digital economy, data is more than just numbers — it’s the language of business. Every click, transaction, and decision produces data, and organisations that know how to use it thrive. As data becomes the driving force behind more innovative business strategies, the professionals who understand and analyse it — data scientists — have become invaluable.
+
+
+In 2025, the demand for data scientists continues to skyrocket, and so does the Data Science Salary across India. Companies are investing heavily in talent that can turn raw data into actionable insights, making data science one of the most lucrative and respected career choices today.
+
+
+At IT Accurate, we understand that mastering data science isn’t just about learning tools; it’s about shaping a rewarding career and maximising your earning potential. This blog explores the Data Science Salary in India 2025, what drives it, and how IT Accurate can help you become a high-earning data professional.
+
+
+## What Is Data Science and Why It’s So Valuable Today
+
+Before we talk about salaries, let’s understand why data science commands such high value in the modern world.
+
+Data science is a multidisciplinary field that blends statistics, computer programming, and business intelligence to extract meaning from large, complex datasets. A data scientist isn’t just a number cruncher — they’re problem solvers who bridge the gap between data and decision-making.
+
+From predicting customer behaviour to optimising supply chains or building AI models that detect fraud, data scientists sit at the heart of innovation. Every primary industry — from technology and healthcare to finance, retail, and manufacturing — depends on data-driven insights to compete.
+
+This universal demand explains the rapid rise in Data Science Salaries across sectors. The more valuable insights you can generate, the more companies are willing to pay.
+
+That’s why IT Accurate focuses on building both technical mastery and business understanding — ensuring our students are not only job-ready but capable of delivering measurable value to employers from day one.
+
+
+### Data Science Salary in India 2025: The Latest Insights
+
+Now, let’s look at what the numbers say about Data Science Salary in India 2025 — across experience levels, locations, and roles.
+
+
+### 1. Salary by Experience Level
+The most significant factor influencing your salary is experience — both in years and in the quality of your work. Here’s how it typically breaks down:
+- Entry-Level (0–2 years): ₹5 – 8 LPA
+- Mid-Level (3–6 years): ₹10 – 18 LPA
+- Senior Roles (7+ years): ₹20 – 35 LPA or more
+
+At the entry level, the salary might seem modest — but it’s far higher than the national average for fresh graduates in other tech fields. Within a few years, skilled professionals often double or triple their pay through experience, specialisation, and better positioning.
+
+At IT Accurate, we’ve seen our students start with competitive salaries even as freshers because of their practical skills, project experience, and portfolio work that sets them apart from purely academic learners.
+
+### 2. Salary by Location
+The city you work in has a significant influence on your pay.
+- Bangalore: The highest average Data Science Salary due to the city’s concentration of tech startups and MNCs.
+- Mumbai & Pune: Competitive pay in finance, retail, and consulting sectors.
+- Hyderabad: Strong demand in IT and product-based companies.
+- Delhi NCR: Good opportunities in analytics, consulting, and e-commerce.
+However, with remote and hybrid work now the norm, talented professionals trained by IT Accurate have access to opportunities across India — and even globally — without being restricted by geography.
+
+
+### 3. Salary by Role or Title
+
+Each role demands a different mix of skills — but what they share is one truth: the more hands-on experience you have, the higher your Data Science Salary.
+
+That’s why IT Accurate’s Data Science Training is designed around real-world projects, ensuring our learners master both theory and application.
+
+## SFactors That Influence a Data Science Salary
+So, what determines how much a data scientist earns? Here are the main factors — and how IT Accurate helps you optimise each one.
+
+###  1. Technical Skills
+A strong command of Python, R, SQL, statistics, machine learning, deep learning, and data visualisation directly translates into higher pay.
+At IT Accurate, our curriculum ensures you’re proficient in all these tools and frameworks — plus modern technologies like Tableau, Power BI, TensorFlow, Spark, and AWS that employers seek.
+
+### 2. Real-World Project Experience
+
+Employers want proof of ability, not just certificates. That’s why our students work on hands-on projects using real business data from multiple industries.
+When you graduate, you’ll have a portfolio that demonstrates your skill to hiring managers — one of the most significant salary-boosting factors.
+
+
+### 3. Domain Understanding
+Knowing how businesses work is just as important as technical skills, whether it’s finance, healthcare, retail, or logistics. Our trainers at IT Accurate help you understand how data science applies in real business contexts — making you a strategic asset, not just a coder.
+
+### 4. Location, Company Type, and Role Complexity
+Working in tech hubs or product-based companies often brings higher pay. However, as hybrid work expands, skilled data scientists can command substantial salaries from anywhere.
+We coach you on identifying the right roles and negotiating effectively to ensure you earn what you’re worth.
+
+
+### 5. Continuous Learning and Upskilling
+Data science evolves fast. Professionals who keep learning stay ahead of the salary curve.
+That’s why IT Accurate emphasises continuous learning, mentor guidance, and advanced workshops — so you never fall behind the industry trends that determine your earning power.
+
+## How IT Accurate Helps You Earn a Higher Data Science Salary
+Now, let’s explore how IT Accurate empowers you to command a higher salary and build a long-term data science career.
+
+### 1. Industry-Relevant Curriculum
+Our 7-month Data Science program is crafted with inputs from data scientists and hiring managers. It covers everything — from foundational statistics and Python to machine learning, deep learning, cloud deployment, and big data technologies.
+
+By aligning our training to industry standards, we ensure every learner from IT Accurate is ready for the real world — and for the salary that comes with it.
+
+### 2. Hands-On Projects That Build Confidence
+
+We don’t believe in theoretical learning alone. Every module includes live case studies and projects based on actual business challenges.
+
+By the end of the course, you’ll have built multiple projects — your own portfolio of proof — demonstrating your readiness to employers.
+
+That’s what helps IT Accurate students stand out in interviews and land better-paying roles.
+
+### 3. Expert Mentorship and Personalised Guidance
+At IT Accurate, you don’t just learn — you’re guided. Our mentors are industry experts with years of real-world experience.
+They help you understand not only how to solve problems, but why specific approaches matter in business.
+
+This mentorship bridges the gap between classroom learning and job success — a key factor that directly influences your salary growth.
+
+### 4. Placement Assistance and Career Support
+We go beyond teaching. IT Accurate offers resume workshops, interview preparation, mock tests, and soft-skills sessions that help you present yourself confidently.
+
+Our placement team connects you with hiring partners and provides guidance on salary negotiation — ensuring you secure the compensation you deserve.
+
+We don’t just train; we transform your job readiness into job success.
+
+### 5. Alumni Success Stories
+
+Our alumni network speaks volumes about our training. Many of our graduates now work at leading companies across India and abroad, earning salaries well above industry averages.
+They often credit their success to the hands-on approach, mentorship, and practical skills they gained at IT Accurate.
+
+### 6. Flexible Learning Options
+We understand that many learners are working professionals or students managing tight schedules.
+Our flexible timing and hybrid options ensure that your career advancement fits your lifestyle — making your journey toward a higher Data Science Salary achievable and sustainable.
+
+## Career Growth and Future Outlook for Data Scientists
+As we move deeper into the AI-driven era, data scientists are no longer optional — they’re essential. The career path is not just stable; it’s rapidly expanding in both scope and reward.
+## Here’s what the future holds:
+### Massive Demand Across Industries 
+Every sector — from healthcare to logistics — relies on data professionals. The job market for data scientists in India is expected to grow exponentially through 2030.
+
+### Specialised and Leadership Roles Emerging
+New high-salary roles like AI Engineer, Data Product Manager, and MLOps Specialist are in demand. These roles require the advanced training that IT Accurate provides.
+
+### Global Opportunities Through Remote Work
+With remote work becoming mainstream, skilled professionals from India are landing international roles with global pay scales — a true game-changer for Data Science Salaries.
+
+### Continuous Learning Leads to Continuous Growth
+Data science never stands still. The more you learn, the more you earn — and IT Accurate ensures you have the learning ecosystem to keep climbing that ladder.
+
+## Conclusion: Turn Learning Into Earning
+The Data Science Salary in India 2025 is a clear reflection of one thing: value. Skilled professionals who can derive meaning from data, solve business problems, and drive decisions are among the most sought-after employees today.
+
+Whether you’re a fresher entering the field or a professional looking to transition into data science, your potential to earn is immense — provided you learn the right way.
+
+At IT Accurate, we don’t just teach data science; we prepare you to excel in it. With our hands-on training, expert mentorship, real-world projects, and placement assistance, we equip you with everything you need to command a strong Data Science Salary and build a rewarding career.
+
+If you’re ready to unlock your full potential, now is the time to act. Let IT Accurate be your partner in turning knowledge into opportunity, learning into earning, and ambition into achievement.
+
+
+### About IT Accurate
+IT Accurate is a leading IT training institute headquartered in Thane and Nagpur, India, offering industry-oriented programs in Data Science, Data Analytics, AI, and Cloud Technologies. Established in 2012, IT Accurate has helped thousands of students and professionals build successful tech careers through hands-on learning, expert mentorship, and career support.
+
+Our mission is simple — to empower learners with practical skills that translate into high-paying, future-ready careers.
+
+Locations: Thane | Nagpur
+
+Website: www.itaccurate.com 
+
+Contact: +91 9175978889 
+
+
+`,
+ 
+ insertTableAfter: [24],
+
+    // tables array must match the above length: tables[0] goes after block 5, tables[1] after block 7
+    tables: [
+      // Table 1 (appears after block 5)
+      [
+        { Role : "Data Analyst", ExpectedSalaryIn2025India : "₹6 – 10 LPA" },
+        { Role : "Data Scientist", ExpectedSalaryIn2025India : "₹10 – 18 LPA" },
+        { Role : "Machine Learning Engineer", ExpectedSalaryIn2025India : "₹12 – 22 LPA" },
+        { Role : "Data Engineer", ExpectedSalaryIn2025India : "₹9 – 20 LPA" },
+        { Role : "AI Engineer / NLP Specialist", ExpectedSalaryIn2025India : "₹18 – 35 LPA" },
+      
+      ],
+
+      
+    ],
+
+    
+},
+
+
+  
+{
  id: 4,
     title: "How Much Will Data Analytics Professionals Earn in 2026? Salary Insights & Predictions ",
     excerpt:

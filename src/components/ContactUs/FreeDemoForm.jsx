@@ -28,6 +28,7 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
     "Business Analytics",
     "ServiceNow",
     "HR Training",
+    "Cyber Security",
   ];
 
   const SAPCourses = [
@@ -86,6 +87,7 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
           from_name: "Sap Training",
           ...data,
           recipient_email: "shivanihiware77@gmail.com",
+          cc: "dme.bricksmedia@gmail.com",
         },
         {
           headers: {

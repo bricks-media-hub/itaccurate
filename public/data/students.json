@@ -62,6 +62,7 @@
         },
         {
             "placedStudents2": [
+                
                 {
                     "name": "Anshul",
                     "company": "TCS",
@@ -133,6 +134,7 @@
             "role": "Data Analyst",
             "photo": "https://this-person-does-not-exist.com/img/avatar-gene874dcc8deda6553fbfdf6e8b83554f7.jpg"
         },
+
         {
             "name": "Ishita",
             "company": "Capgemini",
@@ -1177,6 +1179,50 @@
             ],
             "role": "Frontend Developer",
             "photo": "https://images.unsplash.com/photo-1709976613164-ce55b279c87b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTgzfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D"
-        }
+        },
+        {
+    "name": "Aarav Nair",
+    "company": "TCS",
+    "skills": ["SOC Monitoring", "SIEM (Splunk)", "Linux"],
+    "role": "SOC Analyst",
+    "photo": "/images/students/cyber/aarav-nair.jpg"
+  },
+ {
+    "name": "Rahul",
+    "company": "Capgemini",
+    "skills": ["Burp Suite", "OWASP Top 10", "Python"],
+    "role": "Penetration Tester",
+    "photo": "/images/students/cyber/riya-patil.jpg"
+  },
+  {
+    "name": "Neha Jadhav",
+    "company": "HCL",
+    "skills": ["Azure Security", "IAM", "Defender"],
+    "role": "Security Engineer",
+    "photo": "/images/students/cyber/neha-jadhav.jpg"
+  },
+  {
+    "name": "Siddharth Rao",
+    "company": "Deloitte",
+    "skills": ["Incident Handling", "Forensics Basics", "Kibana"],
+    "role": "Incident Responder",
+    "photo": "/images/students/cyber/siddharth-rao.jpg"
+  },
+  {
+    "name": "Prabhas Bhandorkar",
+    "company": "Accenture",
+    "skills": ["AppSec", "SAST/DAST", "Threat Modeling"],
+    "role": "Network Security Engineer",
+    "photo": "/images/students/cyber/prabhas-bhandorkar.jpg"
+  },
+  {
+    "name": "Shreya Iyer",
+    "company": "TCS",
+    "skills": ["Security Policy", "Awareness", "Compliance"],
+    "role": "Cyber Security Consultant",
+    "photo": "/images/students/cyber/shreya-iyer.jpg"
+  }
+ 
     ]
+    
 }

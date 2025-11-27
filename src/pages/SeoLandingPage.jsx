@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import AboutCourseSkeleton from "../components/ui/SkeletonEffects/AboutCourseSkeleton";
 import axios from "axios";
 import { useLoaderData, useLocation, useNavigation } from "react-router-dom";
-import FormComponent from "../components/ContactUs/FormComponent";
+import FormComponent from "../components/ContactUs/FormComponent"; 
 import { TiTick } from "react-icons/ti";
 import Modules from "../components/CourseDetails/Modules";
 import WhatIs from "../components/CourseDetails/WhatIs";
@@ -244,6 +244,6 @@ function SeoLandingPage() {
     </div>
     </>
   );
-}
+} 
 
 export default SeoLandingPage;

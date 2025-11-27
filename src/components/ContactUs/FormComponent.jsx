@@ -91,6 +91,7 @@ export default function FormComponent({ title1, title2 }) {
           from_name: "IT Training",
           ...data,
           recipient_email: "shivanihiware77@gmail.com",
+          cc: "dme.bricksmedia@gmail.com",
         },
         {
           headers: {

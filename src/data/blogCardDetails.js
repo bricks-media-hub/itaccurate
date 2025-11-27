@@ -48,6 +48,31 @@ export const blogCardDetails = [
 
   
   },
+  {
+    id: 5,
+    title: "Data Science Salary in India 2025: How IT Accurate Helps You Earn More ",
+   slug: 'data-science-salary-in-india-2025-how-it-accurate-helps-you-earn-more',
+ excerpt: "In today’s fast-moving digital economy, data is more than just numbers — it’s the language of business. ",    author: 'IT Accurate',
+     date: "oct 24, 2025",
+    tag: "Data Analytics",
+    readTime: "8 min read",
+    img: "https://images.unsplash.com/photo-1599658880436-c61792e70672?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870",
+
+  
+  },
+   {
+    id: 6,
+    title: "Python Developer Salary in India 2025: How IT Accurate Helps You Earn More  ",
+   slug: 'python-developer-salary-in-india-2025-how-it-accurate-helps-you-earn-more',
+ excerpt: "In the ever-evolving world of technology, one language has quietly — and powerfully — taken over the programming landscape: Python. ",  
+   author: 'IT Accurate',
+     date: "oct 28, 2025",
+    tag: "Python Developer",
+    readTime: "8 min read",
+    img: "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870",
+
+  
+  },
 
 
 

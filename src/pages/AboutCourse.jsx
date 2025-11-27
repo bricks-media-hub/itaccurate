@@ -4,10 +4,12 @@ import { motion } from "framer-motion";
 import { useLoaderData, useNavigation, useLocation } from "react-router-dom";
 import PropTypes from "prop-types";
 
+
 // Local components
 import FormComponent from "../components/ContactUs/FormComponent";
 import WhatIs from "../components/CourseDetails/WhatIs";
 import KeyFeatures from "../components/CourseDetails/KeyFeatures";
+
 import TopicsSection from "../components/CourseDetails/TopicsSection";
 import UpcomingBatches from "../components/CourseDetails/UpcomingBatches";
 import DemoBanner from "../components/CourseDetails/DemoBanner";
@@ -32,6 +34,7 @@ import OfferLetters from "../components/CourseDetails/OfferLetters";
 import JobOpenings from "../components/CourseDetails/JobOpenings";
 import { TiTick } from "react-icons/ti";
 import { getSeoData } from "../lib/seoUtil";
+
 
 /**
  * Constants moved outside component to avoid re-creation on each render and to
@@ -73,7 +76,7 @@ const ALL_TECH_OFFER_LETTERS = [
  * Kept inside module because it's tiny and tightly coupled to AboutCourse.
  */
 const ExtrasList = memo(function ExtrasList({ items }) {
-  if (!Array.isArray(items) || items.length === 0) return null;
+  if (!Array.isArray(items) || items.length === 0) return null; 
 
   return (
     <div className="pt-2 space-y-3" aria-labelledby="course-highlights">
@@ -208,23 +211,30 @@ function AboutCourse() {
               <span className="text-blue-600 dark:text-indigo-800"> - Fees, Placements</span>
             </h1>
 
-            {/* Short description — prefer paragraph1 as guard */}
-            {detail?.paragraph1 && (
-              <p className="text-base sm:text-lg md:text-xl font-semibold text-gray-700 dark:text-gray-800 mb-4 sm:mb-5">
-                {detail.paragraph1}
-              </p>
-            )}
-
-            {/* paragraph2 & paragraph3 — allow HTML via dangerouslySetInnerHTML only when necessary */}
-            {detail?.paragraph2 && (
-              <p className="text-base sm:text-lg md:text-xl font-semibold text-gray-700 dark:text-gray-800 mb-5 sm:mb-6" dangerouslySetInnerHTML={{ __html: detail.paragraph2 }} />
-            )}
-
-            {detail?.paragraph3 && (
-              <p className="text-base sm:text-lg md:text-xl font-semibold text-gray-700 dark:text-gray-800 mb-5 sm:mb-6" dangerouslySetInnerHTML={{ __html: detail.paragraph3 }} />
-            )}
-
-            {/* Course extras/highlights */}
+              {/* Bullet Points */}
+                        {Array.isArray(courseDetail?.detail?.points) &&
+                          courseDetail.detail.points.length > 0 && (
+                            <ul className="space-y-3 text-left">
+                              {courseDetail.detail.points.map((point, index) => (
+                                <li
+                                  key={index}
+                                  className="flex items-start text-base sm:text-lg md:text-xl font-semibold text-gray-700 dark:text-gray-800"
+                                >
+                                  <span className="mr-2 text-blue-600">
+                                    <div className="mr-4 mt-2 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-400">
+                                      <SafeImage
+                                        src="/icons/blue-tick.svg"
+                                        alt="blue-tick"
+                                      />
+                                    </div>
+                                  </span>
+                                  {/* <span dangerouslySetInnerHTML={{ __html: point}} /> */}
+                                  {point}
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                           {/* Course extras/highlights */}
             <ExtrasList items={extras} />
           </motion.div>
 

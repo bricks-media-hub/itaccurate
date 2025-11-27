@@ -5,10 +5,19 @@
             "title": "Best SAP Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "IT Accurate offers the best SAP trainings for students, freshers & professionals. Get hands-on experience, 2+ years equivalent knowledge & guaranteed placement opportunities in just 4 months.",
-                "paragraph2": "Learn SAP S/4 HANA & start Your Career in SAP consulting IT Accurate offers best SAP training with 80% practicals from industry experts.  designed on realtime scenarios with study notes for every student who wants to upgrade their skills.",
-                "paragraph3": "Small batch size in morning and evening time available.  This is perfectly suitable for students and working professionals with 100% guaranteed interview and resume preparation. We provide SAP global certification guidance."
+  "points": [
+    "IT Accurate offers the best SAP training programs for students, freshers, and working professionals aiming to build or upgrade their careers.",
+    "Gain hands-on experience with practical learning designed around real-time industry scenarios.",
+    "Achieve 2+ years of equivalent industry knowledge and guaranteed placement opportunities within just 4 months.",
+    "Learn SAP S/4 HANA and kickstart your career in SAP consulting with expert-led sessions.",
+    "Benefit from 80% practical training conducted by experienced industry professionals.",
+    "Get comprehensive study materials and personalized guidance for every student to ensure effective learning.",
+    "Enjoy flexible batch timings in both morning and evening slots — ideal for students and working professionals.",
+    "Receive 100% guaranteed interview preparation and resume-building support for better job opportunities.",
+    "Get expert guidance for SAP Global Certification to strengthen your professional credentials."
+  ]
             },
+            
             "coveringTopics": [
                 {
                     "title": "End-User Training (1 month - ECC / S/4 HANA)",
@@ -346,8 +355,15 @@
             "title": "Best SAP ABAP Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "SAP ABAP Training by IT Accurate offers you the best SAP ABAP(Advanced Business Application Programming) training for freshers and experienced candidates, with expert guidance and 100% guaranteed placement assistance. Our SAP training course covers every technical topic in detail and the student is left with real-time hands-on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP ABAP with S/4 HANA in just 4 months.",
+                "points": [
+    "IT Accurate offers the best SAP ABAP (Advanced Business Application Programming) training for both freshers and experienced professionals.",
+    "Gain in-depth knowledge with expert guidance and 100% guaranteed placement assistance.",
+    "The course covers every SAP ABAP technical topic in detail, ensuring real-time, hands-on experience.",
+    "Our practical, job-oriented training program provides knowledge equivalent to over 2 years of field experience.",
+    "Get certified while developing the practical expertise required to succeed in real-world SAP environments.",
+    "Train in SAP ABAP with S/4 HANA and complete the program in just 4 months — saving valuable time without compromising learning quality.",
+    "Includes dedicated modules for End User (1 month), Configuration (2 months), and Project Implementation (1 month)."
+  ],
                 "extras": [
                     "End user 1 month (ECC / S/4 HANA)",
                     "Configuration 2 months(ECC/S/4 HANA)",
@@ -998,8 +1014,16 @@
             "title": "Best SAP MM Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "SAP MM Training by IT Accurate offers you the best SAP course institute & training centers for freshers and experienced candidates in Nagpur, with expert guidance and 100% guaranteed placement assistance. Our SAP MM Training course covers every technical topic in detail and the student is left with real-time hands-on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP MM with S/4 HANA in just 4 months. IT Accurate SAP training institute is practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 7+ years of field experience. IT Accurate SAP training institute value your time as much as over. Hence IT Accurate SAP training institute invented to train you in SAP MM with S/4 HANA in just 4 months.",
+               "points": [
+    "IT Accurate offers the best SAP MM (Materials Management) training for both freshers and experienced professionals in Nagpur.",
+    "Learn from industry experts with 100% guaranteed placement assistance and personalized mentorship.",
+    "The SAP MM course covers every technical topic in detail, providing students with real-time, hands-on experience.",
+    "Our practical, job-oriented training program not only awards you a certificate but also provides knowledge equivalent to 2+ years of real-world experience.",
+    "Designed to save your time — complete your SAP MM with S/4 HANA training in just 4 months.",
+    "Gain in-depth understanding of SAP MM concepts aligned with real business processes and project implementation scenarios.",
+    "IT Accurate’s training methodology provides exposure equivalent to over 7+ years of field experience through intensive project-based learning.",
+    "Get comprehensive support, flexible batches, and certification guidance to accelerate your SAP career."
+  ],
                 "extras": [
                     "End user 1 month (ECC / S/4 HANA)",
                     "Configuration 2 months(ECC/S/4 HANA)",
@@ -1861,8 +1885,15 @@
             "title": "Best SAP FICO Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "IT Accurate offers the best SAP Financial Accounting (FI) and SAP Controlling (CO) training for both freshers and experienced candidates. With expert guidance and 100% guaranteed placement assistance, our SAP training course covers every technical topic in detail, providing students with real-time, hands-on experience.",
-                "paragraph2": "Our practical, job-oriented training program not only provides certification but also imparts knowledge equivalent to 2+ years of field experience. We value your time, so we have designed a comprehensive program to train you in SAP FICO with S/4 HANA in just 4 months."
+                "points": [
+    "IT Accurate offers the best SAP Financial Accounting (FI) and SAP Controlling (CO) training for both freshers and experienced professionals.",
+    "Learn directly from industry experts with 100% guaranteed placement assistance and personalized career support.",
+    "The SAP FICO course covers every technical and functional topic in depth, providing real-time, hands-on experience.",
+    "Gain practical skills through a job-oriented training program designed to make you project-ready from day one.",
+    "Earn certification while acquiring knowledge equivalent to over 2+ years of real-world industry experience.",
+    "Train in SAP FICO with S/4 HANA using a structured 4-month program that balances theory and practical exposure.",
+    "Benefit from IT Accurate’s expert mentorship and guided learning path to accelerate your SAP career growth."
+  ]
             },
             "coveringTopics": [
                 {
@@ -2750,8 +2781,15 @@
             "title": "Best SAP SD Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "IT Accurate offers you the best SAP SD(Sales and Distribution) training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our SAP training course covers every technical topics in details and the student is left with real-time hand on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP SD with S/4 HANA in just 4 months.",
+               "points": [
+    "IT Accurate offers the best SAP SD (Sales and Distribution) training program for both freshers and experienced professionals.",
+    "Learn from industry experts with 100% guaranteed placement assistance and career-focused mentorship.",
+    "The SAP SD course covers every technical and functional topic in detail, ensuring real-time, hands-on experience.",
+    "Our practical, job-oriented training program helps you gain skills equivalent to 2+ years of real-world SAP experience.",
+    "Earn certification and build expertise in SAP SD processes with S/4 HANA for end-to-end business understanding.",
+    "The course is designed to be completed in just 4 months, combining theory, projects, and practical case studies.",
+    "IT Accurate’s training approach emphasizes practical implementation, preparing you for real-time industry challenges."
+  ],
                 "extras": [
                     "End user 1 month (ECC / S/4 HANA)",
                     "Configuration 2 months(ECC/S/4 HANA)",
@@ -3367,8 +3405,15 @@
             "title": "Best SAP HCM Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "IT Accurate offers you the best SAP HCM(Human Capital Management) trainingfor freshers and experienced candidates, with expert guidance and 100% guaranteed placement assistance. Our SAP training course covers every technical topic in detail and the student is left with real-time hands-on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP HCM with S/4 HANA in just 4 months."
+                 "points": [
+    "IT Accurate offers the best SAP HCM (Human Capital Management) training for both freshers and experienced professionals.",
+    "Receive expert guidance and 100% guaranteed placement assistance to ensure a smooth start to your SAP career.",
+    "The SAP HCM course covers every technical and functional topic in detail, providing real-time, hands-on experience.",
+    "Learn from industry-certified trainers through a practical, job-oriented training program.",
+    "Gain in-depth knowledge and practical exposure equivalent to over 2+ years of real-world experience.",
+    "Train in SAP HCM with S/4 HANA using a structured 4-month learning plan focused on practical implementation.",
+    "IT Accurate’s program is designed to help you master HR processes within SAP, including payroll, time management, and organizational management."
+  ]
             },
             "coveringTopics": [
                 {
@@ -4025,8 +4070,15 @@
             "title": "Best SAP BASIS Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "SAP Basis Training by IT Accurate provides top-notch courses for freshers and experienced candidates. With expert guidance and 100% placement assistance, our training covers every technical topic in detail, ensuring real-time hands-on experience.",
-                "paragraph2": "Our practical, job-oriented training gives you a certificate and knowledge equal to 2+ years of experience. We value your time and offer SAP Basis with S/4 HANA training in just 4 months.IT Accurate SAP training institute provides practical, job-oriented training. Our SAP Basis with S/4 HANA course, designed to mimic 7+ years of field experience, can be completed in just 4 months."
+                "points": [
+    "IT Accurate offers the best SAP Basis training program for both freshers and experienced professionals.",
+    "Learn directly from industry experts with 100% guaranteed placement assistance and dedicated mentorship.",
+    "The SAP Basis course covers every technical concept in depth, providing real-time, hands-on practical experience.",
+    "Gain expertise in SAP system administration, installation, configuration, and performance tuning using S/4 HANA.",
+    "Our practical, job-oriented training program not only awards you a certificate but also gives knowledge equivalent to 2+ years of real-world experience.",
+    "IT Accurate’s advanced SAP Basis with S/4 HANA course is structured to deliver 7+ years of field-level understanding in just 4 months.",
+    "Experience project-based learning designed to make you industry-ready and confident in managing real-time SAP environments."
+  ]
             },
             "coveringTopics": [
                 {
@@ -4639,8 +4691,15 @@
             "title": "Best SAP SCM Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "IT Accurate offers you the best SAP SCM (Supply Chain Management) training for freshers and experience candidate , with expert guidance and 100% guranteed placement assistance. Our SAP training course covers every technical topics in details and the student is left with real-time hand on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP SCM with S/4 HANA in just 4 months.",
+               "points": [
+    "IT Accurate offers the best SAP SCM (Supply Chain Management) training for both freshers and experienced professionals.",
+    "Learn directly from certified industry experts with 100% guaranteed placement assistance and personalized mentorship.",
+    "The SAP SCM course covers every technical and functional topic in detail, ensuring real-time, hands-on project experience.",
+    "Gain in-depth understanding of supply chain processes including planning, procurement, logistics, and production.",
+    "Our practical, job-oriented training program provides you with a certificate and knowledge equivalent to over 2+ years of real-world experience.",
+    "Train in SAP SCM with S/4 HANA using a structured 4-month program focused on practical business applications.",
+    "IT Accurate’s advanced training approach prepares you for real-time industry challenges and SAP global certification."
+  ],
                 "extras": [
                     "End user 1 month (ECC / S/4 HANA)",
                     "Configuration 2 months(ECC/S/4 HANA)",
@@ -5135,8 +5194,15 @@
             "title": "Best SAP ARIBA Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "SAP ARIBA Training by IT Accurateoffers you the best SAP ARIBA(Advanced Business Application Programming) training for freshers and experienced candidates, with expert guidance and 100% guaranteed placement assistance. Our SAP training course covers every technical topic in detail and the student is left with real-time hands-on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP ARIBA with S/4 HANA in just 4 months.",
+                  "points": [
+    "IT Accurate offers the best SAP Ariba training for both freshers and experienced professionals seeking to advance their SAP careers.",
+    "Receive expert guidance and 100% guaranteed placement assistance from industry-certified trainers.",
+    "The SAP Ariba course covers every technical and functional topic in detail, ensuring real-time, hands-on practical experience.",
+    "Gain a deep understanding of SAP Ariba’s procurement and supplier management processes used by global organizations.",
+    "Our practical, job-oriented training program provides you with a certificate and knowledge equivalent to over 2+ years of industry experience.",
+    "Learn SAP Ariba integrated with S/4 HANA through a structured 4-month course designed to save time while maximizing learning outcomes.",
+    "IT Accurate’s advanced Ariba training methodology focuses on real-world scenarios, preparing you for SAP global certification and project implementation."
+  ],
                 "extras": [
                     "End user 1 month (ECC / S/4 HANA)",
                     "Configuration 2 months(ECC/S/4 HANA)",
@@ -5667,8 +5733,15 @@
             "title": "Best SAP PP Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "IT Accurate offers you the best SAP PP training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our SAP PP training course covers every technical topics in details and the student is left with real-time hand on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP PP in just 4 months."
+                 "points": [
+    "IT Accurate offers the best SAP PP (Production Planning) training for both freshers and experienced professionals.",
+    "Get expert guidance and 100% guaranteed placement assistance from industry-certified SAP trainers.",
+    "The SAP PP course covers every technical and functional topic in detail, ensuring real-time, hands-on project experience.",
+    "Gain practical exposure to core SAP PP concepts including production planning, material management, and process integration.",
+    "Our practical, job-oriented training program provides a certificate and knowledge equivalent to over 2+ years of real-world industry experience.",
+    "The SAP PP training is designed to be completed in just 4 months — saving your time while maintaining comprehensive learning depth.",
+    "IT Accurate’s training approach focuses on real-time business scenarios, preparing you for SAP global certification and project implementation."
+  ]
             },
             "coveringTopics": [
                 {
@@ -6306,8 +6379,15 @@
             "title": "Best SAP PM Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "IT Accurate offers you the best SAP PM (Plant Maintenance) Training for freshers and experience candidate , with expert guidance and 100% Guaranteed placement assistance. Our SAP PM Training course covers every technical topics in details and the student is left with real-time hand on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 8+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP PM with S/4 HANA in just 4 months.",
+                "points": [
+    "IT Accurate offers the best SAP PM (Plant Maintenance) training for both freshers and experienced professionals.",
+    "Learn from industry experts with 100% guaranteed placement assistance and personalized mentorship.",
+    "The SAP PM course covers every technical and functional topic in detail, providing real-time, hands-on project experience.",
+    "Gain practical exposure to preventive maintenance, breakdown management, and equipment lifecycle management in SAP PM.",
+    "Our job-oriented training program provides a certificate and knowledge equivalent to over 8+ years of real-world industry experience.",
+    "Train in SAP PM with S/4 HANA using a structured 4-month program designed to deliver both technical depth and business understanding.",
+    "IT Accurate’s SAP PM training approach emphasizes real-time scenarios, preparing you for SAP global certification and project implementation."
+  ],
                 "extras": [
                     "End user 1 month (ECC / S/4 HANA)",
                     "Configuration 2 months(ECC/S/4 HANA)",
@@ -6950,8 +7030,15 @@
             "title": "Best SAP QM Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "IT Accurate offers you the Best SAP QM (Quality Management) Training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our SAP training course covers every technical topics in details and the student is left with real-time hand on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP QM with S/4 HANA in just 4 months.",
+                 "points": [
+    "IT Accurate offers the best SAP QM (Quality Management) training program for both freshers and experienced professionals.",
+    "Receive expert guidance and 100% guaranteed placement assistance from experienced SAP trainers.",
+    "The SAP QM course covers every technical and functional topic in detail, ensuring real-time, hands-on learning.",
+    "Gain practical exposure to SAP QM modules such as quality planning, quality inspection, and quality control integration with production and procurement.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 2+ years of real-world industry experience.",
+    "Train in SAP QM with S/4 HANA through a structured 4-month course designed for efficient and effective learning.",
+    "IT Accurate’s SAP QM training methodology focuses on real-time business scenarios and prepares you for SAP global certification and implementation projects."
+  ],
                 "extras": [
                     "End user 1 month (ECC / S/4 HANA)",
                     "Configuration 2 months(ECC/S/4 HANA)",
@@ -7432,8 +7519,15 @@
             "title": "Best SAP LE&SL Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "IT Accurate offers you the best SAP LE & SL Training for freshers and experience candidate, with expert guidance and 100% Guaranteed placement assistance. Our SAP Training course covers every technical topics in details and the student is left with real-time hand on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP LE & SL with S/4 HANA in just 4 months.",
+               "points": [
+    "IT Accurate offers the best SAP LE & SL (Logistics Execution and Shipping & Logistics) training program for both freshers and experienced professionals.",
+    "Learn from industry experts with 100% guaranteed placement assistance and personalized mentorship throughout your learning journey.",
+    "The SAP LE & SL course covers every technical and functional topic in detail, ensuring real-time, hands-on project experience.",
+    "Gain a deep understanding of logistics execution processes including shipping, transportation, warehouse, and inventory management within SAP.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 2+ years of real-world experience.",
+    "Train in SAP LE & SL with S/4 HANA through a structured 4-month program designed for efficient and results-driven learning.",
+    "IT Accurate’s advanced training approach emphasizes real-world business scenarios and prepares you for SAP global certification and implementation projects."
+  ],
                 "extras": [
                     "End user 1 month (ECC / S/4 HANA)",
                     "Configuration 2 months(ECC/S/4 HANA)",
@@ -7903,8 +7997,15 @@
             "title": "Best SAP WM & EWM Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "IT Accurate offers you the best SAP WM & EWM training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our SAP training course covers every technical topics in details and the student is left with real-time hand on experience..",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP WM & EWM with S/4 HANA in just 4 months."
+                 "points": [
+    "IT Accurate offers the best SAP WM & EWM (Warehouse Management and Extended Warehouse Management) training for both freshers and experienced professionals.",
+    "Get expert guidance and 100% guaranteed placement assistance from certified industry trainers.",
+    "The SAP WM & EWM course covers every technical and functional topic in detail, ensuring real-time, hands-on practical experience.",
+    "Gain comprehensive knowledge of warehouse processes, inventory control, goods movement, and logistics execution in SAP environments.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 2+ years of industry experience.",
+    "Train in SAP WM & EWM with S/4 HANA through a structured 4-month course designed for fast, efficient, and career-focused learning.",
+    "IT Accurate’s advanced SAP training methodology emphasizes real-world business use cases, preparing you for SAP global certification and project implementation."
+  ]
             },
             "coveringTopics": [
                 {
@@ -8439,8 +8540,15 @@
             "title": "Best SAP FIORI Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "IT Accurate offers you the best SAP FIORI training for freshers and experience candidate in nagpur, with expert guidance and 100% guranteed placement assistance. Our SAP training course covers every technical topics in details and the student is left with real-time hand on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP FIORI with S/4 HANA in just 4 months."
+                 "points": [
+    "IT Accurate offers the best SAP Fiori training program in Nagpur for both freshers and experienced professionals.",
+    "Receive expert guidance and 100% guaranteed placement assistance to help you launch or advance your SAP career.",
+    "The SAP Fiori course covers every technical and functional topic in detail, providing real-time, hands-on project experience.",
+    "Gain practical expertise in SAP Fiori app development, UI5 framework, and integration with SAP S/4 HANA environments.",
+    "Our practical, job-oriented training program not only provides certification but also imparts knowledge equivalent to over 2+ years of industry experience.",
+    "Train in SAP Fiori with S/4 HANA through a structured 4-month program designed for fast, effective, and career-focused learning.",
+    "IT Accurate’s SAP Fiori training approach emphasizes real-world implementation scenarios and prepares you for SAP global certification and project success."
+  ]
             },
             "coveringTopics": [
                 {
@@ -8940,8 +9048,15 @@
             "title": "Best SAP BTP Training Course",
             "bgImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
             "detail": {
-                "paragraph1": "IT Accurate offers you the best SAP WM & EWM training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our SAP training course covers every technical topics in details and the student is left with real-time hand on experience..",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP WM & EWM with S/4 HANA in just 4 months.",
+                 "points": [
+    "IT Accurate offers the best SAP WM & EWM (Warehouse Management and Extended Warehouse Management) training for both freshers and experienced professionals.",
+    "Receive expert guidance and 100% guaranteed placement assistance from certified SAP trainers.",
+    "The SAP WM & EWM course covers all technical and functional topics in detail, providing real-time, hands-on practical experience.",
+    "Gain in-depth understanding of warehouse processes, inventory management, goods movement, and logistics execution using SAP S/4 HANA.",
+    "Our practical, job-oriented training program not only offers certification but also provides knowledge equivalent to over 2+ years of real-world experience.",
+    "Train in SAP WM & EWM with S/4 HANA through a structured 4-month program focused on skill-building and career growth.",
+    "IT Accurate’s advanced SAP training methodology emphasizes real-time business case studies and prepares you for SAP global certification and project implementation."
+  ],
                 "extras": [
                     "End user 1 month (ECC / S/4 HANA)",
                     "Configuration 2 months(ECC/S/4 HANA)",
@@ -9436,7 +9551,15 @@
             "title": "Best Data analytics Training Course",
             "bgImage": "/coursesBgImages/data-analytics.jpg",
             "detail": {
-                "paragraph1": "Best Data analytics Training by IT Accurate offers you the Best Data analytics training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our Data analytics training course covers every technical topics in details and the student is left with real-time hand on experience. Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in Data analytics in just 5 months."
+               "points": [
+    "IT Accurate offers the best Data Analytics training program for both freshers and experienced professionals.",
+    "Learn from expert mentors with 100% guaranteed placement assistance and hands-on career support.",
+    "The Data Analytics course covers every technical and analytical topic in detail, ensuring real-time, practical learning experience.",
+    "Gain proficiency in essential tools and technologies such as Excel, SQL, Python, Power BI, and Tableau for data analysis and visualization.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 2+ years of real-world experience.",
+    "Train in Data Analytics through a structured 5-month course designed for fast, comprehensive, and industry-relevant skill development.",
+    "IT Accurate’s Data Analytics training emphasizes real-world projects and case studies, preparing you for high-demand roles in business intelligence and analytics."
+  ]
             },
             "coveringTopics": [
                 {
@@ -10003,8 +10126,15 @@
             "title": "Best DevOps Training Course",
             "bgImage": "/coursesBgImages/devops.jpg",
             "detail": {
-                "paragraph1": "Best DevOps Training by IT Accurate offers you the Best DevOps training for freshers and experienced candidates , with expert guidance and 100% guaranteed placement assistance. Our DevOps training course covers every technical topic in detail, leaving the student with real-time hands-on experience.",
-                "paragraph2": "Our practical, job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as ours. Hence, we aim to train you in DevOps in just 5 months."
+                 "points": [
+    "IT Accurate offers the best DevOps training program for both freshers and experienced professionals aiming to build a strong IT career.",
+    "Learn directly from industry experts with 100% guaranteed placement assistance and hands-on mentorship.",
+    "The DevOps course covers every technical concept in depth, providing real-time, project-based learning experiences.",
+    "Gain expertise in essential DevOps tools and technologies such as Git, Jenkins, Docker, Kubernetes, Ansible, Terraform, and AWS.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 2+ years of real-world experience.",
+    "Train in DevOps through a structured 5-month program focused on automation, CI/CD pipelines, and cloud deployment strategies.",
+    "IT Accurate’s advanced DevOps training approach emphasizes real-time business scenarios, preparing you for certification and global job opportunities."
+  ]
             },
             "coveringTopics": [
                 {
@@ -10760,8 +10890,15 @@
             "title": "Best Full Stack Developer Training Course",
             "bgImage": "/coursesBgImages/fullstack.jpg",
             "detail": {
-                "paragraph1": "Best Full stack developer Training by IT Accurate training institute offers you the best Full stack developer training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our Full stack developer training course covers every technical topics in details and the student is left with real-time hand on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 5+ years of field experience. We value your time as much as over. Hence we invented to train you in Full stack developer in just 4 months."
+                 "points": [
+    "IT Accurate offers the best Full Stack Developer training program for both freshers and experienced professionals.",
+    "Get expert guidance and 100% guaranteed placement assistance from industry-certified trainers.",
+    "The Full Stack Developer course covers every front-end and back-end technology in detail, ensuring real-time, hands-on experience.",
+    "Gain proficiency in key technologies such as HTML, CSS, JavaScript, React, Node.js, Express.js, and MongoDB.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 5+ years of real-world project experience.",
+    "Train in Full Stack Development through a structured 4-month program designed to accelerate your coding and deployment skills.",
+    "IT Accurate’s advanced training methodology focuses on building real-time projects that prepare you for professional development roles and global opportunities."
+  ]
             },
             "coveringTopics": [
                 {
@@ -11411,7 +11548,15 @@
             "title": "Best Python Full Stack Developer Training Course",
             "bgImage": "/coursesBgImages/python-full-stack.jpg",
             "detail": {
-                "paragraph1": "Looking to kickstart your career in full-stack development with Python? IT Accurate in Thane offers one of the most comprehensive and industry-aligned Python Full Stack Developer training courses in Mumbai. Covering everything from front-end languages like HTML5, CSS3, JavaScript, and Bootstrap, to robust back-end development using Python, Django, Django REST Framework, and SQL, this course ensures you gain hands-on, job-ready skills. What sets IT Accurate apart is its focus on practical learning, real-world projects, and personalised mentorship, all at competitive course fees. Students also benefit from dedicated placement assistance, which helps them secure roles in leading companies across various tech sectors. Whether you're a beginner or an upskilling professional, IT Accurate delivers the expertise and support needed to thrive as a Python full-stack developer."
+                "points": [
+    " Looking to Kickstart your career in full-stack development with Python through IT Accurate’s comprehensive and industry-aligned training program.",
+    "Located in Thane, IT Accurate offers one of the best Python Full Stack Developer courses in Mumbai designed for both beginners and professionals.",
+    "Master front-end technologies such as HTML5, CSS3, JavaScript, and Bootstrap to build responsive and dynamic web interfaces.",
+    "Gain in-depth back-end development skills using Python, Django, Django REST Framework, and SQL for robust application development.",
+    "Experience hands-on learning through real-world projects, case studies, and personalized mentorship from industry experts.",
+    "Benefit from dedicated placement assistance to secure roles in top IT and tech companies across multiple sectors.",
+    "IT Accurate stands out with its practical learning approach, career-focused training, and competitive course fees — preparing you for a successful career as a Python Full Stack Developer."
+  ]
             },
             "coveringTopics": [
                 {
@@ -11954,7 +12099,15 @@
             "title": "Best Java Full Stack Developer Training Course",
             "bgImage": "/coursesBgImages/java-full-stack.jpg",
             "detail": {
-                "paragraph1": "If you're looking to master full-stack development with a strong Java foundation, IT Accurate in Thane stands out as one of the most trusted training institutes in Mumbai. Their Java Full Stack Developer course covers everything from core concepts, such as HTML5, CSS3, JavaScript, Bootstrap, and C/C++, to advanced modules including JDBC, Servlets, JSP, Spring, Hibernate, and MVC frameworks. With real-world projects, hands-on coding sessions, and a focus on job readiness, students receive not only technical skills but also placement assistance that leads to actual opportunities in reputable tech companies. Backed by experienced trainers and affordable course fees, IT Accurate ensures a balanced, practical, and industry-aligned curriculum, making it the go-to place for aspiring full-stack developers. "
+                 "points": [
+    "Master full-stack development with a strong Java foundation through IT Accurate’s industry-leading Java Full Stack Developer course in Thane, Mumbai.",
+    "Learn from one of the most trusted IT training institutes known for practical learning, expert mentorship, and 100% placement assistance.",
+    "Cover front-end technologies including HTML5, CSS3, JavaScript, Bootstrap, and C/C++ to build dynamic and responsive web applications.",
+    "Advance your back-end development skills with Java, JDBC, Servlets, JSP, Spring, Hibernate, and MVC frameworks for complete project development.",
+    "Gain real-world experience through hands-on coding sessions, live projects, and assignments designed to build job-ready skills.",
+    "Benefit from a job-oriented curriculum focused on practical implementation, industry relevance, and continuous technical upskilling.",
+    "IT Accurate’s experienced trainers, affordable course fees, and structured approach make it the go-to institute for aspiring Java Full Stack Developers."
+  ]
             },
             "coveringTopics": [
                 {
@@ -12474,7 +12627,15 @@
             "title": "Best MERN Stack Developer Training Course",
             "bgImage": "/coursesBgImages/mern-stack.jpg",
             "detail": {
-                "paragraph1": "Suppose you're aspiring to become a job-ready full-stack developer using modern JavaScript technologies. In that case, IT Accurate’s MERN Stack Developer Training Course in Thane is one of the most comprehensive and career-focused options available. The course offers an in-depth curriculum covering MongoDB, Express.js, React.js, and Node.js, along with foundational web skills such as HTML, CSS, JavaScript, Bootstrap, jQuery, and MySQL for database exposure. With a strong focus on building dynamic, responsive, and scalable applications, this program combines theoretical learning with real-world projects that provide hands-on experience. IT Accurate is recognised for its affordable fees, industry-expert faculty, and placement support, which helps students secure roles in top startups and tech companies. Whether you're a beginner or looking to upskill, IT Accurate prepares you thoroughly for a high-growth MERN stack career. "
+                "points": [
+    "IT Accurate’s MERN Stack Developer Training Course in Thane is one of the most comprehensive and career-focused programs for aspiring full-stack developers.",
+    "Master modern JavaScript technologies including MongoDB, Express.js, React.js, and Node.js to build dynamic and scalable web applications.",
+    "Learn foundational web technologies such as HTML, CSS, JavaScript, Bootstrap, jQuery, and MySQL for complete full-stack development proficiency.",
+    "Gain hands-on experience through real-world projects, coding assignments, and industry-relevant case studies.",
+    "Develop the skills needed to create responsive, user-friendly, and performance-optimized web applications using the MERN stack.",
+    "Receive mentorship from industry experts and benefit from IT Accurate’s 100% guaranteed placement assistance.",
+    "IT Accurate stands out for its affordable fees, expert faculty, and practical, job-oriented training approach that prepares students for top roles in startups and leading tech companies."
+  ]
             },
             "coveringTopics": [
                 {
@@ -12752,7 +12913,16 @@
             "title": "Best .NET Full Stack Developer Training Course",
             "bgImage": "/coursesBgImages/dotnet-fullstack.svg",
             "detail": {
-                "paragraph1": "Looking to become a full-stack developer using Microsoft technologies? IT Accurate in Thane offers one of the most in-depth and career-oriented .NET Full Stack Developer training courses in Mumbai. This comprehensive program covers everything from front-end technologies, such as HTML5, CSS3, JavaScript, and Bootstrap, to powerful back-end development with C#, ADO.NET, ASP.NET, MVC, Web API, and SQL Server. Students gain hands-on experience building GUI applications, managing databases, and deploying secure, scalable web solutions using Microsoft’s .NET ecosystem. The course is supported by affordable fees, practical project work, and dedicated placement support, making it ideal for both beginners and working professionals seeking roles in software development. With industry-relevant training and strong mentorship, IT Accurate ensures you're job-ready from day one."
+                "points": [
+    "IT Accurate in Thane offers one of the most comprehensive and career-oriented .NET Full Stack Developer training courses in Mumbai.",
+    "Learn full-stack development using Microsoft technologies, ideal for both beginners and working professionals.",
+    "Master front-end technologies including HTML5, CSS3, JavaScript, and Bootstrap to create modern, responsive web interfaces.",
+    "Gain in-depth back-end development skills with C#, ADO.NET, ASP.NET, MVC, Web API, and SQL Server for enterprise-level applications.",
+    "Get hands-on experience building GUI applications, managing databases, and deploying secure, scalable web solutions using the .NET ecosystem.",
+    "Benefit from practical, project-based learning that bridges theoretical knowledge with real-world software development challenges.",
+    "IT Accurate provides affordable course fees, strong mentorship, and 100% placement assistance to help you start your career with confidence.",
+    "With industry-relevant training and practical exposure, IT Accurate ensures you are job-ready from day one as a .NET Full Stack Developer."
+  ]
             },
             "coveringTopics": [
                 {
@@ -13135,8 +13305,15 @@
             "title": "Best AWS Training Course",
             "bgImage": "/coursesBgImages/aws.jpg",
             "detail": {
-                "paragraph1": "Best AWS Training by IT Accurate Training Institute offers you the best AWS training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our AWS Training course covers every technical topics in details and the student is left with real-time hand on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in AWS in just 2 months."
+                 "points": [
+    "IT Accurate offers the best AWS (Amazon Web Services) training program for both freshers and experienced professionals.",
+    "Receive expert guidance and 100% guaranteed placement assistance from certified cloud industry trainers.",
+    "The AWS course covers every essential technical topic in detail, providing students with real-time, hands-on practical experience.",
+    "Gain in-depth knowledge of core AWS services including EC2, S3, Lambda, IAM, VPC, CloudFormation, and more.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 2+ years of real-world cloud experience.",
+    "Train in AWS through a structured 2-month program focused on practical learning, cloud deployment, and infrastructure management.",
+    "IT Accurate’s advanced AWS training emphasizes real-world project implementation and prepares you for AWS global certification exams and career success."
+  ]
             },
             "coveringTopics": [
                 {
@@ -13606,8 +13783,16 @@
             "title": "Best Data Engineering Training Course",
             "bgImage": "/coursesBgImages/data-engineer.jpg",
             "detail": {
-                "paragraph1": "Best Data Engineering Training by IT Accurate offers you the Best Data Engineering training for freshers and experienced candidates, with expert guidance and 100% guaranteed placement assistance. Our Data Engineering training course covers every technical topic in detail, ensuring students gain real-time hands-on experience.",
-                "paragraph2": "Our practical, job-oriented training program not only provides you with a certification but also equips you with knowledge equivalent to 2+ years of industry experience. We value your time, which is why we have designed an intensive Data Engineering course that trains you in just 5 months."
+                  "points": [
+    "IT Accurate offers the best Data Engineering training program for both freshers and experienced professionals.",
+    "Receive expert guidance and 100% guaranteed placement assistance to help you build a successful data engineering career.",
+    "The Data Engineering course covers every technical topic in detail, ensuring real-time, hands-on experience with industry tools.",
+    "Gain expertise in core concepts such as data modeling, ETL processes, data pipelines, data warehousing, and cloud-based data solutions.",
+    "Master essential technologies including Python, SQL, Apache Spark, Hadoop, Kafka, and AWS or Azure data platforms.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 2+ years of real-world experience.",
+    "Train in Data Engineering through an intensive 5-month program designed for efficiency, practical learning, and career readiness.",
+    "IT Accurate’s Data Engineering training emphasizes real-world projects and prepares you for top data roles in leading tech companies."
+  ]
             },
             "coveringTopics": [
                 {
@@ -14612,8 +14797,16 @@
             "title": "Best Python Training Course",
             "bgImage": "/coursesBgImages/python.jpg",
             "detail": {
-                "paragraph1": "Best Python Training by IT Accurate offers you the best Python training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our Python training course covers every technical topics in details and the student is left with real-time hand on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 4+ years of field experience. We value your time as much as over. Hence we invented to train you in Python in just 1.5 months."
+                 "points": [
+    "IT Accurate offers the best Python training program for both freshers and experienced professionals looking to enhance their programming skills.",
+    "Receive expert guidance and 100% guaranteed placement assistance from industry-certified trainers.",
+    "The Python course covers every technical topic in detail, ensuring a solid foundation in both core and advanced Python concepts.",
+    "Gain real-time, hands-on experience through practical coding sessions, live projects, and problem-solving exercises.",
+    "Learn essential modules and frameworks including NumPy, Pandas, Matplotlib, Flask, and Django for versatile application development.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 4+ years of real-world industry experience.",
+    "Train in Python through a fast-track 1.5-month program designed for efficiency, practical exposure, and rapid career advancement.",
+    "IT Accurate’s Python training emphasizes project-based learning, preparing you for roles in software development, automation, and data analysis."
+  ]
             },
             "coveringTopics": [
                 {
@@ -15049,8 +15242,15 @@
             "title": "Best ServiceNow Training Course",
             "bgImage": "/coursesBgImages/service-now.jpg",
             "detail": {
-                "paragraph1": "Best ServiceNow Training by IT Accurate offers you the Best ServiceNow training for freshers and experienced candidates, with expert guidance and 100% guaranteed placement assistance. Our ServiceNow training course covers every technical topic in detail, leaving the student with real-time hands-on experience.",
-                "paragraph2": "Our practical, job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as ours. Hence, we aim to train you in ServiceNow in just 5 months."
+                 "points": [
+    "IT Accurate offers the best ServiceNow training program for both freshers and experienced professionals aiming to build a strong IT career.",
+    "Learn from industry experts with 100% guaranteed placement assistance and personalized mentorship.",
+    "The ServiceNow course covers every technical and administrative topic in detail, ensuring real-time, hands-on project experience.",
+    "Gain practical expertise in ServiceNow modules including ITSM, ITOM, CMDB, Service Catalog, and Workflow Automation.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 2+ years of real-world experience.",
+    "Train in ServiceNow through a comprehensive 5-month program designed to make you industry-ready in minimal time.",
+    "IT Accurate’s ServiceNow training approach focuses on real-world implementation, preparing you for ServiceNow global certification and top IT roles."
+  ]
             },
             "coveringTopics": [
                 {
@@ -15537,8 +15737,15 @@
             "title": "Best Share Market Training Course",
             "bgImage": "/coursesBgImages/share-market.jpg",
             "detail": {
-                "paragraph1": "Best Share Market Training by IT Accurate offers you the Best Share Market training for freshers and experienced candidates, with expert guidance. Our Share Market training course covers every technical topic in detail, providing students with real-time hands-on experience.",
-                "paragraph2": "Our practical, training program not only awards you with a certificate but also imparts knowledge equivalent to approximately 2+ years of expertise. We respect your time greatly, which is why we have condensed our Share Market training into just 3 months."
+                 "points": [
+    "IT Accurate offers the best Share Market training program for both freshers and experienced individuals looking to build a career in trading and investments.",
+    "Receive expert guidance from seasoned market professionals with personalized mentorship and practical exposure.",
+    "The Share Market course covers every technical and analytical topic in detail, ensuring students gain real-time, hands-on trading experience.",
+    "Learn key concepts such as stock market fundamentals, technical analysis, fundamental analysis, risk management, and portfolio building.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 2+ years of real-world experience.",
+    "The 3-month Share Market training course is designed for efficiency — combining theory, live market sessions, and practical simulations.",
+    "IT Accurate’s Share Market training emphasizes real-world trading strategies and prepares students for success in equity, futures, and options trading."
+  ]
             },
             "coveringTopics": [
                 {
@@ -16035,8 +16242,16 @@
             "title": "Best Data Science Training Course",
             "bgImage": "/coursesBgImages/data-science.jpg",
             "detail": {
-                "paragraph1": "Best Data Science Training by IT Accurate offers you the Best Data Science training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our Data Science training course covers every technical topics in details and the student is left with real-time hand on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in Data Science in just 7 months."
+              "points": [
+    "IT Accurate offers the best Data Science training program for both freshers and experienced professionals aiming to build a successful career in analytics and AI.",
+    "Receive expert guidance and 100% guaranteed placement assistance from industry-certified data science trainers.",
+    "The Data Science course covers every essential technical topic in depth, providing students with real-time, hands-on project experience.",
+    "Gain proficiency in Python, SQL, Pandas, NumPy, Power BI, Tableau, and advanced machine learning algorithms.",
+    "Learn data visualization, data wrangling, statistical analysis, predictive modeling, and business intelligence techniques used in real-world applications.",
+    "Our practical, job-oriented training program offers certification and knowledge equivalent to over 2+ years of professional experience.",
+    "Complete your Data Science training in just 7 months through a structured, project-based curriculum designed for career readiness.",
+    "IT Accurate’s Data Science program emphasizes practical implementation, case studies, and live projects that prepare you for high-paying roles in top tech and analytics companies."
+  ]
             },
             "coveringTopics": [
                 {
@@ -16789,7 +17004,16 @@
             "title": "Best Machine learning Training Course",
             "bgImage": "/coursesBgImages/machine-learning.jpg",
             "detail": {
-                "paragraph1": "Best Machine learning Training by IT Accurate offers you the best Machine learning training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our Machine learning training course covers every technical topics in details and the student is left with real-time hand on experience. Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in Machine learning in just 4 months."
+                 "points": [
+    "IT Accurate offers the best Machine Learning training program for both freshers and experienced professionals looking to build a strong career in AI and data science.",
+    "Learn directly from industry experts with 100% guaranteed placement assistance and personalized career guidance.",
+    "The Machine Learning course covers every technical concept in detail, ensuring real-time, hands-on experience through practical projects.",
+    "Gain expertise in Python, NumPy, Pandas, Scikit-learn, TensorFlow, and key machine learning algorithms including regression, classification, and clustering.",
+    "Understand model evaluation, feature engineering, and data preprocessing techniques used in real-world ML workflows.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 2+ years of industry experience.",
+    "Train in Machine Learning through an intensive 4-month program designed for efficiency, depth, and career readiness.",
+    "IT Accurate’s Machine Learning course emphasizes project-based learning and prepares you for roles in AI, data science, and automation engineering."
+  ]
             },
             "coveringTopics": [
                 {
@@ -17447,8 +17671,16 @@
             "title": "Best AI & ML Training Course",
             "bgImage": "/coursesBgImages/aiml.jpg",
             "detail": {
-                "paragraph1": "Best AI & ML Training by IT Accurate training offers you the best AI & ML training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our AI & ML training course covers every technical topics in details and the student is left with real-time hand on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in AI & ML in just 7 months."
+                 "points": [
+    "IT Accurate offers the best AI & ML (Artificial Intelligence and Machine Learning) training program for both freshers and experienced professionals.",
+    "Learn directly from expert mentors with 100% guaranteed placement assistance and hands-on industry exposure.",
+    "The AI & ML course covers every technical concept in detail, providing students with real-time, project-based learning experience.",
+    "Gain strong foundational and advanced skills in Python, Data Science, Deep Learning, Neural Networks, and Natural Language Processing (NLP).",
+    "Master key tools and frameworks such as TensorFlow, Keras, Scikit-learn, OpenCV, and PyTorch through practical implementations.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 2+ years of real-world experience.",
+    "Train in AI & ML through a structured 7-month program designed for in-depth learning and career readiness.",
+    "IT Accurate’s AI & ML training emphasizes real-world projects, research-based learning, and preparation for global AI certifications."
+  ]
             },
             "coveringTopics": [
                 {
@@ -18140,8 +18372,15 @@
             "title": "Best Salesforce Training Course",
             "bgImage": "/coursesBgImages/salesforce.jpg",
             "detail": {
-                "paragraph1": "IT Accurate offers you the Best Salesforce Training for Fresher and Experience candidate , with Expert Guidance and 100% Guaranteed Placement Assistance. Our Training Course cover every technical topics in details and the student is left with Real-Time Hands-On Experience.",
-                "paragraph2": "Our Practical, Job-Oriented Training Program, will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of Field Experience. We value your time as much as ours. Hence we intend to train you in Salesforce in just 5 months."
+                 "points": [
+    "IT Accurate offers the best Salesforce training program for both freshers and experienced professionals aiming to build a strong CRM career.",
+    "Learn directly from certified Salesforce experts with 100% guaranteed placement assistance and personalized mentorship.",
+    "The Salesforce training course covers every technical and functional topic in detail, ensuring real-time, hands-on project experience.",
+    "Gain practical expertise in Salesforce Administration, Development, Apex Programming, Lightning Components, and Integration.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 2+ years of real-world industry experience.",
+    "Train in Salesforce through a comprehensive 5-month program designed to make you job-ready for CRM and cloud-based roles.",
+    "IT Accurate’s Salesforce training emphasizes practical implementation, case studies, and real-world business scenarios to prepare you for global Salesforce certification and top-tier placements."
+  ]
             },
             "coveringTopics": [
                 {
@@ -18771,8 +19010,15 @@
             "title": "Best Salesforce Admin Training Course",
             "bgImage": "/coursesBgImages/salesforce-admin.jpg",
             "detail": {
-                "paragraph1": "Salesforce Training by IT Accurate offers you the Best Salesforce Admin Training for Fresher and Experience candidate , with Expert Guidance and 100% Guaranteed Placement Assistance. Our Training Course cover every technical topics in details and the student is left with Real-Time Hands-On Experience.",
-                "paragraph2": "Our practical, Job-Oriented Training Program, will not only provide you with a certificate but also with knowledge equivalent to around 10+ years of Field Experience.We value your time as much as ours. Hence we intend to train you in Salesforce Admin in just 1.5 month."
+                "points": [
+    "IT Accurate offers the best Salesforce Admin training program for both freshers and experienced professionals seeking to build a strong foundation in CRM management.",
+    "Receive expert guidance and 100% guaranteed placement assistance from certified Salesforce professionals.",
+    "The Salesforce Admin course covers every administrative and technical topic in detail, ensuring real-time, hands-on project experience.",
+    "Gain practical expertise in Salesforce configuration, user management, data handling, workflow automation, and security settings.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 10+ years of real-world industry experience.",
+    "Train in Salesforce Admin through an intensive 1.5-month course designed for efficiency, depth, and rapid skill acquisition.",
+    "IT Accurate’s Salesforce Admin training emphasizes real-world implementation, preparing you for Salesforce certification exams and administrative roles in leading organizations."
+  ]
             },
             "coveringTopics": [
                 {
@@ -19406,7 +19652,16 @@
             "title": "Best Salesforce Development Training Course",
             "bgImage": "/coursesBgImages/salesforce-development.jpg",
             "detail": {
-                "paragraph1": "Salesforce Development Training by IT Accurate offers you the Best Salesforce Development Training for Fresher and Experience candidate , with Expert Guidance and 100% Guaranteed Placement Assistance. Our Training Course cover every technical topics in details and the student is left with Real-Time Hands-On Experience. Our practical, Job-Oriented Training Program, will not only provide you with a certificate but also with knowledge equivalent to around 7+ years of Field Experience.We value your time as much as ours. Hence we intend to train you in Salesforce Development Development in just 2 months."
+                  "points": [
+    "IT Accurate offers the best Salesforce Development training program for both freshers and experienced professionals aiming to master Salesforce customization and coding.",
+    "Learn directly from certified Salesforce experts with 100% guaranteed placement assistance and career-focused mentorship.",
+    "The Salesforce Development course covers every technical concept in depth, providing real-time, hands-on project experience.",
+    "Gain expertise in Apex Programming, Visualforce Pages, Lightning Web Components (LWC), Triggers, and Salesforce APIs.",
+    "Develop practical skills in integrating Salesforce with external systems and automating business processes through advanced configurations.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 7+ years of real-world development experience.",
+    "Train in Salesforce Development through an intensive 2-month course designed to accelerate your learning and prepare you for real-world projects.",
+    "IT Accurate’s Salesforce Development training emphasizes hands-on implementation, preparing you for global Salesforce certification and high-demand development roles."
+  ]
             },
             "coveringTopics": [
                 {
@@ -19937,8 +20192,15 @@
             "title": "Best Salesforce LWC & Integration Training Course",
             "bgImage": "/coursesBgImages/lwc-integration.jpg",
             "detail": {
-                "paragraph1": "Salesforce Training by IT Accurate offers you the Best Salesforce Training for Fresher and Experience candidate , with Expert Guidance and 100% Guaranteed Placement Assistance. Our Training Course cover every technical topics in details and the student is left with Real-Time Hands-On Experience.",
-                "paragraph2": "Our practical, Job-Oriented Training Program, will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of Field Experience. We value your time as much as ours. Hence we intend to train you in Salesforce in just 1 months."
+                  "points": [
+    "IT Accurate offers the best Salesforce training program for both freshers and experienced professionals aspiring to build a strong career in CRM and cloud technologies.",
+    "Learn from certified Salesforce experts with 100% guaranteed placement assistance and personalized career mentorship.",
+    "The Salesforce course covers every technical and functional module in detail, ensuring real-time, hands-on experience through practical projects.",
+    "Gain a solid understanding of Salesforce architecture, configuration, automation, and application development within the Salesforce ecosystem.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 2+ years of real-world experience.",
+    "Train in Salesforce through a focused 1-month course designed to deliver maximum learning impact in minimal time.",
+    "IT Accurate’s Salesforce training emphasizes real-world business applications, preparing you for Salesforce certification and career success in the CRM domain."
+  ]
             },
             "coveringTopics": [
                 {
@@ -20420,7 +20682,7 @@
                     "name": "Ishita Satpute",
                     "review": "I enrolled in IT Accurate Institute’s Salesforce training to enhance my professional skills,and it exceeded my expectations.The well-structure modules,coupled with interactive sessions,provided a solid foundation for understanding Salesforce, making me proficient in its application for business success. ",
                     "image": "https://img.freepik.com/free-photo/woman_53876-71214.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
-                    "role": "Salesforce Developer"
+                    "role": "Salesforce Developer "
                 },
                 {
                     "name": "Prabhas Bhandorkar",
@@ -20507,8 +20769,16 @@
             "title": "Best Salesforce Marketing Cloud Training Course",
             "bgImage": "/coursesBgImages/salesforce-marketing.jpg",
             "detail": {
-                "paragraph1": "Best Salesforce Marketing Cloud Training by IT Accurate offers you the best Salesforce Marketing Cloud training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our Salesforce Marketing Cloud training course covers every technical topics in details and the student is left with real-time hand on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 10+ years of field experience. We value your time as much as over. Hence we invented to train you in Salesforce marketing cloud in just 3 months."
+                 "points": [
+    "IT Accurate offers the best Salesforce Marketing Cloud training program for both freshers and experienced professionals aiming to excel in marketing automation and CRM integration.",
+    "Receive expert guidance and 100% guaranteed placement assistance from certified Salesforce Marketing Cloud professionals.",
+    "The course covers every technical and functional topic in detail, ensuring real-time, hands-on learning through live projects and use cases.",
+    "Gain expertise in Marketing Cloud tools such as Email Studio, Journey Builder, Automation Studio, Contact Builder, and Audience Studio.",
+    "Learn how to design, personalize, and automate customer journeys using data-driven marketing strategies within Salesforce.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 10+ years of real-world industry experience.",
+    "Train in Salesforce Marketing Cloud through an intensive 3-month program designed to enhance your marketing technology and CRM skills.",
+    "IT Accurate’s Salesforce Marketing Cloud training emphasizes practical implementation, preparing you for global certifications and high-demand roles in digital marketing and CRM solutions."
+  ]
             },
             "coveringTopics": [
                 {
@@ -21089,8 +21359,15 @@
             "title": "Best Business analytics Training Course",
             "bgImage": "/coursesBgImages/business-analytics.jpg",
             "detail": {
-                "paragraph1": "Best Business analytics Training by IT Accurate offers you the Best Business analytics training for freshers and experience candidate , with expert guidance and 100% guaranteed placement assistance. Our Business analytics training course covers every technical topics in details and the student is left with real-time hand on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in Business analytics in just 3 months."
+                "points": [
+    "IT Accurate offers the best Business Analytics training program for both freshers and experienced professionals looking to build data-driven decision-making skills.",
+    "Receive expert guidance and 100% guaranteed placement assistance from experienced business analytics professionals.",
+    "The Business Analytics course covers every technical and analytical topic in detail, ensuring students gain real-time, hands-on experience with data tools.",
+    "Learn key concepts including data visualization, business intelligence, reporting, and predictive analytics using Excel, SQL, Power BI, and Tableau.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 2+ years of real-world experience.",
+    "Train in Business Analytics through an intensive 3-month course designed for fast, practical, and industry-focused learning.",
+    "IT Accurate’s Business Analytics training emphasizes real-world case studies, preparing you for analytics roles across multiple business domains."
+  ]
             },
             "coveringTopics": [
                 {
@@ -21625,8 +21902,16 @@
             "title": "Best HR Business Analyst Training Course",
             "bgImage": "/coursesBgImages/ba-hr.jpg",
             "detail": {
-                "paragraph1": "IT Accurate’s HR Business Analyst Training Program offers the best HR Analytics and Business Analytics training , designed for both freshers and experienced candidates. With expert mentorship and 100% job placement assistance, our program covers all essential topics, ensuring students gain real-world, hands-on experience.",
-                "paragraph2": "Our job-oriented training program equips learners not only with certifications but also with the knowledge and skills of professionals with 10+ years of experience. We prioritize your time, delivering comprehensive training in just 2 months."
+                 "points": [
+    "IT Accurate offers the best HR Business Analyst Training Program, combining HR Analytics and Business Analytics for both freshers and experienced professionals.",
+    "Learn from expert mentors with 100% guaranteed job placement assistance and personalized career guidance.",
+    "The course covers all essential topics in HR and Business Analytics, providing real-world, hands-on experience through practical projects.",
+    "Gain expertise in HR data analysis, workforce planning, employee performance metrics, and business reporting using advanced analytics tools.",
+    "Develop strong analytical and visualization skills with tools like Excel, Power BI, Tableau, and SQL to interpret and present HR insights effectively.",
+    "Our job-oriented training program provides certification and knowledge equivalent to over 10+ years of industry experience.",
+    "Train in HR Business Analytics through a comprehensive 2-month program designed for efficient, practical, and career-focused learning.",
+    "IT Accurate’s HR Business Analyst training emphasizes real-world applications, preparing you for data-driven roles in HR, analytics, and strategic decision-making."
+  ]
             },
             "coveringTopics": [
                 {
@@ -22350,8 +22635,15 @@
             "title": "Best SAP HCM Training Course",
             "bgImage": "/coursesBgImages/sap-hr.jpg",
             "detail": {
-                "paragraph1": "IT Accurate offers you the best SAP HCM(Human Capital Management) training for freshers and experienced candidates , with expert guidance and 100% guaranteed placement assistance. Our SAP training course covers every technical topic in detail and the student is left with real-time hands-on experience.",
-                "paragraph2": "Our practical, Job-oriented training program will not only provide you with a certificate but also with knowledge equivalent to around 2+ years of field experience. We value your time as much as over. Hence we invented to train you in SAP HCM with S/4 HANA in just 4 months."
+              "points": [
+    "IT Accurate offers the best SAP HCM (Human Capital Management) training program for both freshers and experienced professionals.",
+    "Receive expert guidance and 100% guaranteed placement assistance to help you build a strong career in SAP HR and payroll management.",
+    "The SAP HCM course covers every technical and functional topic in detail, ensuring students gain real-time, hands-on experience.",
+    "Learn core SAP HCM modules including Personnel Administration, Organizational Management, Time Management, and Payroll Processing.",
+    "Our practical, job-oriented training program provides certification and knowledge equivalent to over 2+ years of real-world HR system experience.",
+    "Train in SAP HCM with S/4 HANA through a structured 4-month program designed for efficient and in-depth learning.",
+    "IT Accurate’s SAP HCM training emphasizes real-world implementation, preparing you for SAP global certification and professional success in HR analytics and management."
+  ]
             },
             "coveringTopics": [
                 {
@@ -22904,8 +23196,16 @@
             "title": "Best HR Analytics Training Course",
             "bgImage": "/coursesBgImages/da-hr.jpg",
             "detail": {
-                "paragraph1": "IT Accurate’s HR Analytics Training Program offers the best training in HR Analytics, focusing on tools and techniques to analyze employee data, predict workforce trends, and enhance HR decision-making. This program caters to both freshers and experienced candidates, with expert guidance and 100% guaranteed placement assistance. The course covers key HR analytics tools like SAP SuccessFactors, Power BI, and Tableau, providing hands-on experience to ensure real-world application.",
-                "paragraph2": "Our job-oriented training ensures that learners not only earn certifications but also gain practical experience equivalent to professionals with 10+ years of experience. We understand the value of your time, so we offer comprehensive training in just 2 months."
+                  "points": [
+    "IT Accurate offers the best HR Analytics Training Program designed for both freshers and experienced professionals aiming to excel in data-driven HR decision-making.",
+    "Learn under expert mentorship with 100% guaranteed placement assistance and personalized career support.",
+    "The course focuses on analyzing employee data, predicting workforce trends, and enhancing HR strategies through data insights.",
+    "Gain hands-on experience with leading HR analytics tools including SAP SuccessFactors, Power BI, and Tableau.",
+    "Master key techniques in HR data visualization, KPI tracking, performance measurement, and predictive analytics for strategic HR planning.",
+    "Our job-oriented training program provides certification and knowledge equivalent to over 10+ years of real-world HR analytics experience.",
+    "Train in HR Analytics through an intensive 2-month program designed for efficiency, practical application, and industry readiness.",
+    "IT Accurate’s HR Analytics training emphasizes real-world projects and case studies, preparing learners for high-impact roles in HR analytics and business intelligence."
+  ]
             },
             "coveringTopics": [
                 {
@@ -23441,37 +23741,37 @@
                 {
                     "profession": "HR Data Analyst",
                     "cta": "Naukri.com",
-                    "link": "https://www.naukri.com/job-name",
+                    "link": "https://www.naukri.com/hr-data-analyst-jobs?k=hr%20data%20analyst&experience=0&nignbevent_src=jobsearchDeskGNB",
                     "btncolor": "blue"
                 },
                 {
-                    "profession": "People Analytics Specialist",
+                    "profession": "HR Data Analyst",
                     "cta": "Indeed.com",
-                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "link": "https://in.indeed.com/jobs?q=HR+Data+Analyst+fresher&l=&from=searchOnDesktopSerp&vjk=4bd4e9c5d5d8db68",
                     "btncolor": "grey"
                 },
                 {
-                    "profession": "HR Business Intelligence Analyst",
+                    "profession": "HR Data Analyst",
                     "cta": "Linkedin.com",
-                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "link": "https://in.linkedin.com/jobs/search?keywords=HR%20Data%20Analyst%20&location=India&geoId=102713980&f_TPR=&f_E=2&position=1&pageNum=0",
                     "btncolor": "indigo"
                 },
                 {
-                    "profession": "Talent Analytics Consultant",
+                    "profession": "HR Data Analyst",
                     "cta": "Glassdoor.com",
-                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "link": "https://www.glassdoor.co.in/Job/india-hr-data-analyst-fresher-jobs-SRCH_IL.0,5_IN115_KO6,29.htm",
                     "btncolor": "green"
                 },
                 {
-                    "profession": "Workforce Planning Analyst",
+                    "profession": "HR Data Analyst",
                     "cta": "Monster.com",
-                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "link": "https://www.monster.com/jobs/search?q=HR+Data+Analyst+Fresher&where=&page=1&so=m.s.sh",
                     "btncolor": "voilet"
                 },
                 {
-                    "profession": "Compensation & Benefits Analyst (with Analytics focus)",
+                    "profession": "HR Data Analyst",
                     "cta": "Shine.com",
-                    "link": "https://www.shine.com/job-search/job-name",
+                    "link": "https://www.shine.com/job-search/hr-data-analyst-fresher-jobs?q=hr-data-analyst-fresher&qActual=HR+Data+Analyst+Fresher&minexp=2&suid=e95fb30c-f723-43ed-973a-28d4156efd32",
                     "btncolor": "orange"
                 }
             ]
@@ -23481,8 +23781,16 @@
             "title": "Best SAP SuccessFactors Training Course",
             "bgImage": "/coursesBgImages/sap-success.jpg",
             "detail": {
-                "paragraph1": "IT Accurate offers you the best SAP SuccessFactors training for both freshers and experienced candidates, with expert guidance and 100% guaranteed placement assistance. Our comprehensive training course covers every technical topic in detail, ensuring students gain real-time hands-on experience and practical knowledge.",
-                "paragraph2": "Our practical, job-oriented training program provides not only a globally recognized certificate but also knowledge equivalent to around 2+ years of industry experience. We value your time, which is why our specialized program is designed to train you in SAP SuccessFactors with S/4 HANA integration in just 4 months."
+                 "points": [
+    "IT Accurate offers the best SAP SuccessFactors training program for both freshers and experienced professionals aiming to build expertise in cloud-based HR solutions.",
+    "Learn from certified SAP experts with 100% guaranteed placement assistance and career-focused mentorship.",
+    "The SAP SuccessFactors course covers every technical and functional topic in detail, providing students with real-time, hands-on project experience.",
+    "Gain practical knowledge of SAP SuccessFactors modules including Employee Central, Recruitment, Onboarding, Performance & Goals, and Learning Management.",
+    "Understand how SAP SuccessFactors integrates with SAP S/4 HANA for streamlined HR and business operations.",
+    "Our job-oriented training program provides globally recognized certification and knowledge equivalent to over 2+ years of industry experience.",
+    "Train in SAP SuccessFactors through a structured 4-month program designed for efficient, practical, and career-driven learning.",
+    "IT Accurate’s SAP SuccessFactors training emphasizes real-world application, preparing you for SAP global certification and high-growth roles in HR technology."
+  ]
             },
             "coveringTopics": [
                 {
@@ -24037,47 +24345,719 @@
                 {
                     "profession": "SAP SuccessFactors Employee Central Consultant",
                     "cta": "Naukri.com",
-                    "link": "https://www.naukri.com/job-name",
+                    "link": "https://www.naukri.com/sap-successfactors-employee-central-consultant-jobs?experience=0",
                     "btncolor": "blue"
                 },
                 {
                     "profession": "SAP SuccessFactors Recruiting Consultant",
                     "cta": "Indeed.com",
-                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506https://in.indeed.com/jobs?q=sap+successfactors+employee+central+consultant+fresher&l=&from=searchOnDesktopSerp&cf-turnstile-response=0.cdbvdL1M9AtFF_MLD3JR4eGceMcag1jERMORqBxldk6ekWKwtUQJEukysAN6rcgxJz0iv3my4Y9lANe-PZ5LwiUVLaxuvfs-QQ7KSkSpCYgQxuJli5SmvdlSnY7ZNeJdiTTLIX7MU_K6zO5-Oi7hjVVsLJrWLZGWCzTIK0wXpOcDIgfYQ1s79EVMMdRtcOqnAMnI3Zl22k3qzU_8WycblqLv5Npo2ah_6pWkaLk0RTNMPMzWM3SzhI-dXcvdmFjyFrkv5n-W10j9pGeXJigJF1lazeMPGY86kzKjG7-LYbTvW-I5SC70O8ofhtTze7ZVzYbWgtfzSaOO4DORf_o8Udq0IYXRKBWoz4F5hKBMMZ0XFgi9W1DW5d46b_-eiIAokZ-b7dehvdztNKycFj2oWlF2tpCR1nuZLmjl5_0QgdF9LNB4POyBnq7CUU9MnlYMn0NK186BlBP282dCEoORLA7A2FaIMeUAZ2-ztg3Y55rcIBLFXXEUzM0FrUNrmqRoV1Mix-ZUveiXUrc6BuEaWKXQ-8q5Sgc5sOtH00O9h0cY5_9IE4ePlR5Ru2e1ejusn2eebqgtJ1eA2Ga7fwac8t423MKUK6NZ74plqG5oK69VDED8TOMS0LsZxLIrYAnOTBgx-r5-BmpI8igXQwbezTE-2A-g97CVWPcniUoCilyUDnuYZsFEvQYlOjQVZJrRXrsQmYvryNFp5lxDh4e39EWaNQ62FlXtoQqzSsiANjwGOgzAD_ynO4Yi4-0wpKO863IvXNWKT97oSMGlQVaNEZEFQmQFHdUwO7C1licguy7R0rZF5fy_pnJpKICMFmXHrT17pJ-NrNYRZP5h_22CpqSAnlfK3G6woD0vuLWJb6mp1K1xVKHmgPTfjmLqqLBz0HfSPBdAYAB6h6-c5tHKRmO75EpPQrbBl70shG-kGAY.LPh-L_nnfB1iUA7pnoQW6A.def4d2b94f613e5ba44cdc38ea60ebe37930f91b26a797ba3884bf61d89d9b90&vjk=c4543336051ef186",
                     "btncolor": "grey"
                 },
                 {
                     "profession": "SAP SuccessFactors Learning Management Consultant",
                     "cta": "Linkedin.com",
-                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "link": "https://in.linkedin.com/jobs/search?keywords=Sap%20Successfactors&location=India&geoId=102713980&f_TPR=&f_E=2&position=1&pageNum=0",
                     "btncolor": "indigo"
                 },
                 {
                     "profession": "SAP SuccessFactors Compensation Consultant",
                     "cta": "Glassdoor.com",
-                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "link": "https://www.glassdoor.co.in/Job/india-sap-successfactors-fresher-jobs-SRCH_IL.0,5_IN115_KO6,32.htm",
                     "btncolor": "green"
                 },
                 {
                     "profession": "SAP SuccessFactors Performance and Goals Consultant",
                     "cta": "Monster.com",
-                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "link": "https://www.monster.com/jobs/search?q=Sap+Successfactors+Fresher&where=&page=1&so=m.s.sh",
                     "btncolor": "voilet"
                 },
                 {
                     "profession": "SAP SuccessFactors Integration Specialist",
                     "cta": "Shine.com",
-                    "link": "https://www.shine.com/job-search/job-name",
+                    "link": "https://www.shine.com/job-search/sap-successfactors-fresher-jobs?q=sap-successfactors-fresher&qActual=Sap+Successfactors+fresher&minexp=2&suid=6d508189-6091-4dd4-9c3e-b7b6b748b0ef",
                     "btncolor": "orange"
                 }
             ]
         },
+
+ "cyber-security": { 
+            "name": "Cyber Securtiy ",
+            "title": "Best Cyber Security Course",
+            "bgImage": "https://images.unsplash.com/photo-1719255417989-b6858e87359e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870",
+            "detail": {
+                  "points": [
+  "Comprehensive Advanced Cyber Security Training covering all essential concepts to protect and secure modern IT systems.",
+  "Perfect for beginners, IT students, and working professionals looking to build or advance a career in cybersecurity.",
+  "In-depth modules on : Network Defense, Ethical Hacking, Malware Analysis, Web Application Security, Cloud Security, and Incident Response.",
+  "Hands-on learning experience with real-time labs, simulated cyber-attacks, penetration testing, and live projects.",
+  "100% placement assistance including resume building, mock interviews, and personalized career mentoring.",
+  "Prepares you for globally recognized cybersecurity certifications.",
+  "Learn from industry experts with years of real-world experience in cybersecurity operations and consulting.",
+  "Flexible learning options – attend classroom sessions in Thane or live online interactive classes.",
+  "Industry-relevant curriculum updated regularly to reflect current cyber threats and market demands.",
+  "Internship opportunities with partner companies to gain real-world exposure before placement."
+]
+
+
+            },
+           "coveringTopics": [
+                {
+                    "title": "Networking Fundamentals",
+                    "icon": "/icons/image009.png"
+                },
+                {
+                    "title": "Operating Systems & Security",
+                    "icon": "/icons/image011.png"
+                },
+                {
+                    "title": "Cloud Security",
+                    "icon": "/icons/image013.png"
+                },
+                {
+                    "title": "Ethical Hacking & Penetration Testing",
+                    "icon": "/icons/image015.png"
+                },
+                {
+                    "title": "Incident Response & Forensics",
+                    "icon": "/icons/image017.png"
+                },
+                {
+                    "title": "Network Security & Firewalls",
+                    "icon": "/icons/image019.png"
+                },
+                {
+                    "title": " Web Application Security",
+                    "icon": "/icons/image021.png"
+                },
+                {
+                    "title": "Real-World Projects & Capstone",
+                    "icon": "/icons/image023.png"
+                },
+                {
+                    "title": "Cryptography & Data Protection",
+                    "icon": "/icons/image027.png"
+                },
+                {
+                    "title": "Security Tools & Labs",
+                    "icon": "/icons/image029.png"
+                },
+                {
+                    "title": "Threats, Malware & Vulnerabilities",
+                    "icon": "/icons/image025.png"
+                }
+            ],
+            
+            "whatIs": {
+                "name": " Cyber Security  ",
+                 "points": [
+    "Cybersecurity involves protecting systems, networks, and data from unauthorized access, attacks, and potential damage by identifying and mitigating vulnerabilities.",
+    "Strong cybersecurity measures help organisations improve their security posture, meet regulatory compliance standards, and safeguard sensitive information from breaches.",
+    "As cyber threats become more advanced, the demand for skilled cybersecurity professionals—such as penetration testers, red teamers, SOC analysts, and security engineers—is rapidly increasing in India and globally."
+  ]
+            },
+            "keyFeatures": [
+                {
+                    "text": "152+ Hrs Instructor-Led Training",
+                    "icon": "/icons/user-admin.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1581093588401-3b4f529f711b?q=80&w=500')",
+                    "description": "Constructive Duration of Practical Learning and Training."
+                },
+                {
+                    "text": "Certficate Guidance",
+                    "icon": "/icons/certificate.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1588776814546-ec7b7389f9c6?q=80&w=500')",
+                    "description": "End-to-end corporation in getting your Certification."
+                },
+                {
+                    "text": "Mentor Support",
+                    "icon": "/icons/user-check.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=500')",
+                    "description": "Access expert mentors to solve doubts and gain clarity."
+                },
+                {
+                    "text": "Resume Editing",
+                    "icon": "/icons/resume-edit.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1603575448362-1dbe1cbe4f2c?q=80&w=500')",
+                    "description": "Stand out with a professionally polished resume."
+                },
+                {
+                    "text": "52 Hrs Project & Exercises",
+                    "icon": "/icons/project2.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1573497491208-6b1acb260507?q=80&w=500')",
+                    "description": "Gain hands-on experience with real-world projects."
+                },
+                {
+                    "text": "100% Job Oriented Training",
+                    "icon": "/icons/briefcase.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=500')",
+                    "description": "Comprehensive assistance in placements and Job training."
+                },
+                {
+                    "text": "36 Hrs Self-Placed Videos",
+                    "icon": "/icons/xtweetplay.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1573497161234-94b2f4b9d2fa?q=80&w=500')",
+                    "description": "Learn anytime, anywhere with structured self-paced video lessons."
+                },
+                {
+                    "text": "Job Assistance",
+                    "icon": "/icons/job-assist.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=500')",
+                    "description": "Get guidance to land the right role in your career journey."
+                },
+                {
+                    "text": "Free Demo Class Available",
+                    "icon": "/icons/video.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": "An intriguing Demo class to make you acquainted with the educational aspects."
+                },
+                {
+                    "text": "Affordable Fees Structure",
+                    "icon": "/icons/dollar.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=500')",
+                    "description": "Quality learning that fits your budget."
+                },
+                {
+                    "text": "Flexible Schedule",
+                    "icon": "/icons/calendar.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1560264418-c4445382edbc?q=80&w=500')",
+                    "description": "Learn at your convenience with a schedule that suits you."
+                },
+                {
+                    "text": "Completed 1500+ Batches",
+                    "icon": "/icons/batch.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1605902711622-cfb43c4437d1?q=80&w=500')",
+                    "description": "Prominently completed 1500+ batches and counting more."
+                }
+            ],
+            "roadMap": [
+                {
+                    "title": "Introduction",
+                    "description": "Overview of Cyber Security",
+                    "icon": "/icons/closed-book.svg",
+                    "items": [
+                        "What is Cyber Security?",
+                        "Why Cyber Security matters?",
+                        "Real world cyber attacks",
+                        "Career scope in Cyber Security",
+                        "Job domains (Red / Blue / Purple)",
+                        "Certifications overview",
+                        "Salary & career growth"
+                    ],
+                    "color": "from-blue-500 to-indigo-600",
+                    "duration": "Week 1",
+                    "badges": [
+                        "CRM Basics",
+                        "Career Path"
+                    ]
+                },
+                {
+                    "title": "Networking Fundamentals",
+                    "description": "Mastering Networking Fundamentals",
+                    "icon": "/icons/netwrk.png",
+                    "items": [
+                        "OSI model",
+                        "TCP/IP model",
+                        "IP classes & subnetting",
+                        "Ports & protocols",
+                        "DNS / DHCP / NAT",
+                        "Firewall fundamentals",
+                        "Public vs Private networks"
+                       
+                    ],
+                    "color": "from-green-500 to-emerald-600",
+                    "duration": "Week 2-3",
+                    "badges": [
+                        "Admin Tools",
+                        "Trailhead"
+                    ]
+                },
+                {
+                    "title": "Operating System Security",
+                    "description": "Become a Skilled Operating System Security",
+                    "icon": "/icons/computer.svg",
+                    "items": [
+                        "Windows security basics",
+                        "Linux file system & commands",
+                        "User roles & permissions",
+                        "Hardening basics",
+                        "CMD & PowerShell basics",
+                        "Linux terminal practice",
+                        "Secure configuration"
+                    ],
+                    "color": "from-purple-500 to-violet-600",
+                    "duration": "Week 4-5",
+                    "badges": [
+                        "APEX",
+                        "Developer Skills"
+                    ]
+                },
+                {
+                    "title": "Ethical Hacking Fundamentals",
+                    "description": "Ethical Hacking Fundamentals",
+                    "icon": "/icons/ethicalh.png",
+                    "items": [
+                        "Reconnaissance",
+                        "Scanning & Enumeration",
+                        "Vulnerability Assessment",
+                        "Common attack vectors",
+                        "Kali Linux basics",
+                        "Hacker mindset",
+                        "Law & ethics in hacking"
+                    ],
+                    "color": "from-pink-500 to-rose-600",
+                    "duration": "Week 6-7",
+                    "badges": [
+                        "LWC",
+                        "Integration"
+                    ]
+                },
+                {
+                    "title": "Web Application Security",
+                    "description": "Web Application Development",
+                    "icon": "/icons/webapp.png",
+                    "items": [
+                        "OWASP Top 10",
+                        "SQL Injection",
+                        "XSS attacks",
+                        "CSRF",
+                        "Broken Authentication",
+                        "IDOR (Insecure Direct Object Reference)",
+                        "Securing web apps"
+                    ],
+                    "color": "from-yellow-500 to-orange-600",
+                    "duration": "Week 8",
+                    "badges": [
+                        "Einstein Bot",
+                        "AI"
+                    ]
+                },
+                {
+                    "title": "Tools & Hands-On Practice",
+                    "description": "Hands On Experiance",
+                    "icon": "/icons/hnd.png",
+                    "items": [
+                        "Nmap scanning",
+                        "Burp Suite usage",
+                        "Metasploit basics",
+                        "Wireshark packet analysis",
+                        "Dirsearch / Gobuster",
+                        "Vulnerability scanners",
+                        "Capture The Flag practice"
+                    ],
+                    "color": "from-teal-500 to-cyan-600",
+                    "duration": "Ongoing",
+                    "badges": [
+                        "Resume Tips"
+                    ]
+                },
+                {
+                    "title": "Cyber Defense + SOC",
+                    "description": "Security Operation",
+                    "icon": "/icons/cyberdefence.png",
+                    "items": [
+                        "Security Operation Center (SOC)",
+                        "SIEM introduction",
+                        "Logs analysis",
+                        "Alerts & use cases",
+                        "Incident response steps",
+                        "Threat intelligence basics",
+                        "MITRE ATT&CK framework"
+                    ],
+                    "color": "from-indigo-500 to-blue-700",
+                    "duration": "Ongoing",
+                    "badges": [
+                        "Mock Interviews",
+                        "Communication"
+                    ]
+                },
+                {
+                    "title": "Job Preparation & Placement",
+                    "description": "Land Your Dream Cyber Security Job",
+                    "icon": "/icons/focus.svg",
+                    "items": [
+                        "Resume for Cyber Security roles",
+                        "Portfolio building",
+                        "GitHub projects",
+                        "Interview Q&A preparation",
+                        "Certification path (CEH / Security+ / eJPT)",
+                        "Job roles to apply for",
+                        "Placement success checklist"
+                    ],
+                    "color": "from-red-500 to-pink-600",
+                    "duration": "Final Stage",
+                    "badges": [
+                        "Placement",
+                        "Career"
+                    ]
+                }
+            ],
+            "trainingSyllabus": [
+                {
+                    "name": "Introduction To Cyber Security"
+                },
+                {
+                    "title": "Introduction to Cybersecurity",
+                     "subpoints": [
+    "Types of Cyber Threats & Attacks",
+    "Cybersecurity Terminology & Concepts",
+    "Cybersecurity Laws, Policies, and Compliance",
+    "Career Paths in Cybersecurity"
+  ],
+                    "color": "bg-blue-600",
+                    "icon": "/icons/closed-book.svg",
+                   
+                    "duration": "1 Week",
+                    "badges": [
+                        "APEX Basics",
+                        "Cloud"
+                    ]
+                },
+                {
+                  "title": "Networking Fundamentals",
+  "subpoints": [
+    "OSI & TCP/IP Models",
+    "IP Addressing, Subnets, and Routing",
+    "Network Devices (Router, Switch, Firewall)",
+    "LAN, WAN, and VPN Concepts",
+    "Network Security Essentials"
+  ],
+                    "color": "bg-purple-600",
+                    "icon": "/icons/ds.svg",
+                    
+                    "duration": "1 Week",
+                    "badges": [
+                        "Data Types",
+                        "Control Flow"
+                    ]
+                },
+                {
+                    "title": " Operating Systems & Security",
+  "subpoints": [
+    "Windows Security Basics",
+    "Linux Security Basics",
+    "User & Permission Management",
+    "System Hardening Techniques",
+    "Patch Management & Updates"
+                    ],
+                    "color": "bg-teal-600",
+                    "icon": "/icons/box.svg",
+                   
+                    "duration": "1 Week",
+                    "badges": [
+                        "Classes",
+                        "OOP"
+                    ]
+                },
+                {
+                    "title": "Threats, Malware & Vulnerabilities",
+  "subpoints": [
+    "Types of Malware: Virus, Worm, Trojan, Ransomware",
+    "Social Engineering & Phishing Attacks",
+    "Zero-Day Vulnerabilities",
+    "Threat Analysis & Risk Assessment",
+    "Tools for Malware Analysis"
+                    ],
+                    "color": "bg-indigo-600",
+                    "icon": "/icons/search-scope.svg",
+                   
+                    "duration": "1 Week",
+                    "badges": [
+                        "SOQL",
+                        "Relationships"
+                    ]
+                },
+                {
+                    "title": "Ethical Hacking & Penetration Testing",
+  "subpoints": [
+    "Introduction to Ethical Hacking",
+    "Footprinting & Reconnaissance",
+    "Scanning & Enumeration",
+    "Vulnerability Analysis",
+    "Exploitation Techniques & Post-Exploitation",
+    "Reporting & Documentation"
+                    ],
+                    "color": "bg-yellow-600",
+                    "icon": "/icons/resume-edit.svg",
+                   
+                    "duration": "1 Week",
+                    "badges": [
+                        "DML",
+                        "Transactions"
+                    ]
+                },
+                {
+                    "title": "Network Security & Firewalls",
+  "subpoints": [
+    "Firewall Configuration & Management",
+    "IDS/IPS Concepts",
+    "VPN Setup & Security",
+    "Secure Network Design Principles",
+    "Monitoring Network Traffic"
+                    ],
+                    "color": "bg-red-600",
+                    "icon": "/icons/settings.svg",
+                   
+                    "duration": "1 Week",
+                    "badges": [
+                        "Triggers",
+                        "Automation"
+                    ]
+                },
+                {
+                    "title": "Web Application Security",
+  "subpoints": [
+    "Web Application Fundamentals",
+    "OWASP Top 10 Vulnerabilities",
+    "SQL Injection, XSS, CSRF Attacks",
+    "Security Testing Tools (Burp Suite, OWASP ZAP)",
+    "Securing Web Applications"
+                    ],
+                    "color": "bg-orange-600",
+                    "icon": "/icons/calendar2.svg",
+                 
+                    "duration": "1 Week",
+                    "badges": [
+                        "Batch",
+                        "Async"
+                    ]
+                },
+                {
+                    "title": "Cloud Security",
+  "subpoints": [
+    "Cloud Computing Security Concepts",
+    "AWS, Azure, and GCP Security Basics",
+    "Cloud Access Controls & IAM",
+    "Cloud Threats & Mitigation Strategies",
+    "Cloud Security Best Practices"
+                    ],
+                    "color": "bg-pink-600",
+                    "icon": "/icons/warning.svg",
+                  
+                    "duration": "1 Week",
+                    "badges": [
+                        "Error Handling",
+                        "Robust Code"
+                    ]
+                },
+                {
+                    "title": "Cryptography & Data Protection",
+  "subpoints": [
+    "Symmetric & Asymmetric Encryption",
+    "Hashing Algorithms & Digital Signatures",
+    "SSL/TLS, PKI, Certificates",
+    "Data Loss Prevention (DLP)",
+    "Secure Communication Practices"
+                    ],
+                    "color": "bg-green-600",
+                    "icon": "/icons/testube.svg",
+                  
+                    "duration": "1 Week",
+                    "badges": [
+                        "Testing",
+                        "Code Quality"
+                    ]
+                },
+                {
+                    "title": " Incident Response & Forensics",
+  "subpoints": [
+    "Incident Response Lifecycle",
+    "Cybersecurity Incident Handling",
+    "Digital Forensics Fundamentals",
+    "Evidence Collection & Analysis",
+    "Reporting and Remediation"
+                    ],
+                    "color": "bg-green-600",
+                    "icon": "/icons/testube.svg",
+                  
+                    "duration": "1 Week",
+                    "badges": [
+                        "Testing",
+                        "Code Quality"
+                    ]
+                },
+                 {
+                    "title": " Security Tools & Labs",
+  "subpoints": [
+    "Kali Linux for Ethical Hacking",
+    "Wireshark & Nmap",
+    "Metasploit Framework",
+    "Snort & Suricata",
+    "Practical Hands-On Labs & Simulated Attacks"
+                    ],
+                    "color": "bg-green-600",
+                    "icon": "/icons/testube.svg",
+                  
+                    "duration": "1 Week",
+                    "badges": [
+                        "Testing",
+                        "Code Quality"
+                    ]
+                },
+                {
+                    "title": " Real-World Projects & Capstone",
+  "subpoints": [
+    "Penetration Testing Project",
+    "Network Security Hardening Project",
+    "Cloud Security Implementation Project",
+    "Cyber Threat Intelligence & Analysis",
+    "Presentation & Portfolio Preparation"
+                    ],
+                    "color": "bg-green-600",
+                    "icon": "/icons/testube.svg",
+                  
+                    "duration": "1 Week",
+                    "badges": [
+                        "Testing",
+                        "Code Quality"
+                    ]
+                }
+            ],
+            "faqs": [
+                  {
+        "question": "What is Cyber Security?",
+        "answer": "Cyber Security is the practice of protecting systems, networks, and data from cyber attacks, unauthorized access, and digital threats."
+    },
+    {
+        "question": "Why is Cyber Security important?",
+        "answer": "Cyber Security is important because cyber attacks can cause financial loss, data theft, identity fraud, privacy breaches, and damage to businesses and individuals."
+    },
+    {
+        "question": "What skills are required to learn Cyber Security?",
+        "answer": "Networking basics, Linux commands, problem-solving, understanding operating systems, security tools, ethical hacking concepts and continuous learning."
+    },
+    {
+        "question": "What is Ethical Hacking?",
+        "answer": "Ethical Hacking is legally testing systems, websites or networks to find vulnerabilities before attackers do, to improve security."
+    },
+    {
+        "question": "Which tools are used in Cyber Security?",
+        "answer": "Popular tools include Nmap, Wireshark, Burp Suite, Metasploit, Nessus, Kali Linux, and SIEM tools like Splunk."
+    },
+    {
+        "question": "How do I start learning Cyber Security?",
+        "answer": "Start with networking basics, Linux fundamentals, OWASP web security, hands-on practice with tools, and follow structured learning roadmaps."
+    },
+    {
+        "question": "What is OWASP Top 10?",
+        "answer": "OWASP Top 10 is a list of the top 10 most critical web application security risks that every Cyber Security learner should know."
+    },
+    {
+        "question": "What job roles are available in Cyber Security?",
+        "answer": "Job roles include SOC Analyst, Penetration Tester, Incident Responder, Network Security Engineer, Cyber Security Analyst, and Security Consultant."
+    }
+],
+            
+           "reviews": [
+                {
+                    "name": "Preeti Singh",
+                    "review": "IT Accurate Institute Insitute’s Salesforce training stand out for its practical approach and industry relevance.The trainers were not just instructors but mentors who guided me through real-world scenarios. ",
+                    "image": "https://images.unsplash.com/photo-1601821326018-d949a54b6402?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "Security Engineer"
+                },
+                {
+                    "name": "Ishita Satpute",
+                    "review": "I enrolled in IT Accurate Institute’s Salesforce training to enhance my professional skills,and it exceeded my expectations.The well-structure modules,coupled with interactive sessions,provided a solid foundation for understanding Salesforce, making me proficient in its application for business success. ",
+                    "image": "https://img.freepik.com/free-photo/woman_53876-71214.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": "Incident Responder"
+                },
+                {
+                    "name": "Prabhas Bhandorkar",
+                    "review": "The comprehensive curriculum,coupled with industry insights,provided a holistic understanding of Salesforce that I couldn't have gained elsewhere.lt’'s a must for aspiring CRM professionals. ",
+                    "image": "https://plus.unsplash.com/premium_photo-1734603746989-310f71179e47?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY5fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Network Security Engineer"
+                },
+                {
+                    "name": "Kavya Kapse",
+                    "review": "I can confidently say that IT Accurate Institute’s Salesforce training is top-notch.The blend of theorectical knowledge and hands-on practice made the learning experience enjoyable and immediately application to my job.",
+                    "image": "https://img.freepik.com/free-photo/portrait-beautiful-woman-wearing-traditional-sari-garment_23-2149565124.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": "Cyber Security Consultant"
+                },
+                {
+                    "name": "Rohan tanwar",
+                    "review": "The instructor’s expertise and the hands-on projects allowed me to quickly apply what I learned and stand out in the competitive job market ",
+                    "image": "https://images.unsplash.com/photo-1680506740498-e430702b1981?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8MTAwJTIwaW5kaWFuJTIweW91bmclMjBtZW4lMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "Incident Responder"
+                }
+            ],
+            "certificationPoints": [
+  {
+    "icon": "/icons/badge2.svg",
+    "title": "Recognized Certification",
+    "description": "IT Accurate Cyber Security certification will validate that you have successfully completed the professional cyber security training program."
+  },
+  {
+    "icon": "/icons/increase-graph.svg",
+    "title": "Competitive Edge",
+    "description": "Cyber Security certification will give you industry-ready skills, helping you stand out and become more competitive in the security job market."
+  },
+  {
+    "icon": "/icons/graduation.svg",
+    "title": "100% Passing Guarantee",
+    "description": "IT Accurate offers structured guidance and mentorship for global Cyber Security certifications, ensuring high success and pass rate."
+  },
+  {
+    "icon": "/icons/certificate.svg",
+    "title": "Global Certification Support",
+    "description": "Get support for certifications like CompTIA Security+, CEH, eJPT, and other global Cyber Security certification exams."
+  }
+],
+            "JobOpenings": [
+                {
+                    "profession": "Penetration Tester",
+                    "cta": "Naukri.com",
+                    "link": "https://www.naukri.com/ethical-hacker-jobs?k=ethical%20hacker&experience=0&nignbevent_src=jobsearchDeskGNB",
+                    "btncolor": "blue"
+                },
+                {
+                    "profession": "Security Analyst",
+                    "cta": "Indeed.com",
+                    "link": "https://www.indeed.com/jobs?q=ethical+hacker&l=&sc=0kf%3Aexplvl%28ENTRY_LEVEL%29%3B&from=searchOnDesktopSerp&vjk=a5a9e959b64dbf0f",
+                    "btncolor": "grey"
+                },
+                {
+                    "profession": "Application Security Engineer",
+                    "cta": "Linkedin.com",
+                    "link": "https://in.linkedin.com/jobs/search?keywords=Ethical%20Hacker&location=India&geoId=102713980&f_TPR=&f_E=2&position=1&pageNum=0",
+                    "btncolor": "indigo"
+                },
+                {
+                    "profession": "Red Team Operator",
+                    "cta": "Glassdoor.com",
+                    "link": "https://www.glassdoor.co.in/Job/india-ethical-hacker-fresher-jobs-SRCH_IL.0,5_IN115_KO6,28.htm",
+                    "btncolor": "green"
+                },
+                {
+                    "profession": "Security Consultant",
+                    "cta": "Monster.com",
+                    "link": "https://www.monster.com/jobs/search?q=ethical+hacker+fresher&where=&page=1&so=m.s.sh",
+                    "btncolor": "voilet"
+                },
+                {
+                    "profession": "Vulnerability Researcher",
+                    "cta": "Shine.com",
+                    "link": "https://www.shine.com/job-search/ethical-hacker-fresher-jobs?q=ethical-hacker-fresher&qActual=ethical+hacker+fresher&minexp=2&suid=600b60c6-145c-4ebc-8176-4f90aa49ae0f",
+                    "btncolor": "orange"
+                }
+            ]
+        },
+
+
         "ethical-hacking": {
             "name": "Ethical Hacking",
             "title": "Best Ethical Hacking & Penetration Testing Course",
             "bgImage": "/coursesBgImages/ethical-hacking.jpg",
             "detail": {
-                "paragraph1": "Best Ethical Hacking Training by IT Accurate gives you hands-on, industry-standard penetration testing training for both freshers and experienced professionals. Our program covers offensive security methodologies, real-world exploit development, and defensive countermeasures — all taught by certified security experts. You’ll work on live labs, CTFs and real-world scenarios to build practical skills that recruiters look for, with placement assistance and career mentoring included."
+                  "points": [
+    "IT Accurate offers the best Ethical Hacking training program designed for both freshers and experienced professionals seeking to master cybersecurity and penetration testing.",
+    "Gain hands-on experience with real-world hacking techniques, exploit development, and security testing methodologies used by ethical hackers worldwide.",
+    "Learn directly from certified security experts with years of industry experience and practical exposure.",
+    "The course covers offensive and defensive cybersecurity strategies, including vulnerability assessment, penetration testing, and digital forensics.",
+    "Work on live labs, Capture The Flag (CTF) challenges, and real-world simulations to develop job-ready, practical hacking skills.",
+    "Our program emphasizes risk analysis, network defense, and exploit mitigation aligned with global security standards.",
+    "Benefit from dedicated career mentoring, resume support, and guaranteed placement assistance in cybersecurity roles.",
+    "IT Accurate’s Ethical Hacking training prepares you for global certifications like CEH, CompTIA Security+, and OSCP while providing in-depth, hands-on technical expertise."
+  ]
             },
             "coveringTopics": [
                 {
@@ -24546,37 +25526,37 @@
                 {
                     "profession": "Penetration Tester",
                     "cta": "Naukri.com",
-                    "link": "https://www.naukri.com/job-name",
+                    "link": "https://www.naukri.com/ethical-hacker-jobs?k=ethical%20hacker&experience=0&nignbevent_src=jobsearchDeskGNB",
                     "btncolor": "blue"
                 },
                 {
                     "profession": "Security Analyst",
                     "cta": "Indeed.com",
-                    "link": "https://www.indeed.com/job-name?vjk=a23b6b547b023506",
+                    "link": "https://www.indeed.com/jobs?q=ethical+hacker&l=&sc=0kf%3Aexplvl%28ENTRY_LEVEL%29%3B&from=searchOnDesktopSerp&vjk=a5a9e959b64dbf0f",
                     "btncolor": "grey"
                 },
                 {
                     "profession": "Application Security Engineer",
                     "cta": "Linkedin.com",
-                    "link": "https://in.linkedin.com/jobs/job-name",
+                    "link": "https://in.linkedin.com/jobs/search?keywords=Ethical%20Hacker&location=India&geoId=102713980&f_TPR=&f_E=2&position=1&pageNum=0",
                     "btncolor": "indigo"
                 },
                 {
                     "profession": "Red Team Operator",
                     "cta": "Glassdoor.com",
-                    "link": "https://www.glassdoor.co.in/Job/job-name-SRCH_KO0,18.htm",
+                    "link": "https://www.glassdoor.co.in/Job/india-ethical-hacker-fresher-jobs-SRCH_IL.0,5_IN115_KO6,28.htm",
                     "btncolor": "green"
                 },
                 {
                     "profession": "Security Consultant",
                     "cta": "Monster.com",
-                    "link": "https://www.monster.com/jobs/q-job-name",
+                    "link": "https://www.monster.com/jobs/search?q=ethical+hacker+fresher&where=&page=1&so=m.s.sh",
                     "btncolor": "voilet"
                 },
                 {
                     "profession": "Vulnerability Researcher",
                     "cta": "Shine.com",
-                    "link": "https://www.shine.com/job-search/job-name",
+                    "link": "https://www.shine.com/job-search/ethical-hacker-fresher-jobs?q=ethical-hacker-fresher&qActual=ethical+hacker+fresher&minexp=2&suid=600b60c6-145c-4ebc-8176-4f90aa49ae0f",
                     "btncolor": "orange"
                 }
             ]

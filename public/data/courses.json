@@ -234,11 +234,17 @@
             "icon": "/icons/python.svg",
             "link": "/python"
         },
-        {
+         {
             "title": "ServiceNow Training",
             "description": "IT Service Management",
             "icon": "/icons/service.svg",
             "link": "/servicenow"
+        },
+        {
+            "title": "Cyber Security",
+            "description": "Security Solutions",
+            "icon": "/icons/cyberss.png",
+            "link": "/cyber-security"
         },
         {
             "title": "Share Market",

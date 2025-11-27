@@ -48,7 +48,7 @@ export const dynamicCourseRoutes = [
   "dotnet-full-stack",
   "tally",
   "python",
-  "cybersecurity",
+  "cyber-security",
   "sap-mm",
   "sap-hcm",
   "sap-successfactors",
@@ -84,6 +84,8 @@ const landingPageDetails = [
   "sap-fico-course-in-nagpur",
   "data-analytics-course-in-thane",
   "data-analytics-course-in-nagpur",
+  "cyber-security-course-in-thane",
+  "salesforce-course-in-nagpur",
   // "ethical-hacking"
 ]
 

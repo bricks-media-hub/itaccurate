@@ -57,68 +57,80 @@
                 "Our project-based approach ensures you transition smoothly into the job market with confidence and competence."
             ]
         },
-        "keyFeatures": [
-            {
-                "text": "152+ Hrs Instructor-Led Training",
-                "icon": "/icons/job-clock.png",
-                "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
-            },
-            {
-                "text": "36Hrs Self-Placed Videos",
-                "icon": "/icons/video.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
-            },
-            {
-                "text": "Certificate Guidance",
-                "icon": "/icons/certificate.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
-            },
-            {
-                "text": "Job Assistance",
-                "icon": "/icons/job-assist.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
-            },
-            {
-                "text": "Mentor Support",
-                "icon": "/icons/teaching.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
-            },
-            {
-                "text": "Free Demo Class Available",
-                "icon": "/icons/calendar.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
-            },
-            {
-                "text": "Resume Editing",
-                "icon": "/icons/resume-edit.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')"
-            },
-            {
-                "text": "Affordable Fees Structure",
-                "icon": "/icons/wallet.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=500')"
-            },
-            {
-                "text": "52 Hrs Project & Exercises",
-                "icon": "/icons/code.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')"
-            },
-            {
-                "text": "Flexible Schedule",
-                "icon": "/icons/calendar2.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=500')"
-            },
-            {
-                "text": "100% Job Oriented Training",
-                "icon": "/icons/briefcase.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')"
-            },
-            {
-                "text": "Completed 1500+ Batches",
-                "icon": "/icons/batch.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')"
-            }
-        ],
+       "keyFeatures": [
+                {
+                    "text": "152+ Hrs Instructor-Led Training",
+                    "icon": "/icons/job-clock.png",
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": "Constructive Duration of Practical Learning and Training."
+                },
+                {
+                    "text": "36 Hrs Self-Placed Videos",
+                    "icon": "/icons/video.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": "Learn anytime, anywhere with structured self-paced video lessons."
+                },
+                {
+                    "text": "Certificate Guidance",
+                    "icon": "/icons/certificate.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": "End-to-end corporation in getting your Certification."
+                },
+                {
+                    "text": "Job Assistance",
+                    "icon": "/icons/job-assist.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": "Get guidance to land the right role in your career journey."
+                },
+                {
+                    "text": "Mentor Support",
+                    "icon": "/icons/teaching.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": "Access expert mentors to solve doubts and gain clarity."
+                },
+                {
+                    "text": "Free Demo Class Available",
+                    "icon": "/icons/calendar.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": "An intriguing Demo class to make you acquainted with the educational aspects."
+                },
+                {
+                    "text": "Resume Editing",
+                    "icon": "/icons/resume-edit.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')",
+                    "description": "Stand out with a professionally polished resume."
+                },
+                {
+                    "text": "Affordable Fees Structure",
+                    "icon": "/icons/wallet.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=500')",
+                    "description": "Quality learning that fits your budget."
+                },
+                {
+                    "text": "52 Hrs Project & Exercises",
+                    "icon": "/icons/code.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')",
+                    "description": "Gain hands-on experience with real-world projects."
+                },
+                {
+                    "text": "Flexible Schedule",
+                    "icon": "/icons/calendar2.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=500')",
+                    "description": "Learn at your convenience with a schedule that suits you."
+                },
+                {
+                    "text": "100% Job Oriented Training",
+                    "icon": "/icons/briefcase.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')",
+                    "description": "Comprehensive assistance in placements and Job training."
+                },
+                {
+                    "text": "Completed 1500+ Batches",
+                    "icon": "/icons/batch.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')",
+                    "description": "Prominently completed 1500+ batches and counting more."
+                }
+            ],
         "reviews": [
             {
                 "name": "RAHUL PATEL",
@@ -315,68 +327,80 @@
                 "Ideal choice for anyone looking for quality SAP training in Nagpur, close to home or office."
             ]
         },
-        "keyFeatures": [
-            {
-                "text": "152+ Hrs Instructor-Led Training",
-                "icon": "/icons/job-clock.png",
-                "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
-            },
-            {
-                "text": "36Hrs Self-Placed Videos",
-                "icon": "/icons/video.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
-            },
-            {
-                "text": "Certificate Guidance",
-                "icon": "/icons/certificate.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
-            },
-            {
-                "text": "Job Assistance",
-                "icon": "/icons/job-assist.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
-            },
-            {
-                "text": "Mentor Support",
-                "icon": "/icons/teaching.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
-            },
-            {
-                "text": "Free Demo Class Available",
-                "icon": "/icons/calendar.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
-            },
-            {
-                "text": "Resume Editing",
-                "icon": "/icons/resume-edit.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')"
-            },
-            {
-                "text": "Affordable Fees Structure",
-                "icon": "/icons/wallet.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=500')"
-            },
-            {
-                "text": "52 Hrs Project & Exercises",
-                "icon": "/icons/code.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')"
-            },
-            {
-                "text": "Flexible Schedule",
-                "icon": "/icons/calendar2.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=500')"
-            },
-            {
-                "text": "100% Job Oriented Training",
-                "icon": "/icons/briefcase.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')"
-            },
-            {
-                "text": "Completed 1500+ Batches",
-                "icon": "/icons/batch.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')"
-            }
-        ],
+       "keyFeatures": [
+                {
+                    "text": "152+ Hrs Instructor-Led Training",
+                    "icon": "/icons/job-clock.png",
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": "Constructive Duration of Practical Learning and Training."
+                },
+                {
+                    "text": "36 Hrs Self-Placed Videos",
+                    "icon": "/icons/video.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": "Learn anytime, anywhere with structured self-paced video lessons."
+                },
+                {
+                    "text": "Certificate Guidance",
+                    "icon": "/icons/certificate.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": "End-to-end corporation in getting your Certification."
+                },
+                {
+                    "text": "Job Assistance",
+                    "icon": "/icons/job-assist.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": "Get guidance to land the right role in your career journey."
+                },
+                {
+                    "text": "Mentor Support",
+                    "icon": "/icons/teaching.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": "Access expert mentors to solve doubts and gain clarity."
+                },
+                {
+                    "text": "Free Demo Class Available",
+                    "icon": "/icons/calendar.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": "An intriguing Demo class to make you acquainted with the educational aspects."
+                },
+                {
+                    "text": "Resume Editing",
+                    "icon": "/icons/resume-edit.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')",
+                    "description": "Stand out with a professionally polished resume."
+                },
+                {
+                    "text": "Affordable Fees Structure",
+                    "icon": "/icons/wallet.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=500')",
+                    "description": "Quality learning that fits your budget."
+                },
+                {
+                    "text": "52 Hrs Project & Exercises",
+                    "icon": "/icons/code.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')",
+                    "description": "Gain hands-on experience with real-world projects."
+                },
+                {
+                    "text": "Flexible Schedule",
+                    "icon": "/icons/calendar2.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=500')",
+                    "description": "Learn at your convenience with a schedule that suits you."
+                },
+                {
+                    "text": "100% Job Oriented Training",
+                    "icon": "/icons/briefcase.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')",
+                    "description": "Comprehensive assistance in placements and Job training."
+                },
+                {
+                    "text": "Completed 1500+ Batches",
+                    "icon": "/icons/batch.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')",
+                    "description": "Prominently completed 1500+ batches and counting more."
+                }
+            ],
         "reviews": [
             {
                 "name": "RAHUL PATEL",
@@ -570,68 +594,80 @@
                 "Ideal choice for anyone looking for quality SAP training in Thane, close to home or office."
             ]
         },
-        "keyFeatures": [
-            {
-                "text": "152+ Hrs Instructor-Led Training",
-                "icon": "/icons/job-clock.png",
-                "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
-            },
-            {
-                "text": "36Hrs Self-Placed Videos",
-                "icon": "/icons/video.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
-            },
-            {
-                "text": "Certificate Guidance",
-                "icon": "/icons/certificate.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
-            },
-            {
-                "text": "Job Assistance",
-                "icon": "/icons/job-assist.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
-            },
-            {
-                "text": "Mentor Support",
-                "icon": "/icons/teaching.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
-            },
-            {
-                "text": "Free Demo Class Available",
-                "icon": "/icons/calendar.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
-            },
-            {
-                "text": "Resume Editing",
-                "icon": "/icons/resume-edit.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')"
-            },
-            {
-                "text": "Affordable Fees Structure",
-                "icon": "/icons/wallet.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=500')"
-            },
-            {
-                "text": "52 Hrs Project & Exercises",
-                "icon": "/icons/code.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')"
-            },
-            {
-                "text": "Flexible Schedule",
-                "icon": "/icons/calendar2.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=500')"
-            },
-            {
-                "text": "100% Job Oriented Training",
-                "icon": "/icons/briefcase.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')"
-            },
-            {
-                "text": "Completed 1500+ Batches",
-                "icon": "/icons/batch.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')"
-            }
-        ],
+      "keyFeatures": [
+                {
+                    "text": "152+ Hrs Instructor-Led Training",
+                    "icon": "/icons/job-clock.png",
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": "Constructive Duration of Practical Learning and Training."
+                },
+                {
+                    "text": "36 Hrs Self-Placed Videos",
+                    "icon": "/icons/video.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": "Learn anytime, anywhere with structured self-paced video lessons."
+                },
+                {
+                    "text": "Certificate Guidance",
+                    "icon": "/icons/certificate.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": "End-to-end corporation in getting your Certification."
+                },
+                {
+                    "text": "Job Assistance",
+                    "icon": "/icons/job-assist.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": "Get guidance to land the right role in your career journey."
+                },
+                {
+                    "text": "Mentor Support",
+                    "icon": "/icons/teaching.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": "Access expert mentors to solve doubts and gain clarity."
+                },
+                {
+                    "text": "Free Demo Class Available",
+                    "icon": "/icons/calendar.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": "An intriguing Demo class to make you acquainted with the educational aspects."
+                },
+                {
+                    "text": "Resume Editing",
+                    "icon": "/icons/resume-edit.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')",
+                    "description": "Stand out with a professionally polished resume."
+                },
+                {
+                    "text": "Affordable Fees Structure",
+                    "icon": "/icons/wallet.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=500')",
+                    "description": "Quality learning that fits your budget."
+                },
+                {
+                    "text": "52 Hrs Project & Exercises",
+                    "icon": "/icons/code.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')",
+                    "description": "Gain hands-on experience with real-world projects."
+                },
+                {
+                    "text": "Flexible Schedule",
+                    "icon": "/icons/calendar2.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=500')",
+                    "description": "Learn at your convenience with a schedule that suits you."
+                },
+                {
+                    "text": "100% Job Oriented Training",
+                    "icon": "/icons/briefcase.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')",
+                    "description": "Comprehensive assistance in placements and Job training."
+                },
+                {
+                    "text": "Completed 1500+ Batches",
+                    "icon": "/icons/batch.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')",
+                    "description": "Prominently completed 1500+ batches and counting more."
+                }
+            ],
         "reviews": [
             {
                 "name": "RAHUL PATEL",
@@ -900,38 +936,80 @@
                 "Flexible modes of learning, including online data analytics courses in Nagpur , make it accessible for students and working professionals alike."
             ]
         },
-        "keyFeatures": [
-            {
-                "text": "162+ Hours course duration",
-                "icon": "/icons/job-clock.png",
-                "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
-            },
-            {
-                "text": "100% Job oriented Training",
-                "icon": "/icons/briefcase.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
-            },
-            {
-                "text": "Industry expert faculties",
-                "icon": "/icons/help.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
-            },
-            {
-                "text": "Free demo class available",
-                "icon": "/icons/video.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
-            },
-            {
-                "text": "Completed 200+ Batches",
-                "icon": "/icons/batch.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
-            },
-            {
-                "text": "Certifaction guidance",
-                "icon": "/icons/certificate.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
-            }
-        ],
+       "keyFeatures": [
+                {
+                    "text": "152+ Hrs Instructor-Led Training",
+                    "icon": "/icons/job-clock.png",
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": "Constructive Duration of Practical Learning and Training."
+                },
+                {
+                    "text": "36 Hrs Self-Placed Videos",
+                    "icon": "/icons/video.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": "Learn anytime, anywhere with structured self-paced video lessons."
+                },
+                {
+                    "text": "Certificate Guidance",
+                    "icon": "/icons/certificate.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": "End-to-end corporation in getting your Certification."
+                },
+                {
+                    "text": "Job Assistance",
+                    "icon": "/icons/job-assist.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": "Get guidance to land the right role in your career journey."
+                },
+                {
+                    "text": "Mentor Support",
+                    "icon": "/icons/teaching.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": "Access expert mentors to solve doubts and gain clarity."
+                },
+                {
+                    "text": "Free Demo Class Available",
+                    "icon": "/icons/calendar.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": "An intriguing Demo class to make you acquainted with the educational aspects."
+                },
+                {
+                    "text": "Resume Editing",
+                    "icon": "/icons/resume-edit.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')",
+                    "description": "Stand out with a professionally polished resume."
+                },
+                {
+                    "text": "Affordable Fees Structure",
+                    "icon": "/icons/wallet.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=500')",
+                    "description": "Quality learning that fits your budget."
+                },
+                {
+                    "text": "52 Hrs Project & Exercises",
+                    "icon": "/icons/code.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')",
+                    "description": "Gain hands-on experience with real-world projects."
+                },
+                {
+                    "text": "Flexible Schedule",
+                    "icon": "/icons/calendar2.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=500')",
+                    "description": "Learn at your convenience with a schedule that suits you."
+                },
+                {
+                    "text": "100% Job Oriented Training",
+                    "icon": "/icons/briefcase.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')",
+                    "description": "Comprehensive assistance in placements and Job training."
+                },
+                {
+                    "text": "Completed 1500+ Batches",
+                    "icon": "/icons/batch.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')",
+                    "description": "Prominently completed 1500+ batches and counting more."
+                }
+            ],
         "roadMap": [
             {
                 "title": "Introduction",
@@ -1412,38 +1490,80 @@
                 "Flexible modes of learning, including online data analytics courses in Thane , make it accessible for students and working professionals alike."
             ]
         },
-        "keyFeatures": [
-            {
-                "text": "162+ Hours course duration",
-                "icon": "/icons/job-clock.png",
-                "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
-            },
-            {
-                "text": "100% Job oriented Training",
-                "icon": "/icons/briefcase.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
-            },
-            {
-                "text": "Industry expert faculties",
-                "icon": "/icons/help.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
-            },
-            {
-                "text": "Free demo class available",
-                "icon": "/icons/video.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
-            },
-            {
-                "text": "Completed 200+ Batches",
-                "icon": "/icons/batch.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
-            },
-            {
-                "text": "Certifaction guidance",
-                "icon": "/icons/certificate.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
-            }
-        ],
+       "keyFeatures": [
+                {
+                    "text": "152+ Hrs Instructor-Led Training",
+                    "icon": "/icons/job-clock.png",
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": "Constructive Duration of Practical Learning and Training."
+                },
+                {
+                    "text": "36 Hrs Self-Placed Videos",
+                    "icon": "/icons/video.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": "Learn anytime, anywhere with structured self-paced video lessons."
+                },
+                {
+                    "text": "Certificate Guidance",
+                    "icon": "/icons/certificate.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": "End-to-end corporation in getting your Certification."
+                },
+                {
+                    "text": "Job Assistance",
+                    "icon": "/icons/job-assist.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": "Get guidance to land the right role in your career journey."
+                },
+                {
+                    "text": "Mentor Support",
+                    "icon": "/icons/teaching.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": "Access expert mentors to solve doubts and gain clarity."
+                },
+                {
+                    "text": "Free Demo Class Available",
+                    "icon": "/icons/calendar.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": "An intriguing Demo class to make you acquainted with the educational aspects."
+                },
+                {
+                    "text": "Resume Editing",
+                    "icon": "/icons/resume-edit.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')",
+                    "description": "Stand out with a professionally polished resume."
+                },
+                {
+                    "text": "Affordable Fees Structure",
+                    "icon": "/icons/wallet.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=500')",
+                    "description": "Quality learning that fits your budget."
+                },
+                {
+                    "text": "52 Hrs Project & Exercises",
+                    "icon": "/icons/code.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')",
+                    "description": "Gain hands-on experience with real-world projects."
+                },
+                {
+                    "text": "Flexible Schedule",
+                    "icon": "/icons/calendar2.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=500')",
+                    "description": "Learn at your convenience with a schedule that suits you."
+                },
+                {
+                    "text": "100% Job Oriented Training",
+                    "icon": "/icons/briefcase.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')",
+                    "description": "Comprehensive assistance in placements and Job training."
+                },
+                {
+                    "text": "Completed 1500+ Batches",
+                    "icon": "/icons/batch.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')",
+                    "description": "Prominently completed 1500+ batches and counting more."
+                }
+            ],
         "roadMap": [
             {
                 "title": "Introduction",
@@ -1888,38 +2008,80 @@
                 "Flexible modes of learning, including online data analytics courses in Thane , make it accessible for students and working professionals alike."
             ]
         },
-        "keyFeatures": [
-            {
-                "text": "162+ Hours course duration",
-                "icon": "/icons/job-clock.png",
-                "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')"
-            },
-            {
-                "text": "100% Job oriented Training",
-                "icon": "/icons/briefcase.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')"
-            },
-            {
-                "text": "Industry expert faculties",
-                "icon": "/icons/help.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')"
-            },
-            {
-                "text": "Free demo class available",
-                "icon": "/icons/video.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')"
-            },
-            {
-                "text": "Completed 200+ Batches",
-                "icon": "/icons/batch.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')"
-            },
-            {
-                "text": "Certifaction guidance",
-                "icon": "/icons/certificate.svg",
-                "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')"
-            }
-        ],
+       "keyFeatures": [
+                {
+                    "text": "152+ Hrs Instructor-Led Training",
+                    "icon": "/icons/job-clock.png",
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": "Constructive Duration of Practical Learning and Training."
+                },
+                {
+                    "text": "36 Hrs Self-Placed Videos",
+                    "icon": "/icons/video.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": "Learn anytime, anywhere with structured self-paced video lessons."
+                },
+                {
+                    "text": "Certificate Guidance",
+                    "icon": "/icons/certificate.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": "End-to-end corporation in getting your Certification."
+                },
+                {
+                    "text": "Job Assistance",
+                    "icon": "/icons/job-assist.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": "Get guidance to land the right role in your career journey."
+                },
+                {
+                    "text": "Mentor Support",
+                    "icon": "/icons/teaching.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": "Access expert mentors to solve doubts and gain clarity."
+                },
+                {
+                    "text": "Free Demo Class Available",
+                    "icon": "/icons/calendar.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": "An intriguing Demo class to make you acquainted with the educational aspects."
+                },
+                {
+                    "text": "Resume Editing",
+                    "icon": "/icons/resume-edit.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')",
+                    "description": "Stand out with a professionally polished resume."
+                },
+                {
+                    "text": "Affordable Fees Structure",
+                    "icon": "/icons/wallet.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=500')",
+                    "description": "Quality learning that fits your budget."
+                },
+                {
+                    "text": "52 Hrs Project & Exercises",
+                    "icon": "/icons/code.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')",
+                    "description": "Gain hands-on experience with real-world projects."
+                },
+                {
+                    "text": "Flexible Schedule",
+                    "icon": "/icons/calendar2.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=500')",
+                    "description": "Learn at your convenience with a schedule that suits you."
+                },
+                {
+                    "text": "100% Job Oriented Training",
+                    "icon": "/icons/briefcase.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')",
+                    "description": "Comprehensive assistance in placements and Job training."
+                },
+                {
+                    "text": "Completed 1500+ Batches",
+                    "icon": "/icons/batch.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')",
+                    "description": "Prominently completed 1500+ batches and counting more."
+                }
+            ],
         "roadMap": [
             {
                 "title": "Introduction",
@@ -2269,5 +2431,510 @@
                 }
             ]
         }        
+    },
+    "cyber-security-course-in-thane": {
+        "name": "Cyber Security Course in Thane",
+        "title": "Cyber Security Course in Thane",
+        "bgImage": "https://images.unsplash.com/photo-1719255417989-b6858e87359e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870",
+        "detail": {
+             "points": [
+    "IT Accurate offers the best Advanced Cyber Security Course in Thane, designed to equip learners with comprehensive skills to secure modern digital infrastructures.",
+    "This course is ideal for beginners, IT students, and working professionals who want to build a strong foundation in cybersecurity, networking, and ethical hacking.",
+    "Gain in-depth knowledge of key cybersecurity domains including network defense, penetration testing, malware analysis, cloud security, and incident response.",
+    "Learn through hands-on lab sessions, simulated attack environments, and real-world project assignments that replicate corporate cybersecurity challenges.",
+    "Our training ensures students are job-ready with practical exposure to tools and techniques used by professional cybersecurity analysts.",
+    "Receive 100% placement assistance, resume support, and career mentoring to help you secure top roles in the cybersecurity industry.",
+    "Recognized as one of the top Cyber Security Institutes in Thane, IT Accurate combines theoretical understanding with practical implementation.",
+    "Benefit from a professional, convenient training environment with flexible online and offline learning options tailored for students and working professionals.",
+    "IT Accurate’s Advanced Cyber Security program prepares you for global certifications and real-world defensive and offensive security roles in leading IT companies."
+  ]
+        },
+        "coveringTopics": [
+            {
+                "title": "Resume preparation",
+                "icon": "/icons/resume-prep.svg"
+            },
+            {
+                "title": "Interview practice",
+                "icon": "/icons/interview-prep.svg"
+            },
+            {
+                "title": "6-months internship",
+                "icon": "/icons/internship-prep.svg"
+            },
+            {
+                "title": "100% job opportunities guaranteed program",
+                "icon": "/icons/job.svg"
+            }
+        ],
+        "whyChoose": {
+            "title": "Why Choose IT Accurate for Cyber Security in Thane ",
+            "imageUrl": "/coursesBgImages/cbbf.jpg",
+            "points": [
+                "IT Accurate offers one of the best cyber security training programs in Thane, built around real-time case studies and the latest cybersecurity practices. Our course covers everything from Ethical Hacking, CCNA, and Networking fundamentals to advanced security tools such as Wireshark, Metasploit, Kali Linux, Burp Suite, and Nmap.",
+                "Learn directly from industry-certified trainers with experience in global cybersecurity and network defence operations. The program includes ethical hacking training in Thane, with modules on vulnerability assessment, penetration testing, encryption, and system hardening.",
+                "We provide guided mentorship for cybersecurity certifications in Thane, including CEH (Certified Ethical Hacker), CompTIA Security+, Cisco’s CCNA, and CISSP fundamentals.",
+                "As a leading Cyber Security Institute in Thane, we emphasise employability — offering mock interviews, resume workshops, and placement connections to top IT companies. ",
+                "Our training facility ensures easy access, modern labs, and an interactive learning setup. ",
+                "Our networking classes in Thane and CCNA classes in Thane also serve as the perfect foundation for learners who want to transition into specialised cybersecurity roles.",
+                "Join IT Accurate today and take your first step toward becoming a certified cybersecurity professional. "
+               
+            ]
+        },
+        "courseLocation": {
+            "title": "Cyber Security Course in Thane ",
+            "imageUrl": "/coursesBgImages/cbbc.jpg",
+            "points": [
+                "At IT Accurate, the Cyber Security Course in Thane is structured to deliver both foundational and advanced concepts of IT security and ethical hacking. You’ll start with networking classes in Thane, gaining a deep understanding of the OSI models, IP addressing, routing, and firewall management.",
+                "Then, the program transitions into advanced topics such as ethical hacking courses in Thane, network defence, web application security, cryptography, and digital forensics.",
+                "Through live labs and simulated attack-defence environments, learners gain hands-on expertise equivalent to 2+ years of industry experience.",
+                "Our ethical hacking training in Thane also includes real-time exposure to standard attack tools, vulnerability scanners, and security frameworks used by professionals worldwide.",
+                "Our institute provides a secure and dynamic learning environment that encourages interactive learning and peer collaboration.",
+                "Recognised as one of the best ethical hacking classes in Thane, IT Accurate helps you develop the technical and analytical mindset needed to identify and prevent cyber threats.",
+                "Whether you’re an IT graduate or a career switcher, our structured learning path ensures complete mastery of cybersecurity fundamentals, cloud security, and risk management techniques. "
+            ]
+        },
+       "keyFeatures": [
+                {
+                    "text": "152+ Hrs Instructor-Led Training",
+                    "icon": "/icons/job-clock.png",
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": "Constructive Duration of Practical Learning and Training."
+                },
+                {
+                    "text": "36 Hrs Self-Placed Videos",
+                    "icon": "/icons/video.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": "Learn anytime, anywhere with structured self-paced video lessons."
+                },
+                {
+                    "text": "Certificate Guidance",
+                    "icon": "/icons/certificate.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": "End-to-end corporation in getting your Certification."
+                },
+                {
+                    "text": "Job Assistance",
+                    "icon": "/icons/job-assist.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": "Get guidance to land the right role in your career journey."
+                },
+                {
+                    "text": "Mentor Support",
+                    "icon": "/icons/teaching.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": "Access expert mentors to solve doubts and gain clarity."
+                },
+                {
+                    "text": "Free Demo Class Available",
+                    "icon": "/icons/calendar.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": "An intriguing Demo class to make you acquainted with the educational aspects."
+                },
+                {
+                    "text": "Resume Editing",
+                    "icon": "/icons/resume-edit.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')",
+                    "description": "Stand out with a professionally polished resume."
+                },
+                {
+                    "text": "Affordable Fees Structure",
+                    "icon": "/icons/wallet.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=500')",
+                    "description": "Quality learning that fits your budget."
+                },
+                {
+                    "text": "52 Hrs Project & Exercises",
+                    "icon": "/icons/code.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')",
+                    "description": "Gain hands-on experience with real-world projects."
+                },
+                {
+                    "text": "Flexible Schedule",
+                    "icon": "/icons/calendar2.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=500')",
+                    "description": "Learn at your convenience with a schedule that suits you."
+                },
+                {
+                    "text": "100% Job Oriented Training",
+                    "icon": "/icons/briefcase.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')",
+                    "description": "Comprehensive assistance in placements and Job training."
+                },
+                {
+                    "text": "Completed 1500+ Batches",
+                    "icon": "/icons/batch.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')",
+                    "description": "Prominently completed 1500+ batches and counting more."
+                }
+            ],
+    "reviews": [
+  {
+    "name": "RAHUL PATEL",
+    "review": "The Cyber Security course at IT Accurate Institute was an incredible experience! The instructors explained every concept clearly — from network defense to ethical hacking. The hands-on labs gave me the confidence to handle real-world cyber challenges.",
+    "image": "https://plus.unsplash.com/premium_photo-1682092090968-3b9daa5ecdd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+    "role": "Cyber Security Analyst"
+  },
+  {
+    "name": "NISHA GANDHE",
+    "review": "The interactive learning environment at IT Accurate made it easy to understand complex cybersecurity concepts like threat detection and vulnerability analysis. Highly recommend this course to anyone serious about cybersecurity.",
+    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+    "role": "Information Security Specialist"
+  },
+  {
+    "name": "Ayaan LOKHANDE",
+    "review": "The trainers at IT Accurate are real industry professionals. The cybersecurity course covered ethical hacking, network protection, and malware analysis in great detail. I now feel confident to take on penetration testing roles.",
+    "image": "https://plus.unsplash.com/premium_photo-1734603745283-053c19cdebe3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+    "role": "Penetration Tester"
+  },
+  {
+    "name": "Kiaan TIWARI",
+    "review": "The cyber labs at IT Accurate are amazing! I learned how to defend and analyze real-time security threats. This course truly prepared me for professional cybersecurity roles.",
+    "image": "https://plus.unsplash.com/premium_photo-1661637752177-e657a9daaf4f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njl8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+    "role": "Cyber Security Engineer"
+  },
+  {
+    "name": "Karan K",
+    "review": "I enrolled in the Cyber Security course at IT Accurate and found the structure very comprehensive. The simulated attack environments made learning practical and engaging.",
+    "image": "https://img.freepik.com/premium-photo/portrait-young-man-against-blue-background_1048944-13176074.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+    "role": "SOC Analyst"
+  },
+  {
+    "name": "TOSHIBA KHAN",
+    "review": "My experience with the Cyber Security program at IT Accurate Institute was exceptional. The hands-on labs and real-world simulations helped me gain confidence in handling live threats.",
+    "image": "https://images.unsplash.com/photo-1641101236998-f88254ac8743?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+    "role": "Security Analyst"
+  },
+  {
+    "name": "Rakesh NANAWANE",
+    "review": "The Cyber Security course at IT Accurate helped me strengthen my understanding of digital defense and ethical hacking. The curriculum was detailed and industry-aligned.",
+    "image": "https://images.unsplash.com/photo-1560085911-ce42861f221f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+    "role": "Cyber Defense Specialist"
+  },
+  {
+    "name": "GULSHAN BHALME",
+    "review": "One of the best parts of the Cyber Security course was the emphasis on placement support. IT Accurate made sure we were ready for interviews and real-world security assessments.",
+    "image": "https://images.unsplash.com/photo-1635084617135-df8225e8cf1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+    "role": "Cyber Security Consultant"
+  },
+  {
+    "name": "Ira Patel",
+    "review": "The Cyber Security training at IT Accurate Institute was amazing! The instructors were knowledgeable, and the hands-on labs made every session engaging. I gained real skills that helped me land a job.",
+    "image": "https://images.unsplash.com/photo-1680506727554-3ba2d9f99129?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww",
+    "role": "Cyber Security Intern"
+  },
+  {
+    "name": "Nisha DHOTE",
+    "review": "IT Accurate exceeded my expectations with its Cyber Security course. The practical exposure and expert trainers made learning easy and effective. I can confidently say this is the best institute for cybersecurity.",
+    "image": "https://images.unsplash.com/photo-1706953083695-7ce18eae3113?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+    "role": "Cyber Security Associate"
+  },
+  {
+    "name": "Ritika NAGLE",
+    "review": "The instructors at IT Accurate are not just teachers — they are mentors. The Cyber Security course helped me develop both technical and analytical thinking skills. Great experience overall!",
+    "image": "https://images.unsplash.com/photo-1721593444652-f2ab6a703710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwZ2lybCUyMHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D",
+    "role": "Network Security Specialist"
+  },
+  {
+    "name": "Vani JAIN",
+    "review": "The Cyber Security course exceeded my expectations. The course material was up-to-date, and the instructors made sure all students understood the concepts thoroughly through interactive labs.",
+    "image": "https://images.unsplash.com/photo-1725033489648-a819750348eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+    "role": "Cyber Threat Analyst"
+  },
+  {
+    "name": "VIBHAS SHINDHE",
+    "review": "The interactive sessions at IT Accurate made cybersecurity concepts engaging and easy to grasp. The instructors made learning practical and fun.",
+    "image": "https://images.unsplash.com/photo-1713173922799-42c38fc7359c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+    "role": "Cyber Security Trainee"
+  },
+  {
+    "name": "UDESH KSHIRSAGAR",
+    "review": "The faculty at IT Accurate are cybersecurity experts who explain even advanced concepts like penetration testing and forensics with clarity. The experience was very enriching.",
+    "image": "https://images.unsplash.com/photo-1647187407864-46f6a599cebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+    "role": "Ethical Hacker"
+  }
+],
+
+        "certificationPoints": [
+            {
+                "icon": "/icons/badge2.svg",
+                "title": "Recognized Certification",
+                "description": "Your Cyber Security training certification is valid proof that you completed the program and gained verified skills in cyber defense & ethical hacking."
+            },
+            {
+                "icon": "/icons/increase-graph.svg",
+                "title": "Competitive Edge",
+                "description": "The Cyber Security Certification from IT Accurate gives you real, practical skills — making you more competitive and valuable in today’s job market."
+            },
+            {
+                "icon": "/icons/graduation.svg",
+                "title": "100% Passing Guarantee",
+                "description": "IT Accurate supports you through your Cyber Security certification journey, helping you prepare confidently for globally recognized exams including Ethical Hacking, Network Security, Cyber Defense, and more."
+            }
+        ],
+        "FeesDuration": {
+            "heading": "Fees, Duration & Cyber Security Certification at IT Accurate",
+            "content": "The Cyber Security Course in Thane by IT Accurate is affordably priced, with flexible instalment options designed to support students and professionals at every stage of their careers. The program typically spans 10 to 12 weeks, depending on the learning track you select — covering ethical hacking, networking, and cybersecurity certification in Thane. Upon completion, you’ll receive an IT Accurate Cyber Security Certification, validated by leading employers in the IT and security sectors. In addition, our trainers guide students toward achieving globally recognised certifications such as CEH, CompTIA Security+, CCNA, and CISSP, boosting their employability across international markets. To know the latest fees, schedules, and enrollment details, contact IT Accurate today. Begin your journey toward becoming a trusted cybersecurity expert and protect the digital future with confidence. ",
+            "points": [
+                {
+                    "icon": "/icons/money-pouch.svg",
+                    "point": "Affordable Fees",
+                    "content": "Flexible EMI options"
+                },
+                {
+                    "icon": "/icons/job-clock.png",
+                    "point": "Duration",
+                    "content": "6 to 10 weeks"
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "point": "Certificate",
+                    "content": "From IT Accurate"
+                },
+                {
+                    "icon": "/icons/wireframe-globe.svg",
+                    "point": "Global Path",
+                    "content": "Cyber Security official certification"
+                },
+                {
+                    "icon": "/icons/contact.svg",
+                    "point": "Contact Us",
+                    "content": "For latest fees & batches"
+                }
+            ]
+        }
+    },
+
+"salesforce-course-in-nagpur": {
+        "name": "Salesforce",
+        "title": "IT Accurate - Best Salesforce Course in Nagpur  ",
+        "bgImage": "/coursesBgImages/salesforce.jpg",
+        "detail": {
+             "points": [
+                "The comprehensive Salesforce CRM training in Nagpur by IT Accurate is designed for both fresh graduates and working professionals eager to build a successful career in cloud-based CRM platforms.",
+                "Gain hands-on experience through real-time projects and live mentorship sessions, enabling you to master both Salesforce Administration and Development modules.",
+                "Our course offers complete Salesforce developer training in Nagpur with a focus on practical implementation, system customisation, and business process automation.",
+                "With 100% placement assistance, resume-building support, and interview preparation, we ensure every learner is industry-ready and confident.",
+                "This program also offers a Salesforce certification course in Nagpur, helping you earn credentials recognised globally by top recruiters.",
+                "In just a few months, you’ll develop end-to-end Salesforce expertise equivalent to real industry experience.",
+                "Recognised as the Best Salesforce training institute in Nagpur, IT Accurate blends expert-led instruction with practical, job-oriented learning.",
+                "Located in the heart of the city, our training centre at Lokmat Bhawan, Ramdaspeth, is easily accessible for students and working professionals.",
+                "We also provide flexible study options, including online Salesforce CRM training in Nagpur, making it convenient for learners from any background."
+
+             ]
+        },
+        "coveringTopics": [
+            {
+                "title": "Resume preparation",
+                "icon": "/icons/resume-prep.svg"
+            },
+            {
+                "title": "Interview practice",
+                "icon": "/icons/interview-prep.svg"
+            },
+            {
+                "title": "6-months internship",
+                "icon": "/icons/internship-prep.svg"
+            },
+            {
+                "title": "100% job opportunities guaranteed program",
+                "icon": "/icons/job.svg"
+            }
+        ],
+        "whyChoose": {
+            "title": "Why Choose IT Accurate for Salesforce in Nagpur  ",
+            "imageUrl": "/coursesBgImages/slsg.jpg",
+            "points": [
+                "IT Accurate stands out as the Best Salesforce training institute in Nagpur, delivering a curriculum aligned with the latest trends in the Salesforce ecosystem and business applications.",
+                "Our program covers both Salesforce admin classes in Nagpur and advanced development concepts, giving you complete control over the platform’s customisation and automation capabilities.",
+                "Get guided by certified Salesforce professionals with years of real-world experience in implementation, configuration, and integration. ",
+                "Through interactive sessions and live projects, you’ll develop the technical and analytical skills needed to work confidently in CRM and cloud environments.",
+                "We are a trusted Salesforce development institute in Nagpur, offering mentorship that bridges the gap between theoretical learning and industry application.",
+                "Enjoy 100% placement support, dedicated interview training, and exclusive access to top hiring partners in the Salesforce domain. ",
+                "Located conveniently at Lokmat Bhawan, Ramdaspeth, our training centre provides a modern, accessible environment for high-quality learning. ",
+                "Our Salesforce developer course in Nagpur is designed to meet the skill requirements of modern IT companies and consulting firms.",
+                "Flexible learning schedules and online course options allow you to balance your career or studies while learning at your own pace."
+               
+            ]
+        },
+        "courseLocation": {
+            "title": "Salesforce Course in Nagpur ",
+            "imageUrl": "/coursesBgImages/salesforce-development.jpg",
+            "points": [
+                "At IT Accurate, our Salesforce developer course in Nagpur is structured to make you proficient in both administration and development aspects of the Salesforce platform.",
+                "The course curriculum covers key areas such as data modelling, security, workflow automation, Apex programming, Visualforce, Lightning components, and more.",
+                "Recognised for offering the best Salesforce CRM training in Nagpur, IT Accurate focuses on real-world applications through project-based assignments.",
+                "Learners gain the expertise to customise Salesforce solutions, build applications, and manage enterprise-level deployments.",
+                "Our Salesforce developer training in Nagpur ensures that you acquire in-depth practical knowledge equivalent to 2+ years of hands-on experience.",
+                "Located centrally at Lokmat Bhawan, Ramdaspeth, our institute provides the perfect learning atmosphere for aspiring Salesforce professionals. ",
+                "This program can be completed within a few months, giving you a fast-track route into one of the most in-demand cloud CRM careers.",
+                "As a leading Salesforce development institute in Nagpur, IT Accurate provides end-to-end placement assistance and professional growth support.",
+                "We also offer Salesforce admin classes in Nagpur and online learning modules to accommodate different learning needs."
+            ]
+        },
+       "keyFeatures": [
+                {
+                    "text": "152+ Hrs Instructor-Led Training",
+                    "icon": "/icons/job-clock.png",
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": "Constructive Duration of Practical Learning and Training."
+                },
+                {
+                    "text": "36 Hrs Self-Placed Videos",
+                    "icon": "/icons/video.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": "Learn anytime, anywhere with structured self-paced video lessons."
+                },
+                {
+                    "text": "Certificate Guidance",
+                    "icon": "/icons/certificate.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": "End-to-end corporation in getting your Certification."
+                },
+                {
+                    "text": "Job Assistance",
+                    "icon": "/icons/job-assist.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": "Get guidance to land the right role in your career journey."
+                },
+                {
+                    "text": "Mentor Support",
+                    "icon": "/icons/teaching.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": "Access expert mentors to solve doubts and gain clarity."
+                },
+                {
+                    "text": "Free Demo Class Available",
+                    "icon": "/icons/calendar.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": "An intriguing Demo class to make you acquainted with the educational aspects."
+                },
+                {
+                    "text": "Resume Editing",
+                    "icon": "/icons/resume-edit.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')",
+                    "description": "Stand out with a professionally polished resume."
+                },
+                {
+                    "text": "Affordable Fees Structure",
+                    "icon": "/icons/wallet.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=500')",
+                    "description": "Quality learning that fits your budget."
+                },
+                {
+                    "text": "52 Hrs Project & Exercises",
+                    "icon": "/icons/code.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')",
+                    "description": "Gain hands-on experience with real-world projects."
+                },
+                {
+                    "text": "Flexible Schedule",
+                    "icon": "/icons/calendar2.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=500')",
+                    "description": "Learn at your convenience with a schedule that suits you."
+                },
+                {
+                    "text": "100% Job Oriented Training",
+                    "icon": "/icons/briefcase.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')",
+                    "description": "Comprehensive assistance in placements and Job training."
+                },
+                {
+                    "text": "Completed 1500+ Batches",
+                    "icon": "/icons/batch.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')",
+                    "description": "Prominently completed 1500+ batches and counting more."
+                }
+            ],
+    "reviews": [
+                {
+                    "name": "Preeti Singh",
+                    "review": "IT Accurate Institute Insitute’s Salesforce training stand out for its practical approach and industry relevance.The trainers were not just instructors but mentors who guided me through real-world scenarios. ",
+                    "image": "https://images.unsplash.com/photo-1601821326018-d949a54b6402?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMGdpcmwlMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "People Operations Associate"
+                },
+                {
+                    "name": "Ishita Satpute",
+                    "review": "I enrolled in IT Accurate Institute’s Salesforce training to enhance my professional skills,and it exceeded my expectations.The well-structure modules,coupled with interactive sessions,provided a solid foundation for understanding Salesforce, making me proficient in its application for business success. ",
+                    "image": "https://img.freepik.com/free-photo/woman_53876-71214.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": "Salesforce Developer"
+                },
+                {
+                    "name": "Prabhas Bhandorkar",
+                    "review": "The comprehensive curriculum,coupled with industry insights,provided a holistic understanding of Salesforce that I couldn't have gained elsewhere.lt’'s a must for aspiring CRM professionals. ",
+                    "image": "https://plus.unsplash.com/premium_photo-1734603746989-310f71179e47?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY5fHwxMDAlMjBpbmRpYW4lMjB5b3VuZyUyMG1lbiUyMHByb2ZpbGUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Kavya Kapse",
+                    "review": "I can confidently say that IT Accurate Institute’s Salesforce training is top-notch.The blend of theorectical knowledge and hands-on practice made the learning experience enjoyable and immediately application to my job.",
+                    "image": "https://img.freepik.com/free-photo/portrait-beautiful-woman-wearing-traditional-sari-garment_23-2149565124.jpg?ga=GA1.1.92094253.1728639721&semt=ais_hybrid",
+                    "role": "Salesforce Developer"
+                },
+                {
+                    "name": "Rohan tanwar",
+                    "review": "The instructor’s expertise and the hands-on projects allowed me to quickly apply what I learned and stand out in the competitive job market ",
+                    "image": "https://images.unsplash.com/photo-1680506740498-e430702b1981?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8MTAwJTIwaW5kaWFuJTIweW91bmclMjBtZW4lMjBwcm9maWxlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
+                    "role": "Salesforce Developer"
+                }
+            ],
+
+        "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Salesforce certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your DevOps global certification, ensuring a 100% passing guarantee in examinations"
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "title": "Global Certification Support",
+                    "description": "Salesforce Platform Development Certification and various other global exams."
+                }
+            ],
+        "FeesDuration": {
+            "heading": "Fees, Duration & Salesforce Certification at IT Accurate ",
+            "content": "Our Salesforce CRM training in Nagpur is affordably priced and offers flexible payment options, making it accessible to learners from all walks of life. The course duration typically ranges from 8 to 12 weeks, depending on the learning track you choose — whether it’s Administration, Developer, or a combined certification path. Upon successful completion, students earn a Salesforce certification course in Nagpur from IT Accurate —a credential highly regarded by employers across industries.  We also provide complete assistance for official Salesforce certifications, such as Salesforce Certified Administrator and Salesforce Certified Platform Developer, enhancing your global career prospects. To learn more about fees, upcoming batch dates, and enrollment details, reach out to IT Accurate today and take your first step toward mastering Salesforce — the world’s leading CRM platform. ",
+           
+            
+             
+            "points": [
+                {
+                    "icon": "/icons/money-pouch.svg",
+                    "point": "Affordable Fees",
+                    "content": "Flexible EMI options"
+                },
+                {
+                    "icon": "/icons/job-clock.png",
+                    "point": "Duration",
+                    "content": "6 to 10 weeks"
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "point": "Certificate",
+                    "content": "From IT Accurate"
+                },
+                {
+                    "icon": "/icons/wireframe-globe.svg",
+                    "point": "Global Path",
+                    "content": "Sales Force official certification"
+                },
+                {
+                    "icon": "/icons/contact.svg",
+                    "point": "Contact Us",
+                    "content": "For latest fees & batches"
+                }
+            ]
+        }
     }
+
 }
