@@ -2705,6 +2705,1397 @@
         }
     },
 
+    "data-science-course-in-thane": {
+        "name": "Data Science",
+        "title": "Data Science Course",
+        "bgImage": "/coursesBgImages/data-science.jpg",
+        "detail": {
+            "points": [
+  "Comprehensive Data Science Course in Thane designed for fresh graduates, IT learners, and professionals building a data-driven career.",
+  "Gain expert mentorship with 100% placement assistance to secure stable and rewarding roles in data science.",
+  "Covers all essential data science concepts in depth for strong conceptual clarity and practical understanding.",
+  "Includes real-world, hands-on sessions simulating actual industry challenges.",
+  "Earn a Data Science Certification in Thane with practical skills equal to 2 years of industry experience.",
+  "Accelerate your career growth with our time-efficient advanced data science training program.",
+  "Recognized as one of the best Data Science Classes in Thane for its blend of academic and practical learning.",
+  "Offers flexible online and offline learning options for convenient, efficient training."
+]
+        },
+        "coveringTopics": [
+                {
+                    "title": "ChatGPT",
+                    "icon": "/icons/ai-bot.svg",
+                    "description": "Explore natural language capabilities with ChatGPT"
+                },
+                {
+                    "title": "Generative AI",
+                    "icon": "/icons/brain.svg",
+                    "description": "Understand AI systems that create text, images, and more"
+                },
+                {
+                    "title": "LLM (Large Language Models)",
+                    "icon": "/icons/books-bunch.svg",
+                    "description": "Dive into transformer models like GPT, BERT, and others"
+                },
+                {
+                    "title": "Computer Vision",
+                    "icon": "/icons/eye.svg",
+                    "description": "Learn image recognition, object detection, and deep vision models"
+                },
+                {
+                    "title": "Interview Preparation",
+                    "icon": "/icons/focus.svg",
+                    "description": "Ace technical and HR interviews with curated resources"
+                },
+                {
+                    "title": "Case Studies",
+                    "icon": "/icons/folder.svg",
+                    "description": "Real-world AI use cases and business solutions"
+                },
+                {
+                    "title": "Multiple Projects",
+                    "icon": "/icons/hammer.svg",
+                    "description": "Work on various hands-on AI/ML projects"
+                },
+                {
+                    "title": "Industry Level Projects",
+                    "icon": "/icons/factory.svg",
+                    "description": "Build production-grade solutions aligned with industry standards"
+                },
+                {
+                    "title": "100% Job Guarantee Program",
+                    "icon": "/icons/career-tick.svg",
+                    "description": "Get career support and placement assistance post-completion"
+                }
+            ],
+            "coveringTopics2": [
+                {
+                    "title": "Python",
+                    "icon": "/icons/python.svg"
+                },
+                {
+                    "title": "Apache Spark",
+                    "icon": "/icons/Apache-Spark.svg"
+                },
+                {
+                    "title": "TensorFlow",
+                    "icon": "/globeLogos/tensorflow.svg"
+                },
+                {
+                    "title": "Scikit Learn",
+                    "icon": "/icons/scikit-learn.svg"
+                },
+                {
+                    "title": "Power BI",
+                    "icon": "/globeLogos/power-bi.svg"
+                },
+                {
+                    "title": "Tableau",
+                    "icon": "/globeLogos/tabelau2.png"
+                },
+                {
+                    "title": "NumPy",
+                    "icon": "/globeLogos/numpy.png"
+                },
+                {
+                    "title": "SQL",
+                    "icon": "/icons/Azure-sql.svg"
+                },
+                {
+                    "title": "Machine Learnig",
+                    "icon": "/icons/brain.svg"
+                },
+                {
+                    "title": "Natural Language Processing (NLP)",
+                    "icon": "/icons/nlp.webp"
+                },
+                {
+                    "title": "Artificial Intelligence (AI)",
+                    "icon": "/globeLogos/ai.png"
+                },
+                {
+                    "title": "R Programming",
+                    "icon": "/globeLogos/r-program.png"
+                },
+                {
+                    "title": "Statistics",
+                    "icon": "/icons/stats3.svg"
+                },
+                {
+                    "title": "Microsoft Excel",
+                    "icon": "/globeLogos/excel.png"
+                },
+                {
+                    "title": "Computer Vision",
+                    "icon": "/icons/computer-vision.svg"
+                }
+            ],
+        "whyChoose": {
+            "title": "Why Choose IT Accurate for Data Science in Thane ",
+            "imageUrl": "/coursesBgImages/datasct.jpg",
+            "points": [
+  "IT Accurate stands out as the leading data science training institute in Thane, offering a well-structured curriculum that covers Python, SQL, Statistics, Machine Learning, Power BI, and other key tools used in the data science industry.",
+  "Experience a hands-on learning approach with live projects and datasets that prepare you for real business and AI-driven problem-solving scenarios.",
+  "Our trainers come with proven industry experience in data science, machine learning, and analytics, ensuring personalised guidance throughout your learning journey.",
+  "Recognised as a trusted institute for data science training in Thane, IT Accurate offers career-oriented programs that focus on job-readiness and practical skills.",
+  "Our training modules are aligned with the skill requirements of leading organisations, helping you stay competitive in the modern data-driven job market.",
+  "With 100% placement assistance — including resume building, mock interviews, and referrals to hiring partners — we ensure complete career support.",
+  "Earn an industry-recognised Data Science Certification in Thane to enhance your professional credibility.",
+  "We also provide flexible scheduling options for students and working professionals, making learning convenient and accessible.",
+  "With a strong placement record, IT Accurate has helped numerous learners secure high-paying roles in the data science field."
+]
+
+        },
+        "courseLocation": {
+            "title": "Data Science Course in Thane",
+            "imageUrl": "/coursesBgImages/datasck.jpg",
+            "points": [
+  "At IT Accurate, our Data Science Course in Thane is carefully crafted for both beginners and experienced learners aiming to enter the world of AI, analytics, and machine learning.",
+  "The course covers all essential tools such as Python, SQL, Power BI, Statistics, and Machine Learning algorithms, ensuring complete industry readiness.",
+  "Recognised for offering the best data science classes in Thane, we provide a practical learning environment through real-time projects and interactive sessions.",
+  "Students develop the ability to work with large datasets, build predictive models, analyse trends, and deliver actionable business insights.",
+  "Through our advanced training approach, you will earn a Data Science Certification in Thane and gain practical skills equivalent to over 2 years of industry experience.",
+  "This program is designed to be completed efficiently, enabling you to enter the job market sooner and with strong technical confidence.",
+  "As a trusted data science training institute in Thane, IT Accurate offers full placement support to help you secure the right career opportunities.",
+  "We also provide online learning modes, allowing you to pursue data science training in Thane with complete flexibility."
+]
+
+        },
+       "keyFeatures": [
+                {
+                    "text": "152+ Hrs Instructor-Led Training",
+                    "icon": "/icons/job-clock.png",
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": "Constructive Duration of Practical Learning and Training."
+                },
+                {
+                    "text": "36 Hrs Self-Placed Videos",
+                    "icon": "/icons/video.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": "Learn anytime, anywhere with structured self-paced video lessons."
+                },
+                {
+                    "text": "Certificate Guidance",
+                    "icon": "/icons/certificate.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": "End-to-end corporation in getting your Certification."
+                },
+                {
+                    "text": "Job Assistance",
+                    "icon": "/icons/job-assist.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": "Get guidance to land the right role in your career journey."
+                },
+                {
+                    "text": "Mentor Support",
+                    "icon": "/icons/teaching.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": "Access expert mentors to solve doubts and gain clarity."
+                },
+                {
+                    "text": "Free Demo Class Available",
+                    "icon": "/icons/calendar.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": "An intriguing Demo class to make you acquainted with the educational aspects."
+                },
+                {
+                    "text": "Resume Editing",
+                    "icon": "/icons/resume-edit.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')",
+                    "description": "Stand out with a professionally polished resume."
+                },
+                {
+                    "text": "Affordable Fees Structure",
+                    "icon": "/icons/wallet.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=500')",
+                    "description": "Quality learning that fits your budget."
+                },
+                {
+                    "text": "52 Hrs Project & Exercises",
+                    "icon": "/icons/code.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')",
+                    "description": "Gain hands-on experience with real-world projects."
+                },
+                {
+                    "text": "Flexible Schedule",
+                    "icon": "/icons/calendar2.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=500')",
+                    "description": "Learn at your convenience with a schedule that suits you."
+                },
+                {
+                    "text": "100% Job Oriented Training",
+                    "icon": "/icons/briefcase.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')",
+                    "description": "Comprehensive assistance in placements and Job training."
+                },
+                {
+                    "text": "Completed 1500+ Batches",
+                    "icon": "/icons/batch.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')",
+                    "description": "Prominently completed 1500+ batches and counting more."
+                }
+            ],
+        "roadMap": [
+            {
+                "title": "Introduction",
+                "description": "Fundamentals of Data Analytics",
+                "icon": "/icons/closed-book.svg",
+                "items": [
+                    "What is Data analytics?",
+                    "Data Analytics course",
+                    "Data Analytics certification",
+                    "Data Analytics jobs in india",
+                    "Data Analytics jobs"
+                ],
+                "color": "from-blue-500 to-indigo-600"
+            },
+            {
+                "title": "Define Objectives and Scope",
+                "description": "Setting the foundation for your analysis",
+                "icon": "/icons/focus.svg",
+                "items": [
+                    "Clearly outline the goals and objectives of your data analytics initiative.",
+                    "Identify the key questions you want to answer or the problems you want to solve.",
+                    "Define the scope of your analysis, including the data sources and time period."
+                ],
+                "color": "from-purple-500 to-pink-600"
+            },
+            {
+                "title": "Data Collection and Integration",
+                "description": "Gathering and preparing your data",
+                "icon": "/icons/search-scope.svg",
+                "items": [
+                    "Identify relevant data sources and gather the necessary datasets.",
+                    "Cleanse and preprocess the data to ensure accuracy and consistency.",
+                    "Integrate data from different sources to create a comprehensive dataset for analysis."
+                ],
+                "color": "from-green-500 to-teal-600"
+            },
+            {
+                "title": "Exploratory Data Analysis (EDA)",
+                "description": "Understanding your data",
+                "icon": "/icons/analyze-report.svg",
+                "items": [
+                    "Perform EDA to understand the characteristics of the data.",
+                    "Identify patterns, trends, and outliers that may impact the analysis.",
+                    "Use visualization techniques to communicate insights effectively."
+                ],
+                "color": "from-yellow-500 to-orange-600"
+            },
+            {
+                "title": "Modeling and Analysis",
+                "description": "Applying analytical techniques",
+                "icon": "/icons/brain.svg",
+                "items": [
+                    "Select appropriate analytical models based on the nature of the problem.",
+                    "Train and validate models using historical data.",
+                    "Apply the models to new data for predictive or descriptive analysis."
+                ],
+                "color": "from-red-500 to-pink-600"
+            },
+            {
+                "title": "Interpretation and Communication",
+                "description": "Sharing your findings",
+                "icon": "/icons/group-chat.svg",
+                "items": [
+                    "Interpret the results of the analysis in the context of the business objectives.",
+                    "Clearly communicate findings to both technical and non-technical stakeholders.",
+                    "Provide actionable insights and recommendations based on the analysis."
+                ],
+                "color": "from-indigo-500 to-blue-600"
+            },
+            {
+                "title": "Continuous Improvement and Optimization",
+                "description": "Enhancing your analytics process",
+                "icon": "/icons/recurring.svg",
+                "items": [
+                    "Establish mechanisms for continuous monitoring of data quality and model performance.",
+                    "Iterate on the analysis based on feedback and changing business requirements.",
+                    "Explore new data sources and advanced analytics techniques for continuous improvement."
+                ],
+                "color": "from-teal-500 to-green-600"
+            },
+            {
+                "title": "Resume Preparation",
+                "description": "Crafting an effective data analytics resume",
+                "icon": "/icons/resume-prep.svg",
+                "items": [
+                    "Include keywords.",
+                    "How to prepare resume.",
+                    "How to prepare resume for freshers.",
+                    "Show impact.",
+                    "Include soft skills.",
+                    "Be unique."
+                ],
+                "color": "from-gray-500 to-blue-600"
+            }
+        ],
+        "trainingSyllabus": [
+                {
+                    "name": "Data Science"
+                },
+                {
+                    "title": "Python Essentials",
+                    "subpoints": [
+                        "Introduction to Python",
+                        "Python Basics",
+                        "Python Functions and Packages",
+                        "Working with Data Structures, Arrays",
+                        "Vectors & Data Frames",
+                        "Google colab notebook",
+                        "Pandas, NumPy, Matplotlib, Seaborn"
+                    ],
+                    "color": "bg-yellow-500",
+                    "icon": "/icons/python.svg",
+                    "description": "Master Python and its data libraries",
+                    "duration": "1.5 Weeks",
+                    "badges": [
+                        "Python",
+                        "Data Libraries"
+                    ]
+                },
+                {
+                    "title": "Applied Statistics",
+                    "subpoints": [
+                        "Applied Statistics",
+                        "Descriptive Statistics",
+                        "Probability & Conditional Probability",
+                        "Hypothesis Testing",
+                        "Inferential Statistics",
+                        "Probability Distributions"
+                    ],
+                    "color": "bg-blue-600",
+                    "icon": "/icons/sap.svg",
+                    "description": "Understand data through statistical foundations",
+                    "duration": "1.5 Weeks",
+                    "badges": [
+                        "Statistics",
+                        "Probability"
+                    ]
+                },
+                {
+                    "title": "Data Processing & EDA",
+                    "subpoints": [
+                        "EDA and Data Processing",
+                        "Data Types",
+                        "Dispersion & Skewness",
+                        "Uni & Multivariate Analysis",
+                        "Data Imputation",
+                        "Identifying and Normalizing Outlier"
+                    ],
+                    "color": "bg-indigo-500",
+                    "icon": "/icons/search-scope.svg",
+                    "description": "Discover trends and insights from raw data",
+                    "duration": "Self-paced",
+                    "badges": [
+                        "EDA",
+                        "Data Cleaning"
+                    ]
+                },
+                {
+                    "title": "Supervised Learning",
+                    "subpoints": [
+                        "Supervised learning",
+                        "Linear Regression",
+                        "Multiple Variable Linear Regression",
+                        "Logistic Regression",
+                        "Naive Bayes Classifiers",
+                        "k-NN Classification",
+                        "Support Vector Machines"
+                    ],
+                    "color": "bg-green-600",
+                    "icon": "/icons/teaching.svg",
+                    "description": "Learn prediction techniques with labeled data",
+                    "duration": "1.5 Weeks",
+                    "badges": [
+                        "Regression",
+                        "Classification"
+                    ]
+                },
+                {
+                    "title": "Unsupervised Learning",
+                    "subpoints": [
+                        "Unsupervised Learning",
+                        "K-means Clustering",
+                        "Hierarchical Clustering",
+                        "Dimension Reduction-PCA"
+                    ],
+                    "color": "bg-purple-500",
+                    "icon": "/icons/ai-bot.svg",
+                    "description": "Identify patterns in unlabeled datasets",
+                    "duration": "1 Week",
+                    "badges": [
+                        "Clustering",
+                        "PCA"
+                    ]
+                },
+                {
+                    "title": "Ensemble Methods",
+                    "subpoints": [
+                        "Decision Trees",
+                        "Bagging",
+                        "Random Forests",
+                        "Boosting"
+                    ],
+                    "color": "bg-pink-600",
+                    "icon": "/icons/tree.svg",
+                    "description": "Boost model performance with ensemble techniques",
+                    "duration": "1 Week",
+                    "badges": [
+                        "Random Forest",
+                        "Boosting"
+                    ]
+                },
+                {
+                    "title": "Model Tuning & Featurisation",
+                    "subpoints": [
+                        "Feature Engineering",
+                        "Model Selection and Tuning",
+                        "Model Performance Measures",
+                        "Regularising Linear Models",
+                        "MI Pipeline",
+                        "Bootstrap Sampling",
+                        "Grid Search Cv",
+                        "Randomized Search Cv",
+                        "K Fold Cross-validation"
+                    ],
+                    "color": "bg-cyan-600",
+                    "icon": "/icons/hammer.svg",
+                    "description": "Refine models with tuning and validation",
+                    "duration": "1.5 Weeks",
+                    "badges": [
+                        "Tuning",
+                        "Cross-validation"
+                    ]
+                },
+                {
+                    "title": "Neural Networks & Deep Learning",
+                    "subpoints": [
+                        "Introduction to Perceptron & Neural Networks",
+                        "Activation and Loss functions",
+                        "Gradient Descent",
+                        "Batch Normalization",
+                        "TensorFlow & Keras for Neural Networks",
+                        "Hyper Parameter Tuning"
+                    ],
+                    "color": "bg-red-600",
+                    "icon": "/icons/brain.svg",
+                    "description": "Build and train deep learning models",
+                    "duration": "1.5 Weeks",
+                    "badges": [
+                        "Neural Nets",
+                        "TensorFlow"
+                    ]
+                },
+                {
+                    "title": "Computer Vision",
+                    "subpoints": [
+                        "Introduction to Convolutional Neural Networks",
+                        "Introduction to Images",
+                        "Convolution, Pooling, Padding its Mechanisms",
+                        "Forward Propagation & Backpropagation for CNNs",
+                        "CNN architectures like AlexNet, VGGNet,InceptionNet & ResNet",
+                        "Transfer Learning",
+                        "Object Detection",
+                        "YOLO, R-CNN, SSD",
+                        "Semantic Segmentation",
+                        "U-Net",
+                        "Face Recognition using Siamese Networks",
+                        "Instance Segmentation"
+                    ],
+                    "color": "bg-teal-600",
+                    "icon": "/icons/camera.svg",
+                    "description": "Master vision tasks with deep CNNs",
+                    "duration": "2 Weeks",
+                    "badges": [
+                        "CNN",
+                        "YOLO",
+                        "ResNet"
+                    ]
+                },
+                {
+                    "title": "Natural Language Processing (NLP)",
+                    "subpoints": [
+                        "Introduction to NLP",
+                        "Stop Words.",
+                        "Tokenization",
+                        "Stemming and Lemmatization",
+                        "Bag of Words Model",
+                        "Word Vectorizer",
+                        "TF-IDF",
+                        "POS Tagging",
+                        "Named Entity Recognition",
+                        "Introduction to Sequential data",
+                        "RNNs and its Mechanisms",
+                        "Vanishing & Exploding gradients in RNNs",
+                        "LSTMs – Long short-term memory",
+                        "GRUs – Gated Recurrent Unit",
+                        "LSTMs Applications",
+                        "Time Series Analysis",
+                        "LSTMs with Attention Mechanism",
+                        "Neural Machine Translation",
+                        "Advanced Language Models:",
+                        "Transformers, BERT, XLNet"
+                    ],
+                    "color": "bg-orange-600",
+                    "icon": "/icons/speaking.svg",
+                    "description": "Process and analyze human language with NLP",
+                    "duration": "2 Weeks",
+                    "badges": [
+                        "NLP",
+                        "Transformers"
+                    ]
+                },
+                {
+                    "title": "SQL & Databases",
+                    "subpoints": [
+                        "Introduction To DBMS",
+                        "ER Diagram",
+                        "Schema Design",
+                        "Key Constraints and Basics of Normalization.",
+                        "Joins",
+                        "Subqueries Involving Joins and Aggregations",
+                        "Sorting",
+                        "Independent Subqueries",
+                        "Correlated Subqueries",
+                        "Analytic Functions.",
+                        "Set Operations",
+                        "Grouping and Filtering"
+                    ],
+                    "color": "bg-gray-700",
+                    "icon": "/icons/database2.svg",
+                    "description": "Work with databases and perform complex queries",
+                    "duration": "1 Week",
+                    "badges": [
+                        "SQL",
+                        "DBMS"
+                    ]
+                },
+                {
+                    "title": "Power BI & Data Visualization",
+                    "subpoints": [
+                        "Introduction of Power BI and its component",
+                        "Data preparation and transformation using Power Query",
+                        "Creating and customizing visualization",
+                        "Building interactive report and dashboard",
+                        "Power BI DAX(Data Analysis Expression)",
+                        "Integration of Power BI with database"
+                    ],
+                    "color": "bg-blue-800",
+                    "icon": "/icons/power-bi.svg",
+                    "description": "Visualize and present data using Power BI",
+                    "duration": "1 Week",
+                    "badges": [
+                        "Power BI",
+                        "Dashboards"
+                    ]
+                },
+                {
+                    "title": "Generative AI & ChatGPT",
+                    "subpoints": [
+                        "Overview of ChatGPT and OpenAl",
+                        "Timeline of NLP and Generative Al",
+                        "Frameworks for Understanding ChatGPTand Generative Al",
+                        "Implications for Work, Business, andEducation",
+                        "Output Modalities and Limitations",
+                        "Business Roles to Leverage ChatGPT",
+                        "Prompt Engineering for Fine-TuningOutputs",
+                        "Practical Demonstration and BonusSection on RLHF",
+                        "Introduction to Generative Al",
+                        "Al vs ML vs DL vs GenAl",
+                        "Supervised vs Unsupervised Learning.",
+                        "Discriminative vs Generative Al",
+                        "A Brief Timeline of GenAl",
+                        "Basics of Generative Models",
+                        "Large Language Models",
+                        "Word Vectors",
+                        "ChatGPT: The Development Stack",
+                        "Attention Mechanism",
+                        "Business Applications of ML, DL and GenAl",
+                        "Hands-on Bing Images and ChatGPT"
+                    ],
+                    "color": "bg-lime-600",
+                    "icon": "/icons/ai-bot.svg",
+                    "description": "Explore cutting-edge GenAI models & applications",
+                    "duration": "1.5 Weeks",
+                    "badges": [
+                        "GenAI",
+                        "ChatGPT"
+                    ]
+                }
+            ],
+         "reviews": [
+                {
+                    "name": "Pradeep chillate",
+                    "review": "The instructors are not only knowledgeable but also passionate about the subject, making the learning experience enjoyable. The institute provides excellent resources, including a dedicated lab environment for hands-on practice ",
+                    "image": "https://images.unsplash.com/photo-1609943878273-4a243603e0e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Rajan",
+                    "review": "I cannot recommend the Data Science course at IT Accurate Institute enough! The blend of theoretical concepts and practical applications is perfect for anyone looking to enter the field. ",
+                    "image": "https://images.unsplash.com/photo-1605907737815-76d3ce1273b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "ML Engineer"
+                },
+                {
+                    "name": "Ashwin suryawanshi",
+                    "review": "Nonetheless, I gained valuable skills and knowledge that have been instrumental in my professional growth. ",
+                    "image": "https://images.unsplash.com/photo-1566930753949-fc3ef91faf3a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Yogesh rajak",
+                    "review": "The instructors assumed a certain level of prior knowledge, which made it challenging to keep up at times. Additionally, the course lacked personalized feedback on individual projects, making it difficult to gauge my progress ",
+                    "image": "https://images.unsplash.com/photo-1648034394424-a44553101edc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                }
+            ],
+        "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Data science certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your Data Science global certification, ensuring a 100% passing guarantee in examinations such as Data science Certification, Data science Platform Development Certification, and various other global exams."
+                }
+            ],
+        "FeesDuration": {
+            "heading": "Fees, Duration & Data Science Certification at IT Accurate ",
+            "content": "The  <span class='text-blue-600'>Data Science Course in Thane</span> at  <span class='text-blue-600'>IT Accurate </span> is affordably priced and comes with flexible payment options to support students and working professionals. The course duration typically ranges from 6 to 10 weeks or longer, depending on the modules and learning pace you choose. <br /> After completing the program, you will receive a Data Science Certification in Thane, recognised by employers and valued across leading industries. We also guide learners through pathways to global data science certifications, helping you strengthen your professional credentials. <br /> <br />Contact us today to learn more about fees, upcoming batches, and enrollment details. ",
+            "points": [
+                {
+                    "icon": "/icons/money-pouch.svg",
+                    "point": "Affordable Fees",
+                    "content": "Competitively priced with flexible payment options"
+                },
+                {
+                    "icon": "/icons/job-clock.png",
+                    "point": "Duration",
+                    "content": "6 to 10+ weeks or more, depending on module"
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "point": "Certificate",
+                    "content": "From IT Accurate, recognised by top recruiters"
+                },
+                {
+                    "icon": "/icons/wireframe-globe.svg",
+                    "point": "Global Path",
+                    "content": "Guidance for official global certification credentials"
+                },
+                {
+                    "icon": "/icons/contact.svg",
+                    "point": "Contact Us",
+                    "content": "Get latest fees and batch availability"
+                }
+            ]
+        }
+    },
+     "data-science-course-in-nagpur": {
+        "name": "Data Science",
+        "title": "Data Science Course",
+        "bgImage": "/coursesBgImages/data-science.jpg",
+        "detail": {
+           "points": [
+  "The comprehensive Data Science Course in Nagpur offered by IT Accurate is designed for fresh graduates, IT enthusiasts, and working professionals aiming to build a successful career in data-driven technologies.",
+  "Our program includes expert mentorship and 100% placement assistance, ensuring learners gain the confidence and skills needed to secure rewarding roles in data science.",
+  "We cover all essential concepts in depth—ranging from Python, SQL, and Statistics to Machine Learning and Data Visualisation—ensuring intense conceptual clarity and practical understanding.",
+  "With job-oriented training and real-world project exposure, you get hands-on experience that mirrors industry environments.",
+  "This course awards you a highly valued Data Science Certification in Nagpur, helping you build professional credibility and industry relevance.",
+  "Recognised as one of the best data science classes in Nagpur, IT Accurate combines academic precision with practical, skill-based training.",
+  "Located in the heart of the city, Lokmat Bhawan, Ramdaspeth, our centre provides easy accessibility for all learners.",
+  "We also offer flexible learning modes, including online sessions for students and professionals seeking convenient data science training in Nagpur."
+]
+        },
+        "coveringTopics": [
+                {
+                    "title": "ChatGPT",
+                    "icon": "/icons/ai-bot.svg",
+                    "description": "Explore natural language capabilities with ChatGPT"
+                },
+                {
+                    "title": "Generative AI",
+                    "icon": "/icons/brain.svg",
+                    "description": "Understand AI systems that create text, images, and more"
+                },
+                {
+                    "title": "LLM (Large Language Models)",
+                    "icon": "/icons/books-bunch.svg",
+                    "description": "Dive into transformer models like GPT, BERT, and others"
+                },
+                {
+                    "title": "Computer Vision",
+                    "icon": "/icons/eye.svg",
+                    "description": "Learn image recognition, object detection, and deep vision models"
+                },
+                {
+                    "title": "Interview Preparation",
+                    "icon": "/icons/focus.svg",
+                    "description": "Ace technical and HR interviews with curated resources"
+                },
+                {
+                    "title": "Case Studies",
+                    "icon": "/icons/folder.svg",
+                    "description": "Real-world AI use cases and business solutions"
+                },
+                {
+                    "title": "Multiple Projects",
+                    "icon": "/icons/hammer.svg",
+                    "description": "Work on various hands-on AI/ML projects"
+                },
+                {
+                    "title": "Industry Level Projects",
+                    "icon": "/icons/factory.svg",
+                    "description": "Build production-grade solutions aligned with industry standards"
+                },
+                {
+                    "title": "100% Job Guarantee Program",
+                    "icon": "/icons/career-tick.svg",
+                    "description": "Get career support and placement assistance post-completion"
+                }
+            ],
+            "coveringTopics2": [
+                {
+                    "title": "Python",
+                    "icon": "/icons/python.svg"
+                },
+                {
+                    "title": "Apache Spark",
+                    "icon": "/icons/Apache-Spark.svg"
+                },
+                {
+                    "title": "TensorFlow",
+                    "icon": "/globeLogos/tensorflow.svg"
+                },
+                {
+                    "title": "Scikit Learn",
+                    "icon": "/icons/scikit-learn.svg"
+                },
+                {
+                    "title": "Power BI",
+                    "icon": "/globeLogos/power-bi.svg"
+                },
+                {
+                    "title": "Tableau",
+                    "icon": "/globeLogos/tabelau2.png"
+                },
+                {
+                    "title": "NumPy",
+                    "icon": "/globeLogos/numpy.png"
+                },
+                {
+                    "title": "SQL",
+                    "icon": "/icons/Azure-sql.svg"
+                },
+                {
+                    "title": "Machine Learnig",
+                    "icon": "/icons/brain.svg"
+                },
+                {
+                    "title": "Natural Language Processing (NLP)",
+                    "icon": "/icons/nlp.webp"
+                },
+                {
+                    "title": "Artificial Intelligence (AI)",
+                    "icon": "/globeLogos/ai.png"
+                },
+                {
+                    "title": "R Programming",
+                    "icon": "/globeLogos/r-program.png"
+                },
+                {
+                    "title": "Statistics",
+                    "icon": "/icons/stats3.svg"
+                },
+                {
+                    "title": "Microsoft Excel",
+                    "icon": "/globeLogos/excel.png"
+                },
+                {
+                    "title": "Computer Vision",
+                    "icon": "/icons/computer-vision.svg"
+                }
+            ],
+        "whyChoose": {
+            "title": "Why Choose IT Accurate for Data Science in Nagpur  ",
+            "imageUrl": "/coursesBgImages/datascb.jpg",
+           "points": [
+  "IT Accurate stands out as a leading data science training institute in Nagpur, offering a structured curriculum that covers Python, SQL, Machine Learning, Statistics, Power BI, and key data analysis tools used across industries.",
+  "Our hands-on teaching approach includes live datasets, real-world business scenarios, and practical assignments that prepare students for high-demand data science roles.",
+  "With experienced trainers who bring deep industry knowledge, learners receive personalised guidance throughout their journey.",
+  "Recognised for delivering some of the best data science classes in Nagpur, IT Accurate focuses on job-ready skills aligned with the expectations of top organisations.",
+  "You’ll benefit from 100% placement support, including resume building, interview preparation, and referrals to hiring partners.",
+  "We provide an industry-recognised Data Science Certification in Nagpur, helping you stand out in a competitive job market.",
+  "Located conveniently at Lokmat Bhawan, Ramdaspeth, our facility provides a modern, accessible learning environment.",
+  "Flexible timing and online learning options are available for working professionals seeking seamless data science training in Nagpur."
+]
+
+
+        },
+        "courseLocation": {
+            "title": "Data Science Course in Nagpur ",
+            "imageUrl": "/coursesBgImages/datascn.jpg",
+            "points": [
+  "At IT Accurate, our Data Science Course in Nagpur is designed for both beginners and experienced learners looking to enhance their skills in analytics, machine learning, and statistical modelling.",
+  "The course covers essential tools and technologies, including Python, SQL, Excel, Statistics, Machine Learning algorithms, and Power BI, ensuring you become fully industry-ready.",
+  "Recognised as one of the providers of the best data science classes in Nagpur, we focus on practical learning through real-time projects and interactive classroom sessions.",
+  "Students learn to work with large datasets, build predictive models, analyse trends, and deliver actionable insights for business decision-making.",
+  "Through our advanced training approach, you gain skills equivalent to more than 2 years of professional experience and earn a respected Data Science Certification in Nagpur.",
+  "This program is structured to be completed efficiently, enabling quicker entry into the data science job market.",
+  "As a trusted data science training institute in Nagpur, IT Accurate offers complete placement support to help you secure high-quality roles.",
+  "Located in the heart of the city, Lokmat Bhawan, Ramdaspeth, our centre offers the perfect environment for focused and practical learning.",
+  "We also offer flexible online learning modes for those seeking convenient data science training in Nagpur."
+]
+
+
+        },
+       "keyFeatures": [
+                {
+                    "text": "152+ Hrs Instructor-Led Training",
+                    "icon": "/icons/job-clock.png",
+                    "bgImage": "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=500')",
+                    "description": "Constructive Duration of Practical Learning and Training."
+                },
+                {
+                    "text": "36 Hrs Self-Placed Videos",
+                    "icon": "/icons/video.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?q=80&w=500')",
+                    "description": "Learn anytime, anywhere with structured self-paced video lessons."
+                },
+                {
+                    "text": "Certificate Guidance",
+                    "icon": "/icons/certificate.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=500')",
+                    "description": "End-to-end corporation in getting your Certification."
+                },
+                {
+                    "text": "Job Assistance",
+                    "icon": "/icons/job-assist.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=500')",
+                    "description": "Get guidance to land the right role in your career journey."
+                },
+                {
+                    "text": "Mentor Support",
+                    "icon": "/icons/teaching.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=500')",
+                    "description": "Access expert mentors to solve doubts and gain clarity."
+                },
+                {
+                    "text": "Free Demo Class Available",
+                    "icon": "/icons/calendar.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=500')",
+                    "description": "An intriguing Demo class to make you acquainted with the educational aspects."
+                },
+                {
+                    "text": "Resume Editing",
+                    "icon": "/icons/resume-edit.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=500')",
+                    "description": "Stand out with a professionally polished resume."
+                },
+                {
+                    "text": "Affordable Fees Structure",
+                    "icon": "/icons/wallet.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=500')",
+                    "description": "Quality learning that fits your budget."
+                },
+                {
+                    "text": "52 Hrs Project & Exercises",
+                    "icon": "/icons/code.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500')",
+                    "description": "Gain hands-on experience with real-world projects."
+                },
+                {
+                    "text": "Flexible Schedule",
+                    "icon": "/icons/calendar2.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=500')",
+                    "description": "Learn at your convenience with a schedule that suits you."
+                },
+                {
+                    "text": "100% Job Oriented Training",
+                    "icon": "/icons/briefcase.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=500')",
+                    "description": "Comprehensive assistance in placements and Job training."
+                },
+                {
+                    "text": "Completed 1500+ Batches",
+                    "icon": "/icons/batch.svg",
+                    "bgImage": "url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=500')",
+                    "description": "Prominently completed 1500+ batches and counting more."
+                }
+            ],
+        "roadMap": [
+            {
+                "title": "Introduction",
+                "description": "Fundamentals of Data Analytics",
+                "icon": "/icons/closed-book.svg",
+                "items": [
+                    "What is Data analytics?",
+                    "Data Analytics course",
+                    "Data Analytics certification",
+                    "Data Analytics jobs in india",
+                    "Data Analytics jobs"
+                ],
+                "color": "from-blue-500 to-indigo-600"
+            },
+            {
+                "title": "Define Objectives and Scope",
+                "description": "Setting the foundation for your analysis",
+                "icon": "/icons/focus.svg",
+                "items": [
+                    "Clearly outline the goals and objectives of your data analytics initiative.",
+                    "Identify the key questions you want to answer or the problems you want to solve.",
+                    "Define the scope of your analysis, including the data sources and time period."
+                ],
+                "color": "from-purple-500 to-pink-600"
+            },
+            {
+                "title": "Data Collection and Integration",
+                "description": "Gathering and preparing your data",
+                "icon": "/icons/search-scope.svg",
+                "items": [
+                    "Identify relevant data sources and gather the necessary datasets.",
+                    "Cleanse and preprocess the data to ensure accuracy and consistency.",
+                    "Integrate data from different sources to create a comprehensive dataset for analysis."
+                ],
+                "color": "from-green-500 to-teal-600"
+            },
+            {
+                "title": "Exploratory Data Analysis (EDA)",
+                "description": "Understanding your data",
+                "icon": "/icons/analyze-report.svg",
+                "items": [
+                    "Perform EDA to understand the characteristics of the data.",
+                    "Identify patterns, trends, and outliers that may impact the analysis.",
+                    "Use visualization techniques to communicate insights effectively."
+                ],
+                "color": "from-yellow-500 to-orange-600"
+            },
+            {
+                "title": "Modeling and Analysis",
+                "description": "Applying analytical techniques",
+                "icon": "/icons/brain.svg",
+                "items": [
+                    "Select appropriate analytical models based on the nature of the problem.",
+                    "Train and validate models using historical data.",
+                    "Apply the models to new data for predictive or descriptive analysis."
+                ],
+                "color": "from-red-500 to-pink-600"
+            },
+            {
+                "title": "Interpretation and Communication",
+                "description": "Sharing your findings",
+                "icon": "/icons/group-chat.svg",
+                "items": [
+                    "Interpret the results of the analysis in the context of the business objectives.",
+                    "Clearly communicate findings to both technical and non-technical stakeholders.",
+                    "Provide actionable insights and recommendations based on the analysis."
+                ],
+                "color": "from-indigo-500 to-blue-600"
+            },
+            {
+                "title": "Continuous Improvement and Optimization",
+                "description": "Enhancing your analytics process",
+                "icon": "/icons/recurring.svg",
+                "items": [
+                    "Establish mechanisms for continuous monitoring of data quality and model performance.",
+                    "Iterate on the analysis based on feedback and changing business requirements.",
+                    "Explore new data sources and advanced analytics techniques for continuous improvement."
+                ],
+                "color": "from-teal-500 to-green-600"
+            },
+            {
+                "title": "Resume Preparation",
+                "description": "Crafting an effective data analytics resume",
+                "icon": "/icons/resume-prep.svg",
+                "items": [
+                    "Include keywords.",
+                    "How to prepare resume.",
+                    "How to prepare resume for freshers.",
+                    "Show impact.",
+                    "Include soft skills.",
+                    "Be unique."
+                ],
+                "color": "from-gray-500 to-blue-600"
+            }
+        ],
+        "trainingSyllabus": [
+                {
+                    "name": "Data Science"
+                },
+                {
+                    "title": "Python Essentials",
+                    "subpoints": [
+                        "Introduction to Python",
+                        "Python Basics",
+                        "Python Functions and Packages",
+                        "Working with Data Structures, Arrays",
+                        "Vectors & Data Frames",
+                        "Google colab notebook",
+                        "Pandas, NumPy, Matplotlib, Seaborn"
+                    ],
+                    "color": "bg-yellow-500",
+                    "icon": "/icons/python.svg",
+                    "description": "Master Python and its data libraries",
+                    "duration": "1.5 Weeks",
+                    "badges": [
+                        "Python",
+                        "Data Libraries"
+                    ]
+                },
+                {
+                    "title": "Applied Statistics",
+                    "subpoints": [
+                        "Applied Statistics",
+                        "Descriptive Statistics",
+                        "Probability & Conditional Probability",
+                        "Hypothesis Testing",
+                        "Inferential Statistics",
+                        "Probability Distributions"
+                    ],
+                    "color": "bg-blue-600",
+                    "icon": "/icons/sap.svg",
+                    "description": "Understand data through statistical foundations",
+                    "duration": "1.5 Weeks",
+                    "badges": [
+                        "Statistics",
+                        "Probability"
+                    ]
+                },
+                {
+                    "title": "Data Processing & EDA",
+                    "subpoints": [
+                        "EDA and Data Processing",
+                        "Data Types",
+                        "Dispersion & Skewness",
+                        "Uni & Multivariate Analysis",
+                        "Data Imputation",
+                        "Identifying and Normalizing Outlier"
+                    ],
+                    "color": "bg-indigo-500",
+                    "icon": "/icons/search-scope.svg",
+                    "description": "Discover trends and insights from raw data",
+                    "duration": "Self-paced",
+                    "badges": [
+                        "EDA",
+                        "Data Cleaning"
+                    ]
+                },
+                {
+                    "title": "Supervised Learning",
+                    "subpoints": [
+                        "Supervised learning",
+                        "Linear Regression",
+                        "Multiple Variable Linear Regression",
+                        "Logistic Regression",
+                        "Naive Bayes Classifiers",
+                        "k-NN Classification",
+                        "Support Vector Machines"
+                    ],
+                    "color": "bg-green-600",
+                    "icon": "/icons/teaching.svg",
+                    "description": "Learn prediction techniques with labeled data",
+                    "duration": "1.5 Weeks",
+                    "badges": [
+                        "Regression",
+                        "Classification"
+                    ]
+                },
+                {
+                    "title": "Unsupervised Learning",
+                    "subpoints": [
+                        "Unsupervised Learning",
+                        "K-means Clustering",
+                        "Hierarchical Clustering",
+                        "Dimension Reduction-PCA"
+                    ],
+                    "color": "bg-purple-500",
+                    "icon": "/icons/ai-bot.svg",
+                    "description": "Identify patterns in unlabeled datasets",
+                    "duration": "1 Week",
+                    "badges": [
+                        "Clustering",
+                        "PCA"
+                    ]
+                },
+                {
+                    "title": "Ensemble Methods",
+                    "subpoints": [
+                        "Decision Trees",
+                        "Bagging",
+                        "Random Forests",
+                        "Boosting"
+                    ],
+                    "color": "bg-pink-600",
+                    "icon": "/icons/tree.svg",
+                    "description": "Boost model performance with ensemble techniques",
+                    "duration": "1 Week",
+                    "badges": [
+                        "Random Forest",
+                        "Boosting"
+                    ]
+                },
+                {
+                    "title": "Model Tuning & Featurisation",
+                    "subpoints": [
+                        "Feature Engineering",
+                        "Model Selection and Tuning",
+                        "Model Performance Measures",
+                        "Regularising Linear Models",
+                        "MI Pipeline",
+                        "Bootstrap Sampling",
+                        "Grid Search Cv",
+                        "Randomized Search Cv",
+                        "K Fold Cross-validation"
+                    ],
+                    "color": "bg-cyan-600",
+                    "icon": "/icons/hammer.svg",
+                    "description": "Refine models with tuning and validation",
+                    "duration": "1.5 Weeks",
+                    "badges": [
+                        "Tuning",
+                        "Cross-validation"
+                    ]
+                },
+                {
+                    "title": "Neural Networks & Deep Learning",
+                    "subpoints": [
+                        "Introduction to Perceptron & Neural Networks",
+                        "Activation and Loss functions",
+                        "Gradient Descent",
+                        "Batch Normalization",
+                        "TensorFlow & Keras for Neural Networks",
+                        "Hyper Parameter Tuning"
+                    ],
+                    "color": "bg-red-600",
+                    "icon": "/icons/brain.svg",
+                    "description": "Build and train deep learning models",
+                    "duration": "1.5 Weeks",
+                    "badges": [
+                        "Neural Nets",
+                        "TensorFlow"
+                    ]
+                },
+                {
+                    "title": "Computer Vision",
+                    "subpoints": [
+                        "Introduction to Convolutional Neural Networks",
+                        "Introduction to Images",
+                        "Convolution, Pooling, Padding its Mechanisms",
+                        "Forward Propagation & Backpropagation for CNNs",
+                        "CNN architectures like AlexNet, VGGNet,InceptionNet & ResNet",
+                        "Transfer Learning",
+                        "Object Detection",
+                        "YOLO, R-CNN, SSD",
+                        "Semantic Segmentation",
+                        "U-Net",
+                        "Face Recognition using Siamese Networks",
+                        "Instance Segmentation"
+                    ],
+                    "color": "bg-teal-600",
+                    "icon": "/icons/camera.svg",
+                    "description": "Master vision tasks with deep CNNs",
+                    "duration": "2 Weeks",
+                    "badges": [
+                        "CNN",
+                        "YOLO",
+                        "ResNet"
+                    ]
+                },
+                {
+                    "title": "Natural Language Processing (NLP)",
+                    "subpoints": [
+                        "Introduction to NLP",
+                        "Stop Words.",
+                        "Tokenization",
+                        "Stemming and Lemmatization",
+                        "Bag of Words Model",
+                        "Word Vectorizer",
+                        "TF-IDF",
+                        "POS Tagging",
+                        "Named Entity Recognition",
+                        "Introduction to Sequential data",
+                        "RNNs and its Mechanisms",
+                        "Vanishing & Exploding gradients in RNNs",
+                        "LSTMs – Long short-term memory",
+                        "GRUs – Gated Recurrent Unit",
+                        "LSTMs Applications",
+                        "Time Series Analysis",
+                        "LSTMs with Attention Mechanism",
+                        "Neural Machine Translation",
+                        "Advanced Language Models:",
+                        "Transformers, BERT, XLNet"
+                    ],
+                    "color": "bg-orange-600",
+                    "icon": "/icons/speaking.svg",
+                    "description": "Process and analyze human language with NLP",
+                    "duration": "2 Weeks",
+                    "badges": [
+                        "NLP",
+                        "Transformers"
+                    ]
+                },
+                {
+                    "title": "SQL & Databases",
+                    "subpoints": [
+                        "Introduction To DBMS",
+                        "ER Diagram",
+                        "Schema Design",
+                        "Key Constraints and Basics of Normalization.",
+                        "Joins",
+                        "Subqueries Involving Joins and Aggregations",
+                        "Sorting",
+                        "Independent Subqueries",
+                        "Correlated Subqueries",
+                        "Analytic Functions.",
+                        "Set Operations",
+                        "Grouping and Filtering"
+                    ],
+                    "color": "bg-gray-700",
+                    "icon": "/icons/database2.svg",
+                    "description": "Work with databases and perform complex queries",
+                    "duration": "1 Week",
+                    "badges": [
+                        "SQL",
+                        "DBMS"
+                    ]
+                },
+                {
+                    "title": "Power BI & Data Visualization",
+                    "subpoints": [
+                        "Introduction of Power BI and its component",
+                        "Data preparation and transformation using Power Query",
+                        "Creating and customizing visualization",
+                        "Building interactive report and dashboard",
+                        "Power BI DAX(Data Analysis Expression)",
+                        "Integration of Power BI with database"
+                    ],
+                    "color": "bg-blue-800",
+                    "icon": "/icons/power-bi.svg",
+                    "description": "Visualize and present data using Power BI",
+                    "duration": "1 Week",
+                    "badges": [
+                        "Power BI",
+                        "Dashboards"
+                    ]
+                },
+                {
+                    "title": "Generative AI & ChatGPT",
+                    "subpoints": [
+                        "Overview of ChatGPT and OpenAl",
+                        "Timeline of NLP and Generative Al",
+                        "Frameworks for Understanding ChatGPTand Generative Al",
+                        "Implications for Work, Business, andEducation",
+                        "Output Modalities and Limitations",
+                        "Business Roles to Leverage ChatGPT",
+                        "Prompt Engineering for Fine-TuningOutputs",
+                        "Practical Demonstration and BonusSection on RLHF",
+                        "Introduction to Generative Al",
+                        "Al vs ML vs DL vs GenAl",
+                        "Supervised vs Unsupervised Learning.",
+                        "Discriminative vs Generative Al",
+                        "A Brief Timeline of GenAl",
+                        "Basics of Generative Models",
+                        "Large Language Models",
+                        "Word Vectors",
+                        "ChatGPT: The Development Stack",
+                        "Attention Mechanism",
+                        "Business Applications of ML, DL and GenAl",
+                        "Hands-on Bing Images and ChatGPT"
+                    ],
+                    "color": "bg-lime-600",
+                    "icon": "/icons/ai-bot.svg",
+                    "description": "Explore cutting-edge GenAI models & applications",
+                    "duration": "1.5 Weeks",
+                    "badges": [
+                        "GenAI",
+                        "ChatGPT"
+                    ]
+                }
+            ],
+         "reviews": [
+                {
+                    "name": "Pradeep chillate",
+                    "review": "The instructors are not only knowledgeable but also passionate about the subject, making the learning experience enjoyable. The institute provides excellent resources, including a dedicated lab environment for hands-on practice ",
+                    "image": "https://images.unsplash.com/photo-1609943878273-4a243603e0e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Rajan",
+                    "review": "I cannot recommend the Data Science course at IT Accurate Institute enough! The blend of theoretical concepts and practical applications is perfect for anyone looking to enter the field. ",
+                    "image": "https://images.unsplash.com/photo-1605907737815-76d3ce1273b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "ML Engineer"
+                },
+                {
+                    "name": "Ashwin suryawanshi",
+                    "review": "Nonetheless, I gained valuable skills and knowledge that have been instrumental in my professional growth. ",
+                    "image": "https://images.unsplash.com/photo-1566930753949-fc3ef91faf3a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzF8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                },
+                {
+                    "name": "Yogesh rajak",
+                    "review": "The instructors assumed a certain level of prior knowledge, which made it challenging to keep up at times. Additionally, the course lacked personalized feedback on individual projects, making it difficult to gauge my progress ",
+                    "image": "https://images.unsplash.com/photo-1648034394424-a44553101edc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzV8fDEwMCUyMGluZGlhbiUyMHlvdW5nJTIwbWVuJTIwcHJvZmlsZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
+                    "role": "Professional"
+                }
+            ],
+        "certificationPoints": [
+                {
+                    "icon": "/icons/badge2.svg",
+                    "title": "Recognized Certification",
+                    "description": "IT Accurate training certification will serve as proof that the courses were completed by IT Accurate."
+                },
+                {
+                    "icon": "/icons/increase-graph.svg",
+                    "title": "Competitive Edge",
+                    "description": "The Data science certification offered by IT Accurate will equip you with valuable skills, enhancing your competitiveness in the job market."
+                },
+                {
+                    "icon": "/icons/graduation.svg",
+                    "title": "100% Passing Guarantee",
+                    "description": "IT Accurate provides comprehensive guidance for your Data Science global certification, ensuring a 100% passing guarantee in examinations such as Data science Certification, Data science Platform Development Certification, and various other global exams."
+                }
+            ],
+        "FeesDuration": {
+            "heading": "Fees, Duration & Data Science Certification at IT Accurate ",
+            "content": "The  <span class='text-blue-600'>Data Science Course in Thane</span> at <span class='text-blue-600'>IT Accurate </span> is affordably priced and offers flexible payment options to support students, graduates, and working professionals. The course duration typically ranges from 6 to 10 weeks or longer, depending on the modules you choose and your individual learning pace.  <br />Upon completion, you will receive a recognised <span class='text-blue-600'>Data Science Certification in Nagpur, </span> valued by employers and beneficial for advancing your career in analytics, machine learning, and AI-based roles. We also guide students toward global certification pathways to strengthen professional credentials and broaden career opportunities.  <br /> <br />To learn more about fees, upcoming batches, and enrollment details, contact <span class='text-blue-600'> IT Accurate today. <span> ",
+            "points": [
+                {
+                    "icon": "/icons/money-pouch.svg",
+                    "point": "Affordable Fees",
+                    "content": "Competitively priced with flexible payment options"
+                },
+                {
+                    "icon": "/icons/job-clock.png",
+                    "point": "Duration",
+                    "content": "6 to 10+ weeks or more, depending on module"
+                },
+                {
+                    "icon": "/icons/certificate.svg",
+                    "point": "Certificate",
+                    "content": "From IT Accurate, recognised by top recruiters"
+                },
+                {
+                    "icon": "/icons/wireframe-globe.svg",
+                    "point": "Global Path",
+                    "content": "Guidance for official global certification credentials"
+                },
+                {
+                    "icon": "/icons/contact.svg",
+                    "point": "Contact Us",
+                    "content": "Get latest fees and batch availability"
+                }
+            ]
+        }
+    },
+
 "salesforce-course-in-nagpur": {
         "name": "Salesforce",
         "title": "IT Accurate - Best Salesforce Course in Nagpur  ",

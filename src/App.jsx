@@ -84,6 +84,8 @@ const landingPageDetails = [
   "sap-fico-course-in-nagpur",
   "data-analytics-course-in-thane",
   "data-analytics-course-in-nagpur",
+  "data-science-course-in-thane",
+  "data-science-course-in-nagpur",
   "cyber-security-course-in-thane",
   "salesforce-course-in-nagpur",
   // "ethical-hacking"
