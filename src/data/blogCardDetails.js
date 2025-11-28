@@ -73,8 +73,52 @@ export const blogCardDetails = [
 
   
   },
+ {
+    id: 7,
+    title: "Power BI vs Tableau: Which One Should You Learn? ",
+  "slug": "power-bi-vs-tableau-which-one-should-you-learn",
+ "excerpt": "If you’re planning a career in Data Analytics, Business Intelligence, or Reporting, you’ve undoubtedly heard of Power BI and Tableau. This 2025 comparison by IT Accurate helps you decide which tool to learn first.", 
+   author: 'IT Accurate',
+    "date": "Nov 10, 2025",
+  "tag": " Power BI",
+  "readTime": "9 min read",
+    img: "/coursesBgImages/powerbi.jpg",
 
-
-
+  
+  },
+ {
+    id: 8,
+    title: "AI Tools Every Data Scientist Should Be Using in 2025 ",
+  "slug": "ai-tools-every-data-scientist-should-be-using-in-2025",
+ "excerpt": "Discover the must-have AI tools every data scientist should master in 2025 — from AutoML to cloud AI, learn what tools shape modern data science workflows and how IT Accurate prepares you for them.",
+   "author": "IT Accurate",
+  "date": "Nov 15, 2025",
+  "tag": " Data Science",
+  "readTime": "10 min read",
+  img: "/coursesBgImages/dataais.jpg",
+  },
+ {
+    id: 9,
+    title: "How SAP FICO Tools Support Real-Time Financial Insights",
+  "slug": "how-sap-fico-tools-support-real-time-financial-insights",
+   "excerpt": "Discover how SAP FICO Tools enable real-time financial management, automate reporting, and enhance decision-making for businesses in 2025 — a complete guide by IT Accurate.",
+   "author": "IT Accurate",
+  "date": "Nov 20, 2025",
+  "tag": "SAP FICO",
+  "readTime": "9 min read",
+  "img": "/coursesBgImages/sapfico.jpg",
+  },
+  
+   {
+    id: 10,
+    title: "From Data to Decisions: How Data Science Is Changing Business Strategy",
+   "slug": "from-data-to-decisions-how-data-science-is-changing-business-strategy",
+     "excerpt": "Discover how Data Science is transforming modern business strategies through predictive analytics, automation, and data-driven insights — a complete 2025 guide by IT Accurate.",
+    "author": "IT Accurate",
+  "date": "Nov 25, 2025",
+  "tag": "Data Science",
+  "readTime": "9 min read",
+  "img": "/coursesBgImages/datastrategy.jpg",
+  },
 
 ];
