@@ -46,6 +46,8 @@ export default function FormComponent({ title1, title2 }) {
     "DevOps",
     "Python",
     "AI & ML",
+    "Cyber Security",
+    "Ethical Hacking",
     "Data Analytics",
     "Business Analytics",
     "ServiceNow",

@@ -39,6 +39,7 @@ const ContactUs = ({ location = "Nagpur" }) => {
     "DevOps",
     "Python",
     "AI & ML",
+    "Ethical Hacking",
     "Data Analytics",
     "Business Analytics",
     "ServiceNow",

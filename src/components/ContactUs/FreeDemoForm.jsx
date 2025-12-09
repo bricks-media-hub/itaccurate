@@ -28,6 +28,7 @@ export default function FreeDemoForm({ onClose, title1, title2 }) {
     "Business Analytics",
     "ServiceNow",
     "HR Training",
+    "Ethical Hacking",
     "Cyber Security",
   ];
 
