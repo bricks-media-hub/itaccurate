@@ -1,0 +1,224 @@
+{
+    "coursesData": [
+        {
+            "id": 1,
+            "name": "Sap Training(Offline)",
+            "price": 49000,
+            "emis": [
+                {
+                    "duration": "3 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "6 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "12 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Sap Training(Online)",
+            "price": 35000,
+            "emis": [
+                {
+                    "duration": "3 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "6 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "12 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Salesforce Admin + Development",
+            "price": 35000,
+            "emis": [
+                {
+                    "duration": "3 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "6 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "12 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Salesforce Admin + Development + LWC + Integration + Einstein Bots",
+            "price": 45000,
+            "emis": [
+                {
+                    "duration": "3 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "6 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "12 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Full Stack Development(Offline)",
+            "price": 39000,
+            "emis": [
+                {
+                    "duration": "3 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "6 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "12 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Full Stack Development(Online)",
+            "price": 30000,
+            "emis": [
+                {
+                    "duration": "3 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "6 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "12 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Business Analytics",
+            "price": 38000,
+            "emis": [
+                {
+                    "duration": "3 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "6 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "12 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Data Science",
+            "price": 84000,
+            "emis": [
+                {
+                    "duration": "3 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "6 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "12 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Data Analytics(Offline)",
+            "price": 49000,
+            "emis": [
+                {
+                    "duration": "3 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "6 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "12 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Data Analytics(Online)",
+            "price": 35000,
+            "emis": [
+                {
+                    "duration": "3 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "6 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                },
+                {
+                    "duration": "12 months",
+                    "interest": 16,
+                    "monthlyPayment": null
+                }
+            ]
+        }
+    ]
+}
